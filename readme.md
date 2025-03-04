@@ -1,6 +1,6 @@
-# Novelist (대화형 소설 AI 게임 마스터)
+# Novelist (실시간 상호작용 스토리텔러)
 
-Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그래프 데이터베이스를 활용하여 구현된 대화형 소설 AI 게임 마스터입니다. 
+Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그래프 데이터베이스를 활용하여 구현된 실시간 상호작용 스토리텔러입니다. 
 
 이 프로젝트는 사용자가 참여하는 TRPG(Tabletop Role-Playing Game) 경험을 제공하는 것을 목표로 합니다. 
 

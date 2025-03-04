@@ -6,7 +6,10 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import os
 
-def extract_entities_and_relationships(user_input: str, schema: str = "") -> Dict[str, Any]:
+
+def extract_entities_and_relationships(
+    user_input: str, schema: str = ""
+) -> Dict[str, Any]:
     """
     사용자 입력에서 엔티티와 관계를 추출합니다.
 
@@ -131,7 +134,4 @@ def _upsert_relationship(tx, rel: dict):
             properties=rel.get("properties", {}),
         )
     except Exception as e:
-        raise Exception(
-            f"관계 업데이트 중 오류 발생: {e}, rel_type: {rel_type}"
-        )
-
+        raise Exception(f"관계 업데이트 중 오류 발생: {e}, rel_type: {rel_type}")
