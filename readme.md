@@ -2,9 +2,9 @@
 
 Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그래프 데이터베이스를 활용하여 구현된 실시간 상호작용 스토리텔러입니다. 
 
-이 프로젝트는 사용자가 참여하는 TRPG(Tabletop Role-Playing Game) 경험을 제공하는 것을 목표로 합니다. 
+이 프로젝트는 사용자가 참여하는 유사 TRPG(Tabletop Role-Playing Game) 경험을 제공하는 것을 목표로 합니다. 
 
-사용자는 텍스트 기반의 입력을 통해 게임에 참여하고, AI는 실시간으로 스토리를 생성하며 게임을 진행합니다.
+사용자는 텍스트 기반의 입력을 통해 게임에 참여하고, AI는 실시간으로 스토리를 생성하며 게임을 진행하지만, 화면에 나타나는 모든 이야기는 소설의 형태를 가집니다.
 
 ## 주요 기능
 
@@ -47,6 +47,7 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
 novelist_prototype/
 ├── app.py                     # Streamlit 웹 애플리케이션 메인 파일
 ├── character.py               # 게임 캐릭터 클래스 정의
+├── db_init.py                 # Neo4j 데이터베이스 초기화 스크립트
 ├── db.py                      # Neo4j 데이터베이스 관리 클래스 정의
 ├── db_utils.py                # Neo4j 데이터베이스 유틸리티 함수 정의
 ├── map_tools.py               # map 데이터 추출을 위한 함수
