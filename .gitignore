@@ -1,0 +1,13 @@
+.env
+data/*
+*.pyc
+__pycache__/
+.DS_Store
+venv/
+env/
+*.log
+.vscode/
+.idea/
+.cursor/
+neo4j_db/
+DB/
