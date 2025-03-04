@@ -30,18 +30,20 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
 2.  환경 변수 설정: `.env` 파일에 `OPENAI_API_KEY`와 `GOOGLE_API_KEY`를 설정합니다.
 3.  Neo4j 실행: Neo4j 데이터베이스를 설치하고 실행합니다. 기본 설정은 `bolt://localhost:7687`, `user=neo4j`, `password=11111111`입니다.
 4. Neo4j 초기 데이터 설정 : `data/initial_data` 폴더에 있는 JSON 파일들을 이용하여 Neo4j 데이터베이스를 초기화합니다. 해당 초기화를 위해서는, `db_init.py`를 실행해야 합니다.
-    
+    ```bash
     python db_init.py
+    ```
 
 5.  실행: `app.py` 파일을 실행합니다.
-    
+    ```bash
     streamlit run app.py
+    ```
 6. 프롬프트 확인 : `prompts` 폴더에 `story-gen-prompt-eng.yaml`, `analysis_map_prompt_eng.yaml`이 존재해야 합니다.
 7. 맵 데이터 확인: `data\map` 폴더에 맵 데이터가 존재하는지 확인합니다.
 8. 초기 게임 상태 확인: `data\state` 폴더에 `sample_game_state.json` 파일이 존재하는지 확인합니다.
 
 ## 파일 구조
-"""
+```bash
 novelist_prototype/
 ├── app.py                     # Streamlit 웹 애플리케이션 메인 파일
 ├── character.py               # 게임 캐릭터 클래스 정의
@@ -62,4 +64,4 @@ novelist_prototype/
 ├── story_chain.py             # LangChain 체인 정의
 ├── README.md                  # 프로젝트 설명 파일
 └── requirements.txt            # 프로젝트 의존성 목록
-"""
+```
