@@ -1,0 +1,26 @@
+{
+  "player": {
+    "id":"character:Player",
+    "name": "Player",
+    "sex": "unknown",
+    "position": {
+      "map": "map:Pangyo_B2_Concourse",
+      "x": 1,
+      "y": 1
+    },
+    "direction": "north",
+    "field_of_view": 3,
+    "inventory": [],
+    "stamina":100,
+    "status":"normal"
+  },
+  "map": "map:Pangyo_B2_Concourse",
+  "scene": "scene:00_Pangyo_Station",
+  "scene_beat": "scene_beat:00_Pangyo_Station_1",
+  "history": [],
+  "user_input": "",
+  "map_context": "",
+  "generation": "",
+  "characters":[],
+  "extracted_data":{}
+}

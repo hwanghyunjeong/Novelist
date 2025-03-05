@@ -3,6 +3,7 @@ import json
 import os
 from neo4j import GraphDatabase
 from db import DBManager
+from db_utils import create_scene_node, create_scene_beat_node, create_relationship
 
 # 필요한 파일 경로
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +11,18 @@ INITIAL_DATA_DIR = os.path.join(SCRIPT_DIR, "data", "initial_data")
 CHARACTER_FILE_PATH = os.path.join(INITIAL_DATA_DIR, "characters.json")
 MAP_FILE_PATH = os.path.join(INITIAL_DATA_DIR, "maps.json")
 SCENE_FILE_PATH = os.path.join(INITIAL_DATA_DIR, "scenes.json")
+
+
+def initialize_db(tx):
+    # ...
+    for scene in scenes:
+        create_scene_node(tx, scene)
+        for scene_beat in scene.get("scene_beats", []):
+            create_scene_beat_node(tx, scene_beat)
+            create_relationship(tx, scene_beat["id"], scene["id"], "PART_OF")
+            for next_scene_beat_id in scene_beat.get("next_scene_beats", []):
+                create_relationship(tx, scene_beat["id"], next_scene_beat_id, "NEXT")
+        create_relationship(tx, scene["id"], scene["map"], "TAKES_PLACE_IN")
 
 
 def load_json_data(file_path: str):

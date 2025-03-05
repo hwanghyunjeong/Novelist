@@ -7,6 +7,44 @@ from langchain_openai import ChatOpenAI
 import os
 
 
+def create_scene_node(tx, scene: dict):
+    tx.run(
+        """
+        MERGE (s:Scene {id: $id})
+        SET s += $properties
+        """,
+        id=scene["id"],
+        properties={
+            k: v for k, v in scene.items() if k not in ["id", "scene_beats", "map"]
+        },
+    )
+
+
+def create_scene_beat_node(tx, scene_beat: dict):
+    tx.run(
+        """
+        MERGE (sb:SceneBeat {id: $id})
+        SET sb += $properties
+        """,
+        id=scene_beat["id"],
+        properties={k: v for k, v in scene_beat.items() if k != "id"},
+    )
+
+
+def create_relationship(
+    tx, start_node_id: str, end_node_id: str, relationship_type: str
+):
+    tx.run(
+        """
+        MATCH (n1 {id: $start_node_id}), (n2 {id: $end_node_id})
+        MERGE (n1)-[:$relationship_type]->(n2)
+        """,
+        start_node_id=start_node_id,
+        end_node_id=end_node_id,
+        relationship_type=relationship_type,
+    )
+
+
 def extract_entities_and_relationships(
     user_input: str, schema: str = ""
 ) -> Dict[str, Any]:
