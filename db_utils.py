@@ -62,7 +62,9 @@ def create_map_node(tx, map_data: dict):
         """,
         id=map_data["id"],
         properties={
-            k: v for k, v in map_data.items() if k not in ["id", "characterLocations"]
+            k: v
+            for k, v in map_data.items()
+            if k not in ["id", "characterLocations", "locations"]
         },
     )
     tx.run(
@@ -74,6 +76,7 @@ def create_map_node(tx, map_data: dict):
         map_data=map_data["map_data"],
         context=map_data["context"],
     )
+
     if "characterLocations" in map_data:
         for location in map_data["characterLocations"]:
             location_id = (
