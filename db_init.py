@@ -23,7 +23,7 @@ def initialize_db(tx):
     characters = load_json_data(CHARACTER_FILE_PATH)
     maps = load_json_data(MAP_FILE_PATH)
     scenes = load_json_data(SCENE_FILE_PATH)
-
+    print(type(scenes))  # scene의 타입 확인
     # 캐릭터 노드 생성
     for character in characters:
         create_character_node(tx, character)
@@ -38,9 +38,14 @@ def initialize_db(tx):
     print("Neo4j 데이터베이스 초기화 완료")
 
 
+# Scene 타입체크 관련 코드 (테스트)
 def initialize_scene_data(tx, scenes):
     """씬 관련 데이터 초기화"""
     for scene in scenes:
+        print(f"processing scene: {scene}")
+        if not isinstance(scene, dict):
+            print("wrong data type, check json file")
+            break
         create_scene_node(tx, scene)
         for scene_beat in scene.get("scene_beats", []):
             create_scene_beat_node(tx, scene_beat)
@@ -57,5 +62,7 @@ if __name__ == "__main__":
     try:
         with db_manager.driver.session() as session:
             session.execute_write(initialize_db)
+    except Exception as e:
+        print(f"Error: {e}")
     finally:
         db_manager.close()

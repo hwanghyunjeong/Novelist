@@ -100,10 +100,41 @@ def create_map_node(tx, map_data: dict):
                 map_id=map_data["id"],
                 location_id=location_id,
             )
+    if "locations" in map_data:
+        for location in map_data["locations"]:
+            create_location_node(tx, map_data["id"], location)
 
 
-def create_scene_node(tx, scene: dict):
+def create_location_node(tx, map_id: str, location_data: dict):
+    """위치 노드 생성"""
+    tx.run(
+        """
+        CREATE (l:Location {id: $id, x: $x, y: $y, type: $type, destination: $destination})
+        """,
+        id=location_data["id"],
+        x=location_data["x"],
+        y=location_data["y"],
+        type=location_data["type"],
+        destination=location_data["destination"],
+    )
+    tx.run(
+        """
+        MATCH (m:Map {id: $map_id})
+        MATCH (l:Location {id: $location_id})
+        CREATE (m)-[:HAS_LOCATION]->(l)
+        """,
+        map_id=map_id,
+        location_id=location_data["id"],
+    )
+
+
+def create_scene_node(tx, scene):
     """Scene 노드를 생성합니다."""
+    if not isinstance(scene, dict):
+        print(
+            f"create_scene_node got wrong parameter type:{type(scene)}, content: {scene}"
+        )
+        return  # 딕셔너리가 아니면 바로 종료
     tx.run(
         """
         MERGE (s:Scene {id: $id})
