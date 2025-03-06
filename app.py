@@ -5,13 +5,13 @@ from state_graph import create_state_graph
 from story_chain import create_story_chain, create_map_analyst
 from db import DBManager
 from db_utils import extract_entities_and_relationships, update_graph_from_er
-from states import PlayerState 
+from states import PlayerState
 import json
 from neo4j import GraphDatabase
 from typing import List, Dict
 import os
 from dotenv import load_dotenv
-from langgraph.graph import StateGraph, END 
+from langgraph.graph import StateGraph, END
 from node import (
     CreatePlayerAndCharacterNodes,
     InitializeNode,
@@ -263,13 +263,50 @@ def check_valid_action(data):
         return "invalid_input"
 
 
+def get_player_data(db_client: GraphDatabase) -> Dict:
+    """Neo4j에서 플레이어 데이터를 가져옵니다."""
+    try:
+        with db_client.session() as session:
+            result = session.run(
+                """
+                MATCH (p:Character {id: "character:Player"})
+                RETURN p.name AS name, p.sex AS sex
+                """
+            )
+            record = result.single()
+            if record:
+                return {"name": record["name"], "sex": record["sex"]}
+            else:
+                return None
+    except Exception as e:
+        st.error(f"플레이어 데이터를 가져오는 중 오류 발생: {e}")
+        return None
+
+
+def create_player_in_db(db_client: GraphDatabase, player_data: Dict):
+    """Neo4j에 플레이어 데이터를 생성합니다."""
+    try:
+        with db_client.session() as session:
+            session.run(
+                """
+                MERGE (p:Character {id: "character:Player"})
+                ON CREATE SET p.name = $name, p.sex = $sex
+                """,
+                name=player_data["name"],
+                sex=player_data["sex"],
+            )
+            st.success("플레이어 정보가 Neo4j에 저장되었습니다.")
+    except Exception as e:
+        st.error(f"플레이어 데이터 생성 중 오류 발생: {e}")
+
+
 # Create Langgraph
 story_chain = create_story_chain()
 map_analyst = create_map_analyst()
 node_map = {
-    "check_action": check_valid_action, # 수정
-    "scene_transition": scene_transition_node, # 수정
-    "ere_extraction": ere_extraction_node, # 수정
+    "check_action": check_valid_action,  # 수정
+    "scene_transition": scene_transition_node,  # 수정
+    "ere_extraction": ere_extraction_node,  # 수정
     "story_generation": MakeStoryNode(story_chain).execute,
     "initialize": InitializeNode().execute,
     "create_player_and_character": CreatePlayerAndCharacterNodes().execute,
@@ -318,7 +355,9 @@ def main():
         st.session_state["session_id"] = str(uuid.uuid4())
     if "game_state" not in st.session_state:
         game_state = load_initial_state()
-        game_state["session_id"] = st.session_state["session_id"]  # session_id를 상태에 포함
+        game_state["session_id"] = st.session_state[
+            "session_id"
+        ]  # session_id를 상태에 포함
         st.session_state["game_state"] = game_state
     # 편의상 지역 변수에 게임 상태 저장
     game_state = st.session_state["game_state"]
@@ -350,6 +389,29 @@ def main():
         if available_actions
         else "사용 가능한 행동이 없습니다."
     )
+    # 이전 소스 재활용 (테스트)
+    # 플레이어 데이터 로드 또는 입력
+    if "player_data_loaded" not in st.session_state:
+        player_data = get_player_data(db_client)
+        if player_data:
+            game_state["player"]["name"] = player_data["name"]
+            game_state["player"]["sex"] = player_data["sex"]
+            st.session_state["player_data_loaded"] = True
+        else:
+            st.subheader("플레이어 정보를 입력하세요")
+            player_name = st.text_input("이름:")
+            player_sex = st.radio("성별:", ("Male", "Female"))
+            if st.button("등록"):
+                if player_name and player_sex:
+                    create_player_in_db(
+                        db_client, {"name": player_name, "sex": player_sex}
+                    )
+                    game_state["player"]["name"] = player_name
+                    game_state["player"]["sex"] = player_sex
+                    st.session_state["player_data_loaded"] = True
+                    st.experimental_rerun()  # 페이지 새로고침
+                else:
+                    st.warning("이름과 성별을 모두 입력해주세요.")
 
     # 입력 폼 생성
     with st.form("action_form", clear_on_submit=True):
@@ -395,4 +457,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

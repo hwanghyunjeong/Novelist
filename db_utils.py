@@ -9,6 +9,11 @@ import os
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
+def clear_database(tx):
+    """Neo4j 데이터베이스를 초기화합니다."""
+    tx.run("MATCH (n) DETACH DELETE n")
+
+
 def load_json_data(file_path: str):
     """JSON 파일로부터 데이터를 로드합니다."""
     import json
@@ -170,18 +175,53 @@ def create_scene_beat_node(tx, scene_beat: dict):
 
 
 def create_relationship(
-    tx, start_node_id: str, end_node_id: str, relationship_type: str
+    tx,
+    start_node_id: str,
+    end_node_id: str,
+    relationship_type: str,
+    relationship_properties: dict = None,
 ):
-    """두 노드 간의 관계를 생성합니다."""
-    tx.run(
-        """
-        MATCH (n1 {id: $start_node_id}), (n2 {id: $end_node_id})
-        MERGE (n1)-[:$relationship_type]->(n2)
-        """,
-        start_node_id=start_node_id,
-        end_node_id=end_node_id,
-        relationship_type=relationship_type,
-    )
+    """Neo4j에서는 관계 타입을 파라미터로 전달할 수 없음.
+    아래 주석된 코드에서와 같이 MERGE (n1)-[r:$relationship_type]->(n2)
+    라고 작성하면 Cypher 파서가 $relationship_type을 올바른 관계 타입으로 인식 못해 문법 오류 발생.
+    """
+    query = f"""
+        MATCH (n1 {{id: $start_node_id}}), (n2 {{id: $end_node_id}})
+        MERGE (n1)-[r:{relationship_type}]->(n2)
+    """
+    params = {
+        "start_node_id": start_node_id,
+        "end_node_id": end_node_id,
+    }
+    if relationship_properties:
+        query += " SET r += $relationship_properties"
+        params["relationship_properties"] = relationship_properties
+    tx.run(query, **params)
+
+
+# def create_relationship(
+#     tx,
+#     start_node_id: str,
+#     end_node_id: str,
+#     relationship_type: str,
+#     relationship_properties: dict = None,
+# ):
+#     """두 노드 간의 관계를 생성합니다."""
+#     query = """
+#         MATCH (n1 {id: $start_node_id}), (n2 {id: $end_node_id})
+#         MERGE (n1)-[r:$relationship_type]->(n2)
+#     """
+#     params = {
+#         "start_node_id": start_node_id,
+#         "end_node_id": end_node_id,
+#         "relationship_type": relationship_type,
+#     }
+#     if relationship_properties:
+#         query += """
+#             SET r += $relationship_properties
+#         """
+#         params["relationship_properties"] = relationship_properties
+#     tx.run(query, **params)
 
 
 def extract_entities_and_relationships(
