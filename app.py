@@ -375,9 +375,7 @@ def main():
     # DB 연결 확인 및 설정
     if "db_manager" not in st.session_state:
         try:
-            st.session_state["db_manager"] = DBManager(
-                uri="bolt://localhost:7687", user="neo4j", password="11111111"
-            )
+            st.session_state["db_manager"] = DBManager()
             game_state["db_client"] = st.session_state["db_manager"].driver
         except Exception as e:
             st.error("데이터베이스 연결에 실패했습니다.")
