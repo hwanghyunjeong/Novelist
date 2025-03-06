@@ -6,8 +6,101 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import os
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+
+def load_json_data(file_path: str):
+    """JSON 파일로부터 데이터를 로드합니다."""
+    import json
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def create_character_node(tx, character: dict):
+    """Character 노드를 생성합니다."""
+    tx.run(
+        """
+        MERGE (c:Character {id: $id})
+        SET c += $properties
+        """,
+        id=character["id"],
+        properties={k: v for k, v in character.items() if k != "id"},
+    )
+    # Character의 위치 정보 처리
+    if "position" in character:
+        position = character["position"]
+        location_id = (
+            f"characterLocation:{position['map']}-{position['x']}-{position['y']}"
+        )
+        tx.run(
+            """
+            MERGE (l:CharacterLocation {id: $location_id})
+            SET l.map = $map, l.x = $x, l.y = $y
+            """,
+            location_id=location_id,
+            map=position["map"],
+            x=position["x"],
+            y=position["y"],
+        )
+        tx.run(
+            """
+            MATCH (c:Character {id: $character_id}), (l:CharacterLocation {id: $location_id})
+            MERGE (c)-[:LOCATED_IN]->(l)
+            """,
+            character_id=character["id"],
+            location_id=location_id,
+        )
+
+
+def create_map_node(tx, map_data: dict):
+    """Map 노드를 생성하고 Location 노드와 연결합니다."""
+    tx.run(
+        """
+        MERGE (m:Map {id: $id})
+        SET m += $properties
+        """,
+        id=map_data["id"],
+        properties={
+            k: v for k, v in map_data.items() if k not in ["id", "characterLocations"]
+        },
+    )
+    tx.run(
+        """
+        MATCH (m:Map {id: $id})
+        SET m.map_data = $map_data, m.context = $context
+        """,
+        id=map_data["id"],
+        map_data=map_data["map_data"],
+        context=map_data["context"],
+    )
+    if "characterLocations" in map_data:
+        for location in map_data["characterLocations"]:
+            location_id = (
+                f"characterLocation:{map_data['id']}-{location['x']}-{location['y']}"
+            )
+            tx.run(
+                """
+            MERGE (l:CharacterLocation {id: $location_id})
+            SET l.x = $x, l.y = $y, l.map = $map_id
+            """,
+                location_id=location_id,
+                x=location["x"],
+                y=location["y"],
+                map_id=map_data["id"],
+            )
+            tx.run(
+                """
+          MATCH (m:Map {id:$map_id}), (l:CharacterLocation {id:$location_id})
+          MERGE (m)-[:CONTAINS]->(l)
+          """,
+                map_id=map_data["id"],
+                location_id=location_id,
+            )
+
 
 def create_scene_node(tx, scene: dict):
+    """Scene 노드를 생성합니다."""
     tx.run(
         """
         MERGE (s:Scene {id: $id})
@@ -15,12 +108,23 @@ def create_scene_node(tx, scene: dict):
         """,
         id=scene["id"],
         properties={
-            k: v for k, v in scene.items() if k not in ["id", "scene_beats", "map"]
+            k: v
+            for k, v in scene.items()
+            if k not in ["id", "scene_beats", "map", "context"]
         },
+    )
+    tx.run(
+        """
+        MATCH (s:Scene {id: $id})
+        SET s.context = $context
+        """,
+        id=scene["id"],
+        context=scene["context"],
     )
 
 
 def create_scene_beat_node(tx, scene_beat: dict):
+    """SceneBeat 노드를 생성합니다."""
     tx.run(
         """
         MERGE (sb:SceneBeat {id: $id})
@@ -34,6 +138,7 @@ def create_scene_beat_node(tx, scene_beat: dict):
 def create_relationship(
     tx, start_node_id: str, end_node_id: str, relationship_type: str
 ):
+    """두 노드 간의 관계를 생성합니다."""
     tx.run(
         """
         MATCH (n1 {id: $start_node_id}), (n2 {id: $end_node_id})
