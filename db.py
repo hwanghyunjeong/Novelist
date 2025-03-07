@@ -1,7 +1,7 @@
 # db.py
 from neo4j import GraphDatabase
-import os
 from typing import Dict
+import config
 
 
 class DBManager:
@@ -12,9 +12,14 @@ class DBManager:
         DBManager 객체 초기화.
         환경 변수 또는 제공된 인자를 사용하여 Neo4j 데이터베이스에 연결합니다.
         """
-        self.uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-        self.user = os.getenv("NEO4J_USER", "neo4j")
-        self.password = os.getenv("NEO4J_PASSWORD", "11111111")
+        self.uri = config.NEO4J_URI  # config파일 참조 (.env 사용한 은닉화)
+        self.user = config.NEO4J_USER
+        self.password = config.NEO4J_PASSWORD
+        # 환경 변수가 설정되지 않았을 경우 예외 처리 (옵션)
+        if not all([self.uri, self.user, self.password]):
+            raise ValueError(
+                "NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD 환경 변수가 설정되지 않았습니다."
+            )
         try:
             self.driver = GraphDatabase.driver(
                 self.uri, auth=(self.user, self.password)

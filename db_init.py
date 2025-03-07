@@ -1,6 +1,6 @@
 # db_init.py
 import os
-from db import DBManager
+from db import DBManager, config
 from db_utils import (
     load_json_data,
     create_character_node,

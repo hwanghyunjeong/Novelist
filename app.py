@@ -1,5 +1,6 @@
 # app.py
 import streamlit as st
+import config
 import uuid
 from state_graph import create_state_graph
 from story_chain import create_story_chain, create_map_analyst
@@ -10,7 +11,6 @@ import json
 from neo4j import GraphDatabase
 from typing import List, Dict
 import os
-from dotenv import load_dotenv
 from langgraph.graph import StateGraph, END
 from node import (
     CreatePlayerAndCharacterNodes,
@@ -22,13 +22,8 @@ from node import (
     RouteMovingNode,
 )
 
-load_dotenv()
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-
-if not OPENAI_API_KEY:
-    raise ValueError("OPENAI_API_KEY is not set in .env file")
+OPENAI_API_KEY = config.OPENAI_API_KEY
+GOOGLE_API_KEY = config.GOOGLE_API_KEY
 
 
 def load_initial_state() -> PlayerState:
