@@ -82,7 +82,7 @@ class BaseNode(ABC):
         pass
 
 
-# 예시 노드
+# 예시 노드 !!!반드시 수정할 것!!!
 class ExampleNode(BaseNode):
     def execute(self, state: PlayerState, db_client: GraphDatabase) -> PlayerState:
         """

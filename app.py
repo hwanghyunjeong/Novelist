@@ -194,11 +194,6 @@ def choice_make(user_input: str, scene_beat_id: str) -> str:
     return ""
 
 
-def update_state(data):
-    # LangGraph 에 필요한 state update
-    return data
-
-
 def ere_extraction_node(data):
     """사용자 입력으로부터 엔티티와 관계를 추출하고 그래프를 업데이트합니다."""
     user_input = data.get("user_input")
@@ -261,13 +256,17 @@ def check_valid_action(data):
         return "invalid_input"
 
 
+# 원래 Player를 따로 둘 시
+# MATCH (p:Player {id: "character:Player"})
+#                RETURN p.name AS name, p.sex AS sex
+# 의 형태로 삽입했으나, 현재 구조에서 일단 함수의 통일성을 위해 character로 통일 / 추후 변경가능
 def get_player_data(db_client: GraphDatabase) -> Dict:
     """Neo4j에서 플레이어 데이터를 가져옵니다."""
     try:
         with db_client.session() as session:
             result = session.run(
                 """
-                MATCH (p:Player {id: "character:Player"})
+                MATCH (p:character {id: "character:Player"})
                 RETURN p.name AS name, p.sex AS sex
                 """
             )
