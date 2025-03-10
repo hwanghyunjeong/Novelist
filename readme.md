@@ -27,8 +27,18 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
     ```bash
     pip install -r requirements.txt
     ```
-2.  환경 변수 설정: `.env` 파일에 `OPENAI_API_KEY`와 `GOOGLE_API_KEY`를 설정합니다.
-3.  Neo4j 실행: Neo4j 데이터베이스를 설치하고 실행합니다. 기본 설정은 `bolt://localhost:7687`, `user=neo4j`, `password=11111111`입니다.
+2.  환경 변수 설정: `.env` 파일에 다음 환경 변수들을 설정합니다.
+    - `OPENAI_API_KEY`: OpenAI API 키
+    - `GOOGLE_API_KEY`: Google Gemini API 키
+    - `NEO4J_URI`: Neo4j 데이터베이스 URI (예: `bolt://localhost:7687`)
+    - `NEO4J_USER`: Neo4j 데이터베이스 사용자 이름 (예: `neo4j`)
+    - `NEO4J_PASSWORD`: Neo4j 데이터베이스 비밀번호 (예: `11111111`)
+    - `DB_INIT_DATA_PATH`: Neo4j 초기화 데이터가 담긴 디렉토리 경로 (예: `data/initial_data`)
+    - **config.py내부에 들어있던 내용은 이제 전부 .env파일로 관리됩니다.**
+3. Neo4j 실행: Neo4j 데이터베이스를 설치하고 실행합니다. `.env` 파일에 설정된 URI, 사용자 이름, 비밀번호를 확인합니다. 기본 설정은 다음과 같습니다:
+    - `NEO4J_URI=bolt://localhost:7687`
+    - `NEO4J_USER=neo4j`
+    - `NEO4J_PASSWORD=11111111`
 4. Neo4j 초기 데이터 설정 : `data/initial_data` 폴더에 있는 JSON 파일들을 이용하여 Neo4j 데이터베이스를 초기화합니다. 해당 초기화를 위해서는, `db_init.py`를 실행해야 합니다.
     ```bash
     python db_init.py
@@ -52,6 +62,7 @@ novelist_prototype/
 ├── db_utils.py                # Neo4j 데이터베이스 유틸리티 함수 정의
 ├── map_tools.py               # map 데이터 추출을 위한 함수
 ├── node.py                    # LangGraph 노드 정의
+├── config.py                  # dotenv 등 환경 로드 함수
 ├── prompts/                   # LLM 프롬프트 YAML 파일 폴더
 │   ├── story-gen-prompt-eng.yaml # 스토리 생성 프롬프트
 │   └── analysis_map_prompt_eng.yaml # 맵 분석 프롬프트
@@ -64,5 +75,6 @@ novelist_prototype/
 ├── states.py                  # 게임 상태 정의
 ├── story_chain.py             # LangChain 체인 정의
 ├── README.md                  # 프로젝트 설명 파일
+├── .env                       # 환경변수 설정 파일
 └── requirements.txt            # 프로젝트 의존성 목록
 ```
