@@ -6,7 +6,7 @@ from state_graph import create_state_graph
 from story_chain import create_story_chain, create_map_analyst
 from db import DBManager
 from db_utils import extract_entities_and_relationships, update_graph_from_er
-from states import PlayerState
+from states import PlayerState, player_state_to_dict
 import json
 from neo4j import GraphDatabase
 from typing import List, Dict
@@ -70,6 +70,9 @@ def load_initial_state() -> PlayerState:
             "Warning: Using default game state as the JSON file is missing or invalid."
         )
         return PlayerState(initial_state_data)
+
+
+game_state = load_initial_state()  # 초기 게임 상태 로드
 
 
 def get_next_scene_beat(
@@ -264,7 +267,7 @@ def get_player_data(db_client: GraphDatabase) -> Dict:
         with db_client.session() as session:
             result = session.run(
                 """
-                MATCH (p:Character {id: "character:Player"})
+                MATCH (p:Player {id: "character:Player"})
                 RETURN p.name AS name, p.sex AS sex
                 """
             )
@@ -344,51 +347,71 @@ app = workflow.compile()
 def main():
     # 페이지 제목과 레이아웃 설정
     st.set_page_config(page_title="Interactive Novel", layout="wide")
+    # 세션 및 초기 상태 로드 (전역 game_state를 session_state에 저장)
+    if "game_state" not in st.session_state:
+        st.session_state["game_state"] = game_state  # 전역 game_state 사용
+    # 로컬 변수 current_state에 할당하여 사용 (전역 변수 재할당을 피함)
+    current_state = st.session_state["game_state"]
 
     # 세션 및 초기 상태 로드
+    # if "db_manager" not in st.session_state:
+    #     try:
+    #         db_manager = DBManager(
+    #             config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD
+    #         )
+    #         st.session_state["db_manager"] = db_manager
+    #         print("DB 연결 성공:", db_manager.driver)
+    #         # 여기서는 game_state에 db_client를 저장하지 않음
+    #         create_player_and_character_node = CreatePlayerAndCharacterNodes()
+    #         print("player_data:", current_state["player"])
+    #         create_player_and_character_node.execute(current_state)
+    #         print("CreatePlayerAndCharacterNodes executed successfully")
+    #     except Exception as e:
+    #         st.error(f"데이터베이스 연결에 실패했습니다: {e}")
+    #         st.stop()
+    @st.cache_resource
+    def get_db_manager():
+        return DBManager(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
+
+    if "db_manager" not in st.session_state:
+        try:
+            st.session_state["db_manager"] = get_db_manager()
+            print("DB 연결 성공:", st.session_state["db_manager"].driver)
+        except Exception as e:
+            st.error(f"데이터베이스 연결에 실패했습니다: {e}")
+            st.stop()
+
     if "session_id" not in st.session_state:
         st.session_state["session_id"] = str(uuid.uuid4())
-    if "game_state" not in st.session_state:
-        game_state = load_initial_state()
-        game_state["session_id"] = st.session_state[
-            "session_id"
-        ]  # session_id를 상태에 포함
-        st.session_state["game_state"] = game_state
-    # 편의상 지역 변수에 게임 상태 저장
-    game_state = st.session_state["game_state"]
+        current_state["session_id"] = st.session_state["session_id"]
 
     st.title("Interactive Novel")
     st.subheader("현재까지의 이야기:")
-    story_so_far = game_state.get("generation", "")
+    story_so_far = current_state.get("generation", "")
+
     if story_so_far:
         st.write(story_so_far)
     else:
-        st.write("*(이야기가 아직 시작되지 않았습니다.)*")
+        st.write("이야기가 아직 시작되지 않았습니다.")
 
-    # 현재 씬의 사용 가능 행동 불러오기
-    current_scene_id = game_state["scene"]
-    # DB 연결 확인 및 설정
-    if "db_manager" not in st.session_state:
-        try:
-            st.session_state["db_manager"] = DBManager()
-            game_state["db_client"] = st.session_state["db_manager"].driver
-        except Exception as e:
-            st.error("데이터베이스 연결에 실패했습니다.")
-    # DB 드라이버 객체 가져오기
-    db_client = game_state.get("db_client")
-    available_actions = get_available_actions(db_client, current_scene_id)
+    # db_manager로부터 db_client 주입 (저장하지 않고 필요할 때만 사용)
+    db_client = st.session_state["db_manager"].driver
+    available_actions = get_available_actions(db_client, current_state["scene"])
     st.write(
         "사용 가능한 행동: " + ", ".join(available_actions)
         if available_actions
         else "사용 가능한 행동이 없습니다."
     )
-    # 이전 소스 재활용 (테스트)
+
     # 플레이어 데이터 로드 또는 입력
-    if "player_data_loaded" not in st.session_state:
+    if (
+        "db_manager" in st.session_state
+        and "player_data_loaded" not in st.session_state
+    ):
         player_data = get_player_data(db_client)
         if player_data:
-            game_state["player"]["name"] = player_data["name"]
-            game_state["player"]["sex"] = player_data["sex"]
+            current_state["player"]["name"] = player_data["name"]
+            current_state["player"]["sex"] = player_data["sex"]
             st.session_state["player_data_loaded"] = True
         else:
             st.subheader("플레이어 정보를 입력하세요")
@@ -399,52 +422,47 @@ def main():
                     create_player_in_db(
                         db_client, {"name": player_name, "sex": player_sex}
                     )
-                    game_state["player"]["name"] = player_name
-                    game_state["player"]["sex"] = player_sex
+                    current_state["player"]["name"] = player_name
+                    current_state["player"]["sex"] = player_sex
                     st.session_state["player_data_loaded"] = True
-                    st.experimental_rerun()  # 페이지 새로고침
+                    st.rerun()
                 else:
                     st.warning("이름과 성별을 모두 입력해주세요.")
 
-    # 입력 폼 생성
     with st.form("action_form", clear_on_submit=True):
         user_text = st.text_input("행동 또는 대사를 입력하세요:")
         submitted = st.form_submit_button("제출")
 
     if submitted:
         user_input = user_text.strip()
-        if user_input == "":
-            st.warning("행동을 입력해주세요.")  # 빈 입력에 대한 처리
+        if not user_input:
+            st.warning("행동을 입력해주세요.")
         elif not check_action_in_available_actions(user_input, available_actions):
             st.warning(
                 f"유효한 행동을 입력하세요. 가능한 행동: {', '.join(available_actions)}"
             )
         else:
-            # 유효한 입력일 경우에만 게임 상태 업데이트 및 LangGraph 호출
-            game_state["user_input"] = user_input
-            game_state["history"].append(user_input)
-            old_scene_beat = game_state["scene_beat"]
+            current_state["user_input"] = user_input
+            current_state["history"].append(user_input)
+            old_scene_beat = current_state["scene_beat"]
+            # 실행 전 임시로 db_client 주입 (노드 실행에 필요)
+            current_state["db_client"] = db_client
             try:
-                new_state = app.invoke(game_state)
+                new_state = app.invoke(player_state_to_dict(current_state))
             except Exception as e:
                 st.error(f"게임 진행 중 오류가 발생했습니다: {e}")
                 st.stop()
-            # 필요한 상태 키 보존 (db_client 등)
-            if "db_client" not in new_state:
-                new_state["db_client"] = game_state.get("db_client")
+            # 실행 후 db_client는 저장 대상에서 제외
+            new_state.pop("db_client", None)
             if "session_id" not in new_state:
-                new_state["session_id"] = game_state.get("session_id")
-            st.session_state["game_state"] = new_state  # 세션 상태 업데이트
-            # 추출된 정보 및 생성된 이야기 출력
+                new_state["session_id"] = current_state.get("session_id")
+            st.session_state["game_state"] = new_state
             st.write("추출된 정보:")
             st.write(new_state.get("extracted_data", {}))
             st.write("생성된 이야기:")
             st.write(new_state.get("generation", ""))
-            # 다음 씬 진행 여부 확인
             if new_state.get("scene_beat") == old_scene_beat:
                 st.info("더 이상 진행할 이야기가 없습니다. 게임이 종료되었습니다.")
-                # (필요 시 추가 종료 처리)
-            # 게임 상태를 DB에 저장
             st.session_state["db_manager"].save_state(new_state)
 
 

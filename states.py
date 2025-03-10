@@ -1,8 +1,8 @@
-from typing import Annotated, Dict, List
+from typing import Annotated, Dict, List, TypedDict, Callable
 from typing_extensions import TypedDict
 from langgraph.graph.message import add_messages
-
-# from story_class import AsciiMap, Character
+from neo4j import GraphDatabase
+from abc import ABC, abstractmethod
 
 
 class GameState(TypedDict):
@@ -25,33 +25,105 @@ class GameState(TypedDict):
     gnenration: Annotated[str, "AI가 만든 이야기"]
     map_context: Annotated[str, "맵을 분석한 내용"]
 
-class PlayerState:
-    def __init__(self, data: Dict = None):
-        if data is None:
-            data = {}
-        self.player: Dict = data.get("player", {})
-        self.map: str = data.get("map", "")
-        self.scene: str = data.get("scene", "")
-        self.scene_beat: str = data.get("scene_beat", "")
-        self.history: List[str] = data.get("history", [])
-        self.user_input: str = data.get("user_input", "")
-        self.generation: str = data.get("generation", "")
-        self.map_context: str = data.get("map_context", "")
-        self.characters: List[Dict] = data.get("characters", [])
-        self.extracted_data: Dict = data.get("extracted_data", {})
-        self.db_client = data.get("db_client")
-        self.session_id = data.get("session_id")
-        self.available_actions: List[str] = data.get('available_actions', [])
 
-    def get(self, key, default=None):
-        return getattr(self, key, default)
+class PlayerState(TypedDict):
+    """
+    플레이어의 상태를 저장하는 TypedDict
+    """
 
-    def __getitem__(self, key):
-        return getattr(self, key)
+    player: Dict
+    map: str
+    scene: str
+    scene_beat: str
+    history: List[str]
+    user_input: str
+    generation: str
+    map_context: str
+    characters: List[Dict]
+    extracted_data: Dict
+    session_id: str
+    available_actions: List[str]
 
-    def __setitem__(self, key, value):
-        setattr(self, key, value)
 
-    def update(self, data: Dict):
-        for key, value in data.items():
-          setattr(self, key, value)
+def initialize_player_state() -> PlayerState:
+    """초기 PlayerState를 생성합니다."""
+    return {
+        "player": {},
+        "map": "",
+        "scene": "",
+        "scene_beat": "",
+        "history": [],
+        "user_input": "",
+        "generation": "",
+        "map_context": "",
+        "characters": [],
+        "extracted_data": {},
+        "session_id": "",
+        "available_actions": [],
+    }
+
+
+def update_player_state(state: PlayerState, updates: Dict) -> PlayerState:
+    """PlayerState를 업데이트합니다. 새로운 상태 객체를 반환합니다."""
+    new_state = state.copy()
+    new_state.update(updates)
+    return new_state
+
+
+def player_state_to_dict(player_state: PlayerState) -> Dict:
+    """PlayerState 객체를 dict로 변환합니다."""
+    return dict(player_state)
+
+
+class BaseNode(ABC):
+    @abstractmethod
+    def execute(self, state: PlayerState, db_client: GraphDatabase) -> PlayerState:
+        """노드의 실행 로직을 정의합니다."""
+        pass
+
+
+# 예시 노드
+class ExampleNode(BaseNode):
+    def execute(self, state: PlayerState, db_client: GraphDatabase) -> PlayerState:
+        """
+        예시 노드 실행 메서드.
+        """
+        print("ExampleNode 실행")
+
+        # db_client를 사용하여 데이터베이스와 상호 작용하는 로직을 추가할 수 있습니다.
+        # 예시:
+        # with db_client.session() as session:
+        #   result = session.run("MATCH (n) RETURN n LIMIT 1")
+        #   for record in result:
+        #       print(record)
+
+        # 상태를 업데이트합니다.
+        updated_state = update_player_state(
+            state, {"generation": "Example Node executed."}
+        )
+
+        return updated_state
+
+
+class StateManager:
+    """
+    PlayerState 관리를 위한 클래스.
+    """
+
+    def __init__(self, initial_state: PlayerState = None):
+        self.state: PlayerState = (
+            initial_state if initial_state is not None else initialize_player_state()
+        )
+
+    def get_state(self) -> PlayerState:
+        """현재 state를 반환합니다."""
+        return self.state
+
+    def update_state(self, updates: Dict):
+        """state를 업데이트합니다."""
+        self.state = update_player_state(self.state, updates)
+
+    def execute_node(self, node: BaseNode, db_client: GraphDatabase) -> PlayerState:
+        """노드를 실행하고 상태를 업데이트합니다."""
+        self.state = node.execute(self.state, db_client)
+        return self.state

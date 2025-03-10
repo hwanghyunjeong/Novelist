@@ -82,7 +82,7 @@ class MakeStoryNode(BaseNode):
 
 
 class RouteMovingNode(BaseNode):
-    def execute(self, state: PlayerState):
+    def execute(self, state: PlayerState) -> str:
         # 이동 방향이 정상적으로 주어졌다면 'move_player'로, 그렇지 않으면 'not move'
         direction = state["player"].get("direction")
         if direction in ["왼쪽", "오른쪽", "위", "아래"]:
@@ -91,7 +91,7 @@ class RouteMovingNode(BaseNode):
 
 
 class CreatePlayerAndCharacterNodes(BaseNode):
-    def execute(self, state: PlayerState):
+    def execute(self, state: PlayerState) -> PlayerState:
         driver = state.get("db_client")
         player_data = state.get("player")
         characters = state.get("characters", [])
@@ -142,4 +142,3 @@ class CreatePlayerAndCharacterNodes(BaseNode):
         SET r += $props
         """
         tx.run(query, player_id=player_id, char_id=char_id, props=properties)
-

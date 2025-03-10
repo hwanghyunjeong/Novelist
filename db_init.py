@@ -66,7 +66,7 @@ def initialize_scene_data(tx, scenes):
 
 
 if __name__ == "__main__":
-    db_manager = DBManager()
+    db_manager = DBManager(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
     try:
         with db_manager.driver.session() as session:
             session.execute_write(initialize_db)  # 트랜잭션은 여기서 관리됨
