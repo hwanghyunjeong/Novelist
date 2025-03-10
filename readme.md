@@ -34,7 +34,6 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
     - `NEO4J_USER`: Neo4j 데이터베이스 사용자 이름 (예: `neo4j`)
     - `NEO4J_PASSWORD`: Neo4j 데이터베이스 비밀번호 (예: `11111111`)
     - `DB_INIT_DATA_PATH`: Neo4j 초기화 데이터가 담긴 디렉토리 경로 (예: `data/initial_data`)
-    - **config.py내부에 들어있던 내용은 이제 전부 .env파일로 관리됩니다.**
 3. Neo4j 실행: Neo4j 데이터베이스를 설치하고 실행합니다. `.env` 파일에 설정된 URI, 사용자 이름, 비밀번호를 확인합니다. 기본 설정은 다음과 같습니다:
     - `NEO4J_URI=bolt://localhost:7687`
     - `NEO4J_USER=neo4j`
