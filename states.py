@@ -5,6 +5,7 @@ from neo4j import GraphDatabase
 from abc import ABC, abstractmethod
 
 
+# https://wikidocs.net/265768 참조할 것 (서브스키마로 서로 다른 스키마 구조를 가질때)
 class GameState(TypedDict):
     """
     게임 상태를 보관
@@ -22,7 +23,7 @@ class GameState(TypedDict):
     init: Annotated[bool, "이야기의 처음인지 판단"]
     user_input: Annotated[str, "사용자의 답변 또는 질문"]
     history: Annotated[list, add_messages]  # 사용자와 게임 마스터 사이의 메시지
-    gnenration: Annotated[str, "AI가 만든 이야기"]
+    generation: Annotated[str, "AI가 만든 이야기"]
     map_context: Annotated[str, "맵을 분석한 내용"]
 
 
@@ -31,18 +32,18 @@ class PlayerState(TypedDict):
     플레이어의 상태를 저장하는 TypedDict
     """
 
-    player: Dict
-    map: str
-    scene: str
-    scene_beat: str
+    player: Annotated[Dict, "사용자가 플레이하는 캐릭터의 속성 및 메소드"]
+    map: Annotated[str, "LLM을 거쳐서 해독된 맵의 정보"]
+    scene: Annotated[str, "해당 장면을 설명하는 시퀀스, 순차적인 순서를 가짐."]
+    scene_beat: Annotated[str, "Scene의 진행을 설명하는 단위, 순차적인 순서를 가짐"]
     history: List[str]
     user_input: str
-    generation: str
-    map_context: str
+    generation: Annotated[str, "AI로 증강생성시킨 이야기"]
+    map_context: Annotated[str, "맵을 분석한 내용"]
     characters: List[Dict]
-    extracted_data: Dict
-    session_id: str
-    available_actions: List[str]
+    extracted_data: Annotated[Dict, "LLM으로 추출된 데이터"]
+    session_id: Annotated[str, "st.session_state.id 고유값"]
+    available_actions: Annotated[List[str], "사용자가 취할 수 있는 바람직한 행동들"]
 
 
 def initialize_player_state() -> PlayerState:

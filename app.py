@@ -352,22 +352,6 @@ def main():
     # 로컬 변수 current_state에 할당하여 사용 (전역 변수 재할당을 피함)
     current_state = st.session_state["game_state"]
 
-    # 세션 및 초기 상태 로드
-    # if "db_manager" not in st.session_state:
-    #     try:
-    #         db_manager = DBManager(
-    #             config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD
-    #         )
-    #         st.session_state["db_manager"] = db_manager
-    #         print("DB 연결 성공:", db_manager.driver)
-    #         # 여기서는 game_state에 db_client를 저장하지 않음
-    #         create_player_and_character_node = CreatePlayerAndCharacterNodes()
-    #         print("player_data:", current_state["player"])
-    #         create_player_and_character_node.execute(current_state)
-    #         print("CreatePlayerAndCharacterNodes executed successfully")
-    #     except Exception as e:
-    #         st.error(f"데이터베이스 연결에 실패했습니다: {e}")
-    #         st.stop()
     @st.cache_resource
     def get_db_manager():
         return DBManager(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
