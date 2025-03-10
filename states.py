@@ -36,8 +36,8 @@ class PlayerState(TypedDict):
     map: Annotated[str, "LLM을 거쳐서 해독된 맵의 정보"]
     scene: Annotated[str, "해당 장면을 설명하는 시퀀스, 순차적인 순서를 가짐."]
     scene_beat: Annotated[str, "Scene의 진행을 설명하는 단위, 순차적인 순서를 가짐"]
-    history: List[str]
-    user_input: str
+    history: Annotated[List[str], "이전까지의 대화 및 대화요약"]
+    user_input: Annotated[str, "사용자가 입력한 메시지 원문"]
     generation: Annotated[str, "AI로 증강생성시킨 이야기"]
     map_context: Annotated[str, "맵을 분석한 내용"]
     characters: List[Dict]
