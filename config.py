@@ -8,7 +8,11 @@ if os.path.exists(env_file_path):
     load_dotenv(dotenv_path=env_file_path)
     print("환경변수가 로드되었습니다.")
 else:
-    print("환경변수가 존재하지 않습니다.")
+    loaded = load_dotenv()
+    if loaded:
+        print("환경변수가 로드됨")
+    else:
+        print("환경변수가 존재하지 않습니다.")
 
 # 환경 변수 설정
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
