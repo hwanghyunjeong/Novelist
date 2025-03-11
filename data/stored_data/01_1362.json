@@ -1,0 +1,1731 @@
+{
+    "title": "얼굴 없는 공포",
+    "genre": [
+        "공포(호러)",
+        "미스터리",
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "주의 사람들이 살해되어 모든 주변 사람을 의심하는 C008는 살아남기 위해 몸부림친다.",
+    "motif": "사이코패스",
+    "conflict": "살인자는 C008의 주변 사람들을 살해하면서 C008를 압박한다. C008는 이를 살인자를 찾아 복수한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C004",
+                "C007",
+                "C004 부모"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C004와 그녀의 남자친구는 망토를 쓴 괴한에 의해 잔인하게 살해당한다.",
+            "unit_motif": "연쇄 살인",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C004는 낯선 남자의 전화를 받게 된다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "낯선 남자에게서 전화가 다시 온다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "남자는 C004와 이야기를 하고자 한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "하지만 C004는 남자의 전화를 그대로 끊어 버린다."
+                },
+                {
+                    "location": "집 외부",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "content": "금방까지 누군가가 있었던 듯 C004 집 앞 그네가 조금씩 흔들린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "낯선 남자에게서 전화가 다시 오고 C004는 그의 전화를 한동안 받아준다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그런데 곧 남자는 자신이 C004를 보고 있다는 뜻밖의 얘기를 전한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "겁이 난 C004는 그대로 전화를 끊어 버린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "낯선 남자는 C007를 인질로 잡고 C004에게 게임을 제안한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "자신이 낸 문제를 맞히면 C007를 살려주겠다는 것이다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "하지만 C004는 낯선 남자가 낸 퀴즈의 함정에 빠지고 만다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "곧 C007와 C004는 차례로 죽임을 당한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004 부모"
+                    ],
+                    "act": "찾는다",
+                    "content": "C004의 부모는 C004를 찾아 집 안 이곳저곳을 돌아다닌다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "낯선 남자에게 끌려가는 C004는 여전히 전화기를 손에 들고 있다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그녀의 엄마는 이런 C004의 신음소리를 듣게 된다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004 부모"
+                    ],
+                    "act": "소리치다",
+                    "content": "C004의 아버지는 아내를 안전한 지인의 집으로 보낸다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C004 부모"
+                    ],
+                    "act": "소리치다",
+                    "content": "가서 경찰을 부르라는 것이다."
+                },
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C004",
+                        "C004 부모"
+                    ],
+                    "act": "죽이다",
+                    "content": "밖으로 나온 C004의 어머니는 충격에 휩싸인 비명을 지른다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C004",
+                        "C004 부모"
+                    ],
+                    "act": "죽이다",
+                    "content": "곧 피범벅인 모습으로 나뭇가지에 매달려 있는 C004의 모습이 보인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C005",
+                "C003",
+                "C006"
+            ],
+            "stage": "Main Character",
+            "storyline": "C008의 학교는 C004와 C007의 죽음으로 술렁인다.",
+            "unit_motif": "청소년기 일탈",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "content": "C008의 방 창문으로 그녀의 남자친구 C009가 들어온다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "content": "곧 C008의 비명소리를 들은 그녀의 아버지가 방문을 두드린다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 아버지 앞에서 아무 일도 없었던 듯 시치미를 뗀다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "비행사인 아버지는 아침 첫 비행기로 떠난 뒤 일요일에 돌아오겠다고 말한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "키스하다",
+                    "content": "C009는 C008를 만져보고 싶어 한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "키스하다",
+                    "content": "그런데 C008는 C009의 손길이 닿기가 무섭게 그를 밀어낸다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "키스하다",
+                    "content": "C009는 아쉬움을 남긴 채 C008 집을 떠난다."
+                },
+                {
+                    "location": "학교 입구",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "학교 앞에는 경찰과 기자들이 진을 치고 있다."
+                },
+                {
+                    "location": "학교 입구",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 C005로부터 지난밤 C004와 C007가 살해됐다는 소식들 듣게 된다."
+                },
+                {
+                    "location": "교실",
+                    "act": "공감하다",
+                    "content": "C008는 비어 있는 C007 자리에서 눈을 떼지 못한다."
+                },
+                {
+                    "location": "교실",
+                    "act": "공감하다",
+                    "content": "곧 선생님이 C008의 이름을 호명한다."
+                },
+                {
+                    "location": "교무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "content": "C008는 얼굴을 아는 경찰과 인사를 나눈다."
+                },
+                {
+                    "location": "교무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "content": "곧 경찰의 질문이 이어진다."
+                },
+                {
+                    "location": "분수대",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "놀다",
+                    "content": "C003와 C006는 C004 살인과 관련해 끔찍한 농담들을 주고받는다."
+                },
+                {
+                    "location": "분수대",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "놀다",
+                    "content": "이를 듣다 못한 C008는 자리를 피해 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C008는 친구 C005의 집에서 자기로 하고 그녀가 오기를 기다린다.",
+            "unit_motif": "외상 후 스트레스성 장애(PTSD)",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008가 학교버스에서 내린다."
+                },
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "그녀는 곧장 집 안으로 들어간다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 친구 C005에게 전화를 걸어 그녀의 집에서 자도 되는지를 묻는다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005은 7시에 C008를 데리러 오겠다고 말한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "C008는 텔레비전을 켠다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "그런데 방송은 온통 C004와 C007의 사건으로 도배가 되어있다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "게다가 성폭행 당한 뒤 살해된 그녀의 어머니 사건까지 언급된다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "C008는 그대로 텔레비전을 꺼 버린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "기다리다",
+                    "content": "C008는 사진 속 어머니의 모습을 한동안 바라본다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "기다리다",
+                    "content": "곧 괴로운 생각이 드는 듯 소파에 몸을 기대고 눕는다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "해는 어느새 지평선 아래로 내려가 있다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "곧 어둠이 온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C005",
+                "C001"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C008는 C001의 침입을 받게 된다.",
+            "unit_motif": "연쇄 살인",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 C005의 전화를 받고 깨어난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005은 집으로 가고 있으니 조금만 기다리라고 말한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "그런데 잠시 뒤 C008는 낯선 남자의 전화를 받게 된다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 처음 전화 속 목소리를 C006라고 생각한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "그런데 낯선 남자는 자신이 C008 집 현관에 있다는 뜻밖의 이야기를 꺼낸다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "현관을 둘러 본 C008는 전화 속 목소리가 C006임을 확신한다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그런데 곧 낯선 남자는 C008의 엄마를 언급하며 위협적인 말을 늘어놓기 시작한다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C008는 낯선 남자가 C006가 아님을 확신한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C001이 칼을 휘두르며 C008를 공격한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 가까스로 괴한을 물리쳐 낸 뒤 자신의 방으로 달아난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C005",
+                "C002"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "한편 괴한이 사라짐과 동시에 C008 집에 나타난 C009는 살해 용의자로 체포된다.",
+            "unit_motif": "연쇄 살인",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "방",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "소리치다",
+                    "content": "C008는 컴퓨터를 이용해 911에 신고를 한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "도망치다",
+                    "content": "괴한이 사라짐과 동시에 C008 방에 C009가 나타난다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 C009를 껴안으며 살인마가 자신을 죽이러 왔다는 이야기를 전한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "도망치다",
+                    "content": "그런데 곧 C009의 주머니에서 휴대폰 한 대가 떨어진다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 C009 곁을 떠나 아래층으로 달아나기 시작한다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "content": "C008의 집 앞에는 어느새 경찰이 와 있다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "content": "경찰은 손에 검은 망토를 쥐고 있다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "경찰은 C009를 살해 용의자로 체포해 데리고 간다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "경찰은 구급차에 타고 있는 C008에게 진술을 요구한다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "곧 C008 앞으로 C005이 나타난다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "content": "C002은 C005에게 이런저런 질문들을 던진다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "content": "하지만 C005은 한 마디도 대답하지 않고 그대로 차를 타고 떠나 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C002",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "아버지와 연락이 닿질 않고 C009는 경찰에 잡혀들어간다.",
+            "unit_motif": "지배자 희롱",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "content": "C008는 아버지와의 연락을 시도한다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "content": "하지만 경찰은 그녀 아버지의 투숙 기록을 찾지 못한다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "content": "경찰이 C009를 심문한다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "content": "C009는 자신의 결백을 주장하지만 경찰은 통화기록 조회가 끝날 때까지 그를 경찰서에 남게 한다."
+                },
+                {
+                    "location": "경찰서 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "content": "C002은 카메라를 대동하고 경찰서 안 진입을 시도한다."
+                },
+                {
+                    "location": "경찰서 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "content": "하지만 곧 경찰들에게 가로막혀 안으로 들어가는 일에는 실패한다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "무시하다",
+                    "content": "C009는 애타게 C008의 이름을 부른다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "무시하다",
+                    "content": "하지만 C008는 끝내 C009를 외면한다."
+                },
+                {
+                    "location": "경찰서",
+                    "act": "증명하다/입증하다",
+                    "content": "범인이 사용한 검은 망토는 아무 가게에서나 살 수 있는 평범한 것으로 밝혀진다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C005은 C008를 경찰서 뒷문으로 데리고 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C008는 C005의 집에서 하룻밤을 보내게 된다. 그런데 이런 C008 앞으로 한 통의 전화가 걸려온다. 전화 속 낯선 목소리는 C009가 범인이 아니라며 혀를 끌끌 찬다.",
+            "unit_motif": "지배자 희롱",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "경찰서 뒷문",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "content": "C002이 C008와의 인터뷰를 시도한다."
+                },
+                {
+                    "location": "경찰서 뒷문",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "content": "C008는 이런 C002의 얼굴에 주먹을 한 방 먹인다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "C008는 C005집에서 하룻밤을 묵는다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "C008는 C005에게 C009가 범인이 맞냐고 묻는다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "C005은 그가 현장에 있었기 때문에 범인이라고 주장한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "한편 C005의 어머니가 C008를 찾는다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "content": "메시지가 왔다는 것이다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C008가 전화를 받아보면 낯선 남자의 목소리가 들린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "낯선 남자는 C009를 언급하며 혀를 찬다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "죄 없는 놈이 걸려들었다는 것이다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C005",
+                "C002",
+                "C003",
+                "C009"
+            ],
+            "stage": "Another Story",
+            "storyline": "C009가 경찰서에서 풀려나자 C008는 난처한 입장에 처한다. 우연히 C009를 만나게 된 C008는 이해를 구해보려 애쓴다. 하지만 C009는 이런 C008에게 상처를 주고 만다.",
+            "unit_motif": "연인 상실",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "학교 앞",
+                    "act": "간다/이동한다",
+                    "content": "등교하는 학생들의 모습이 보인다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C008 어머니를 강간하고 살해한 C011이 텔레비전 화면에 등장한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "사형선고를 받은 그가 항소 중이라는 것이다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "한편 경찰은 C009가 풀려났다는 소식을 전한다."
+                },
+                {
+                    "location": "학교 앞",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008와 C005은 경찰의 보호 아래 차에서 내린다."
+                },
+                {
+                    "location": "방송차량 앞",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "content": "C002은 사과를 요구하는 C008에게 어머니를 죽인 진짜 살인자는 잡히지 않았고 이번 사건도 그와 관련이 있다는 주장을 편다."
+                },
+                {
+                    "location": "방송차량 앞",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "content": "그런데 곧 C002의 이런 주장은 그녀의 막연한 추측으로 드러난다."
+                },
+                {
+                    "location": "방송차량 앞",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "content": "그녀는 자신의 추측에 맞춰 증거를 찾아내려 한다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "잡담하다",
+                    "content": "C003는 C008가 애인을 살인자로 몰아세웠다며 비아냥거린다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "content": "C009와 마주치게 된 C008는 그의 이해를 구한다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "content": "하지만 C009는 C008가 그녀 어머니 죽음 이후 변했다는 말로 그녀에게 상처를 준다."
+                },
+                {
+                    "location": "교무실",
+                    "act": "잡담하다",
+                    "content": "살인마 흉내를 내며 장난을 치던 아이들이 교장에게 꾸지람을 듣는다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "친구들은 관심을 받고 싶어 하는 C008가 이 모든 일을 꾸몄다는 억측을 늘어놓는다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "한편 학생 한 명이 살인마와 똑같은 망토를 쓰고 나타나 C008를 위협한다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 겁에 질려 계단을 뛰어내려 간다."
+                },
+                {
+                    "location": "학교 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "content": "기자는 학생들이 살인마와 똑같은 가면을 쓰고 장난을 치고 있다는 소식을 전한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C005",
+                "C002",
+                "C009"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C003집의 파티가 시작된다. C005은 첫 번째 희생자가 된다.",
+            "unit_motif": "연쇄 살인",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008와 C005은 C003의 집 안으로 들어간다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "놀다",
+                    "content": "C008와 C005은 봉지에 든 식료품을 꺼내며 파티 준비에 나선다."
+                },
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "C003의 집으로 C002이 나타난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "파티장 안으로 C002이 나타난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "C002은 거실 한쪽에 몰래카메라를 설치해 놓는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "content": "맥주를 꺼내는 C005 앞으로 망토를 쓴 괴한이 나타난다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "content": "결국 C005은 비참한 죽음을 맞는다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "content": "파티가 끝나 친구들은 다 집으로 돌아갔다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "content": "C005을 찾는 C008 앞으로 C009가 나타난다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "content": "C002은 모니터를 통해 C003의 집 안을 들여다본다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "content": "그녀는 언론인 상을 받을 꿈에 부풀어 있다."
+                },
+                {
+                    "location": "부모님 방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 C009와 화해한다."
+                },
+                {
+                    "location": "부모님 방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "content": "그리고 C009와 섹스를 하겠다고 나선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C006",
+                "C002",
+                "C008",
+                "C009"
+            ],
+            "stage": "Villains Move",
+            "storyline": "아이들이 공포영화에 빠져 있는 사이 C008와 C009는 섹스를 나눈다. 한편 교장이 죽었다는 이야기를 들은 아이들은 죽은 교장을 보기 위해 C003의 집을 떠난다.",
+            "unit_motif": "첫관계",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "거실",
+                    "character": [
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "놀다",
+                    "content": "C003와 C006 그리고 나머지 아이들은 함께 공포영화를 관람한다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "content": "따분한 얼굴로 모니터를 들여다보는 C002 앞으로 경찰이 나타난다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "content": "숲에 차가 있으니 함께 가 보자는 것이다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "경찰과 C002은 숲까지 함께 걸어가기로 한다."
+                },
+                {
+                    "location": "마당",
+                    "act": "상승하다",
+                    "content": "아이들이 하나 둘 집으로 돌아간다."
+                },
+                {
+                    "location": "부모님 방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "꼬시다",
+                    "content": "C008와 C009는 섹스를 나눈다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "content": "영화를 보는 아이들 앞으로 한 통의 전화가 온다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "content": "교장이 죽었다는 것이다."
+                },
+                {
+                    "location": "마당",
+                    "act": "간다/이동한다",
+                    "content": "아이들은 교장을 보기 위해 C003의 집을 떠난다."
+                },
+                {
+                    "location": "숲 길",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "content": "C002과 경찰은 아이들의 차를 피하는 과정에서 C008의 아버지 차를 찾아낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C001",
+                "C006"
+            ],
+            "stage": "Defeat",
+            "storyline": "C009가 C001에게 죽음을 당하고 C008는 C001에게 한동안 쫓기게 된다.",
+            "unit_motif": "연쇄 살인",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "부모님 방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "C009가 C001에게 죽임을 당한다."
+                },
+                {
+                    "location": "부모님 방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "C008는 그 자리에서 달아난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 C001을 피해 집 밖으로 달아난다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C006는 거실에 혼자 남아 영화를 보고 있다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "곧 이런 C006 뒤로 C001이 나타난다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 마당을 가로질러 방송차량 안으로 들어간다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "C008와 방송 기사는 모니터를 통해 C006와 C001의 모습을 보게 된다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "그런데 송출되는 영상은 실제보다 30초 늦은 화면이다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "곧 방송차량 앞으로 C001이 들이닥친다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "방송 기사는 그 자리에서 죽고 C008는 방송차량 뒷문을 통해 달아난다."
+                },
+                {
+                    "location": "정원",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 C001을 피해 달아난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C008",
+                "C003",
+                "C006"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "경찰은 C002에게 지원 연락을 부탁한 뒤 혼자서 C003의 집 안으로 들어간다. 하지만 C002은 운전 중 비탈 아래로 곤두박질치게 되고 경찰은 등에 칼을 맞고 쓰러진다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "마당",
+                    "act": "간다/이동한다",
+                    "content": "경찰은 C002에게 지원 연락을 부탁한 뒤 혼자서 집 안으로 들어간다."
+                },
+                {
+                    "location": "집",
+                    "act": "소리치다",
+                    "content": "경찰은 텔레비전 화면을 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "content": "C002은 바닥에 흥건한 피를 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "방송차량",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "content": "그녀는 곧장 운전석으로 향한다."
+                },
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C002은 C010를 전화기로 물리친 뒤 차를 출발시킨다."
+                },
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "곧 자동차 지붕 위에 있던 방송 기사의 시체가 유리창 앞으로 나타난다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "content": "C002의 차는 C008를 피하려다 비탈 아래로 떨어진다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "content": "곧 커다란 나무와 정면으로 충돌한다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "해치다",
+                    "content": "C008는 경찰을 찾아낸다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "해치다",
+                    "content": "그런데 경찰은 이미 등에 칼을 맞은 상태다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "해치다",
+                    "content": "C008는 곧장 경찰차 안으로 들어간다."
+                },
+                {
+                    "location": "경찰 차",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008는 꼼짝없이 차 안에 갇힌 신세가 되지만 기지를 발휘해 차 밖으로 탈출한다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "content": "C008 앞으로 C003와 C006가 나타난다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "content": "그런데 C003와 C006는 서로를 범인으로 지목하고 있다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C008",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "content": "C008는 이들을 피해 집 안으로 도망친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C003",
+                "C002"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C009는 C006를 쏴 죽인 다음 미치광이로 돌변한다. 곧 C008 아버지에게 앙심을 품은 C009가 연쇄 살인을 저지른 뒤 그것을 C008 아버지에게 뒤집어 씌우려 했다는 사실이 드러난다.",
+            "unit_motif": "사이코패스",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "content": "C009는 C006를 쏴 죽인 다음 미치광이로 돌변한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "content": "곧 놀란 C008 앞으로 C003가 나타난다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "content": "C009는 C008의 아버지와 그녀의 엄마가 놀아났고 그 결과 그의 어머니가 자신의 곁을 떠났다는 뜻밖의 이야기를 꺼낸다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C003가 C008의 아버지를 데리고 나타난다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "곧 C009와 C003의 계략이 드러난다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "두 사람은 C008 어머니의 사망 1주기에 맞춰 C008 아버지가 살인을 저지른 것처럼 상황을 꾸며놓으려 한다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "한편 C009와 C003는 상황을 그럴듯하게 만들기 위해 서로의 옆구리를 칼로 찔러 버린다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C009",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "죽은 줄 알았던 C002이 총을 들고 나타난다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C009",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그런데 안전장치를 풀지 않은 C002을 그 자리에서 역공을 당한다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C008와 그녀의 아버지가 사라져 버렸다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "곧 전화벨이 울린다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C009가 받아보면 C008이다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 전에 녀석들이 했던 것과 똑같이 도로 갚아주려 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C009",
+                "C003",
+                "C002",
+                "C006",
+                "C010"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C008는 C002의 도움을 받아 C009와 C003를 해치워 버린다.",
+            "unit_motif": "복수혈전",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "살인자 복장한 C008는 C009를 우산대로 찌른다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "C003를 텔레비전에 깔려 죽게 만든다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "그런데 곧 죽은 줄 알았던 C009가 되살아난다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "죽음의 위기에 처한 C008를 C002이 구해준다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C002은 C009를 어깨에 총을 쏴 버린다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "content": "죽은 줄 알았던 C009가 다시 눈을 뜬다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "content": "C008는 가차 없이 C009의 이마 한가운데를 총으로 쏴 버린다."
+                },
+                {
+                    "location": "거실",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "content": "벽장에 갇혀있던 아빠를 발견하고 속박을 풀어준다."
+                },
+                {
+                    "location": "C003 집 앞",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "해치다",
+                    "content": "C010는 죽지 않고 구급차에 실려간다."
+                },
+                {
+                    "location": "C003 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "content": "C002이 단독으로 특종을 전한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1741 @@
+{
+    "title": "플랫폼",
+    "genre": [
+        "드라마"
+    ],
+    "theme": "탈출",
+    "concept": "C002는 뉴욕에 오지만 자신의 나라에 분쟁이 생겨 뉴욕공항 밖으로 나갈 수가 없다. C002는 C003와 사랑에 빠지고 C003 도움으로 뉴욕공항 밖으로 나갈 수 있게 된다. 공항 C001 C006는 허가를 안 해주고 많은 공항 직원들의 응원으로 C002는 뉴욕공항 밖으로 나가 아버지의 유언을 지켜준다.",
+    "motif": "지리적 고립",
+    "conflict": "C002는 자신의 나라의 분쟁으로 뉴욕공항에서 살게 된다. 공항 관리국 C006는 C002를 싫어하고 C002는 C003와 사랑에 빠진다. C003는 C002와 이별 선물로 뉴욕공항을 나갈 수 있게 해주지만 C006가 그것을 막는다. 공항 직원들의 응원으로 뉴욕공항을 벗어나 아버지의 유언을 완성한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C006",
+                "C002"
+            ],
+            "stage": "Main Character",
+            "storyline": "공항 관리국 책임자 C006가 C002에게 C002의 나라가 쿠데타로 유령 국가가 됐다고 알려주며, 모든 여권이 정지됐다고 알려준다.",
+            "unit_motif": "전쟁 발발",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "공항 관리국  모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "담담하다",
+                    "content": "공항 관리국 책임자 C006가 공항을 둘러본다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "입국 심사를 받는 C002, 심사에서 떨어진다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "관리국 직원이 와서 C002를 데리고 간다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "황당하다",
+                    "content": "관리국 직원이 C002의 여권을 압수한다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "혼란스럽다",
+                    "content": "공항 관리국 책임자 C006가 C002에게 C002의 나라가 쿠데타로 유령 국가가 됐다고 알려주며, 모든 여권이 정지됐다고 알려준다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "그리고는 C002에게 국적 불명의 신분이라며 입국이 안 된다고 딱 잘라 말한다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C006는 직원을 시켜 C002를 공항 환승 라운지에 두라고 지시한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "환승 라운지로 직원을 따라 나오는 C002, 직원은 호출기를 주며 여기 안에서 자유롭게 지내라고 한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "혼란스럽다",
+                    "content": "말이 통하지 않는 C002는 뭔가 잘못됐다는 것을 눈치채고는 TV 뉴스를 눈여겨본다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "답답하다",
+                    "content": "C002는 소리가 들리지 않자 답답해한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C004",
+                "C006",
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "환승 대기실에서 자고 화장실에서 씻는 C002, 공항에서의 생활을 시작한다.",
+            "unit_motif": "전쟁 발발",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "귀빈 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "불안하다",
+                    "content": "귀빈 라운지 TV를 보려는 C002, 담당자가 제지한다."
+                },
+                {
+                    "location": "귀빈 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C002는 문 밖에서 TV를 보며 눈물을 흘린다."
+                },
+                {
+                    "location": "공중전화박스",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "안타깝다",
+                    "content": "전화를 걸려고 하지만 방법을 몰라 헤매는 C002, 결국 공항에서 미아가 되고 만다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "난감하다",
+                    "content": "의자에 앉아 정신을 차리는 C002, 관리국 직원이 준 식권을 그만 잃어버리고 만다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "거부감",
+                    "content": "C004 아저씨에게 쓰레기통을 보여달라고 하지만 C002는 거절당하고 만다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "심란하다",
+                    "content": "대기실로 들어오는 C002, 의자들을 모아 침대로 만들어 잠을 청한다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "놀라다",
+                    "content": "C002는 창밖의 비행기 불빛에 놀라 벌떡 일어난다."
+                },
+                {
+                    "location": "공항 관리국",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "기쁘다",
+                    "content": "현재 C001이 C006에게 후임 C001으로 추천했다고 말하자 C006는 기뻐한다."
+                },
+                {
+                    "location": "공항 관리국",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "불안하다",
+                    "content": "대신 감사에만 걸리지 말라고 충고한다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "놀라다",
+                    "content": "모니터를 지켜보는 C006, C002가 잠옷을 입고 돌아다니자 화들짝 놀란다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "상쾌하다",
+                    "content": "C002는 세면대에서 몸을 씻는다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "입국 심사를 받으러 온 C002, 오늘도 통과되지 않자 상심한다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "여직원은 국가가 없으면 여권도 없다며 도와줄 수가 없다고 안타깝게 얘기한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006가 와서는 공항을 나가는 법을 몰래 가르쳐 주지만 C002는 나가지 않는다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "입국 심사 대기실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "단호하다",
+                    "content": "대기실 의자에 묵묵히 앉은 C002를 보며 C006는 직원에게 여길 떠나게 만들 거라고 으름장을 놓는다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "절박하다",
+                    "content": "배가 고픈 C002, 돈이 없자 비스킷에 케첩을 발라 먹는다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C006가 와서는 공항을 나가는 법을 몰래 가르쳐 준다."
+                },
+                {
+                    "location": "공항 출구 앞",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C006는 공항 출구 옆에서 슬그머니 빠진다."
+                },
+                {
+                    "location": "공항 출구 앞",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "망설이다",
+                    "content": "C002가 문 앞에서 머뭇 거린다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "답답하다",
+                    "content": "모니터로 C002를 확인하는 C006, 하지만 C002가 나갈 생각을 하지 않자 답답해한다."
+                },
+                {
+                    "location": "공항 출구 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "궁금하다",
+                    "content": "C002가 문을 열고 나가려다가 말고 CCTV 카메라와 장난을 친다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "허무하다",
+                    "content": "C006는 작전이 수포로 돌아가자 허탈해 한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "궁금하다",
+                    "content": "라운지로 돌아온 C002 앞에서 미끄러지는 스튜어디스 C003의 구두 굽을 줍는다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "기대되다",
+                    "content": "C002는 C003에게 다가가 구두 굽을 돌려준다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "반갑다",
+                    "content": "에스컬레이터를 타고 올라간 C003가 기다리고 있던 애인과 포옹을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C002",
+                "C006"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "카트를 모은 돈으로 햄버거를 사 먹고 공학 직원의 부탁도 들어주며 어느 정도 공항 생활에 적응해 가는 C002, 스튜어디스 C003를 보고 한눈에 반한다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "공항 화물칸",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "공항 C004가 동료들에게 C002가 CIA인데 우릴 감시하는 거라고 말한다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "감탄하다",
+                    "content": "배가 고픈 C002, 관광객이 카트를 넣자 카트에서 돈이 나오는 것을 본다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "보람차다",
+                    "content": "카트를 많이 모아 햄버거를 사 먹는다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "뿌듯하다",
+                    "content": "C002는 점점 더 많은 카트를 공항 이곳저곳에서 가져오기 시작한다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "보람차다",
+                    "content": "직원들이 모니터로 C002의 행동을 보며, 돈 버는 법을 터득했다며 웃는다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "약오르다",
+                    "content": "C006는 공항에서 적응을 하는 C002를 보고 약 올라 한다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C006는 C002의 대책을 준비라 하고 직원들에게 고함을 친다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "직원들은 일사불란하게 일을 하기 시작한다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "불편하다",
+                    "content": "C006는 심기가 불편해진다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "체념하다",
+                    "emotion": "답답하다",
+                    "content": "직원들은 C006를 이해하기 힘들어한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "카트를 모으는 직원이 채용되며 C002 더 힘들어진다. C002는 C003를 보고 첫눈에 반한다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "안타깝다",
+                    "content": "카트를 모으는 직원이 채용돼서 C002가 더 이상 카트로 돈을 못 번다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사다",
+                    "emotion": "기대되다",
+                    "content": "C002는 자신의 고국의 소식을 알기 위해 같은 여행 가이드 지만 자국 언어와 영어로 된 것을 구매한다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "읽다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 두 여행 가이드를 비교하며 영어를 배우기 시작한다."
+                },
+                {
+                    "location": "공항 식당 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "보람차다",
+                    "content": "C002는 TV에 나오는 고국의 상황을 이해하기 시작한다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "안타깝다",
+                    "content": "매일매일 비자를 받기 위해 출입국 신청서를 제출하지만 반려 당한다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "반하다",
+                    "content": "매일매일 힘들어하던 중 스튜어디스 C003를 보고 첫눈에 반한다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "자신감 있다",
+                    "content": "C003는 바닥 청소 표지 판을 보고 피해 간다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "돕다",
+                    "emotion": "기대되다",
+                    "content": "C002는 C003의 가방에 문제가 생기자 도와준다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "만족하다",
+                    "content": "C003는 고쳐진 가방을 끌어 보고 잘 되는 것을 보고 C002에게 고맙다고 한다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 C003를 첫눈에 반하지만 C003에게 남자가 있어 아쉬워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C005",
+                "C006"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C006는 C002를 공항에서 쫓아낼 궁리만 한다.",
+            "unit_motif": "짝사랑",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "참담하다",
+                    "content": "C002는 다시 비스킷으로 끼니를 때운다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "반갑다",
+                    "content": "스튜어디스 C003를 보고 반가워한다."
+                },
+                {
+                    "location": "공항 식당 주방",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "엔지니어 C005가 와서 입국 심사대 여직원과 잘 되는 것을 도와주면 식사를 제공하겠다고 한다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "emotion": "궁금하다",
+                    "content": "C005가 시키는 대로 입국 심사대 여직원에게 가서 C002는 정보를 캐낸다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "emotion": "고맙다",
+                    "content": "그 정보를 주고 도시락을 제공받는다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 전화를 받고는 급하게 뛰어간다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C006는 C002에게 이민국에 보내줄 테니 그쪽에서 망명의 기회를 줄 거라고 말한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "그리고 C006가 C002에게 한 가지만 대답해주면 당장 내보내주겠다고 한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 귀국하면 두렵나고 묻자 이나라고 답한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C006는 전시 상황인데 안 두렵냐고 묻는다. C002는 아니라고 한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "허무하다",
+                    "content": "C006는 C002를 내보내는 것을 포기한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C002는 C003와 점점 가까워진다. C002는 C003와 식사 비용을 위해 구직 활동을 한다.",
+            "unit_motif": "짝사랑",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 공중전화로 애인에게 바람맞는 C003를 본다."
+                },
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "애틋하다",
+                    "content": "C003는 자기가 유부남과 눈이 맞았다며 자책을 하자 C002가 위로한다."
+                },
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C003가 어디 가는 중이냐고 묻자, C002는 오랫동안 연착됐다고 둘러댄다."
+                },
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "난감하다",
+                    "content": "C003가 나가서 식사를 하자고 하자, C002가 나갈 수 없다고 한다."
+                },
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "서럽다",
+                    "content": "C003는 그럴 줄 알았다며 자학하며 간다."
+                },
+                {
+                    "location": "공중 전화",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "비장하다",
+                    "content": "C002는 C003와 식사를 하기 위해 돈을 벌기로 한다."
+                },
+                {
+                    "location": "공항 상점",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "기대되다",
+                    "content": "C002는 공항 내 상점에서 일자리를 구직활동을 한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "그립다",
+                    "content": "불이 꺼지는 환승 라운지에 누워 C002는 고향을 생각한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "주눅들다",
+                    "content": "C002는 축 처진 어깨로 의자에 앉아 있다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "emotion": "허무하다",
+                    "content": "C002는 대기실로 들어온다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "emotion": "심란하다",
+                    "content": "심란한 마음을 정리하기 위해 공사 중인 옆벽을 수리하기 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C005",
+                "C004",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "우연히 공항 벽을 수리를 한 C002, 공사장 간부가 보고 일을 맡긴다.",
+            "unit_motif": "짝사랑",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "보람차다",
+                    "content": "C002는 아침까지 벽에 페인트칠까지 다 한다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "당황하다",
+                    "content": "뒤에는 인부들이 나란히 서 있다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "감탄하다",
+                    "content": "인부 팀장이 벽을 보더니 마감이 죽인다며 C002를 칭찬한다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "기대되다",
+                    "content": "인부 팀장은 C002에게 일감을 주기로 한다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "emotion": "만족하다",
+                    "content": "C002는 공사장에서 페인트칠을 한다."
+                },
+                {
+                    "location": "화물칸",
+                    "character": [
+                        "C002",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "마시다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 C005의 초청으로 공항 직원들과 술 한잔한다."
+                },
+                {
+                    "location": "서점",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "반갑다",
+                    "content": "C002와 C003는 서점에서 다시 만난다."
+                },
+                {
+                    "location": "서점",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "거부감",
+                    "content": "C002는 점심을 같이 하자고 하지만 C003는 정중히 거절한다."
+                },
+                {
+                    "location": "서점",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "체념하다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 아쉬워한다."
+                },
+                {
+                    "location": "서점",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "서운하다",
+                    "content": "C003는 비행이 있다며 가버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C006는 C002를 경찰과 fbi에 신고를 하지만 허위신고로 거절된다. C006는 C002가 자신의 틀에서 벗어난 일을 들 때문에 화를 낸다.",
+            "unit_motif": "짝사랑",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "의심스럽다",
+                    "content": "C006는 CCTV 화면으로 C002를 감시한다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "직원에게 C002를 감금하라고 지시한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002를 감금한 C006가 미국 안보에 위협이 되는 친구라고 신고한다."
+                },
+                {
+                    "location": "공항 관리국 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "화나다",
+                    "content": "C006는 경찰도 FBI도 허위 신고로 모두 거절하자 화가 낸다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "공항 직원들을 불러 놓고 공항 관리 상태를 집중 관찰할 거라고 말한다."
+                },
+                {
+                    "location": "검사대",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "의심스럽다",
+                    "content": "C006는 마약쟁이를 단번에 알아보고 직원들이게 알려준다."
+                },
+                {
+                    "location": "검사대",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "답답하다",
+                    "content": "이때, 러시아에서 온 여행객이 난동을 부리자 C006는 할 수 없이 C002에게 통역을 부탁한다."
+                },
+                {
+                    "location": "검사대",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "화나다",
+                    "content": "C002의 기지로 난동을 막아내지만 C006는 C002가 맘에 들지 않는지 화를 낸다."
+                },
+                {
+                    "location": "검사대",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "불만족스럽다",
+                    "content": "공항 관리국 C001은 이 광경을 지켜보고 C006의 C001 추천을 철회한다."
+                },
+                {
+                    "location": "직원 휴게실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "열광하다",
+                    "content": "C004는 C002의 무용담을 직원들에게 들려준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C001",
+                "C005",
+                "C004",
+                "C003"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C002는 공항 직원의 도움을 받아 C003와 데이트를 하게 된다.",
+            "unit_motif": "짝사랑",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "반갑다",
+                    "content": "공항 직원들은 C002에게 환하게 웃으며 인사한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "한편, C006는 C001이 C002에게 인간에 대한 예의를 배우라고 충고한다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "비장하다",
+                    "content": "C002를 부른 C006, 이제부터 우리는 파트너라며, 진급을 못하면 뉴욕에도 못 간다고 한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "유쾌하다",
+                    "content": "면도를 하는 C002, 옆에서 한 여행객도 같이 면도를 한다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 C005, C004 등과 함께 몰래 들어와 C003가 언제 들어오는지 확인한다."
+                },
+                {
+                    "location": "명품 샵 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "진열된 명품 양복에 얼굴을 비추며 C002는 C003에게 데이트를 신청하는 연습을 한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "명품 정장을 입은 C002가 거울을 보며 말을 연습한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "초조하다",
+                    "content": "C002는 의자에 앉아 C003를 기다린다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "반갑다",
+                    "content": "잠시 후, C003가 나온다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기대되다",
+                    "content": "공항 직원들의 도움으로 C003와 재회하는 C002, 데이트 신청을 한다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "감탄하다",
+                    "content": "C002와 C003는 환승 라운지 2층에 따로 마련한 식사 테이블로 온다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "감동하다",
+                    "content": "공항 직원 친구들이 주문과 서빙을 해준다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "초조하다",
+                    "content": "C003는 헤어진 유부남에게 호출이 올까 봐 삐삐를 끄지 못한다고 말한다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "씁쓸하다",
+                    "content": "C002는 자기가 67게이트에 산다고 말한다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "심란하다",
+                    "content": "그리고는 자기도 기다리는 신세라고 한다."
+                },
+                {
+                    "location": "환승 라운지 2층",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "감동하다",
+                    "content": "C002의 말에 동질감을 느낀 C003가 삐삐를 밖으로 던져 버리고 좋아한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C005",
+                "C006"
+            ],
+            "stage": "Defeat",
+            "storyline": "C002는 공항 직원 C005가 입국 심사대 여직원과 결혼하는데 도움을 준다. 한편 C006는 C003에게 C002의 실체에 대해서 알려준다.",
+            "unit_motif": "짝사랑",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안타깝다",
+                    "content": "C002와 C003는 다음을 기약하며 헤어진다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002는 식수대가 낡은 것을 보고는 다가간다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 식수대를 뜯어고친다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "C005가 와서 도와달라고 부탁한다."
+                },
+                {
+                    "location": "임국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 C005의 프러포즈 반지를 여직원에게 전해준다."
+                },
+                {
+                    "location": "식당 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "행복하다",
+                    "content": "식당 앞 의자에서 기다리는 C005, 여직원이 와서는 반지 낀 손을 보여준다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "즐겁다",
+                    "content": "결혼식을 마친 C005와 여직원이 공항 카트를 타고 지나가자, C002와 공항 직원들이 축하해준다."
+                },
+                {
+                    "location": "출국장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "난감하다",
+                    "content": "C003가 공항 직원들에게 끌려간다."
+                },
+                {
+                    "location": "출국장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기대되다",
+                    "content": "C002는 그런 줄도 모르고 계속 기다린다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C006가 C003 게 C002에 대해 잘 아는지 물어본다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C002가 들어오자 기다리고 있던 C003가 거짓말이 많이 서툴다면서 이제 기다리는 것은 지쳤다며 돌아가려고 한다."
+                },
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C002는 C003에게 보여줄 게 있다고 한다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "감탄하다",
+                    "content": "C002는 화려하게 고쳐진 식수대를 보여준다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "애틋하다",
+                    "content": "항상 가지고 다니던 땅콩 캔에는 아버지의 기념품이 들어 있다고 고백한다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "애틋하다",
+                    "content": "우리 모두 기다리는 신세라고 말하는 C002, C003가 누굴 기다리냐고 묻자, C002는 바로 당신이라고 말한다."
+                },
+                {
+                    "location": "식수대",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "감동하다",
+                    "content": "C003는 크게 감동하고는 C002에게 키스한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C006"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "드디어 C002의 나라가 전쟁이 끝나자 C002는 공항 직원들과 축하파티를 연다. C003가 C002에게 1일 비자 선물을 주고는 애인에게 돌아간다. 1일 비자를 사용하려면 C006의 허락이 필요한 C002, C006는 거절한다.",
+            "unit_motif": "옛 연인의 출현",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "환승 라운지 대기실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "자고 있는 C002에게 공항 직원 친구들이 와서는 전쟁이 끝났다고 말해준다."
+                },
+                {
+                    "location": "공항 까페",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "고맙다",
+                    "content": "공항 직원들과 축하의 건배를 하는 C002, C003가 찾아와 1일 비자를 얻었다며 C002에게 준다."
+                },
+                {
+                    "location": "공항 까페",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "거부감",
+                    "content": "C003는 뉴욕에 함께 가자는 C002의 제안을 거절한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "절망하다",
+                    "content": "C003가 유부남 애인과 다시 만나는 모습을 보며 C002는 절망한다."
+                },
+                {
+                    "location": "입국 심사대",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "1일 비자를 보여주는 C002, 여직원은 C006의 사인이 필요하다고 말해준다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "주눅들다",
+                    "content": "C002는 1일 비자 사인을 해달라고 찾아온다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "C006는 C001을 승진했다며 C002의 항공권과 여권을 돌려주며 잘 돌아가라고 말해준다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002가 뉴욕에 가야겠다고 말하자, C006는 C002의 공항 친구들이 모두 불법 체류자라며 단칼에 자를 수 있다고 협박한다."
+                },
+                {
+                    "location": "C006 사무실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "주눅들다",
+                    "content": "C002는 할 수 없이 고국으로 돌아가겠다고 말한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "안타깝다",
+                    "content": "공항 직원 친구들은 짐을 들고 비행기를 타려는 C002를 막아선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C002",
+                "C006",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C002의 친구 C004 할아버지가 대걸레로 비행기를 막아서는 모습을 보고는 C002는 공항 밖으로 나가기로 결심한다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "활주로",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "C004는 비행기를 대걸레를 들고 막아선다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "비장하다",
+                    "content": "창밖으로 C004를 보며 용기를 얻는 C002, 뉴욕에 가기로 결심하고는 공항 정문으로 향한다."
+                },
+                {
+                    "location": "환승 라운지",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "자랑스럽다",
+                    "content": "공항 직원들이 몰려와 힘을 실어 준다."
+                },
+                {
+                    "location": "공항 관리국 모니터실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "모니터로 C002를 주시하는 C006, 출구를 봉쇄하라고 명령한다."
+                },
+                {
+                    "location": "공항 정문",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "난감하다",
+                    "content": "C002는 공항 경비대와 대치한다."
+                },
+                {
+                    "location": "공항 정문",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "애틋하다",
+                    "content": "공항 경비대는 C006의 지시를 무시하고 C002에게 길을 터준다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "홀가분하다",
+                    "content": "눈이 오는 공항 밖으로 나오는 C002, 뿌듯한 표정을 짓고는 택시를 부른다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "자신감 있다",
+                    "content": "C003는 택시에서 내린다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "반갑다",
+                    "content": "두 사람은 아무 말 없이 본다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C003는 미소를 지으며 공항으로 들어간다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 택시를 타고 떠난다."
+                },
+                {
+                    "location": "공항 정문 밖",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "뒤늦게 도착한 C006가 체념하며 다시 업무로 복귀하라고 공항 경비대에게 명령한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Resurrection",
+            "storyline": "뉴욕으로 간 C002는 아버지의 소원인 재즈 아티스트의 사인을 받는다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 택시에서 내려 호텔로 들어간다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "설레다",
+                    "content": "아버지의 소원인 재즈 아티스트가 연주를 하고 있다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002는 종업원에게 부탁해 가장 앞자리에 자리를 잡는다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "울다",
+                    "emotion": "사무치다",
+                    "content": "연주를 들으며 지금까지 고생과 연주의 감동의 눈물을 흘린다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "기대되다",
+                    "content": "C002는 사인을 해달라고 팬과 종이를 들고 신호를 보낸다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "즐겁다",
+                    "content": "아티스트는 안된다는 손짓을 하며 공연이 끝나고 해주겠다고 한다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "행복하다",
+                    "content": "공연의 노랫소리가 C002의 가슴속으로 울러 퍼져 나간다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "조용한 뉴욕 거리로 C002가 걸어 나온다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "홀가분하다",
+                    "content": "땅콩통 속에 사인받은 종이를 넣고 C002는 홀가분해 한다."
+                },
+                {
+                    "location": "뉴욕 호텔",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "편안하다",
+                    "content": "C002는 택시를 타고 운전사가 어디로 가냐는 질문에 집으로 간다고 한다."
+                }
+            ]
+        }
+    ]
+}

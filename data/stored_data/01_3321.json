@@ -1,0 +1,3606 @@
+{
+    "title": "죽음의 시간",
+    "genre": [
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "낯선 해변으로 휴가를 보내려고 온 사람들은 시간이 빠르게 흘러 하루 만에 늙게 되는 기이한 현상을 겪는다.",
+    "motif": "저주받은 장소",
+    "conflict": "낯선 해변에서 겪는 기이한 현상으로부터 사람들은 탈출하려고 한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C015"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C005",
+                "C007"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001, C002, C003, C004는 가족여행을 가기 위해 리조트에 간다.",
+            "unit_motif": "만남",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C001, C002, C003, C004는 가족여행을 가기 위해 버스를 타고 리조트로 가고 있다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C001, C002, C003, C004는 리조트에 도착했다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "안녕하세요. 리조트 매니저 C005입니다. 저희 리조트에 오신 걸 환영합니다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "설레다",
+                    "content": "C001와 C002는 C005가 주는 웰컴 드링크를 마신다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C003와 C004는 리조트 안에 있는 식당으로 갔다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반갑다",
+                    "content": "C003와 C004는 식당에서 C007을 만났다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "안녕. 반가워. 이 리조트 매니저가 나의 삼촌이야."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "설레다",
+                    "content": "C003와 C004는 C007과 함께 식당에 있는 아이스크림을 먹는다."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C001, C002, C003, C004는 리조트 방으로 간다."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001는 테이블 위에 놓인 리조트 팸플릿을 본다."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 팸플릿을 보더니, C002에게 이 리조트가 제약회사 계열사라고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007",
+                "C015",
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001와 C002는 이혼에 대한 이야기를 한다.",
+            "unit_motif": "가족 불화",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "놀다",
+                    "emotion": "반갑다",
+                    "content": "C004와 C007은 함께 해변가에 있는 사람들에게 질문을 하며 놀고 있다."
+                },
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "안녕하세요. 당신은 어떤 사람인가요?"
+                },
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "반갑다",
+                    "content": "C015는 이름을 알려주며 직업은 경찰이라고 대답한다."
+                },
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "C004와 C007은 해변가에서 이야기를 한다."
+                },
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "슬프다",
+                    "content": "C007은 C004에게 친구가 없다고 고백한다."
+                },
+                {
+                    "location": "해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 C007에게 친구가 돼주겠다고 한다."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "슬프다",
+                    "content": "그날 밤 C001와 C002는 리조트 방에서 이야기를 한다."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "슬프다",
+                    "content": "여행 오기 전에 아이들에게 우리 이혼 얘기를 하기로 약속했잖아."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "슬프다",
+                    "content": "이혼은 내 종양과 상관없어. 그러니 이만 정리해."
+                },
+                {
+                    "location": "리조트 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C001는 성급하게 굴지 말라며 말한다."
+                },
+                {
+                    "location": "리조트 거실",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "듣다",
+                    "emotion": "슬프다",
+                    "content": "C003와 C004는 리조트 거실에서 엄마, 아빠의 싸우는 소리를 듣고 있다."
+                },
+                {
+                    "location": "리조트 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C004는 낮에 C007이 준 쪽지를 본다."
+                },
+                {
+                    "location": "리조트 거실",
+                    "content": "쪽지에는 이상한 문자들이 적혀있다."
+                },
+                {
+                    "location": "리조트 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C004는 알파벳을 대입시켜 문자들 밑에 적는다."
+                },
+                {
+                    "location": "리조트 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "유쾌하다",
+                    "content": "C004가 적은 쪽지에는 내일 아이스크림 대회가 있다고 쓰여있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "여자",
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C006",
+                "C009",
+                "C010",
+                "C008"
+            ],
+            "stage": "Main Character",
+            "storyline": "리조트 매니저는 카파 가족에게 특별한 장소가 있다며 소개해준다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014",
+                        "여자"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "이른 아침 섬 해변가에 C014과 한 여자가 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "여자"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "여자는 옷을 벗고 바닷속으로 들어간다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C014은 그 모습을 지켜본다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "담담하다",
+                    "content": "C001, C002, C003, C004는 아침식사를 하기 위해 리조트 식당에 앉아있다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C006는 C002에게 오늘 일정이 어떻게 되는지 묻는다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C002는 일정에 대해서 대답해 준다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 C001와 C002에게 희귀광물 암석으로 둘러싸인 사유지가 있다고 말한다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 특별한 분들에게만 알려주는 곳이라며, 갈 생각이 있으면 차를 준비해 주겠다고 한다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "설레다",
+                    "content": "C002는 가겠다고 말한다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "content": "갑자기 리조트 식당에서 큰소리가 난다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "당황하다",
+                    "content": "C009가 쓰러져 경련을 일으킨다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "무슨 일이죠? 도와줄까요? 전 의사입니다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "전 간호사입니다. 제 아내는 간질환자입니다. 제가 잘 돌볼게요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C010",
+                "C011",
+                "C012",
+                "C013",
+                "버스 운전기사"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001, C002, C003, C004, C010, C011, C012, C013는 특별한 섬 해변가에 간다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기대되다",
+                    "content": "C001, C002, C003, C004 는 매니저가 알려준 섬 해변가로 가기 위해 버스를 탔다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "반갑다",
+                    "content": "C004는 버스 안에서 C007이 놓고 간 쪽지를 발견한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C010",
+                        "C011",
+                        "C012",
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C010, C011, C012, C013는 강아지와 함께 버스를 탄다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "특별한 사람에게만 섬 해변가를 소개해 준다더니 다른 사람도 있잖아."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 버스를 운전해서 C006가 말해준 섬으로 간다."
+                },
+                {
+                    "location": "섬 입구",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 섬 입구에 관광객들을 내려주고 돌아간다."
+                },
+                {
+                    "location": "섬 입구",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C010",
+                        "C011",
+                        "C012",
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001, C002, C003, C004, C010, C011, C012, C013는 짐을 챙겨 섬 입구로 들어간다."
+                },
+                {
+                    "location": "협곡",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C010",
+                        "C011",
+                        "C012",
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001, C002, C003, C004, C010, C011, C012, C013는 협곡을 지나 섬 해변가에 도착한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C010",
+                        "C011",
+                        "C012",
+                        "C013"
+                    ],
+                    "act": "보다",
+                    "emotion": "기대되다",
+                    "content": "C001, C002, C003, C004, C010, C011, C012, C013는 짐을 정리하고, 해변가를 돌아본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "설레다",
+                    "content": "C003는 해변가 한쪽에 앉아있는 C014을 발견한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "그 사람이 누군데?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "설레다",
+                    "content": "C003는 래퍼라고 대답하며 인사해도 되냐고 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C001는 그 사람도 휴가를 즐기러 온 것일 테니 안된다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C012",
+                "C002",
+                "C001",
+                "C010",
+                "C014"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004는 숨바꼭질을 하던 중 시체를 발견한다.",
+            "unit_motif": "죽음",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C003, C004, C012는 섬 해변가를 뛰어놀고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "C003, C004, C012는 모래에서 호텔 물건들을 발견한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "궁금하다",
+                    "content": "여기 모래에 호텔 물건들이 있어요. 근데 오래된 물건 같아요. 녹슨 칼도 있어요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "걱정",
+                    "content": "만지지 말고 이리 와. 다치면 어떻게 해."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C003, C004, C012는 숨바꼭질을 한다."
+                },
+                {
+                    "location": "협곡 안 물속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "즐겁다",
+                    "content": "C004는 협곡 안 물속에 숨어있다."
+                },
+                {
+                    "location": "협곡 안 물속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C004는 등 뒤에서 뭔가가 닿는 것을 느끼고, 놀라서 해변가로 뛰어간다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C002는 놀라서 C004에게 다가가 무슨 일인지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "누가 있는 거 같아요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C010"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "놀라다",
+                    "content": "C001는 물속에서 시체를 발견하고, C010와 함께 시체를 꺼낸다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C014이 이 모습을 보고 다가온다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C014은 시체를 보고 놀라며 코피를 흘린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C014",
+                "C010",
+                "C013",
+                "C011",
+                "C008",
+                "C009"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C008과 C009는 뒤늦게 섬 해변가에 도착한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 C014에게 아는 여자인지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C014은 여자가 수영하러 간다고 해서 기다리는 중이었다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C010는 C001에게 C014을 때렸는지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "안 때렸어요. 무슨 말입니까."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "근데 왜 이 사람이 코피를 흘리나요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "한편, C013는 해변가에 누워서 C011에게 가슴이 답답하다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C011은 C013 때문에 섬에 왔다고 짜증을 낸다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C010는 핸드폰이 안 된다고 짜증을 낸다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C008과 C009는 섬 해변가에 도착해서 C001와 C010, C014을 만난다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "C008은 방에서 쉬느라 늦게 도착했다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 C008에게 버스 운전기사가 데려다줬는지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 버스 운전기사가 가기 전에 돌아가야 한다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C008은 버스 운전기사는 벌써 갔다고 말하고, 무슨 일이 있는지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C010는 C008에게 시체를 보여주며, C014이 계속 코피를 흘리는 거 보니 시체와 연관이 있는 거 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불쾌하다",
+                    "content": "C014은 코피는 몇 시간 전부터 이유 없이 나고 있다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C011",
+                "C008",
+                "C009",
+                "C010",
+                "C013",
+                "C002",
+                "C003",
+                "C004",
+                "C012"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C013가 갑자기 죽는다.",
+            "unit_motif": "부모/조부모의 죽음",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C011은 C010에게 다가와 어머니가 이상하다고 소리친다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C008은 핸드폰이 안 터진다며 C009에게 섬 입구로 나가본다고 말한다."
+                },
+                {
+                    "location": "협곡",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C008은 섬 입구로 가기 위해 협곡을 지나간다."
+                },
+                {
+                    "location": "협곡",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "무섭다",
+                    "content": "C008은 갑작스러운 통증에 쓰러진다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "얼마 후, C008은 섬 해변가에서 일어난다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C009는 C008에게 협곡에서 쓰러졌다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "한편, C010는 C013에게 다가가 괜찮은지 걱정한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C013는 괜찮다고 말하며, 오히려 C010가 스트레스받은 건 아닌지 걱정한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C002가 C010에게 다가와 아들이 갑자기 성장한 것 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C010는 C002와 함께 C004의 상태를 보기 위해 이동한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C011은 C010에게 어머니가 숨을 안 쉰다고 소리친다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C010는 C013에게 돌아와 심폐소생술을 하지만, C013는 숨을 멎는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "한편, C003, C004, C012는 섬 해변가에서 이야기를 하고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C004는 언덕 능선에 뭔가가 반짝인다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C008",
+                "C009",
+                "C002",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001와 C002는 갑자기 성장한 C003와 C004를 보고 놀란다.",
+            "unit_motif": "충격",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "C003, C004, C008, C009는 섬 해변가에서 이야기를 나누고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C008은 C004에게 몇 살인지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "너 열한 살쯤 된 거 같은데 맞지?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "황당하다",
+                    "content": "C004는 여섯 살이라고 대답한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C008은 C004의 대답에 놀라서 거짓말하지 말라고 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "진짜 여섯 살 맞아요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 누나가 열한 살이라고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C009는 C008에게 시체를 봐서 충격받은 거 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 C009와 C008에게 다가와 C003와 C004를 봤는지 물어본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "지금 우리한테 장난치는 거예요? 당신 아이들 여기 있잖아요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "엄마. 우리 못 알아보는 거예요?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002는 C004와 C003를 보고 놀라서 아무 말도 못 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C003는 C002에게 왜 이상한 눈으로 보냐고 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "불안하다",
+                    "content": "C004는 C002에게 뛰어가 안긴다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001가 C002에게 뛰어와 아이들을 데리고 리조트로 돌아가자고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001는 갑자기 성장한 C003와 C004를 보고 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C010",
+                "C002",
+                "C008",
+                "C009",
+                "C011",
+                "C001"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C014의 얼굴에 난 상처가 금세 사라졌다.",
+            "unit_motif": "기습",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C014은 섬을 나가기 위해 협곡 쪽으로 도망친다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "C010는 도망치는 C014을 보고 따라간다."
+                },
+                {
+                    "location": "협곡",
+                    "character": [
+                        "C014",
+                        "C010"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "당황하다",
+                    "content": "C014과 C010는 협곡을 통과하지 못하고 알 수 없는 통증에 쓰러진다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014",
+                        "C010"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "당황하다",
+                    "content": "C014과 C010는 섬 해변가에서 눈을 뜬다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C010는 머리가 깨질 듯이 아프다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C002가 다가와 아이들을 데리고 나가야겠다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C008은 협곡을 지나면 정신을 잃는다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C002는 C001와 C008에게 나갈 수 있는 방법을 찾아보라고 말한다."
+                },
+                {
+                    "location": "협곡",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C008, C009, C010, C011은 협곡 쪽으로 가서 나갈 수 있는 방법을 찾으려 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "당황하다",
+                    "content": "C008, C009, C010, C011은 섬 해변가에 쓰러졌다가 눈을 뜬다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "무섭다",
+                    "content": "C001와 C002는 이섬에서 뭔가 이상한 일이 벌어지고 있다고 알게 된다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "의사 딸 C012도 이상해졌어. 어린아이가 갑자기 커졌다고."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "담담하다",
+                    "content": "C010는 갑자기 주머니에서 칼을 꺼내 C014의 얼굴을 긁어 공격한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "다치다",
+                    "emotion": "당황하다",
+                    "content": "C014의 얼굴은 칼에 긁혀 흉터가 났고 피가 났다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "당황하다",
+                    "content": "C014이 날 공격하는 줄 알았어요. 내가 오해했나 봐요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C010는 이상한 말을 하며 정신이상 증세를 보인다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C008은 C014의 얼굴이 괜찮은지 보여달라고 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "content": "C014의 얼굴에 생긴 상처와 피가 사라졌다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C008",
+                        "C009",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001, C002, C008, C009, C010는 C014의 얼굴에 난 상처가 사라진 것을 보고 놀란다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C014은 섬에서 나가야겠다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C014은 몸이 아파서 리조트에 휴가 왔으며 죽은 여자도 병을 갖고 있었다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "지금 둘 다 아픈 환자들이라는 말이에요?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C009는 모두 불안한 상태라 섬에서 못 나갈 거라는 망상에 빠진 거 같다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C010",
+                "C003",
+                "C002",
+                "C008",
+                "C009",
+                "C001"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C009의 몸에 있던 종양이 점점 커져 수술을 하게 된다.",
+            "unit_motif": "간호/치료",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C010는 아이들을 보며 점점 성장해가는 것 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C003는 C002에게 무슨 상황인 건지, 괜찮은 건지 물어본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "나도 잘 모르겠어. 근데 너의 몸이 자라서 지금 입고 있는 수영복이 작은 거 같으니까 엄마 가방에서 수영복 꺼내 갈아입어."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C008은 C010에게 강아지가 죽었다고 소리친다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C010는 조금 전까지 멀쩡했던 강아지가 죽었다고 해서 당황한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C009는 사람들을 불러 모은다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C009는 이 섬, 리조트에는 어떻게 오게 됐는지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C002가 갑자기 몸이 이상해지는 거 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C001는 C002가 종양이 있다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C008은 C002의 종양 위치를 보고 크기가 골프공만 하다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C002는 여행 오기 전 종양 크기는 3센티였다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "당황하다",
+                    "content": "C002가 갑자기 쓰러진다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C010는 종양이 크다며 수술을 해야 한다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "걱정",
+                    "content": "C001는 어떤 결정을 내려야 할지 모르겠다고 말하지만, 결국 C010를 믿고 수술을 해달라고 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간호/치료하다",
+                    "emotion": "담담하다",
+                    "content": "C010는 갖고 있던 칼로 C002의 배를 절개한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "C002의 배에 상처가 났지만, 금세 상처가 아물었다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "절개한 부위를 손으로 벌리고 있을 테니 그 사이에 종양을 꺼내봐요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간호/치료하다",
+                    "emotion": "황당하다",
+                    "content": "C010는 C002의 배를 다시 한번 칼로 절개한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "간호/치료하다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C008은 절개한 부위를 손으로 벌리고 C010는 종양을 꺼낸다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "content": "C002의 배에서 종양을 꺼내자 C002의 배의 상처는 다시 아물었다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "담담하다",
+                    "content": "C002는 잠시 기절한 거 같다며 일어난다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C001는 C002에게 종양을 꺼냈다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "나 이제 아프지 않아. 몸이 좋아진 거 같아."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C002",
+                "C001",
+                "C008"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "죽은 지 20시간도 안 된 시신이 부패됐고, C002는 C001의 얼굴에 주름이 있음을 발견한다.",
+            "unit_motif": "충격",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C014은 시체가 있는 곳으로 간다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "놀라다",
+                    "content": "C014은 시체를 덮어뒀던 천을 걷는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C014은 소리치며 사람들을 불러 모은다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C002는 시체를 보고 시신이 부패했다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C002는 뼈가 분해되려면 30년은 걸린다고 말하며 이상함을 느낀다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C014은 죽은 지 20시간도 안됐는데 먼지로 변했다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "무슨 뜻이죠? 무슨 말이 하고 싶은 겁니까?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C008은 이 섬의 시간에 문제가 있다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002는 C001의 얼굴을 자세히 본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C001. 당신 얼굴이 이상해. 얼굴이 늙어 보여."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C012",
+                "C002",
+                "C008",
+                "C014",
+                "C011",
+                "C010",
+                "C003",
+                "C009",
+                "아기"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C012는 C004의 아이를 낳지만, 아이는 숨을 멎는다.",
+            "unit_motif": "죽음",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "텐트 안",
+                    "character": [
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 C012는 성인의 몸으로 성장해서 텐트 안에 누워 서로를 안고 있다."
+                },
+                {
+                    "location": "텐트 안",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "우리 왜 이렇게 변한 걸까?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C002는 사람들에게 이곳 섬에서의 30분은 우리 생의 1년과 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C008은 아이들은 엄청난 속도로 몸이 성장하고 있고, 어른들은 세포가 늙어가고 있다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C014은 이 섬에 하루 있으면 50살을 먹는 거라고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C008은 섬 주변을 둘러싼 바위가 원인일지 모른다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "걱정",
+                    "content": "C002는 C004와 C012가 없다는 걸 알고 C004와 C012를 찾는다."
+                },
+                {
+                    "location": "텐트 밖",
+                    "character": [
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C004와 C012는 텐트 밖으로 나온다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002",
+                        "C011"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002와 C011은 C004와 C012의 배를 보고 놀란다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "C011은 C012에게 C004와 무슨 짓을 했는지 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "너무 많이 먹어서 배가 나왔나 봐요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C008은 C012의 배를 보고 응급실에 왔으면 임신 5개월 진단을 받았을 거라고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "C010는 이상한 말을 하며 정신이상 증세를 보인다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "나 배가 점점 커지는 거 같아요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 C012를 담요 위에 눕힌 후, 뱃속 아기가 금방 태어날 거 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C011은 도움을 청해야 한다며 섬 밖으로 나가기 위해 협곡으로 뛰어간다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "C011은 협곡을 통과하지 못하고 해변가에 쓰러져있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "걱정",
+                    "content": "C003가 C011을 발견해서 데리고 온다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C012는 아기를 낳는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "받는다",
+                    "emotion": "슬프다",
+                    "content": "C009는 C012가 낳은 아기를 받는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "아기"
+                    ],
+                    "act": "죽다",
+                    "content": "아기는 태어나자마자 숨을 멎는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C014은 섬의 시간이 너무 빨라 아기가 살 수 없다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C010. 우리 여기서 나가야 해. 어떻게 좀 해보라고."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C010는 이상한 말을 하며 정신이상 증세를 보인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C010",
+                "C001",
+                "C008",
+                "C009",
+                "C002",
+                "C003",
+                "C004",
+                "C012",
+                "C011"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001는 C002에게 섬에 어떻게 오게 됐는지 물어본다.",
+            "unit_motif": "조사/정찰",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C014은 노을이 지는 섬 해변가에 앉아 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "담담하다",
+                    "content": "C010는 C014을 칼로 찔러 죽인다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C010에게 다가가 C010 손에 있는 칼을 뺏는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 C001에게 다른 해변을 찾아 도움을 청하겠다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C008은 C009가 약을 먹지 못했는데 다행히 발작이 없다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C009는 발작이 없는 이유가 해변 때문인 거 같다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 다른 해변을 찾아 도움을 청하기 위해 바닷속으로 뛰어든다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C009",
+                        "C012",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001, C002, C003, C004, C009, C011, C012는 섬 해변가에 모여 이야기를 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 C002에게 가족마다 환자가 한 명씩 있다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "이 섬은 어떻게 알고 오자고 한 거야?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불안하다",
+                    "content": "C002는 약국 영수증의 경품에 당첨돼서 메일이 왔다고 대답한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 누군가가 C002에게 C002의 병에 대해 알고 메일을 보낸 거 같다고 말한다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "act": "보다",
+                    "content": "섬 능선에 누군가가 이들을 지켜보고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C001",
+                "C004",
+                "C009"
+            ],
+            "stage": "Defeat",
+            "storyline": "다른 해변가로 도움을 청하러 간 C008이 죽어서 돌아온다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "속상하다",
+                    "content": "C002와 C003는 해변가에 서서 이야기한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "슬프다",
+                    "content": "C003는 C002에게 아빠를 떠날 생각이었냐고 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "슬프다",
+                    "content": "C002는 아빠와 헤어질 생각이었지만, 지금은 다 부질없는 거 같다고 대답한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "슬프다",
+                    "content": "C002는 엄마가 많이 밉냐고 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C003는 생각할 시간이 필요하다고 뒤돌아 간다."
+                },
+                {
+                    "location": "바닷속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C003는 슬픔에 잠겨 바닷속으로 들어간다."
+                },
+                {
+                    "location": "바닷속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "슬프다",
+                    "content": "C003가 물속에 서서 생각에 잠겨있는데 C008의 시체가 C003와 부딪친다."
+                },
+                {
+                    "location": "바닷속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C003는 깜짝 놀라 소리치며 해변가로 뛰쳐나온다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C004는 죽은 C008을 해변가로 데리고 나온다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C009는 죽은 C008을 보고 울부짖는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C012",
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Defeat",
+            "storyline": "C012는 섬을 탈출하기 위해 절벽을 올라가려고 하나 떨어져 죽는다.",
+            "unit_motif": "탈출",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C004와 C012는 섬 절벽 아래 앉아서 이야기한다."
+                },
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "섬에서 나가지 못하는 걸까?"
+                },
+                {
+                    "location": "섬 절벽",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C012는 아빠가 사람을 더 죽이기 전에 섬을 나가야 한다며 섬 절벽을 올라간다."
+                },
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C012 안돼. 올라가다가 기절하면 어떻게 해. 빨리 내려와."
+                },
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C002, C003는 C004가 말하는 소리를 듣고 뛰어온다."
+                },
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C001는 C012에게 위험하니 내려오라고 소리친다."
+                },
+                {
+                    "location": "섬 절벽",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C012는 멈추지 않고 섬 절벽을 올라간다."
+                },
+                {
+                    "location": "섬 절벽",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "무섭다",
+                    "content": "C012는 갑자기 섬 절벽에 매달린 채 움직이질 않는다."
+                },
+                {
+                    "location": "섬 절벽",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "C012는 섬 절벽에서 기절한 채 떨어진다."
+                },
+                {
+                    "location": "섬 절벽 아래",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C004는 섬 절벽에서 떨어져 죽은 C012를 보고 울부짖는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C009",
+                "C011"
+            ],
+            "stage": "Defeat",
+            "storyline": "C009는 발작 증세를 일으키며 죽고, C001와 C002, C011은 점점 늙어간다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C001, C002, C003, C004는 해변가로 걸어오며 같이 있자고 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C009는 섬에서 탈출해야 한다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "무섭다",
+                    "content": "C009가 갑자기 쓰러져 발작 증세를 일으킨다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "죽다",
+                    "content": "C009는 발작 증세를 반복하더니 죽었다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C001는 죽은 C009를 본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001는 죽은 C009의 모습이 흐릿하게 보이는걸 느낀다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001는 C002를 보는데 C002의 모습이 흐릿하게 보인다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "당황하다",
+                    "content": "C001는 자신의 눈이 점점 안 보인다는 것을 알고 당황한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C011은 해가 진 섬 해변가를 걷고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C012 본 사람 없나요? C012가 사라졌어요."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "당황하다",
+                    "content": "C002는 C001와 C003, C004가 이야기하는 것을 듣는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "당황하다",
+                    "content": "C002는 C001와 C003, C004의 목소리가 점점 안 들린다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "당황하다",
+                    "content": "C002는 자신의 귀가 점점 안 들리고 있다는 것을 알고 당황한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C011은 해변가에 놓은 거울을 통해 자신의 얼굴을 본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C011은 자신의 늙은 얼굴과 굽은 등을 보고 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Another Story",
+            "storyline": "C003와 C004는 모래 속에서 섬에 관련된 내용이 적혀있는 노트를 발견한다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C002는 어두운 밤 해변가에 앉아서 이야기를 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C002와 부부 사이의 문제에 대해 이야기한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "후회하다",
+                    "content": "C001는 C002에게 자신은 겁쟁이라고 자책한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C002는 모든 잘못은 자신에게 있다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "행복하다",
+                    "content": "나는 지금 당신 옆에 있어서 행복해."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "나 역시 지금 이곳에서 당신과 함께라서 행복해."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C004는 모래 속을 뒤지며 불 피울만한 것을 찾고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 모래 속에서 노트를 발견한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 C004에게 노트 내용을 읽어준다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003는 C004에게 해변 주변 바위들이 노화를 촉진한다고 노트에 적혀있다 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 금속 튜브를 만들어서 그 안에 들어가면 노화를 막을 수 있을 거라 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C004는 언덕 능선에서 카메라가 찍고 있는 것을 발견한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C010",
+                "C003",
+                "C004",
+                "C011"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C010는 C001와 C002를 공격하지만, C002의 공격으로 C010는 죽는다.",
+            "unit_motif": "죽음",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C002는 해변가에 앉아 생각에 잠겨있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 누가 다가오는 소리가 들리지만 눈이 잘 안 보인다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "C001는 C002에게 누가 오는 거냐고 묻는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 귀가 들리지 않아 C001의 물음에 답을 하지 못한 채 앉아있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "불안하다",
+                    "content": "C010는 이상한 말을 하며 칼로 C001를 공격한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002는 옆을 돌아보다가 C010가 C001를 공격하는 것을 보고 막으려 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다치다",
+                    "emotion": "놀라다",
+                    "content": "C001는 눈이 보이지 않아 C010의 공격을 제대로 막지 못한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "C001는 C002에게 칼이 어디 있는지 묻지만, C002는 귀가 안 들려 듣지 못한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "놀라다",
+                    "content": "C002는 C001를 보호하기 위해 C001를 안는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "불안하다",
+                    "content": "C010는 C002의 등 뒤에 칼을 계속 꽂는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 C002를 보호하기 위해 C010를 공격하려 하지만, 눈이 보이지 않아 C010의 칼에 얼굴을 긁힌다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C002는 C003와 C004를 보호하기 위해 아이들에게 뛰어간다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C002는 C003와 C004에게 빨리 숨으라고 소리친다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C003와 C004는 협곡 입구로 도망친다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C011이 협곡 입구에서 울고 있다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "무섭다",
+                    "content": "C003와 C004는 우는소리가 나서 성냥을 켜 누가 있는지 확인한다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "슬프다",
+                    "content": "불 켜지마! 날 보지 말란 말이야."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "슬프다",
+                    "content": "C011은 C003와 C004에게 보지 말라며 돌을 던지려고 한다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "절망하다",
+                    "content": "C011은 노화로 인해 돌을 제대로 들지 못하고 쓰러진다."
+                },
+                {
+                    "location": "협곡 입구",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "죽다",
+                    "emotion": "절망하다",
+                    "content": "C011의 뼈가 꺾이면서 C011은 죽는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "불안하다",
+                    "content": "한편, C010는 C001를 죽이기 위해 공격하고 있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "무섭다",
+                    "content": "C002가 나타나 녹슨 칼로 C010를 공격한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 녹은 혈관에 들어가면 독이 된다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "죽다",
+                    "emotion": "무섭다",
+                    "content": "C010는 혈관을 타고 들어오는 독 때문에 서서히 죽는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001와 C002는 노화로 인해 죽음을 맞이한다.",
+            "unit_motif": "부모/조부모의 죽음",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001, C002, C003, C004는 해변가에 앉아 이야기를 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "C003는 C002에게 춥지 않은지 물어본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C003를 바라보지만, 귀가 안 들려 C003의 말을 듣지 못한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C003는 C001와 C002를 위해 울면서 노래를 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C002는 서로를 바라본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C002. 우리에게 어떤 일이 있었지? 기억이 나지 않아."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 이제 상관없다고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C002는 서로 대화를 하며 서로의 어깨에 기댄다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "죽다",
+                    "emotion": "담담하다",
+                    "content": "C001가 갑자기 쓰러져 죽는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽다",
+                    "emotion": "슬프다",
+                    "content": "C002는 C001의 죽음을 보고 일어나 걷다가 쓰러져 죽는다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C003와 C004는 C001와 C002의 죽음에 울부짖는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C004는 C007이 준 쪽지의 암호를 해석한다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "다음날 아침, C003와 C004는 주름진 손을 보며 이야기를 나눈다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이 섬에서 나갈 방법을 더 생각해 봐야 할까?"
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래. 그렇게 하자."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C004는 섬을 나가기 전에 모래성을 만들기로 한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 섬에 오기 전 버스에 C007이 놓고 간 쪽지를 생각해낸다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004는 C007의 쪽지에 있는 암호를 해석한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004가 해석한 암호에는 삼촌은 산호초를 싫어해라고 쓰여있다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004는 바닷속에 있는 산호초를 바라본다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C004는 C003에게 산호초가 바위로부터 지켜줄 거라고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C004는 C003에게 산호초가 지켜줄 거라고 말한다."
+                },
+                {
+                    "location": "섬 해변가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C004는 C003에게 C007이 리조트와 섬의 비밀을 알아 도와주려고 쪽지를 보낸 거 같다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "버스 운전기사"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C003와 C004는 바닷속 산호초 안으로 들어간다.",
+            "unit_motif": "결심",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "바닷속",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C004는 바닷속으로 뛰어들어 헤엄친다."
+                },
+                {
+                    "location": "산호초 속",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C004는 산호초 속으로 들어간다."
+                },
+                {
+                    "location": "산호초 속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "C003의 옷이 산호초 가지에 걸려 C003가 움직이지 못한다."
+                },
+                {
+                    "location": "산호초 속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "C004가 C003에게 다가가 옷을 찢으려 하지만, 찢기지 않는다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "한편, 버스 운전기사가 언덕 능선에서 카메라로 지켜보고 있다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 해변과 산호초 속에 C003와 C004가 없는 것을 확인한다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 어디론가 전화해서 C003와 C004가 익사했다고 말한다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "버스 운전기사는 산호초 속으로 왜 들어갔는지 궁금해한다."
+                },
+                {
+                    "location": "언덕 능선",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 실험 73 최종 멤버 사망이라고 말한다."
+                },
+                {
+                    "location": "섬 입구",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 섬 입구에 있던 버스를 타고 돌아간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "버스 운전기사",
+                "E001",
+                "C006"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "E001는 73차 실험에서 간질을 앓고 있는 C009의 병을 고쳤다고 말한다.",
+            "unit_motif": "성공",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "실험실",
+                    "character": [
+                        "버스 운전기사"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "버스 운전기사는 어떤 건물의 실험실로 들어간다."
+                },
+                {
+                    "location": "실험실",
+                    "content": "실험실 벽에는 제약회사라고 쓰여있다."
+                },
+                {
+                    "location": "실험실",
+                    "content": "실험실 내부에는 많은 사람들이 실험과 연구를 하고 있다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 컴퓨터를 보며 C006에게 말한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이번 73차 실험에 참여한 사람들의 명단과 데이터 다 삭제했습니다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 실험실에 있는 연구원들에게 73차 실험에 참여한 사람들을 위해 묵념을 하자고 한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 실험실에 있는 연구원들에게 해변 덕분에 신약을 개발하여 수만 명을 구했다고 말한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "우리는 신약을 개발하면서 어려움에 부딪치지만, 이번엔 달랐죠. E001. 연구원들에게 말해주세요."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 73차 실험팀에 간질 환자 C009가 있었다고 말한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 C009가 리조트에 왔을 때 웰컴 드링크에 약을 배합해서 준 것을 먹고 발작을 안 했다고 설명한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 8시간 17분 동안 발작을 안 했으며, 세상에선 16년 반이라고 말한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 C009의 간질 증세를 고친 거라며, 약을 개발해 공급할 것이라고 말한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "E001는 실험실의 연구원들에게 큰 박수를 받는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C006",
+                "C015",
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C004와 C003가 리조트에 나타난다.",
+            "unit_motif": "제보/신고/고발",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C007은 리조트 식당에 앉아 바다를 보고 있다."
+                },
+                {
+                    "location": "리조트 식당",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 C007에게 다가가 C003와 C004는 집에 갔으니 잊으라고 말한다."
+                },
+                {
+                    "location": "리조트 내 수영장",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C015는 리조트 내 수영장에서 책을 읽고 있다."
+                },
+                {
+                    "location": "리조트 내 수영장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "C004는 C015에게 다가가 경찰이 맞는지 물어본다."
+                },
+                {
+                    "location": "리조트 내 수영장",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "놀라다",
+                    "content": "C015는 자신의 직업을 알고 있는 C004를 보고 놀란다."
+                },
+                {
+                    "location": "리조트 내 수영장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C004는 C015에게 노트를 준다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C006는 리조트 로비에서 새로운 관광객을 맞이한다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "반갑다",
+                    "content": "C005는 미리 준비한 웰컴 드링크를 새로운 관광객에게 주기 위해 간다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004는 C005와 부딪쳐 C005가 준비한 웰컴 드링크가 바닥에 떨어진다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C005는 당황하며 웰컴 드링크를 다시 준비해 주겠다고 말한다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나 같으면 절대 음료를 마시지 않겠어요. 이 사람들 때문에 내가 죽을뻔했거든요."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004와 C003는 리조트 로비에서 사람들에게 이름을 말한다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C006와 C005는 C004와 C003를 보고 깜짝 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C015",
+                "C004",
+                "C007",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C003와 C004는 헬기를 타고 집으로 간다.",
+            "unit_motif": "탈출",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C015는 리조트 로비에서 동료 경찰에게 전화를 한다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C015는 C004가 준 노트에 적힌 사람들의 행방을 묻는다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C015는 노트에 적힌 사람들이 실종자라는 대답을 듣는다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 리조트 로비에서 사람들에게 이름과 부모님 이름, 살고 있는 주소 등을 말한다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C007이 C004에게 다가간다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "고맙다",
+                    "content": "C004는 C007을 보고 C007이 준 쪽지를 꺼내 보여준다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C007은 성인이 된 C004의 모습을 보고 놀란다."
+                },
+                {
+                    "location": "리조트 로비",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "불안하다",
+                    "content": "C004는 산호초 안에서 C003가 산호초에 옷이 걸린 것을 회상한다."
+                },
+                {
+                    "location": "과거 산호초 속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "부수다",
+                    "emotion": "불안하다",
+                    "content": "C004는 산호초 가지를 부수고 C003와 함께 산호초 밖으로 나온다."
+                },
+                {
+                    "location": "과거 바닷속",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기쁘다",
+                    "content": "C003와 C004는 섬을 탈출해 리조트로 간다."
+                },
+                {
+                    "location": "헬기 안",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C004, C015는 헬기를 타고 가고 있다."
+                },
+                {
+                    "location": "헬기 안",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C015는 C004에게 리조트 직원 전원 체포됐고, 제약회사도 조사할 것이라고 말한다."
+                },
+                {
+                    "location": "헬기 안",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "공항에 도착하면 친척이 와 계실 겁니다. 두 분의 모습을 보고 안 놀라실까요?"
+                },
+                {
+                    "location": "헬기 안",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C004는 50대 남자가 6살 조카라고 말한다면 누가 믿겠냐고 말하며 씁쓸해 한다."
+                },
+                {
+                    "location": "헬기 안",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C003는 C004에게 괜찮을 거라며 위로해 준다."
+                }
+            ]
+        }
+    ]
+}

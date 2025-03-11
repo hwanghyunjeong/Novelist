@@ -1,0 +1,2232 @@
+{
+    "title": "퍼펙트 월드",
+    "genre": [
+        "드라마"
+    ],
+    "theme": "탈출",
+    "concept": "C014는 탈옥수가 되어 도망가는 도중 C013의 집에 숨게 되고, C013을 인질로 삼는다. C014와 C013은 도피하던 중 소망해왔던 세상을 보게 되고, 아버지와 아들의 소원 목록을 만들며 숨겨왔던 상처를 치유하게 된다.",
+    "motif": "세대를 초월한 우정",
+    "conflict": "C014는 동료 죄수 C012와 함께 감옥을 탈출한다. C014 역시 아버지가 누구인지 모르는 어두운 과거를 가지고 있었고 이 과거는 그를 폭력적인 인물로 만들어버려서 청소년기에 이미 범죄자가 되었다. C013은 홀어머니 슬하에서 엄격하고도 비정상적인 교육을 받으며 자란다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C002",
+                "C012",
+                "C014"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "남자는 들판에서 낮잠을 자는 듯하다. 주변에 캐스퍼 가면과 날리는 지폐, 머리 위를 날고 있는 헬리콥터가 보인다.",
+            "unit_motif": "취향의 재발견",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "들판",
+                    "act": "놀다",
+                    "content": "남자가 들판에 누워있다."
+                },
+                {
+                    "location": "들판",
+                    "act": "놀다",
+                    "emotion": "허무하다",
+                    "content": "남자 주변에는 돈과 가면이 있다."
+                },
+                {
+                    "location": "들판",
+                    "act": "놀다",
+                    "emotion": "허무하다",
+                    "content": "하늘 위에는 헬리콥터가 보인다."
+                },
+                {
+                    "location": "주택가",
+                    "act": "놀다",
+                    "content": "아이들이 핼러윈을 맞아 분주하다."
+                },
+                {
+                    "location": "집",
+                    "act": "무시하다",
+                    "emotion": "당황하다",
+                    "content": "엄마는 아이들과 저녁을 먹는다."
+                },
+                {
+                    "location": "집",
+                    "act": "무시하다",
+                    "emotion": "당황하다",
+                    "content": "엄마는 캔디를 달라고 온 아이들과 남자에게 자신들은 이교도이기 때문에 핼러윈을 안 지낸다며 돌려보낸다."
+                },
+                {
+                    "location": "교도소앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "불안하다",
+                    "content": "동료 교도관들은 일을 가져가기 위해 들렀다는 C002를 들여보낸다."
+                },
+                {
+                    "location": "교도소 감방",
+                    "character": [
+                        "C012",
+                        "C014"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "죄수들은 C014와 C012의 탈출을 위해 환풍기를 뚫는다."
+                },
+                {
+                    "location": "교도소 환풍통로",
+                    "character": [
+                        "C012",
+                        "C014"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C014와 C012는 환풍 통로를 통해 탈주한다."
+                },
+                {
+                    "location": "교도소밖",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C012와 C014는 교도소를 빠져나온다."
+                },
+                {
+                    "location": "교도소밖",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C012와 C014는 C002를 뒤에서 잡아챈다."
+                },
+                {
+                    "location": "교도소앞",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "죄수들의 위협에 C002는 그들을 차에 태워 빠져나간다."
+                },
+                {
+                    "location": "주택가",
+                    "character": [
+                        "C012",
+                        "C014"
+                    ],
+                    "act": "찾는다",
+                    "content": "C012와 C014는 훔칠 차를 알아보기 위해 차에서 내린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C012",
+                "C014",
+                "C013"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C012는 여자를 노리고 꼬마 C013집을 침입하고, C014는 C012를 때린다. 이때 총을 들고 온 옆집 남자를 피해, C013을 인질 삼아 도망친다.",
+            "unit_motif": "아동 유괴",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "무섭다",
+                    "content": "여자는 밤에 아이들을 깨워 C007을 먹이려고 한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "무섭다",
+                    "content": "C012는 여자 집에 침입한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "무섭다",
+                    "content": "C012는 권총으로 위협해 겁탈하려 한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "괴롭다",
+                    "content": "C013은 잠에서 깬다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "괴롭다",
+                    "content": "C012는 C013을 때린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 C012를 때린다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "content": "C014는 C013에게 총을 집어 자신들을 겨냥하고 꼼짝 말라고 말하라고 시킨 후 칭찬한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "emotion": "무섭다",
+                    "content": "이웃집 할아버지는 이들을 보고 총을 들고 온다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "content": "죄수들은 C013을 데리고 도망간다."
+                },
+                {
+                    "location": "주택가",
+                    "act": "도망치다",
+                    "content": "이웃집 남자는 도망가는 죄수들에게 총을 쏜다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C008",
+                "C010",
+                "C012",
+                "C014",
+                "C013",
+                "C006"
+            ],
+            "stage": "Setting-up",
+            "storyline": "범죄학자 C008는 경찰들을 찾아오고, C003는 수사는 발로 뛰는 거라며 나간다.",
+            "unit_motif": "아동 유괴",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "주택가",
+                    "content": "아이 엄마는 넋을 잃었다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "만나다",
+                    "emotion": "불안하다",
+                    "content": "범죄학자 C008는 경찰들을 찾아온다."
+                },
+                {
+                    "location": "경찰서",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "만나다",
+                    "emotion": "불안하다",
+                    "content": "이론을 들먹이는 C008에게 C003는 수사는 발로 뛰는 거라며 나간다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "불안하다",
+                    "content": "C014는 도망치면서 내내 총을 아무 데나 쏘는 C012 때문에 골치가 아프다."
+                },
+                {
+                    "location": "경찰서앞",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "경찰팀은 탈옥수들을 쫓기 위해 우왕좌왕한다."
+                },
+                {
+                    "location": "경찰서앞",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "경찰이 출동한다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "content": "C014는 이 근처 사촌에게 숨을 곳을 알아보라고 C012를 내보낸다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불안하다",
+                    "content": "C012는 C014가 도망칠까 봐 차 열쇠를 가지고 나간다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C012는 사촌이 이사 간 거 같다며 전화번호부를 찢어버린다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "때리다",
+                    "emotion": "불안하다",
+                    "content": "C014는 집에서 자신을 때린 일을 가지고 협박하는 C012의 코를 깨부순다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C012",
+                "C014",
+                "C013"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C014는 자기가 없는 사이 C013을 희롱한 C012를 살해한다. C013은 C014를 따라나선다.",
+            "unit_motif": "강박증",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "명령하다",
+                    "content": "C014는 자신이 가게에서 먹을 걸 사 오는 동안 총으로 C012를 겨냥하고 있으라고 C013에게 시킨다."
+                },
+                {
+                    "location": "가게",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C014는 가게에서 먹을 걸 산다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C012는 C013에게서 총을 뺏는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C012는 총알이 없는 걸 알고 화를 낸다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C012는 C013을 희롱하기 시작한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C013은 도망친다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "찾는다",
+                    "content": "C013은 옥수수밭에 숨는다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "찾는다",
+                    "content": "C012는 옥수수밭에 숨은 C013을 쫓는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C014는 가게에서 나와 빈 차량을 본다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "무섭다",
+                    "content": "C014는 C013에게 총을 받아든다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C012",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "죽이다",
+                    "content": "C012를 총으로 쏜다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "단호하다",
+                    "content": "총소리를 듣고 나온 가게 주인이 총이 없음을 알자, C014는 가게 주인에게 들어가 있으라고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C013은 같이 가겠냐는 C014의 물음에 따라나선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C010",
+                "C006",
+                "C001",
+                "C008",
+                "C014",
+                "C013"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "경찰들은 주지사가 제공한 트레일러 기지 안에서 회의를 한다.",
+            "unit_motif": "적군과의 우정",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "content": "경찰들은 주지사가 제공한 트레일러 기지 안에서 회의를 한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불안하다",
+                    "content": "이때 C008가 두 죄수가 성질이 달라 갈라질 가능성이 많다고 의견을 제시한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불안하다",
+                    "content": "C008는 계속 독불장군처럼 구는 C003에게 화를 낸다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "content": "C003는 자신은 이 지역에서 두 번째로 똑똑하며, 첫 번째는 C014라고 말한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "걱정",
+                    "content": "C013은 C014가 자신을 쏠 것이라고 걱정한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "걱정",
+                    "content": "C014는 자신을 쏠 거냐고 걱정하는 C013에게 우리는 이제 친구라고 말한다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "경찰들은 C012의 시신을 발견한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C014는 차를 배로 비유한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C014는 미래와 과거, 그리고 현재가 있다며 현재를 즐기라고 충고한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C014는 C013에게 자동차 조작법을 가르친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C010",
+                "C006",
+                "C001",
+                "C008",
+                "C014",
+                "C013"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C014는 C013과 함께 포드차를 훔쳐 다시 달아난다. C013에게 이것저것 말해주며 이제 친구라고 한다.",
+            "unit_motif": "적군과의 우정",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "경찰들은 C014의 이동 동선을 파악하며 뒤쫓는다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "초조하다",
+                    "content": "C014는 외딴 집에 있는 포드를 발견한다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "초조하다",
+                    "content": "C013에게 열쇠와 라디오가 있는지 알아보라고 시킨다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C013이 싫어한다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 싫어하는 C013에게 항해사가 그러면 안 된다고 부탁한다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C013은 열쇠랑 라디오가 다 있다고 한다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C013은 나무에 오줌 싸러 간다."
+                },
+                {
+                    "location": "포드차",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "긴장되다",
+                    "content": "C014가 차를 훔쳐 간다."
+                },
+                {
+                    "location": "포드차",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "긴장되다",
+                    "content": "차 주인은 차에 매달린다."
+                },
+                {
+                    "location": "포드차",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "불안하다",
+                    "content": "C014가 총을 꺼낸다."
+                },
+                {
+                    "location": "포드차",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "불안하다",
+                    "content": "C013은 C014의 손등을 물어 총을 떨어뜨리게 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C010",
+                "C006",
+                "C001",
+                "C008",
+                "C014",
+                "C013"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C013의 옷을 사기 위해 들른 가게에서 경찰에게 꼬리를 잡힌 C014. 겨우 빠져나간다.",
+            "unit_motif": "도망자",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "명령하다",
+                    "content": "C003는 C014를 사살해도 되냐고 무전을 보낸 검문소 경위에게 안된다고 명령한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C014는 아빠를 본지 오래된 C013에게 둘이 닮은 점이 많다며 너희 아빠는 절대 안 올 거라고 말한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "불안하다",
+                    "content": "C014는 우리 같은 사람은 운명대로 살아야 한다고 읊조린다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "포드차 주인은 부상을 당해서 앰뷸런스에 실려간다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "C003는 C014가 버리고 간 차에서 C002의 시신을 찾아낸다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C008는 거북해 한다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C014는 바지가 없는 C013을 위해 가게에 들른다."
+                },
+                {
+                    "location": "가게안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "content": "여점원은 C013에게 바지와 운동화 속옷을 골라준다."
+                },
+                {
+                    "location": "가게안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "받는다",
+                    "content": "C013은 핼러윈 가면도 고른다."
+                },
+                {
+                    "location": "가게앞",
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "경관은 C014의 차량을 발견한다."
+                },
+                {
+                    "location": "가게앞",
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "경관은 무전을 친다."
+                },
+                {
+                    "location": "가게안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "사장은 탈옥수에 대한 뉴스를 보고 있다."
+                },
+                {
+                    "location": "가게안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "사장이 C014를 쳐다본다."
+                },
+                {
+                    "location": "가게안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 전화기를 드는 사장에게 무언의 눈짓을 보낸 후 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C013"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C014의 차를 막는 경찰차들을 지능적으로 밀어내면서 퇴로를 확보한다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "content": "경찰이 포위하고 있다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "content": "C014는 사방에 깔린 경찰들을 바라본다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C014는 총을 꺼내든다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C014는 총을 꺼내고 차에 올라탄다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C013이 보이지 않는다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "경찰이 차의 뒤편을 막는다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C014는 그의 차량 뒤편을 막는 경찰차를 밀어버리고 나간다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C014는 앞뒤로 계속 경찰차를 밀어버린다."
+                },
+                {
+                    "location": "가게앞",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불안하다",
+                    "content": "C014는 퇴로를 확보한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "불안하다",
+                    "content": "C014는 C013에게 콜라를 얼마나 마셨길래 꾸물거렸냐고 묻는다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "불안하다",
+                    "content": "C013은 C014의 질문에 4병이라고 말하며 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C010",
+                "C006",
+                "C001",
+                "C008",
+                "C014",
+                "C013"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C014는 도로를 달리다 국장 C003 차량과 딱 마주친다. 하지만 무거운 트레일러를 달고 있는 경찰 차량은 속도를 내다 사고를 당하고 그 사이 무사히 C014는 도망간다.",
+            "unit_motif": "추격자",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "content": "C010은 상황을 보고받는다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "content": "아이가 도망가지 않았다며 의아해 한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "content": "C008는 C014에 대해 브리핑한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불안하다",
+                    "content": "C014가 8살 때 사람을 죽였고, 10살 때 엄마가 자살하고, 포드차를 훔친 죄로 가장 흉포한 소년원에서 자랐다고 말한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "놀다",
+                    "emotion": "불안하다",
+                    "content": "C014는 지도를 보며 운전을 한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "놀다",
+                    "emotion": "불안하다",
+                    "content": "C014는 앞에서 오는 경찰 기지 트레일러를 보고 경적을 울린다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "놀다",
+                    "content": "C013은 즐거워한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "놀다",
+                    "content": "C013은 캐스퍼 옷에 가면을 뒤집어쓴다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "브래들리는 마주 경적을 울려준다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "C008는 스쳐 지나가면서 창으로 C013의 핼러윈 의상을 발견한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "C008는 그들이 방금 지나갔다고 말한다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "사람들은 놀란다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "차를 돌려 쫓아간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C013"
+            ],
+            "stage": "Villains Move",
+            "storyline": "피크닉을 온 가족들 차에 숨어타고 검문소를 통과하는 C014와 C013는 그 후 차량도 뺏는다.",
+            "unit_motif": "도둑",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "C013은 사탕을 얻으러 갈 거라는 C014의 말에 자기는 이교이라 그런 거 하면 안 된다고 말한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "C014는 엄마가 아니라 C013은 어떻게 하고 싶냐고 묻는다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "content": "C013은 신나서 C014를 따라나선다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C013은 C014의 손을 잡는다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C013은 문을 두드려 사탕을 달라고 한다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "아줌마는 문을 열고 나온다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "아줌마는 어제가 핼러윈이어서 안된다고 말하려다 C014의 권총을 보고 놀라 안으로 들어간다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "아줌마는 얼른 먹을 것과 돈을 준다."
+                },
+                {
+                    "location": "집앞",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 전화선을 망가뜨리고 떠난다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "먹는다",
+                    "content": "C013은 겨자 샌드위치를 만든다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "먹는다",
+                    "content": "C014는 피크닉 중인 가족을 발견한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "불안하다",
+                    "content": "C014가 차를 세운다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "불안하다",
+                    "content": "C014는 언덕 아래에서 검문 중인 경찰들을 발견한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C010",
+                "C006",
+                "C001",
+                "C008",
+                "C014",
+                "C013",
+                "C004",
+                "C009",
+                "C005"
+            ],
+            "stage": "Defeat",
+            "storyline": "C013이 하고 싶은 일들을 하나하나 해주며 아이에게 C014는 긍정적인 말만을 해준다. 그리고 어린 C014를 폭력적인 아빠에게 보호하기 위해 그를 소년원에 보냈다고 C003는 고백한다.",
+            "unit_motif": "세대를 초월한 우정",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불만족스럽다",
+                    "content": "또 C014를 놓쳤다는 보고에 C003는 그냥 국경을 넘어 연방정부가 해결했으면 좋겠다고 툴툴거린다."
+                },
+                {
+                    "location": "기지",
+                    "character": [
+                        "C003",
+                        "C010",
+                        "C006",
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C003가 냉장고에 있는 스테이크와 감자를 먹으려 하자 C001은 주지사 거라며 안절부절한다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "만나다",
+                    "content": "C005은 트럭을 타고 C014에게 다가온다."
+                },
+                {
+                    "location": "옥수수밭",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "만나다",
+                    "emotion": "불안하다",
+                    "content": "자기 집으로 가 쉬고 같이 아침을 먹자고 청한다."
+                },
+                {
+                    "location": "C005집 침실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "emotion": "고맙다",
+                    "content": "C005의 손자 C009는 자고 있는 C014와 C013을 깨운다."
+                },
+                {
+                    "location": "C005집 침실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "emotion": "고맙다",
+                    "content": "C005의 아내 C004는 그들에게 인사한다."
+                },
+                {
+                    "location": "C005집 부엌",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "content": "C014와 C013, C009는 C007을 먹는다."
+                },
+                {
+                    "location": "C005집 부엌",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "당황하다",
+                    "content": "C005이 집에 들어와 트럭에 있는 보온병을 가져오라며 C009를 때린다."
+                },
+                {
+                    "location": "C005집 부엌",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "당황하다",
+                    "content": "C014는 안색이 바뀐다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C003 일행은 C014를 잡기 위해 다른 고속도로로 향한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "놀다",
+                    "content": "C014는 거실에서 아이들과 놀면서 레코드를 발견한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "놀다",
+                    "content": "C004는 C005에게 넘겨받은 거라며 설명한다."
+                },
+                {
+                    "location": "C005집 욕실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "기다리다",
+                    "content": "C005은 라디오를 들으며 볼일을 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C005",
+                "C013",
+                "C004",
+                "C009"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C014는 C009를 거칠게 대하는 C005에게 잔뜩 화가 난다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C005집 욕실",
+                    "character": [
+                        "C014",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C005은 라디오를 듣고 놀란다."
+                },
+                {
+                    "location": "C005집 욕실",
+                    "character": [
+                        "C014",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "이때 C014가 들어온다."
+                },
+                {
+                    "location": "C005집 욕실",
+                    "character": [
+                        "C014",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C014는 C005에게 라디오를 끄라고 한다."
+                },
+                {
+                    "location": "C005집 욕실",
+                    "character": [
+                        "C014",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C014는 자신들은 떠날 거라며 조용히 있으라고 위협한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 C013에게 떠나자고 말한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 두려움에 떨며 C009에게 방에 들어가 있으라고 말한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C009는 C005의 말을 안 듣는다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 C009가 말을 안 듣자 때린다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 분노한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C014는 아이를 때리지 말라며 C005에게 총을 겨눈다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "C014는 C013에게 총을 준다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "C014는 C009와 놀이를 한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 C013에게 차에서 로프를 가져오라고 소리친다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "아이들이 두려움에 떤다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C013",
+                "C004",
+                "C009",
+                "C005"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C013은 겁이 나서 C014에게 총을 쏘고 만다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "C014는 C005에게 C009를 안고 사랑한다고 말하라고 시킨다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "C014는 C005을 포박한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "C014는 다시 레코드를 튼다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C013은 C014가 C005을 죽일 거라고 생각한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C014가 C005을 죽일 것 같자, C013은 총을 발사한다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "절망하다",
+                    "content": "C013이 도망친다."
+                },
+                {
+                    "location": "C005집앞",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절망하다",
+                    "content": "C013은 권총을 우물에 버린다."
+                },
+                {
+                    "location": "C005집앞",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절망하다",
+                    "content": "C013은 차 열쇠를 숲으로 던진다."
+                },
+                {
+                    "location": "C005집앞",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절망하다",
+                    "content": "C013은 차 열쇠를 던진 후 도망간다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 총에 맞았다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 배에 총을 맞아 비틀거린다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 포박당한 C005 가족 앞에 칼을 놓는다."
+                },
+                {
+                    "location": "C005집 거실",
+                    "character": [
+                        "C014",
+                        "C004",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 호의에 고마웠다며 자리를 뜬다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C013",
+                "C005",
+                "C004",
+                "C009",
+                "C003",
+                "C008",
+                "C010"
+            ],
+            "stage": "Resurrection",
+            "storyline": "들판으로 도망치는 C013을 쫓아간 C014. 배에 총상을 입고 비틀댄다.",
+            "unit_motif": "사랑하는 사람의 죽음",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C013은 들판으로 달려간다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "남자는 들판으로 달려가는 C013을 보고 놀라면서 지나간다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 총에 맞아 비틀댄다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 C013을 쫓는다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 C013에게 잘했다고 칭찬하며 그런데 살인을 할 생각은 없었다고 말한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 자기는 평생 두 사람을 죽였는데, 엄마를 해치는 사람과 C013을 해치는 사람이었다고 웅얼거린다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "불안하다",
+                    "content": "C013이 나무 위로 오른다."
+                },
+                {
+                    "location": "C005집앞",
+                    "character": [
+                        "C005",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "보고하다",
+                    "content": "남자는 C014의 행방을 경관에게 말해준다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "content": "C014를 추적하고 있다는 무전이다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "content": "C003는 C014를 추적하고 있다는 무전에 자신이 갈 동안 아무 짓도 말라고 명령한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C014",
+                "C013",
+                "C005",
+                "C004",
+                "C009",
+                "C003",
+                "C008",
+                "C010",
+                "C006"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C014는 몰려든 경찰과 아이 엄마에게 앞으로 C013이 원하는 건 뭐든 해주라고 한다.",
+            "unit_motif": "사랑하는 사람의 죽음",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C013은 들판으로 달려간다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "남자는 들판으로 달려가는 C013을 보고 놀라면서 지나간다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 총에 맞아 비틀댄다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 C013을 쫓는다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "content": "C014는 C013에게 잘했다고 칭찬하며 그런데 살인을 할 생각은 없었다고 말한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "괴롭다",
+                    "content": "C014는 자기는 평생 두 사람을 죽였는데, 엄마를 해치는 사람과 C013을 해치는 사람이었다고 웅얼거린다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "불안하다",
+                    "content": "C013이 나무 위로 오른다."
+                },
+                {
+                    "location": "C005집앞",
+                    "character": [
+                        "C005",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "보고하다",
+                    "content": "남자는 C014의 행방을 경관에게 말해준다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "content": "C014를 추적하고 있다는 무전이다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "content": "C003는 C014를 추적하고 있다는 무전에 자신이 갈 동안 아무 짓도 말라고 명령한다."
+                },
+                {
+                    "location": "차안",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불안하다",
+                    "content": "C003는 아이 엄마를 헬리콥터를 이용해 데려오라고 한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C014는 나무 밑에서 계속 C013에게 얘기한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C014는 사실 북부 도시에 사는 아버지가 보낸 엽서를 보고 가는 길이었다고 말한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C014는 아버지의 편지를 읽어준다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "C014가 쓰러진다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "C013은 쓰러지는 C014를 일으킨다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "경찰차가 온다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C014와 C013은 언덕 위로 몰려드는 경찰차를 바라본다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C006",
+                        "C010"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "불안하다",
+                    "content": "C003는 확성기로 아이를 보내라고 설득한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C006",
+                        "C010"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "불안하다",
+                    "content": "아이의 위시 리스트를 해주겠다고 약속하라는 말에 엄마는 대답한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003",
+                        "C008",
+                        "C006",
+                        "C010"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C006는 C014가 총을 꺼내는 줄 알고 발포한다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "C014는 C013이 적은 리스트를 읽어준다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C014",
+                        "C013",
+                        "C003",
+                        "C008",
+                        "C010"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "C014는 이 모든 걸 해주겠다고 약속하라고 외친다."
+                }
+            ]
+        }
+    ]
+}

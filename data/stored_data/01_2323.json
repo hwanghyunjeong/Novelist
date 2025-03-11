@@ -1,0 +1,2776 @@
+{
+    "title": "판도라의 상자",
+    "genre": [
+        "SF",
+        "공포(호러)"
+    ],
+    "theme": "탈출",
+    "concept": "C002는 무인탐사선에서 외계 생명체 C006을 우주선으로 데려간다.",
+    "motif": "외계인 침입",
+    "conflict": "C001가 동면하는 외계 생명체 C006을 깨우고, C006은 사람들을 죽이기 시작한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C005"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C002가 무인탐사선의 추락을 막는다.",
+            "unit_motif": "임무 수행",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 우주선 밖으로 나간다."
+                },
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "content": "C002가 무인탐사선을 기다린다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기대되다",
+                    "content": "C001가 C002가 돌아오기를 기다린다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "C005가 C002에게 연락한다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "명심해. 무인탐사선이 추락하고 있는 걸 놓치면 행성 2로 떨어질 거야. 무조건 막아야 해."
+                },
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "알겠어. 걱정 마."
+                },
+                {
+                    "location": "무인탐사선",
+                    "content": "그때, 무인탐사선이 C002 앞쪽으로 빠르게 날아간다."
+                },
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "비장하다",
+                    "content": "C002가 무인탐사선을 낚아채서 붙잡는다."
+                },
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "잡았어! 이제 행성 2는 안전해."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "듣다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005가 듣고 안도한다."
+                },
+                {
+                    "location": "우주선 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "무인탐사선에 들어가서 토양 샘플을 가져갈게."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C005",
+                "C004",
+                "C003",
+                "C007",
+                "C006"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002, C001, C003, C005, C004, C007이 외계 생명체를 만난다.",
+            "unit_motif": "새로운 만남",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002가 C006을 가지고 우주선으로 들어간다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "content": "C002가 C001에게 C006을 건넨다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001가 C006을 실험실 안에서 연구한다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "생명체야."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "밖에서 C007, C005, C002, C004, C003가 지켜본다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "온도가 낮아서 그런지 반응이 없어."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "죽은 거 아냐?"
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C001가 산소 농도를 바꿔 다시 반응을 지켜본다."
+                },
+                {
+                    "location": "우주선 실험실 안 인큐베이터",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "content": "C006이 조금씩 움직인다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "움직였어!"
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "처음 만난 외계 생명체야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E001",
+                "C002",
+                "E002",
+                "C005"
+            ],
+            "stage": "Main Character",
+            "storyline": "외계 생명체의 이름을 C006이라고 정한다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "E001이 C006에 대해 묻는다."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어떻게 생겼어요?"
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "아주 작은 세포에 불과해. 맨눈으로는 보기 힘들단다."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "행성 2에 데려오면 안 돼요?"
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "단호하다",
+                    "content": "C005가 단호하게 거절한다."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "속상하다",
+                    "content": "E002가 시무룩해한다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "네가 위험해질 수 있으니, 어쩔 수 없어."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "그 세포의 이름을 C006이라고 짓는 건 어때요?"
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "담담하다",
+                    "content": "C002가 웃는다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "content": "그거 좋네."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "반갑다",
+                    "content": "E001이 C002의 말을 듣는다."
+                },
+                {
+                    "location": "행성 2 라이브 방송",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "E001이 기뻐한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001와 C005가 대화를 나눈다.",
+            "unit_motif": "진솔한 대화",
+            "story_scripts": [
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001는 침실로 들어가려 한다."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005가 C001에게 말한다."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C006이 깨어난 건 다 네 덕이야."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "기쁘다",
+                    "content": "감사합니다. 저도 너무 기뻐요."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "터치하다/만지다",
+                    "content": "C001가 자신의 다리를 만진다."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "안타깝다",
+                    "content": "혹시 C006을 이용한다면, 다리를 회복시킬 수 있지 않을까?"
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "기대되다",
+                    "content": "줄기세포처럼 활용할 수 있다면야 그럴 수도 있겠죠."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "기대되다",
+                    "content": "꼭 그렇게 되면 좋겠네."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "content": "C001가 살짝 웃는다."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "C005가 잠든다."
+                },
+                {
+                    "location": "우주선 캡슐 침실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 생각에 잠긴다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001는 C006에 대해 연구할수록, 애정이 생긴다.",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "설레다",
+                    "content": "다음날, C001는 계속 C006에 대해 연구한다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "탄수화물을 엄청 잘 먹어."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "가장 놀라운 건, 세포 하나하나가 전부 다른 활동을 할 수 있어."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "몸 전체가 근육이면서 눈이고 뇌라는 거야?"
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002와 C003가 마주 본다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "content": "C001는 계속 C006을 바라본다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "설레다",
+                    "content": "C001가 C006을 향해 손을 갖다 댄다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C004가 그 광경을 쳐다본다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "괜찮아?"
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "만족하다",
+                    "content": "아주 좋아."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "C001가 만족스럽게 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001는 인큐베이터 안전장치를 해제해, C002, C005와 말다툼을 벌인다.",
+            "unit_motif": "말싸움/의견충돌",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "우주선",
+                    "content": "갑자기 우주선 전체에 경보음이 울린다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C002가 어디서 문제가 생겼는지 확인한다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "실험실이잖아."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C002가 실험실로 간다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001도 실험실로 달려간다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "내가 인큐베이터 안전장치를 풀었어. 미안해."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "대체 왜? 그러면 안 돼."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002와 C001가 실험실 밖으로 나간다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "단호하다",
+                    "content": "C005가 C001에게 경고한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "단호하다",
+                    "content": "저거는 시한폭탄이나 마찬가지야. 안정장치를 풀면 위험할 수도 있어."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "C006은 시한폭탄 따위가 아니야."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "답답하다",
+                    "content": "C006은 인간이 아니야. 너나 나랑 이야기도 할 수 없다고!"
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "답답하다",
+                    "content": "C001가 C002를 쳐다본다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 C001에게 재차 경고한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C002가 짜증 나서 자리를 뜬다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C006이 동면에 취해 더 이상 움직이지 않자, C001는 상심한다.",
+            "unit_motif": "걱정",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "속상하다",
+                    "content": "며칠 후, C001는 C006을 보고 있다."
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "속상하다",
+                    "content": "더 이상 성장하지 않아."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜일까?"
+                },
+                {
+                    "location": "우주선 실험실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "속상하다",
+                    "content": "얼마 전 내가 인큐베이터 안전장치를 열어서 그럴 거야. 갑작스러운 기압 차에 놀라서 동면하는 것 같아."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "content": "C005가 C001를 바라본다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "속상하다",
+                    "content": "C001가 체념하고 실험실 밖으로 나간다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "안타깝다",
+                    "content": "C002가 C001의 어깨를 어루만진다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "속상하다",
+                    "content": "C001가 자리를 뜬다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "C001가 C006에게 너무 몰입했어."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C005와 C002가 마주 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C007"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001와 C007이 C006에 대해 이야기한다.",
+            "unit_motif": "진솔한 대화",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "답답하다",
+                    "content": "C001가 휴게실에서 자신의 다리를 만진다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C007이 들어간다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C007이 C001에게 안부를 묻는다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "C006을 어떻게든 깨워야 해. 전기 자극을 가하면 깨지 않을까?"
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "그건 내 권한 밖이야."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "절박하다",
+                    "content": "C006이 줄기세포를 대체할 수 있다면 행성 2의 희망이 될 거야."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "듣다",
+                    "emotion": "난감하다",
+                    "content": "C007이 C001의 말을 묵묵히 듣는다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간호/치료하다",
+                    "content": "C007이 C001의 다리를 가지고 재활 운동을 시킨다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "괴롭다",
+                    "content": "C001가 C007의 지도하에 재활 운동을 한다."
+                },
+                {
+                    "location": "우주선 휴게실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아프면 말해."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C007",
+                "C005",
+                "C006",
+                "C004"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001가 C006을 깨우는데 성공하지만, C006은 C001의 손목을 부러트리고, 인큐베이터를 탈출한다.",
+            "unit_motif": "적의 등장",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "비장하다",
+                    "content": "C001가 전기로 C006을 자극한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C002, C007, C005가 밖에서 지켜본다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 진전이 있는 거야?"
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "아직은 없어."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "비장하다",
+                    "content": "C001가 전기로 더 세게 C006을 자극한다."
+                },
+                {
+                    "location": "우주선 실험실 안 인큐베이터",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "터치하다/만지다",
+                    "content": "C006이 갑자기 C001의 손에 달라붙는다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 C006의 행동을 보고 놀란다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "초조하다",
+                    "content": "C001가 C006을 손에서 떼어내려고 한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "괜찮은 거야?"
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "노력 중이야."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "긴장 풀어."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다치다",
+                    "emotion": "괴롭다",
+                    "content": "C001가 손을 빼려다가 손목이 부러진다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "C001가 기절한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "걱정",
+                    "content": "들어가서 C001를 구해야 해."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "실험실 안은 아무나 못 들어가는 거 알잖아."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "그때, C006이 인큐베이터를 빠져나간다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C002",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002, C007, C005가 그 광경을 보고 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C007",
+                "C005",
+                "C004",
+                "C006"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C002는 C001를 구하러 실험실에 들어갔다가 C006에 의해 사망한다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C002가 C001를 빼내기 위해 서둘러 실험실 안으로 들어간다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "돕다",
+                    "emotion": "초조하다",
+                    "content": "C007, C005, C004가 C002를 도와 C001를 빼낸다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "그때, C006이 C002의 발목을 낚아챈다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "닫다",
+                    "emotion": "단호하다",
+                    "content": "C005가 바로 실험실을 닫아버린다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "절망하다",
+                    "content": "C002가 자신의 상황을 보고 절망한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C006은 그 사이에 빠져나오려고 할 거야. 그러니 C006을 없애면 열어줄게."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "어떻게 죽여야 해요?"
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "초조하다",
+                    "content": "태워버려."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다루다",
+                    "emotion": "초조하다",
+                    "content": "C002가 발목에 붙은 C001를 떼낸다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "초조하다",
+                    "content": "소각기로 불태워."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "초조하다",
+                    "content": "C002가 소각기로 C006을 향해 공격한다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "공격하다",
+                    "content": "C006이 C002의 몸 안으로 들어간다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽다",
+                    "content": "C002가 죽는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C005",
+                "C004",
+                "C006",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006은 실험실을 탈출한다.",
+            "unit_motif": "탈출",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "절망하다",
+                    "content": "C007, C005, C004는 C002의 죽음에 절망한다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "content": "그때, C006은 천장에 설치된 화재 시스템을 통해 도망치려 한다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C007이 C006을 본다."
+                },
+                {
+                    "location": "우주선 실험실 밖",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "초조하다",
+                    "content": "화재 시스템으로 도망치려고 해요. 무조건 막아야 해요!"
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C003가 통제실에서 실험실의 상황을 본다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C005가 빠르게 통제실로 향한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "초조하다",
+                    "content": "지금 당장 화재 시스템을 차단시켜야 해."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "초조하다",
+                    "content": "화재 시스템이 이곳저곳에 있잖아요. 한 번에 막을 수가 없어요."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "초조하다",
+                    "content": "되는 것부터 하나씩 막아. 서둘러야 해."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "다루다",
+                    "emotion": "초조하다",
+                    "content": "C003가 화재 시스템을 하나씩 닫는다."
+                },
+                {
+                    "location": "우주선 실험실 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "content": "그러나 C006이 하나 남은 화재 시스템으로 빠져나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C005",
+                "C004",
+                "C001",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C005는 행성 2 관제실에 도움을 요청하려 하지만, 외부 통신 장치가 고장 나 연락하지 못한다.",
+            "unit_motif": "실패",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C004",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007, C005, C004, C001, C003는 통제실에 모여 앞으로의 계획을 토론한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C006이 쫓아오지 못하게, 격리 구역을 정해야 해요."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "초조하다",
+                    "content": "C005가 고개를 끄덕인다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "C005가 행성 2 관제실에 연락을 취한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "답답하다",
+                    "content": "C003가 통신을 확인한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "C003가 C005에게 말한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "통신이 끊긴 것 같아요. 왜 이렇게 됐는지 모르겠어요."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "뭐라고?"
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "외부 통신 장치만 끊긴 것 같아요. 선내 통신은 되고 있거든요."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "행성 2 관제실과 연락하려면 우주선 밖에 나가서 장치를 고쳐야 하잖아. 내가 나가서 해결할게."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C003가 C005를 보며 걱정한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C004",
+                "C007",
+                "C001",
+                "C006",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C005가 외부 통신 장치를 고치기 위해 우주선 밖으로 나갔다가 C006에 의해 죽는다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "우주선 출입문 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C005는 출입문 앞에 서서 밖으로 나갈 준비를 한다."
+                },
+                {
+                    "location": "우주선 출입문 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "돕다",
+                    "emotion": "초조하다",
+                    "content": "C004가 C005의 우주복 착용을 돕는다."
+                },
+                {
+                    "location": "우주선 출입문 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "잘 다녀오세요."
+                },
+                {
+                    "location": "우주선 출입문 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "꼭 돌아와야 해요."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C005가 우주로 나간다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "다루다",
+                    "content": "C005가 통신 장치 앞으로 가서 뭐가 문제인지 파악한다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "C005가 통제실과 연락한다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "장치가 과열됐어."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "비장하다",
+                    "content": "C005가 냉각수 관을 확인한다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "냉각수가 완전히 말랐어. 그래서 장치가 과열됐었나 봐."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "C006은 탄소 기반 생물이라 인간처럼 물이 필요할 거예요. 냉각수를 마셨을 가능성이 충분하죠."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "그때, 갑자기 C006이 냉각수 관에서 나와 C005의 우주복에 붙는다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C006이 나를 붙잡고 있어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "초조하다",
+                    "content": "당장 기밀실 쪽으로 가세요."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C005가 빠르게 기밀실 쪽으로 이동한다."
+                },
+                {
+                    "location": "우주",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "content": "C006이 C005를 죽인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C007",
+                "C006"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C005가 죽은 후, C007, C001, C003, C004는 C006의 위치를 계속 확인한다.",
+            "unit_motif": "추적/수색",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C001, C003, C004, C007은 C005의 죽음에 눈물을 흘린다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "C001가 C003에게 묻는다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "정말 외부 통신 장치가 전부 끊긴 거야?"
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "그래."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "그런데 정말 C006은 우주에 있는 거야?"
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "안심/안도하다",
+                    "content": "우주에 있다면, 이 우주선에는 못 들어올 거야."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C004가 확인을 위해 기밀실 쪽으로 간다."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C004가 기밀실의 창문으로 우주선 밖의 상황을 확인한다."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "연락하다",
+                    "content": "C004가 통제실에 연락한다."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "연락하다",
+                    "content": "이쪽에는 없어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "걱정",
+                    "content": "추진기로는 들어올 수도 있어. 하지만 추진기로 들어온다면, 엔진을 점화시키면 돼."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C004가 창문으로 추진기 쪽을 살핀다."
+                },
+                {
+                    "location": "우주 추진기 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006이 빠른 속도로 추진기 앞을 지나간다."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "방금 봤지? 추진기 앞에 있었어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "다루다",
+                    "emotion": "초조하다",
+                    "content": "C003가 엔진을 점화시킨다."
+                },
+                {
+                    "location": "우주선 기밀실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "늦었어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "초조하다",
+                    "content": "우주선이 점점 행성 2와 가까워지고 있어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "이대로면, 행성 2 전체가 위험해질 거야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C001",
+                "C003",
+                "C004",
+                "C007"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C003, C004, C007은 우주선을 분리시키고, C006을 동면시킬 계획을 세운다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "그때, C006이 우주선으로 들어간다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001, C003, C004, C007은 통제실로 모인다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "C006이 우주선으로 들어왔어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "C006은 공기가 없으면 동면할 거야. 그러니 피신 후에, 이 우주선의 공기를 전부 빼버리자."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "우주선을 분리해야겠네."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "맞아."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C001, C003, C004, C007은 생각에 잠긴다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C001, C003, C004, C007은 서로 한 번씩 쳐다본다."
+                },
+                {
+                    "location": "우주선 아래",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C007, C001는 우주선 해치들을 잠그기 위해 아래로 이동한다."
+                },
+                {
+                    "location": "우주선 아래",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "닫다",
+                    "emotion": "초조하다",
+                    "content": "C007, C001가 우주선 아래쪽에서 칸칸마다 문을 닫고 있다."
+                },
+                {
+                    "location": "우주선 아래",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "불안하다",
+                    "content": "그때, C001가 뭔가 인기척을 느낀다."
+                },
+                {
+                    "location": "우주선 아래",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "불안하다",
+                    "content": "C001가 주위를 둘러보지만 아무도 보이지 않는다."
+                },
+                {
+                    "location": "우주선 위",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C003, C004는 우주선 해치들을 잠그기 위해 위로 이동한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C007"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001가 갑자기 쓰러진다.",
+            "unit_motif": "시련",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001, C003, C004, C007은 문을 모두 닫고 다시 통제실로 모인다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C007이 C001를 바라본다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "괜찮아? 상태가 안 좋아 보여."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불안하다",
+                    "content": "괜찮아."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "산소가 완전히 없어지려면 좀 걸릴 거야."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "초조하다",
+                    "content": "C001, C003, C004, C007은 산소를 빼내며 주저앉아서 기다린다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "죄책감",
+                    "content": "내 잘못이야."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "우주선에 들인 것 자체부터 잘못됐어."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다치다",
+                    "emotion": "괴롭다",
+                    "content": "C001가 갑자기 괴로워한다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "C001가 기절한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C003",
+                "C004",
+                "C001",
+                "C006"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C006은 C001의 다리를 뚫고 나온다. C007, C003, C004는 통제실 밖으로 도망친다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C007과 C003, C004는 C001가 기절하자 놀란다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C001가 갑자기 왜 이러는 거야?"
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "열다",
+                    "emotion": "걱정",
+                    "content": "C004가 C001의 바지를 뜯는다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C007, C003, C004가 C001의 다리 안에서 C006을 발견한다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "C006이 C001의 다리를 먹고 있었어."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "죽다",
+                    "emotion": "괴롭다",
+                    "content": "C001는 심장이 멎은 채 죽는다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006이 다리를 뚫고 튀어나간다."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "초조하다",
+                    "content": "도망쳐."
+                },
+                {
+                    "location": "우주선 통로",
+                    "character": [
+                        "C007",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C007, C003, C004는 통로를 내달린다."
+                },
+                {
+                    "location": "우주선 캡슐 칸",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C003는 혼자 캡슐 칸으로 들어간다."
+                },
+                {
+                    "location": "우주선 캡슐 칸",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "content": "C006이 C003를 죽인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007"
+            ],
+            "stage": "Defeat",
+            "storyline": "C004와 C007은 C006의 몸에 발신기가 들어있는 것을 안다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C004와 C007은 통제실에 숨어있다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "절망하다",
+                    "content": "C006이 C001까지 죽였어. C003도 연락이 되지 않아."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "절망하다",
+                    "content": "C004가 C001와 C003를 생각한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "content": "그때, 통제실 컴퓨터 화면에 발신기가 표시된다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004와 C007이 그것을 바라본다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "갑자기 저게 뭐지? 너무 빨리 움직이고 있어."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "궁금하다",
+                    "content": "C004가 발신기 정체에 대해 생각한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "비장하다",
+                    "content": "C006이야. C001 다리에 있던 발신기까지 먹었나 봐."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "반갑다",
+                    "content": "이제 그럼 C006의 위치를 파악할 수 있잖아."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C004와 C007이 서로 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C004는 자신을 희생해, 행성 2와 C007을 구하기로 한다.",
+            "unit_motif": "결심",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C004와 C007은 C006의 움직임을 관찰한다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "content": "우주선의 공기가 점점 사라지고 있어. C006의 움직임도 고통스러워 보여."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "초조하다",
+                    "content": "그래서 그런지 너무 추워. 우리도 곧 여기서 죽겠지."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "괴롭다",
+                    "content": "C007이 몸을 감싸며 덜덜 떤다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C004가 C007을 바라본다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "비장하다",
+                    "content": "우주선 안에 구명정이 2대 있어. 각자 하나씩 타자. 내가 C006을 유인해서 행성 2 반대편으로 갈게."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C007이 C004의 제안에 놀란다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "비장하다",
+                    "content": "너는 행성 2로 가서 살아남아."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C007이 눈물을 흘린다."
+                },
+                {
+                    "location": "우주선 통제실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "비장하다",
+                    "content": "C004가 C007의 눈물을 닦아준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C007은 구명정 1을 찾아서 탑승한다.",
+            "unit_motif": "성공",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C004와 C007은 통제실 문 앞으로 간다."
+                },
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "슬프다",
+                    "content": "C004와 C007은 꽉 껴안는다."
+                },
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "비장하다",
+                    "content": "너는 구명정 1에 가서, 버튼을 눌러. 그러면 알아서 행성 2로 가게 설정되어 있어."
+                },
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "content": "너는?"
+                },
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "비장하다",
+                    "content": "아까 말했잖아. 난 구명정 2에 타서 C006을 유인할게."
+                },
+                {
+                    "location": "우주선 통제실 문 앞",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "열다",
+                    "content": "C004와 C007은 통제실 문을 연다."
+                },
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "초조하다",
+                    "content": "C007은 복도에서 구명정 1을 찾는다."
+                },
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C007이 구명정 1을 발견한다."
+                },
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C007이 구명정 1에 탑승한다."
+                },
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "난 C006을 찾을게."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C006",
+                "C007"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C004는 구명정 2로 C006을 유인해 같이 탑승한다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 C006을 찾는다."
+                },
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "이제 그만 숨고, 나타나."
+                },
+                {
+                    "location": "우주선 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006이 C004 앞에 나타난다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 구명정 2로 달려간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006도 구명정 2로 들어간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "닫다",
+                    "emotion": "비장하다",
+                    "content": "C004가 구명정 2 문을 닫아버린다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "그래. 너랑 나랑 다 죽는 거야."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다루다",
+                    "emotion": "비장하다",
+                    "content": "C004가 장치를 다뤄서 도착지를 행성 2 반대편으로 바꾼다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "너를 행성 2로 데려갈 수는 없어."
+                },
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "안타깝다",
+                    "content": "구명정 1에 탄 C007이 C004의 상황을 목격한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C004",
+                "C006"
+            ],
+            "stage": "Resurrection",
+            "storyline": "계획과 반대로, C007은 행성 2 반대편으로 날아가고, C004는 행성 2로 날아간다.",
+            "unit_motif": "실패",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C007은 행성 2를 향해 날아간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C004는 행성 2 반대편으로 날아간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "이렇게만 가면 돼."
+                },
+                {
+                    "location": "우주",
+                    "content": "그때, 우주에서 파편들이 날아와 구명정 1, 구명정 2에 부딪힌다."
+                },
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C007은 엄청난 마찰음에 놀란다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C004 역시 엄청난 마찰음에 놀란다."
+                },
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절망하다",
+                    "content": "구명정 1 안에 탄 C007은 행성 2 반대편으로 날아간다."
+                },
+                {
+                    "location": "구명정 1",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절망하다",
+                    "content": "안돼! 파편 때문에 도착지가 바뀌었어."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절망하다",
+                    "content": "구명정 2 안에 탄 C004는 행성 2로 날아간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "절망하다",
+                    "content": "행성 2로 가서는 안돼."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "공격하다",
+                    "content": "그 와중에 C006은 C004를 공격한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E003",
+                "E004",
+                "C004",
+                "C006"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "결국 C006은 구명정 2를 타고 행성 2로 오게 된다.",
+            "unit_motif": "잘못된 선택",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E003",
+                        "E004"
+                    ],
+                    "act": "다루다",
+                    "emotion": "담담하다",
+                    "content": "한편, 행성 2에서 E003, E004가 낚시를 한다."
+                },
+                {
+                    "location": "행성 2 바다",
+                    "content": "그때, 구명정 2가 바다로 추락한다."
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E003",
+                        "E004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "E003, E004가 구명정 2를 보고 놀란다."
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "저게 뭐지?"
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "놀라다",
+                    "content": "그러니까 말이야."
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E003",
+                        "E004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "E003, E004가 구명정 2 앞으로 다가간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다치다",
+                    "emotion": "괴롭다",
+                    "content": "C004가 C006에 의해 죽어간다."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "E003"
+                    ],
+                    "act": "돕다",
+                    "emotion": "걱정",
+                    "content": "괜찮아? 곧 문을 열어줄게."
+                },
+                {
+                    "location": "구명정 2",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불안하다",
+                    "content": "문 열면 안 돼요!"
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "E003",
+                        "E004"
+                    ],
+                    "act": "열다",
+                    "emotion": "걱정",
+                    "content": "E003, E004는 구명정 2 문을 연다."
+                },
+                {
+                    "location": "행성 2 바다",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006이 구명정 2 밖으로 튀어나간다."
+                }
+            ]
+        }
+    ]
+}

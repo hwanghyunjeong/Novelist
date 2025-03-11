@@ -1,0 +1,2406 @@
+{
+    "title": "지옥으로 뛰어들어",
+    "genre": [
+        "액션",
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "도시 1에 초대형 토네이도가 발생한다.",
+    "motif": "도시 재난",
+    "conflict": "C005는 동료들과 도시에 발생한 재난 상황을 촬영하기 위해 여정을 떠난다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011"
+    ],
+    "units": [
+        {
+            "characters": [
+                "고등학생1",
+                "고등학생2"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "도시에 대형 토네이도가 발생한다.",
+            "unit_motif": "상황 설명",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "도시 도로",
+                    "content": "대형 토네이도와 강한 비가 발생한다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생1",
+                        "고등학생2"
+                    ],
+                    "emotion": "사랑스럽다",
+                    "content": "고등학생1과 고등학생2는 차 안에서 애정행각을 한다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생1"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "고등학생1은 창문 밖 대형 토네이도를 발견한다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생1"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "궁금하다",
+                    "content": "저게 뭐야?"
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생2"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "고등학생2도 창문 밖 대형 토네이도를 발견한다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생1"
+                    ],
+                    "content": "고등학생1은 핸드폰을 꺼내 촬영한다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생2"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "지금 사진 찍을 때가 아니야!"
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "content": "대형 토네이도가 고등학생1의 차로 다가온다."
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생2"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "도망쳐!"
+                },
+                {
+                    "location": "고등학생1의 차 안",
+                    "character": [
+                        "고등학생1",
+                        "고등학생2"
+                    ],
+                    "act": "죽다",
+                    "content": "고등학생1과 고등학생2는 대형 토네이도에 휩쓸려 사망한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C007",
+                "C008",
+                "C006",
+                "C009",
+                "앵커"
+            ],
+            "stage": "Main Character",
+            "storyline": "C005, C006, C007, C009, C008은 토네이도에 관한 다큐멘터리를 제작하려고 모였다.",
+            "unit_motif": "여정의 시작",
+            "story_scripts": [
+                {
+                    "location": "도로",
+                    "content": "C005의 장갑차와 기상관측차가 나란히 도로 위를 달린다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005",
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C005, C007, C008은 C005의 장갑차를 타고 이동한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006와 C009은 기상관측차를 타고 이동한다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "듣다",
+                    "content": "C005는 라디오에서 도시에 대형 토네이도가 발생했다는 소식을 듣는다."
+                },
+                {
+                    "location": "라디오",
+                    "character": [
+                        "앵커"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "고등학생 2명이 사망했습니다. 이번 토네이도는 규모가 상당히 컸습니다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C005는 토네이도 촬영을 또 놓쳤다고 말한다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "심란하다",
+                    "content": "마지막으로 토네이도 촬영한 게 언제지?"
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "작년이었죠."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "C005는 기상학자에게 무전한다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "토네이도 발생 지역 알아봤어요?"
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "찾는다",
+                    "content": "한편, C006는 기상관측차 안에서 다수의 기계를 통해 기상관측한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 C005에게 몇 백 킬로 반경에 다수의 토네이도가 발생한다는 정보를 알려준다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "촬영 담당인 너희들이 제대로 찍어야 해."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "속상하다",
+                    "content": "C005는 오랫동안 토네이도 관련 다큐멘터리를 제작하지 못해서 속상하다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C001"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002는 집에서 타임캡슐 영상을 찍는다.",
+            "unit_motif": "가족 불화",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "content": "카메라 앞에선 C002는 자신을 동영상 촬영한다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "미래의 나에게 보내는 타임캡슐 영상이야. 나, 동생, 아빠는 늙었겠지? 엄마는 안 계셔서 아쉬워."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "난 고등학교 2학년이고 비디오 동아리 회장이야."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003는 C002의 방에 들어와서 C002의 동영상에 출연한다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "얘는 내 동생이고, 고등학교 1학년이야."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C002"
+                    ],
+                    "content": "C002는 카메라를 갖고 부엌으로 가서 식사하고 있는 아빠를 찍는다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "아빠는 고등학교 교감인데 나에게 학업 스트레스를 주셔."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "요청하다",
+                    "content": "C002는 C001에게 카메라에 대고 한마디 해달라고 요청한다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "귀찮다",
+                    "content": "C001는 C002에게 졸업식 준비 때문에 바쁘다고 C002의 요청을 거절한다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001는 C002와 C003에게 등교 준비를 마치라고 말한다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "출근 준비를 마친 C001는 C002와 C003에게 차를 타고 가자고 말한다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003는 C001의 차에 탄다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002는 자신의 자전거를 끌고 나온다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "저는 혼자 갈게요."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "아까는 미안해. 아침에 정신이 없었어."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "아빠가 먼저 타임캡슐 영상을 제안하셨으면서 매번 제 요청을 거절하세요? 저한테 맨날 잔소리만 하시는 것도 짜증 나요."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001는 C002를 타이르고는 C002와 C003를 차에 태워 고등학교로 출발한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C010",
+                "C011"
+            ],
+            "stage": "Main Character",
+            "storyline": "C010와 C011는 모험적인 영상을 찍는다.",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "마당",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "content": "C010와 C011는 모험을 즐기며 동영상을 찍는 생활을 한다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "놀다",
+                    "emotion": "비장하다",
+                    "content": "C010와 C011는 간이 수영장에 물을 가득 채운다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "놀다",
+                    "emotion": "비장하다",
+                    "content": "C010와 C011는 간이 수영장 물 위에 기름을 소량 붓고 불을 지른다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C010"
+                    ],
+                    "content": "C010는 오토바이를 탄다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C011는 C010를 촬영한다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "출발해!"
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "놀다",
+                    "content": "C010는 오토바이를 밟아 간이 수영장을 통과하려다가 간이 수영장에 빠진다."
+                },
+                {
+                    "location": "마당",
+                    "content": "간이 수영장이 터지면서 다량의 물이 터져 나온다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "행복하다",
+                    "content": "C011는 물에 빠진 C010를 보며 크게 웃는다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "행복하다",
+                    "content": "우린 유명해질 거야!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "후원자",
+                "C006"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C005는 그동안 빗나간 C006의 관측을 마지막으로 믿어본다.",
+            "unit_motif": "회의/논의",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "주유소",
+                    "content": "C005의 장갑차와 기상관측차는 주유소에 정차한다."
+                },
+                {
+                    "location": "주유소",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "content": "C005는 후원자로부터 전화를 받는다."
+                },
+                {
+                    "location": "주유소",
+                    "character": [
+                        "후원자"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "몇 개월째 성과가 없던데?"
+                },
+                {
+                    "location": "주유소",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "미안해. 이번엔 진짜 큰 토네이도가 와."
+                },
+                {
+                    "location": "주유소",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "한 번만 더 믿고 지원을 끊지 말아 줘."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C005는 기상관측차에 타고 있는 C006에게 다가간다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C005는 C006에게 어디로 가야 하는지 묻는다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "도시 1에 초대형 토네이도가 발생할 거예요."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "도시 2에도 발생한다던데?"
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C006는 C005에게 도시 1으로 꼭 가야 된다고 말한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "마지막으로 믿어볼게."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C005는 C006에게 도시 1으로 가자고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C008",
+                "C006"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C005는 C005의 장갑차를 소개한다.",
+            "unit_motif": "상황 설명",
+            "story_scripts": [
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "content": "C005는 자신의 장갑차를 비포장도로 위에 세운다."
+                },
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008은 C005를 촬영한다."
+                },
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "content": "C005는 C007의 카메라 앞에서 자신의 장갑차를 소개한다."
+                },
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "자신감 있다",
+                    "content": "습도계, 풍속계가 있습니다."
+                },
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "자신감 있다",
+                    "content": "땅에 박히는 지지대까지 있어서 토네이도를 견딜 수 있습니다."
+                },
+                {
+                    "location": "비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "content": "C005는 토네이도 속으로 들어가서 촬영하는 것을 찍길 원한다고 말한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "content": "한편, C009은 C006를 촬영한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "점점 토네이도가 커지고 있어요."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "도시 1에 도착하면 엄청나게 커져있을 겁니다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C005는 동료들에게 촬영을 종료하고 도시 1으로 가자고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002는 C004을 돕기 위해 폐공장으로 갈 준비를 한다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "고등학교 주차장",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001, C002, C003는 고등학교에 도착한다."
+                },
+                {
+                    "location": "고등학교 주차장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001는 먼저 고등학교에 들어간다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002와 C003는 고등학교 휴게실로 간다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "content": "C003는 C002가 짝사랑하는 C004을 발견한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004한테 가서 말 걸어봐."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "반갑다",
+                    "content": "C002는 C004에게 다가가서 인사한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C003는 C002와 C004을 동영상 촬영한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "기분이 안 좋아 보이네."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "폐공장에서 오염 물질을 촬영했던 동영상이 삭제됐어."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "다시 찍어야 한다면 내가 도와줄까? 난 카메라도 있고 편집도 잘해."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "오늘 졸업식 촬영 네가 하는 거 아니야?"
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "동생이 하면 돼."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "C004은 C002에게 고맙다고 얘기한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 C004에게 오늘 폐공장에 같이 가자고 말한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부탁하다",
+                    "content": "C002는 C004과 헤어지고 C003에게 졸업식 촬영을 부탁한다."
+                },
+                {
+                    "location": "고등학교 휴게실",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "기대되다",
+                    "content": "C003는 C002의 부탁을 들어주며 C004과의 사이를 응원한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E001",
+                "C003",
+                "C001",
+                "E002",
+                "E003"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C003는 졸업식 준비를 한다.",
+            "story_scripts": [
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E001"
+                    ],
+                    "content": "E001은 고등학교 잔디장에서 졸업식 행사를 준비한다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003는 카메라를 설치한다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 C003에게 C002의 행방을 묻는다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "C003는 C001에게 모른다고 대답한다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "카메라는 저 혼자 담당할 거예요."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "이 많은 카메라를 다? 오늘 중요한 날이야."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "저 혼자 가능해요."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "졸업식 행사 준비가 끝난 후, C003는 고등학교 농구장에 간다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "부탁하다",
+                    "content": "C003는 E003과 E002에게 졸업식 축하 영상 출연을 부탁한다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E002",
+                        "E003"
+                    ],
+                    "emotion": "만족하다",
+                    "content": "E002와 E003은 졸업식 축하 인사 영상을 찍는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "앵커",
+                "C006",
+                "C008"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C005는 C006의 예측 실패에 짜증이 났다. 잠시 후, 도시 1에 토네이도의 조짐이 보이기 시작한다.",
+            "unit_motif": "조직(소속) 내 갈등",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "도시 1 호텔",
+                    "act": "간다/이동한다",
+                    "content": "팀원들은 도시 1 호텔에 도착한다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "팀원들은 뉴스를 본다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "앵커"
+                    ],
+                    "act": "말하다",
+                    "content": "도시 2에 토네이도가 강타했습니다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C005"
+                    ],
+                    "content": "C005는 예측을 실패한 C006를 향해 짜증 낸다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "짜증나다",
+                    "content": "도시 1이라면서? 지금 도시 1은 어떤데?"
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "미안하다",
+                    "content": "천둥 번개만 조금 있어요."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "조금? 당신은 이제 빠져."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "content": "갑자기 도시 1에 우박이 쏟아진다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C008"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C008은 우박의 크기에 놀란다."
+                },
+                {
+                    "location": "도시 1 호텔",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C006는 동료들에게 기상관측차에 가자고 말한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "찾는다",
+                    "content": "C006는 레이더 관측을 한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어때?"
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "도시 1을 향해서 토네이도가 형성되고 있어요."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C005는 기회를 잡게 되어 기뻐한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C005는 동료들에게 토네이도가 형성되는 곳으로 가자고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C009",
+                "C005",
+                "C007",
+                "C008",
+                "C010",
+                "C011"
+            ],
+            "stage": "1st Accident",
+            "storyline": "팀원들은 도시 1 비포장도로에서 대형 토네이도를 맞이한다.",
+            "unit_motif": "추적/수색",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "도시 1 비포장 도로",
+                    "content": "구름이 많이 껴있고 바람이 분다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C006",
+                        "C009",
+                        "C005",
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "팀원들은 하늘을 쳐다본다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C005는 C007, C008, C009에게 카메라 촬영을 하라고 말한다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C007",
+                        "C008",
+                        "C009"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C007, C008, C009은 카메라를 들고 하늘을 촬영한다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "content": "대형 토네이도가 형성된다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "저거 보세요!"
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 동료들에게 대형 토네이도에 가까이 가자고 말한다."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "content": "C005의 장갑차는 대형 토네이도에 다가가서 지지대를 설치한다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "제발 이쪽으로 대형 토네이도가 와야 할 텐데."
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "content": "대형 토네이도는 C005의 장갑차에게 다가오다가 경로를 바꾼다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "허무하다",
+                    "content": "C005는 대형 토네이도 속으로 들어가지 못해 아쉬워한다."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "궁금하다",
+                    "content": "C005는 C006에게 대형 토네이도의 경로가 어디냐고 묻는다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "고등학교로 이동하고 있어요!"
+                },
+                {
+                    "location": "도시 1 비포장 도로",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "같은 시각, C010와 C011는 대형 토네이도 근처에서 촬영하며 즐거워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E004",
+                "E001",
+                "C001",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "고등학교에 대형 토네이도가 발생하여 피해를 입는다.",
+            "unit_motif": "시련",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "고등학교 잔디구장",
+                    "content": "고등학교 잔디구장에서 졸업식이 열린다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "E004은 연설을 한다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "여러분들은 이제 성인입니다. 이제 자신의 인생을 살아가세요."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "듣다",
+                    "content": "고등학교 학생들은 교장의 연설을 듣는다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "content": "고등학교 잔디구장에 갑자기 비가 세차게 내린다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "당황하다",
+                    "content": "고등학교 학생들은 우산을 쓴다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "날씨 관계상 졸업식은 여기까지 하겠습니다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "content": "고등학교 잔디구장에 강한 바람이 몰아친다."
+                },
+                {
+                    "location": "고등학교 잔디구장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "전부 본관으로 이동해!"
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "E001은 본관 복도로 도망친다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001는 E001에게 몸을 숙이라고 말한다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "content": "토네이도가 건물을 휩쓸어간다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "반갑다",
+                    "content": "대형 토네이도가 지나간 후, C001는 C003를 발견한다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "괜찮아?"
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "content": "괜찮아요."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "참담하다",
+                    "content": "C001는 E001의 안전을 살핀다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C004",
+                "C001",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "폐공장에 대형 토네이도가 발생하여 C002와 C004은 폐공장에 갇힌다.",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002와 C004은 폐공장에 도착한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004은 C002에게 폐공장의 생태에 대해 간단하게 설명한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "content": "C002는 C004을 위해 카메라 삼각대를 설치한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "예쁘게 나와."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "감동하다",
+                    "content": "C004은 C002의 칭찬에 수줍어한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "도와줘서 고마워."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "content": "C002는 C001의 전화를 받는다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "어디야? 괜찮아?"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "폐공장에 왔어요. 왜요?"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C002는 전화기 신호가 끊기자 전화를 끊는다."
+                },
+                {
+                    "location": "폐공장",
+                    "content": "폐공장에 비가 오고 바람이 불기 시작한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "돌아가야겠어."
+                },
+                {
+                    "location": "폐공장",
+                    "content": "갑자기 토네이도가 폐공장을 들이닥쳐 폐공장을 초토화 시킨다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "C002와 C004은 건축 자재에 깔려 폐공장 안에 갇힌다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "한편, C001와 C003는 C002를 찾으러 폐공장으로 차를 타고 이동한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "C007",
+                "C008",
+                "C009",
+                "C010",
+                "C011",
+                "C001",
+                "C003"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C006는 도시 1에 대형 토네이도와 초대형 토네이도가 다시 발생할 것임을 알게 된다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 C006에게 토네이도에 대해 묻는다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "대형 토네이도가 다시 발생해요."
+                },
+                {
+                    "location": "C005의 장갑차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "어디로 가는데?"
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "도시 1 시내에 대형 토네이도가 발생할 것 같아요. 그리고 초대형 토네이도가 발생할 수도 있어요!"
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006",
+                        "C007",
+                        "C008",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C005는 동료들에게 도시 1 시내로 가자고 말한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006",
+                        "C007",
+                        "C008",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "팀원들은 도시 1 시내로 이동한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "한편, C010와 C011는 대형 토네이도 촬영을 마치고 도시 1 시내로 간다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "당황하다",
+                    "content": "C006는 C010와 C011를 발견한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "여기 계시면 위험해요. 건물 안으로 들어가세요."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C010와 C011는 C006의 말을 무시하고 술을 마시며 촬영을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C008",
+                "C005",
+                "C009",
+                "C001",
+                "C003",
+                "C006"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "도시 1 시내에 대형 토네이도가 발생하여 팀원들, C010, C011는 살아남는다.",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "도시 1 시내",
+                    "content": "갑자기 하늘에서 대형 토네이도가 형성되어 사람들을 향해 다가온다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C007, C008, C010, C011는 토네이도를 촬영한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "도망쳐!"
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C005",
+                        "C007",
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C005, C007, C008, C010, C011는 건물 안으로 대피한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "당황하다",
+                    "content": "그때 마침, 도시 1 시내를 통과하는 C001와 C003는 대형 토네이도를 발견한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C006는 미처 대피하지 못하고 토네이도에 빨려 들어가려 한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "돕다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001는 C003에게 건물 안으로 들어가라고 말하고 차에서 내려 C006를 구출한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "content": "대형 토네이도가 사라진 후 도시 1 시내는 초토화가 된다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "C006는 C001에게 고맙다고 말한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "난감하다",
+                    "content": "C001는 자신의 차가 고장 난 것을 발견한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부탁하다",
+                    "content": "C001는 C005와 C006에게 폐공장까지 태워달라고 부탁한다."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "폐공장 위치가 어디죠?"
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "북쪽에 있어요."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 초대형 토네이도가 발생할 지점이에요."
+                },
+                {
+                    "location": "도시 1 시내",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005는 C001와 C003에게 기상관측차에 타라고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C002와 C004은 폐공장의 파이프가 누수되어 물에 잠긴다.",
+            "unit_motif": "시련",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다치다",
+                    "content": "C004은 잔재에 의해 발목을 다친다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간호/치료하다",
+                    "content": "C002는 자신의 옷을 찢어 C004의 발목을 응급처치해준다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "고마워. 응급처치 어떻게 할 줄 아는 거야?"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "만족하다",
+                    "content": "C002는 돌아가신 자신의 엄마가 간호사여서 배웠다고 대답한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "어떻게 빠져나가지?"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "자신감 있다",
+                    "content": "아빠한테 위치 말했으니까 구하러 오실 거야!"
+                },
+                {
+                    "location": "폐공장",
+                    "act": "간다/이동한다",
+                    "content": "그 순간, 파이프가 터져 물이 들어온다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "당황하다",
+                    "content": "C002와 C004은 물이 터져 나온 것을 발견하고 당황한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C002와 C004은 구멍 난 파이프를 손으로 막아보지만 실패한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "무섭다",
+                    "content": "C002는 전화기 신호를 미약하게 잡고는 아빠에게 음성 메시지를 남긴다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "물에 잠기고 있어요! 도와주세요!"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "C002와 C004은 간신히 숨만 쉴 수 있을 정도로 물에 잠긴다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "C008",
+                "C009",
+                "C007",
+                "C001",
+                "C003"
+            ],
+            "stage": "Defeat",
+            "storyline": "팀원들은 중형 토네이도를 대피하지만, C008은 죽는다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "긴장되다",
+                    "content": "C006는 주변에 여러 개의 토네이도가 발생한다는 것을 알게 된다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "긴장되다",
+                    "content": "이 주변에 당장 중형 토네이도가 발생할 것 같아요!"
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "content": "중형 토네이도가 여러 개 발생한다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "content": "바람에 의해 기상관측차가 전복된다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 사람들에게 교회 안으로 대피하라고 말한다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "감탄하다",
+                    "content": "C008은 중형 토네이도를 카메라에 담기 위해 중형 토네이도에 다가간다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "죽다",
+                    "content": "C008은 중형 토네이도에 빨려 들어가 죽는다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "혼란스럽다",
+                    "content": "사람들은 교회 안으로 대피한다."
+                },
+                {
+                    "location": "교회 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "슬프다",
+                    "content": "C006는 C008의 죽음에 슬퍼한다."
+                },
+                {
+                    "location": "교회 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "저는 아들을 찾으러 가야 해요."
+                },
+                {
+                    "location": "교회 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "중형 토네이도가 끝나길 기다렸다가 같이 가요."
+                },
+                {
+                    "location": "교회 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "C006는 C005에게 폐공장에 같이 갈 것이냐고 묻는다."
+                },
+                {
+                    "location": "교회 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "같이 가자."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "돕다",
+                    "content": "중형 토네이도가 사라진 후, C005는 C005의 장갑차로 전복된 기상관측차를 일으켜 세운다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C006",
+                        "C001",
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C006, C001, C003, C007는 기상관측차를 타고 폐공장으로 출발한다."
+                },
+                {
+                    "location": "도시 1 북쪽 인근 도로",
+                    "character": [
+                        "C005",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C005, C009은 C005의 장갑차를 타고 폐공장으로 출발한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C006",
+                "C007",
+                "C005",
+                "C002",
+                "C004",
+                "C009"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001는 폐공장에서 C002와 C004을 구한다. 팀원들은 E001과 E004을 구하기 위해 고등학교로 간다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "content": "C001는 C002의 음성 메시지를 열람한다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "괴롭다",
+                    "content": "C001는 C002의 구조 목소리에 다급해진다."
+                },
+                {
+                    "location": "기상관측차 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "빨리 가죠!"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006, C001, C003, C007, C005, C009은 폐공장에 도착한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001는 물에 잠긴 폐공장 안으로 들어간다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "돕다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003는 C002와 C004을 구조한다."
+                },
+                {
+                    "location": "폐공장",
+                    "content": "비가 세차게 내리고 천둥, 번개가 친다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "구조에 성공한 후, C006는 노트북으로 기상을 관측한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "고등학교 쪽으로 초대형 토네이도가 발생한대요!"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "고등학교 학생들은 고등학교에 대피해 있어요. 도와주러 가야 해요!"
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C005는 사람들에게 기상관측차를 놔두고 C005의 장갑차에 타라고 말한다."
+                },
+                {
+                    "location": "폐공장",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "사람들은 고등학교로 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C005",
+                "C006",
+                "C007",
+                "C009",
+                "E004",
+                "E001"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001는 고등학교 학생들과 E004을 구출시킨다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "사람들은 고등학교에 도착한다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "content": "C001는 고등학교 학생들과 E004을 발견한다."
+                },
+                {
+                    "location": "고등학교 본관 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "빨리 대피해야 합니다!"
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "여기가 가장 안전해요."
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "초대형 토네이도가 옵니다. 고등학교는 모두 파괴될 거예요!"
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "위험을 인지한 E004은 고등학교 학생들에게 스쿨버스에 탑승하라고 말한다."
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "E001",
+                        "E004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "혼란스럽다",
+                    "content": "고등학교 학생들과 E004은 스쿨버스에 재빨리 탑승한다."
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "혼란스럽다",
+                    "content": "고등학교 학생들과 E004은 스쿨버스를 타고 고등학교를 빠져나간다."
+                },
+                {
+                    "location": "고등학교",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "혼란스럽다",
+                    "content": "사람들은 C005의 장갑차를 타고 고등학교를 빠져나간다."
+                },
+                {
+                    "location": "고등학교",
+                    "content": "초대형 토네이도가 발생하여 고등학교를 초토화시킨다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C006",
+                "C007",
+                "C009",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "초대형 토네이도가 지나가고, C005는 희생당한다.",
+            "unit_motif": "죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "도시 1 도로",
+                    "content": "먼저 앞서간 스쿨버스는 성공적으로 대피한다."
+                },
+                {
+                    "location": "도시 1 도로",
+                    "content": "바람에 의해 송전탑이 무너져 C005의 장갑차는 막다른 길에 다다른다."
+                },
+                {
+                    "location": "도시 1 도로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "혼란스럽다",
+                    "content": "저 뒤를 봐! 초대형 토네이도가 다가오고 있어!"
+                },
+                {
+                    "location": "도시 1 도로",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "혼란스럽다",
+                    "content": "저 앞에 배수로가 있어요! 저기로 대피해요!"
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "사람들은 배수로에 숨는다."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C005는 배수로 입구에 C005의 장갑차를 주차하고 지지대를 설치한다."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C006",
+                        "C007",
+                        "C009"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "사람들은 서로를 붙잡고 초대형 토네이도를 버틴다."
+                },
+                {
+                    "location": "초대형 토네이도 안",
+                    "content": "한편, C005의 장갑차는 초대형 토네이도에 빨려 들어간다."
+                },
+                {
+                    "location": "초대형 토네이도 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "황홀하다",
+                    "content": "C005는 차 밖으로 나가서 초대형 토네이도를 감상한다."
+                },
+                {
+                    "location": "초대형 토네이도 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "죽다",
+                    "content": "C005는 초대형 토네이도에 의해 사망한다."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "안심/안도하다",
+                    "content": "잠시 후, C001는 초대형 토네이도가 소멸됐음을 인지한다."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "슬프다",
+                    "content": "C006는 C005의 장갑차가 초대형 토네이도에 빨려 들어갔음을 알게 된다."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C005는 우리를 위해 희생했어요."
+                },
+                {
+                    "location": "배수로",
+                    "character": [
+                        "C007",
+                        "C009"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C007와 C009은 C005의 죽음에 슬퍼한다."
+                }
+            ]
+        }
+    ]
+}

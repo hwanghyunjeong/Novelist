@@ -1,0 +1,3086 @@
+{
+    "title": "해수 아래 그곳은 3",
+    "genre": [
+        "SF",
+        "판타지",
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "C001은 무장한 사람들을 피해 지하 기지에서 대피한다.",
+    "motif": "테러",
+    "conflict": "C001은 사이비 종교 단체로부터 생명의 위협을 받는다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C005",
+                "C002"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001, C005, C002, C004, C003은 세 번째 캠프 편의점에서 재정비한다.",
+            "unit_motif": "추적/수색",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "걱정",
+                    "content": "C001은 C002과 함께 다친 C004을 부축하며 편의점에 들어간다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "만들다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C005와 담요를 길게 자른다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "걱정",
+                    "content": "C001은 부목으로 쓸만한 물건들을 찾아 처치한다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "답답하다",
+                    "content": "총알이 날아온다 싶으면 민첩하게 피했어야지!"
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "괴롭다",
+                    "content": "C004은 통증 때문에 웃음을 간신히 참는다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "편안하다",
+                    "content": "C001과 C005는 웃음을 참지 않고 터뜨린다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "emotion": "편안하다",
+                    "content": "C005가 빵을 가져와서 C001, C003, C004, C002에게 건넨다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "담담하다",
+                    "content": "C004에게는 주지 마십시오."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "체념하다",
+                    "emotion": "절망하다",
+                    "content": "C004은 크게 좌절한 표정을 보인다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "수술하려면 금식해야 해서요."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "걱정",
+                    "content": "C001은 해열제나 진통제 등을 최대한 챙긴다."
+                },
+                {
+                    "location": "세 번째 캠프 편의점",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "이만 이동합시다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C001과 같이 C004을 들어 엘리베이터로 향한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C001, C005, C002, C004을 멈춰세우고 엘리베이터를 살펴보고 온다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "엘리베이터는 위쪽에 있어요. 어떻게 할까요?"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "난감하다",
+                    "content": "C002은 C004의 다리를 보다 C001과 C005를 보고는 엘리베이터를 타기로 결정한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C001은 C002의 노골적인 시선에 황당해한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "C004",
+                "C005",
+                "C001"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001은 카페에서 숨겨진 총기를 발견한다.",
+            "unit_motif": "추적/수색",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003은 혼자서 엘리베이터 버튼을 누르러 간다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C001, C005, C004을 데리고 카페로 몸을 숨긴다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "담담하다",
+                    "content": "엘리베이터 앞은 너무 트여있어서요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다루다",
+                    "emotion": "불편하다",
+                    "content": "C004은 카페 바닥에 앉아 인터넷이 되는지 확인한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "다루다",
+                    "emotion": "실망하다",
+                    "content": "통신이 다 안 되나 봐요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C001은 부엌에서 냉동고를 열어보다 총을 발견하고 C002을 부른다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "열어만 본 겁니까?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 신중하게 냉동고 안을 살피고 총을 꺼낸다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불편하다",
+                    "content": "C001은 냉동고 속 총이 가짜이기를 간절히 바란다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "진짜 총이 맞습니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 다른 냉동고도 수색해보고, 조금 전 꺼내온 총을 분해하고 재조립한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 C002이 하는 행동에 이유를 몰라 의아해한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C005가 냉동고 쪽으로 와서 총을 보고 놀란다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002이 총을 들고 부엌 밖으로 나간다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "반갑다",
+                    "content": "총도 맞았겠다, 제가 쏘면 딱이겠는데요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "기대되다",
+                    "content": "사격은 제가 더 낫죠. 저에게 주세요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C004과 C003의 제안을 모두 거절하고 총을 챙긴다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001은 서로 총을 가지겠다는 C003과 C004의 말에 당황한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "무장한 사람 앞에서 총이 없으면 얼마나 불안한데요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불편하다",
+                    "content": "우리가 비무장인 점을 앞세우면 평화롭게 해결할 수 있지 않을까요?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "진작에 총을 둔 거 보면 피를 보기로 작정한 것 같은데요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "피는 저도 많이 보지만 평화를 좋아합니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C004과 C005는 C001의 농담에 작게 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C005",
+                "C002",
+                "C004"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002, C003, C004은 두 번째 캠프에서 내려온 무장한 사람들을 발견해 제압한다.",
+            "unit_motif": "전쟁/전투/토벌",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "담소를 나누던 C003은 갑자기 일행들을 숨게 한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 검은 옷을 입고 무장한 두 사람을 발견한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 검은 옷에 그려진 동물 2를 알아보고 작은 목소리로 말한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 무장한 두 사람이 엘리베이터와 가까운 곳으로 들어가는 것을 본다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "망설이다",
+                    "content": "두 번째 캠프에 저런 사람들이 더 있을 수도 있습니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무장도 안 한 저희를 공격할까요?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "얼굴을 숨기고 있는 것으로 보아 안심할 수 없습니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 잠시 고민한 뒤 무장 인원들을 제압하기로 결정한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C002에게서 총을 받아 나서며 C001과 C005를 숨긴다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C004을 데려가려는 C001을 말린다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "난감하다",
+                    "content": "C004은 C002의 의도를 눈치채고 아픈 척 큰 소리를 낸다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C005와 숨어서 숫자를 세며 상황이 끝나기를 기다린다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "무섭다",
+                    "content": "C001은 말소리를 듣고 나와, C002, C003, C004이 두 무장인원을 제압하고 있는 것을 발견한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C003에게 겨눠진 총을 틀어 E001 쪽으로 향하게 한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "담담하다",
+                    "content": "어디 하나 잃기 싫으면 입 다물고 총 내려놔."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "담담하다",
+                    "content": "C004은 쓰러진 E002에게서 총을 빼앗아, C002이 제압하고 있는 E001에게 겨눈다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "E001",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001은 C002, C003, C004이 사람을 살해한 모습을 보고 충격에 빠진다.",
+            "unit_motif": "조사/정찰",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 E001이 위협에 몸을 떨고 있는 것을 본다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "무섭다",
+                    "content": "우리는 결코 죽지 않는다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "죽고 싶게 만들어 줘?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C003의 위협을 들으며 쓰러진 E002에게 다가간다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "난감하다",
+                    "content": "죽었으니 건드리지 마세요. 왜 벌써 나왔습니까."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "죽이실 줄은 몰랐어요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C001은 처참하게 살해된 E002를 본다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "걱정",
+                    "content": "C005는 C001을 끌어당겨, C001이 죽은 E002에게 다가가지 못하게 한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001은 끔찍한 모습에 충격을 받고, 주저앉아 단 것을 입에 넣는다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "스트레스가 너무 심하시죠."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "혼란스럽다",
+                    "content": "다 마찬가지일 텐데요. C005 씨도 대단하세요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "저도 그냥 버티는 것뿐이에요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 정신을 차리려 C005와 대화하는 데 집중한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "그래도 저희 여기까지 왔잖아요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "맞아요. 벌써 한 번 죽을 뻔하기도 했네요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "C005가 C001을 토닥이며 위로한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "한심해 하다",
+                    "emotion": "답답하다",
+                    "content": "C001은 자신을 한심해 하며 추스르고 일어선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "E001",
+                "C003",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001은 E001로부터 지하 기지를 점령하고 있는 사이비 종교에 대해 듣는다.",
+            "unit_motif": "협박",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C002, C003, C004이 E001에게 총을 겨누고 있는 모습을 본다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "엘리베이터는 탈 수 없겠습니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "엘리베이터를 점령하고 있군요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 짧게 동의하고 E001에게 시선을 떼지 않는다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "정체가 뭔가요?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "동물 2를 추종하는 종교단체입니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "혼란스럽다",
+                    "content": "C002은 이어지는 C001의 질문에 자신 없는 기색으로 대답한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "화나다",
+                    "content": "E001은 C002의 엉뚱한 대답에 연신 화를 낸다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "짜증나다",
+                    "content": "C003은 E001에게 총을 겨누며 위협한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "반사회적 종교단체가 두 번째 캠프 엘리베이터 앞을 지키고 있는 건 확실합니다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불편하다",
+                    "content": "이건 동물 2 그림이네요?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "그래! 동물 2가 함께하는 한 우리는 죽지 않는다!"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "동물 2를 모시며 불로불사를 꿈꾸는 이상한 종교가 있다고 들은 적 있어요. 이상한 이름인데."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "E001이 C005를 노려보며 사이비 종교의 이름을 외친다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C005는 E001의 눈빛에 기죽지 않고 맞서서 소리친다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "화나다",
+                    "content": "과학적으로 말이 하나도 안 되는 소리예요! 영원히 사는 건 불가능해요!"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "거부감",
+                    "content": "C005의 반박에도 E001은 주장을 굽히지 않고 계속 소리친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "E001",
+                "C003",
+                "C002",
+                "C004"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001은 사이비 종교가 자신의 신상을 조사했다는 걸 알게 되고, 1팀이 E001에게 저지르는 폭력에 충격을 받는다.",
+            "unit_motif": "충격",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 대화의 주제를 바꾸려 사이비 종교에 대한 다른 질문을 한다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "뻔뻔하다",
+                    "content": "E001은 C001의 질문에 비아냥거린다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "emotion": "경멸하다",
+                    "content": "E001이 비협조적인 태도를 보이자, C003이 총으로 E001의 얼굴을 세게 때린다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "당황하다",
+                    "content": "나중에 치료받으시려면 이 뱉지 마세요."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "거부감",
+                    "content": "E001이 C001이 병원 의사인 걸 알아보고는 비웃는다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "네 가족들은 이미 잘 알지. 엄마는 장애인에, 집에 빚도 많고?"
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C001은 사이비 종교에서 자신의 신상을 알고 있는 점에 놀란다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "emotion": "경멸하다",
+                    "content": "C002이 E001의 얼굴을 마구 때려 기절시킨다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C001은 E001의 말보다도 C002이 눈앞에서 저지른 폭력에 충격을 받는다."
+                },
+                {
+                    "location": "세 번째 캠프 카페",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이만 갑시다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "무섭다",
+                    "content": "C001은 놀란 마음을 숨기고 C002과 함께 C004을 부축하며 간다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "담담하다",
+                    "content": "저희에 대해서도 모두 뒷조사를 했을 겁니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C001은 피투성이가 된 사람들의 모습을 떠올리며 떤다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "저희한테도 아무렇게나 떠들더라고요. 너무 신경 쓰지 마세요."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "무섭다",
+                    "content": "C001은 자신이 충격받은 이유를 설명하지 않고 짧게 대답한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C002",
+                "C004",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001, C005, C002, C003, C004은 사이비 종교를 피해 이동하는 방법에 대해 논의한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001, C005, C002, C003, C004은 중앙 엘리베이터 근처까지 걸어온다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "이제 어디로 가나요?"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "사이비 종교는 모르는 곳으로 갑니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "지하 기지에 그런 곳이 있나요?"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 자신뿐만 아니라 C005, C003, C004도 궁금해하는 표정을 본다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "불편하다",
+                    "content": "구명정도 불안한데 그냥 엘리베이터 타서 어떻게든 하는 게 낫지 않을까요?"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "C002이 멈춰 서서 C001과 C005를 보며 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "총든 사람들을 피하는 것과 힘들게 가는 것 중 하나만 선택해 보십시오."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "둘 다 선택하고 싶어요."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무섭다",
+                    "content": "저는 총든 사람만 피하면 좋겠습니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "거부감",
+                    "content": "C001은 1팀이 사람을 때리는 것을 다시 떠올린다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "C002은 C001과 C005에게 총기 사용 경험을 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "content": "C001과 C005는 둘 다 없다고 대답한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "유쾌하다",
+                    "content": "군대를 가야 총도 쏴보는 건데 말이야."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "한심해 하다",
+                    "emotion": "황당하다",
+                    "content": "군대에서 총 피하는 방법은 못 배웠나 보네."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "짜증나다",
+                    "content": "C004이 작은 목소리로 투덜거린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C005, C002, C003, C004은 임시 계단을 통해 두 번째 캠프로 향하기로 정한다.",
+            "unit_motif": "결심",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "담담하다",
+                    "content": "C002은 일행들을 이끌고 구석에 위치한 계단 입구로 안내한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "계단입니다. 들어가십시오."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "계단이라고요?"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "지하 기지 건설 중에 임시로 설치된 겁니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 계단의 불안한 설계와 아득한 높이를 생각하며 불안해한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "망설이다",
+                    "content": "두어 시간이면 올라갈 수 있을 겁니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "난감하다",
+                    "content": "저야 계단 잘 오르지만 다른 사람들은 다 탈진할걸요."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "힘든 것보단 총 맞는 게 더 문제지."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "저희도 쏘면 되죠!"
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C005는 계단 수를 곱씹고는 C002의 제안에 동의한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "걱정",
+                    "content": "아까 같은 일보다는 계단이 낫습니다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004을 보더니 C002의 의견에 동의한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "절박하다",
+                    "content": "C004은 싸울 수 있으니 엘리베이터를 타자고 간절하게 C002을 설득하려 한다."
+                },
+                {
+                    "location": "세 번째 캠프",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "단호하다",
+                    "content": "상대가 몇 인지도 모르는데 총 세 자루로 그게 가능하다고 생각하나?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004을 뒤로하고 먼저 계단으로 들어간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "담담하다",
+                    "content": "따뜻하고 아늑하네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005와 C001은 차례로 C003을 따라 계단으로 들어간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 어둡고 퀴퀴한 계단을 살핀다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "돕다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 따라 들어오는 C004을 C002과 함께 부축한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 흔적을 지우며 계단으로 들어와 문을 닫는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C004",
+                "C002",
+                "C005"
+            ],
+            "stage": "Another Story",
+            "storyline": "C001, C005, C002, C003, C004은 두 번째 캠프로 향하는 계단을 오르기 시작한다.",
+            "unit_motif": "여정의 시작",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "다루다",
+                    "emotion": "답답하다",
+                    "content": "C003은 통신 기기에서 나오는 불빛으로 발밑을 밝힌다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 동물 5와 손전등을 꺼내, 손전등을 C003에게 건넨다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "안심/안도하다",
+                    "content": "한결 낫네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "돕다",
+                    "emotion": "걱정",
+                    "content": "C001은 손전등 불빛에 의지해 C004을 다시 부축한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "몸이 커서 곤란할 때가 있네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "돕다",
+                    "emotion": "담담하다",
+                    "content": "C002은 대꾸하지 않고 계단 바깥쪽으로 서 C004을 부축한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 굴러다니는 쓰레기와 미끄러운 계단에 주의하며 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "C001은 C002, C004과 보폭을 힘겹게 맞추며 계단을 계속 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C005는 선두에 선 C003의 뒤에서 계단 수를 세며 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 숨이 차는 것을 참으며 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "여기까지만 오세요! 잠깐 쉽시다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 간신히 C003이 있는 곳까지 오르고 더러운 바닥에 드러눕는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "돕다",
+                    "emotion": "담담하다",
+                    "content": "C003은 더 위에 앉아 손전등으로 일행을 비추며 쉰다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "오는 길에 손전등을 가져올 수 있으면 좋았겠네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "피곤하다",
+                    "content": "사라진 물건으로 동선을 추측할 수 있어 위험합니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "마시다",
+                    "emotion": "황당하다",
+                    "content": "C001은 예상치 못한 답변에 황당해하며 목을 축인다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "쉬는 시간 끝났습니다. 일어나시죠."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 간신히 몸을 일으켜 C004을 부축하며 걷는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불편하다",
+                    "content": "C004은 몸을 맡기고 걷는 것에 마음 불편해하며 걷는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "C002",
+                "C005",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001, C005, C002, C003, C004은 지하 기지 내 사이비 종교가 존재할 가능성을 의심한다.",
+            "unit_motif": "의심",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C004이 C001의 가족관계에 대해 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "편안하다",
+                    "content": "C001은 자신의 동생 얘기를 하며 C002에게도 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C002도 C001의 질문에 순순히 대답한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "망설이다",
+                    "content": "아까 E001이 저희들 가족 얘기도 하더라고요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "사이비 종교에 대해 아시는 바 없습니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "가족 중에 특별히 종교를 믿는 사람은 없는데요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C004이 C001의 대답을 듣다, 병원 앞에 장식된 동물 2의 뼈에 대해 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그게 그 사이비 종교가 믿는다는 동물 2 아니에요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "난감하다",
+                    "content": "뼈만 보고 어떻게 알아보죠?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "유쾌하다",
+                    "content": "여기 알아볼 연구원이 있잖아요. C005 씨!"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "유쾌하다",
+                    "content": "C004이 큰 소리로 C005를 불러 병원 앞 동물 2 머리뼈에 대해 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "그건 동물 2 머리뼈가 맞아요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "안에도 이상한 동물 2 사진이 잔뜩 있어서 다 버렸는데, 그나마 다행이네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "듣다",
+                    "emotion": "의심스럽다",
+                    "content": "C005는 C001이 동물 2 사진 설명하는 걸 진지하게 듣는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "혹시 지하 기지에 온 뒤로 당신에게 친절하게 군 사람이 있었습니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001은 혼란스러워하면서도 그동안 만난 사람들을 떠올린다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 C005와 1팀을 포함하여 모두를 의심하다 바닥에 드러눕는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "E004이 제일 수상해요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "담담하다",
+                    "content": "진료를 잘 못 보는 것 같긴 해도 사이비종교는 안 믿을 것 같던데요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 E005을 의심하기 시작하다 사이비 종교의 의도에 대해 떠올린다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "저는 병원 진료나 볼 줄 알지 돈도 없는데 말이에요. 있어도 절대 낼 생각 없지만."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "피곤하다",
+                    "content": "왜 돈을 절대 안 낸다고 하시나요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "신앙에 돈이 필요한 이유를 이해할 수 없어서요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "통쾌하다",
+                    "content": "C004의 C001의 말에 웃으며 농담을 던진다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "여기서 만난 사람들에게 가족 얘기를 한 적 있습니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "C001은 질문에 단호하게 부정한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "피곤하다",
+                    "content": "C003의 신호에, C001은 C004을 부축하고 다시 계단을 오른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "C003",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001, C004, C002은 계단이 무너져 떨어질 위기를 겪고, C003은 그동안 쌓인 스트레스를 드러낸다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불편하다",
+                    "content": "C004은 투덜거리며 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "후회하다",
+                    "content": "운동하지 않은 게 후회되네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003은 타고났죠. 저렇게는 못 됩니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 바닥만 바라보며 계단을 계속 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003이 멈춰 서서 끊긴 계단을 비춘다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "힘이 빠진 C001이 먼저 건너서 C004을 받기로 한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "content": "C002이 C004을 던지자마자 바닥이 무너지고, C002은 떨어진다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "놀라다",
+                    "content": "C001은 배에 통증을 느끼며 아래로 끌려간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "돕다",
+                    "emotion": "긴장되다",
+                    "content": "끌려가는 C001을 붙잡아 바닥에 눕힌다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "감동하다",
+                    "content": "C002은 줄에 매달려 계단 위로 올라온다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "피곤하다",
+                    "content": "줄은 언제 묶어놓은 겁니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "계단이 불안정해 보여 처음 쉴 때 묶었습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C004이 안도하며 C003에게 농담을 던진다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004의 말을 무시하고 놀라서 우는 C005를 달랜다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "차라리 잠깐 가입했다 나오면 별일 없지 않을까요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "나가는 게 말처럼 쉽지 않습니다. 또 뒷조사도 하는 곳인데 어떻게 믿고요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "거부감",
+                    "content": "C003이 중얼거리며 손전등을 아무렇게나 흔든다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C001은 C003의 말투와 행동에 위화감을 느끼며 C003을 바라본다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불편하다",
+                    "content": "열받아서요. 고아라고 욕하는 것도 듣고, E003 총 맞을 때 제 친구 죽은 일도 있어서요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "안타깝다",
+                    "content": "친구분 일은 유감입니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "일하다 만나기 쉽지 않은 좋은 친구죠."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C001은 C003이 울고 있는 걸 눈치챈다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "유쾌하다",
+                    "content": "이제 다시 이동할 시간입니다. 일어나세요!"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C005의 손을 잡고 앞서 걷는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001도 C002, C004의 어깨를 잡고 따라 걷는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004"
+            ],
+            "stage": "Another Story",
+            "storyline": "C001은 C002과 C004에게 E005과 C005에 대한 의심을 털어놓는다.",
+            "unit_motif": "상황 파악",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "피곤하다",
+                    "content": "C001은 빛을 비추며 걷는 C003의 뒷모습을 보며 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 C002에게 기분이 어떤지 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "엘리베이터에 있을 때보다는 낫습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "언제 무너질지 모르는 계단을 걷는 지금이 더 낫다고요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C002이 각종 탈출 방법, 현재 상황들에 대한 생각을 늘어놓는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "많은 생각을 안 해도 되어서 좋네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "C002이 C001의 상태를 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "망설이다",
+                    "content": "C001이 망설이다 의심하고 있는 사람들에 대해 얘기한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "망설이다",
+                    "content": "E005 씨는 여기 도착한 날 많이 챙겨주셨고, C005 씨는 저한테 빵을 나눠줬어요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001 씨에게 친절을 베풀었군요. 그리고요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "그냥 의심만 하며 걷는 거죠."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "유쾌하다",
+                    "content": "의심이 든다고 진실을 밝히기는 어렵죠. 팀장님은 어떻게 하십니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "추궁과 심문으로 해결한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "C004은 C002의 대답에 질색하며 C001에게 조언한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "망설이다",
+                    "content": "C001은 C004의 말을 듣다, E005과 C005에 대해 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "E005은 사이비 종교를 믿었으면 숨기기보다는 오히려 알릴 사람입니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C005 씨는 항상 빵을 들고 다니는 것밖에 모르겠습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "망설이다",
+                    "content": "연구원은 남쪽 지역 숙소를 쓰는데, C005 씨는 서쪽 지역 숙소에서 자고 있던 게 걸려요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C004은 C002의 눈치를 살피다 조심스럽게 말을 꺼낸다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C003한테 들러붙는 남자들이 많은데, 한 번은 몰래 들어오려고 한 적이 있어요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C001이 C004의 이야기를 듣고 경악한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "유쾌하다",
+                    "content": "팀장님이 대신 방에서 대기하다 다 때려눕혔죠. 그 일로 숙소를 서쪽 지역으로 옮겼고요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "그런 걸 제재하는 공권력 같은 건 없습니까?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "유쾌하다",
+                    "content": "어느 나라에서 출동해서 어디 법을 적용하겠습니까."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "기본적으로 인적성 검사를 통과한 사람만 들어오게 되어 있습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001은 지하 기지의 복잡한 형국을 알고 여러 가지 생각을 한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "유쾌하다",
+                    "content": "그래서 방을 바꾸는 건 특별한 일은 아니라는 얘기였습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "편안하다",
+                    "content": "C001은 이어지는 C004의 농담에 고민을 조금 덜고 계단을 오른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C002",
+                "C004"
+            ],
+            "stage": "Another Story",
+            "storyline": "C001이 계단에서 발을 헛디디자 C002이 빛이 나는 목걸이를 빌려준다.",
+            "unit_motif": "연인의 죽음",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C001은 떠오르는 의심을 떨치고, 계단을 얼마나 올랐는지 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "피곤하다",
+                    "content": "앞서가던 C005가 C001에게 얼마나 올라왔는지 알려준다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C001은 자신의 계산보다 많이 올라온 사실에 놀란다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "예상한 시간 내에서 움직이고 있습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "무섭다",
+                    "content": "C001은 C004이 투덜거리는 소리를 들으며 걷다 발을 헛디딘다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "돕다",
+                    "emotion": "담담하다",
+                    "content": "C002은 신속하게 C001을 붙잡고 벽이 있는 바깥쪽으로 C001을 보낸다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C002은 걸고 있던 목걸이를 C001에게 걸어준다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "빛이 나는 게 신기하네요. 직접 만드신 건가요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "답답하다",
+                    "content": "C002이 한 마디로 대답하자, C004이 자세한 설명을 요청한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C002이 보석을 구한 경위와 가공 과정을 상세히 설명한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "연인분과 나눠 가진 목걸이를 빌려주신 건가요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이미 세상을 떠났으니 신경 안 쓰셔도 됩니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C004은 C002의 얘기에 예상 못 했다는 듯 머쓱해하며 변명한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "난감하다",
+                    "content": "C001은 C002의 이야기에 마음이 무거워져 연인의 일을 조심스레 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "계곡에 물놀이를 갔다 휩쓸려 사망했습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C001이 애도를 표하는 말에도 C002은 담담하게 대답한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "C004이 C002의 짧은 대답에 답답해하며 사고에 대해 자세히 설명한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "목걸이가 빛나고 있어서 바닥에 가라앉아 있는 걸 찾을 수 있었습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 마음이 계속 무거워지는 걸 느끼며, C002에게 목걸이를 계속 착용하는 이유를 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "보석에 행운을 준다는 이야기가 있습니다. 그래서 깨지기 전까지는 하기로 약속했습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "답답하다",
+                    "content": "그동안 잘 빌려주셨는데, 자세한 얘기는 처음 듣네요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C002의 짧은 대답 이후 침묵이 흐른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "누구에게 빌려줘도 결국 내 거니까. 상담사도 그만 버리라고 했지만."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나가는 대로 돌려드리겠습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "대화가 애매하게 끊어진 틈에 C004이 이야기를 다시 이어나간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "아무튼 그때는 저도 체력 참 좋았습니다. 이 정도 계단은 일도 아닌데 말이에요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "안타깝다",
+                    "content": "C001이 C004을 애써 격려한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "수술하고 회복하면 다시 그렇게 될 거다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004은 대답하지 않고 묵묵히 계단을 오른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C005",
+                "C004",
+                "C003"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001, C005, C002, C003, C004은 탈출 방법을 고민하며 남은 계단을 오른다.",
+            "unit_motif": "회의/논의",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "피곤하다",
+                    "content": "C001은 가지고 온 물을 다 마셔 갈증을 느낀 채 널브러져 쉰다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "피곤하다",
+                    "content": "두 번째 캠프에 간 뒤의 계획이 있나요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "잠수정과 구명정이 있다면 우선으로 하고, 없다면 엘리베이터로 갑니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "잠수정과 구명정이 꼭 필요한가요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "맨몸으로 탈출하는 건 불가능해요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "첫 번째 캠프에서는 가능할 겁니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C001은 C005와 C002의 설명을 듣다, 배 위에 올라온 동물 5를 알아채고 깜짝 놀란다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "망설이다",
+                    "content": "C001은 동물 5와 동물 1을 기르는 사람을 아는지 일행에게 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "아무도 대답하지 않던 중, C002이 C001에게 동물 1에게 물린 적 있는지 묻는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "망설이다",
+                    "content": "아마도요? 지금 멀쩡한 거 보면요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "독의 종류에 따라 다를 수도 있습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "피곤하다",
+                    "content": "C001은 너무 피로하여 C002의 대답에 대꾸하지 않고 가만히 있는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "다른 사람들이 걱정이에요. 잘 탈출했을까요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "피곤하다",
+                    "content": "그런 걱정 할 여유가 어디 있어요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "한심해 하다",
+                    "emotion": "경멸하다",
+                    "content": "C003이 C004의 부상을 지적하며 타박한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "피곤하다",
+                    "content": "C005의 웃음을 들으며, C001은 남은 사탕을 일행에게 나눠준다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C005",
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002의 신호에, 모두들 휴식을 마치고 다시 계단을 오른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004",
+                "C005"
+            ],
+            "stage": "Another Story",
+            "storyline": "C001은 C002, C004, C005과 담소를 나누며 얼마 남지 않은 계단을 오른다.",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "피곤하다",
+                    "content": "C001은 체력의 한계를 느끼며 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "피곤하다",
+                    "content": "지하 기지가 무너지면 어떻게 될까요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "인류 최고의 전문가들이 모여 만든 게 무너졌으니 세계적인 파장이 크겠죠."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "피곤하다",
+                    "content": "지금 하는 일은요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "생각 안 해봤네요. 어떻게 할지 고민 좀 해야겠습니다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불안하다",
+                    "content": "C004이 일에 대한 불평을 늘어놓기 시작한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "피곤하다",
+                    "content": "C004이 조용해지자 C001이 병원 관련 퀴즈를 낸다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C004과 C002이 나름대로 대답해보며 퀴즈를 맞힌다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 얘기 해요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "유쾌하다",
+                    "content": "C005 씨도 같이 맞춰보세요."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "자신감 있다",
+                    "content": "C005가 퀴즈 정답을 단번에 알아차린다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 이어서 퀴즈를 내며, 정답을 맞혀 즐거워하는 C004을 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C002",
+                "C004",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001, C005, C002, C003, C004은 계단을 빠져나가 두 번째 캠프에 도착한다.",
+            "unit_motif": "탈출",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "답답하다",
+                    "content": "C003이 계단 맨 위에서 C001, C002, C004을 채근한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001은 계단이 끝났다는 점에 안도하며 남은 계단을 오른다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "담담하다",
+                    "content": "C002이 계단 꼭대기에서 나가는 문이 없다는 것을 발견한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "참담하다",
+                    "content": "더 이상 길이 없다는 건 아니죠?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "C002이 혼자 계단을 내려간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C001은 혼자 가는 C002이 신경 쓰여 따라서 내려간다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "난감하다",
+                    "content": "C002은 내려가며 층계참마다 벽을 두드려보다, 가벽으로 된 부분을 찾는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "뭔가 찾은 건가요?"
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "여기를 뜯고 나가면 되겠습니다. 사람들을 데리고 올테니 여기서 기다리십시오."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "당황하다",
+                    "content": "혼자 남은 C001은 C002이 C004을 부축하러 갔다는 걸 뒤늦게 깨닫는다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "당황하다",
+                    "content": "C001은 혼자 벽을 부수려고 해보지만 벽이 생각보다 단단해 실패한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "담담하다",
+                    "content": "다시 내려온 C002이 C001을 뒤로 물리고 벽을 부순다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 갑자기 쏟아지는 빛에 눈이 부셔 괴로워한다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003이 먼저 나가 밖을 살피고 벽을 두드린다."
+                },
+                {
+                    "location": "세 번째 캠프 계단",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005는 C003이 보낸 안전 신호를 듣고 웃는다."
+                },
+                {
+                    "location": "두 번째 캠프 수족관",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001과 일행은 계단 밖으로 나가 두 번째 캠프의 수족관에 도착한다."
+                }
+            ]
+        }
+    ]
+}

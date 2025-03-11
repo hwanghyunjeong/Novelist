@@ -1,0 +1,2560 @@
+{
+    "title": "너의 죽음을 위하여",
+    "genre": [
+        "공포(호러)",
+        "드라마"
+    ],
+    "theme": "탈출",
+    "concept": "C004는 어린 시절 참혹하게 살해된 친구 C001의 유령과 만난다. 유령 C001는 자신을 고통에서 구원해 줄 것을 부탁하며, 임박한 재앙을 경고해준다.",
+    "motif": "유령",
+    "conflict": "내전으로 부모를 잃은 C004는 고아원으로 가게 되고, 그곳에서 C004는 소년들의 리더 격인 C005와 시비가 붙지만, 몇 차례 그를 관용과 포용으로 끌어안으며 서로 친구가 된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C005",
+                "C001",
+                "C004",
+                "C003"
+            ],
+            "stage": "Main Character",
+            "storyline": "내전이 한창인 가운데 부모를 잃은 C004가 사막 한가운데 세워진 학교로 온다. 교장은 반란군의 자금인 금괴를 보관해주고 있다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "하늘",
+                    "act": "간다/이동한다",
+                    "content": "하늘에서 폭탄 하나가 떨어진다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C001가 피를 흘린 채 누워있다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C005가 옆에서 바라보며 괴로워한다."
+                },
+                {
+                    "location": "물 속",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C001는 물속에 빠져든다."
+                },
+                {
+                    "location": "물 속",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "히메는 물속으로 빠져 들어가는 C001를 바라보며 울먹인다."
+                },
+                {
+                    "location": "거리",
+                    "act": "간다/이동한다",
+                    "content": "박제된 태아들이 보인다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 후견인들은 거리를 달려 학교 앞에 도착한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 학교 앞에서 일을 하고 있다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "C004는 운동장 한가운데 박힌 뇌관이 제거된 폭탄을 보고 놀란다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "의사는 C004 일행이 들어오는 걸 이층 창문에서 확인한다."
+                },
+                {
+                    "location": "사무실",
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "교장과 의사는 C004 일행들이 도착한 걸 보고 근심한다."
+                },
+                {
+                    "location": "사무실",
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "교장과 의사는 의족을 끼고 아래층으로 향한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "C004는 민달팽이를 주워 상자에 집어넣는다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "그 뒤로 C003를 도와 일을 하던 C005가 C004를 바라본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "뭔가 이상한 기운을 느낀 C004는 창고 안으로 들어가 살펴본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "아이들이 와 C004에게 먹을게 좀 있냐고 물어본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "content": "C004는 아이들을 따라 밖으로 나간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "content": "그 뒤로 유령이 된 C001의 모습이 창에 비친다."
+                },
+                {
+                    "location": "교실",
+                    "act": "말하다",
+                    "content": "후견인들에게 더 이상 아이를 받을 수 없다고 말한다."
+                },
+                {
+                    "location": "교실",
+                    "act": "말하다",
+                    "content": "교장은 금괴도 더 이상 가지고 있을 수 없다며 가지고 가라고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C002",
+                "C003"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C005는 새로 온 C004를 괴롭힌다. 한편 C003는 동료들과 숨겨진 금괴를 훔쳐 도망칠 궁리를 하고 있다.",
+            "unit_motif": "이지메",
+            "causality": "New personality(새로운 자아)",
+            "story_scripts": [
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "content": "C004가 아이들과 어울려 놀고 있다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "content": "C005가 와 C004의 만화책을 뺏으며 괴롭힌다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "content": "C004는 그 뒤로 후견인 C002가 떠나가는 모습을 보곤 놀란다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "content": "C004는 떠나는 C002를 쫓아가보지만 소용없다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "content": "의사는 C004의 흘린 가방을 주워주며 위로를 한다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "의사는 C004에게 당분간 여기서 지낼 테니 인내심을 기르라고 충고한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "불안하다",
+                    "content": "C004는 교장을 따라 기숙사 안으로 들어선다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "놀라다",
+                    "content": "잠시 후 아이들이 들어와 C004가 배정받은 침대를 보곤 놀란다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "걱정",
+                    "content": "아이 하나가 C001의 침대라고 말한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "걱정",
+                    "content": "C005는 조용히 하라고 말한다."
+                },
+                {
+                    "location": "식탁",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "외부 사람들이 와 C003와 저녁 식사를 한다."
+                },
+                {
+                    "location": "식탁",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "학교 일을 도우는 여자는 돈을 벌어 C003와 함께 다른 곳으로 떠나 살 거라고 말한다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C003는 외부인들에게 금괴 얘기를 하며 찾아내면 연락한다고 말한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C003를 어릴 적부터 여기서 지낸 온 것에 대해 치를 떨어한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C003는 여자에게 금괴를 찾아 꼭 떠날 거라고 말한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "그 뒤로 교장은 C003와 여자를 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004는 잠을 자다 C001 유령의 기척을 느끼고 놀라다 물병을 깨게 된다.",
+            "unit_motif": "유령",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C004는 침대에 새겨진 C001의 이름을 본다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C004는 커튼 너머로 그림자를 발견한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "하지만 커튼을 쳐보면 아무도 없다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C004는 주위를 살피다 물병을 넘어뜨린다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "바닥에 발자국이 묻어난다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "그때 C005와 아이들이 온다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "C005와 아이들은 C004에게 물을 떠오라고 말한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "아이들은 탄식하는 아이 때문에 지금 가면 안 된다고 말한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "C004는 C005와 같이 가 담력을 시험해보자고 말한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C004와 C005는 물을 뜨러 나간다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "그 뒤로 C003가 식당으로 걸어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004와 C005는 물을 채우기 위해 식당에 내려가고 C004는 그곳에서 C001의 유령을 다시금 보고 놀란다.",
+            "unit_motif": "유령",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "content": "C003가 여자와 키스를 나눈다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "C004와 C005는 창고 안으로 들어간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 먼저 물병에 물을 담는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 창고를 나간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "그다음 C005가 물병에 물을 담는 데 찬장에 걸린 가위들이 갑자기 떨어진다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C003는 가위 떨어지는 소리에 놀란다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 가위를 정리하기 위해 정신이 없다."
+                },
+                {
+                    "location": "헛간",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 헛간에 들어가 총을 챙겨 나온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 나오려 하는데 C003가 창고 문을 열고 들어온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C004는 놀라 숨는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003는 주위를 살펴보다 벽면 한곳을 뜯어낸다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "금고가 벽면 안에 드러난다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "교장에게서 훔쳐 온 열쇠를 금고에 넣어보지만 맞지 않는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003",
+                "C005",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004는 물병에 물을 채워 나오자 C005는 새총을 쏴 C004가 든 물병을 깨버리고 그 소리에 놀라 나온 C003에게 C004는 혼난다.",
+            "unit_motif": "유령",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "뭔가 이상한 기운을 느낀 C003는 창고 문을 잠그고 나간다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 C003가 나오는 모습을 뒤에서 훔쳐본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 창고를 나가려고 한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 수상한 소리에 창고 지하로 내려간다."
+                },
+                {
+                    "location": "지하",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 지하 물이 담긴 수영장 같은 곳에서 C001의 기척을 느낀다."
+                },
+                {
+                    "location": "지하",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "C004는 앞으로 많은 사람이 죽을 거라는 C001의 읊조림에 놀라 달아난다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C004가 창고를 나오려 한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "하지만 자물쇠 때문에 나오기가 힘들다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "밖에 있는 C005에게 도움을 청해본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C005는 그냥 나가버린다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "C004는 잠옷을 벗고 가까스로 창고를 빠져나온다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "content": "C004가 물병을 들고 나온다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "content": "아이들이 새총으로 물병을 깨버린다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "content": "C004는 그 소리를 듣고 나온 C003에게 걸려 혼난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C005와 아이들은 지난밤 일에 대해 발설하지 않는 C004를 친구로 삼아준다.",
+            "unit_motif": "유령",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "의사 방",
+                    "act": "말하다",
+                    "content": "의사는 옷을 갈아입으며 시를 읊는다."
+                },
+                {
+                    "location": "교장 방",
+                    "act": "자다/잠들다",
+                    "content": "교장 방은 벽을 하나 사이에 둔다."
+                },
+                {
+                    "location": "교장 방",
+                    "act": "자다/잠들다",
+                    "content": "교장은 의사의 시 소리를 들으며 침대에서 일어난다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "의사는 C004에게 어제 누구와 있었는지 묻는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "하지만 C004는 대답하지 않는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "의사는 C004에게 그만 들어가 밥을 먹으라고 말한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "몇 명의 아이들이 C004가 들어가는 걸 쳐다본다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "의사는 그 아이들을 일으켜 세운다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 아이들은 벌로 창고에서 예수상을 꺼내 나온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "아이들은 C004에게 이름을 불지 않았다는 걸 안다며 의사가 똑똑해서 걸렸다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "한편 C003는 금고 열쇠를 찾기 위해 교장과 섹스를 나누고 의사는 건넌방에서 그 소리를 들으며 괴로워한다.",
+            "unit_motif": "유령",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "의사 방",
+                    "act": "말하다",
+                    "content": "의사는 옷을 갈아입으며 시를 읊는다."
+                },
+                {
+                    "location": "교장 방",
+                    "act": "자다/잠들다",
+                    "content": "교장 방은 벽을 하나 사이에 둔다."
+                },
+                {
+                    "location": "교장 방",
+                    "act": "자다/잠들다",
+                    "content": "교장은 의사의 시 소리를 들으며 침대에서 일어난다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "의사는 C004에게 어제 누구와 있었는지 묻는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "하지만 C004는 대답하지 않는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "의사는 C004에게 그만 들어가 밥을 먹으라고 말한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "몇 명의 아이들이 C004가 들어가는 걸 쳐다본다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "의사는 그 아이들을 일으켜 세운다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 아이들은 벌로 창고에서 예수상을 꺼내 나온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "아이들은 C004에게 이름을 불지 않았다는 걸 안다며 의사가 똑똑해서 걸렸다고 말한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "만들다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 아이들은 운동장에 예수상을 꺼내 나온다."
+                },
+                {
+                    "location": "사무실",
+                    "act": "말하다",
+                    "content": "교장과 의사는 내전에 대해 걱정을 한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "content": "C003와 여자는 운동장에 음악을 켜놓고 와인을 한잔 마신다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "content": "C004는 아이들에게 자신의 개구리 장난감을 준 후 창고로 간다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "emotion": "당황하다",
+                    "content": "잠시 후 C005가 와 C004가 어딨는지 묻는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "당황하다",
+                    "content": "C004는 창고 수영장으로 간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "당황하다",
+                    "content": "C004는 유령에게 말을 걸어본다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "놀라다",
+                    "content": "그 뒤로 C005가 와 선생에게 아부나 한다며 칼을 꺼내 협박을 한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "놀라다",
+                    "content": "위협을 느낀 C004는 C005에게 돌을 던진다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "놀라다",
+                    "content": "C005는 수영장에 빠진다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "괴롭다",
+                    "content": "C004는 수영을 못하는 C005를 구해 나온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "괴롭다",
+                    "content": "물속에 C001의 유령이 보인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C003",
+                "C004",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "식료품을 사러 나간 의사는 반란군들이 처형당하는 모습을 보곤 놀란다. 운동장에서 놀던 C004는 인기척을 느끼고 창고에 들어갔다 C001를 발견하곤 놀란다.",
+            "unit_motif": "예언",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "창고",
+                    "character": [
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "C003와 C005는 창고에서 물건들을 꺼내 나온다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "content": "사람들은 트럭에 짐을 싣는다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "content": "C005는 C003의 여자에게 자신이 만든 반지를 선물이라며 건넨다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "기쁘다",
+                    "content": "교장과 C003의 여자는 트럭을 몰고 나간다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "기대되다",
+                    "content": "교장은 아이들을 가르친다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "부럽다",
+                    "content": "C004는 C005가 그림을 잘 그리는 걸 보고 부러워한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "부럽다",
+                    "content": "C004가 자고 있는 C005의 사물함에서 노트를 꺼내 그림을 구경한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C004는 뒤쪽에 C005의 그림을 보곤 놀란다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "의사는 마을에서 물품들을 교환한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "의사는 군인들에게 의해 사람들이 처형당하는 걸 보곤 놀란다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "그중에 C004를 데려온 남자도 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001"
+            ],
+            "stage": "Another Story",
+            "storyline": "C001는 C004에게 많은 사람이 죽을 거라고 암시를 한다. 의사는 교장을 사랑하지만 성적으로 만족시켜줄 수 없는 자신을 보며 괴로워한다.",
+            "unit_motif": "성생활 장애",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 운동장으로 향한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "운동장에 나가 폭탄을 바라보던 C004는 무슨 기척을 느끼고 창고로 향한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "C004는 창고로 들어간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "창고로 들어간 C004는 이마에 피를 흘리는 C001를 발견한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001는 많은 사람이 죽을 거라며 다른 아이들을 다치기를 원하지 않는다고 중얼거린다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "C004는 C001를 보곤 무서워 달아난다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C004는 기숙사로 들어온다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C004는 무서움에 숨을 헐떡인다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "하지만 C001가 천천히 C004에게 다가온다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "놀란 C004는 탕비실 안으로 몸을 숨긴다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "C004는 밤을 지새운다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "탕비실 안에서 밤을 지새운 C004는 청소 아줌마가 문을 열자 놀라며 뛰쳐나간다."
+                },
+                {
+                    "location": "의사 방",
+                    "act": "소리치다",
+                    "emotion": "괴롭다",
+                    "content": "의사는 교장과 C003의 섹스 소리를 벽면을 통해 들으며 괴로워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "반란군이 잡혔다는 사실을 말해준 후 의사는 교장과 아이들에게 학교를 떠나야 된다고 말한다. 짐을 챙기는 교장과 의사를 발견한 C003는 금괴를 넘기라고 협박하지만 의사가 총으로 위협하는 바람에 어쩔 수 없이 도망친다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "교장은 아이들에게 편지를 나눠준다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "잠시 후 의사가 교장을 찾아온다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "의사는 교장에게 C004의 후견인이 처형되는 걸 봤다고 한다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "의사는 교장에게 곧 학교에서 군인들이 들이닥칠 거라며 떠날 준비를 해야 된다고 말한다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C003는 뒤에서 그들의 모습을 바라본다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C004는 아이들에게 C001를 봤다는 말을 해준다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "무섭다",
+                    "content": "교장이 서류들을 챙기기 위해 금고를 여는데 C003가 어딜 가냐며 협박을 한다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "무섭다",
+                    "content": "가더라고 금괴는 두고 가라고 협박하는 C003 뒤로 의사가 총을 들고 와 도와준다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003는 의사에게 교장과 자신이 섹스를 하는 걸 아냐며 비꼰다."
+                },
+                {
+                    "location": "부엌",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "교장은 C003를 한대 갈긴다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "의사가 총을 들고 C003를 위협한다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003는 어쩔 수 없이 학교 밖으로 쫓겨 나간다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "짐을 챙기는 C004에게 와 C005는 무얼 봤는지 물어본다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C004는 C001를 봤다고 얘기해준 후 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "하지만 학교로 몰래 들어온 C003는 금괴를 찾기 위해 금고를 폭발시킨다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "운동장",
+                    "act": "받는다",
+                    "content": "아이들은 짐을 챙긴다."
+                },
+                {
+                    "location": "학교",
+                    "act": "찾는다",
+                    "content": "식당에서 기름통을 발견한 여자는 뒷문을 열고 밖을 살펴본다."
+                },
+                {
+                    "location": "학교",
+                    "act": "찾는다",
+                    "content": "C003의 모습이 보이질 않는다."
+                },
+                {
+                    "location": "학교",
+                    "act": "찾는다",
+                    "content": "여자는 뭔가 불안한 마음이 든다."
+                },
+                {
+                    "location": "운동장",
+                    "act": "받는다",
+                    "emotion": "당황하다",
+                    "content": "운동장으로 들어온 여자는 자동차 밑으로 기름이 흘려져 있는 걸 본다."
+                },
+                {
+                    "location": "운동장",
+                    "act": "받는다",
+                    "emotion": "당황하다",
+                    "content": "여자는 장총을 챙겨 창고로 간다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "교장은 아이들에게 긴 여행이 될 거라며 형들은 동생들을 잘 보살피라고 말한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "비장하다",
+                    "content": "여자는 금고 앞에 기름을 뿌리는 C003를 발견한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "여자는 무슨 짓이냐고 묻는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C003는 여자 앞에서 담배에 불을 붙인다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "떠날 준비를 하던 교장은 왠지 다리가 더 무겁다며 힘들어한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C003는 총을 들고 위협하는 여자에게 그 총으로 뭘 할 거냐며 툭툭 건드리다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "content": "그 순간 총알이 발사되고 C003가 쓰러진다."
+                },
+                {
+                    "location": "교실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "content": "사람들은 총 소리에 놀란다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "총알이 C003의 어깨를 스치고 지나갔다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "C003는 떨어트린 담배를 주워 바닥에 불을 붙인다."
+                },
+                {
+                    "location": "교실",
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "여자는 교장에게 간다."
+                },
+                {
+                    "location": "교실",
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "여자는 교장에게 학교가 폭발할 거라며 빨리 탈출해야 된다고 말한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "당황하다",
+                    "content": "의사와 교장은 불을 끄기 위해 달려든다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "괴롭다",
+                    "content": "하지만 불이 점점 더 거세지기 시작한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "괴롭다",
+                    "content": "C003가 준비해둔 폭탄에까지 옮겨 붙여 터진다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "괴롭다",
+                    "content": "폭탄이 터지고 아이들과 교장, 의사는 상처를 입게 된다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C005",
+                "C004",
+                "C001"
+            ],
+            "stage": "Villains Move",
+            "storyline": "폭발 사고로 교장은 결국 죽게 되고 수많은 아이들이 부상을 당하게 된다. 한편 C005는 C003가 C001를 죽인 사실을 C004에게 얘기해주며 자신이 겁쟁이였다고 말하며 울먹인다.",
+            "unit_motif": "죄의 고백",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "content": "C003는 폭파 사고가 난 학교를 바라본다."
+                },
+                {
+                    "location": "학교",
+                    "act": "해치다",
+                    "content": "폭발로 인해 수많은 사상자가 나온다."
+                },
+                {
+                    "location": "학교",
+                    "act": "해치다",
+                    "content": "의사는 식당 안으로 들어가 교장을 살펴보지만 부상이 심하다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "여자는 C005에게 시내에서는 사고에 대해 모를 거라며 하루 정도 걸으면 시내에 도착할 거라며 자신이 간다고 말한다."
+                },
+                {
+                    "location": "식당",
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "의사는 교장에게 시를 읊어주며 치료를 한다."
+                },
+                {
+                    "location": "식당",
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "하지만 결국 교장은 눈을 감는다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "content": "C005는 학교를 떠나는 여자에게 콩알을 하나 준다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "content": "C005는 힘을 내라고 말하고 여자는 C005에게 받은 반지를 보여주며 파이팅을 외친다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "의사는 총을 챙겨 정문이 보이는 창가에 가 앉는다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "불안하다",
+                    "content": "C004가 걱정스레 바라본다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "불안하다",
+                    "content": "하지만 희사는 자신은 괜찮다며 사람들을 챙기라고 말한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C005는 C004에게 C001는 죽었다고 한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C005는 그 모든 게 웅덩이에서 시작됐다며 과거 얘기를 해준다."
+                },
+                {
+                    "location": "과거-창고",
+                    "character": [
+                        "C005",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "불안하다",
+                    "content": "웅덩이 앞에서 민달팽이를 모으던 C005와 C001는 금고를 뒤지던 C003를 보게 된다."
+                },
+                {
+                    "location": "과거-창고",
+                    "character": [
+                        "C005",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "C003는 C001에게 뭘 봤냐며 밀치다가 사고로 죽이게 된다."
+                },
+                {
+                    "location": "과거-창고",
+                    "character": [
+                        "C005",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "놀란 C003는 C001를 돌에 묶어 웅덩이 아래로 던진다."
+                },
+                {
+                    "location": "과거-창고",
+                    "character": [
+                        "C005",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "복도에 숨어 C005는 그 모든 걸 지켜본다."
+                },
+                {
+                    "location": "과거-학교 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C005가 울먹이며 운동장으로 뛰쳐나온다."
+                },
+                {
+                    "location": "과거-학교 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "그 앞으로 폭탄 하나가 떨어져 운동장에 박힌다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "Defeat",
+            "storyline": "학교를 떠난 마을에 사고를 보고하러 가던 여자는 C003에게 걸려 목숨을 잃게 된다. C003 일당은 금괴를 훔쳐 가기 위해 다시금 학교에 오지만 의사가 총을 들고 있는 통에 쉽게 접근하지 못한다.",
+            "unit_motif": "우발적 살인",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005는 자신이 겁쟁이라 항상 C003가 무서웠다고 말한다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "하지만 이젠 아니라고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "마을로 달려가던 여자는 C003 일행을 만나게 된다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "C003는 차에서 먼저 나와 자신과 같이 돌아갈 것을 요구한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "하지만 여자는 듣질 않는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "무섭다",
+                    "content": "결국 C003는 칼을 꺼내 여자를 죽인다."
+                },
+                {
+                    "location": "기숙사",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "괴롭다",
+                    "content": "C004와 C005는 부상당한 아이들을 치료해준다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "C004와 C005가 아이들을 치료해줬다며 방으로 온다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "의사는 C003의 차 소리를 듣는다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "의사는 C004와 C005에게 부축해 달라며 창 앞에 선다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "망원경으로 의사가 총을 들고 있는 걸 확인한 C003 일행은 차를 돌린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C001",
+                "C003"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C004의 눈앞에 나타난 C001는 C003를 자기 앞에 데려다 달라고 부탁한다. 한편 아이들을 지켜주던 의사 역시 숨을 거두고 C003 일행은 학교로 들어와 아이들을 감금한 채 금괴를 찾기 위해 노력한다.",
+            "unit_motif": "강도",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "의사는 다행이라며 의자에 돌아가 앉는다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "하지만 결국 숨을 거둔다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C004와 아이들은 먹거리들을 줍는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "그 뒤로 C001가 다가와 서 있는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C004는 도망가지 않을 거라며 C001에게 원하는 게 뭔지 얘기해 달라고 말한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 C003를 자기에게 데려오라고 말한다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "C004는 의사 방으로 뛰어올라온다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불안하다",
+                    "content": "C005에게 C001를 봤으며 뭘 원하는지도 알았다고 얘기해준다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "하지만 이미 죽어있는 의사를 발견한다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "그리고 그 뒤로 C003가 C005를 총으로 협박하고 있다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C003 일행들은 아이들을 시켜 금고를 찾는다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003는 C005에게 반지를 되돌려준다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C005는 여자가 죽었음을 직감한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "content": "C003 일행들은 아이들을 방 안에 가둬둔다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "C003 일행은 금고를 열기 위해 노력하지만 쉽지 않다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "아이들을 방을 탈출해 C003에게 복수할 준비를 한다. C003는 교장의 의족에서 금괴를 발견하지만 동료들은 이미 C003에게 질려 도망친 상태다.",
+            "unit_motif": "강도",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C004와 아이들은 자신들을 보호하기 위해 나무를 잘라 창으로 만든 후 몸집이 작은 아이 한 명을 창문을 통해 밖으로 내보낸다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "하지만 창에서 뛰어내리며 발을 접질려 부상을 입게 된다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "C003 일행들은 망치와 정으로 금고를 열려고 한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "하지만 꿈쩍도 하지 않자 C003 일행들은 슬슬 짜증을 낸다."
+                },
+                {
+                    "location": "복도",
+                    "act": "해치다",
+                    "content": "아이가 발을 접질려 힘겨워하고 있는데 그 앞으로 누군가 다가온다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "방문이 열리고 아이들이 방 밖으로 빠져나온다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불편하다",
+                    "content": "발목 부상을 당한 아이는 의사가 와 문을 열어줬다며 용기를 잃지 말라고 말했다며 전한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C005는 아이의 접질린 발을 맞춰준다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C004는 의사의 피 묻은 손수건을 보게 된다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "어린 시절 자신의 사진을 일행들에게 보여주던 C003는 학교를 모두 불태워 버린 후 금괴를 찾겠다고 말한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "아이들은 어떻게 하냐고 묻는 일행에게 부모도 없다며 다 같이 죽여버리자고 말한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그 뒤로 아이들이 창을 들고 다가온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C003 일행들은 차에서 물건을 좀 가져오겠다며 나간다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 주위를 두리번거리다 교장의 의족 안에 있는 금괴를 발견하고 기뻐한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "content": "그 순간 밖에서 자동차가 출발하는 소리가 들린다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "긴장되다",
+                    "content": "C003 일행들은 C003가 미쳤다며 자동차를 타고 도망친다."
+                },
+                {
+                    "location": "학교 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 짜증을 내면서도 금괴는 모두 자기 차지라며 즐거워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C003"
+            ],
+            "stage": "Resurrection",
+            "storyline": "아이들은 금괴를 챙기는 C003를 공격한다. C003는 웅덩이에 빠져 탈출하려 하지만 유령이 된 C001가 C003를 안고 물속에 가라앉는다.",
+            "unit_motif": "복수혈전",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 창고로 돌아온다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 창고로 돌아와 금괴를 챙긴다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "emotion": "긴장되다",
+                    "content": "잠시 후 C004와 C005가 C003를 유인한다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 금괴를 허리춤에 묶은 채 장총을 들고 C004와 C005를 쫓아온다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 지하 창고로 내려온다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C004와 C005가 C003 앞에 모습을 드러낸다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 총을 쏘려고 한다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 아이 한 명이 C003의 옆구리에 창을 꽂아 넣는다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "content": "C003가 쓰러진다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "content": "아이들은 쓰러지는 C003에게 창들을 꽂어 넣는다."
+                },
+                {
+                    "location": "지하 창고",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "content": "C003가 쓰러지자 웅덩이에 C003를 밀어 넣는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "유령과 인간의 존재를 구분 짓는 건 뭘까?라는 의사는 생각하고 그 가운데 아이들이 학교를 빠져나온다.",
+            "unit_motif": "유령",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "웅덩이",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C003는 웅덩이에서 탈출하기 위해 허리춤에 있던 금괴를 풀려고 한다."
+                },
+                {
+                    "location": "웅덩이",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "하지만 그때 유령이 된 C001가 C003의 몸을 안는다."
+                },
+                {
+                    "location": "웅덩이",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "유령이 된 C001가 C003의 몸을 안고 물속 깊이 가라앉는다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "슬프다",
+                    "content": "C004는 의사에게 손수건을 되돌려준다."
+                },
+                {
+                    "location": "의사 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "슬프다",
+                    "content": "C004는 눈물짓는다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "유령과 인간의 존재를 구분 짓는 건 무엇일까 고민한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001는 물 위에 떠 있다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "창고는 폐허가 된다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C003는 웅덩이 속에 갇혀 죽었다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "포탄들은 운동장에 박혀있다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "아이들은 학교 문을 열고 도심으로 떠난다."
+                },
+                {
+                    "location": "학교",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "content": "그 뒤로 유령이 된 의사가 떠나가는 아이들의 모습을 바라본다."
+                }
+            ]
+        }
+    ]
+}

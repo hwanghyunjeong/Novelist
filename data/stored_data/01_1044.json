@@ -1,0 +1,1298 @@
+{
+    "title": "살아남아라, 버텨라!",
+    "genre": [
+        "드라마",
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "C002은 혼자 등산을 즐기다가 절벽에 떨어지고 팔이 암석과 함께 절벽에 짓눌려 버린다. C002은 물 500ml와 중국산 칼과 산악용 로프만으로 죽음의 사투를 벌인다. C002은 자신의 팔을 부러트리고 팔을 잘라내고 탈출한다.",
+    "motif": "갑작스런 사고",
+    "conflict": "C002은 혼자 등산을 하며 새로 만나는 사람들을 가이드를 하며 살아가다 사고로 절벽에 암석과 팔이 끼어 버린다. 최소한의 장비로 탈출해야 하는 C002은 자신의 과거를 생각하며 죽음의 사투를 벌인다. C002은 자신의 팔을 부러트리고 팔을 자르고 탈출에 성공한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002은 주말을 이용해 그랜드캐니언 트레킹을 나선다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 캠핑 장비들을 챙긴다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002은 자동차를 몰고 나간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002은 지나가는 자전거들을 바라본다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "C002은 자동차를 몰고 가며 셀프 카메라를 찍는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "그랜드캐니언에 도착한다."
+                },
+                {
+                    "location": "야영장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "행복하다",
+                    "content": "C002은 야영장에 자동차를 세워둔 채 안에서 잠을 잔다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "상쾌하다",
+                    "content": "C002은 자전거를 타고 달린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "C002은 자전거를 타고 달리며 틈틈이 셀카를 찍는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C002은 자전거를 달리다 넘어졌다 일어나 다시 달린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 자전거를 세워두고 트레킹을 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002은 트레킹 중 여자들을 만나 그랜드캐니언 길 안내를 해주며 좋은 시간을 보낸다.",
+            "unit_motif": "나쁜남자에게 반하기",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반갑다",
+                    "content": "C002은 길을 잃은 여자 두 명에게 길 안내를 해준다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 C002에게 가이드를 해달라고 제안한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 자신은 힘든 곳만 다닌다며 자신 있냐 묻는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C003와 C001은 자신들도 액티브 한 것을 좋아한다 말한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002은 가이드를 하기로 하고 자신만 알고 있는 비밀스러운 곳을 여행한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C003와 C001은 신비한 공간들을 구경하며 즐겁게 논다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "감동하다",
+                    "content": "C002은 이곳저곳을 돌아다니며 전설을 이야기해준다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "애틋하다",
+                    "content": "C001은 C002을 애틋하게 바라본다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "C002은 C001의 그런 눈 빛이 싫지 않은 듯 계속 말을 하며 가이드를 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "질투하다",
+                    "content": "C003는 그런 C001과 C002을 질투한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C002은 절벽을 내려오는 도중 위에서 떨어진 돌이 팔에 끼어 옴짝달싹 못하게 된다. 빠져나와 보려고 할수록 팔이 더 끼게 된다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "답답하다",
+                    "content": "절벽을 내려오다 위에서 떨어진 돌에 팔이 끼어 옴짝달싹 못한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 난감한 듯 돌의 구조를 파악한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "난감하다",
+                    "content": "발로 돌을 쳐보기도 하고 손으로 밀어도 보지만 안 움직인다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "혼란스럽다",
+                    "content": "C002은 물 한 모금을 마시고 시계를 본다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "안타깝다",
+                    "content": "C003와 C001을 불러 보지만 절벽이 너무 깊어 소리가 빠져나가지 못한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 챙겨 온 장비들을 돌 위에 얹혀놓고 탈출 방법을 연구한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "안타깝다",
+                    "content": "작은 칼로 돌을 파다 떨어뜨린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "뿌듯하다",
+                    "content": "C002은 나뭇가지를 이용해 가까스로 줍는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "답답하다",
+                    "content": "계속해서 돌을 파보지만 진척이 별로 없다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "피곤하다",
+                    "content": "열두시가 넘어가고 다음날이 된다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C002 아빠"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002은 그랜드캐니언 안에 갇혀 과거를 생각하고 환상에 빠지게 된다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C002은 잠깐 잠에 들며 꿈을 꾼다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "편안하다",
+                    "content": "그랜드캐니언 은 밖으로 나와 돌 위에 서 있는 C002의 모습을 꿈을 꾼다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "발이 미끄러지며 잠에서 깬다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다치다",
+                    "emotion": "괴롭다",
+                    "content": "팔에 통증이 심해 괴로워한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "담담하다",
+                    "content": "C002은 몸에 끈을 연결해 잠시 휴식을 취한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "무섭다",
+                    "content": "C002은 자신이 떨어질 때의 꿈을 꾼다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "C002은 놀라며 잠에서 깬다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "반갑다",
+                    "content": "서서히 날이 밝아오며 C002이 있는 곳에도 해가 비추기 시작한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "행복하다",
+                    "content": "C002은 햇살을 느낀다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C002 아빠"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "그립다",
+                    "content": "C002은 어린 시절 아버지와 함께 그랜드캐니언을 구경했던 때를 떠올려 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C002은 오래 갇혀 있을 경우를 대비해 준비를 한다. 하지만 상황은 절망적이다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "담담하다",
+                    "content": "C002은 캠코더에 자신의 상황을 촬영한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "지금 자신의 상황에서 대처 방법들을 캠코더에 말을 하며 정리를 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "기대되다",
+                    "content": "위에서 인기척이 들린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "열광하다",
+                    "content": "머리 위로 모래가 떨어지자 다시금 소리를 질러 도움을 청해보지만 소용없다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "허무하다",
+                    "content": "오랜 시간이 지나 허무해진다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C002은 지금의 자신의 나약한 모습에 화를 낸다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "C002은 포기하지 말라고 스스로에게 다짐한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "자신감 있다",
+                    "content": "자신의 다짐을 캠코더로 찍는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 하루가 흘러가고 날씨가 추워지자 보온 준비를 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "절박하다",
+                    "content": "C002은 비상식량을 아주 조금씩 먹는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C001"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C002은 C003, C001과 함께 절벽 사이 우물에서 수영을 한다.",
+            "unit_motif": "뜻밖의 편지",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "기대되다",
+                    "content": "C002은 지구상의 최고의 틈을 구경시켜 준다고 하며 C003와 C001을 데려간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "자신감 있다",
+                    "content": "C002은 C003, C001과 함께 절벽 사이를 등산한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C003와 C001은 무섭다며 C002에게 말한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C002은 무서움을 이겨내지 못하면 천국을 볼 수 없다고 말하며 벽을 잡던 손을 놔 버린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "놀라다",
+                    "content": "C002이 갑자기 밑으로 떨어진다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "C003와 C001은 아연실색한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C002은 아래는 안전하다 말하며 내려오라고 말하자 C003와 C001도 밑으로 떨어진다."
+                },
+                {
+                    "location": "그랜드캐니언 안 호수",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C002, C003, C001은 절벽에서 호수로 뛰어든다."
+                },
+                {
+                    "location": "그랜드캐니언 안 호수",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "행복하다",
+                    "content": "수영을 하며 논다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C001이 C002을 파티에 초대한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "동생"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "팔을 잘라내기 위해 칼로 그어보지만 무뎌서 상처도 나지 않는다. C002은 점차 절망에 빠진다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C002은 캠코더에 현재 상황에 대해 다시금 녹화를 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비참하다",
+                    "content": "C002은 처음 오줌은 버렸지만 두 번째는 팩에 담아뒀다고 말한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "기대되다",
+                    "content": "C002은 팔을 끈으로 묶고 칼로 그어본다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "허무하다",
+                    "content": "칼날이 무뎌져 별 상처를 내지도 못한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "기대되다",
+                    "content": "돌에 칼을 갈아 보지만 무뎌진 칼을 어찌할 방법이 없다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "피곤하다",
+                    "content": "이것저것 도전을 해본다 지쳐서 다시금 잠든다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "그립다",
+                    "content": "C002은 어린 시절이 동생의 꿈을 꾼다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C002",
+                        "동생"
+                    ],
+                    "act": "놀다",
+                    "emotion": "행복하다",
+                    "content": "C002은 어린 시절 동생이 피아노 치는 모습을 촬영하고 있다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "안타깝다",
+                    "content": "C002은 졸다가 물을 약간 흘린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "안타깝다",
+                    "content": "아까워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C002은 비몽사몽간에 그랜드캐니언에서 만났던 여자들과 파티를 즐기고 물이 불어나 그랜드캐니언을 빠져나오는 꿈을 꾼다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C002은 자동차 안에서 여자들과 벌거벗고 놀고 있는 꿈을 꾼다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "황홀하다",
+                    "content": "C002은 여자와 누워 사랑을 나눈다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "갑자기 비가 내리기 시작하고 그랜드캐니언 안이 물로 가득 찬다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C002은 물 때문에 돌덩이가 빠져 그랜드캐니언에서 빠져나온다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "기대되다",
+                    "content": "C002은 그랜드캐니언을 빠져나와 자동차를 몰고 여자를 찾아간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "당황하다",
+                    "content": "여자는 C002을 알아보지 못한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "괴롭다",
+                    "content": "C002은 괴로워하며 꿈을 꾸고 있다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "허무하다",
+                    "content": "C002은 꿈에서 깨자 자신의 모습에 허탈에 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "궁금하다",
+                    "content": "목이 마른 듯 물병을 찾는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "절박하다",
+                    "content": "마지막 남은 물을 마신다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Defeat",
+            "storyline": "C002은 끝까지 포기하지 않기를 스스로에게 다짐해본다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C002은 캠코더에 자신의 상황을 촬영한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C002은 희망을 버리지 않고 스스로를 위로한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "허무하다",
+                    "content": "마지막 남은 물을 찾다 다 먹은 것 확인하고 허탈해 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "비장하다",
+                    "content": "C002은 더 이상 버티기 힘들다는 알고 큰 결심을 하려 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "기대되다",
+                    "content": "자기의 팔에 로프를 감아 지혈을 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "괴롭다",
+                    "content": "칼날을 팔뚝에 꽂아 넣자 피가 흐른다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "안타깝다",
+                    "content": "하지만 뼈 때문에 더 이상 들어가질 않는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "비참하다",
+                    "content": "C002은 받아놓은 오줌을 마신다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "그립다",
+                    "content": "C002은 C003, C001과 호수에서 놀았던 장면을 캠코더로 돌려 본다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "죄책감",
+                    "content": "C002은 C001의 모습을 보곤 자위를 하려다 참는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C002은 가족들과 친구들 그리고 과거의 연인이 자신에게 이별을 고하는 꿈을 꾼다. C002은 서서히 지쳐간다.",
+            "unit_motif": "갑작스런 사고",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "무섭다",
+                    "content": "C002은 주위에서 소리가 들리자 두려움을 느낀다."
+                },
+                {
+                    "location": "미식축구장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "그립다",
+                    "content": "C002은 미식축구장에서 자신을 떠나는 여자의 모습을 떠올린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "피곤하다",
+                    "content": "C002은 서서히 지쳐간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "혼란스럽다",
+                    "content": "죽음을 앞둔 사람처럼 모든 상황들이 주마등처럼 지나간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "그립다",
+                    "content": "가족들, 친구들의 모습들이 하나 둘 지나간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C002은 그들에게 작별 인사를 고한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 돌덩이가 부서지고 그랜드캐니언 바닥에 떨어진다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "그립다",
+                    "content": "C002은 어린 시절의 자신의 모습을 지켜본다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "후회하다",
+                    "content": "C002은 자신의 후회했던 선택들을 반성한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "눈물을 흘리며 깨어 난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C002은 뼈를 부러트려 팔을 잘라내고 그랜드캐니언에서 나오는데 성공한다.",
+            "unit_motif": "운명에 대한 반역",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "비장하다",
+                    "content": "C002은 큰 다짐을 한 듯 심호흡을 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "단호하다",
+                    "content": "나뭇가지를 입에 물고 고통을 참는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "망설이다",
+                    "content": "C002은 심호흡을 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "단호하다",
+                    "content": "C002은 돌에 끼인 팔을 부러뜨린다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "행복하다",
+                    "content": "C002은 좋아한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "참담하다",
+                    "content": "C002은 부러트린 팔 사이로 칼을 집어넣고 절단을 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "단호하다",
+                    "content": "피범벅이 되고 극심한 고통을 느끼지만 계속해서 절단을 한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "만족하다",
+                    "content": "C002은 결국 팔을 잘라내는데 성공한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "자신감 있다",
+                    "content": "C002은 자신의 떨어진 팔을 카메라로 찍는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 장비를 챙겨 절벽에서 걸어 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C002 아내"
+            ],
+            "stage": "Resurrection",
+            "storyline": "그랜드캐니언을 트레킹 하던 사람들이 C002을 발견하곤 도와준다. 응급 헬기가 C002을 싣고 간다.",
+            "unit_motif": "뜻밖의 편지",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "행복하다",
+                    "content": "C002은 자일을 이용해 절벽을 내려오는데 성공한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "마시다",
+                    "emotion": "자신감 있다",
+                    "content": "바닥에 고인 물을 먹으며 힘을 낸다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002은 물통 하나를 들고 그랜드캐니언을 나와 걸어간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 팔에서 피가 흐르고 태양이 내리쬐지만 한 발자국 한 발자국 걸어나간다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "C002은 건너에 희미하게 가족들이 보이자 도움을 요청한다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C002은 가족들과 함께 그랜드캐니언을 빠져나가기 위해 걷는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "고맙다",
+                    "content": "다른 일행 두 명을 만나 물을 얻어먹는다."
+                },
+                {
+                    "location": "그랜드캐니언",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C002은 그랜드캐니언으로 헬기가 도착하고 헬기에 탄다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "즐겁다",
+                    "content": "군중들의 모습과 C002의 모습은 즐거워한다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "행복하다",
+                    "content": "C002은 즐거워하며 수영을 한다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "수영장 밖을 나오면 가족들과 친구들이 자신을 바라보고 있다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C002",
+                        "C002 아내"
+                    ],
+                    "act": "만나다",
+                    "emotion": "행복하다",
+                    "content": "C002이 결혼했고 여전히 등산과 협곡을 누비고 다닌다."
+                }
+            ]
+        }
+    ]
+}
