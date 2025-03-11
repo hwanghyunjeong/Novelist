@@ -38,6 +38,15 @@ class DBManager:
             print(f"게임 상태 저장 중 오류 발생: {e}")
             raise
 
+    @staticmethod
+    def _save_game_state_tx(tx, game_state: Dict):
+        sanitized_state = {k: v for k, v in game_state.items() if k != "db_client"}
+        session_id = sanitized_state.get("session_id")
+        if not session_id:
+            raise ValueError("session_id가 올바르게 설정되지 않았습니다.")
+        query = "MERGE (gs:GameState {id: $game_state_id}) SET gs += $game_state"
+        tx.run(query, game_state_id=session_id, game_state=sanitized_state)
+
 
 class DBStateInjector:
     """dbclient 의존성 주입 클래스"""
@@ -59,12 +68,3 @@ class DBStateInjector:
         """
         updated_state = self.inject(state)
         return workflow_app.invoke(player_state_to_dict(updated_state))
-
-    @staticmethod
-    def _save_game_state_tx(tx, game_state: Dict):
-        sanitized_state = {k: v for k, v in game_state.items() if k != "db_client"}
-        session_id = sanitized_state.get("session_id")
-        if not session_id:
-            raise ValueError("session_id가 올바르게 설정되지 않았습니다.")
-        query = "MERGE (gs:GameState {id: $game_state_id}) SET gs += $game_state"
-        tx.run(query, game_state_id=session_id, game_state=sanitized_state)
