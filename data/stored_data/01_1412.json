@@ -1,0 +1,1963 @@
+{
+    "title": "내 것을 되찾겠어",
+    "genre": [
+        "드라마",
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "C001는 좋은 조건을 제시한 멤피스에 있는 로펌으로 취업하지만 수상한 점을 발견한다.",
+    "motif": "도망자",
+    "conflict": "C001는 로펌에서 하나둘씩 미심쩍은 구석을 발견하기 시작한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007"
+    ],
+    "units": [
+        {
+            "characters": [
+                "학생들",
+                "C001",
+                "친구들",
+                "면접관들",
+                "로펌 관계자",
+                "C003"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "하버드생들의 학교생활 모습들이 나온다. 하버드 법대를 졸업하는 C001는 연봉을 가장 많이 주는 멤피스의 로펌으로 취직하기로 결정한다.",
+            "unit_motif": "출세주의자",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "학생들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "즐겁다",
+                    "content": "하버드생들의 학교생활 모습이 비친다."
+                },
+                {
+                    "location": "체육관",
+                    "character": [
+                        "C001",
+                        "친구들"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C001가 농구를 한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "면접관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 로펌에 면접을 본다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001",
+                        "로펌 관계자"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 룸에 들어와 면접을 본다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001",
+                        "로펌 관계자"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "로펌 관계자는 지금껏 제시받은 연봉에 20%를 더 했다고 한다."
+                },
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003가 집 앞에 차를 세우고 들어간다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "기대되다",
+                    "content": "C003가 집에 들어온다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "기대되다",
+                    "content": "C001가 멤피스에 있는 로펌으로 결정했다고 말한다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "놀라다",
+                    "content": "연봉 액수가 적힌 봉투를 열어보는 C003가 깜짝 놀란다."
+                },
+                {
+                    "location": "멤피스 도시 전경",
+                    "act": "공개하다/드러내다",
+                    "emotion": "기대되다",
+                    "content": "멤피스 도시의 전경이 보인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "변호사들",
+                "변호사 부부",
+                "로펌 변호사 가족들",
+                "로펌 사람들"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001는 가족 같은 로펌 분위기에 적응한다.",
+            "unit_motif": "출세주의자",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "리무진 안",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003가 리무진을 타고 간다."
+                },
+                {
+                    "location": "로펌 안",
+                    "character": [
+                        "C001",
+                        "변호사들"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "수석 파트너가 C001를 변호사들에게 소개한다."
+                },
+                {
+                    "location": "시내 거리",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "변호사 부부"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001와 C003가 변호사 부부와 함께 거리를 걷는다."
+                },
+                {
+                    "location": "로펌 옥상",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "로펌 변호사 가족들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001와 C003는 로펌의 변호사 가족 행사가 열리는 자리에 참석한다."
+                },
+                {
+                    "location": "로펌 옥상",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "로펌 변호사 가족들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C003는 C001에게 가족 같은 분위기는 좋지만 왠지 느낌이 이상하다고 얘기한다."
+                },
+                {
+                    "location": "회의실",
+                    "character": [
+                        "변호사들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기대되다",
+                    "content": "수석 파트너는 공동 파트너들에게 C001를 놓치고 싶지 않다고 얘기한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001와 C003가 멤피스로 이사 온다."
+                },
+                {
+                    "location": "로펌 로비",
+                    "character": [
+                        "C001",
+                        "로펌 사람들"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "기대되다",
+                    "content": "C001는 첫 출근을 한다."
+                },
+                {
+                    "location": "로펌 로비",
+                    "character": [
+                        "C001",
+                        "로펌 사람들"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "답답하다",
+                    "content": "로펌 사람들의 분위기는 냉랭하다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "답답하다",
+                    "content": "책상에 앉은 C001에게 일이 산더미처럼 밀려든다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "변호사 부부",
+                "추모객들"
+            ],
+            "stage": "Setting-up",
+            "storyline": "아내 C003는 뭔가 이상한 느낌을 받는다.",
+            "unit_motif": "출세주의자",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "C001에게 고문인 C002가 찾아온다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "기대되다",
+                    "content": "C002는 만나자마자 C001에게 일을 맡긴다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001와 C002가 식사를 한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001가 변호사가 된 이유에 대해 이야기를 한다."
+                },
+                {
+                    "location": "동료의 집",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "변호사 부부"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기대되다",
+                    "content": "C001 부부가 동료 변호사의 집을 찾는다."
+                },
+                {
+                    "location": "동료의 집",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "변호사 부부"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "슬프다",
+                    "content": "동료 변호사의 아내가 나오더니 C006와 C007 변호사가 죽었다며 운다."
+                },
+                {
+                    "location": "동료의 집",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "변호사 부부"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "걱정",
+                    "content": "C001가 동료에게 조용히 간다."
+                },
+                {
+                    "location": "동료의 집",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "변호사 부부"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "불안하다",
+                    "content": "동료는 남일 같지 않다며 불안해한다."
+                },
+                {
+                    "location": "장례식장",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002",
+                        "추모객들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C001 부부가 동료 변호사의 장례식장을 찾는다."
+                },
+                {
+                    "location": "장례식장",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002",
+                        "추모객들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 C001의 아내 C003를 계속 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C002",
+                "요원",
+                "고객"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001는 죽은 변호사들에 대한 의구심이 생긴다.",
+            "unit_motif": "원나잇스탠드",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "피곤하다",
+                    "content": "C001 부부가 멤피스에서 바쁘게 생활한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "피곤하다",
+                    "content": "C002가 C001에게 와서 급한 일을 시킨다."
+                },
+                {
+                    "location": "레스토랑",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "레스토랑에서 일을 하는 C001에게 FBI 요원이 다가온다."
+                },
+                {
+                    "location": "레스토랑",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 C006와 C007를 포함해 10년 동안 4명의 변호사가 죽었다고 C001에게 알려 준다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 죽은 변호사들의 정보를 수집한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "의심스럽다",
+                    "content": "모두들 40세 초반에 죽은 걸로 나오자 의구심이 생긴다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C001가 늦게 들어오자, C003가 화를 낸다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C003는 C002와 여행이나 잘 갔다 오라고 한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C002가 바다로 출장 온다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "고객"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C002와 C001가 고객을 만난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "고객",
+                "주인",
+                "여자",
+                "강간남"
+            ],
+            "stage": "1st Accident",
+            "storyline": "고문 C002와 바다로 출장 간 C001는 그곳에서 우연히 만난 여자와 하룻밤을 지내게 된다.",
+            "unit_motif": "원나잇스탠드",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "고객"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "C001가 고객의 환심을 사는데 성공한다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "호텔 룸에 투숙하는 C001는 이왕 온 김에 죽은 동료들의 사인을 찾아보기로 한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001",
+                        "주인"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 선착장 주인에게 동료에 대해 물어본다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001",
+                        "주인"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "주인은 어떤 여자와 같이 왔었다고 기억해낸다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C002가 장기 투숙하는 룸에 들어간다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "의심스럽다",
+                    "content": "C001는 작은방에 사건 자료 박스가 쌓여 있자 의아해 한다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "의심스럽다",
+                    "content": "C001는 자료들을 보며 뭔가 석연치 않음을 느낀다."
+                },
+                {
+                    "location": "클럽",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C002는 클럽으로 놀러 간다."
+                },
+                {
+                    "location": "백사장",
+                    "character": [
+                        "C001",
+                        "여자",
+                        "강간남"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "긴장되다",
+                    "content": "술에 취해 걸어가는 C001가 강간당할뻔한 여자를 구해준다."
+                },
+                {
+                    "location": "백사장",
+                    "character": [
+                        "C001",
+                        "여자",
+                        "강간남"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 그 여자와 잠자리를 하는 실수를 범한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C005",
+                "탐정",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001는 감옥에 있는 C005을 찾아간다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002와 C001가 멤피스로 돌아간다."
+                },
+                {
+                    "location": "교도소 면회실",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 수감 중인 C005을 만난다."
+                },
+                {
+                    "location": "교도소 면회실",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "멤피스의 로펌에 취직했다고 말해준다."
+                },
+                {
+                    "location": "교도소 면회실",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001는 로펌에 뭔가 이상한 구석이 많다고 한다."
+                },
+                {
+                    "location": "교도소 면회실",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 사설탐정을 소개해 준다."
+                },
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "C001",
+                        "탐정"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "흥신소 비서 C004가 C001를 보고 수다를 떤다."
+                },
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "C001",
+                        "탐정"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "반갑다",
+                    "content": "탐정이 들어오더니 C005과 감방 동기였다고 말한다."
+                },
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "C001",
+                        "탐정"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "의심스럽다",
+                    "content": "자초지종을 들은 탐정은 로펌이 진짜 수상하다며 조사할 가치가 있다고 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 오늘 회사를 찾아갔는데 없었다며 어디 갔었냐고 묻는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C005을 만나러 갔었다고 고백한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "탐정",
+                "C004",
+                "조사원들",
+                "C001",
+                "요원",
+                "법무부 직원"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "조사원들이 C001가 만난 탐정을 살해한다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "탐정",
+                        "C004",
+                        "조사원들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "반하다",
+                    "content": "C004는 탐정에게 책상 아래서 구강성교를 해준다."
+                },
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "탐정",
+                        "C004",
+                        "조사원들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "남자 둘이 들어와 죽은 변호사에 대해 왜 캐냐고 묻는다."
+                },
+                {
+                    "location": "흥신소 안",
+                    "character": [
+                        "탐정",
+                        "C004",
+                        "조사원들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "탐정을 총으로 쏴 죽인다."
+                },
+                {
+                    "location": "세미나실",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 세미나에 참석한다."
+                },
+                {
+                    "location": "세미나실",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "FBI 요원이 남긴 쪽지를 보고 긴장한다."
+                },
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 요원과 만난다."
+                },
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 벤치에 앉으라고 한다."
+                },
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "직원이 벤치에 미리와 앉아 있다."
+                },
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "직원은 C001에게 로펌에서 살아서 관둔 변호사는 없었다며 C001의 집에도 도청되고 있다고 확신한다."
+                },
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "로펌이 범죄조직의 합법적 대리회사라고 덧붙인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "요원",
+                "법무부 직원",
+                "C002",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "FBI 요원이 C001에게 접근해 로펌의 비리를 파헤쳐 달라고 부탁한다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "공원 벤치",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "법무부 직원"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "C001가 충격에 빠진다."
+                },
+                {
+                    "location": "공원 거리",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 C001에게 회사 서류를 빼내 자기한테 넘겨달라고 한다."
+                },
+                {
+                    "location": "공원 거리",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "거부감",
+                    "content": "C001는 요원의 요청을 거절한다."
+                },
+                {
+                    "location": "공원 거리",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 그들이 C001의 C005을 가만두지 않을 거라고 말해준다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 수석 파트너와 C002에게 FBI 요원을 만난 사실을 고백한다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "수석 파트너는 우리는 늘 정부와 싸우고 늘 이겨왔다고 가볍게 치부한다."
+                },
+                {
+                    "location": "C001의 집 안",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 들어와 C003에게 조용히 하라고 하고는 도청기를 찾는다."
+                },
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C001에게 자초지종을 들은 C003가 거리를 뛰쳐나간다."
+                },
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C003를 따라간다."
+                },
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 C001에게 당장 보스턴으로 돌아가자고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C002",
+                "C004"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "자신의 집에 도청기가 있다는 사실에 C001와 C003는 층격에 빠진다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "답답하다",
+                    "content": "C001는 우리가 돌아가면 C005이 죽는다고 말한다."
+                },
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 FBI가 증인 프로그램으로 돌봐 줄 거라고 말한다."
+                },
+                {
+                    "location": "동네 거리",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C003에게 평상시처럼 행동하라고 충고한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 회사에서 조금씩 기밀을 빼낸다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C002에게 바다로 가서 고객을 만나고 오겠다고 한다."
+                },
+                {
+                    "location": "로펌 복도",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 사무실로 돌아간다."
+                },
+                {
+                    "location": "로펌 복도",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "C001가 C004를 보고는 놀란다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 샌드위치 배달 왔다며 영수증을 받아 간다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 그 안에서 쪽지를 본다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 일을 의뢰한 게 누구냐고 물었다고 말해준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "동료"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001가 고용한 탐정이 죽고 위험에 빠진다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "한 남자를 탐정이 다리에 총을 쏴서 C004가 다리를 절룩 거린다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 다른 한 명은 색소 결핍증이 있다고 기억해 낸다."
+                },
+                {
+                    "location": "로펌 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "로펌으로 돌아가는 C001 앞에 차가 선다."
+                },
+                {
+                    "location": "로펌 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "차 안에서 조사원이 나와 인사한다."
+                },
+                {
+                    "location": "로펌 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 차에 색소 결핍증에 걸린 남자가 있자 놀란다."
+                },
+                {
+                    "location": "로펌 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001는 마지못해 차에 탄다."
+                },
+                {
+                    "location": "주차장",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "차가 한적한 주차장에 멈춘다."
+                },
+                {
+                    "location": "차 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "조사원이 차에서 나온다."
+                },
+                {
+                    "location": "차 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "조사원은 얼마 전 바다에서 C001가 단 여자와 해변에서 잠자리를 했다는 제보가 들어왔다며 사진을 보여준다."
+                },
+                {
+                    "location": "로펌 복도",
+                    "character": [
+                        "C001",
+                        "동료"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "로펌으로 돌아온 C001를 동료가 끌고 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "동료",
+                "C003",
+                "C004",
+                "C002"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C001는 C003에게 외도 사실을 고백한다.",
+            "unit_motif": "지배자 희롱",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C001",
+                        "동료",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "사람들이 모여 C001의 변호사 시험 2등을 축하해준다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C001",
+                        "동료",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C003도 와 있자 C001가 놀란다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C001",
+                        "동료",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 오더니 C003를 부른 건 자기라고 너스레를 떤다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 자는 사이, C003가 기밀 자료 박스를 C004에게 가져다준다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 사무실을 임대한다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 변호사 서약식을 한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "C001는 할 수 없이 C003에게 외도 사실을 고백한다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "조사원이 C001에게 C005이 있다고 수석 파트너와 C002에게 보고한다."
+                },
+                {
+                    "location": "시내 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "답답하다",
+                    "content": "C001가 거리를 방황한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "엘리베이터를 타는 C001가 이어 타는 C004와 가방을 바꿔치기하는 수법으로 회사 기밀을 넘긴다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "고객",
+                "요원"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 탐정의 비서 C004의 도움을 받아 회사 기밀을 빼낸다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 기밀 자료를 복사한다."
+                },
+                {
+                    "location": "고객 사무실",
+                    "character": [
+                        "C001",
+                        "고객"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 고객과 상담한다."
+                },
+                {
+                    "location": "고객 사무실",
+                    "character": [
+                        "C001",
+                        "고객"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C001의 정신이 딴 데 가 있자 고객이 불평한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 자료를 분석한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C004를 찾아온다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C005을 살릴 수 있는 방법이 생각났다며 바다에 갈 수 있는 방법을 강구한다."
+                },
+                {
+                    "location": "주차장",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "조사원이 C004의 봉고를 그냥 지나친다."
+                },
+                {
+                    "location": "봉고 안",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "봉고 뒤에 숨어 있던 C001가 앞으로 건너와 앉는다."
+                },
+                {
+                    "location": "경마장 안",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 FBI 요원과 만난다."
+                },
+                {
+                    "location": "경마장 안",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 백만 달러를 스위스 은행 계좌에 입금하라고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "요원",
+                "C003",
+                "동료",
+                "법무부 직원"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001는 회사 기밀을 주는 대신 교도소에 있는 C005을 빼내주고, 백만 달러도 함께 요원에게 요구한다.",
+            "unit_motif": "도망자",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "경마장 안",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C005을 당장 꺼내 달라고 부탁한다."
+                },
+                {
+                    "location": "경마장 안",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "요원이 C001의 이야기에 화를 낸다."
+                },
+                {
+                    "location": "경마장 안",
+                    "character": [
+                        "C001",
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 무선 녹음기로 대화를 녹음한 것을 들려준다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "경멸하다",
+                    "content": "C001가 집에 오는데 C003가 그네에만 앉아 있다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "미안하다",
+                    "content": "C001의 마음이 아프기만 하다."
+                },
+                {
+                    "location": "C001의 집 앞",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "단호하다",
+                    "content": "C003는 곧 여기를 떠날 거라고 C001에게 통보한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "동료"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "동료가 와서 C003가 떠나 안됐다며 C001를 위로해 준다."
+                },
+                {
+                    "location": "법무부 안",
+                    "character": [
+                        "법무부 직원"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "법무부 직원이 FBI 요원의 전화를 받고 격노한다."
+                },
+                {
+                    "location": "요원의 방",
+                    "character": [
+                        "요원"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 C001의 협조를 받으려면 C005을 풀어 줄 수밖에 없다고 말한다."
+                },
+                {
+                    "location": "로펌 자료실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 출근 전에 들아와 기밀 자료를 찾아본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C004",
+                "C001",
+                "C003",
+                "C002",
+                "요원"
+            ],
+            "stage": "Defeat",
+            "storyline": "결국 아내 C003는 C001의 외도 사실까지 알게 되고는 C001의 곁을 떠난다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "교도소 면회실",
+                    "character": [
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C004는 C001의 C005을 찾아간다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 바다의 선착장 주인에게 전화로 도움을 요청한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "집을 떠나는 C003를 보고 C001는 마음이 아프다."
+                },
+                {
+                    "location": "유치원",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 C003가 일하는 유치원을 찾아온다."
+                },
+                {
+                    "location": "유치원",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 C001와의 관계는 유감이라며 자신이 내일 바다로 떠나는데 같이 가자고 한다."
+                },
+                {
+                    "location": "유치원",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 어머니가 아프셔서 집에 가야 한다고 둘러댄다."
+                },
+                {
+                    "location": "유치원 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C003가 C004에게 전화를 걸어 C002가 바다에 가서 잠수를 안 할 거라는 사실을 알려준다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "당황하다",
+                    "content": "C004가 C003의 전화를 받고 당황한다."
+                },
+                {
+                    "location": "교도소 입구",
+                    "character": [
+                        "요원",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "FBI 요원이 C001의 C005을 풀어준다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 C005의 전화를 받는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "요원",
+                "C002",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "아내 C003는 C001의 고문 C002를 미인계로 유혹해 그에게서 회사 기밀들을 빼낸다.",
+            "unit_motif": "지배자 희롱",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "C001는 C005을 어디로 따돌렸냐며 소리치는 요원의 전화를 받는다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001는 차분하게 돈이나 입금하라고 종용한다."
+                },
+                {
+                    "location": "요원의 방",
+                    "character": [
+                        "요원"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "요원은 전화를 끊고 당장 C001의 C005을 찾으라고 소리친다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 C002의 룸까지 따라온다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 미인계로 C002를 유혹하면서 시간을 벌려고 노력한다."
+                },
+                {
+                    "location": "호텔 룸",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "긴장되다",
+                    "content": "C003는 침대에서 쓰러지는 C002를 확인하고는 기밀 자료 박스를 들고 룸을 나온다."
+                },
+                {
+                    "location": "여관방",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "C003가 C004에게 기밀 자료 박스를 준다."
+                },
+                {
+                    "location": "갓 길",
+                    "character": [
+                        "요원",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "C005은 몇 년 만에 다시 보는 노을이라며 C001에게 고맙다고 인사한다."
+                },
+                {
+                    "location": "바다 술 집",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 술집에서 여자와 노닥거린다."
+                },
+                {
+                    "location": "바다 술 집",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "기쁘다",
+                    "content": "C002는 C003가 보이자 기뻐한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "경찰",
+                "C001",
+                "수석파트너"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "회사 기밀을 C001가 빼내는 것을 알게 된 로펌은 그를 죽이려고 한다.",
+            "unit_motif": "도망자",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "식당",
+                    "character": [
+                        "C005",
+                        "경찰"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 식당에 들어와 요리를 시킨다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C005",
+                        "경찰"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C005을 미행하는 자도 옆에 앉는다."
+                },
+                {
+                    "location": "트럭 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 미행하는 자를 따돌리고 트럭을 타고 도망간다."
+                },
+                {
+                    "location": "로첨 로비",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 출근한다."
+                },
+                {
+                    "location": "복사실",
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "조사원이 복사기에서 떨어진 팩스 종이를 발견한다."
+                },
+                {
+                    "location": "복사실",
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "조사원이 C001가 요원과 접촉하는 사실을 알아낸다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 방에서 나오자 수석 파트너가 부른다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "재판장의 전화라고 비서가 바꿔준다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "재판장은 다름 아닌 FBI 요원이다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 그들이 다 알았다며 당장 빠져나오라고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "수석파트너",
+                "요원",
+                "C005",
+                "C004",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "도망치는 C001, 결국 로펌의 손아귀에서 벗어나게 된다. C005과 C004가 눈이 맞고, 아내 C003는 C001에게 돌아온다.",
+            "unit_motif": "도망자",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 전화를 끊자마자 달려 나간다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001",
+                        "수석파트너"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "창문을 깨고는 트럭 위로 떨어진다."
+                },
+                {
+                    "location": "로펌 회의실",
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "파트너는 C001가 정보를 넘기기 전에 잡아야 한다고 소리친다."
+                },
+                {
+                    "location": "요원의 방",
+                    "character": [
+                        "요원"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "요원은 로펌에 대한 수사를 상부에 요청한다."
+                },
+                {
+                    "location": "케이블 카",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 케이블카를 타고 도망친다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반하다",
+                    "content": "바다에서 C001의 C005과 C004가 눈이 맞는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 아수라장이 된 집을 둘러본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "화나다",
+                    "content": "요원이 찾아와 마피아들과 손을 잡았다며 화를 낸다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "긴장되다",
+                    "content": "요원이 나가고 C003가 들어온다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "요원",
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001와 C003가 뜨겁게 포옹한다."
+                },
+                {
+                    "location": "집 앞",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001와 C003는 차에 집을 싣고 다시 보스턴으로 떠난다."
+                }
+            ]
+        }
+    ]
+}

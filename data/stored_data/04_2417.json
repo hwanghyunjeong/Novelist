@@ -1,0 +1,2721 @@
+{
+    "title": "인터디맨션 어드벤처 4",
+    "genre": [
+        "판타지",
+        "드라마"
+    ],
+    "theme": "탈출",
+    "concept": "C001, C004가 C005에게 납치를 당해 시뮬레이터에 갇힌다.",
+    "motif": "납치",
+    "conflict": "C005이 암흑 물질 제조법을 알아내려고 C001을 납치하지만, C001이 C005을 속이고 도망친다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002가 C001에게 인사하지만 C001은 귀찮아한다. C002가 C003가 로봇같이 행동하는 것을 이상하게 생각한다.",
+            "unit_motif": "의심",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "궁금하다",
+                    "content": "C001이 차고에서 쥐를 해부하고 있다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "편안하다",
+                    "content": "C002가 차고 앞을 지난다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "반갑다",
+                    "content": "C002가 차고에 있는 C001을 본다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "날이 참 상쾌하네요."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "귀찮다",
+                    "content": "그래."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C002가 계속 기분이 좋다고 말한다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "귀찮다",
+                    "content": "그래 그렇겠지."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003가 출근하기 위해 차로 간다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003가 로봇 같은 말투로 C002에게 인사한다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003가 차를 타고 직장으로 간다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "엄마 오늘 뭔가 달라 보이지 않나요?"
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "짜증나다",
+                    "content": "C001이 허공에 C002를 진짜처럼 잘 만들었다고 소리친다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "C002가 C001에게 왜 그러냐고 묻는다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "귀찮다",
+                    "content": "C001이 C002에게 진짜 모리처럼 말한다고 말한다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "그럼 저는 학교에 다녀올게요."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002가 학교에 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E001",
+                "C002",
+                "학생들",
+                "C001",
+                "학생1",
+                "제시카"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "E001가 C002를 칭찬하며 수업을 시킨다. 사람들이 암흑 물질을 만드는 방법을 C002에게 물어보지만 C002는 알려주지 않는다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "가르치다/훈련시키다",
+                    "emotion": "담담하다",
+                    "content": "E001가 수학을 가르치고 있다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "담담하다",
+                    "content": "E001가 C002에게 답이 뭐냐고 묻는다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불안하다",
+                    "content": "C002가 답을 말한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "기쁘다",
+                    "content": "정말 잘 맞췄어!"
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "기쁘다",
+                    "content": "앞으로 나와 보렴."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "학생들"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "즐겁다",
+                    "content": "학생들이 C002에게 환호를 보낸다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "기쁘다",
+                    "content": "E001가 C002에게 수업을 해보라고 한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C001이 교실 밖에서 몰래 사람들을 몰래 보고 있다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "C002가 선생님에게 뭘 해야 하는지 묻는다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "학생1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "학생1이 암흑 물질 만드는 방법을 물어본다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "그건 좀 곤란해."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "제시카"
+                    ],
+                    "act": "꼬시다",
+                    "content": "제시카가 암흑 물질 제조법을 알려주면 C002와 사귀겠다고 유혹한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "E001",
+                "C002"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001이 C002를 교실 밖으로 데리고 나간다. C001이 C002에게 외계인의 시뮬레이터에 갇혀있다고 말하지만 C002는 믿지 않고 제시카에게 가고 싶어 한다.",
+            "unit_motif": "조직(소속) 내 갈등",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001이 교실로 들어온다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "급한 일이 있어서 C002는 내가 데리고 갑니다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C002의 팔목을 잡는다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "단호하다",
+                    "content": "E001가 C002가 가지 못하게 막는다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "단호하다",
+                    "content": "지금 나가면 시험 점수를 깎을 거야."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 E001의 말을 무시한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 교실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "담담하다",
+                    "content": "C001이 C002를 데리고 나간다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "제시카랑 사귈 수 있는 기회였는데 어디로 데려가는 거죠?"
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C002에게 몸을 씻어야 한다고 말한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "우리 지금 시뮬레이터 안에 갇힌 것 같아."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C005의 짓을 거야."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 C005은 알몸을 보는 것을 혐오한다고 말한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "그게 무슨 정신 나간 말이에요!"
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C002가 제시카에게 가려고 한다."
+                },
+                {
+                    "location": "해리 허프슨 고등학교 샤워실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C002를 막는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "스투",
+                "E002",
+                "C004"
+            ],
+            "stage": "Setting-up",
+            "storyline": "외계인이 C002와 C001을 염탐하고 있다. C002와 C001 이외에 C004가 같이 납치되었다는 것을 알게 된다. 한편, C004는 자신이 시뮬레이터에 있다는 것을 알아차리지 못한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불쾌하다",
+                    "content": "쟤네 왜 계속 알몸이야!"
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불쾌하다",
+                    "content": "알몸이 아닐 때 알려줘."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "스투"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "스투가 C006에게 시뮬레이터에 또 다른 진짜 인간이 발견되었다고 보고한다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "불만족스럽다",
+                    "content": "C006이 E002를 꾸짖는다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "E002가 E003를 탓한다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "답답하다",
+                    "content": "C006이 E002와 E003에게 문제나 해결하라며 화를 낸다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "짜증나다",
+                    "content": "C006이 C004에 대해 묻는다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "스투"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "C004는 C001과 함께 살고 있습니다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "짜증나다",
+                    "content": "C006이 C004에게 에너지를 많이 쓰지 말라고 말한다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "짜증나다",
+                    "content": "C006에 C004는 C004 시뮬레이터를 자동 설정으로 변경하라고 명령한다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우리는 C001에게 암흑 물질 정보만 얻으면 돼."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "스투"
+                    ],
+                    "act": "사용하다",
+                    "content": "스투가 C004의 시뮬레이터를 자동 설정으로 변경한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "한편, C004는 시뮬레이터 안에서 차를 타고 직장으로 간다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "긴장되다",
+                    "content": "긴장하지 말고 오늘 발표 잘 해내야 해."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "긴장되다",
+                    "content": "마음에 안정을 줘야겠다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 라디오를 튼다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "듣다",
+                    "emotion": "당황하다",
+                    "content": "C004가 라디오에서 인간 음악이 나오는 것을 듣고 당황한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "듣다",
+                    "emotion": "편안하다",
+                    "content": "이 음악 완전 내 취향이야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001이 C001과 C002의 옷을 버리며 계속 알몸이어야 한다고 말하지만 C002는 C001을 의심한다. C001의 설명에 C002는 C001의 말을 믿기 시작한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C001과 C002의 옷을 들고뛴다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "C002가 C001을 따라간다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C001과 C002의 옷을 하수구에 버린다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "알몸을 계속 유지해서 C005이 우리를 염탐하지 못하게 해야 돼."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002가 C001의 말을 의심한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "답답하다",
+                    "content": "아직도 여기가 시뮬레이터 안이라는 것을 모르겠어?"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002가 C001의 말을 믿지 못하겠다고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "답답하다",
+                    "content": "C001이 C002에게 식빵이 토스트를 타고 가는 것을 가리킨다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "답답하다",
+                    "content": "저걸 보고도 이게 현실 같아?"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "뭔가 이 세계에 문제가 있긴 하군요."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002가 C001에게 시뮬레이터에 잡혀온 이유를 아는지 묻는다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "C001이 암흑 물질 때문이라고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "구조원"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001가 시뮬레이터의 구조원이 암흑 물질을 달라는 애원을 무시한다. C001은 C005에게 복수하겠다고 말한다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "content": "C001과 C002가 응급차가 오는 소리를 듣는다."
+                },
+                {
+                    "location": "응급차",
+                    "character": [
+                        "구조원"
+                    ],
+                    "act": "열다",
+                    "emotion": "절박하다",
+                    "content": "구조원이 응급차 문을 연다."
+                },
+                {
+                    "location": "응급차",
+                    "character": [
+                        "구조원"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "암흑 물질이 있어야 사람을 살릴 수 있습니다!"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "닫다",
+                    "emotion": "담담하다",
+                    "content": "C001이 응급차 문을 닫는다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C001과 C002가 응급차를 지나간다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C002가 수업에서 사람들이 암흑 물질을 물어봤다고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001이 C002에게 암흑 물질은 자신이 발명한 우주를 빠르게 여행할 수 있게 하는 물질이라고 설명한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C005이 이런 짓을 하는 게 처음이 아니야."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "내 손자까지 납치하다니 가만두지 않겠어."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002가 C001에게 계획을 묻는다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C001이 C005에게 똑같이 사기를 칠 것이라고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "모든 걸 빼앗어버리겠어."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "사과 협회 사람들"
+            ],
+            "stage": "Another Story",
+            "storyline": "C004가 사과 협회 사람들에게 제안서를 발표한다. 사과 협회 사람들의 긍정적인 평가에 자신감을 얻는다.",
+            "unit_motif": "임무 수행",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 사과 협회 사람들에게 인사를 한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "사과 협회 사람들"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "사과 협회 사람들이 아무 말도 하지 않고 C004를 본다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "오늘 할 이야기를 바로 시작하겠습니다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 자신의 광고 계획안을 발표한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "사과 협회 사람들"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "사과 협회 사람들이 여전히 아무 말도 하지 않고 C004를 본다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 사과 슬로건을 제안한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "사과 협회 사람들"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "사과 협회 사람들이 계속 아무 말도 하지 않고 C004를 본다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "긴장되다",
+                    "content": "제발 아무 말이라도 해주세요."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "좋은 제안서죠?"
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "사과 협회 사람들"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "사과 협회 사람들이 좋다고 말한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "제 제안서를 채택해주셔서 감사합니다!"
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "사과 협회 사람들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "사과 협회 사람들이 각자 엉뚱한 곳을 보며 좋다고 말한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기쁘다",
+                    "content": "C004가 자신감에 찬 모습으로 광고 대행사 회의실을 나선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "사람들",
+                "C003"
+            ],
+            "stage": "Another Story",
+            "storyline": "C004가 성과를 사람들과 C003에게 자랑한다. C004가 C003에게 연락하여 관계를 가지자고 제안하여 허락받는다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 처음으로 자신의 제안서가 채택된 것을 길거리 사람들에게 자랑한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "사람들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "사람들이 각자 아무렇게나 반응을 한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 자신감 있게 거리를 걷는다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 C003에게 전화를 한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "누구세요."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 제안서가 채택된 것을 C003에게 자랑한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "자신감 있다",
+                    "content": "우리 관계를 가질 때인 것 같아."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "좋아."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C004가 길거리 사람들을 본다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "C003가 좋대!"
+                },
+                {
+                    "location": "C004의 시뮬레이터 거리",
+                    "character": [
+                        "사람들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "사람들이 각자 아무렇게나 반응을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "관객들"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001과 C002가 계획을 실행한다. 시뮬레이터에 있는 관객들이 C001의 명령을 따라 움직이기 시작한다. C001은 관객들에게 오류를 생기게 해 멈추는데 성공한다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002와 C001이 옷을 입는다."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "우리 전략이 성공할까요?"
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 사람들 앞에 나서는 게 긴장된다고 말한다."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "저건 사람들이 아니라 디지털 입자일 뿐이니 걱정 마."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "담담하다",
+                    "content": "음악 주세요!"
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002와 C001이 무대 위로 나간다."
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001이 관객이 적어서 암흑 물질에 대한 랩을 하지 못하겠다고 말한다."
+                },
+                {
+                    "location": "무대 앞",
+                    "character": [
+                        "관객들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "관객들이 무대 앞으로 몰려든다."
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "뻔뻔하다",
+                    "content": "내 명령을 듣고 따라 해!"
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001이 관객들에게 계속해서 어려운 명령들을 한다."
+                },
+                {
+                    "location": "무대 앞",
+                    "character": [
+                        "관객들"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "무감각함",
+                    "content": "관객들에게 오류가 생긴다."
+                },
+                {
+                    "location": "무대 앞",
+                    "character": [
+                        "관객들"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "무감각함",
+                    "content": "관객들이 멈춘다."
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "오류가 고쳐지기 전에 도망가자!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "사람1",
+                "C004",
+                "C003"
+            ],
+            "stage": "Another Story",
+            "storyline": "C004는 여전히 시뮬레이터 안에 있는 것을 모른 채 C003와 관계를 가진다. C004는 제안서를 표절한 것이 양심에 찔려 불안해한다.",
+            "unit_motif": "거짓말",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C004의 집 앞",
+                    "character": [
+                        "사람1"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "사람1이 C004의 집 앞에서 오류를 내며 공을 튀기고 있다."
+                },
+                {
+                    "location": "C004의 집 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C004가 집에 도착한다."
+                },
+                {
+                    "location": "C004의 집 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "설레다",
+                    "content": "C004는 사람1을 보지 못한다."
+                },
+                {
+                    "location": "C004의 집 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C004가 급하게 집으로 들어간다."
+                },
+                {
+                    "location": "C004의 집 부엌",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C003가 수화기를 들고 서있다."
+                },
+                {
+                    "location": "C004의 집 부엌",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "설레다",
+                    "content": "C004가 C003에게 뽀뽀를 한다."
+                },
+                {
+                    "location": "C004의 집 부엌",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C003가 여전히 수화기를 들고 서있다."
+                },
+                {
+                    "location": "C004의 집 부엌",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "움직이지 않는 것도 좋아."
+                },
+                {
+                    "location": "C004의 집 부엌",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "설레다",
+                    "content": "C004와 C003가 침실로 간다."
+                },
+                {
+                    "location": "C004의 집 침실",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "emotion": "설레다",
+                    "content": "C004와 C003가 관계를 가진다."
+                },
+                {
+                    "location": "C004의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "오늘 엄청났어."
+                },
+                {
+                    "location": "C004의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "불안하다",
+                    "content": "이상할 만큼 너무 좋은데?"
+                },
+                {
+                    "location": "C004의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "불안하다",
+                    "content": "내가 당신과 관계를 할 만큼 일을 잘 한 걸까?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C005",
+                "C006"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001과 C002가 시뮬레이터에서 나오는데 성공하지만 외계인의 계략이 끝나지 않았다.",
+            "unit_motif": "성공",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 뛴다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "출구가 있는 건가요?"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "자신감 있다",
+                    "content": "C001이 시뮬레이션이 멈췄기 때문에 나갈 수 있다고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 시뮬레이터 밖으로 나온다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "진짜 시뮬레이터에 있었잖아!"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C002에게 빨리 도망가자고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 C001과 C002의 시뮬레이터 방에서 나간다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C001과 C002가 도망치는 것을 본다."
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "계획대로 도망치고 있군!"
+                },
+                {
+                    "location": "외계인 감시실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C005이 계획대로 C001이 움직이자 비웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001은 C005에게 복수하기 위해 프로세서들을 훔친다.",
+            "unit_motif": "복수",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 외계인 비행선을 걷고 있다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 중앙 처리실을 찾아야 한다고 말한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "근데 C001은 외계인보다 똑똑하면서 왜 외계인에게 쫓기고 있죠?"
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C005이 계속 똑똑한 나한테 매달리기 때문이야."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "기쁘다",
+                    "content": "C001이 중앙 처리 실과 탈출구로 가는 안내판을 발견한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "중앙 처리실로 가자."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001과 C002가 중앙 처리실로 간다."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "content": "C001이 프로세서들을 많이 챙기라고 말한다."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C001이 C005이 만든 프로세서는 품질이 좋다고 말한다."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001과 C002가 중앙 센서에 있는 프로세서들을 뽑는다."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "자랑스럽다",
+                    "content": "엄청 많이 담았어요!"
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C001과 C002가 프로세서를 서로에게 던지며 장난친다."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "우린 역시 좋은 친구야."
+                },
+                {
+                    "location": "중앙 처리실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "이제 집에 가자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "외계인1",
+                "외계인2"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001과 C002가 외계인 비행선에서 탈출한다.",
+            "unit_motif": "성공",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 탈출 수단으로 향한다."
+                },
+                {
+                    "location": "탈출 수단 입구",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "비장하다",
+                    "content": "외계인1, 외계인2가 탈출 수단 입구를 감시하고 있다."
+                },
+                {
+                    "location": "탈출 수단 입구",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 외계인1, 외계인2가 탈출 수단에 있는 것을 발견한다."
+                },
+                {
+                    "location": "탈출 수단 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 프로세서를 멀리 던진다."
+                },
+                {
+                    "location": "탈출 수단 입구",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "외계인1, 외계인2가 소리가 나는 곳으로 간다."
+                },
+                {
+                    "location": "탈출 수단 입구",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 탈출 수단 안으로 들어간다."
+                },
+                {
+                    "location": "탈출 수단",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 탈출 수단 안에 있는 탈출 비행선을 탄다."
+                },
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 탈출 비행선을 타고 지구로 향한다."
+                },
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "자랑스럽다",
+                    "content": "C001은 정말 똑똑하네요."
+                },
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "당연하지."
+                },
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "자랑스럽다",
+                    "content": "진짜 천재적이네요."
+                },
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "납치당해도 뻇기는 거 없이 프로세스까지 가져올 만큼 똑똑하지."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "E004"
+            ],
+            "stage": "Another Story",
+            "storyline": "C004가 E004에게 자신의 제안서가 표절인 것을 밝혔다가 아니라고 번복한다. C004는 자신의 성과를 인정받고 승진했다고 착각하고 자신감을 얻는다.",
+            "unit_motif": "비밀의 공유",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "E004의 방 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "열다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 긴장된 모습으로 E004 방의 문을 연다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "잠깐 시간 되세요?"
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "좋아."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 자신의 제안서가 사실 표절이라고 말한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "좋아."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C004가 회사에서 자리를 빼겠다고 말한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "좋아."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C004가 회사에서 잘리자 슬퍼한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "C004가 자신의 제안서가 표절이 아니라고 말한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "C004가 자신이 승진해야 한다고 말한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "무감각함",
+                    "content": "좋아."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "C004가 승진하게 된 것을 기뻐한다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 자신의 제안서가 대단하다고 자신감을 보인다."
+                },
+                {
+                    "location": "E004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 광고 대회에 공모하겠다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C006",
+                "외계인1",
+                "외계인2"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001과 C002가 여전히 시뮬레이터에 있다는 것을 알게 된다. C001과 C002가 외계인1, 외계인2, C006을 피해 도망친다.",
+            "unit_motif": "납치/감금",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "탈출 비행선",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001과 C002가 집에 도착한다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001과 C002가 차고로 간다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001이 프로세서로 과학 실험을 하겠다고 말한다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "기대되다",
+                    "content": "C001이 C001의 연구실 비밀번호를 누른다."
+                },
+                {
+                    "location": "차고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001이 비밀번호가 맞지 않는 것을 보고 의아해한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C001과 C002가 외계인의 비행선으로 떨어진다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "놀랐지!"
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C006이 C001과 C002가 계속 시뮬레이터 안에 있었다고 말한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "암흑 물질 제조법은 이미 알아."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "이건 네 연구실 비밀번호를 알기 위한 계획이었지."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "비밀번호 바꿔 놓을 거야."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "너네를 지구로 돌려보내지 않을 거야."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "비장하다",
+                    "content": "C006이 C001과 C002를 잡으라고 명령한다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "외계인인1, 외계인인2가 C001과 C002를 잡는다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "뻔뻔하다",
+                    "content": "C001이 C002의 옷을 벗긴다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "외계인인1, 외계인인2가 괴로워하며 C001과 C002를 놓친다."
+                },
+                {
+                    "location": "C001과 C002의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C002가 도망간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "관객들",
+                "C001",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C004가 자신이 시뮬레이터에 있었다는 사실을 알고 실망한다. C001, C002, C004가 C005을 피해 도망간다.",
+            "unit_motif": "우연한 만남",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "제가 상을 받았습니다."
+                },
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "C004가 인생에서 가장 기쁜 날이라고 말한다."
+                },
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "관객들"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "관객들에게 오류가 생긴다."
+                },
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C004가 관객들에게 생긴 오류를 보고 당황한다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C004가 시뮬레이션 밖으로 떨어진다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "상실감",
+                    "content": "C004가 들고 있던 상이 사라지는 것을 본다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "상실감",
+                    "content": "안돼."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "열다",
+                    "emotion": "담담하다",
+                    "content": "C001과 C002가 C004의 시뮬레이터 방으로 들어온다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001과 C002가 C004를 보고 놀란다."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "네가 왜 여기에 있지?"
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그냥 도망 아나 가자."
+                },
+                {
+                    "location": "C004의 시뮬레이터 방",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 C005을 피해 도망친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "C002",
+                "외계인1",
+                "외계인2"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001, C002, C004가 외계인1, 외계인2를 피해 도망을 친다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 C005을 탈출구를 향해 도망친다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 탈출구 앞에 C005이 있는 것을 본다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 개발부 제한 구역으로 들어간다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 출입 키패드를 부순다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "당황하다",
+                    "content": "외계인1, 외계인2가 들어가지 못하지 당황한다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 기계에 손을 댄다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001, C002, C004가 C004가 복제된 것을 본다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "외계인1",
+                        "외계인2"
+                    ],
+                    "act": "열다",
+                    "emotion": "비장하다",
+                    "content": "외계인1, 외계인2가 문을 연다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 도망을 간다."
+                },
+                {
+                    "location": "개발부 제한 구역",
+                    "character": [
+                        "C004",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 엘리베이터를 탄다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004",
+                "C005"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001, C002, C004가 C005에게서 도망친다. C001이 C002에게 암흑 물질 제조법을 알려주지만 C002가 가짜였다는 것을 알게 된다.",
+            "unit_motif": "상황 파악",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 비행선을 발견한다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C004가 비행선을 타고 도망친다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C005이 비행선을 타고 쫓아온다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 따라와요!"
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "정말 암흑 물질을 만들었나 보군."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 발명한 거잖아요."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "맞아."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C002에게 엔진실에 화학물, 화학물, 물이 있는지 확인하라고 말한다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C002가 화학물, 화학물, 물을 가져온다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 C002에게 제조 방법을 알려준다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 C001의 말대로 제조한다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 갑자기 멈춘다."
+                },
+                {
+                    "location": "비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001이 C002에게 오류가 나는 것을 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C001",
+                "C004",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001은 C005과 C006을 속이고 외계인 비행선을 폭파시킨다. C001과 C004는 유유히 지구로 떠난다.",
+            "unit_motif": "성공",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "기쁘다",
+                    "content": "너는 또 시뮬레이션 안에 있었지."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "기쁘다",
+                    "content": "암흑 물질 방법을 이제 알게 되었군."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "내 손자의 알몸까지 복제하다니."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "짜증나다",
+                    "content": "C001이 집에나 보내달라고 말한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "기쁘다",
+                    "content": "C006이 C001을 집에 보내라고 말한다."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "상실감",
+                    "content": "C004가 상실감에 빠져 슬퍼한다."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 C004를 위로한다."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "인생의 최고의 날이 가짜면 어떠냐."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C001도 C005한테 당하기나 하는 저같이 못난 사람 중 하나예요."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001이 C004의 말이 맞을 지도 모른다고 말한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C005이 암흑 물질을 알아낸 것을 자축하며 즐거워한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "만들다",
+                    "emotion": "즐겁다",
+                    "content": "C006이 암흑 물질을 제조한다."
+                },
+                {
+                    "location": "외계인 비행선",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "만들다",
+                    "emotion": "기대되다",
+                    "content": "C006이 암흑 물질의 마지막인 물을 붓는다."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004가 외계인 비행선이 터진 것을 보고 놀란다."
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "이게 무슨 상황이죠?"
+                },
+                {
+                    "location": "셔틀 비행선",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "귀찮다",
+                    "content": "나같이 못난 사람 말고 똑똑한 사람에게 물어봐."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "E004",
+                "C001",
+                "C002"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C004가 시뮬레이터에서처럼 성공을 꿈꾸며 발표하지만 회사에서 잘린다. C001은 C002가 진짜인지 의심하며 위협하다 잠이 든다.",
+            "unit_motif": "오해/착각",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C004가 제안서를 발표한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "E004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "E004가 C004를 해고한다."
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "저의 제안서는 시뮬레이션에서 상까지 받았다rh요!"
+                },
+                {
+                    "location": "광고 대행사 회의실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C004가 회의실에서 나간다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "한편, C001이 C002의 방으로 들어간다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "당황하다",
+                    "content": "C002가 잠에서 깬다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "마시다",
+                    "emotion": "담담하다",
+                    "content": "C001이 술을 마시고 있다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "content": "잘 있었니?"
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "갑자기 무슨 일이dp요?"
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "C001이 C002에게 여전히 좋은 친구가 맞냐고 묻는다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001이 갑자기 C002를 칼로 위협한다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "이런 시뮬레이션!"
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "C002가 소리 지르며 무서워한다."
+                },
+                {
+                    "location": "C002의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "편안하다",
+                    "content": "C001이 술이 취해 잠이 든다."
+                }
+            ]
+        }
+    ]
+}

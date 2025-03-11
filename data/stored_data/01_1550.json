@@ -1,0 +1,2204 @@
+{
+    "title": "외롭고 강한 여자",
+    "genre": [
+        "공포(호러)",
+        "드라마",
+        "판타지"
+    ],
+    "theme": "구출",
+    "concept": "C006은 돈을 수금을 하다 비를 맞아 장부가 지워진다. C006은 절에 하루 묵게 되고 C003을 만난다. C003은 착한 C006이 마음에 들고 서로 사랑에 빠진다. C005는 C006에게 C003은 귀신이라는 것을 증명한다. C003을 환생시키기 위해 C003의 무덤을 파 유골 단지를 가지고 도망친다. C008는 C003을 노리고, C006과 C005는 C008를 죽이고 C003을 환생시켜 장례를 지내 준다.",
+    "motif": "뱀파이어",
+    "conflict": "C006은 절에 묵게 되고 C005는 C006을 지켜준다. C006은 C003을 만나 사랑에 빠지고. C003은 C007에 눈을 피해 C006을 구해준다. C005는 C006에게 C003을 귀신이라 알려준다. C006은 C003을 만나 환생을 시켜주기로 한다. C003은 C008와 결혼을 하게 된다. C006과 C005는 C003을 환생시키기 위해 C003의 유골 단지를 가지고 도망간다. C008는 C003을 노리고 C006과 C005는 C008를 죽이고 C003을 환생시키고 장례를 치러 준다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C002"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C003은 남자를 유혹해 C002의 먹이로 만든다.",
+            "unit_motif": "사랑의 연기",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "담담하다",
+                    "content": "C001가 방 안에서 책을 읽고 있다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "C003이 춤을 추며 C001를 유혹한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "반하다",
+                    "content": "C001가 인기척으로 문을 열어 보고 C003을 보고 첫눈에 반한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "황홀하다",
+                    "content": "C003은 C001 방으로 들어가 키스를 한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "즐겁다",
+                    "content": "C001는 C003과 밀회를 즐긴다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "궁금하다",
+                    "content": "C003의 발목에 차고 있던 방울이 울린다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "바람이 불고 나무가 빠른 속도로 둘을 노리며 다가온다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "서운하다",
+                    "content": "C003이 갑자기 C001를 두고 도망간다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "절 안으로 나무귀신이 들어온다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "안타깝다",
+                    "content": "C003과 사랑을 나누던 C001는 겁에 질려 하다가 죽음을 맞이한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006"
+            ],
+            "stage": "Main Character",
+            "storyline": "지방을 다니며 세금을 걷는 일을 하는 C006은 돈이 떨어져 공짜로 묵을 숙소를 찾던 중 마을 사람들로부터 절에 묵으라는 말을 듣게 된다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C006은 세금을 걷기 위해 길을 떠난다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "피곤하다",
+                    "content": "꽤나 오랜 시간을 걸었던지 몰골이 말이 아니다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "편안하다",
+                    "content": "C006은 길을 걷고 있는 가운데 비가 내리자 길가 움막에서 몸을 피한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "장군 한 명이 자신의 물건을 훔쳤다며 도둑들을 쫓아와 죽인다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 놀라 바라본다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "마을 사람들은 현상 수배 범인 명단을 보고 있다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "관리들은 수배범을 잡기 위해 돌아다닌다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불쾌하다",
+                    "content": "관리들은 영 채신의 얼굴이 확인해보곤 그냥 가라 한다."
+                },
+                {
+                    "location": "음식점",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 음식점에 가 세금을 걷으려고 한다."
+                },
+                {
+                    "location": "음식점",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "난감하다",
+                    "content": "하지만 비에 장부가 적어 얼마를 내야 하는지 알 수가 없다."
+                },
+                {
+                    "location": "음식점",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C006은 결국 주인에게 쫓겨난다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "돈이 없다는 C006에게 행인은 절에서 묵으라고 알려준다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "마을 사람들이 C006이 곧 죽을 거라며 수군댄다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기대되다",
+                    "content": "C006은 C003의 그림을 보곤 사고 싶어 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "서운하다",
+                    "content": "C006이 돈이 없다고 말하자 주인은 바로 그림을 걷어 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "C007",
+                "C003"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C006은 절에 가는 길에 수년째 싸움을 벌이는 C005와 C007을 말린다.",
+            "unit_motif": "사랑의 연기",
+            "causality": "New personality(새로운 자아)",
+            "story_scripts": [
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 불을 밝히고 절로 걸어간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "늑대들이 쫓아오자 무서워하며 도망친다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 절에 도착해 사람을 찾는다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "칼 소리가 들리고 C005와 C007이 칼싸움을 벌인다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C006은 놀라 피한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 싸움을 벌이는 둘을 말린다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "절에서 묵으려는 C006에게 C005는 위험한 곳이니 다른 곳으로 가라고 충고한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "불안하다",
+                    "content": "C006은 절 안으로 들어선다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "궁금하다",
+                    "content": "C003은 창문 밖에서 C006을 지켜보다 서서히 멀어져 간다."
+                },
+                {
+                    "location": "절 지하",
+                    "act": "기다리다",
+                    "content": "절 지하에 해골 몇 구가 누워있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C007",
+                "C006",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C007은 휴식을 취하던 중 C003의 유혹을 빠져 C002의 먹이가 된다.",
+            "unit_motif": "사랑의 연기",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "놀다",
+                    "emotion": "괴롭다",
+                    "content": "C007은 호수에서 부상을 치료하고 있다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "놀다",
+                    "emotion": "기대되다",
+                    "content": "C007은 그 옆에서 목욕을 하고 있는 C003을 발견하곤 달려든다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "편안하다",
+                    "content": "C006은 방으로 들어와 누울 자리를 편다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "의심스럽다",
+                    "content": "돗자리에 피가 묻어있다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "황홀하다",
+                    "content": "C003은 C007과 사랑을 나눈다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C007"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "심란하다",
+                    "content": "다리에 찬 방울이 울리기 시작한다."
+                },
+                {
+                    "location": "C005 방",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "놀라다",
+                    "content": "이상한 기운이 다가와 방 문을 열어젖힌다."
+                },
+                {
+                    "location": "C005 방",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "단호하다",
+                    "content": "C005는 수양을 하다 눈을 뜬다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "당황하다",
+                    "content": "C006은 바람에 열린 문을 닫는다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "설레다",
+                    "content": "손에서 피가 나자 지하에 있던 해골들이 냄새를 맡곤 일어선다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C002은 사랑을 나누던 C007에게 다가와 몸의 기를 빨아먹는다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "슬프다",
+                    "content": "C003은 몸을 피하곤 슬퍼한다."
+                },
+                {
+                    "location": "호수",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "단호하다",
+                    "content": "C005는 뒤늦게 호수에 도착해 해골이 된 C007을 처치한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006은 밖에서 들리는 칠현금 소리를 쫓아가다 C003을 만나게 된다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 천장에서 이상한 소리가 들리자 사다리를 세우고 올라가려 한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "씁쓸하다",
+                    "content": "천장 위에서 해골들이 C006을 기다리며 기어 나오고 있다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 하지만 밖에서 들리는 칠현금 소리를 듣곤 나간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 소리가 나는 곳을 찾아 헤맨다."
+                },
+                {
+                    "location": "C003 집",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "C006은 칠현금을 켜는 C003을 찾아 방으로 들어선다."
+                },
+                {
+                    "location": "C003 집",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "C003은 C006을 유혹하려 하지만 잘 넘어오지 않는다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003의 칠현금 소리를 듣곤 C006을 구하기 위해 C005는 숲을 달린다."
+                },
+                {
+                    "location": "C003 집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C005의 기척을 느끼곤 C003은 도망을 친다."
+                },
+                {
+                    "location": "C003 집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "걱정",
+                    "content": "C006은 C003이 남겨둔 칠현금을 들고 C003을 찾아 헤맨다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C005를 피해 도망친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005",
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "서로는 첫눈에 반하게 된다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "난감하다",
+                    "content": "C006은 C003을 찾아 헤매다 넘어지며 돌에 박으려 한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "emotion": "안심/안도하다",
+                    "content": "C003은 C006을 잡아 구해 준다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "emotion": "궁금하다",
+                    "content": "C006은 다시 만난 C003을 반가워하며 왜 도망가냐고 물어본다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C005가 악당이라며 몸을 피해야 한다고 말한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 자신의 유인을 할 테니 도망치라고 말한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 C003을 찾아 헤맨다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "반하다",
+                    "content": "C003은 C006이 나무 위로 올라가 자신을 도망치게 해주려는 모습을 보곤 반한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006을 귀신으로 오해한 C005가 공격을 하려 하자 C003은 자신의 정체가 드러남에도 불구하고 C006을 도운 후 C005를 피해 도망친다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "화나다",
+                    "content": "C003을 쫓는 C005에게 C002은 왜 자신들을 괴롭히냐고 소리 지른다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C003이 남기고 간 옷고름에 남긴 글을 보고 C006은 좋아한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C006은 절에 귀신이 살고 있다며 떠나라는 C005의 충고를 무시한다. C006은 해골의 존재를 깨닫지 못한 채 이리저리 헤매고 다니다 해골을 물리친다.",
+            "unit_motif": "뜻밖의 편지",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 절로 돌아온다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "부수다",
+                    "emotion": "심란하다",
+                    "content": "해골들이 다시금 C006에게 다가오려고 한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "해골들은 사다리를 걷어치우는 바람에 지하로 빠져버린다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "C005는 C006에게 귀신이 있다며 도망치라고 충고를 한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 겁날 게 없다며 안 나간다고 말한다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "자신의 몸은 자신이 지켜야 한다고 하며 귀신을 조심하라고 하고 방을 나간다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "만들다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C006은 방으로 들어와 비로 지워진 세금 목록을 자신이 맘대로 고쳐 쓴다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "만들다",
+                    "emotion": "놀라다",
+                    "content": "실수로 벼루를 지하에 떨어트린다."
+                },
+                {
+                    "location": "절 지하",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 벼루를 찾아 지하로 내려간다."
+                },
+                {
+                    "location": "절 지하",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "상쾌하다",
+                    "content": "해골들이 공격하려는 걸 깨닫지 못하고 한참을 헤매다 창문을 연다."
+                },
+                {
+                    "location": "절 지하",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "괴롭다",
+                    "content": "해골은 햇빛이 들어오자 녹아버린다."
+                },
+                {
+                    "location": "절 지하",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "기쁘다",
+                    "content": "C006은 그제야 벼루를 찾곤 좋아한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C003은 C002의 공격을 받는 C006을 구하기 위해 노력한다. 둘은 사랑에 빠지지만 C003은 며칠 후 C008에게 시집을 가야 한다며 C006을 내쫓는다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "음식점",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "받는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "조작된 장부로 채무자에게 돈을 받는다."
+                },
+                {
+                    "location": "음식점",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "마을 사람은 절에서 살아돌아온 C006을 신기하게 생각한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "받은 돈으로 그림을 사려 하지만 그림이 없다고 내일 다시 오라고 한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "저녁에 되고 C006은 C003을 만나러 간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "무섭다",
+                    "content": "불을 세 개나 밝히곤 안 무섭다고 소리치며 C006은 절로 달려간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C003은 나무 위에서 C006의 모습을 보며 즐거워한다."
+                },
+                {
+                    "location": "수중거 다리",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기대되다",
+                    "content": "C006은 수중 거 다리로 걸어 들어간다."
+                },
+                {
+                    "location": "수중거 다리",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "다리 밑에서 C002이 C006을 잡기 위해 촉수를 펼치고 있다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "기대되다",
+                    "content": "C003은 C006을 구하기 위해 칠현금을 연주한다."
+                },
+                {
+                    "location": "수정거 다리",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C002의 촉수를 깨닫지 못한 채 C003의 연주 소리를 듣곤 C003의 방으로 C006은 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C004"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C003은 C002에게 C006을 숨겨주기 위해 안절부절못한다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "설레다",
+                    "content": "C006은 C003을 찾아 방으로 들어온다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C006에게 이곳에 있으면 안 된다고 가라고 한다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 보고 싶었다며 이런 곳에 살고 있는지 몰랐다고 한다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C003은 C006을 집 밖으로 내보내려 하지만 밖에서 인기척이 들린다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "긴장되다",
+                    "content": "그 뒤로 C004과 양할머니가 들어오자 황급히 욕탕 안으로 C006을 숨긴다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "배신감",
+                    "content": "양할머니는 C003이 C006에게 남긴 글을 보곤 배신을 했다며 C003을 혼낸다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "단호하다",
+                    "content": "C004은 욕탕 안에 사람이 있는지 의심을 하고 양할머니는 C008에게 C003을 시집보내기로 했다고 말한다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "답답하다",
+                    "content": "C006은 숨을 참지 못하고 숨을 쉬로 욕탕 안으로 나오게 된다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "애틋하다",
+                    "content": "C003은 숨이 막혀 욕탕에 나오려는 C006을 키스해주며 숨긴다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "모두 돌아가자 C003은 C006을 목욕탕에서 꺼내 준다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C006을 절로 돌려보낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C006은 절에서 하루를 묵고 다시 마을로 내려가 채무자에게 빚을 받아 낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "C003",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C006은 마을에서 C003은 이미 죽은 사람이라는 말을 듣곤 의아해한다. C006은 C003을 찾아가 C005가 위험인물이라며 경고해주고 그의 따뜻한 마음에 감동을 받은 C003은 C006과 사랑을 나누게 된다.",
+            "unit_motif": "첫관계",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "그림상은 아무리 찾아도 그림을 찾을 수 없다며 다른 그림을 사라고 C006에게 권유한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "그림 속 사람을 봤다고 말하는 C006에게 그림상은 죽은 지 일 년 된 사람을 어떻게 보냐며 놀란다."
+                },
+                {
+                    "location": "절 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "만들다",
+                    "emotion": "자신감 있다",
+                    "content": "C005는 술을 마시며 홀로 수련을 한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "수색하다",
+                    "content": "C006은 마을에서 C005의 현상수배 자신을 보고 말을 달려 C003을 찾으러 간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "기대되다",
+                    "content": "남자는 C003에게 유혹당해 죽음을 맞이한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "괴롭다",
+                    "content": "C003은 자신 때문에 희생된 남자를 바라보며 괴로워한다."
+                },
+                {
+                    "location": "C003 방 앞",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 C003을 부르며 나무 위로 올라간다."
+                },
+                {
+                    "location": "C003 방 앞",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "난감하다",
+                    "content": "C003은 나무귀신에게 들킬까 두려워 C006을 말린다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "걱정",
+                    "content": "C006은 C003에게 C005가 위험인물이라며 말해준다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "황홀하다",
+                    "content": "C003은 자신을 아껴주는 C006에게 사랑을 느끼며 키스를 한다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "즐겁다",
+                    "content": "C003은 C006과 함께했던 시간을 떠올린다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "애틋하다",
+                    "content": "C003과 C006과 사랑을 나눈다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C003 C002이 C006을 찾으러 오자 피신 시킨다. C006은 자신을 위해 귀신을 죽여준 C005를 살인범으로 오해한다.",
+            "unit_motif": "오해(착각)",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "당황하다",
+                    "content": "C006은 C003의 발에 있는 방울을 흔들어 울린다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "C003은 놀라며 도망치라고 말한다."
+                },
+                {
+                    "location": "C003 방 밖",
+                    "act": "부수다",
+                    "emotion": "놀라다",
+                    "content": "처마 밑에 있는 방울들이 울리며 바람이 몰아치기 시작한다."
+                },
+                {
+                    "location": "C005 방",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 요귀의 기운을 느끼고 방에서 뛰쳐나간다."
+                },
+                {
+                    "location": "C003 방 밖",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "C003은 자신이 사람이 아니라며 도망치라고 말한다."
+                },
+                {
+                    "location": "C003 방 밖",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "거부감",
+                    "content": "C006은 C003의 말을 믿지 않는다. C003은 도망간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 C003을 찾아 헤매다 C004을 만난다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C004"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "단호하다",
+                    "content": "C004이 C006을 잡아먹으려 하자 C003이 도와주고 그 사이에 C005가 끼어들어 C004의 목을 벤다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C005가 사람을 죽였다며 C006은 C003을 말에 태워 도망친다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C006은 말을 달리는 사이 C003이 사라지자 의아해 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Defeat",
+            "storyline": "C005는 C006에게 C003이 사람이 아니라는 사실을 말해준다. C006과 C005는 C002을 잡기 위해 계획을 세운다.",
+            "unit_motif": "뱀파이어 헌터",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "관아",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C006은 살인죄를 저지른 C005를 봤다고 말한다."
+                },
+                {
+                    "location": "관아",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "하지만 대인은 C006의 말을 믿지 않고 오히려 매질을 한다."
+                },
+                {
+                    "location": "관아",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "잠시 후 C005가 들어와 C006을 구해준 후 C003은 사람이 아니라고 말해준다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C006과 C005는 C003의 무덤으로 말을 달려간다."
+                },
+                {
+                    "location": "C003 무덤 앞",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C006은 C003의 묘명을 보곤 놀란다."
+                },
+                {
+                    "location": "C003 무덤 앞",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 C003이 자신을 왜 필요로 하는지 모르겠다고 말한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "무섭다",
+                    "content": "C006은 C005의 말을 듣곤 도망친다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "망설이다",
+                    "content": "C003 그림을 떨어트리곤 주을까 말까 고민하는 사이 C005가 와 귀신들을 유인해 죽여야겠다며 C006에게 도와달라고 말한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "걱정",
+                    "content": "C005는 C006에게 방울을 주며 귀신이 오면 울리라고 말한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "안심/안도하다",
+                    "content": "무서워하는 C006에게 금강경을 주곤 C005는 반야바라밀만 외우면 괜찮을 거라 말하고 나간다."
+                },
+                {
+                    "location": "절 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 나무 위로 올라가 C006이 있는 방을 지켜본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005",
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C003은 C006에게 유골을 찾아 양지바른 곳에 묻어달라고 부탁한다. 그 순간 나무 요괴가 나타나 C006 일행을 공격하지만 C005가 도와줘 위기를 모면한다. C005는 C006과 C003의 사랑에 감명을 받게 된다.",
+            "unit_motif": "거대괴수",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 구석에 숨어 방울을 들고 있다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "만나다",
+                    "emotion": "설레다",
+                    "content": "문 소리가 들려 열어보면 C003이 와 있다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "단호하다",
+                    "content": "무서워하며 도망치는 C006에게 C003은 나무 요괴가 시켜서 어쩔 수 없이 사람들을 해했다고 말한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 C003을 지켜주겠다고 말하고 C003은 자신의 유골을 양지바른 곳에 묻어주면 하늘로 갈 수 있다며 C006에게 부탁한다."
+                },
+                {
+                    "location": "절 밖",
+                    "character": [
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "emotion": "괴롭다",
+                    "content": "C005는 나무 요괴의 공격을 받고 쓰러진다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "긴장되다",
+                    "content": "나무 요괴의 혀가 절 안에 있는 C006과 C003을 공격하기 시작한다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 금강경을 들어 공격을 막아본다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "난감하다",
+                    "content": "하지만 역부족이다."
+                },
+                {
+                    "location": "절",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "단호하다",
+                    "content": "C003은 위험에 처한 C006을 구해주곤 자신은 잡힌다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "걱정",
+                    "content": "C006은 도망치다 C003의 목소리를 듣곤 뒤를 돌아본다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "긴장되다",
+                    "content": "다시금 나무 요괴의 공격을 당하게 된다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "기대되다",
+                    "content": "그 순간 C005가 나타나 나무 요괴의 공격을 막아낸다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "emotion": "자신감 있다",
+                    "content": "C005는 나무 요괴와 싸움을 벌인다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C003은 C006을 구하다가 지하 세계를 끌려 들어간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "단호하다",
+                    "content": "C003을 쫓아가려는 C006에게 C005는 지하세계는 인간들의 세계가 아니라며 말린다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "슬프다",
+                    "content": "C005는 C006과 C003과의 사랑을 깨닫고 슬퍼한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C006과 C005는 C003의 유골을 찾아 근처 주막에 도착한다.",
+            "unit_motif": "뱀파이어 헌터",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C003 묘지",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "받는다",
+                    "emotion": "궁금하다",
+                    "content": "C006과 C005는 묘지에서 C003의 유골을 찾는다."
+                },
+                {
+                    "location": "C003 묘지",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "받는다",
+                    "emotion": "당황하다",
+                    "content": "하지만 여러 개라 모두 꺼내 가지고 간다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절박하다",
+                    "content": "C006과 C005는 날이 어두워지기 전에 숲을 벗어나기 위해 노력한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "자신감 있다",
+                    "content": "하지만 귀신들의 소행으로 빠져나가기가 쉽지 않다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006과 C005는 밤이 어두워서야 빠져나가게 된다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C006과 C005는 밤늦게 술집에 도착한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "종업원이 방을 안내해준다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "C006과 C005는 가져온 유골 속에서 C003을 불러낸다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "애틋하다",
+                    "content": "C005는 잠시 후 C003이 나타나자 자리를 비켜준다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "담담하다",
+                    "content": "C005는 방을 나와 식당으로 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "C003",
+                "C008"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "하지만 그 주막이 요괴 소굴이라는 걸 뒤늦게 알고 피하려 하지만 C003이 C008에게 잡혀 명부로 끌려간다.",
+            "unit_motif": "뱀파이어 헌터",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "술집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "뭔가 이상한 기운을 느낀다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "애틋하다",
+                    "content": "C006과 C003은 C003의 그림을 시를 남기며 사랑을 속삭인다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "기대되다",
+                    "content": "C006은 내일 황혼이 지기 전에 유골을 묻어 달라고 부탁한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "의심스럽다",
+                    "content": "C005는 이상한 기운을 느끼는 가운데 천리안으로 술집 안을 살펴본다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "술집 안이 온통 요괴 소굴이다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "비장하다",
+                    "content": "C005는 방으로 들어가 C006과 C003을 데리고 피신한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C006, C003, C005는 방을 나서 술집에서 나오려 한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C003이 C008에 의해 명부 세계로 끌려간다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006을 끌려가는 C003을 보고 놀란다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "C006과 C005는 잠시 고민하다 명부를 향해 뛰어 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005",
+                "C008"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C006과 C005는 C003을 구하기 위해 명부로 쫓아가 C008를 물리친다.",
+            "unit_motif": "뱀파이어 헌터",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "받는다",
+                    "emotion": "안타깝다",
+                    "content": "C006은 C008에게 끌려가는 C003을 보게 된다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "받는다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C003은 C006을 그냥 스쳐 지나간다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "받는다",
+                    "emotion": "기대되다",
+                    "content": "C005는 C006에게 주문을 걸어 C003을 느낄 수 있게 해준다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "자신감 있다",
+                    "content": "C005는 C008의 부하들과 싸움을 벌인다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "난감하다",
+                    "content": "많은 C008의 부하들로 C005는 점점 싸움에서 밀린다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006과 C003은 C008를 피해 도망을 친다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "때리다",
+                    "emotion": "난감하다",
+                    "content": "C006과 C003은 명부의 문이 닫혀 도망치지 못한다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "때리다",
+                    "emotion": "절박하다",
+                    "content": "C005는 C008와 목숨을 건 싸움을 벌이고 있다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "때리다",
+                    "emotion": "절박하다",
+                    "content": "C003은 위험에 처한 C006과 C005를 구하기 C008에게 애원한다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "때리다",
+                    "emotion": "단호하다",
+                    "content": "C008는 유골을 부숴 자신과 살면 C006과 C005를 살려주겠다고 말한다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "때리다",
+                    "emotion": "걱정",
+                    "content": "C006은 C003에게 유골을 부수지 말라고 말한다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "단호하다",
+                    "content": "C008에게 공격을 당하던 C006의 옷이 찢어지며 금강경이 쏟아져 나와 C008를 공격한다."
+                },
+                {
+                    "location": "명부",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "단호하다",
+                    "content": "C006은 그 틈을 타 C008를 칼로 찔러 죽인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C003",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C006과 C003은 주막 안에서 아쉬운 작별을 나눈다.",
+            "unit_motif": "연인 상실",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C006, C003, C005는 C008를 피해 가까스로 명부의 세계를 빠져나온다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "놀라다",
+                    "content": "술집 안으로 해가 비치기 시작한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "빛이 술집 안으로 들어오고 C003은 비명과 함께 빛을 피해 쓰러진다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "절박하다",
+                    "content": "C006은 술집에 빛을 가려 보지만 가려지지 않는다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C003은 C006과 C005에게 고맙다고 말한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "듣다",
+                    "emotion": "불만족스럽다",
+                    "content": "빛을 막고 있어서 C006은 C003을 볼 수가 없다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "C003은 C006에게 사랑한다고 말한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C006",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "C003은 아쉽게 C006과 이별을 나눈다."
+                },
+                {
+                    "location": "벌판",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "애틋하다",
+                    "content": "C006과 C005는 C003의 유골을 묻어준다."
+                },
+                {
+                    "location": "벌판",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "보람차다",
+                    "content": "C006과 C005는 C003을 그리며 길을 떠난다."
+                }
+            ]
+        }
+    ]
+}

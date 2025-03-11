@@ -1,0 +1,1880 @@
+{
+    "title": "비행기를 운전하자",
+    "genre": [
+        "드라마",
+        "액션",
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "미국 대통령이 러시아에서의 일정을 마치고 전용 비행기인 에어포스 원에 탑승한다.",
+    "motif": "납치",
+    "conflict": "미국 대통령이 탑승한 에어포스 원이 테러범들에게 납치된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008"
+    ],
+    "units": [
+        {
+            "characters": [
+                "특공대",
+                "C003",
+                "C005",
+                "C004",
+                "보좌관들",
+                "C006",
+                "부하들"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "미국 특공대가 C003을 생포하는데 성공한다.",
+            "unit_motif": "전쟁포로",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "카자흐 공화궁 대통령궁",
+                    "character": [
+                        "특공대"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "미국 특공대가 대통령궁으로 낙하산을 타고 내려온다."
+                },
+                {
+                    "location": "카자흐 공화궁 대통령궁",
+                    "character": [
+                        "특공대"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "특공대가 지붕에다 폭탄을 설치한다."
+                },
+                {
+                    "location": "대통령궁 안",
+                    "character": [
+                        "특공대",
+                        "C003"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "특공대가 대통령궁 안에 침투하는데 성공한다."
+                },
+                {
+                    "location": "대통령궁 안",
+                    "character": [
+                        "특공대",
+                        "C003"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "특공대가 C003을 생포하는데 성공한다."
+                },
+                {
+                    "location": "카자흐 공화궁 대통령궁",
+                    "character": [
+                        "특공대",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "특공대가 헬기로 C003을 이송한다."
+                },
+                {
+                    "location": "러시아 대형 룸",
+                    "character": [
+                        "C005",
+                        "C004",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "C003 생포 기념으로 러시아 궁에서 미국 대통령 C005은 독재자 C003을 체포하기 위해 전개한 러시아와 미국의 합동 작전의 성과를 치하한다."
+                },
+                {
+                    "location": "공항",
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "에어포스 원에서 삼엄한 경비가 이뤄진다."
+                },
+                {
+                    "location": "러시아 대형 룸 밖",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 보좌관들과 룸을 나선다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "부하들"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "긴장되다",
+                    "content": "기자로 위장한 테러리스트 C006가 에어포스 원 감시대를 무사히 통과한다."
+                },
+                {
+                    "location": "러시아 거리",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 탄 대통령 전용차가 환호 인파 사이를 지나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "보좌관들",
+                "기자들"
+            ],
+            "stage": "Main Character",
+            "storyline": "러시아를 방문한 미국 대통령 C005, 그 C005을 미끼로 C003을 석방시키려고 테러리스트 C006가 기자로 위장해 에어포스 원에 탑승한다.",
+            "unit_motif": "불청객",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "대통령 홍보 담당관이 C006와 인사하고는 에어포스 원에 함께 오른다."
+                },
+                {
+                    "location": "전용차 안",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "긴장되다",
+                    "content": "오늘 연설에 대해 보좌관과 언쟁을 벌이는 C005이 뜻을 굽히지 않는다."
+                },
+                {
+                    "location": "에어포스 원 일반실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006와 부하들이 자리를 잡는다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 공항에 도착한다."
+                },
+                {
+                    "location": "에어포스 원 입구",
+                    "character": [
+                        "C005",
+                        "기자들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 취재진들에게 인사한다."
+                },
+                {
+                    "location": "에어포스 원 입구",
+                    "character": [
+                        "C005",
+                        "기자들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 에어포스 원으로 들어간다."
+                },
+                {
+                    "location": "에어포스 원 안",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 보좌관들의 브리핑을 받는다."
+                },
+                {
+                    "location": "에어포스 원 집무실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들이 계속해서 브리핑을 한다."
+                },
+                {
+                    "location": "에어포스 원 집무실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005이 혼자 있게 내버려 두라고 부탁한다."
+                },
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005이 휴게실 소파에 기대 눕는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "보좌관들",
+                "조종사들",
+                "C006",
+                "경호원들",
+                "승객들",
+                "관제탑 직원들",
+                "부하들"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C005과 가족들이 에어포스 원에서 휴식을 취한다.",
+            "unit_motif": "불청객",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반갑다",
+                    "content": "C005이 C008과 딸이 오자 반갑게 맞이한다."
+                },
+                {
+                    "location": "에어포스 원 집무실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "반갑다",
+                    "content": "C005이 C008과 키스를 한다."
+                },
+                {
+                    "location": "에어포스 원 집무실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "당황하다",
+                    "content": "보좌관이 C005과 C008을 보고는 들어왔다 후다닥 나간다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "조종사들"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "조종사들이 분주하게 이륙 준비를 한다."
+                },
+                {
+                    "location": "에어포스 원 경호실",
+                    "character": [
+                        "C006",
+                        "경호원들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 심어 둔 경호원이 경호실에서 쉬고 있는 경호원들을 총으로 쏴 죽인다."
+                },
+                {
+                    "location": "에어포스 원 경호실",
+                    "character": [
+                        "C006",
+                        "경호원들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "첩자 경호원이 기내에 연막탄을 뿌린다."
+                },
+                {
+                    "location": "에어포스 원 일반실",
+                    "character": [
+                        "C006",
+                        "승객들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "연기가 새어 나오자, C006는 기다렸단 듯이 일어나 일반실을 장악한다."
+                },
+                {
+                    "location": "공항 관제탑",
+                    "character": [
+                        "관제탑 직원들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "당황하다",
+                    "content": "에어포스 원에서 총격 사건 접수를 한 관제탑 직원들이 크게 당황한다."
+                },
+                {
+                    "location": "공군 비행장",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "전투기가 바로 출동한다."
+                },
+                {
+                    "location": "에어포스 원 일반실",
+                    "character": [
+                        "C006",
+                        "경호원들",
+                        "부하들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "C006와 그의 부하들이 경호원들과 총격전을 벌인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "경호원들",
+                "부하들",
+                "C007",
+                "보좌관들",
+                "C001",
+                "군인들"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006가 에어포스 원을 접수하고 C005을 생포하는데 탈출했다는 보고를 받는다.",
+            "unit_motif": "테러",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 일반실",
+                    "character": [
+                        "C006",
+                        "경호원들",
+                        "부하들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "경호원들이 C005을 보호소에 피신시킨다."
+                },
+                {
+                    "location": "에어포스 원 보호소 앞",
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "보호소 문을 총으로 쏘지만 끄떡없다."
+                },
+                {
+                    "location": "에어포스 원 보호소 앞",
+                    "act": "받아들이다/수락하다",
+                    "emotion": "당황하다",
+                    "content": "창으로 낙하산이 내려가는 게 보이자 C006 부하들은 C005이 탈출했다고 생각한다."
+                },
+                {
+                    "location": "백악관 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "헬기에서 내리는 C007이 급히 안으로 들어간다."
+                },
+                {
+                    "location": "하늘",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "전투기들이 에어포스 원을 둘러싼다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 긴급회의를 소집한다."
+                },
+                {
+                    "location": "공항",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "에어포스 원이 공항 활주로에 착륙을 시도한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 조종실을 장악하는데 성공한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C001에게 다시 이륙하라고 명한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "군인들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "에어포스 원이 다시 이륙한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "군인들",
+                "C007",
+                "보좌관들",
+                "C006",
+                "부하들",
+                "C008"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006가 에어포스 원을 접수하지만 C005이 탈출했다는 보고를 받는다.",
+            "unit_motif": "테러",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "공항",
+                    "character": [
+                        "군인들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "허무하다",
+                    "content": "군인들은 에어포스 원을 허탈하게 바라본다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "난감하다",
+                    "content": "C007이 공항에서 착륙이 실패했다는 보고를 받고 난감해 한다."
+                },
+                {
+                    "location": "에어포스 원 복도",
+                    "character": [
+                        "C006",
+                        "부하들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 조종실에 나온다."
+                },
+                {
+                    "location": "에어포스 원 복도",
+                    "character": [
+                        "C006",
+                        "부하들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "부하가 와서 대통령이 탈출한 거 같다고 보고 한다."
+                },
+                {
+                    "location": "에어포스 원 복도",
+                    "character": [
+                        "C006",
+                        "부하들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "화나다",
+                    "content": "C006가 보고를 듣고 화를 버럭 낸다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007에게 보좌관이 와서는 에어포스 원에 탑승하기로 한 러시아 기자들이 숨진 채 발견됐다고 한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들이 테러리스트들이 기자로 위장한 것 같다고 보고한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "탑승자 중의 첩자가 있다고 보고한다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C006",
+                        "C008",
+                        "보좌관들"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들을 회의실에 가둔 C006가 들어온다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C006",
+                        "C008",
+                        "보좌관들"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C008이 나와 남편은 어딨냐고 묻는다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C006",
+                        "C008",
+                        "보좌관들"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 비겁하게 혼자만 살려고 도망쳤다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "군인들",
+                "C005",
+                "부하들",
+                "C006",
+                "C007",
+                "보좌관들"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C005이 C006의 부하들을 한 명씩 제압한다.",
+            "unit_motif": "전쟁포로",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "야산",
+                    "character": [
+                        "군인들"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "미군이 C005이 타고 내린 탈출기를 찾는데 성공한다."
+                },
+                {
+                    "location": "야산",
+                    "character": [
+                        "군인들"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "탈출기를 열어보는데 그 안에는 아무도 없자 놀란다."
+                },
+                {
+                    "location": "에어포스 원 보호소",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 사다리를 타고 보호소를 빠져나온다."
+                },
+                {
+                    "location": "에어포스 원 보호소",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 C006의 부하가 내려오자 몸을 숨긴다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C007에게 전화를 건다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C003을 석방하라는 요구 조건을 내세운다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 탑승자들의 안전이 우선이라며 목소리를 들려 달라고 하지만 묵살당한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "설상가상으로 C006가 30분마다 1명식 인질을 죽이겠다고 한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "C007이 C006의 협박에 당황한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "보좌관이 와서는 탈출기를 찾았는데 그 안에 대통령이 없었다고 보고한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "보좌관들",
+                "C005",
+                "부하들"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C006가 C007에게 C003을 석방시키라고 명령하고, C007은 시간을 벌려고 노력한다.",
+            "unit_motif": "납치",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "심란하다",
+                    "content": "C007이 보고를 받고 침통해한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "단호하다",
+                    "content": "장군 하나가 와서는 C005이 베트남전에서 훈장까지 받았다며 싸울 줄 안다며 아직 희망을 놓지 말자고 충고한다."
+                },
+                {
+                    "location": "에어포스 원 일반실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 보호소를 나와 일반실로 올라온다."
+                },
+                {
+                    "location": "에어포스 원 집무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 집무실로 몰래 들어와 비상 전화를 걸어보지만 먹통이다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "국방부 장관이 C003을 절대 풀어 줘서는 안된다고 말한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C007은 이러지도 저러지도 못하며 난감해 한다."
+                },
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "긴장되다",
+                    "content": "C006 부하가 휴게실을 점검한다."
+                },
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 뒤에서 기습하여 C006 부하를 제압한다."
+                },
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 기관총과 열쇠를 거머 쥔다."
+                },
+                {
+                    "location": "에어포스 원 회의실 밖",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "회의실 문을 열쇠로 여는 C005은 뒤에서 C006 부하가 오자 총을 쏜다."
+                },
+                {
+                    "location": "에어포스 원 회의실 밖",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "총소리에 C006의 부하들이 달려온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "C002",
+                "C007",
+                "보좌관들"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C005은 어렵게 구한 휴대폰으로 C007에게 살아있음을 알린다.",
+            "unit_motif": "불청객",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "하늘",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "에어포스 원이 유럽 상공을 날아간다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 여행 가방에서 휴대전화를 찾는다."
+                },
+                {
+                    "location": "에어포스 원 휴게실",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C002을 포박한다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 휴대전화를 찾아 백악관에 전화를 건다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "화나다",
+                    "content": "담당자가 장난 전화로 치부하자 C005이 화를 낸다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 C006의 부하가 보이자 몸을 숨긴다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C006의 부하에게 C005이 발각되고 만다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C006 부하에게 잡힌 C005이 양복 호주머니에 켜둔 휴대전화로 자신의 신분과 상황을 알린다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C007은 C005이 살아 있음에 환호한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 에어포스 원을 공격하라고 지시한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "부하들",
+                "C005",
+                "C006",
+                "보좌관들"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C007은 전투기로 에어포스 원을 공격하라고 지시한다. C005은 에어포스 원을 연착륙시킬 방법을 고민한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "하늘",
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "전투기가 에어포스 원을 향해 미사일을 발사한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "부하들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "미사일이 접근한다는 신호가 울린다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "부하들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C006 부하가 조종실에서 에어포스 원의 방향을 틀지만 고리 부분에 미사일을 맞고 기체가 흔들린다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "혼란스럽다",
+                    "content": "C005이 기체가 흔들리는 틈을 타 도망친다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 다시 전화를 걸어 가족의 안전을 묻는다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "단호하다",
+                    "content": "C005은 C003을 절대로 석방하지 말라고 명령한다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 전화를 끊고 착륙 시킬 방법을 찾는다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 냉장고 안의 우유를 보고는 영감을 얻는다."
+                },
+                {
+                    "location": "에어포스 원 기계실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "기계실로 들어오는 C005이 연료 조절기를 찾는다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "보좌관들"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 홍보담당관 맬라니를 불러서 머리에 총을 겨눈다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "보좌관들"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 스피커로 C005은 당장 조종실로 오지 않으면 이 여잘 죽이겠다고 협박한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "C008",
+                "C002",
+                "부하들",
+                "보좌관들",
+                "전투기 비행사"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C006가 보좌관 한 명을 처형하자, 보좌관들이 심적 동요를 일으킨다.",
+            "unit_motif": "전우 구출",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 기계실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "당황하다",
+                    "content": "C005이 스피커로 나오는 소리를 듣고는 크게 당황한다."
+                },
+                {
+                    "location": "에어포스 원 기계실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "놀라다",
+                    "content": "스피커로 총 쏘는 소리가 난다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "C008",
+                        "C002",
+                        "부하들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "부하들이 여자의 시체를 치운다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006",
+                        "C008",
+                        "C002",
+                        "부하들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "C008과 C002이 울고 있다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "놀라다",
+                    "content": "보좌관들이 심적 동요를 일으킨다."
+                },
+                {
+                    "location": "에어포스 원 기계실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "만들다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 에어포스 원의 연료를 버리는 작업을 한다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "전투기 비행사"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "당황하다",
+                    "content": "전투기 비행사가 에어포스 원에서 연료가 빠져나가는 것을 확인한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "부하들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "조종석의 부하가 C006에게 연료가 빠져나간다고 보고한다."
+                },
+                {
+                    "location": "에어포스 원 기계실",
+                    "character": [
+                        "C005",
+                        "부하들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 C006의 부하들과 총격전을 벌인다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C007에게 전화를 걸어 연료를 당장 주입하라고 명령한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "보좌관들",
+                "C007"
+            ],
+            "stage": "Defeat",
+            "storyline": "C007이 C005의 구원 요청 팩스를 보지 못한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "C006가 매분마다 한 사람씩 처형하겠다고 큰소리친다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "안심/안도하다",
+                    "content": "회의실로 들어오는 C005을 보고는 보좌관들이 안도한다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 탈출 계획을 짠다."
+                },
+                {
+                    "location": "에어포스 원 회의실",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C006의 첩자 경호원이 이를 다 듣고 있다."
+                },
+                {
+                    "location": "에어포스 원 복도",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들이 아래 창고로 숨어 들어간다."
+                },
+                {
+                    "location": "에어포스 원 복도",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 팩스를 보내는데 성공한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "tv 뉴스에 에어포스 원이 납치됐다는 보도가 나온다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 당장 성명을 준비하라고 시킨다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 보낸 팩스를 아무도 보지 못한다."
+                },
+                {
+                    "location": "백악관 기자실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 기자들에게 보도 내용이 사실임을 확인시켜준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "보좌관들",
+                "C007",
+                "C008",
+                "C002",
+                "C006"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C005은 보좌관들을 구출시키고, 자신은 에어포스 원에 남는다.",
+            "unit_motif": "전우 구출",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들이 낙하산을 착용한다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C005과 함게 연료기가 오기만을 기다린다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관들이 에어포스 원에서 연료기로 탈출한다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 가족들을 구출하기 위해 에어포스 원에 남는다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C006 부하가 와서 총을 쏜다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "보좌관들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "기체가 흔들리고 연료를 주입하던 연료기가 폭발한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 연료기가 폭발했다는 보고를 받는다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 전화를 걸어 C005을 생포했다고 한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "카자흐스탄 상공에서 전투기들이 철수하지 않으면 다 죽이겠다고 협박을 한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "안심/안도하다",
+                    "content": "조종실로 끌려오는 C005이 가족과 상봉한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C008",
+                "C002",
+                "C006",
+                "C004",
+                "C007",
+                "보좌관들"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C006는 C002을 볼모로 C003을 석방하라고 협박한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 C006와 첫 대면한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "화나다",
+                    "content": "C006가 C005의 얼굴을 주먹으로 친다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 절대 C003을 석방할 수 없다고 말한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 더욱 C005을 힘으로 몰아붙인다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C002을 볼모로 전화를 걸어 석방시키라고 명령한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 전화를 하겠다고 한다."
+                },
+                {
+                    "location": "러시아궁",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004이 C005의 전화를 받는다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 C004에게 석방을 요청했다고 C007에게 보고한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "실망하다",
+                    "content": "국방부장관이 C005이 대통령 신분을 망각한 채 가족을 위해 나라를 버렸다고 한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "국방부장관이 대통령 권한 동의서에 사인을 요구한다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 사인을 거부한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C005",
+                "C008",
+                "C002",
+                "C006"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C006가 C008을 인질로 삼으며 위협하지만 C005은 힘들게 C006를 죽이고 가족과 상봉한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "교도소",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003이 풀려난다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006는 C003이 석방됐다는 사실을 확인한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 깨진 유리 조각으로 손에 묶인 줄을 끊는다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 C006가 부하들과 안고 기뻐하는 틈을 타, 조종실을 제압한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C006는 C008을 끌고 도망친다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C008을 인질로 잡은 C006가 C005과 대치한다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 낙하산으로 도망치려는 C006를 죽음으로 응징한다."
+                },
+                {
+                    "location": "에어포스 원 창고",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005이 C008을 끌어안는다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C005이 조종실로 급히 올라와 C004에게 전화를 건다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C005이 C003의 석방을 취소시키라고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C007",
+                "보좌관들",
+                "C005",
+                "경호원들",
+                "시민들"
+            ],
+            "stage": "Resurrection",
+            "storyline": "대통령 C005이 안전하다는 소식에 C007과 시민들이 환호한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "교도소앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C003이 교도소를 나가다 총에 맞고 사살된다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기쁘다",
+                    "content": "사람들이 C003의 죽음 소식에 환호한다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "경호원들"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 조종석에 앉는다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "경호원들"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "긴장되다",
+                    "content": "뒤에서 C006의 첩자 경호원이 노려본다."
+                },
+                {
+                    "location": "에어포스 원 조종실",
+                    "character": [
+                        "C005",
+                        "경호원들"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "긴장되다",
+                    "content": "백악관에서 C003의 추종세력들이 보낸 미그기가 다가간다며 주의하라고 한다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 미그기가 쏜 미사일을 피한다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "날개에 불이 난다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "출동한 전투기들이 미그기들을 모조리 격추시킨다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 옆에 붙은 전투기 조종사와 경례를 주고받는다."
+                },
+                {
+                    "location": "백악관 앞",
+                    "character": [
+                        "시민들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "시민들이 촛불을 들고 무사귀환을 염원하고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "군인들",
+                "C005",
+                "보좌관들",
+                "경호원들",
+                "C007",
+                "시민들"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C005은 마지막 남은 첩자를 제거하고 안전하게 귀환한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "군인들"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "긴장되다",
+                    "content": "수송기에서 에어포스 원으로 군인들이 줄을 타고 내려간다."
+                },
+                {
+                    "location": "하늘",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "군인들"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "긴장되다",
+                    "content": "군인들이 C008과 딸을 수송기로 안전하게 구출한다."
+                },
+                {
+                    "location": "에어포스 원 출입구",
+                    "character": [
+                        "C005",
+                        "보좌관들",
+                        "경호원들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "모두 수송기로 넘어가고 C005과 보좌관 하나만 남은 상태에서 첩자 경호원이 군인을 총으로 쏜다."
+                },
+                {
+                    "location": "에어포스 원 출입구",
+                    "character": [
+                        "C005",
+                        "보좌관들",
+                        "경호원들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "첩자 경호원이 C005을 끝내 위협한다."
+                },
+                {
+                    "location": "에어포스 원 출입구",
+                    "character": [
+                        "C005",
+                        "보좌관들",
+                        "경호원들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "C005은 첩자 경호원과 격투 끝에 제압하고 마지막으로 수송기로 넘어간다."
+                },
+                {
+                    "location": "바다",
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "에어포스 원이 바다로 추락한다."
+                },
+                {
+                    "location": "수송기 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005이 수송기로 구출된다."
+                },
+                {
+                    "location": "백악관 회의실",
+                    "character": [
+                        "C007",
+                        "보좌관들"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "기쁘다",
+                    "content": "C007과 보좌관들은 대통령이 구출됐다는 보고에 환호하며 기뻐한다."
+                },
+                {
+                    "location": "백악관 앞",
+                    "character": [
+                        "시민들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기쁘다",
+                    "content": "시민들이 환호한다."
+                },
+                {
+                    "location": "수송기 안",
+                    "character": [
+                        "C005",
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "안심/안도하다",
+                    "content": "C005이 C008과 C002을 뜨겁게 끌어안는다."
+                },
+                {
+                    "location": "하늘",
+                    "act": "간다/이동한다",
+                    "emotion": "기쁘다",
+                    "content": "C005이 탄 수송기를 전투기들이 옆에서 호위한다."
+                }
+            ]
+        }
+    ]
+}

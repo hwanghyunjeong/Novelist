@@ -1,0 +1,1958 @@
+{
+    "title": "비밀의 힘",
+    "genre": [
+        "SF",
+        "액션",
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "특수부대 출신이었지만 전역 후 택시기사로 일하는 C008은 지구를 보호하기 위해 나타난 제5원소 C002를 도와 우주를 구한다.",
+    "motif": "외계인 침입",
+    "conflict": "인간의 모습을 한 라스트 엘리먼트를 거대한 악과 부하들한테 보호하고 원소를 작동시키는 장소에 가 거대한 악을 무찌른다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C010"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C006의 비행선이 지구로 향한다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "우주",
+                    "act": "준다",
+                    "content": "지구로 향하는 C006의 우주선이 보인다."
+                },
+                {
+                    "location": "성당 앞",
+                    "act": "소리치다",
+                    "content": "1914년, 행성이 다가오는 것을 발견한 소년들이 소리를 지른다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001는 고대 벽화 속에 든 비밀을 풀어나간다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "곧 5원소에 대해 알게 된다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "신부가 C001의 독살을 기도한다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "하지만 이는 수포로 돌아간다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "얻는다/취하다",
+                    "content": "성당 안으로 거대한 그림자가 드리운다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "얻는다/취하다",
+                    "content": "곧 수도원 위로 내려앉은 우주선의 모습이 보인다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001",
+                        "C010"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001는 5번째 원소가 완전한 인간이라는 사실을 밝혀낸다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001",
+                        "C010"
+                    ],
+                    "act": "찾는다",
+                    "content": "그런데 이때 성당 내부로 C010이 들이닥친다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001",
+                        "C010"
+                    ],
+                    "act": "찾는다",
+                    "content": "C010을 본 C001는 그 자리에서 기절해 버린다."
+                },
+                {
+                    "location": "비밀 방",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C010은 방 안에 있는 4개의 돌과 관을 챙겨 나간다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "content": "신부는 C006들이 무기를 모두 가져가버린 것에 대해 우려를 표한다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "content": "악이 나타나면 무방비 상태가 된다는 것이다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "C006은 신부에게 그가 알고 있는 지식을 후대에 전하라고 명한다."
+                },
+                {
+                    "location": "성당 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "그러면서 비밀방으로 통하는 열쇠를 건넨다."
+                },
+                {
+                    "location": "성당 외부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C010이 탄 우주선이 성당을 떠난다."
+                },
+                {
+                    "location": "성당 외부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "신부는 자신이 알고 있는 지식을 후대에 꼭 전하겠다고 맹세한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "지구를 향해 거대한 행성이 돌진해온다.",
+            "unit_motif": "외계인 침입",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "act": "수색하다",
+                    "content": "소령과 그 부하들이 지구로 돌진해가는 행성의 성질을 검토한다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "만나다",
+                    "content": "도시 1 사령부에 대통령이 등장한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "대통령은 소령의 보고에 따라 행성의 선제공격을 명령한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "하지만 C001가 이에 반기를 든다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "절대 악인 행성이 공격에 의해 더 커질 수 있다는 것이다."
+                },
+                {
+                    "location": "우주",
+                    "act": "수색하다",
+                    "content": "소령은 다가오는 행성에 탐사선을 보낸다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "C001의 말대로 행성은 더 커진 것으로 드러난다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "하지만 대통령은 자신의 생각을 굽히려 들지 않는다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "소령이 미사일 장착을 지시하자 행성의 표면이 굳어버린다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "곧 행성이 자기방어가 가능한 존재라는 사실이 드러난다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "상승하다",
+                    "content": "미사일을 맞은 행성은 몸집을 두 배로 불린다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "상승하다",
+                    "content": "곧 우주선을 집어삼켜 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C004"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C008은 강도를 당하지만 역으로 강도를 제압한다.",
+            "unit_motif": "외계인 침입",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "뉴욕 시에서 C008이 잠에서 깨어난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "C008 앞으로 동료 C004의 전화 연락이 온다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "둘은 밤에 다시 만나기로 한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "웃는다",
+                    "content": "크로켓 게임에서 우승하면 헤븐 호텔로 보내 준다는 텔레비전 광고 화면이 보인다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "기척이 느껴져 초인종 모니터로 밖을 보지만 아무도 없다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "확인차 문을 연다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C008 앞으로 얼치기 강도가 나타난다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C008은 강도에게서 손쉽게 무기를 빼앗는다."
+                },
+                {
+                    "location": "현관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "그동안 빼앗은 무기 보관에 총을 넣는다."
+                },
+                {
+                    "location": "주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008이 택시를 타고 주차장을 빠져나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C007",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "행성의 목적은 모든 생명체를 말살하는 것이고 인류에게 남은 시간은 48시간 밖에 안 남았다.",
+            "unit_motif": "호모 슈페리얼",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보고하다",
+                    "content": "C001가 대통령에게 현 상황을 보고 한다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보고하다",
+                    "content": "행성의 목적은 모든 생명체를 말살하는 것이고 시간은 48시간이 채 남지 않았다는 것이다."
+                },
+                {
+                    "location": "우주",
+                    "act": "간다/이동한다",
+                    "content": "지구로 향하는 C006의 우주선이 보인다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C001는 대통령에게 라스트 엘리먼트 이야기를 들려준다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "이를 들은 대통령은 C006 우주선의 지구 진입을 허락한다."
+                },
+                {
+                    "location": "우주",
+                    "act": "부수다",
+                    "content": "C006의 우주선이 C007 부하들에 의해 파괴된다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공감하다",
+                    "content": "C001는 절망감에 빠진다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C003가 C007에게 연락을 취한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "보고하다",
+                    "content": "C003가 C007에게 임무 완수를 보고한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "보고하다",
+                    "content": "C003는 몇 시간 뒤 물건을 전달하겠다고 나선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "도시 1 사령부는 C006의 팔을 토대로 유전자 합성에 들어간다. 곧 주황색 머리를 한 소녀 C002가 만들어진다.",
+            "unit_motif": "호모 슈페리얼",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "대통령은 비상사태를 선포한다."
+                },
+                {
+                    "location": "사령부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "한편 추락한 비행선에서 생존자 한 명이 발견됐다는 보고가 들어온다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "act": "찾는다",
+                    "content": "생존자라고 알려진 C006의 정체는 단지 그들의 한쪽 팔 뿐인 것으로 드러난다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "act": "찾는다",
+                    "content": "연구자들은 뉴욕에 있는 실험실로 가져간다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "연구자들은 C006의 한쪽 팔을 토대로 유전자 합성에 들어간다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "곧 주황색 머리를 한 소녀 C002가 만들어진다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "C002는 깨어나 알 수 없는 말을 하기 시작한다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "C002는 당황해하며 한동안 시험관 안에서 몸부림친다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "content": "C002는 시험관을 뚫고 연구실 밖으로 달아나 버린다."
+                },
+                {
+                    "location": "핵 연구소 복도",
+                    "act": "도망치다",
+                    "content": "군인들은 두 조로 나뉘어 C002 뒤를 쫓아간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C008"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "핵연구소를 탈출한 C002는 C008의 택시 안으로 떨어진다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "핵 연구소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "content": "C002는 환기통을 이용해 연구소에서 탈출한다."
+                },
+                {
+                    "location": "핵 연구소 외부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "C002는 경찰들의 위협에 맞서 연구소 아래로 뛰어내린다."
+                },
+                {
+                    "location": "핵 연구소 외부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "곧 C008의 택시 뒷좌석으로 파고든다."
+                },
+                {
+                    "location": "핵 연구소 외부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "C008은 C002의 얼굴을 보고 도와줘야겠다 맘을 먹는다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "content": "경찰들이 C002의 체포에 나서지만 C008은 C002를 태우고 그대로 달아나 버린다."
+                },
+                {
+                    "location": "맥도날드 앞",
+                    "act": "먹는다",
+                    "content": "경찰은 지원의 요구하는 본부의 무전에도 불구하고 식사를 하고 가겠다며 늦장을 부리다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "content": "C008은 경찰의 추격을 피해 달아난다."
+                },
+                {
+                    "location": "거리",
+                    "act": "수색하다",
+                    "content": "경찰들은 C008의 택시를 코앞에 두고도 찾지 못한다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "C002가 C008에게 C001의 이름을 일러준다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "그러고는 곧 기절해 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002를 본 C001는 그녀가 라스트 엘리먼트라는 사실을 알아챈다.",
+            "unit_motif": "첫눈에 반한 사랑",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C002의 문신을 본 C001는 그녀가 라스트 엘리먼트라는 사실을 알아챈다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "이에 놀란 그는 그대로 기절해 버린다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "content": "C001는 C002가 여자라는 사실에 흥미를 느낀다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만들다",
+                    "content": "C001는 옷을 갈아입기 시작한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "키스하다",
+                    "content": "C008은 C002에게 키스를 시도하려다 무안을 당한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "키스하다",
+                    "content": "한편 C001는 C002에게 비밀방의 열쇠를 보여준다."
+                },
+                {
+                    "location": "주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "content": "C008이 주차장에 차를 댄다."
+                },
+                {
+                    "location": "주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "content": "그는 C002에게 키스하려 했던 일을 후회한다."
+                },
+                {
+                    "location": "C008 집",
+                    "character": [
+                        "C008",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "C008은 친구 C004에게 C002 이야기를 들려준다."
+                },
+                {
+                    "location": "C008 집",
+                    "character": [
+                        "C008",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "그는 C002와 사랑에 빠진 것 같다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C007",
+                "C003"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C002는 네 개의 돌들에 대해 이야기한다. 믿을 만한 사람들에게 돌들을 맡겼고 그들과 프리 시티 행성에서 만나기로 했다는 것이다.",
+            "unit_motif": "뜻밖의 편지",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C002는 도둑들이 네 개의 돌을 훔쳐 갔다고 말한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "이를 들은 C001는 당혹감을 금치 못한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "명령하다",
+                    "content": "C007는 불경기에 맞서 택시회사 직원의 대량 해고를 명령한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C002가 C001에게 돌들이 있는 위치를 일러준다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C003가 C007에게 돌이 든 가방을 건넨다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "그런데 가방 안은 텅 비어 있다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C002는 C001에게 가디언들이 믿을 만한 사람들에게 돌들을 맡겼고 그들과는 프리 시티 행성에서 만나기로 했다는 사실을 말해준다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C007는 C003가 돌들을 구해오지 못했다고 불같이 화를 낸다."
+                },
+                {
+                    "location": "사무실 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "잡담하다",
+                    "content": "C007는 C003에 대한 불만을 쏟아낸다."
+                },
+                {
+                    "location": "사무실",
+                    "act": "부수다",
+                    "content": "C003가 무기에 달린 붉은 단추를 누르자 무기는 커다란 폭발을 일으킨다."
+                },
+                {
+                    "location": "사무실 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "명령하다",
+                    "content": "C007는 부하에게 C001를 데려오라고 명령한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001의 제자가 프리 시티 행성의 헤븐 호텔에 대한 정보를 찾아낸다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "한편 C007의 부하가 C001를 찾아온다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "content": "C007가 C001에게 돌들이 있는 위치를 캐묻는다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "content": "하지만 C001는 대답하기를 꺼린다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "C007는 자신이 하는 일이 생명을 창조하는 일이라는 궤변을 늘어놓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C001",
+                "C007",
+                "C003"
+            ],
+            "stage": "Another Story",
+            "storyline": "대통령은 네 개의 돌을 찾아올 인물로 C008을 지목하고 그에게 프리 시티행 여행권을 지급한다. 하지만 C001와 C002가 C008의 여행권을 훔쳐가 버린다.",
+            "unit_motif": "보물찾기",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "우주",
+                    "act": "부수다",
+                    "content": "행성이 통신 위성들을 차례로 집어삼킨다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "보고하다",
+                    "content": "대통령 앞으로 행성이 은하계에 있는 모든 통신 위성들을 집어삼키고 있다는 보고가 날아든다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "보고하다",
+                    "content": "소령은 대통령에게 돌들이 C005라는 가수에게 맡겨졌다는 사실을 보고한다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "보고하다",
+                    "content": "C007의 부하가 이런 사실을 염탐해 알아낸다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "식사를 하는 C008 앞으로 해고 통지서가 날아든다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "C008이 프리시티 헤븐 호텔행 여행권에 당첨됐다는 소식이 드러난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "이런 C008 앞으로 소령이 나타난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "content": "소령이 C008에게 새로운 임무를 부과한다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "content": "프리시티 파라다이스로 가서 네 개의 돌을 구해 오라는 것이다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C008 앞으로 C001와 C002가 나타난다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C001는 프리 시티행 표를 구하기 위해 C008을 위협하기 시작한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "C008을 체포하러 온 경찰은 바뀐 문패 때문에 다른 사람을 잡아가고 만다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "C007는 부하로부터 C008이 체포됐다는 소식을 전해 듣는다."
+                },
+                {
+                    "location": "집 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003의 부하들이 경찰들을 공격한다."
+                },
+                {
+                    "location": "집 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "네 개의 돌을 구하는 일에 C003까지 가세한다."
+                },
+                {
+                    "location": "집 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "그는 돌들을 얻어 C007와 협상할 수 있기를 바란다."
+                },
+                {
+                    "location": "집",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C001와 C002가 C008의 여행권을 훔쳐 달아나 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C008",
+                "C003",
+                "게임 대회 우승자"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C008 일행은 C003 부하들의 공격을 당한다. 하지만 프리 시티행 비행선에 오르는 일에 성공한다.",
+            "unit_motif": "추격자",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "공항",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "content": "C001는 C002와 그의 제자를 함께 보내기로 결정한다."
+                },
+                {
+                    "location": "공항 데스크",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C001 제자와 C002는 당첨권과 승차권을 교환한다."
+                },
+                {
+                    "location": "공항 데스크",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "곧 이런 두 사람 앞으로 C008이 나타난다."
+                },
+                {
+                    "location": "찻집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "content": "C008과 C002가 함께 떠나게 됐다는 소식을 들은 C001는 자신이 일을 직접 해결하겠다고 나선다."
+                },
+                {
+                    "location": "찻집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "content": "그러면서 그는 제자에게 성전 열쇠를 건넨다."
+                },
+                {
+                    "location": "찻집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "content": "이집트에 가서 대기하고 있으라는 것이다."
+                },
+                {
+                    "location": "공항 데스크",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "C003의 부하들이 C001 행세를 하고 나타난다."
+                },
+                {
+                    "location": "공항 데스크",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "하지만 이들의 정체는 금세 들통나고 만다."
+                },
+                {
+                    "location": "게이트",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "항공사 직원이 C008을 따로 불러들인다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "부수다",
+                    "content": "경찰과 C003 부하들 사이에 총격전이 벌어진다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "게임 대회 우승자"
+                    ],
+                    "act": "웃는다",
+                    "content": "C008은 게임 대회의 우승자와 만남을 가진다."
+                },
+                {
+                    "location": "게이트",
+                    "act": "증명하다/입증하다",
+                    "content": "C007의 부하가 C008을 사칭해 비행기 탑승을 시도한다."
+                },
+                {
+                    "location": "게이트",
+                    "act": "증명하다/입증하다",
+                    "content": "하지만 곧 경찰에 발각되고 만다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "C002는 자신이 라스트 엘리먼트라는 사실을 자각하고 있다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "그녀는 자신이 C008을 보호하겠다고 나선다."
+                },
+                {
+                    "location": "조정실",
+                    "act": "말하다",
+                    "content": "승무원은 조종사에게 수면실이 작동하고 있다는 사실을 알린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "게임 대회 우승자",
+                "C001",
+                "C007"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001가 우주선 안에 숨어탄다. 우주선은 프리시티를 향해 날아간다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "조정실",
+                    "act": "보고하다",
+                    "content": "우주선 안에 기생충이 있다는 사실이 보고 된다."
+                },
+                {
+                    "location": "우주선 외부",
+                    "act": "부수다",
+                    "content": "기생충들이 모조리 제거된다."
+                },
+                {
+                    "location": "조정실",
+                    "character": [
+                        "게임 대회 우승자"
+                    ],
+                    "act": "웃는다",
+                    "content": "크로켓 우승자의 승무원에 대한 유혹이 계속된다."
+                },
+                {
+                    "location": "우주선 외부",
+                    "act": "만들다",
+                    "content": "출발 준비가 완료된다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "C007는 우주선에 탑승하지 못한 부하를 제거해 버린다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "한편 C001는 우주선 짐칸에 몰래 숨어탄다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "죽이다",
+                    "content": "공항을 빠져나온 우주선이 우주로 날아간다."
+                },
+                {
+                    "location": "우주",
+                    "act": "위협하다/협박하다",
+                    "content": "화염에 휩싸여 있는 행성의 모습이 보인다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "보고하다",
+                    "content": "대통령 앞으로 행성이 통신을 원한다는 보고가 날아든다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "비서가 C007에게 C009의 연락이 왔다는 왔다는 소식을 알린다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C009와의 전화통화에 두려움을 느낀 C007의 이마에 피가 흐른다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C009는 돌들을 찾아냈는지를 여부를 궁금해한다."
+                },
+                {
+                    "location": "우주",
+                    "act": "기다리다",
+                    "content": "불을 뿜어내던 행성이 순식간에 검게 타들어가 버린다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "소리치다",
+                    "content": "대통령은 신호가 사라졌다는 소식을 듣고 버럭 화를 낸다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "만들다",
+                    "content": "C007는 이마에 흐르는 피를 손으로 닦아낸다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "간다/이동한다",
+                    "content": "우주선이 프리시티 대기권에 진입한다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "간다/이동한다",
+                    "content": "곧 파라다이스 안으로 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C001",
+                "게임 대회 우승자",
+                "C003",
+                "C005",
+                "C007"
+            ],
+            "stage": "Defeat",
+            "storyline": "C005의 공연이 펼쳐지는 사이, C003들이 C005의 방 안에서 네 개의 돌을 찾아낸다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "C008이 눈을 뜬다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "그런데 C002는 벌써 어디론가 사라져 버렸다."
+                },
+                {
+                    "location": "파라다이스 입구",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "content": "파라다이스 안을 들여다본 C002의 입이 딱 벌어진다."
+                },
+                {
+                    "location": "파라다이스 입구",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "content": "C008이 뒤늦게 나타난다."
+                },
+                {
+                    "location": "조정실",
+                    "act": "위협하다/협박하다",
+                    "content": "환기통에 기생충이 있다는 경고가 뜬다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "기생충은 C001로 밝혀진다."
+                },
+                {
+                    "location": "파라다이스 숙소",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C008은 숙소를 배정받는다."
+                },
+                {
+                    "location": "파라다이스 복도",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "C005가 돌들을 가지고 나타난다."
+                },
+                {
+                    "location": "파라다이스 복도",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "content": "그녀는 C002에게 콘서트가 끝난 뒤 물건을 전달하겠다는 뜻을 전달한다."
+                },
+                {
+                    "location": "도시 1 사령부",
+                    "act": "보고하다",
+                    "content": "대통령이 파라다이스 방송을 청취한다."
+                },
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "게임 대회 우승자"
+                    ],
+                    "act": "웃는다",
+                    "content": "콘서트 시작 전, 크로켓 우승자의 요란스러운 퍼레이드가 펼쳐진다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "한무리의 C003들이 행동을 개시한다."
+                },
+                {
+                    "location": "공연장",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "놀다",
+                    "content": "C005의 공연이 펼쳐진다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C007는 우주선에 문제가 있다는 거짓말로 파라다이스 내 진입을 허락받는다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "content": "C005의 공연이 펼쳐지는 가운데 C003들이 그녀의 방을 침입한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "content": "C003들은 곧 네 개의 돌을 찾아낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C008",
+                "C005",
+                "C007",
+                "C001"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C008이 C005의 몸 안에서 네 개의 돌을 찾아낸다.",
+            "unit_motif": "보물찾기",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C002가 C003들을 물리친다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "곧 네 개의 돌들을 손에 넣는다."
+                },
+                {
+                    "location": "무대",
+                    "character": [
+                        "C008",
+                        "C005"
+                    ],
+                    "act": "놀다",
+                    "content": "C005의 공연이 끝나자 관람객들은 기립박수를 보낸다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C002",
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "content": "C002 앞으로 총을 든 C007가 나타난다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C002",
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "content": "C002는 돈이 돈 상자를 그에게 던진 뒤 그대로 달아나 버린다."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003들이 C001를 에워싼다."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "겁에 질린 C001는 그들에게 항복의 표시를 한다."
+                },
+                {
+                    "location": "무대 뒤",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C003들은 파라다이스를 통째로 접수하겠다고 나선다."
+                },
+                {
+                    "location": "공연장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C003들의 등장으로 무대 안은 아수라장이 되어 버린다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C008이 기절한 C005를 구한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C007",
+                "C005",
+                "게임 대회 우승자",
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "한편 가방 안에 돌들이 없다는 사실을 알아챈 C007는 당혹감에 빠진다.",
+            "unit_motif": "보물찾기",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C007는 파라다이스 안에 시한폭탄을 설치한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "게임 대회 우승자"
+                    ],
+                    "act": "말하다",
+                    "content": "크로켓 우승자는 방송으로 파라다이스가 습격당했다는 소식을 전한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "게임 대회 우승자"
+                    ],
+                    "act": "말하다",
+                    "content": "도시 1 사령부는 C003의 짓이라는 사실을 금세 눈치챈다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "C005는 C008에게 C002를 찾아 네 개의 돌을 전해주라고 말한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "그렇지 않으면 C002는 죽게 된다는 것이다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "곧 부상을 입고 환풍구 안에 쓰러져 있는 C002의 모습이 보인다."
+                },
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "content": "C007는 네 개의 돌이 든 상자를 자신의 우주선으로 옮겨 놓는다."
+                },
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "도망치다",
+                    "content": "곧 우주선을 타고 파라다이스를 떠난다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "상자 안을 들여다본 더그는 당혹감을 느낀다."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "content": "상자 안에는 돌들에 들어있지 않다."
+                },
+                {
+                    "location": "공연장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C008은 C005의 몸속에서 네 개의 돌을 끄집어 낸다."
+                },
+                {
+                    "location": "공연장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "곧 돌들은 크로켓 우승자에게 맡긴다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "잡담하다",
+                    "content": "사태가 일파만파 커지게 되자, 대통령은 소령을 나무라기 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C003",
+                "게임 대회 우승자",
+                "C001",
+                "C002",
+                "C007"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C008, C002, C001가 프리 시티 행성을 탈출한다.",
+            "unit_motif": "탈옥",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "content": "C008이 C003들을 물리친다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "게임 대회 우승자"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008은 크리켓 우승자를 데리고 조종실로 향한다."
+                },
+                {
+                    "location": "조종실",
+                    "character": [
+                        "C008",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C008이 C003들에게 인질로 붙잡혀 있는 C001를 구해 낸다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "소리치다",
+                    "content": "대통령은 C008의 무모한 싸움 방식에 혀를 내두른다."
+                },
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C001가 C008에게 사과의 뜻을 표한다."
+                },
+                {
+                    "location": "파라다이스",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C008은 C002를 구하겠다고 나선다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "content": "C008이 C002를 찾아낸다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "content": "한편 C008을 뒤쫓아 온 C001는 C007가 설치해 둔 시한폭탄을 발견한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "content": "탈출을 알리는 경고 방송이 흐르자 파라다이스 내부는 순식간에 아수라장이 되어 버린다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "content": "C008 일행도 곧 탈출에 나선다."
+                },
+                {
+                    "location": "비행장",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "파라다이스로 돌아온 C007의 모습이 보인다."
+                },
+                {
+                    "location": "비행장",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "content": "그는 승무원들을 닥치는 대로 살해해 버린다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "만들다",
+                    "content": "C008 일행은 C007의 추격을 피해 비행선에 오른다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "만들다",
+                    "content": "C008 일행을 찾지 못한 C007는 폭탄이 터지기 일보 직전, 폭탄의 작동을 정지시킨다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "C003가 파라다이스를 폭파시키면서 C007는 그 자리에서 죽임을 당한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C007",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "C008 일행은 다행히 폭파 직전 파라다이스를 빠져나간다."
+                },
+                {
+                    "location": "비행선 내부",
+                    "character": [
+                        "C008",
+                        "게임 대회 우승자"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "content": "크로켓 우승자는 살았다는 사실에 안도의 한숨을 내쉰다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C001"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C008 일행이 성전으로 향한다. 네 개의 돌을 이용해 행성을 멈추는 일에 성공한다.",
+            "unit_motif": "지구종말",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "사령부",
+                    "act": "보고하다",
+                    "content": "대통령은 C008 일행이 성전으로 가고 있다는 보고를 받게 된다."
+                },
+                {
+                    "location": "비행선 내부",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "content": "C002는 창조와 더불어 모든 것을 파괴해 버리는 인간성에 의문을 가진다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "놀다",
+                    "content": "대통령과 각료들이 축하 파티를 벌인다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "놀다",
+                    "content": "그런데 곧 문제가 생겼다는 보고가 날아든다."
+                },
+                {
+                    "location": "우주",
+                    "act": "위협하다/협박하다",
+                    "content": "엄청난 속도로 전진하는 행성의 모습이 보인다."
+                },
+                {
+                    "location": "사령부",
+                    "act": "보고하다",
+                    "content": "대통령은 행성이 엄청난 속도로 전진한다는 보고를 받게 된다."
+                },
+                {
+                    "location": "몽타주",
+                    "act": "말하다",
+                    "content": "대통령은 C008에게 거대한 불덩이가 지구로 향하고 있다는 소식을 전한다."
+                },
+                {
+                    "location": "배행선 내부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "content": "C002는 컴퓨터 모니터를 통해 전쟁의 참상을 깨닫게 된다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "C008 일행은 최대한의 속도를 내 이집트 사막에 도착한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "이는 곧 대통령에게 보고 된다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "content": "C008 일행은 네 개의 돌을 이용해 행성을 멈춰 세우는 일에 성공한다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "content": "C008은 정신을 잃은 C002를 부서져라 껴안는다."
+                },
+                {
+                    "location": "핵 연구소 앞",
+                    "act": "얻는다/취하다",
+                    "content": "핵 연구소 앞에 대통령의 차가 멈춰 선다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "act": "요구하다",
+                    "content": "대통령은 C008과 C002를 만나고자 한다."
+                },
+                {
+                    "location": "핵 연구소",
+                    "act": "요구하다",
+                    "content": "그런데 재생기 안을 들여다본 과학자는 난색을 표한다."
+                },
+                {
+                    "location": "재생기 안",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "꼬시다",
+                    "content": "C008과 C002는 키스를 나누고 있다."
+                },
+                {
+                    "location": "재생기 안",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "꼬시다",
+                    "content": "두 사람은 서로의 얼굴을 바라보며 환한 웃음을 짓는다."
+                }
+            ]
+        }
+    ]
+}

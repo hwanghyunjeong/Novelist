@@ -1,0 +1,2447 @@
+{
+    "title": "마지막 황제",
+    "genre": [
+        "드라마",
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "이제 막 의과대학을 졸업한 C001은 아프리카 오지에서 가난한 사람들을 위해 자신의 의술을 펼치고자 하는 젊은 혈기로 혈혈단신 아프리카로 향한다. 그가 도착한 곳은 바로 독재자 C006이 지배하고 있는 곳이다.",
+    "motif": "독재정치",
+    "conflict": "장밋빛 판타지에 취해 반투에 도착한 C001은 우연한 사고로 C006과 맞닥뜨리게 되고, 젊은 그의 당당함과 물러서지 않는 배짱에 매료된 C006은 그를 주치의로 고용하게 된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "의대를 졸업한 C001은 현재의 상황의 지겨워 다른 곳으로의 도피를 꿈꾼다.",
+            "unit_motif": "청소년기 일탈",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "대학교",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C001의 대학 졸업식 날이다."
+                },
+                {
+                    "location": "대학교",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 대학 졸업식 날 친구들과 호수에 들어가 수영을 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "C001은 부모님과 식사를 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "즐겁다",
+                    "content": "아버지는 C001이 가정의가 된 것을 축하해준다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 침대에 누워있다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 사는 게 답답한지 소리를 질러댄다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001은 지구본을 돌려 처음 찍는 곳으로 간다고 말한다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "반투를 찍는다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "의대를 졸업한 C001은 현재의 상황의 지겹다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 다른 곳으로의 도피를 꿈꾼다."
+                },
+                {
+                    "location": "C001 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 무조건 반투로 떠난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C002"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001은 반투에 도착해 봉사 활동을 시작한다. 반투 내에 정권이 교체되면서 국민들이 새 세상을 꿈꾸며 좋아한다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 버스를 타고 반투의 지방으로 들어간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "사이사이 타이틀이 뜬다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006의 군대가 버스가 가는 곳곳에 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001은 버스에 같이 탄 여자에게 C006에 대해 듣는다."
+                },
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "꼬시다",
+                    "content": "C001은 버스에서 만난 여자와 섹스를 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "content": "C001은 지방에 도착한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "content": "C004가 나와 C001을 데리고 간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "C004는 쿠데타가 일어나 늦게 도착할 줄 알았다고 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "C004는 빨리 도착했다며 다행이라고 말한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "C001은 시골 병원에 처음 도착해 구경을 한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "의료 시설들이 형편없이 낙후되어 있다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "C001은 반투 주민들을 치료한다."
+                },
+                {
+                    "location": "병원 앞",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "불편하다",
+                    "content": "C004는 C001에게 이런 일이 안 어울린다고 말한다."
+                },
+                {
+                    "location": "병원 앞",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "불편하다",
+                    "content": "C001은 모험을 좋아한다며 할 수 있다고 말한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C001은 주민들과 축구를 하며 논다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C006이 마을에 온다는 소식을 듣게 된다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C006"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001은 마을에 온 C006의 연설을 듣고 감명에 빠지게 된다. 우연한 기회에 C006을 도와주게 되고 C006은 C001에게 호감을 가지게 된다.",
+            "unit_motif": "구세주 출현",
+            "causality": "New personality(새로운 자아)",
+            "story_scripts": [
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 C004에게 C006을 보러 같이 가자고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C006이 온다는 소식에 주민들이 축제를 벌인다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "content": "C006이 나와 국민들을 위한 정치를 하겠다고 다짐한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "C001은 C006의 연설을 듣고 감명을 받는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "당황하다",
+                    "content": "돌아가는 길에 C004는 반투 국민들이 추출된 전 대통령에게도 경의를 표했다고 말해준다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "content": "C006의 부대와 C001이 모는 자동차 앞으로 와 C006이 다쳤다며 치료해달라고 부탁한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "content": "C006의 차가 지나가던 소와 부딪쳐 손이 삐었다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C006의 손을 치료해준다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 상처 때문에 괴로워하는 소를 보다 결국 C006의 총으로 쏴 죽여 버린다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C001의 행동에 호감을 느끼며 옷을 바꿔 입자고 말한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "content": "C001은 퇴근하려는 C004를 유혹한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "content": "C001은 C004는 키스를 하다가 결국 거절한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C007",
+                "C004",
+                "C006",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006은 C001에게 반투를 위해 같이 일해보자고 권하고, 거절을 하는 C001에게 C006은 진심을 담아 부탁한다.",
+            "unit_motif": "뜻밖의 편지",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "content": "C002이 C001을 깨워 누군가 찾아왔다고 말해준다."
+                },
+                {
+                    "location": "C001 집 앞",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "보건부 장관 C007가 찾아와 C006이 보자고 했다며 C001을 데리고 간다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C004에게 C006을 만나러 다녀오겠다고 말한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C004는 걱정스러운 표정을 짓는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 대통령 자동차를 타고 C006을 만나러 간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "맞이하다",
+                    "content": "가는 길에 사람들이 C001을 대통령으로 오해하고 손을 들며 환호를 한다."
+                },
+                {
+                    "location": "대통령궁",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C007는 대통령 궁에 도착한다."
+                },
+                {
+                    "location": "대통령궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C001에게 자기 주치의가 돼서 반투를 바꿔보자고 제의한다."
+                },
+                {
+                    "location": "대통령궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C001은 거절한다."
+                },
+                {
+                    "location": "대통령궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C006은 C004 때문이냐며 잡담을 나눈다."
+                },
+                {
+                    "location": "대통령궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C006은 저녁 만찬 때만 참석하고 가라고 말한다."
+                },
+                {
+                    "location": "옷가게",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 옷 가게에서 옷을 맞춘다."
+                },
+                {
+                    "location": "옷가게",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "창문 밖으로 야당 지지자가 잡혀가는 모습이 보인다."
+                },
+                {
+                    "location": "옷가게",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "같이 옷을 맞추고 있던 C005이 반투의 상황에 대해 얘기해준다."
+                },
+                {
+                    "location": "옷가게",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 영국인이라 C005을 꺼려 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C009",
+                "C007",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001은 C006의 가벼운 병을 치료해준다. C006은 C001에게 자신의 과거 얘기를 해주며 반투를 위해 노력할 거라고 얘기한다. C001은 다시금 감명을 받게 된다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C006이 준 차량을 타고 만찬회에 간다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C001에게 가족들을 소개해준다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불편하다",
+                    "content": "C006의 세 번째 부인인 C009를 처음 본다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C006은 C001에게 사람들을 소개해준다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C005을 다시 만나게 된다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 반투를 재건시키기 위해 노력하자고 연설한다."
+                },
+                {
+                    "location": "만찬회장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 감명을 받는다."
+                },
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "C006의 비서가 와 C006이 아프다며 C001을 데리고 간다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불편하다",
+                    "content": "C001은 체한 C006을 도와준다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 부끄러운 모습을 보였다며 사과하는 C006에게 인간적인 모습이라고 말해준다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "C006은 C001에게 자신의 과거에 대해 말해준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C007",
+                "C005",
+                "C008",
+                "C006"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001은 C006의 주치의로 일하기로 결정한다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 아침 식사를 한다."
+                },
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C001은 C004에게 전화를 걸어 C006을 위해 일하기로 했다고 말한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C004는 걱정스러운 표정을 지으며 잘 지내라고 말해준다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "C007가 병원을 비롯해 주요 관청들을 소개해준다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 병원에서 전 주치의인 C008를 만난다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C005이 C001에게 접근해 자주 만남을 가지자고 말한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "하지만 C001은 꺼려 한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C006을 쫓아다니며 행사에 참석한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 리비아에 간다며 C001에게 자기 대신 회의에 참석해 달라고 부탁한다."
+                },
+                {
+                    "location": "회의장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 가벼운 회의인 줄 알고 참석했다가 도시 계획을 결정짓는 중요한 회의라는 걸 알게 된다."
+                },
+                {
+                    "location": "회의장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "content": "C001은 당황한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C007",
+                "C008",
+                "C009"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001의 솔직하고 직선적인 행동을 좋아하는 C006은 C001에게 점점 더 많은 걸 의지하게 된다.",
+            "unit_motif": "낯선 곳으로의 이주",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "당황하다",
+                    "content": "C006은 C001이 선정한 도시 설계 모형을 보고 좋아한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "당황하다",
+                    "content": "C007가 사인할 서류를 C006에게 보여준다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C007"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C006은 못마땅하게 생각한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001은 병원에서 C008와 진료 기록들을 확인한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "밖에서 포탄 소리가 들려 나가보면 도시 한 곳에서 연기가 피어난다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008는 야당의 지지자들이 폭동을 일으키는 거라고 말해준다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "비서가 와 대통령 아들이 아프다며 C001을 데리고 간다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 간질에 걸린 C009의 아들을 치료해준다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "당황하다",
+                    "content": "C001은 C009에게 병원에 가야 된다고 말한다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C009는 C001에게 C006이 싫어한다며 집에서 치료해달라고 부탁한다."
+                },
+                {
+                    "location": "행사장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007"
+                    ],
+                    "act": "놀다",
+                    "content": "C006은 C001과 C007를 사이에 두고 행사를 즐긴다."
+                },
+                {
+                    "location": "행사장",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009",
+                        "C007"
+                    ],
+                    "act": "놀다",
+                    "content": "C006은 C001이 C009와 눈이 마주치는 장면을 흘깃 엿본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001과 C006은 야당 지지자들에 의해 목숨을 잃을 뻔한다.",
+            "unit_motif": "독재정치",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "content": "C006은 C001에게 와 아들을 치료해줘 고맙다고 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "content": "집 앞에 선물이라며 벤츠를 가지고 왔다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "요구하다",
+                    "content": "C006은 C001이 차 모는 걸 보고 싶다며 공항까지 몰아달라고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C001이 운전하는 차 옆에 앉는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "부수다",
+                    "emotion": "불안하다",
+                    "content": "아들의 대해 얘기하며 가고 있는데 야당 지지자들이 C001의 차량을 갑자기 공격한다."
+                },
+                {
+                    "location": "군대",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C006은 누군가 자신을 배신했다며 소리를 질러댄다."
+                },
+                {
+                    "location": "군대",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불안하다",
+                    "content": "C006은 믿을 놈들 하나도 없다며 C003에게 갑자기 경호를 맡긴다."
+                },
+                {
+                    "location": "군대",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불안하다",
+                    "content": "C006은 C007가 자리에 없다며 소리를 질러댄다."
+                },
+                {
+                    "location": "군대",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C006은 테러 한 사람들을 잡았다는 말에 금방 좋아한다."
+                },
+                {
+                    "location": "창고",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불안하다",
+                    "content": "C006은 테러 한 인물들을 심문한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C003",
+                "C007",
+                "C009",
+                "C005"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001은 시간이 갈수록 C006이 점점 포악하게 변해가고 있음을 느낀다.",
+            "unit_motif": "독재정치",
+            "causality": "Catharsis(카타르시스)",
+            "story_scripts": [
+                {
+                    "location": "창고",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C006은 반투를 위해 자기는 죽을 수 없다고 얘기한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "content": "C001은 죽을 뻔했던 상황 때문에 마음이 착잡하다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "마시다",
+                    "content": "C001은 마음을 다스리기 위해 술을 마신다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001",
+                        "C007"
+                    ],
+                    "act": "마시다",
+                    "content": "C001은 술집에서 C007가 외국인과 얘기를 나누는 것을 보게 된다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C006에게 결재 서류를 올린다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C001의 행동이 이상함을 느끼곤 할 말 있으면 하라고 말한다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C007가 술집에서 뭔가 안 좋은 일을 꾸미는 거 같다고 얘기한다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "content": "C001은 수영장에 와서 쉰다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "content": "C001은 C009를 보고 인사를 한다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불편하다",
+                    "content": "C005이 C001에게 다가와 C006이 독재 정치를 하고 있다고 말해준다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불편하다",
+                    "content": "C001은 자기한테 말하지 말고 C006에게 직접 얘기하라고 소리치며 화낸다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불편하다",
+                    "content": "C005은 C007가 얼마 전에 실종됐다며 아는 게 있냐고 묻는다."
+                },
+                {
+                    "location": "C007 사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "content": "C001은 C007를 보기 위해 사무실에 가본다."
+                },
+                {
+                    "location": "C007 사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "수색하다",
+                    "content": "C007는 안 보이고 다른 사람이 업무를 대행하고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C006",
+                "C006 대역",
+                "C009",
+                "C003"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001에게 일을 그만두겠다고 말하지만 C006은 다시금 부탁을 한다.",
+            "unit_motif": "독재정치",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 기자에게 자기가 보고 들은 것들을 얘기한다."
+                },
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "content": "기자는 기사화 시키겠다고 말한다."
+                },
+                {
+                    "location": "수영장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불편하다",
+                    "content": "C001은 비가 오는 가운데 수영장에서 수영을 하며 생각에 잠긴다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C006 대역"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C006에게 떠나겠다고 말한다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C006 대역"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "하지만 C006을 닮은 사람들이다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C006 대역"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C006은 전에 사건 때문에 대역을 만들었다며 좋아한다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C006 대역"
+                    ],
+                    "act": "말하다",
+                    "content": "C006은 반투를 위해 같이 일해달라고 다시금 부탁한다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "당황하다",
+                    "content": "C001은 축제에서 술을 마시며 즐긴다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "당황하다",
+                    "content": "C006이 여자를 한 명을 소개해준다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "당황하다",
+                    "content": "C001은 술에 점점 취해간다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "당황하다",
+                    "content": "C001은 지금까지 자신이 해온 행동들을 떠올려 본다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "당황하다",
+                    "content": "C009가 C001에게 와 아는 척을 한다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C009"
+                    ],
+                    "act": "담소를 나누다",
+                    "content": "C001은 C009에게 하소연을 한다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "수색하다",
+                    "content": "C001과 C009는 사람들의 시선을 피해 돌아다닌다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C009",
+                "C003",
+                "C006",
+                "C005"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001은 술에 취해 C006의 부인과 같이 자게 되고, 점점 상황이 안 좋아짐을 느끼며 C005에게 반투를 빠져나갈 수 있게 도와달라고 말한다.",
+            "unit_motif": "독재정치",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C003"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "불안하다",
+                    "content": "그 뒤를 C003가 바라본다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "불안하다",
+                    "content": "C001은 술에 취해 방 안에서 C009와 잔다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C009는 C001에게 C006이 변해가고 있다고 한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C001에게 C009는 빨리 떠나라고 충고한다."
+                },
+                {
+                    "location": "방",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "content": "비서들이 문을 두드리며 C006의 명령이라며 다 나오라고 말하며 돌아다닌다."
+                },
+                {
+                    "location": "대통령 궁",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "놀다",
+                    "content": "C006은 호숫가에 앉아 연주를 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "emotion": "불편하다",
+                    "content": "C001은 난장판이 된 집을 발견하게 된다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "emotion": "불편하다",
+                    "content": "게다가 여권마저 훼손되어 있다."
+                },
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "content": "C001은 C005에게 반투를 빠져나가고 싶다고 부탁한다."
+                },
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "불안하다",
+                    "content": "C005은 C001에게 현재 반투 상황과 C006이 한 행동들에 대해 사진으로 보여준다."
+                },
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C006은 독재 정치를 하며 정적들을 수없이 죽이고 있다."
+                },
+                {
+                    "location": "C005 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C005은 C006을 죽이면 반투를 빠져나갈 수 있게 도와준다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C009",
+                "C006",
+                "C008",
+                "C003",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C006은 서방에 점차 적대적으로 변해간다. C001은 C006에게 충고를 해보지만 이제는 먹히질 않는다.",
+            "unit_motif": "독재정치",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "content": "C001은 C009의 손을 잡고 반투 시내를 내려다본다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "content": "걱정스러운 눈빛이다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불편하다",
+                    "content": "C001은 서방에서 C006을 비난하는 방송들이 보고 있다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 반투 내에 있는 아시아인을 쫓아내겠다고 방송한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "불편하다",
+                    "content": "C003 일행은 병원에 입원해 있는 아시아인들을 쫓아내고 있다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C001이 병원으로 들어와 C003를 제지한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C001은 C006에게 직접 보고하겠다고 말한다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "C001은 C006에게 아시아인을 쫓아내면 안 된다고 말한다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "C006은 C001에게 꺼지라고 소리 지른다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "content": "C001은 착잡한 심정으로 어수선한 거리를 걷는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C009",
+                "C008",
+                "C003",
+                "C006"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001은 C009와 함께 도망을 가기 위해 준비를 하는데 C006이 와 C001에게 다시금 조언을 구한다. C006은 C001의 조언대로 기자들과의 회견을 진행한다.",
+            "unit_motif": "독재정치",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "C004가 버스를 타고 빠져나가는 모습을 보게 된다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C001은 C009의 전화를 받는다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "당황하다",
+                    "content": "C006이 우리들을 죽일 거라며 울먹인다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C006이 자신들을 죽일 거라며 C001에게 먼저 죽이라고 울먹이며 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C001은 아무 일 없을 거라며 걱정하지 말라고 달래준다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C008에게 현재의 자신과 C009의 상황에 대해 부탁해본다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "거부감",
+                    "content": "하지만 C008에게 거절당한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "content": "C001은 자기 혼자 알아서 해보겠다고 말한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "받는다",
+                    "content": "병원에서 C001이 물품을 챙기고 있는데 C003가 와 데리고 나간다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C006은 C001에게 서방에서 자신을 비난한다며 뭘 해야 할지 모르겠다 소리를 지른다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C001은 자신을 설득시키지 않았다며 화를 내는 C006에게 현 상황을 이용하라고 충고해준다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C006은 C001의 충고를 받아들이며 갑자기 좋아한다."
+                },
+                {
+                    "location": "대통령 집무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "당황하다",
+                    "content": "C006은 일을 마치고 나가려는 C001에게 기자회견장까지 같이 가야 된다며 못 가게 한다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C009는 C001에게 전화를 해보지만 아무도 안 받자 울먹이며 떨고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C009"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001은 C009가 처참하게 살해당한 걸 확인한다.",
+            "unit_motif": "대학살",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "기자회견장",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "content": "C006은 기자들을 모아놓고 기자회견을 한다."
+                },
+                {
+                    "location": "기자회견장",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "content": "위험한 순간들이 있지만 잘 넘기고 있다."
+                },
+                {
+                    "location": "기자회견장",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "content": "C001은 뒤에서 C006을 바라보고 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001은 자동차를 몰고 C009의 집으로 급하게 간다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C009의 집에 도착해 C009를 찾는다."
+                },
+                {
+                    "location": "C009 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001은 식모에게 시골에 내려갔다는 말만 듣게 된다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001은 C009를 찾아 병원으로 달려가본다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "병원에서 C009를 찾는다."
+                },
+                {
+                    "location": "병원 지하",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "수많은 사람들이 병원 지하에 갇혀 있다."
+                },
+                {
+                    "location": "병원 지하",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C009가 처참하게 살해당했다."
+                },
+                {
+                    "location": "병원 지하",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 지하실 한쪽 구석에 사지가 절단된 C009의 모습을 보곤 토한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C003"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001은 자신의 생명마저 위협당하고 있음을 느끼며 C006을 죽이려고 계획을 짠다.",
+            "unit_motif": "대학살",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001은 과거에 자신이 했던 행동들을 떠올리며 C006을 찾아간다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 비디오테이프를 보고 있는 C006에게 진통제를 넘긴다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "C006은 C009에 대해 묻자 자신을 배신해서 죽였다고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "단호하다",
+                    "content": "C001은 C006에게 진통제를 주고 나온다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "초조하게 통과되길 기다리고 있는데 초소에 전화벨이 울린다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C001의 표정 굳는다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 공항에서 프랑스 여객기가 납치된 상황이라고 한다."
+                },
+                {
+                    "location": "C006 방",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 C001에게 인질 구출 작전에 같이 가자고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C006의 자동차가 공항으로 향한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C006은 손에 진통제를 들고 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C001은 진통제를 초조하게 바라본다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "불안하다",
+                    "content": "C006이 진통제를 두고 내리자 C001이 챙기려 하는데고 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "불안하다",
+                    "content": "C003가 먼저 진통제를 챙겨간다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001은 공항에 와 환자들을 만나 기본적인 치료를 해주고 있다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C003가 진통제를 만지작거리더니 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C006",
+                "C008"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001은 C006에게 준 알약을 다른 병사가 먹으려 하자 말리려다 독살 계획을 들키게 된다. C006에게 심하게 고문을 당한다.",
+            "unit_motif": "감금",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "공항 밖",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C003가 진통제를 가지고 있다."
+                },
+                {
+                    "location": "공항 밖",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C003는 공항에 있는 병사 한 명에게 C001이 준 진통제를 먹인다."
+                },
+                {
+                    "location": "공항 밖",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "content": "C001이 달려와 병사에게 알약을 먹지 말라며 소리 지른다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "당황하다",
+                    "content": "C001은 C003에게 끌려간다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "불안하다",
+                    "content": "C006이 들어와 C001이 한 행동이 실망스럽다고 말한다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "불안하다",
+                    "content": "C006은 C001과 C009와의 관계도 알고 있다고 말한다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C003는 C001을 고문한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "괴롭다",
+                    "content": "C006은 납치범들과 협상을 했다고 한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "괴롭다",
+                    "content": "C006은 유태인을 제외한 외국인들이 나갈 수 있도록 비행기를 준비했다고 연설한다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 정신을 잃고 쓰러졌다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "괴롭다",
+                    "content": "C003 일행들은 쓰러진 C001을 놔두고 잠시 쉬러 나간다."
+                },
+                {
+                    "location": "공항",
+                    "act": "간다/이동한다",
+                    "content": "인질들이 공항을 빠져나가기 위해 분주히 움직이기 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C008",
+                "C003"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C001은 C008의 도움으로 공항을 탈출하는데 성공한다. C008는 반투의 현실을 서방 세계에 알려 달라고 C001에게 부탁한다. 하지만 C008는 C003의 총에 맞아 죽는다.",
+            "unit_motif": "도망자",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "content": "C008는 사무실 안으로 들어와 C001을 치료해준다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "content": "C008는 왜 돕냐는 C001의 말에 서양에 가서 반투의 현실을 말해달라고 부탁한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "content": "C003 일행은 사무실에서 맥주를 마시며 즐긴다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "외국인들은 공항을 빠져나가 비행기를 타러 간다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "괴롭다",
+                    "content": "그 틈에 섞여 C001은 빠져나간다."
+                },
+                {
+                    "location": "공항 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "C003 일행은 C001이 쓰러져 있는 사무실로 다가온다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "content": "C003 일행은 사무실 안에 C001이 없는 걸 확인하곤 급하게 나간다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "C001은 외국인들 틈에 껴 비행기 타는데 성공한다."
+                },
+                {
+                    "location": "공항 복도",
+                    "character": [
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "괴롭다",
+                    "content": "C003는 다른 곳으로 이동하고 있는 C008를 잡는다."
+                },
+                {
+                    "location": "공항 복도",
+                    "character": [
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "괴롭다",
+                    "content": "C003는 C008에게 C001이 어딨는지 물어보지만 모른다고 대답한다."
+                },
+                {
+                    "location": "공항 사무실",
+                    "character": [
+                        "C008",
+                        "C003"
+                    ],
+                    "act": "죽이다",
+                    "content": "C003는 사무실로 C008를 끌고 와 총으로 쏴 죽인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001은 비행기를 타고 반투를 빠져나가는데 성공한다.",
+            "unit_motif": "도망자",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "불안하다",
+                    "content": "C001은 비행기를 타고 있다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "불안하다",
+                    "content": "비행기가 서서히 이륙하기 시작한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "C003가 C006에게 온다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "불안하다",
+                    "content": "C003는 C006에게 C001이 도망쳤다고 보고를 한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "당황하다",
+                    "content": "C006은 황급히 일어선다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C006은 떠나가는 비행기를 바라본다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C006의 표정이 변한다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C006",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001은 비행기를 타고 반투를 빠져나가는데 성공한다."
+                },
+                {
+                    "location": "비행기",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 비행기 안에서 과거를 생각한다."
+                },
+                {
+                    "location": "비행기",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C001은 과거를 생각하며 울먹인다."
+                },
+                {
+                    "location": "거리",
+                    "act": "죽이다",
+                    "emotion": "괴롭다",
+                    "content": "C006이 삼십만 명을 학살했다."
+                }
+            ]
+        }
+    ]
+}

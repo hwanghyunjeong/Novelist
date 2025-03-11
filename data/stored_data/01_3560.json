@@ -1,0 +1,2260 @@
+{
+    "title": "믿을 수 없는 부활",
+    "genre": [
+        "액션",
+        "판타지",
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "재개장한 테마파크에서 돌연변이 동물이 탈출하는 사고가 발생한다.",
+    "motif": "갑작스런 사고",
+    "conflict": "돌연변이 동물이 탈출한 가운데, 돌연변이 동물을 이용하는 세력과 그에 반하는 인물들이 대립한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011"
+    ],
+    "units": [
+        {
+            "characters": [
+                "E001",
+                "C003",
+                "C004",
+                "C005",
+                "C002",
+                "C006"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C003와 C004은 이모가 일하고 있는 테마파크에 방문한다.",
+            "unit_motif": "여정의 시작",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "실험실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "궁금하다",
+                    "content": "알이 깨지며 E001 새끼의 발톱이 나오고 눈이 보인다."
+                },
+                {
+                    "location": "미첼 집",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C004이 테마파크에 가기 위해 집을 나서 공항으로 간다."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "애틋하다",
+                    "content": "재미있을 거야. 사랑해."
+                },
+                {
+                    "location": "공항",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "걱정",
+                    "content": "동생 잘 돌보고 엄마 전화 꼭 받아라."
+                },
+                {
+                    "location": "배",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C004이 비행기에서 내려 배를 타고 섬으로 들어간다."
+                },
+                {
+                    "location": "모노레일",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003와 C004이 모노레일을 타고 테마파크 정문으로 들어간다."
+                },
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "C003가 호텔 창문을 열고 테마파크를 보며 신나한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "테마파크에 오신 걸 환영합니다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "관람객들이 원하는 새로운 동물 E001를 개발했어요."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "자랑스럽다",
+                    "content": "E003보다 큰 동물을 설계해서 준비했어요."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "C003가 동물 전시물을 구경하고 있다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C002가 C003와 C004과 만나서 인사한다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C007에게 C003와 C004을 잘 부탁한다고 말하고 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C008"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002는 E001를 C008에게 공개한다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "시키다",
+                    "emotion": "담담하다",
+                    "content": "C002가 상황실에서 직원들에게 입장객 수와 사고 보고를 받는다."
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 C008이 조종하는 헬리콥터를 타고 E001 우리1에 간다."
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "관람객이 만족하고 동물들은 행복한가?"
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "관람객들 만족도는 높고 동물은 모르겠어요."
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "경비를 줄일 수 있는 방법이 있어요."
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "단호하다",
+                    "content": "돈은 신경 쓰지 마."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "예상보다 E001의 덩치가 커서 우리를 더 높게 만들어야 합니다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "E001가 사육사 한 명을 해칠 뻔하고 우리를 깰 뻔했어요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "놀라다",
+                    "content": "E001가 하얀색인 걸 알고 어른들도 무서워하겠다며 만족한다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "E001가 우리를 볼 수 있나?"
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "뱀처럼 열에너지를 감지해요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "두 마리를 만들었는데 한 마리가 다른 한 마리를 잡아먹었어요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "자신감 있다",
+                    "content": "최고의 구조공학자들이 지은 우리라 안전해요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "걱정",
+                    "content": "동물 훈련을 담당하고 있는 C001을 데려와서 우리가 안전한지 살펴봐."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C009",
+                "C010",
+                "C011 우리1 직원"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001은 E006을 훈련시키는데 우리1에서 사고가 일어난다.",
+            "unit_motif": "신고식",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "가르치다/훈련시키다",
+                    "content": "C001이 E006을 훈련시키고 있다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "답답하다",
+                    "content": "잘 훈련된 E006을 군의 실전 훈련에 투입하고 싶어."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "반대하다",
+                    "emotion": "단호하다",
+                    "content": "야생동물은 복종시킬 수 없고 소유할 수도 없어요."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "답답하다",
+                    "content": "전쟁에서 드론이나 로봇보다 더 좋은 무기가 될 거야."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "씁쓸하다",
+                    "content": "반대로 우리를 잡아먹을 수도 있어요."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "반대하다",
+                    "emotion": "단호하다",
+                    "content": "동물의 본성도 모르면서 멋대로 생각하지 마세요."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C011 우리1 직원"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "긴장되다",
+                    "content": "C011 우리1 직원은 C011에게 먹이를 주다가 C011 우리로 떨어진다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "걱정",
+                    "content": "C001은 우리 안으로 들어가서 E006과 대치한다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C011 우리1 직원"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C011에게 전기 충격기를 쏘려고 대기하고 있다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "전기 충격기를 쓰면 다시는 내 말을 안 들을 거야. 쏘지 마."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "가르치다/훈련시키다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 E006을 진정시키고 무사히 우리를 빠져나온다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "C009은 의미심장하게 C001을 보고 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C005",
+                "C002",
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C003와 C004은 동물들을 구경하고 C002는 C001을 데리러 간다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "E003 우리1",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "즐겁다",
+                    "content": "C003와 C004은 C007에게서 도망쳐 E003 우리를 구경한다."
+                },
+                {
+                    "location": "카렌 회사",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "이모랑 같이 있어?"
+                },
+                {
+                    "location": "E003 우리1",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "담담하다",
+                    "content": "이모가 VIP 패스를 줘서 잘 구경하고 있어요."
+                },
+                {
+                    "location": "카렌 회사",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "불만족스럽다",
+                    "content": "카렌은 C002에게 전화를 한다."
+                },
+                {
+                    "location": "카렌 회사",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "지금 C003와 C004과 같이 없다며?"
+                },
+                {
+                    "location": "C002 차",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "내일은 꼭 같이 있을게."
+                },
+                {
+                    "location": "C001 숙소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C001을 데리러 C001 숙소에 도착한다."
+                },
+                {
+                    "location": "C001 숙소",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "망설이다",
+                    "content": "당신이 C011를 잘 통제한다고 들었어요. 그러니 당신이 동물 우리가 안전한지 살펴봐줘요."
+                },
+                {
+                    "location": "C001 숙소",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "잡담하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C011를 통제하는 게 아니라 관계를 맺는 거예요. 동물은 물건이 아니라 생명체예요."
+                },
+                {
+                    "location": "E002 우리1",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "한편, C003와 C004은 엄청난 크기의 E002가 먹이를 먹는 모습을 구경한다."
+                },
+                {
+                    "location": "E002 우리1",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "감탄하다",
+                    "content": "동물에 관심 없던 C004도 E002를 보고 환호한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C002와 C001은 E001가 탈출했다고 착각한다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001과 C002가 E001 우리1에 도착한다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "뿌듯하다",
+                    "content": "유전자 조작으로 E001를 만들었어요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "밖에 나온 적이 없군요. 먹이를 크레인으로 주나요?"
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불쾌하다",
+                    "content": "잘못됐나요?"
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "고립되어 키우면 생존력이 떨어지고 사회성도 없어요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "불쾌하다",
+                    "content": "E006도 E001처럼 갇혀서 태어났는데 지금 당신을 잘 따르잖아요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "단호하다",
+                    "content": "대신 E006은 형제가 있어 사회성을 배울 수 있었어요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "단호하다",
+                    "content": "E001를 이런 환경에서 계속 키우면 위험해질 거예요."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "초조하다",
+                    "content": "C002는 먹이를 줘도 E001가 나타나지 않자, E001가 없어졌다고 판단한다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 벽에 발톱 자국을 발견하다."
+                },
+                {
+                    "location": "C002 차",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "동물이 탈출했어."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "직원",
+                "상황실 직원",
+                "E001",
+                "C008",
+                "안전팀",
+                "C009"
+            ],
+            "stage": "1st Accident",
+            "storyline": "우리1을 탈출한 E001가 사람들을 죽이기 시작한다.",
+            "unit_motif": "적의 등장",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "C002는 상황실에 전화해 E001의 위치를 묻는다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001",
+                        "직원"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001과 직원은 우리1 안으로 들어가서 벽을 살핀다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "상황실 직원"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "놀라다",
+                    "content": "동물이 우리 안에 있는데 사람이 들어가 있어요."
+                },
+                {
+                    "location": "C002 차",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "당장 나오라고 해."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "거부감",
+                    "content": "E001가 우리1에 숨어있다가 나타나서 직원을 잡아먹는다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "당황하다",
+                    "content": "C001은 가까스로 탈출하지만 E001도 같이 우리 밖으로 나오게 된다."
+                },
+                {
+                    "location": "E001 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "무섭다",
+                    "content": "C001은 체취를 지워서 겨우 살아남는다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "관람객들에게 알리지 말고 안전팀에게 E001를 잡게 해."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "관람객과는 멀리 있고 곧 잡힐 거예요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "안전팀"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "안전팀은 출동 준비를 한다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "기대되다",
+                    "content": "한편, C009은 C011를 관찰하고 있다가 E001가 탈출했다는 연락을 받는다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "기대되다",
+                    "content": "C009은 곧바로 누군가에게 전화를 걸어서 기회가 왔다고 말한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "안전팀"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "안전팀은 E001를 포획하러 출동한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "안전팀",
+                "E001",
+                "C008",
+                "C006"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001은 관람객들을 내보내라고 하고 C002는 비상사태를 선언한다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "E001는 우리를 속이고 탈출했어요."
+                },
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "초조하다",
+                    "content": "그저 동물일 뿐이에요."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "안전팀"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "안전팀이 E001가 스스로 빼 낸 칩을 발견한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "거부감",
+                    "content": "나무색으로 위장해 있던 E001가 나타나 안전팀을 죽인다."
+                },
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "E001가 움직이는 건 모두 죽일 테니 입장객들을 내보내고 동물을 죽여요."
+                },
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "걱정",
+                    "content": "당신 말대로 하면 여기는 망해요."
+                },
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "단호하다",
+                    "content": "연구소에 E001는 동물이 아니라고 전해요."
+                },
+                {
+                    "location": "관제실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "시키다",
+                    "emotion": "비장하다",
+                    "content": "C002는 비상사태를 선언하고 입장객들을 모두 내보내라고 한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "한편, C008은 C006를 찾아간다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "불만족스럽다",
+                    "content": "왜 이렇게 비상식적인 동물을 만든 거죠?"
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불쾌하다",
+                    "content": "당신이 더 멋지게 만들라고 지시했어요."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "전부 중단해요."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불쾌하다",
+                    "content": "모두 내가 만든 거고 이제 그만둘 수 없어요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C002",
+                "C001",
+                "E001"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C003와 잭이 놀이기구를 타는 도중 E001의 습격을 받는다.",
+            "unit_motif": "기습",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "지겹다",
+                    "content": "C003와 C004은 놀이기구 안내방송을 보고 있다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "감탄하다",
+                    "content": "C003는 동물들을 발견하고 좋아한다."
+                },
+                {
+                    "location": "밸리",
+                    "content": "갑자기 모든 놀이기구가 중단되니 돌아오라는 방송이 나온다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "체념하다",
+                    "emotion": "실망하다",
+                    "content": "돌아가야 한 대."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "안타깝다",
+                    "content": "조금 더 구경하자."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "걱정",
+                    "content": "C002는 C003와 C004에게 돌아오라고 전화한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "담담하다",
+                    "content": "C004은 전화가 잘 들리지 않아 이모의 말을 무시한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "기대되다",
+                    "content": "출입 통제 구역에 들어가 보자."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "걱정",
+                    "content": "C002는 급하게 C001을 찾는다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "걱정",
+                    "content": "아직 밸리에 있는 조카들을 찾는 걸 도와줘요."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "담담하다",
+                    "content": "C001은 C002와 함께 C003와 C004을 찾아주기로 한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "만나다",
+                    "emotion": "무섭다",
+                    "content": "한편, 출입 통제 구역에서 C003와 C004은 E001를 만난다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "부수다",
+                    "content": "E001가 C003와 C004이 탄 놀이기구를 부순다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "비장하다",
+                    "content": "C003와 C004은 겨우 놀이기구에서 탈출해 강으로 뛰어든다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "안심/안도하다",
+                    "content": "C003와 C004은 강에서 무사히 헤엄쳐 나와 안도한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C009",
+                "C010"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001과 C002는 C003와 C004을 찾아다니다 죽은 동물들을 만나고 C003와 C004의 흔적도 발견한다.",
+            "unit_motif": "추적/수색",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "들",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C001과 C002는 차를 타고 C003와 C004을 찾아 나선다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "안타깝다",
+                    "content": "C001이 죽어가는 E004를 쓰다듬는다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "슬프다",
+                    "content": "C002도 E004를 만지며 흐느낀다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "E001가 E004를 재미로 죽였어요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기대되다",
+                    "content": "한편, C009은 몰래 E005에서 나온 사람들과 만난다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C009과 E005을 몰래 살피던 C010는 C001에게 연락한다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "의심스럽다",
+                    "content": "C009이 E005과 만나고 있어. 무슨 일이 생길 것 같아."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "절망하다",
+                    "content": "C002는 부서진 놀이기구를 발견하고 절망한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 조카들의 발자국을 발견한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "단호하다",
+                    "content": "조카들은 E001에게서 무사히 도망쳤어요."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "걱정",
+                    "content": "C002가 조카들을 크게 부르자 C001이 저지한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "답답하다",
+                    "content": "조카들은 살아있으니 소리치지 말아요."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "냄새나 발자국으로 찾을 수 있죠?"
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "시키다",
+                    "emotion": "답답하다",
+                    "content": "내가 찾을 테니 당신은 돌아가세요."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 옷을 묶고 팔을 걷고 준비되었다고 말한다."
+                },
+                {
+                    "location": "밸리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "그럼 내가 시키는 대로 해요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "상황실 직원",
+                "C009",
+                "C008",
+                "C001",
+                "C002",
+                "E001",
+                "익룡"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C003와 C004은 차를 고쳐 탈출을 시도하고 E001는 조류 동물원을 습격한다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "테마파크",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "C003와 C004은 테마파크에서 고장 난 옛날 차를 발견한다."
+                },
+                {
+                    "location": "테마파크",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "내가 예전에 할아버지 차 고친 거 알지?"
+                },
+                {
+                    "location": "테마파크",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "만족하다",
+                    "content": "C003와 C004은 차를 고친다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "상황실 직원"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "E001가 열에너지를 감지해서 관람객들 있는 쪽으로 이동해요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "자신감 있다",
+                    "content": "C011로 E001를 잡을 수 있어요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "단호하다",
+                    "content": "C011를 풀어놓는 건 안돼."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "답답하다",
+                    "content": "자금 당장 C011를 이용해서 E001를 잡지 않으면 관람객들이 모두 죽을 거예요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C008은 헬리콥터를 조종해 조류 동물원으로 향한다."
+                },
+                {
+                    "location": "테마파크",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "C004은 차를 운전해서 C003와 함께 테마파크에서 나간다."
+                },
+                {
+                    "location": "테마파크",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "C001과 C002는 차 소리를 듣고 테마파크에 왔다가 E001와 마주친다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001과 C002는 겨우 테마파크를 빠져나와 조류 동물원으로 가는 헬리콥터를 본다."
+                },
+                {
+                    "location": "조류 동물원",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "공격하다",
+                    "content": "E001는 조류 동물원으로 들어가 익룡들을 풀어 놓는다."
+                },
+                {
+                    "location": "조류 동물원",
+                    "character": [
+                        "익룡"
+                    ],
+                    "act": "죽이다",
+                    "content": "익룡이 헬리콥터를 추락시켜 C008이 죽는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "익룡",
+                "C007",
+                "E002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "선착장에서 C002는 조카들과 만나고 익룡으로부터 C001을 구한다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "익룡들이 쫓아오자 C001과 C002는 숲으로 달아난다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C003와 C004도 익룡들에게 쫓긴다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C001과 C002는 조카들을 쫓아 선착장으로 향한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "익룡"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "대피하라는 안내방송이 나오며 익룡들이 들이닥친다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "익룡"
+                    ],
+                    "act": "해치다",
+                    "content": "익룡들이 관람객들을 공격하고 아수라장이 된다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C007",
+                        "익룡"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "익룡이 C003와 C004을 발견한 C007를 잡는다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "죽이다",
+                    "content": "E002가 익룡을 먹는다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "당황하다",
+                    "content": "C001은 C002의 조카들을 보호하려 하다 익룡의 공격을 받는다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "비장하다",
+                    "content": "C002가 총으로 익룡을 죽이고 C001을 구한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "고맙다",
+                    "content": "C002가 C001을 일으켜 세우고 둘이 키스한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "반갑다",
+                    "content": "C002가 C003와 C004을 발견한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "반갑다",
+                    "content": "어디 갔었어?"
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "불쾌하다",
+                    "content": "C004은 C001을 보고 기분 나쁜 표정을 짓는다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불쾌하다",
+                    "content": "누구예요?"
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "동료야."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001은 C002와 조카들을 데리고 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C009",
+                "C002",
+                "상황실 직원",
+                "C001",
+                "C010",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001은 E005의 명령에 따라 E006을 E001의 포획 작전에 투입하기로 결정한다.",
+            "unit_motif": "전투 준비",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "이제 여기는 E005이 접수합니다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 상황실 직원에게 전화를 해 상황실로 간다고 한다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "상황실 직원"
+                    ],
+                    "act": "체념하다",
+                    "emotion": "거부감",
+                    "content": "E005에서 C011로 E001를 잡겠다고 합니다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "통화를 하는 도중 익룡이 달려들어 차를 타고 도망치기 시작한다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C001과 C002는 E005이 E006을 이용하려 한다는 소식을 듣고 C011 우리1으로 간다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C009은 E006을 이용하기 위해 이미 C011 우리1에 와있다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "화나다",
+                    "content": "내 E006 이용하지 마."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "경멸하다",
+                    "content": "C002는 E006을 이용하려는 C009에게 화가 난다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "경멸하다",
+                    "content": "이런 일을 바랐지?"
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "사람들을 살리기 위한 작전이야."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "의심스럽다",
+                    "content": "E006을 테스트에 이용하는 건 무모한 짓이야."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "단호하다",
+                    "content": "협조가 없어도 작전은 진행할 거야."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "비장하다",
+                    "content": "협조하지 않아도 C009과 E005이 E006을 이용할 거라는 말에 C001은 직접 E006을 지휘하기로 한다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "비장하다",
+                    "content": "E006은 훈련된 후각으로 목표를 찾을 거예요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "비장하다",
+                    "content": "E006이 E001를 몰면 내 명령을 기다려요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "비장하다",
+                    "content": "기다렸다 사격하고 절대 E006을 쏘면 안 돼요."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001은 E006을 다독인다."
+                },
+                {
+                    "location": "트럭",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "걱정",
+                    "content": "C002는 C003와 C004을 트럭 뒤 칸에 태우고 운전석에 앉는다."
+                },
+                {
+                    "location": "트럭",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "긴장되다",
+                    "content": "무서워하는 C003를 C004이 다독인다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "가르치다/훈련시키다",
+                    "emotion": "비장하다",
+                    "content": "C001은 E006에게 E001의 냄새를 맡게 한다."
+                },
+                {
+                    "location": "C011 우리1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "E005과 C001은 E006을 데리고 E001 추격에 나선다."
+                },
+                {
+                    "location": "트럭",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 트럭에서 상황을 지켜보고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E006",
+                "C010",
+                "C001",
+                "C009",
+                "E001",
+                "C011",
+                "C002",
+                "C006"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "E006은 E001에 동조해 사람들을 공격한다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "숲",
+                    "character": [
+                        "E006"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "E006이 E001를 발견하고 대치한다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C011와 E001가 대화를 하고 있어."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "당황하다",
+                    "content": "C001은 E006이 E001와 대화를 할 수 있는 걸 보고 C006가 C011의 유전자를 이용해 E001를 만들었다는 것을 알게 된다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "경멸하다",
+                    "content": "E001에 C011 유전자가 들어갔어."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C009은 C001의 명령을 기다리고 있는 E005에게 빨리 사격을 하라고 지시한다."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불만족스럽다",
+                    "content": "망설이지 말고 사격해."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "E001",
+                        "E006"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "불안하다",
+                    "content": "E001가 소리를 내자 E006이 사람들 쪽을 본다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "불안하다",
+                    "content": "C011가 E001를 대장으로 생각하고 있어. 조심해."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "공격하다",
+                    "content": "E006이 사람들을 공격하자 E005은 철수한다."
+                },
+                {
+                    "location": "트럭",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C002는 조카들을 다독이는 중 C011가 공격해 도망친다."
+                },
+                {
+                    "location": "숲",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "도망쳐야 하니까 따라와요."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "궁금하다",
+                    "content": "한편, C006는 배아를 챙기는 중 C009의 전화를 받는다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "혼란스럽다",
+                    "content": "테마파크는 파산할 테니까 배아를 빼내야 해요."
+                },
+                {
+                    "location": "상황실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "배아는 안전하게 챙기고 있어요."
+                },
+                {
+                    "location": "헬리콥터",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C006는 배아를 가지고 헬리콥터로 탈출한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C009",
+                "C011",
+                "E001",
+                "E006"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001은 E006을 설득해낸다. 하지만 E006은 E001를 이기지 못하고, C002는 E003를 데려오려고 한다.",
+            "unit_motif": "전쟁/전투/토벌",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "당황하다",
+                    "content": "C001 일행은 실험실로 뛰어 들어오지만 아무도 없다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "당황하다",
+                    "content": "유전자 조작으로 만든 동물들을 발견한다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "만족하다",
+                    "content": "돌연변이 동물을 이용해 전쟁을 하면 좋을 거야."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "죽이다",
+                    "content": "C011가 들어와 C009을 죽인다."
+                },
+                {
+                    "location": "실험실",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "무섭다",
+                    "content": "C001 일행은 실험실에서 나와 밖으로 도망친다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C011와 교감해 진정시키는 데 성공한다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "공격하다",
+                    "content": "E001가 나타나 C001을 공격한다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E001",
+                        "E006"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "E001와 E006이 싸운다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "담담하다",
+                    "content": "동물이 더 필요해."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "시키다",
+                    "emotion": "비장하다",
+                    "content": "걱정 말고 기다려."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E001",
+                        "E006"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "E006과 E001는 계속 싸운다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C001",
+                        "E001"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "비장하다",
+                    "content": "C001도 E001와 대치한다."
+                },
+                {
+                    "location": "E003 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "시키다",
+                    "emotion": "비장하다",
+                    "content": "E003 우리1 문 열어."
+                },
+                {
+                    "location": "E003 우리1",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "비장하다",
+                    "content": "C002는 따라 나오는 E003를 데리고 센터 쪽으로 뛴다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E003",
+                "E001",
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "C011",
+                "E002"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "E003와 E001가 싸우는 중 C011와 E002도 가세한다.",
+            "unit_motif": "수장끼리의 싸움(일기토)",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "센터",
+                    "character": [
+                        "E003",
+                        "E001"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "E003는 E001와 맞닥뜨린다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E003",
+                        "E001"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "E003는 E001와 온 힘을 다해 싸우지만 역부족이다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001 일행은 도망 다니며 싸움을 보고 있다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C011",
+                        "E003",
+                        "E001"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "C011가 나타나 E003와 함께 E001를 공격한다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "E001가 피를 흘리며 쓰러진다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E001",
+                        "E002"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "E001가 다시 일어서는 순간 E002가 물 위에서 뛰어오른다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E002",
+                        "E001"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "E002가 E001를 데리고 물속으로 들어간다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "E003",
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "E003는 C011와 마주 보더니 뒤돌아 돌아간다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C011는 C001을 한번 보더니 다시 돌아간다."
+                },
+                {
+                    "location": "센터",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "허무하다",
+                    "content": "폐허가 된 테마파크를 보고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C005",
+                "C001"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C003와 C004은 엄마와 다시 만나고 C001과 C002는 함께 하기로 한다.",
+            "unit_motif": "귀환",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "애틋하다",
+                    "content": "선착장에서 C003와 C004을 돌보며 카렌을 기다리고 있다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "울다",
+                    "emotion": "애틋하다",
+                    "content": "카렌이 C002를 발견한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "카렌은 C003를 안으며 안도한다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "미안해."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "괜찮아?"
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "카렌은 C004도 안으며 눈물 흘린다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "사랑스럽다",
+                    "content": "C002는 다른 사람들을 도와주고 있는 C001과 눈이 마주친다."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "사랑스럽다",
+                    "content": "우리는 이제 어떻게 할까요?"
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "사랑스럽다",
+                    "content": "같이 있어요."
+                },
+                {
+                    "location": "선착장",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "홀가분하다",
+                    "content": "C001과 C002는 걸어나간다."
+                }
+            ]
+        }
+    ]
+}

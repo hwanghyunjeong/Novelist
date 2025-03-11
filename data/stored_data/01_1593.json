@@ -1,0 +1,1795 @@
+{
+    "title": "마녀 재판",
+    "genre": [
+        "드라마"
+    ],
+    "theme": "구출",
+    "concept": "C004의 거짓 증언에 무고한 주민들이 희생된다.",
+    "motif": "마법사(마녀)",
+    "conflict": "C007은 아내를 구하기 위해 C004의 거짓을 밝히려고 한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C015",
+        "C016",
+        "C017",
+        "C018",
+        "C019"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C004",
+                "C002",
+                "C011"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C004과 마을의 소녀들은 악마의 의식을 행하기 위해 숲으로 달려간다.",
+            "unit_motif": "마법사(마녀)",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 잠에 빠져 있는 C002를 깨운다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C004과 C002는 조용히 교회를 빠져나간다."
+                },
+                {
+                    "location": "몽타주",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "마을에 사는 C004 또래의 소녀들이 하나 둘 집을 빠져나온다."
+                },
+                {
+                    "location": "마을 입구",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004을 포함함 소녀들이 마을 입구로 모여든다."
+                },
+                {
+                    "location": "마을 입구",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "그들은 곧 숲속으로 달려가기 시작한다."
+                },
+                {
+                    "location": "숲속",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "긴장되다",
+                    "content": "C004을 포함한 소녀들이 악마의 의식을 행한다."
+                },
+                {
+                    "location": "숲속",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "당황하다",
+                    "content": "그런데 이런 소녀들의 의식은 곧 목사 C011에게 발각되고 만다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "화가 난 얼굴의 C011는 C002를 서재로 데려오라고 시킨다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 C002는 의식이 없는 듯 몸이 축 늘어져 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "교회를 빠져나온 C004은 의사를 찾아 나선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C011",
+                "C010",
+                "의사",
+                "마을 사람들"
+            ],
+            "stage": "Main Character",
+            "storyline": "C004을 비롯한 소녀들의 악마 의식은 목사 C011에게 발각되고 만다. 곧 어른들에게 혼날 것을 두려워한 아이들은 의식이 없는 것처럼 연기를 꾸미고 어른들은 이를 악마의 짓이라 여기게 된다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "의사 집 현관",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "C004은 의사 부인을 만나 C002가 아프다는 소식을 전한다."
+                },
+                {
+                    "location": "의사 집 현관",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "그런데 의사 부인은 뜻밖의 소식을 전한다."
+                },
+                {
+                    "location": "의사 집 현관",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "C017도 C002와 똑같은 증세를 보이고 있다는 것이다."
+                },
+                {
+                    "location": "C012 집",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C017의 상태를 살펴 본 의사는 당혹감을 느낀다."
+                },
+                {
+                    "location": "C012 집",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "열도 상처도 없는 아이가 의식이 없기 때문이다."
+                },
+                {
+                    "location": "C012 집",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "그런데 C012 부인은 이런 아이의 상태를 악마의 짓이라고 여기고 있다."
+                },
+                {
+                    "location": "C012 집 앞",
+                    "character": [
+                        "C011",
+                        "C010"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "당황하다",
+                    "content": "동료 목사는 C011의 행동을 촉구한다."
+                },
+                {
+                    "location": "C012 집 앞",
+                    "character": [
+                        "C011",
+                        "C010"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "의심스럽다",
+                    "content": "그는 이번 일을 악마의 소행으로 여기고 있다."
+                },
+                {
+                    "location": "C012 집 앞",
+                    "character": [
+                        "C011",
+                        "C010"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C011는 조금 더 신중한 입장을 취한다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "의사",
+                        "마을 사람들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C011의 교회를 빠져나오는 의사 앞으로 마을 사람들이 구름같이 모여있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "의사",
+                "마을 사람들",
+                "C004",
+                "C011",
+                "C007",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "마을에 이런저런 억측이 나도는 가운데 C011는 C004을 추궁한다. 하지만 C004은 악마의 의식이 없었다며 끝까지 발뺌을 한다. 한편 부부인 C007과 C005 사이에는 차가운 냉기가 감돈다.",
+            "unit_motif": "삼각관계",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "의사",
+                        "마을 사람들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "마을에는 벌써부터 이런저런 억측들이 나돌고 있다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "C011는 숲속에서 무슨 일이 있었냐며 C004을 추궁한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "하지만 C004은 악마의 의식은 없었다며 발뺌을 한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "한편 C004과 C007 사이에 어떤 비밀스러운 관계가 있음이 시사된다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "일을 하고 있는 C007 앞으로 C005가 나타난다."
+                },
+                {
+                    "location": "들",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "그를 찾아 C014와 C015가 왔다는 것이다."
+                },
+                {
+                    "location": "C007의 집 앞",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C014와 C015는 C007에게 C011 목사의 딸이 귀신에 홀렸다는 소식을 전한다."
+                },
+                {
+                    "location": "C007의 집 앞",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C014와 C015는 C007에게 회의를 소집했다는 소식을 전한다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 들에 꽃이 있다며 C005에게 관심을 보인다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C005는 무심하고 냉담한 반응을 보인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "마을 사람들",
+                "C004",
+                "C011",
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C011는 악마 퇴치 전문가인 C008 목사를 부르겠다고 나선다. 이에 C004은 소녀들을 모아놓고 입단속에 나선다. 한편 C004은 C007의 사랑을 갈구한다. 하지만 C007은 C004을 냉담하게 뿌리친다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "마을 입구",
+                    "character": [
+                        "마을 사람들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "마을 사람들은 C011의 교회로 향한다."
+                },
+                {
+                    "location": "교회",
+                    "character": [
+                        "C004",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C011는 마을 사람들에게 C008 목사를 소개한 뒤 악마의 흔적이 있다면 그가 찾아내고 말 거라고 장담한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "교회 예배가 진행되는 가운데 C004은 소녀들을 데리고 교회 기숙사로 달려간다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 C002와 다른 소녀들을 모아놓고 입을 맞춘다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "자신들은 춤만 춘 것이고 악마의 의식은 없었다는 것이다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "놀라다",
+                    "content": "한편 C002를 통해 C004이 C007의 아내를 죽이기 위해 닭의 피를 마셨다는 사실이 드러난다."
+                },
+                {
+                    "location": "교회",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "어디선가 C002의 소름 끼치는 비명소리가 들린다."
+                },
+                {
+                    "location": "교회",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "곧 교회 안에 있던 사람들이 밖으로 뛰쳐나간다."
+                },
+                {
+                    "location": "교회 기숙사 앞",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "창밖으로 떨어지려 몸부림치는 C002의 모습이 보인다."
+                },
+                {
+                    "location": "교회 기숙사 앞",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "C004이 이런 C002를 집 안으로 끌어들인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007",
+                "C011",
+                "C008"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C008의 추궁을 당하던 C004은 처벌을 피하기 위해 주문을 건 자로 C016를 언급한다. 곧 이런 C004의 거짓말은 또 다른 거짓말을 낳게 되고 결국 마을 사람 7명이 고발당하는 처지가 된다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002의 상태를 본 마을 사람들은 마녀의 짓이 분명하다고 판단한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "한편 C004은 유리창 너머로 C011를 보러 온 C007을 보게 된다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C007",
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007, C011 목사, 수녀, 그리고 C012은 해일 목사를 부를지 말지를 놓고 갑론을박한다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "기대되다",
+                    "content": "C004은 C007의 사랑을 갈구한다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "거부감",
+                    "content": "하지만 C007은 이런 C004을 냉담하게 뿌리친다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 C008 목사와 만나 악수를 나눈다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C008",
+                        "C011"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C008 목사는 C011를 비롯한 나머지 사람들과 인사를 나눈다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002의 상태를 살펴보던 C008 목사는 C017의 상태를 먼저 살펴보겠다고 나선다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C011와 C008 목사는 C012의 집으로 향한다."
+                },
+                {
+                    "location": "C012 집",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C011는 C008 앞에서 C004을 비롯한 소녀들이 숲에서 춤을 추었다는 사실을 고백한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C011",
+                "C008",
+                "C007",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C005는 하녀를 통해 C004이 자신을 죽이려 했다는 사실을 알게 된다.",
+            "unit_motif": "마법사(마녀)",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "C012 집",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "곧 C008은 C004을 추궁하기 시작한다."
+                },
+                {
+                    "location": "교회",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 숲에서 춤을 춘 소녀들을 모아놓고 주문을 건 자가 누구냐고 소리친다."
+                },
+                {
+                    "location": "교회",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 주문을 건 자로 자신이 지목되자 C016의 이름을 대고 만다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 C016가 악마와 손잡은 사람인 것처럼 거짓말을 늘어놓는다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C011의 매질이 시작되고 C016는 악마를 보았다는 거짓 증언을 하고 만다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C016는 악마와 함께 온 다른 사람들로 산파 C018과 오스본의 이름을 댄다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C004의 거짓 회개와 함께 소녀들의 회개가 시작된다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C011",
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "기숙사 안은 순식간에 광기에 사로잡힌다."
+                },
+                {
+                    "location": "존의 집 앞",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007과 C005의 대화를 통해 C018이 잡혀가고 여섯 명이 더 고발당했다는 사실이 드러난다."
+                },
+                {
+                    "location": "존의 집",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "긴장되다",
+                    "content": "C007과 C005의 대화 중 C004 이야기가 나오자 두 사람 사이에 갈등이 다시 붉어진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C005",
+                "C001",
+                "C004"
+            ],
+            "stage": "Another Story",
+            "storyline": "C007은 C004을 찾아가 그녀에게 경고를 보내지만 C004은 또 다른 음모를 꾸미기 시작한다.",
+            "unit_motif": "고발",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "거부감",
+                    "content": "C007은 얼음장 같은 C005에게 치를 떤다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "C007은 하녀를 호되게 나무란다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 하녀는 노인과 오스본이 교수형을 당하게 됐다는 뜻밖의 이야기를 꺼낸다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "그러면서 그녀는 C005 또한 고발되었었다는 사실을 이야기한다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 C004이 자신을 죽이려 했다는 사실을 알아챈다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "교회를 나서던 C004은 저 멀리 자신을 기다리고 있는 C007을 보게 된다."
+                },
+                {
+                    "location": "숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 C005가 자신의 가슴을 깨물었다는 거짓말을 늘어놓는다."
+                },
+                {
+                    "location": "숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "경멸하다",
+                    "content": "곧 C007 C004에게 경고를 보낸다."
+                },
+                {
+                    "location": "숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "경멸하다",
+                    "content": "C005를 저주하면 그땐 C004도 끝이라는 것이다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 누군가의 칼에 맞은 것처럼 연기를 꾸민다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C013",
+                "C003",
+                "C011",
+                "C004",
+                "C001",
+                "중년 여인",
+                "C007",
+                "C005"
+            ],
+            "stage": "Another Story",
+            "storyline": "마을에 C013 판사가 나타나고 마을 사람들끼리의 고발이 줄을 잇는다.",
+            "unit_motif": "고발",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "의심스럽다",
+                    "content": "판사 중 한 사람이 이번 사건에 이의를 제기한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C013 판사는 이런 동료의 의견을 묵살한다."
+                },
+                {
+                    "location": "거리",
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "판사들을 태운 마차가 C011의 교회로 향한다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C013과 시월 판사는 C011와 악수를 나눈다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "판사들은 행정 위원들과 C010 C012 그리고 문제의 아이들과 인사를 나눈다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C013 판사는 악마를 발붙이지 못하게 하겠다고 호언장담한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "최소한 악마의 뿌리를 뽑겠다는 것이다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "재판장이 나온 오스본은 악마를 불러낸 장본인으로 C004을 지적한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C004은 몸이 아픈 것처럼 연기를 꾸며 낸다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "법정에 갔던 C007의 하녀가 집으로 돌아온다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "중년 여인"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "마을에 사는 어느 중년 여인이 마당에 염소가 들어왔다는 이유로 난동을 피운다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "중년 여인"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "그녀는 자신을 바라보는 사람들을 향해 저주를 퍼붓는다."
+                },
+                {
+                    "location": "마당",
+                    "character": [
+                        "중년 여인"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 여자는 곧 마법을 행했다는 혐의로 체포된다."
+                },
+                {
+                    "location": "C007의 집 헛간",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 C005를 보고도 못 본체 한다."
+                },
+                {
+                    "location": "교회 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "교회로 향하는 C004 앞으로 마을 사람들이 구름떼같이 모여 있다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "중년 여인"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "마법을 행했다는 혐의로 체포된 여자는 마을 사람들이 자신에게 분풀이를 하는 거라며 억울함을 주장한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C010",
+                "C006",
+                "C005",
+                "C008"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C005는 C004의 음모에 휘말려 경찰에 붙잡혀 간다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "나무를 싣고 가던 수레에서 나무토막들이 갑자기 떨어져 버린다."
+                },
+                {
+                    "location": "거리",
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 이 자리에 있던 여자와 아이는 곧 마녀로 지목된다."
+                },
+                {
+                    "location": "들판",
+                    "character": [
+                        "C007",
+                        "C010"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "긴장되다",
+                    "content": "C010 목사는 C007의 땅이 자신의 소유라는 터무니없는 주장을 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "마을에 사는 노인이 젊은 남자에게 인사를 건넨다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 이때 마당 장작불이 거칠게 피어오른다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "노인에 대한 재판이 벌어진다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 증인으로 나온 소녀는 노인이 창문으로 들어와 자신 위에 누웠다는 진술을 한다."
+                },
+                {
+                    "location": "존의 집 마당",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "목사 C008은 C005의 이름이 법정에서 언급됐다는 소식을 전하며 C007의 집이 기독교 집안으로 적합한지를 알아보겠다고 나선다."
+                },
+                {
+                    "location": "존의 집",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 C007의 신앙심을 시험해 본 뒤 집을 떠난다."
+                },
+                {
+                    "location": "존의 집 마당",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 목사 C008에게 애들이 아픈 건 마법과는 상관이 없는 일이라는 사실을 밝힌다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C005",
+                "C008",
+                "C001"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C007은 C001을 대동하고 판사들을 찾아간다. 곧 C007의 이야기에 두려움을 느낀 재판관들은 C007에게 회유책을 제시한다.",
+            "unit_motif": "전우 구출",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "C007의 집 마당",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "숲속에서 논 일을 들킨 아이들이 혼날까 봐 아픈 척을 하고 있다는 것이다."
+                },
+                {
+                    "location": "C007의 집 마당",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 이때 치버가 C005에 대한 영장을 가지고 나타난다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "치버는 C005의 인형 안에서 꽂혀 있는 바늘을 찾아낸다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "화나다",
+                    "content": "곧 C007은 의식에서 일어나는 일은 원한 때문이라며 불같이 화를 낸다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "안타깝다",
+                    "content": "그는 애들의 농간에 놀아나 원한이 법이 되었다며 한탄한다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "자신감 있다",
+                    "content": "하지만 스스로에게 당당한 C005는 치버를 따라나서기로 마음을 정한다."
+                },
+                {
+                    "location": "C007의 집 마당",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 호송차에 오른다."
+                },
+                {
+                    "location": "C007의 집 마당",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "한편 C007은 하녀에게 진실을 증언하라고 다그친다."
+                },
+                {
+                    "location": "C007의 집 마당",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "하지만 하녀는 C004이 자신을 지목할까 봐 두려워한다."
+                },
+                {
+                    "location": "법정 앞",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "억수같이 비가 쏟아지는 가운데 C007과 매리는 법정으로 달려간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C001",
+                "C009",
+                "판사들",
+                "C012",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C007이 C004과의 간통 사실을 시인하면서 C004에게 최대의 위기가 온다. 하지만 남편의 명예를 지키고자 한 C005가 C007의 간통을 부정하면서 상황은 역전된다.",
+            "unit_motif": "명예손상",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C007",
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C007의 친구는 마녀사냥에 결정적인 증거로 C007의 땅 300 에이커와 C019의 땅 500 에이커를 언급한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C007",
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "이에 당황한 판사들은 휴정을 선언한다."
+                },
+                {
+                    "location": "법정 앞",
+                    "character": [
+                        "판사들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "판사들이 교회 기숙사로 향한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 C001으로 하여금 영혼을 본 적이 없다는 진술을 하게 만든다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "무섭다",
+                    "content": "재판관들은 C007의 이야기에 두려움을 느낀다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 이 일에서 손을 떼는 조건으로 임신한 C005를 위해 1년간의 유예 기간을 주겠다고 나선다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "한편 C007의 친구는 C012이 C007의 땅을 차지하려 음모를 꾸몄다는 이유로 그를 고소한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C009",
+                        "C012"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C007의 친구 C009와 C012의 재판이 시작된다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "혼자 남은 C001 앞으로 C004과 한 무리의 소녀들이 나타난다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C001은 C004을 피해 달아난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C011",
+                "마을 사람들",
+                "C009",
+                "C004",
+                "C008"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "마을 사람들이 차례로 교수대에 매달린다. 그런데 C008 목사는 C004을 의심하기 시작한다. 곧 C004은 C008을 없애기 위한 음모를 꾸미기 시작한다.",
+            "unit_motif": "대학살",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "교회 기숙사 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 재판장 안으로 달아난다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C011는 C007과 나머지 수십 명의 마을 사람들에게 사형을 언도한다."
+                },
+                {
+                    "location": "사형장",
+                    "character": [
+                        "마을 사람들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "마을 사람들이 차례로 교수대에 매달린다."
+                },
+                {
+                    "location": "사형장",
+                    "character": [
+                        "마을 사람들"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "사람들은 마을 사람들이 사형당하는 모습을 보고 환호성을 지른다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C007의 친구 C009는 고문으로 죽음을 당한다."
+                },
+                {
+                    "location": "사형장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "긴장되다",
+                    "content": "사형식이 끝난다."
+                },
+                {
+                    "location": "사형장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "긴장되다",
+                    "content": "C004과 마을 사람들은 우두커니 죽은 사람들을 바라보고 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C004이 교회로 향한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004",
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "목사 C008이 이런 그녀를 의미심장한 눈으로 바라본다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 판사를 만나 C008의 부인이 밤마다 그녀의 눈을 찢는다고 증언한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C013",
+                "C003",
+                "C007",
+                "C001",
+                "C005"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C004은 C011의 돈을 훔친 뒤 C007과 함께 달아날 것을 기도한다. 하지만 C007이 이런 C004의 뜻을 거부한다. C004은 할 수 없이 혼자서 달아나 버린다.",
+            "unit_motif": "배반자",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "교회 기숙사 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 거리를 가로질러 교회 안으로 들어간다."
+                },
+                {
+                    "location": "교회 기숙사 앞",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "그런데 마을 사람들은 C004 곁에 가기를 꺼려 한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "판사 중 한 사람이 C013 판사에게 이제 그만 마녀재판을 끝내자고 제안한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C013",
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C013은 재판을 끝낼 생각이 없어 보인다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 무고 죄로 체포된다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C001이 증언이 시작되고 C004은 다시 C001이 악마인 것처럼 연기를 꾸며내기 시작한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 C004과 관계한 사실을 실토한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 C005에게 원한을 품은 C004이 모든 일을 꾸몄다는 사실을 털어놓는다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "판사는 진실을 가리기 위해 C011에게 C005를 데려오라고 명령한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005를 태운 호송차가 재판장으로 향한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C007",
+                "C005",
+                "C001"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C007은 거짓 자백을 거부하고 사형에 처해진다.",
+            "unit_motif": "순교자",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 남편의 명예를 지키기 위해 그가 간통했다는 사실을 부정한다."
+                },
+                {
+                    "location": "재판장",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C004은 다시 악마가 돌아온 것처럼 연기를 꾸며낸다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 아이들을 데리고 바다로 향한다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C007을 향해 악마의 종이라고 소리친다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "그러면서 그녀는 전에 자신이 한 모든 진술을 부정해 버린다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004",
+                        "C007",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "긴장되다",
+                    "content": "곧 C007은 악마의 화신이 되어 버린다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 C011가 집을 비운 사이 돈을 훔친다."
+                },
+                {
+                    "location": "교도소",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 C007에게 함께 탈출할 것을 제안한다."
+                },
+                {
+                    "location": "교도소",
+                    "character": [
+                        "C004",
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C007은 이런 C004의 제안을 단칼에 거절한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 어디론가 달아나기 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C011",
+                "재판장",
+                "C005",
+                "교도관",
+                "C007"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "19명이 처형된 후 마녀사냥이 끝났고 더 많은 사람들이 목숨을 구하기 위한 거짓 자백을 거부했다.",
+            "unit_motif": "저주받은 장소",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C011",
+                        "재판장"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C011는 재판장에게 C011가 자신의 모든 재산을 달아났다는 소식을 전한다."
+                },
+                {
+                    "location": "교회 기숙사",
+                    "character": [
+                        "C011",
+                        "재판장"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "그러면서 그는 C007을 비롯한 마을에서 존경받는 사람들의 교수형을 멈춰야 한다고 주장한다."
+                },
+                {
+                    "location": "교도소",
+                    "character": [
+                        "C005",
+                        "교도관"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "교도소 관리자는 C005를 밖으로 데리고 나간다."
+                },
+                {
+                    "location": "교도소 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C008은 C005의 도움을 구한다."
+                },
+                {
+                    "location": "교도소 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "C005가 C007을 설득해 그의 사형을 면할 수 있게 만들자는 것이다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 살기 위해 자백을 선택한다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "C007은 자백서에 사인하지만 결국 종이를 찢어버린다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C007",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "그는 곧 사형대로 향하는 호송차로 실려가게 된다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 탄 호송차가 사형대로 향한다."
+                },
+                {
+                    "location": "사형장",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "긴장되다",
+                    "content": "C007의 사형이 집행된다."
+                }
+            ]
+        }
+    ]
+}

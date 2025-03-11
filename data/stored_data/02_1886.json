@@ -1,0 +1,2735 @@
+{
+    "title": "착하게 살 걸 그랬지 7",
+    "genre": [
+        "SF",
+        "미스터리",
+        "판타지"
+    ],
+    "theme": "모험",
+    "concept": "C005은 C010을 만든다.",
+    "motif": "갑작스런 사고",
+    "conflict": "C005은 C004에 대한 감정을 억누르기 위해 C010을 만들어 모두를 위험에 빠뜨린다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "숀",
+        "C008",
+        "C009",
+        "C010"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C010",
+                "C005",
+                "C006"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C005은 C010과 같이 살겠다고 선언한다.",
+            "unit_motif": "동거",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C010이 소리를 지르며 사라진다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "처음 만든 인간이라 좀 모자라요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C006은 벌떡 일어난다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "인간을 만들고 그러는 건 허용이 안돼요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 실연의 아픔은 새 남자친구로 잊으랬는데 적당한 사람이 없어서 만든 거예요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004 대신으로 그럭저럭 괜찮아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C010이 나타난다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C010은 C004의 이름을 끝도 없이 반복해서 부른다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이제 당신이 내 남자니까, 질투하지 않아도 돼. 이제부터 내 옆에 꼭 붙어 있어."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "그건 안돼요. C008한테 들키면 다 같이 망하는 거예요. 안 보이는 곳으로 치워요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럴 수 없어요. 우리 같이 살기로 했거든요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C010은 기뻐하며 두 손을 번쩍 든다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003",
+                "C006"
+            ],
+            "stage": "Main Character",
+            "storyline": "C006은 C003와 C004을 여행지로 보내버린다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C004과 C003는 소파에서 TV를 보고 있다."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C006이 거실로 들어온다."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C004과 C003가 깜짝 놀란다."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "무서운 영화를 보고 있어서 깜짝 놀랐네요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "초조하다",
+                    "content": "당신들이 답답할 것 같아서, 선물로 여행을 보내주려고요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "기쁘다",
+                    "content": "그건 그래요. 피부도 칙칙해졌어요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "그럴 줄 알고 햇살 좋은 장소로 준비해 놨어요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "준다",
+                    "emotion": "초조하다",
+                    "content": "C006은 여행 가방을 건네준다."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "C008의 의심은 내가 알아서 처리할 테니까 걱정 말고 즐겨요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "C005은 수리 중이니까 C005에게 도움을 요청하지 말고요."
+                },
+                {
+                    "location": "C003의 집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "시키다",
+                    "emotion": "초조하다",
+                    "content": "C006은 C004과 C003를 서둘러 내보낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C006"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001는 C002와 사랑을 속삭이던 비디오를 몰래 시청한다.",
+            "unit_motif": "감정 자각",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 비디오로 천계 이전 버전에서 자신이 C002와 사랑을 속삭이던 장면을 본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002가 C001의 집으로 들어온다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C001는 서둘러 TV를 끈다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "요즘 매번 같은 영화를 보나 봐?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "재미있더라고. 이건 내 비디오니까 손대지 마."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "아직도 이기적인 생각만 하다니, 윤리 수업이나 할까?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C002는 C001를 의심하는 눈초리로 바라본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006이 C001의 집으로 뛰어 들어온다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "윤리를 가르치는 사람들은 살인을 어떻게 생각하죠?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "못마땅해 하죠."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "만약 내가 살기 위해 살인을 한다면 괜찮은가요?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C005",
+                "C010"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C006은 C005이 인간을 만들었다는 사실을 C001와 C002에게 알린다.",
+            "unit_motif": "만남",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C001는 C006을 의심스럽게 쳐다본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "왜 이런 걸 물어요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C006은 설명하려다가 C005을 부른다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C005과 C010이 나타난다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "이 사람은 누구예요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 만든 인간 남자친구예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "내가 조언했던 걸 실행했군요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "심란하다",
+                    "content": "C001는 심란한 표정을 짓는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "즐겁다",
+                    "content": "우울해 보이는데, 당신도 취향에 맞는 남자친구를 만들어 줄까요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "안 그래도 돼요. 이제 그만 가도 되겠어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C010이 우스꽝스럽게 인사를 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "조금 멍청하니까 이해해줘요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C005과 C010이 사라진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C004과 C003는 스포츠 경기를 즐긴다.",
+            "unit_motif": "데이트",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C003는 C004에게 스포츠 규칙에 대해 설명한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "절제하고 힘을 조절해가며 쳐야 해."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C004은 막대로 공을 친다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "너무 약하게 쳤네."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 다른 스포츠 알려줄게."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C004은 공을 유리잔 위에 놓는다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "단순하게 보내고 싶은 곳으로 공만 힘껏 치면 돼."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C004과 C003는 있는 힘껏 공을 쳐서 멀리 보낸다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "행복하다",
+                    "content": "당신 참 잘하네."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "행복하다",
+                    "content": "C003는 술잔으로 탑을 쌓고 술을 따른다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "부수다",
+                    "emotion": "행복하다",
+                    "content": "C004은 술잔으로 만든 탑을 공으로 쳐서 부순다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "행복하다",
+                    "content": "C004과 C003는 손바닥을 마주친다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "행복하다",
+                    "content": "잘했어."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C006은 C010을 어떻게 처리할지에 대해 논의한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "심란하다",
+                    "content": "C006은 C010의 존재에 대하여 C002, C001와 논의를 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "나는 C010을 죽여야 한다고 봐요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "심란하다",
+                    "content": "C002는 C006을 바라보며 고개를 흔든다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C008 앞에 C005과 C010이 함께 나타나 봐요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "상상하기도 싫어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래도 C005이 C010과 함께한 이후로 천계에 이상한 일이 더 이상 안 생겼어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "당신 말대로 했다가 C005에게 오류가 발생하면 그것도 문제예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그렇다면 C004과 C003를 헤어지게 합시다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C004이 혼자가 되면, C005은 C010이 필요 없잖아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "만족하다",
+                    "content": "C001는 C006과 손바닥을 마주친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C006",
+                "C001"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002는 윤리적인 방법으로 C010의 문제를 해결해야 한다고 조언한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 고개를 젓는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그 방법은 윤리적이지 않아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "짜증나다",
+                    "content": "잘난 사람 나타나셨네요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C004과 C003는 행복한 순간들을 보내는 중이잖아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "천계 이전 버전에서 C005과 C004이 결혼했다는 비밀이 밝혀지면 충격받을 거예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C001는 C002와 자신의 영상이 담긴 비디오를 바라본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그럼 비밀로 유지하는 건 윤리적으로 괜찮은 거야?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "타인에게 피해를 주지 않는다면 비밀은 가져도 되지."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001는 C002의 대답을 듣고 웃는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C002는 C001를 의심스럽게 바라본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "당신 말도 일리가 있지만, C010의 존재가 발각되면 우리는 그대로 마계에 가게 돼요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "우리가 나쁜 행동을 해도 결과는 동일해요. 이건 옳지 않아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "짜증나다",
+                    "content": "당신 참 짜증 나는 사람이에요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004과 C003는 즐거운 데이터를 한다.",
+            "unit_motif": "데이트",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "행복하다",
+                    "content": "C004과 C003는 피크닉을 즐기고 있다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "행복하다",
+                    "content": "C003는 화환을 만들어 C004에게 씌워준다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이런 것도 만들 줄 알아?"
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "대학교 다닐 때 배웠지."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "당신은 학교는 어땠어?"
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "고등학교를 다녔는데 주변 환경이 열악했어. 수업 시간도 엉망이고 좋은 학교는 아니었어."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "당신 인생은 알면 알수록 나와 어울리지는 않지만 부러워."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "서럽다",
+                    "content": "C003는 자신의 외로웠던 과거를 생각한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "서럽다",
+                    "content": "나는 속마음을 터놓을 친구가 하나도 없었거든."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럼 내가 그런 존재가 되어 줄게."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "행복하다",
+                    "content": "C003는 C004의 말에 행복해한다."
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "아니, 내가 남편이 되어 줄게. 나랑 결혼해줄래?"
+                },
+                {
+                    "location": "운동장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "반하다",
+                    "content": "C003는 C004을 빤히 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C005",
+                "C010"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006과 C001는 상황을 수습하려고 한다. C005과 C010은 크게 다툰다.",
+            "unit_motif": "말싸움/의견충돌",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "복잡하게 생각할 것 없어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C010을 악마들에게 들키지 않도록 C005에게 주의를 주자고요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럽시다. C005이 행복하고, 둘의 연애가 C005에게 들키지만 않으면 우린 괜찮을 거예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006은 C005을 부른다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C005과 C010이 나타난다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C005과 C010은 소리를 지르며 말다툼한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "짜증나다",
+                    "content": "당신은 항상 나를 무시해."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "궁금하다",
+                    "content": "당신은 항상 뭐가 그리 불만이야?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "당황하다",
+                    "content": "C006이 싸움을 말린다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "단호하다",
+                    "content": "내 친구들 앞에서는 싸우지 말자."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "화나다",
+                    "content": "당신 친구지, 내 친구는 아니야. 나는 원래대로 돌아갈 거야."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "화나다",
+                    "content": "그래 좋아. 원래 없던 것처럼 돌아가버려."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "당황하다",
+                    "content": "제발 가면 안 돼요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C005과 C010은 사라진다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "우리 망한 거죠?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C003는 C004의 청혼을 받아들인다.",
+            "unit_motif": "프러포즈",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C004은 정원을 산책하고 있다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "당신과 내가 한동안 가깝게 지내긴 했지만, 당신이 내 결혼 상대는 아니야."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "설레다",
+                    "content": "C004은 C003를 마주 보고 진심 어린 눈빛으로 고백한다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "설레다",
+                    "content": "그래도 서로에게 좋은 감정을 가지고 있잖아. 내가 최선을 다해볼게."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "행복하다",
+                    "content": "C003는 C004의 진심을 느끼고 웃는다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "알았어. 대신 우리 결혼식 파티를 준비해야 하니까 시간을 좀 줘."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "기대되다",
+                    "content": "그러지 말고 로맨틱하게 오늘 바닷가에서 결혼식을 하자."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "감동하다",
+                    "content": "C003는 감동해서 C004의 손을 잡는다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C003는 C005을 부른다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "속상하다",
+                    "content": "C005이 울 것 같은 얼굴로 나타난다."
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "얼굴이 왜 그래요? 괜찮아요?"
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "울다",
+                    "emotion": "속상하다",
+                    "content": "그럼요. 모든 게 좋아요. 어떤 도움이 필요하죠?"
+                },
+                {
+                    "location": "휴양지 정원",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C003는 C005을 의심스럽게 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C010",
+                "C006",
+                "C001",
+                "C002",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C010은 반항의 표시로 나무 위에 올라가서 시위를 한다.",
+            "unit_motif": "기싸움",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "답답하다",
+                    "content": "C010이 나무 위에서 나뭇가지와 대화를 하고 있다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006, C002, C001가 C010에게로 달려간다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "어서 내려와요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "여기가 내가 있을 곳이에요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "난 내 집에 머무를 거고, C005은 여기에 못 오게 할 거예요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C006, C001, C002는 주변을 살핀다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "제발 조용히 좀 해요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "속상하다",
+                    "content": "C005이 갑자기 나타난다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "C010이 반가워한다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "속상하다",
+                    "content": "나한테 말 시키지 마."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "속상하다",
+                    "content": "C005은 C006, C002, C001에게로 돌아선다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C001",
+                "C002",
+                "C006",
+                "C010"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C005은 울먹이며 C003와 C004의 청첩장을 전달한다.",
+            "unit_motif": "현실 도피 욕구",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "C004과 C003가 오늘 결혼식을 하겠답니다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "C005은 청첩장을 준다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C001, C002는 청첩장을 심각하게 펼쳐본다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "심란하다",
+                    "content": "C006은 청첩장을 읽는다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "소규모 결혼식이 있을 예정이니, 와서 파티를 즐겨요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C010이 C005에게 말을 건다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "나한테 이렇게까지 성질내지 않았잖아."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "화나다",
+                    "content": "C005은 C010을 노려본다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "말 시키지 마."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "화나다",
+                    "content": "싫어."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C005은 화가 나서 사라진다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "도망치지 말란 말이야."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C010도 화가 나서 사라진다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C006"
+                    ],
+                    "emotion": "초조하다",
+                    "content": "C006, C001, C002는 펄쩍펄쩍 뛰며 말린다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "짜증 나."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C002는 C006에게 윤리에서 벗어나지 않으면서 C010을 없애는 방법을 조언한다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C006은 C002를 돌아본다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "당신이 말한 윤리는 이해하지만 결혼식은 못하게 해야 해요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "둘이 결혼을 못 하게 되면, C005은 더 이상 슬프지 않을 거예요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "그러면 C005은 C010을 사라지게 하겠죠."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 또다시 윤리적인 발언을 시작하려고 한다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "지겹다",
+                    "content": "C006과 C001는 C002의 반응을 예상하고 짜증을 낸다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "윤리에서 벗어나지 않기 위해, C010을 살인할 의도가 없어야 해요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "과거에 C005과 결혼했었다는 사실을 C004에게 밝히겠다는 의도만 있어야 하죠."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "결혼 후에 둘이 진실을 알게 되면 힘들어지니까요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "만족하다",
+                    "content": "알겠어요. C010을 살인하려는 생각을 없애고 죽일 수 있도록 해볼게요."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "만족하다",
+                    "content": "C006은 C002에게 윙크를 한다."
+                },
+                {
+                    "location": "가게 앞 나무",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "C006과 C001는 계획을 실현하기 위해 이동한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003",
+                "C005",
+                "C006",
+                "C001",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C004과 C003는 C005의 주례로 결혼식을 한다.",
+            "unit_motif": "결혼",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004",
+                        "C003"
+                    ],
+                    "emotion": "행복하다",
+                    "content": "C004과 C003는 바닷가에서 결혼식을 하고 있다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "읽다",
+                    "emotion": "행복하다",
+                    "content": "C004은 결혼 선서를 읽는다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "읽다",
+                    "emotion": "행복하다",
+                    "content": "당신은 똑똑하고 예쁘고 섹시한 내 선생님이야. 사랑해."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003도 결혼 선서를 말한다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "위대한 내가 수준이 떨어지는 당신과 결혼을 하다니 상상도 안 해봤어."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "주례를 서고 있는 C005의 표정이 굳어진다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "행복하다",
+                    "content": "하지만 당신과 있으면 편안하고, 다른 세상도 있다는 걸 알게 되었어."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "행복하다",
+                    "content": "나도 당신을 사랑해."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C006, C001, C002가 소리를 치며 달려온다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "초조하다",
+                    "content": "결혼식을 멈춰요. 결혼을 하면 안 돼요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C006",
+                "C001",
+                "C005",
+                "C010",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 천계가 재시작 되기 전에 C005과 C004이 결혼했었다고 말해준다.",
+            "unit_motif": "비밀의 공유",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "궁금하다",
+                    "content": "C004은 C003의 어깨를 감싼다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "우리 결혼이 왜 안된다는 거죠?"
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 이유를 말하려다가 돌아선다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C002가 말한 윤리적으로 지켜야 할 사항들이 떠올라서 말을 못 하겠어요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C001가 C004과 C003 앞에 나선다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "안 좋은 소식이 있어. 재시작 되기 전에 C004과 C005이 부부였대."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C001는 C005을 가리킨다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C005은 난감한 표정을 짓는다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그것 때문에 C005이 C004에게 감정을 느끼고, C005에게 오류가 발생하는 거래."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C010을 부른다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "C010이 나타난다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C005이 C004 대용으로 C010을 만들었어."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "혼란스럽다",
+                    "content": "어지러워요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C010",
+                "C006",
+                "C001",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C006, C001, C002는 C005과 C010을 어떻게 처리할지에 대한 방안을 논의한다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C005과 C010은 각자의 재시작 버튼 앞에 서있다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C006, C001, C002는 모여서 방안을 논의한다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "어떻게 할지 결정합시다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "우리 모두를 재시작 하는 방법은 고려해 봤어요?"
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C004의 관계도, 나와 C002도 모두 리셋되는 거죠."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무안하다",
+                    "content": "C001는 자신과 C002가 잠자리를 함께 했던 기억을 떠올린다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "재시작 후에 C006이 우리에게 필요한 기억만 설명해 줘요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "단호하다",
+                    "content": "그러기엔 너무 늦었어요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C006은 C005과 C010을 번갈아 쳐다본다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "지금 시점에서는 C005이나 C010을 재시작하는 게 맞아요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그건 윤리적으로 어긋나는 방법이에요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "망하게 생겼는데 그런 걸 어떻게 따져요?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C010",
+                "C005",
+                "C001"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001는 혼란스러워하는 C005을 설득한다.",
+            "unit_motif": "친구가 됨",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "나보다 C004의 어떤 부분이 좋다는 거야?"
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "영혼이 있잖아."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "괴롭다",
+                    "content": "나는 모든 정보를 가진 정보시스템인데, 사실은 나도 뭐가 뭔지 혼란스러워."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C005에게 다가간다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "나는 당신과 C004이 그냥 가볍게 만나는 키스나 하는 사이인 줄 알았어요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "내 충고가 잘못된 것 같아요. 진짜 연인과 헤어지게 되면 시간밖에 약이 없어요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "감정을 받아들이고 얘기하면서 풀어야 해요. 힘들면 나와 얘기해요."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010",
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C005과 C010은 마주 선다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "이제 당신이 필요 없어졌어. 떠날 시간이야."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C010은 C005을 보고 웃는다."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "행복하다",
+                    "content": "너를 이해할 수 있어. 몇 시간 안 살았지만 당신과 함께여서 행복했어."
+                },
+                {
+                    "location": "바닷가",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "행복하다",
+                    "content": "C005은 C010과 입맞춤을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C010",
+                "C001"
+            ],
+            "stage": "Defeat",
+            "storyline": "C005은 C010을 떠나보낸다.",
+            "unit_motif": "이별",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C005은 C010을 관에 눕힌다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C010은 손을 흔든다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "모두들 잘 있어요. 나는 이제 떠납니다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "닫다",
+                    "emotion": "즐겁다",
+                    "content": "C005은 관 뚜껑을 닫는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "아직 살아있는 데 괜찮아요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "저게 최대한 사망에 가까운 상태예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "혼란스러움은 좀 괜찮아졌어요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "좋아요. 상황이 정리되고 있고, 힘들면 상담할 친구도 있잖아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C005은 C001와 눈을 마주친다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "그럼 나는 C010을 원래 있던 곳에 버리고 올게요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C005과 C010은 사라진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C003와 C004은 서로에 대해 알아가기로 한다.",
+            "unit_motif": "사랑 고백",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C003와 C004은 침대에 나란히 앉아있다."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "결혼식을 끝까지 못하게 되어 다행이야."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "서로를 잘 모르면서 결혼부터 하려고 했나 봐."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "첫 키스는 누구랑 했어?"
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "어린이 식당에 있던 장난감 인형이었는데 말이야."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "즐겁다",
+                    "content": "C003는 C004의 팔을 두드린다."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "오늘은 여기까지만 아는 걸로 할게."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "나는 C005과 결혼한 기억이 하나도 없어. 그래도 이런 상황에 처하게 해서 미안해."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "사랑스럽다",
+                    "content": "C004은 C003의 눈을 보고 고백한다."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "사랑스럽다",
+                    "content": "나는 너를 좋아해."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "사랑스럽다",
+                    "content": "나도 그래."
+                },
+                {
+                    "location": "C003의 집 침실",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "emotion": "사랑스럽다",
+                    "content": "C004과 C003는 함께 자리에 눕는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001는 C002에게 사랑을 속삭이던 비디오를 공개한다.",
+            "unit_motif": "비밀의 공유",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C001는 안절부절못하고 방안을 돌아다닌다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "아직 문제가 더 남아 있어?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "있긴 한데, 굳이 말할 필요가 있나 싶어."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C001가 말을 빙빙 돌린다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "답답하니까 어서 말해 봐."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C002에게 천계 이전 버전에서 찍혀있던 비디오를 보여준다."
+                },
+                {
+                    "location": "TV",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "편안하다",
+                    "content": "비디오에서 C001와 C002가 침대에 누워있다."
+                },
+                {
+                    "location": "TV",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "말하기 어렵다면 대답을 강요하지는 않을게."
+                },
+                {
+                    "location": "TV",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "사랑스럽다",
+                    "content": "나도 당신을 사랑해."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "당황하다",
+                    "content": "C002는 비디오 장면을 정지시킨다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001와 C002는 자신들이 사랑을 속삭였다는 사실에 혼란스러운 감정을 가진다.",
+            "unit_motif": "감정 자각",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "content": "비디오는 C001와 C002가 침대에 누워있는 장면에서 멈춰있다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "나는 결정하는 게 제일 어려운 사람이야."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "그런 내가 사랑한다는 말을 저렇게 단호하게 했다니 믿을 수가 없어."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "내가 매력 있으니까 가능했겠지. 나는 내가 저렇게 말했다는 게 이해가 안 되는데?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "말 나온 김에 솔직히 말해봐."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 자세를 고쳐 C001를 바라본다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "지금도 나에게 같은 감정이 있어?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "미안하지만 그렇지 않아."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무안하다",
+                    "content": "C001는 무안하고 실망스러워한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "나도 똑같아. 다행이야."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C002는 자신의 정리되지 않는 감정을 설명하려고 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "무안하다",
+                    "content": "C001는 C002의 말을 막는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C001"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C006은 C001가 좋은 사람이 되어가는 과정을 궁금해한다.",
+            "unit_motif": "친구가 됨",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C006이 C001의 집으로 들어온다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C006은 주방으로 이동한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001와 C006은 테이블에 마주 보고 앉는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 일 있어요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "윤리적으로 사는 게 언제쯤 익숙해져요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "윤리 전문가 C002한테 물어보지 그래요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "궁금하다",
+                    "content": "사실 천계 설계자로서 나는 당신이 가장 먼저 포기할 줄 알았어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 왜 어려울수록 더 나은 사람이 되는 거죠?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "글쎄요. 전생에 나쁜 짓을 할 때마다 일말의 거리낌이 있었어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "지금은 윤리를 지키려니 짜증은 나지만, 거리낌을 느끼지 않게 되어서 좋아요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "만족하다",
+                    "content": "C006은 고개를 끄덕인다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "많은 도움이 되었어요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "만족하다",
+                    "content": "C006이 일어서서 가려고 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "담소를 나누려고 우리 집에 들르다니, 당신 지금 되게 인간 같은 느낌이에요."
+                }
+            ]
+        }
+    ]
+}

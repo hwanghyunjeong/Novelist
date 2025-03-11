@@ -1,0 +1,2723 @@
+{
+    "title": "비밀과 거짓말",
+    "genre": [
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "C003은 자신의 딸을 인질로 살인 청부 협박을 받는다. 그 살인 청부의 타깃이 C004인 것을 알고 C003은 이 범행의 큰 배후 세력이 뒤에 있는 걸 알고 이사실을 C004에게 알리려 하지만 C004 남편까지 청부에 한패인 것을 알게 된다. 구두 닦기의 도움으로 C004를 만나 사실을 알리고 딸과 C004를 구한다.",
+    "motif": "납치",
+    "conflict": "C003은 갑자기 딸과 납치되어 딸을 인질로 살인 청부 협박을 받는다. 살인청부의 타깃은 C004 인 것을 안 C003은 C004에게 이 모든 사건의 전말을 알리려 하지만 C004의 남편까지 이 청부살인에 한패인 것을 알게 된다. 구두 닦기의 도움으로 C003은 C004를 만나고 C003은 딸을 구하고 청부 살인도 막는다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C003",
+                "딸"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C003은 딸과 기차를 타고 간다.",
+            "unit_motif": "귀향",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "기차",
+                    "act": "간다/이동한다",
+                    "content": "기차가 역으로 들어온다."
+                },
+                {
+                    "location": "기차 안",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "듣다",
+                    "emotion": "기대되다",
+                    "content": "역에서는 C003이 탄 열차가 도착했다고 소리가 들린다."
+                },
+                {
+                    "location": "기차 안",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "담담하다",
+                    "content": "로스앤젤레스 역에 도착하자 신문을 보던 신문을 접는다."
+                },
+                {
+                    "location": "기차 안",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "애틋하다",
+                    "content": "C003이 창밖을 바라보는 딸에게 뽀뽀를 한다."
+                },
+                {
+                    "location": "기차 안",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "딸은 밖의 도시의 풍경에 신이 나서 좋아한다."
+                },
+                {
+                    "location": "기차 안",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "담담하다",
+                    "content": "C003은 짐을 들고 딸과 손을 잡고 로스앤젤레스의 추억을 이야기하며 내릴 준비를 한다."
+                },
+                {
+                    "location": "기차",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "기차는 역에 멈춘다."
+                },
+                {
+                    "location": "승강장",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C003과 딸을 사람들과 함께 개찰구 쪽으로 지나간다."
+                },
+                {
+                    "location": "승강장",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "듣다",
+                    "emotion": "기대되다",
+                    "content": "딸이 음악을 듣고 싶어 한다."
+                },
+                {
+                    "location": "승강장",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "듣다",
+                    "emotion": "애틋하다",
+                    "content": "C003은 가던 길을 멈추고 딸에게 헤드폰으로 음악을 들려준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "딸"
+            ],
+            "stage": "Main Character",
+            "storyline": "경찰 C002와 여자가 C003과 딸에게 오더니 같이 가자고 한다.",
+            "unit_motif": "인질",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "기대되다",
+                    "content": "역 안에는 사람들로 붐비고 있다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "자신감 있다",
+                    "content": "C002와 여자는 이층 난간에서 사람들을 바라보며 타깃을 물색 중이다."
+                },
+                {
+                    "location": "기차",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "애틋하다",
+                    "content": "C003이 애틋하게 딸을 챙기는 모습을 C002가 바라본다."
+                },
+                {
+                    "location": "이층난간",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "자신감 있다",
+                    "content": "C002와 여자가 사람들을 보더니 키스하는 남녀에게 다가간다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "유쾌하다",
+                    "content": "키스하는 남녀를 C003의 딸이 보고 웃는다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "난감하다",
+                    "content": "C002와 여자가 남녀에게 오더니 외국인이라 발길을 돌린다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "기대되다",
+                    "content": "이때 C002와 여자는 전화하는 C003과 딸을 본다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 여자에게 C003을 타깃으로 정하고 명령한다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "여자는 C003의 딸에게 말을 건다."
+                },
+                {
+                    "location": "역 안",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 C003에게 경찰이라고 소개하고는 같이 가자고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "딸",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002는 딸을 인질로 삼고 C003에게 살인 청부를 명령하고 살인 청부에 성공해야 딸을 살릴 수 있다고 한다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "C002와 여자는 C003과 딸을 봉고에 태운다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 총을 꺼내 위협하더니 누굴 죽이라 명령한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C003은 미쳤냐고 말한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "딸을 살리고 싶으면 명령에 따르라고 한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "난감하다",
+                    "content": "C003은 딸을 보고는 C002가 주는 총을 받아 든다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "주눅들다",
+                    "content": "C002는 C003과 차에서 내린다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "비장하다",
+                    "content": "C003에게 현금과 총알을 주는 C002는 허튼수작을 하면 딸은 죽는다고 말한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 C003에게 서두르라고 재촉한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "여자는 C003의 딸에게 아빠는 경찰을 도와주는 거라고 거짓말을 한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 마음의 결정이 끝이 났으면 행동으로 보여달라고 한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "C003은 딸이 걱정할까 봐 잠시 아줌마와 있으라 말하며 다녀온다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C003은 경찰에 알리려 하지만 C002 미행으로 실패하고 딸의 살해 협박을 받는다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "망설이다",
+                    "content": "C003은 차에서 내리고 망설인다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "다시 봉고로 돌아가는데 이미 떠나고 없다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "발길을 재촉하는 C003에게 딸과 같은 또래의 여자아이가 와서 부딪힌다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "그립다",
+                    "content": "C003은 엄마의 손을 잡고 가는 여자아이를 보며 딸을 떠올린다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "긴장되다",
+                    "content": "앞에 경찰이 보이자 그 옆에 C002가 C003을 노려보며 다가온다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C002를 피해 다른 곳으로 도망간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C002는 C003에게 전화를 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 C003에게 경찰에게 알리면 딸은 죽을 거라며 협박한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "무전기로 딸과 통화를 하게 해주고는 어서 서두르라고 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 C003에게 택시를 잡아준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C003은 C002의 협박으로 택시를 타고 호텔로 향한다. C003은 기사에게 쪽지를 통해 도움을 요청하지만 기사는 쪽지를 버린다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "택시 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "주눅들다",
+                    "content": "C003은 기사에게 호텔로 가자고 한다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 잡답을 하는 기사에게 자신이 곤경에 처했다고 말한다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "안타깝다",
+                    "content": "기사는 음악을 틀어 둬서 C003의 이야기를 못 듣는다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "이때 택시 옆에 바짝 붙은 봉고에서 C002가 C003을 노려보고 있다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "담담하다",
+                    "content": "택시는 호텔 앞에 도착한다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "기대되다",
+                    "content": "C003이 명함 뒤에다 도와달라는 메모를 남기고는 내린다."
+                },
+                {
+                    "location": "택시 안",
+                    "act": "무시하다",
+                    "emotion": "담담하다",
+                    "content": "기사는 C003의 명함을 본다."
+                },
+                {
+                    "location": "택시 안",
+                    "act": "부수다",
+                    "emotion": "귀찮다",
+                    "content": "기사는 다른 손님이 바로 타자 명함을 밖에다 버린다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "허무하다",
+                    "content": "C003은 기사가 명함을 버리자 허탈해 한다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "옆의 C002가 어서 호텔로 들어가라고 지시한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004 남편",
+                "C002",
+                "C004"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C003은 죽여야 하는 인물이 C004 인 것을 알고 놀란다. C003에게 살해의 기회가 찾아온다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "호텔로비",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "궁금하다",
+                    "content": "C003은 호텔로 들어서자 봉투에 든 타깃을 확인한다."
+                },
+                {
+                    "location": "호텔로비",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "봉투 속 죽여할 여자가 재당선된 C004라는 것을 알고는 놀란다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004 남편"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "계단을 오르다 C004 남편과 부딪힌다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004 남편"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "C004 남편은 C003에게 조심하라고 말한다."
+                },
+                {
+                    "location": "연회장",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "사람들은 C004 연설이 끝나고 정리하고 있다."
+                },
+                {
+                    "location": "연회장",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C003에게 C002가 계획대로 움직이라며 재촉한다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "반갑다",
+                    "content": "계단을 내려오던 C003이 C004와 스쳐 지나간다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 뒤따라간다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "안타깝다",
+                    "content": "C003은 C004에게 살해 계획에 이야기를 하려 하지만 경호원 때문에 갈 수가 없다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 주변의 C002가 있는지 확인을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "C004"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004를 죽일 수 있는 기회가 있음에도 실패하자, C002에게 구타 당한다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "거부감",
+                    "content": "C004가 탄 엘리베이터를 타려는 C003을 보디가드가 제지한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "C004가 후원인이라며 타라고 한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "절박하다",
+                    "content": "C003은 C004에게 딸에게 도움이 필요하다고 말한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "놀라다",
+                    "content": "C002가 타자 C003은 말을 멈춤다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "궁금하다",
+                    "content": "C004가 C003에게 딸 얘기를 하자 안았냐고 묻는다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C003은 사인을 받아오라고 했다고 얼버무린다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "단호하다",
+                    "content": "C002가 어서 C004를 죽이라고 눈짓을 준다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 총이 든 호주머니에 손을 넣기 시작한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "주저하다가 그만 C004가 내린다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "때리다",
+                    "emotion": "화나다",
+                    "content": "화가 난 C002가 C003을 구타하며 창밖으로 딸이 있는 봉고차를 가리키고는 똑바로 하라고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "딸",
+                "C002",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "딸은 아빠가 살인청부의 위험에 빠진지 모르고 그림을 그리며 놀고 있다. C003은 C002를 피해 위험을 알리려 하지만 실패한다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "엘리베이터에서 내리는 C003을 일본 관광객이 캠코더로 찍는다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "초조하다",
+                    "content": "C003의 딸이 그림을 그리고 있고 여자는 시계를 보며 초조해한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C003의 딸이 아빠는 언제 오냐 묻는다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "여자는 일이 아직 안 끝난 거 같다며 조금만 더 기다리면 된다고 말한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "기대되다",
+                    "content": "세수를 하는 C003, 긴급전화를 본다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "단호하다",
+                    "content": "C002가 미리 알고 수화기를 뜯어 버린다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "구두를 닦는 C003, C001에게 자신이 처한 상황을 알려준다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 와서 시간 없다며 서두르라고 한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 물 좀 마시겠다며 간다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C002는 C001를 의심하는데 잡지만 보고 있자 안심한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "딸"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C003은 뾰족한 수가 없자, 총으로 봉고로 가보지만 이미 여자가 눈치채고 총구를 딸에게 겨누고 있다.",
+            "unit_motif": "희생하는 부모",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "커피숍",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C004 흉을 보는 사람들의 이야기를 듣게 된다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C003은 길 건너 봉고가 보이자 길을 건너 간다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "긴장되다",
+                    "content": "주변에 C002의 존재를 확인한다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "총을 꺼내 딸을 구출하려고 한다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 멀리서 C003을 보고 여자에게 전화 건다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "비장하다",
+                    "content": "여자는 C002의 전화를 받고 총구를 딸에게 겨눈다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "단호하다",
+                    "content": "차 문이 열리고 C003이 여자에게 총을 겨눈다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "화나다",
+                    "content": "총으로 여자를 위협해본다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "여자는 이미 알고 자고 있는 C003의 딸에게 총구를 겨누고 있다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "짜증나다",
+                    "content": "C003은 단념하고 봉고 문을 닫는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C003은 C004를 암살하기 위해 검색대를 무사통과한다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "호텔 건너편",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 다시 호텔로 뛰어온다."
+                },
+                {
+                    "location": "커피숍",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 여자에게 C003이 돌아가고 있다고 보고받는다."
+                },
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C003 호텔 직원에게 테라스를 물어본다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 직원이 알려주는 테라스로 자리를 옮긴다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "혼란스럽다",
+                    "content": "테라스에는 C004 연설을 위해 사람들이 준비가 여념인다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 연설하는 곳으로 들어가기 위해서는 검색대를 통과해야 하는 것을 본다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "망설이다",
+                    "content": "자신의 총을 숨겨 들어갈지 고민을 한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003이 당황해하자 C002가 다가온다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 C003에게 검색대에 지나가도 총은 걸리지 않을 거라 말을 한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "황당하다",
+                    "content": "C003과 C002는 자연스럽게 검색대를 통과한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C004 보좌관에게 몰래 암살 계획을 알리는데 성공한다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "테라스",
+                    "act": "놀다",
+                    "emotion": "기대되다",
+                    "content": "도지사의 연설이 개최되는 호텔 테라스에서 고적대가 연주한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "무대에 사회자가 나와 분위기를 띄우고 있다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 무대 단상 앞으로 간다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 사람들이 몰려 있는 곳으로 들어가 C002의 눈을 피해 도망친다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "절박하다",
+                    "content": "C003은 무대 뒤로 들어와 관계자를 찾는다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C003은 보좌관에게 C004 살해 테러 계획을 이야기한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "보좌관은 C003은 이상한 취급을 하고 경호원을 부르려 한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C003은 보좌관에게 자신의 딸이 인질로 잡혀 있다고 자신이 테러를 해야 하는 사람이라고 말한다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "놀라다",
+                    "content": "C003은 보좌관에게 총을 준다."
+                },
+                {
+                    "location": "테라스",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "보좌관은 총을 보고서야 C003의 말을 믿고 선거 사무실로 향한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004 남편",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C004 남편을 찾아간 C003과 보좌관, C002가 나타나자 남편이 암살 배후라는 사실을 C003은 알게 된다. 보좌관은 C002의 총에 죽는다.",
+            "unit_motif": "부패경찰",
+            "causality": "Crossing(교차)",
+            "story_scripts": [
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C003과 보좌관은 C004의 남편 방으로 찾아간다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C004 남편"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "보좌관이 남편에게 C004의 살해 테러 계획을 이야기한다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004 남편"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 들어와 보좌관을 죽이고 C004 남편에게 미안하다고 말한다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004 남편"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "C004 남편은 C002에게 일 좀 제대로 하라고 화를 낸다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002",
+                        "C004 남편"
+                    ],
+                    "act": "때리다",
+                    "emotion": "놀라다",
+                    "content": "C003은 이번 사건에 C004의 남편이 연루된 사실을 알고 충격에 빠진다."
+                },
+                {
+                    "location": "룸 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "혼란스럽다",
+                    "content": "C003은 기절한다."
+                },
+                {
+                    "location": "룸 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "놀라다",
+                    "content": "C003이 깨어나 C002가 눈앞에 서있자 놀란다."
+                },
+                {
+                    "location": "룸 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "단호하다",
+                    "content": "C003의 뒷덜미를 잡고 끌고 가는 C002 난간 밖으로 던져버린다."
+                },
+                {
+                    "location": "풀장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "부수다",
+                    "emotion": "놀라다",
+                    "content": "호텔 바닥으로 추락하는 C003은 풀장 물속에 빠진다."
+                },
+                {
+                    "location": "풀장",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "잡담하다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 기절한 C003을 물에서 꺼내 바닥에 떨군다."
+                },
+                {
+                    "location": "풀장",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "잡담하다",
+                    "emotion": "긴장되다",
+                    "content": "다음 계획을 짜고 있는데 C003이 정신을 차리고 엿듣는다."
+                },
+                {
+                    "location": "풀장",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "잡담하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 C003을 일으켜 세워 끌고 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "C004 남편"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C002는 C003에게 죽은 보좌관을 보여준다. C002는 마지막 기회라 말한다고 C003을 풀어준다.",
+            "unit_motif": "부패경찰",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "참담하다",
+                    "content": "C002는 죽은 보좌관을 C003에게 보여준다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "무섭다",
+                    "content": "C003은 총격에 휩싸인다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C004 남편"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "주시사 남편과 그의 친구가 C004에 대해 불평을 늘여 놓으며 죽일 수밖에 없는 이유를 말한다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "emotion": "괴롭다",
+                    "content": "무전기로 딸의 목소리를 들려주는 C002, C003이 흥분하다 C002에게 맞는다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C002는 C003에게 이게 마지막 자비라고 말한다 다음에는 둘 다 죽는 것이라 말한다."
+                },
+                {
+                    "location": "룸",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C003은 문을 열어주며 계획대로 하라고 한다."
+                },
+                {
+                    "location": "룸 밖",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "주눅들다",
+                    "content": "C003은 C002를 따라 나온다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C003은 다리를 절며 걸어간다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "해치다",
+                    "emotion": "혼란스럽다",
+                    "content": "C003은 세면대에 구토를 한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C002는 딸을 잡고 있는 여자에게 무전 친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C002",
+                "딸"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C003은 다시 C004를 암살하러 가게 되고 구두 닦기는 암살 계획을 알게 된다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "절박하다",
+                    "content": "C003은 C001를 다시 찾아간다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "안타깝다",
+                    "content": "구두를 닦으며 C003은 도움을 청한다. C001는 무시한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 나오라고 손짓을 한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C003이 C001가 귀머거리라고 말한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002가 C001를 의심을 한다. C002는 구두 닦기에게 말을 걸어 본다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001가 귀머거리 행세를 한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "자신감 있다",
+                    "content": "C002가 안심하고 옆에서 구두를 닦는다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C002가 하는 말을 다 듣는다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "괴롭다",
+                    "content": "C002가 딸의 목소리를 들려준다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C003과 무전기로 통화하는 딸, 집에 가고 싶어 한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "조금만 기다리라는 C003, C001가 다 듣고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "암살 계획을 알게 된 C001가 C003을 도와주게 된다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "단호하다",
+                    "content": "C002가 먼저 일어선다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "받는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001는 C002에게 C001 돈을 받는다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C002가 사라진 것을 확인하고 C003에게 말을 한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "C001가 C003을 도와주겠다고 한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001가 C003에게 계획이 무엇이냐 묻는다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C004에게 가야 한다고 말한다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "C001는 자신이 사람을 모을 동안 바에서 술 한잔하라고 말한다."
+                },
+                {
+                    "location": "바",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "emotion": "기대되다",
+                    "content": "C003은 한잔하러 들어온다."
+                },
+                {
+                    "location": "바",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "emotion": "초조하다",
+                    "content": "시간이 없자 넋을 잃는다."
+                },
+                {
+                    "location": "바",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "마시다",
+                    "emotion": "불편하다",
+                    "content": "손님들은 여전히 C004에 대해 불평을 늘여놓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C002"
+            ],
+            "stage": "Defeat",
+            "storyline": "C003은 C001의 도움으로 C004를 만나러 간다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C002를 따돌린다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "미리 기다리고 있던 C001가 C003이 들어오자 호텔 직원과 옷을 갈아입으라고 시킨다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "emotion": "자신감 있다",
+                    "content": "C003은 서둘러 옷을 갈아입는다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "의심스럽다",
+                    "content": "C002는 C003을 쫓아 화장실로 들어간다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 옷을 갈아입고 변기로 들어간다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "신뢰하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C002가 들어와 밑으로 C003의 옷을 확인하고는 나간다."
+                },
+                {
+                    "location": "세탁실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C003은 C001를 따라간다."
+                },
+                {
+                    "location": "세탁실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "청소부를 따라가면 C004를 만날 수 있을 거라고 한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "무섭다",
+                    "content": "청소부는 사건에 휘말리기 싫다며 가버린다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "청소부는 가다가 슬쩍 룸 키를 떨어트린다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C004가 있는 룸으로 올라간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C003은 C004를 만나 암살 계획을 알리는데 성공한다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "안타깝다",
+                    "content": "C003은 경호원이 있어 접근하지 못한다."
+                },
+                {
+                    "location": "호텔 복도",
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001가 경호원에게 접근해 구두를 닦으라 호객행위를 한다."
+                },
+                {
+                    "location": "호텔 복도",
+                    "act": "말리다/멈추다",
+                    "emotion": "짜증나다",
+                    "content": "경호원은 C001를 저지하려고 정신이 없다."
+                },
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "긴장되다",
+                    "content": "경호원이 한눈파는 사이 C004의 룸으로 들어간다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C003은 자고 있는 C004에게 총구를 겨누고 C004를 깨운다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "깨어난 C004가 놀란다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "절박하다",
+                    "content": "C003은 죽이러 온 게 아니라 도우러 왔다며 암살 계획과 주모자들에 대해 말해준다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "준다",
+                    "emotion": "놀라다",
+                    "content": "C004는 남편까지 연루되어 있자 놀란다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C003은 C004의 보좌관은 죽었고 자신의 딸이 인질로 잡혀 있다고 딸을 구해달라고 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C004는 C003을 의심한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C003은 C004를 만나 살해 테러가 있을 거라 말을 해주며 일정을 뒤로 변경하라 말하고 도망친다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "의심스럽다",
+                    "content": "시간이 지나도 C003이 화장실에서 나오지 않자 당황한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C004에게 일정을 변경하라 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C004는 C003의 딸이 어디 있는지 수사 지시를 하겠다 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C003은 창밖에 차를 가리키며 저기 잡혀 있다고 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "C004가 도망치려고 스탠드를 밀치고는 소리치자 경호원이 들어온다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "놀라다",
+                    "content": "C003은 서둘러 도망친다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "궁금하다",
+                    "content": "경호원은 C004는 무슨 일이냐고 묻는다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "의심스러운지 나쁜 꿈을 꿨다고 둘러댄다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 경호원들이 C004와 이야기 나누는 틈을 타 문밖으로 나간다."
+                },
+                {
+                    "location": "호텔 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안타깝다",
+                    "content": "C003은 급하게 구두 닦기가 있는 곳으로 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C003, C001 도움으로 다시 화장실로 돌아오고 C002에게 테러를 지시받는다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "세탁실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "주눅들다",
+                    "content": "C003은 C001에게 돌아온다."
+                },
+                {
+                    "location": "세탁실",
+                    "character": [
+                        "C003",
+                        "C001"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "난감하다",
+                    "content": "C003은 이제 어찌할 바를 모른다."
+                },
+                {
+                    "location": "바",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "짜증나다",
+                    "content": "테러에 가담한 경찰이 서두르라 말하며 짜증을 내자 C002는 침착하라며 자신이 해결하겠다 말한다."
+                },
+                {
+                    "location": "봉고",
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "여자는 차를 출발한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 C003을 데리러 화장실에 들어온다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "변기 안에서 옷을 갈아입은 C003이 나온다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 손이나 씻으라고 핀잔을 준다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "주눅들다",
+                    "content": "C003은 눈치를 보며 손을 씻는다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C002는 연설 때 단상 바로 앞까지 가서 확실하게 처리하라고 말한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "주눅들다",
+                    "content": "C003은 알았다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C004 남편",
+                "딸",
+                "C001"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C004는 남편을 떠보고 C003의 말이 사실이었음을 알게 된다.",
+            "unit_motif": "지리적 고립",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "담담하다",
+                    "content": "C004에게 남편이 온다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "피곤하다",
+                    "content": "C004는 머리가 아파 연설을 취소하겠다 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C004를 보며 당황하는 남편을 보며 사태를 파악한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "단호하다",
+                    "content": "연설을 꼭 하라고 한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C004는 마지못해 연설을 하겠다고 나선다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "기대되다",
+                    "content": "C004가 보좌관을 보내달라고 말한다."
+                },
+                {
+                    "location": "C004 룸",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "배신감",
+                    "content": "남편이 돌려보냈다고 하자 C004는 C003의 말이 사실이었음을 알게 된다."
+                },
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "봉고차가 선다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "담담하다",
+                    "content": "C001는 구둣방을 다시 연다."
+                },
+                {
+                    "location": "구두방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "호텔 밖에 C003이 말한 봉고를 보고 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "C004"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C004의 연설이 시작되고 C003은 총을 꺼내는데 조정실의 C002를 향해 쏜다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "열광하다",
+                    "content": "C004의 연설을 앞두고 남편이 모두발언을 하고 있다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "긴장되다",
+                    "content": "C003과 C002는 강당으로 들어선다."
+                },
+                {
+                    "location": "조정실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "비장하다",
+                    "content": "C002는 조정실 창문을 열고 강당 안을 살핀다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "드디어 단상에 C004가 오른다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 총을 꺼낸다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "위에서 풍선이 내려온다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 서서히 C004에게 다가간다."
+                },
+                {
+                    "location": "조정실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "비장하다",
+                    "content": "C002도 총을 꺼내 C003을 겨냥한다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "단호하다",
+                    "content": "C003은 총을 들어 C004를 겨냥하다 조정실 창에다 쏜다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "혼란스럽다",
+                    "content": "강당은 아수라장으로 변한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C002",
+                "C004",
+                "C004 남편",
+                "딸"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "강당은 아수라장이 되고 C003은 도망쳐 딸에게 간다. C004 남편은 C004가 죽은 줄 알고 좋아하다 C004에게 걸린다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "강당",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "부수다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C002를 피해 도망친다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "emotion": "단호하다",
+                    "content": "경호원은 C003에게 총을 쏘며 따라온다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "emotion": "뻔뻔하다",
+                    "content": "청소부가 카트를 밀어 경호원을 제압한다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "청소부는 C003 보고 빨리 가라고 한다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "즐겁다",
+                    "content": "남편은 C004가 죽은 줄 알고 성공했다고 좋아한다."
+                },
+                {
+                    "location": "강당",
+                    "character": [
+                        "C004",
+                        "C004 남편"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004가 깨어 좋아하는 모습을 보고 있자 남편은 놀란다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "비장하다",
+                    "content": "여자는 무전 연락이 안 되자 총에 소음기를 장착한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "때리다",
+                    "emotion": "단호하다",
+                    "content": "C003은 도망치는 C002를 뒤에서 잡는다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C003과 C002는 서로 뒤엉켜 계단을 뒹군다."
+                },
+                {
+                    "location": "계단",
+                    "character": [
+                        "C003",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "단호하다",
+                    "content": "C002가 C003을 물에다 빠트린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "딸",
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "여자는 C003의 딸을 죽이려 하자 구두 닦기가 와서 도와주고 C002가 딸을 죽이려 하자 C003이 C002를 죽인다.",
+            "unit_motif": "살인청부업자",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "여자가 C003의 딸에게 선물을 주겠다며 눈을 감으라고 한다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "비장하다",
+                    "content": "딸이 눈을 감자 여자는 총을 꺼낸다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "뻔뻔하다",
+                    "content": "이때 밖에서 C001가 여자를 부른다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "때리다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001는 차를 닦기 시작한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "때리다",
+                    "emotion": "화나다",
+                    "content": "실랑이를 벌이다 여자는 C001의 의족을 총으로 쏜다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "단호하다",
+                    "content": "C003의 딸이 도망치려고 나가려는데 C002가 가로막더니 딸에게 총을 쏜다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "절박하다",
+                    "content": "C003의 딸은 좌석 밑으로 잽싸게 숨는다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "딸",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "C002는 그때 C003의 총을 맞는다."
+                },
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "emotion": "단호하다",
+                    "content": "C003은 C002에게 재차 총을 쏜다."
+                },
+                {
+                    "location": "봉고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "통쾌하다",
+                    "content": "C002가 죽는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "딸",
+                "C001",
+                "C004 남편",
+                "주지사 남편 친구",
+                "C004"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C004 암살을 막은 C003, 달과 뜨겁게 포옹한다. 뉴스에 C004 남편이 암살 배후로 지목된다.",
+            "unit_motif": "희생하는 부모",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "딸은 아빠 C003에게 달려간다."
+                },
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C003은 딸을 뜨겁게 포옹한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "때리다",
+                    "emotion": "비장하다",
+                    "content": "여자가 C001를 기절시키고는 C003에게 총을 쏘려고 한다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "단호하다",
+                    "content": "C001는 의족으로 여자를 넘어뜨린다."
+                },
+                {
+                    "location": "봉고 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "때리다",
+                    "emotion": "통쾌하다",
+                    "content": "의족으로 여자의 머리를 날려버린다."
+                },
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "C003",
+                        "딸"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C003과 딸은 뜨겁게 포옹한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C004 암살 시도 장면이 TV 화면으로 나온다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C004 남편"
+                    ],
+                    "act": "증명하다/입증하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "암살 주범으로 C004의 남편임이 밝혀진다."
+                },
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "주지사 남편 친구"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "담담하다",
+                    "content": "실제 암살 배후 인물인 C004 남편의 친구가 차를 타고 유유히 사라진다."
+                },
+                {
+                    "location": "호텔 입구",
+                    "character": [
+                        "C003",
+                        "딸",
+                        "C004"
+                    ],
+                    "emotion": "고맙다",
+                    "content": "C004가 C003과 딸에게 찾아와 고맙다고 말한다."
+                }
+            ]
+        }
+    ]
+}

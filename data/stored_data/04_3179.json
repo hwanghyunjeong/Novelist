@@ -1,0 +1,4100 @@
+{
+    "title": "찾아라! 세계의 진실 4",
+    "genre": [
+        "스릴러",
+        "판타지"
+    ],
+    "theme": "구출",
+    "concept": "C001와 C003는 괴물의 세계에서 탈출하기 위해 고군분투한다.",
+    "motif": "탈옥",
+    "conflict": "은신처1가 추적자들에게 발각된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "돈",
+        "냇",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C015",
+        "C016",
+        "C017",
+        "C018",
+        "C019",
+        "C020",
+        "C021"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C019",
+                "C003"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001는 C019의 녹음된 메시지를 받는다.",
+            "unit_motif": "정보 획득",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받는다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 전화를 받는다."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C019입니다."
+                },
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C019 맞나요? C019인가요?"
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "부디 이 전화를 받는 사람이 도망친 아이들이길 바라며 이 메시지를 남깁니다."
+                },
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "만나 뵐 수 없나요?"
+                },
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "담담하다",
+                    "content": "C003가 C001를 말린다."
+                },
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "녹음된 메시지야."
+                },
+                {
+                    "location": "은신처1의 전화기 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 표정으로 메시지를 듣는다."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "내 진짜 이름은 제임스 러트리이고, 과거에 본부에서 일하던 사람이야."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "하지만 나는 오래전에 멋대로 정해진 약속 때문에 지금 태어나는 아이들이 희생되는 걸 더는 볼 수 없었어."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "정해진 약속을 내가 어떻게 할 수는 없지만 그래도 거기서 탈출할 수 있게 돕고 싶었어."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "안타깝게도 나는 반역자로 몰려서 도망 다니는 상태야."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "너희가 몇 명이나 될지 모르겠지만 직접 보고 얘기해 줄 수 없어서 미안해."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "직접 만나서 그동안 고생했다고 말해주고 싶었어."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "만약 인간의 세계를 찾고 있다면 펜에 미래라고 입력하도록 해."
+                },
+                {
+                    "location": "음성 메시지",
+                    "character": [
+                        "C019"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "사람들은 분명 너희를 환영해 줄 거야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Setting-up",
+            "storyline": "도망친 아이들이 모은 정보를 가지고 현재 상황을 파악한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "심란하다",
+                    "content": "도망친 아이들이 응접실에 모여서 대화를 한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C019를 만날 수는 없지만 한 가지 확실한 건 우리를 위해 이 모든 걸 준비해 줬다는 거야."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "이제 더 이상 C019의 도움을 받기는 힘들 것 같아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "앞으로는 우리가 헤쳐 나가야 해."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "심란하다",
+                    "content": "도망친 아이들이 심란한 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "예전에 여기 있던 사람들은 어떻게 됐을까?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "잘 도망친 거면 좋겠는데 말이야."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C003가 자리에서 일어난다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C003가 펜을 사용한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰다",
+                    "emotion": "비장하다",
+                    "content": "C001가 홀로그램에 미래라고 입력한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "도망친 아이들이 홀로그램을 주시한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "돈",
+                "C013",
+                "C004",
+                "C003",
+                "C001",
+                "C009",
+                "C005",
+                "C006",
+                "C010",
+                "냇",
+                "C011",
+                "C012",
+                "C016",
+                "C015"
+            ],
+            "stage": "Setting-up",
+            "storyline": "도망친 아이들은 펜에 나온 지도를 토대로 새로운 목적지를 확인한다.",
+            "unit_motif": "정보 획득",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C007이 홀로그램에 뜬 지도를 보고 놀란다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "나왔다!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "새로운 목적지는 저기구나. 이 세계의 정가운데네? 꽤 멀다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "그렇지만 저곳에 인간의 세계로 통하는 문이 있어."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우선은 은신처1에서 만반의 준비를 하자. 보육원1에 가서 남은 동생들1을 데려와야지."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그리고 다른 보육원에 있는 아이들까지 다 같이 인간의 세계로 탈출하자."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "응. 그날이 올 때까지 절대 포기하지 않아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "안 그러면 C002의 얼굴을 볼 낯이 없잖아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "속상하다",
+                    "content": "C003가 C001를 보며 속상한 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "모두를 지켜내겠다고, 다 같이 탈출하겠다고, C002과 약속했으니까 말이야."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004",
+                        "돈",
+                        "C009",
+                        "C005",
+                        "C006",
+                        "C010",
+                        "냇",
+                        "C011",
+                        "C012",
+                        "C016",
+                        "C013",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C004, C007, C009, C005, C006, C010, C008, C011, C012, C016, C013, C015가 비장한 표정으로 C001를 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C013",
+                "C009",
+                "C001",
+                "C003",
+                "돈",
+                "C004",
+                "C006",
+                "C005",
+                "C015",
+                "C012",
+                "C016",
+                "냇",
+                "C011",
+                "C014",
+                "C010"
+            ],
+            "stage": "Setting-up",
+            "storyline": "도망친 아이들은 은신처1에서 기반을 잡는다.",
+            "unit_motif": "전투 준비",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "즐겁다",
+                    "content": "C013가 냄비와 국자를 탕탕 부딪친다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "아침이야!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "쓰다",
+                    "emotion": "담담하다",
+                    "content": "C009가 일지에 날짜를 적는다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001, C003, C007, C004가 비밀의 방에 여러 생필품을 챙겨놓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "비장하다",
+                    "content": "C001, C003, C007, C004가 활과 화살을 만든다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C015"
+                    ],
+                    "act": "수련한다",
+                    "emotion": "비장하다",
+                    "content": "C006과 C005, C015가 활쏘기 연습을 한다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C015"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "C006과 C005, C015가 빗 맞혀서 아쉬워한다."
+                },
+                {
+                    "location": "괴물세계의 광야",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001와 C003, C007, C004가 새를 사냥한다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013",
+                        "C012"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C013와 C012가 비밀 통로에서 술래잡기를 한다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C007과 C016가 모니터 방에서 보초를 선다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "피곤하다",
+                    "content": "C007이 꾸벅꾸벅 존다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "도망친 아이들이 체조를 한다."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C001",
+                        "C009",
+                        "C014",
+                        "C010"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "즐겁다",
+                    "content": "C001와 C009, C014, C010가 텃밭을 가꾼다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "수련한다",
+                    "emotion": "기쁘다",
+                    "content": "C015가 활 연습 때 목표를 명중시키는 데 성공한다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "부럽다",
+                    "content": "C005와 C006이 그 모습을 보고 부러워한다."
+                },
+                {
+                    "location": "은신처1의 주방",
+                    "character": [
+                        "C003",
+                        "C009",
+                        "C011"
+                    ],
+                    "act": "만들다",
+                    "emotion": "즐겁다",
+                    "content": "C003와 C009, C011이 식사를 만든다."
+                },
+                {
+                    "location": "은신처1의 욕실",
+                    "character": [
+                        "냇",
+                        "C005",
+                        "C006",
+                        "C011",
+                        "C016",
+                        "C015"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C008, C005, C006, C011, C016, C015가 목욕을 하며 장난을 친다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "즐겁다",
+                    "content": "C008이 피아노로 자장가를 연주한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C011, C016, C014, C013, C010는 새로운 음식을 먹고 싶다고 한다. C001는 난감해 한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "도망친 아이들이 응접실에서 회의를 한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "쓰다",
+                    "emotion": "담담하다",
+                    "content": "C009가 일지를 작성한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "따로 건의하고 싶은 희망 사항 있으면 얘기해 봐."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C011이 손을 든다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "불만족스럽다",
+                    "content": "새로운 음식을 먹고 싶어!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "맞아. 새는 너무 지겨워."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "배부른 소리 하네."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "나는 과일!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "나는 음료수!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "나는 케익!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "다들 말이 되는 소리를 좀 해라!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C001가 난감한 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "원하는 음식은 구할 수 없겠지만 최대한 다른 걸로 사냥해 볼게."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "단호하다",
+                    "content": "나도 데려가 줘!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "사냥할 때 따라가려고?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "담담하다",
+                    "content": "그래. 같이 가자."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "기쁘다",
+                    "content": "C015가 신난 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "궁금하다",
+                    "content": "어째서!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "부럽다",
+                    "content": "C005와 C006이 C015를 부러운 눈초리로 쳐다본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C015는 활 쏘기를 잘 하잖아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "우리도 갈래!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C004가 의심스러운 눈초리로 C005와 C006을 바라본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "그 눈빛은 뭐야?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "무조건 우리 옆에 딱 붙어 있겠다고 맹세할 수 있어?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "기대되다",
+                    "content": "응! 무조건!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "돈",
+                "C004",
+                "C005",
+                "C006",
+                "C015"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001, C003, C007, C004, C005, C006, C015가 사냥을 나간다. 하지만 좀처럼 잘 잡히지 않는다.",
+            "unit_motif": "실패",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001, C003, C007, C004, C005, C006, C015가 숲속으로 사냥을 나간다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C015가 새에게 활을 쏜다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C015가 빗맞은 화살을 보며 난감해 한다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 활로 날아가는 새를 겨냥한다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "실망하다",
+                    "content": "C001가 타이밍을 놓친다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "뭔가 오늘은 잘 안 풀리네."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "그렇다고 벌레를 잡아갈 수도 없고 말이야."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "어쩔 수 없지. 오늘은 샐러드나 해먹자."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "난감하다",
+                    "content": "C007이 C004를 보고 어색한 웃음을 짓는다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "C015가 풀이 죽어 있는다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "C006이 C015를 위로한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C003",
+                "C001",
+                "C004",
+                "C015",
+                "돈",
+                "C006"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001와 C003, C007, C004, C005, C006, C015가 생선1를 발견한다.",
+            "unit_motif": "보상 획득",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "궁금하다",
+                    "content": "C005가 뭔가를 발견하고 유심히 쳐다본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "해지기 전에 돌아가자."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "C005가 갑자기 소리친다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "성공이다!"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001와 C003, C004가 C005를 쳐다본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "절박하다",
+                    "content": "C005가 생선1를 손에서 놓치지 않으려고 안간힘을 쓴다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "뭐 하는 거야?"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001와 C003, C004, C015가 나무에 기어 다니는 생선1를 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "잡기가 쉽지 않아."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "절박하다",
+                    "content": "C007이 생선1를 손에서 놓치지 않으려고 안간힘을 쓴다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이게 도대체 뭐지?"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "생선1야!"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C015",
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "생선1라고?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C006",
+                "C001",
+                "돈",
+                "C015",
+                "C004",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001와 C003, C007, C004, C005, C006, C015는 생선1 사냥에 성공한다.",
+            "unit_motif": "성공",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C003가 생선1를 유심히 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이 생물의 이름이 생선1야?"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "그냥 미끌거리길래 우리가 붙여준 이름이야."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "생선일까?"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "불쾌하다",
+                    "content": "생선인지는 모르겠지만 기분 나쁘게 생겼다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C015가 생선1를 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래도 맛있을 것 같아!"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001, C003, C007, C004, C005, C006이 놀란 표정으로 C015를 쳐다본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "망설이다",
+                    "content": "C001, C003, C007, C004, C005, C006이 생선1를 다시 자세히 들여다본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "비장하다",
+                    "content": "C001, C003, C007, C004, C005, C006, C015가 생선1를 잡기로 결정한다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "절박하다",
+                    "content": "C001가 생선1를 잡으려고 안간힘을 쓴다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "절박하다",
+                    "content": "C003가 생선1를 잡으려고 안간힘을 쓴다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "초조하다",
+                    "content": "C001, C003, C007, C004, C005, C006, C015가 생선1와 씨름한다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "속상하다",
+                    "content": "C005가 생선1를 잡으려고 계속 뛰다가 생선1를 놓친다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "황당하다",
+                    "content": "C005는 자신이 놓친 생선1가 가방으로 쏙 들어가는 것을 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "황당하다",
+                    "content": "C001, C003, C007, C004, C005, C006, C015가 가방에서 나오지 못하고 버둥대는 생선1를 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "드디어 방법을 찾았어!"
+                },
+                {
+                    "location": "괴물세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "돈",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뿌듯하다",
+                    "content": "C001, C003, C007, C004, C005, C006, C015가 생선1를 잔뜩 잡아간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "도망친 아이들이 생선1를 시식해 볼 사람을 제비뽑기로 정한다. C008이 당첨되지만 절대 못 먹는다며 대타를 요청한다.",
+            "unit_motif": "시련",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 식탁에 둘러앉는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 생선1 구이를 빤히 쳐다본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "누가 먼저 먹어 볼지는 제비뽑기로 정할 거야."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "보다",
+                    "emotion": "절망하다",
+                    "content": "C008이 당첨된 종이를 보며 절망에 빠진다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "난감하다",
+                    "content": "C001가 미소를 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "제비뽑기니까 어쩔 수 없어."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불만족스럽다",
+                    "content": "나는 절대 못 먹어! 미끌미끌해서 이상하잖아!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "조리한 건 구워서 괜찮아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불쾌하다",
+                    "content": "정체 모를 요리는 먹지 않을 거야!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "한심해 하다",
+                    "emotion": "괘씸하다",
+                    "content": "C009가 C008을 한심하다는 듯이 쳐다본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괘씸하다",
+                    "content": "제비뽑기니까 어쩔 수 없잖아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불만족스럽다",
+                    "content": "나한테 자꾸 먹으라고 하면 다신 피아노 연주 안 한다?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C009",
+                        "C005",
+                        "C006",
+                        "C015",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C010",
+                        "C014"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C001, C004, C009, C005, C006, C015, C011, C012, C013, C010, C014가 동시에 소리친다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C009",
+                        "C005",
+                        "C006",
+                        "C015",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C010",
+                        "C014"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "그것만은 참아줘!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "C008의 피아노 연주는 절대 지켜야 해!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불만족스럽다",
+                    "content": "그러니까 제발 다른 사람이 먼저 먹으란 말이야!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "돈",
+                "C003",
+                "C004"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C005와 C006, C003가 C008 대신 생선1를 시식해 보기로 한다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "C005와 C006이 자신 있는 표정으로 생선1 앞으로 간다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "그렇게 원하신다면야."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "거 참 성가시게 한다니까."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "보다",
+                    "emotion": "감동하다",
+                    "content": "C008이 감동한 표정으로 C005와 C006을 쳐다본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "자신감 있다",
+                    "content": "우리가 찾아낸 생선1는 우리가 책임진다!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "울다",
+                    "emotion": "감동하다",
+                    "content": "C008이 C005와 C006을 보며 눈물을 글썽인다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C009가 C005와 C006을 보며 박수를 친다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "규칙에 어긋나잖아."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나도 같이 먹을게."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C009와 C004가 C003를 보며 박수를 친다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "한 술 더 뜨네."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C005",
+                "C006",
+                "돈",
+                "C001",
+                "C004",
+                "C009",
+                "C011",
+                "C012",
+                "C016",
+                "C013"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C005와 C006은 생선1가 맛있다며 마구 먹는다. C011과 C012, C016, C013가 그 모습을 보고 생선1를 맛있게 먹는다.",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C003와 C005, C006이 비장한 표정으로 생선1를 본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "비장하다",
+                    "content": "C003와 C005, C006이 생선1 구이를 한 입 먹는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "비장하다",
+                    "content": "C003와 C005, C006이 생선1 구이를 꿀꺽 삼킨다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C007이 시간을 확인한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "몇 분 지났는데 이상 없지?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "배가 아프거나 하진 않고?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C007이 시간을 확인한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "몇 십분 지났는데 아직 괜찮아?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C003와 C005, C006이 담담한 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "괜찮은 거야?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "참고 있는 건 아니지?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "맛없으면 뱉어도 돼."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아니. 진짜 아무 이상 없어."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C005와 C006이 못 참겠다는 듯 어깨를 들썩인다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불만족스럽다",
+                    "content": "다 됐고! 맛있는 건 빨리 좀 먹자!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "즐겁다",
+                    "content": "C005와 C006이 허겁지겁 생선1 구이를 먹는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C007이 한숨을 쉰다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C011",
+                        "C012",
+                        "C016",
+                        "C013"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "즐겁다",
+                    "content": "C011과 C012, C016, C013가 생선1 구이를 먹는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈",
+                        "C004",
+                        "C009"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C007과 C004, C009가 그 모습을 보고 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "난감하다",
+                    "content": "정해진 분량만큼만 먹어야 된다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "뿌듯하다",
+                    "content": "C001가 그 모습을 뿌듯하게 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "사육감1",
+                "C009",
+                "C010",
+                "C014"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "C001와 C003, C004, C007은 무전기로 보육원을 정탐한다. C009와 C010, C014는 텃밭을 돌보며 즐거워한다.",
+            "unit_motif": "조사/정찰",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 입구",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C003, C004, C007이 은신처1 입구로 나간다."
+                },
+                {
+                    "location": "은신처1의 입구 앞 광야",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈"
+                    ],
+                    "act": "듣다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C003, C004, C007이 무전기를 듣는다."
+                },
+                {
+                    "location": "은신처1의 입구 앞 광야",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이제 마지막 보육원 차례야."
+                },
+                {
+                    "location": "제5보육원",
+                    "character": [
+                        "사육감1"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "당일 이상 없음. 보고를 종료합니다."
+                },
+                {
+                    "location": "은신처1의 입구 앞 광야",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "오늘도 별일 없나 보네."
+                },
+                {
+                    "location": "은신처1의 입구 앞 광야",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "응. 그래도 계속 출하가 없어서 다행이야."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C009",
+                        "C010",
+                        "C014"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C009와 C010, C014가 텃밭을 돌본다."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "오늘은 이 정도면 된 것 같아."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이거 언제쯤이면 수확할 수 있어?"
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "아직 한참 더 있어야 돼. 식물을 키우는 건 인내심과 사랑이 필요한 일이야."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "빨리 다 큰 거 보고 싶다."
+                },
+                {
+                    "location": "은신처1의 텃밭",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기대되다",
+                    "content": "C014가 기대되는 표정으로 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "돈",
+                "C016",
+                "C001",
+                "C003"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C007과 C016가 모니터 방에서 보초를 선다. C001와 C003가 대화를 하고 있는데 갑자기 폭발음이 들린다.",
+            "unit_motif": "적의 등장",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C007과 C016가 모니터 방에서 보초를 선다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "자다/잠들다",
+                    "emotion": "피곤하다",
+                    "content": "C007이 여느 때처럼 졸고 있다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "유쾌하다",
+                    "content": "C016가 C007을 놀린다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "유쾌하다",
+                    "content": "C004다!"
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "C007이 깜짝 놀라서 일어난다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "잘못했어!"
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "유쾌하다",
+                    "content": "C016가 C007을 보고 웃는다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "미안! 거짓말이었어!"
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무안하다",
+                    "content": "C007이 멋쩍은 듯 머리를 긁적인다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "아니야. 내가 졸지 말았어야 했어."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "늦었으니까 오늘은 이만 자러 가자."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001가 잠자리를 정돈한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003가 차를 들고 C001에게 다가간다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "슬슬 보육원에 있는 아이들을 탈출 시킬 작전을 세워야 하지 않을까?"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 그래야지. 은신처1도 안정됐으니까 말이야."
+                },
+                {
+                    "location": "은신처1의 입구",
+                    "content": "그때 갑자기 은신처1의 입구가 폭발한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C009",
+                "C011",
+                "C012",
+                "C001",
+                "C015",
+                "돈",
+                "C016",
+                "추적자1",
+                "추적자2",
+                "추적자3",
+                "추적자4"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "추적자들이 은신처1에 침입한다.",
+            "unit_motif": "적의 등장",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C004",
+                        "C009",
+                        "C011",
+                        "C012"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C004와 C009, C011, C012가 폭발음과 지진에 깜짝 놀란다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "C001",
+                        "C015"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C015가 폭발음과 지진에 깜짝 놀란다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C007과 C016가 폭발음과 지진에 깜짝 놀란다."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "모니터가 전부 나가버렸어."
+                },
+                {
+                    "location": "은신처1의 모니터 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "무슨 일이 일어난 거지?"
+                },
+                {
+                    "location": "은신처1의 입구",
+                    "character": [
+                        "추적자1",
+                        "추적자2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "은신처1 입구로 추적자1, 추적자2가 들어온다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "추적자1",
+                        "추적자2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1, 추적자2가 복도로 들어온다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "열다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1이 응접실 문을 발로 찬다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1이 텅 빈 응접실을 살펴본다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1이 차가 담긴 컵을 발견한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1이 컵에 손을 대고 온기를 확인한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "궁금하다",
+                    "content": "추적자1이 추적자3과 추적자4에게 무전으로 연락한다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "지상에 별다른 움직임은 없나?"
+                },
+                {
+                    "location": "은신처1의 출구1",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "이쪽은 없습니다."
+                },
+                {
+                    "location": "셸처의 출구2",
+                    "character": [
+                        "추적자4"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "이쪽도 없습니다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "알겠다. 계속 감시하도록 해라."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자1"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "추적자1이 응접실을 둘러본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C010",
+                "돈",
+                "C016"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C004가 피신한 인원 중에 C007과 C016가 없음을 발견한다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C010"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003, C004, C005, C006, C008, C009, C011, C012, C013, C014, C015, C010가 비밀의 방에서 대기한다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "괴물이 쳐들어온 걸까?"
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "소리로 봐서는 괴물은 아니야. 사람인 추적자 같아."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어디가 폭파된 거지?"
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "은신처1 입구야."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "곤란하게 됐네. 도망쳐야 할 것 같아."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "심란하다",
+                    "content": "은신처1를 포기하는 거야?"
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C004가 인원수를 세어본다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "심란하다",
+                    "content": "또 집이 없어지는 거네."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "채소도 아직 다 못 키웠는데."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "죽으면 다 소용없어. 우선 살아야지."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C004가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "인원수가 부족해. 두 명이 없어."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C007이랑 C016야. 모니터 룸에서 보초 서고 있을 시간이잖아."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "돈과 C016가 모니터 룸에서 움직이지 못한다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "어떻게 된 거지? 뭔가 이상한데?"
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "설마 괴물이 쫓아온 건 아니겠지?"
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "울다",
+                    "emotion": "무섭다",
+                    "content": "C016가 무서움에 울먹인다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "왜 울고 그래. 남자답게 씩씩하게 있어야지."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C020",
+                "괴물3",
+                "괴물4",
+                "C021"
+            ],
+            "stage": "Defeat",
+            "storyline": "C020가 C021에게 도망친 아이들이 곧 잡힐 거라고 한다.",
+            "unit_motif": "적대자들의 속내",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020",
+                        "괴물3",
+                        "괴물4"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C020가 괴물3, 괴물4와 함께 본부의 감옥을 걷는다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C021가 감옥 안에서 공허한 표정으로 허공을 바라본다."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "담담하다",
+                    "content": "C020가 C021의 감방 앞에 멈춰 선다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C021가 C020를 무표정하게 쳐다본다."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "네가 나에게 이런 실망을 안겨주다니 유감이야."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "정말 중요한 최상급 아이들을 놓치다니 말이야."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "내가 모두 붙잡아서 무사히 출하시킬 계획이야."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "꽤나 자신만만하네."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "충분히 해낼 수 있어요."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "아무리 최상급이라고 해도 그저 어린애들이니까요."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "도망친 아이들을 보고 싶지?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C021가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "단호하다",
+                    "content": "기대해도 좋아. 곧 만나게 될 테니까 말이야."
+                },
+                {
+                    "location": "본부의 감옥",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C020가 자리를 떠난다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "심란하다",
+                    "content": "C021가 심란한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물3",
+                "괴물4",
+                "C021"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "괴물3이 종교의식1를 치르기 전에 C021와 대화를 나눈다.",
+            "unit_motif": "적대자들의 속내",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3",
+                        "괴물4"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "괴물3과 괴물4가 C021의 감방으로 들어온다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "담담하다",
+                    "content": "그동안 정말 잘해줬어. 최상급 아이들을 많이 출하시켰지."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래서 너를 어떻게 처리할 것인가 논의가 길어졌어."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물4"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "괴물4가 괴물3에게 꽃1를 준다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "받는다",
+                    "emotion": "담담하다",
+                    "content": "괴물3이 꽃1를 집어 든다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "도망친 아이들을 보고 싶었나?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "씁쓸하다",
+                    "content": "저는 그런 걸 바랄 주제가 못돼요."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그리고 그 아이들은 잡히지 않을 거예요."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "역시 최상급이라는 건가?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "애틋하다",
+                    "content": "C021가 옅은 미소를 짓는다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "애틋하다",
+                    "content": "그럼요. 저의 소중한 아이들이니까요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "추적자2",
+                "돈",
+                "C016",
+                "C003",
+                "C004"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C007과 C016는 무사히 비밀의 방으로 도망친다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "act": "열다",
+                    "emotion": "긴장되다",
+                    "content": "추적자2가 모니터 룸의 문을 발로 찬다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "추적자2가 C007에게 총을 겨눈다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "항복하다",
+                    "emotion": "무섭다",
+                    "content": "C007이 양손을 들고 항복 표시를 한다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "항복하다",
+                    "emotion": "무섭다",
+                    "content": "죽이지 말아 주세요! 항복할게요!"
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "추적자2가 총을 거둔다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "절박하다",
+                    "content": "C016가 추적자2에게 컵을 던진다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "추적자2가 컵을 맞고 주춤한다."
+                },
+                {
+                    "location": "은신처1의 모니터 룸",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C007이 추적자2를 의자로 내려친다."
+                },
+                {
+                    "location": "은신처1의 복도",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C007과 C016가 응접실로 도망친다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C003와 C004가 C007과 C016를 발견한다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "이쪽으로 빨리 와!"
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "돈",
+                        "C016"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C007과 C016가 비밀의 방으로 들어간다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "추적자2가 응접실로 들어온다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C003가 추적자2에게 활을 쏜다."
+                },
+                {
+                    "location": "은신처1의 응접실",
+                    "character": [
+                        "추적자2"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "추적자2가 활을 맞고 쓰러진다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "닫다",
+                    "emotion": "비장하다",
+                    "content": "C003가 비밀의 방 입구를 닫는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "돈",
+                "C004",
+                "C003",
+                "C001",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "도망친 아이들은 추적자들을 피해 비밀 통로로 도망친다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 사다리를 타고 내려온다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "반갑다",
+                    "content": "C004가 C007을 껴안는다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "울다",
+                    "emotion": "안심/안도하다",
+                    "content": "큰일 나는 줄 알았어."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "다 모였으니 빨리 도망치자. 비밀 통로로 가면 출구가 나올 거야."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "비밀의 방",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "도망친 아이들이 비밀 통로로 나간다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "걱정하지 마. 우리가 제일 잘하는 술래잡기라고 생각하자."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "맞아. 그러니까 당황하지 말고 은밀하고 빠르게 움직이자."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 비밀 통로를 뛰어간다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C013가 앞장서서 길을 안내한다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "왼쪽으로 가면 돼."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 C013를 따라 뛰어간다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "이번에는 앞쪽이야."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "길을 다 외우고 있는 거야? 대단하다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "C001가 C013를 보여 감탄한다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뿌듯하다",
+                    "content": "응! 매일 여기서 놀았거든."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "얼마 안 남았어. 조금만 더 가면 출구야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "추적자3"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "추적자3이 비밀 통로로 침입하고, 도망친 아이들의 앞을 막는다. C005, C006, C001, C003가 합심해서 추적자3을 물리친다.",
+            "unit_motif": "적 제압/퇴치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 전속력으로 뛴다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "추적자3이 비밀 통로로 들어온다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "긴장되다",
+                    "content": "추적자3이 도망친 아이들의 앞에 나타난다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "놀라다",
+                    "content": "도망친 아이들이 깜짝 놀라서 멈춘다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "속상하다",
+                    "content": "도대체 왜 이러는 거죠? 우리는 잘못한 게 없는데!"
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "잘못이 있고 없고의 문제가 아니야. 너희는 그저 그렇게 태어난 거야."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "양쪽 출구는 모두 봉쇄했어. 그만 포기해."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어떻게 양쪽을 모두 막은 거죠?"
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "은신처1라는 건 원래 입구를 양쪽에 만들어 놓으니까."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C013가 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "자신감 있다",
+                    "content": "그렇구나. 그럼 아직 모른다는 거네."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "그때 C005와 C006이 추적자3에게 활을 쏜다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "추적자3"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "추적자3이 활을 맞고 휘청인다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C003가 추적자3을 밀어서 떨어뜨린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C013",
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "추적자4"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "도망친 아이들이 숲속으로 도망친다. 하지만 추적자들에게 잡히고 만다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "다들 잘 들어! 아직 남아있는 출구가 있어! 모두 나를 따라와!"
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 C013를 따라서 뛴다."
+                },
+                {
+                    "location": "비밀 통로",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 밖으로 나간다."
+                },
+                {
+                    "location": "은신처1 근처 광야",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "도망친 아이들이 숲속을 향해 뛴다."
+                },
+                {
+                    "location": "은신처1 근처 광야",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "모두 쉬지 말고 숲속으로 돌진해!"
+                },
+                {
+                    "location": "은신처1 근처 광야",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003는 추적자가 따라오는지 확인하기 위해 뒤를 살핀다."
+                },
+                {
+                    "location": "은신처1 근처 광야",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003는 추적자가 없는 것을 확인한다."
+                },
+                {
+                    "location": "은신처1 근처 광야",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003가 숲속을 향해 달린다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "추적자4"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "단호하다",
+                    "content": "추적자4가 허공에 총을 쏜다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C003가 총 소리에 놀라서 멈춘다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001와 C003가 다른 아이들이 추적자들에게 잡힌 것을 보고 당황한다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "추적자4"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "단호하다",
+                    "content": "추적자4가 C001와 C003에게 총을 겨눈다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C001와 C003가 눈을 질끈 감는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "변질괴물1",
+                "추적자4",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Resurrection",
+            "storyline": "변질괴물1이 추적자들을 모두 죽인다. C003가 변질괴물1을 공격한다. 도망친 아이들은 숲속으로 도망친다.",
+            "unit_motif": "적 제압/퇴치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001와 C003가 이상한 낌새를 눈치챈다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C003가 앞을 보고 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "변질괴물1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "변질괴물1이 숲속에서 걸어 나온다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "추적자4"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "추적자4가 변질괴물1의 발자국 소리를 듣는다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "추적자4"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "추적자4가 뒤를 돌아본다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "변질괴물1"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "무감각함",
+                    "content": "변질괴물1이 추적자4를 죽인다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "변질괴물1"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "무감각함",
+                    "content": "변질괴물1이 남은 추적자들을 모두 죽인다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "도망친 아이들이 그 틈을 타서 도망친다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C015"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "난감하다",
+                    "content": "C015가 변질괴물1에게 활을 쏘지만 빗나간다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "걱정",
+                    "content": "뭐 하는 거야! 빨리 이리로 와!"
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C004가 당황한 표정으로 C015를 본다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C003가 변질괴물1의 눈에 활을 쏴서 맞춘다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "변질괴물1"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "변질괴물1이 괴로움에 몸부림친다."
+                },
+                {
+                    "location": "괴물세계의 숲속 끝",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "도망친 아이들은 숲속으로 도망친다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C021",
+                "괴물3"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "괴물3이 C021에게 도망친 아이들을 잡을 기회를 주겠다고 제안한다. C021는 제안을 받아들인다.",
+            "unit_motif": "적대자들의 속내",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C021가 종교의식1를 치르기 위해 괴물1의 앞에 선다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "괴물3이 꽃1를 괴물4에게 다시 준다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C021가 놀란 표정으로 괴물3을 쳐다본다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "마지막으로 물어볼게. 네게 기회를 준다면 도망칠 아이들을 잡을 수 있겠어?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "당연하죠."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "그럼 잡아 오도록 해."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C021가 놀란 표정으로 괴물3을 쳐다본다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "지금 투입된 추적자들이 도망친 아이들을 잡아오지 못한다면 네게 작전을 지위할 전권을 줄게."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "한 명의 낙오도 없이 모두 잡아온다면 너는 자유다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "자유라니요?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "말 그대로 진짜 자유를 말하는 거야. 모든 통제를 벗어난 자유 말이야."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C021가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이렇게까지 하는 건 최상급이 그만큼 중요하기 때문이야."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "너도 알고 있는 사실 아닌가?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C021가 생각에 잠긴다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "거기에 다른 보상도 추가해 줄게."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "귓속말하다",
+                    "emotion": "담담하다",
+                    "content": "괴물3이 C021에게 뭔가 속삭인다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C021가 괴물3의 말을 듣고 엄청 놀란다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "괴물3"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "어때? 해볼래?"
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "C021가 사악한 미소를 짓는다."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "무슨 일이 있어도 반드시 잡아올게요."
+                },
+                {
+                    "location": "C021의 감방",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "한 명도 빠짐없이요."
+                }
+            ]
+        }
+    ]
+}

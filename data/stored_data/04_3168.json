@@ -1,0 +1,2764 @@
+{
+    "title": "괴물과 맞서 싸워! 5",
+    "genre": [
+        "스릴러",
+        "판타지"
+    ],
+    "theme": "구출",
+    "concept": "C002와 C003, C004, C006, C009은 보육원1에서 도망치려고 한다.",
+    "motif": "감금",
+    "conflict": "C004가 첩자로 밝혀진다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "필",
+        "돈",
+        "C010",
+        "C011"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C004는 첩자임을 부정하고, C003은 자신의 진짜 계략을 알려준다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "긴장되다",
+                    "content": "C003과 C004 사이에 긴장감이 맴돈다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "황당하다",
+                    "content": "C004가 웃는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "내가 첩자라니 무슨 소리야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "알고 있는 거 아니었어? 내가 덫을 놓은 사람이 세 명이라는 거?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "너한테 했던 말 거짓 정보였어. 돈이랑 C006에게 알려준 건 전부 다른 장소야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 말은 이곳 침대 밑은 너만 알고 있다는 거지."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어때? 이제 인정할 마음이 생겼어?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C004가 C003을 무표정하게 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C003도 C004를 무표정하게 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C004가 한숨을 쉬며 침대에 눕는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "짜증나다",
+                    "content": "C004가 웃음을 터뜨린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C004는 자신이 첩자임을 인정하고, 처음부터 모든 것을 알고 있었다고 한다.",
+            "unit_motif": "진실 고백",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "불만족스럽다",
+                    "content": "C004가 무서운 눈으로 C003을 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "뭐야, 걸려 버렸잖아."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C004가 일어나서 앉는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "네 말이 맞아. 바로 나야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "뭐 때문에 나라고 생각했어?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "심란하다",
+                    "content": "C007가 온 게 수상했어. 순간 정보가 새나갔다는 생각이 들더라고."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "그 일을 알고 있는 건 나와 C002, 그리고 너뿐이었잖아."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "아니길 바랐는데 결국 이렇게 됐네."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "아무리 생각해도 적에게 가장 최적의 첩자는 너라는 결론이 내려졌어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "C004가 C003을 빤히 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "바보같이 덫에 걸려버렸네."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "확인하고 싶은 게 있어. 너 말이야, 최근에 첩자가 된 게 아니지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "엄마같이 철저한 사람이 갑자기 첩자를 심을 리가 없지. 오래된 거지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "거부감",
+                    "content": "C003이 C004를 빤히 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "맞아. 한참 됐지. 나는 늘 첩자였어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "배신감",
+                    "content": "C003이 놀란 눈으로 C004를 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "거부감",
+                    "content": "사실을 알고도 엄마를 도운 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "맞아."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "경멸하다",
+                    "content": "C003이 C004를 잡아먹을 듯이 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C003은 C004에게 C001를 배신하고 이중첩자가 되라고 제안한다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "배신감",
+                    "content": "우리가 함께 한 모든 것들이 다 거짓말이었어?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "배신감",
+                    "content": "엄마한테 벌써 다 얘기한 거야? 발신기는 조사하고 있는 거 맞아?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "그게 뭐가 중요해? 이제 나랑은 끝난 거 아냐?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "아니. 안 끝낼 거야. 너는 계속 남아줘야겠어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C004가 고개를 숙인다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "자신감 있다",
+                    "content": "C003이 미소 띤 얼굴로 C004를 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "자신감 있다",
+                    "content": "엄마한테 혼나지 않아도 돼. 첩자를 계속하는 게 간절했던 거잖아? C009을 첩자로 몰고 갈 정도면 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "짜증나다",
+                    "content": "그래서 어쩌라는 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C003이 무표정한 얼굴로 C004를 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "첫째, 지금 이대로 같이 있으면서 우리의 안전을 확보할 것."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "둘째, 우리가 모르는 정보가 있다면 전부 알려줄 것."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "셋째, 엄마를 배반할 것."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004가 놀라서 C003을 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "이중 첩자가 돼줘야겠어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "나를 조커로 사용하겠다? 뭘 믿고? 위험한 발상 아닌가?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "확실히 위험하긴 하지."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "심란하다",
+                    "content": "C003이 잠시 생각에 잠긴다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C004가 무슨 생각인지 모르겠다는 표정으로 C003을 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C003은 C004가 가족이기 때문에 함께 할 거라고 하고, C004를 아군이라고 생각한다고 한다.",
+            "unit_motif": "의심",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "어쩌겠어. 우리는 가족이니까 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "가족이니까 잘못했어도 용서하고 믿어줘야지."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "씁쓸하다",
+                    "content": "C003이 탁자로 가서 앉는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C004가 C003을 빤히 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "하나만 더 확인하자. C005의 인형 말이야. 네가 식당에 놔둔 거지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그리고 나랑 C002가 철창문으로 가도록 유도한 거지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "일부러 모든 걸 목격하게 한 거잖아. 우리가 출하되기 전에 알려주려고 한 거지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C004가 대답 없이 C003을 빤히 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "첩자는 어째서 하는 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "어째서라니?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "네가 엄마와 한 편이라면 굳이 우리를 철창문으로 가게 유도하지 않았을 거야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "오히려 우리를 도와주려고 하는 느낌이야. 엄마로부터 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "단호하다",
+                    "content": "너는 아군인 거지?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "감탄하다",
+                    "content": "C004가 C003의 말에 살짝 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C004는 오래전부터 탈출을 준비해왔고, 발신기를 부수는 방법도 알고 있다고 한다.",
+            "unit_motif": "상황의 전말을 알게 됨",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "누가 시켜서 첩자가 된 게 아니야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "어째서냐고? 이 모든 게 탈출을 위해 미리 마련해둔 무대였어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C003이 놀란 눈으로 C004를 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "정보를 캐내기 위해서도 필요한 물건을 얻기 위해서도 적진에 뛰어드는 게 가장 확실하니까."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래서 엄마에게 접근한 거야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "거부감",
+                    "content": "그렇다고 그렇게 무모한 짓을 한 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "확신이 있었거든. 나 같이 만점만 받는 고급 재료는 쉽게 죽이지 못할 거라는 확신 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "C003이 C004의 말을 집중해서 듣는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "예상대로 엄마는 내 제안을 받아들였어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나는 대가로 출하 일을 연기하고, 물품을 제공받았어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "물품이라니?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "주로 보육원에 없는 물건들을 요구했어. 밖에서 구해다 주더라고."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003이 놀라서 눈을 동그랗게 뜬다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "무기 같은 것만 아니면 전부 구해다 주더라고. 최신식은 아니었지만 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래서 발신기를 네가 확인해 보겠다고 했구나."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "맞아. 이미 본 적이 있거든."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "부수려고 여러 방법을 연구했지. 결과적으로 성공했고 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C004가 단호한 눈빛으로 C003을 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "C003은 당황한 눈빛으로 C004를 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C004는 자신이 진정한 조커라며 C003을 압박한다.",
+            "unit_motif": "상황의 전말을 알게 됨",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "이제 깨달았어? 나는 진정한 조커야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C003이 겁에 질린 표정을 짓는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "네가 생각하는 것 이상으로 나는 많은 걸 알고 있어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "보육원이 어떤 곳인지 알게 된 후부터 대책을 마련해 왔으니까 말이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "괴롭다",
+                    "content": "C004가 머리가 아픈 듯 이마를 짚는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "괴롭다",
+                    "content": "너 괜찮은 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "괴롭다",
+                    "content": "아무도 모르게 철저하게 준비해서 너랑 C002를 철창문으로 보낸 거야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "이 모든 게 너와 C002를 도망치게 하기 위한 거였어!"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C003은 당황한 눈빛으로 C004를 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "나는 아군도 적군도 아니야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "내가 요구하는 것만 들어준다면 이중 스파이든 조커든 다 들어줄 수 있어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "요구하는 것?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C004가 무표정한 얼굴로 C003을 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C004는 C003에게 다 같이 탈출하는 척하면서 둘만 도망치라고 한다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C002에게 거짓말을 해."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003이 놀라서 C004를 쳐다본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "계획은 다 같이 도망치는 걸로 세우지만 실제로는 너랑 C002만 도망치는 거지."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "굳이 누굴 더 넣어야 한다면 C009과 C006까지만이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "다른 애들을 다 버리라는 거야? 술래잡기 훈련 덕분에 다들 실력이 좋아졌는데도?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그래봤자 걸리적거릴 뿐이야."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "단호하다",
+                    "content": "C004는 단호한 눈빛으로 C003을 본다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "어떻게 그래."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "못하겠다면 나도 도와줄 수 없어."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그럼 우리가 죽게 내버려 두겠다는 거야?"
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "어차피 다 같이 도망가면 죽게 돼있어. 어떻게 할지 네가 선택해."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C003이 잠시 생각에 잠긴다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "씁쓸하다",
+                    "content": "C003이 한숨을 쉰다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "씁쓸하다",
+                    "content": "어쩔 수 없지. 그렇게 할게."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "귓속말하다",
+                    "emotion": "단호하다",
+                    "content": "C004가 C003에게 다가가서 귓속말을 한다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "귓속말하다",
+                    "emotion": "단호하다",
+                    "content": "이 약속을 어기면 다 같이 죽는 거야. 명심해."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004가 방을 나간다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "통쾌하다",
+                    "content": "C004는 의기양양하게 미소를 짓는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "심란하다",
+                    "content": "C003은 침대에 앉아서 생각에 잠긴다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "한참을 고민하던 C003은 뭔가 알아챈 듯이 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "괴롭다",
+                    "content": "C003은 입을 틀어막고 괴로워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C004는 C001에게 거짓 보고를 한다.",
+            "unit_motif": "배신",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004가 C001의 방으로 간다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이제 오는 거야?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. C003이랑 있었어."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 얘기 했어?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "특이사항은 없어. 그보다 C007가 더 문제야. 그런 여자는 왜 데려온 거야?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C001가 C004를 내려다본다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "서운하다",
+                    "content": "설마 몇 년이나 엄마의 종노릇을 했는데 아직도 날 못 믿어서 C007를 데려온 거야?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "만에 하나라는 게 있잖아. C002와 C003이 철창문에 간 것도 그중에 하나고 말이야."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "그건 실수였다고 했잖아. 대신 첩자 노릇 제대로 하고 있으니 좀 봐줘."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "이번에 요구한 물건도 꼭 부탁해."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "당연하지. 그건 약속이니까 말이야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C011"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C003은 다 같이 탈출을 시도하다가 C002, C004, 자신이 죽는 꿈을 꾼다.",
+            "unit_motif": "상상",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "자다/잠들다",
+                    "content": "C003이 꿈을 꾼다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절박하다",
+                    "content": "C003이 빛을 향해 도망친다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "다 같이 가는 거야! 알겠지?"
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "절박하다",
+                    "content": "C004! 오고 있어?"
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다치다",
+                    "emotion": "괴롭다",
+                    "content": "C004가 빨간 꽃에 찔려서 피를 흘린다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "다 같이는 무리라고 했잖아."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C003이 빨간 꽃에 찔려서 쓰러진 C002를 발견한다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "C003이 C002에게 달려간다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "괴롭다",
+                    "content": "안돼!"
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "슬프다",
+                    "content": "C003이 C002를 끌어안는다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "듣다",
+                    "emotion": "무섭다",
+                    "content": "C003의 뒤에서 나는 이상한 소리를 듣는다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C003이 뒤를 돌아본다."
+                },
+                {
+                    "location": "C003의 꿈 속 철창문",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "공격하다",
+                    "content": "C011이 C003과 C002를 삼키려고 입을 벌린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "필",
+                "C010",
+                "C002",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C003은 아무 일 없는 듯이 행동하지만 C004를 보고 심란함을 느낀다.",
+            "unit_motif": "시련",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C003이 비명을 지른다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "심란하다",
+                    "content": "C003이 잠에서 깬다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "필",
+                        "C010"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "즐겁다",
+                    "content": "C008과 C010가 C003을 깨운다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "즐겁다",
+                    "content": "일어나."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "심란하다",
+                    "content": "C003이 힘없이 일어난다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "필",
+                        "C010"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C008과 C010가 활짝 웃으며 아침인사를 한다."
+                },
+                {
+                    "location": "보육원1 아이들 남자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C003이 웃으며 C008과 C010를 껴안는다."
+                },
+                {
+                    "location": "보육원1 식당",
+                    "character": [
+                        "필",
+                        "C010",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003과 C008, C010가 식당으로 들어간다."
+                },
+                {
+                    "location": "보육원1 식당",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "반갑다",
+                    "content": "C002가 C003에게 웃으며 인사한다."
+                },
+                {
+                    "location": "보육원1 식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "반갑다",
+                    "content": "C003이 C002에게 웃으며 인사한다."
+                },
+                {
+                    "location": "보육원1 식당",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004가 C003에게 인사한다."
+                },
+                {
+                    "location": "보육원1 식당",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C003이 힘없는 목소리로 C004에게 인사한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C004는 C002에게 자신이 첩자라고 밝힌다.",
+            "unit_motif": "진실 고백",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "담담하다",
+                    "content": "C002, C003, C004가 얘기를 나눈다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "첩자는 찾은 거야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "망설이다",
+                    "content": "C003이 말하기를 망설인다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "응. 내가 첩자야."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003이 깜짝 놀라서 C004를 본다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무감각함",
+                    "content": "C002가 고개를 갸우뚱한다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C002가 갑자기 너였냐며 폭주를 한다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C002가 다시 한참을 생각한다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "근데 나 무슨 말인지 모르겠는데 어떡하지?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "절박하다",
+                    "content": "C003이 다급하게 손을 든다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "내가 알려줄게!"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "유쾌하다",
+                    "content": "C004가 재밌다는 듯 킬킬거린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C004는 다 같이 도망치는 것에 협력하겠다고 거짓말한다. C002는 C004가 지금까지 힘들었겠다며 속상해한다.",
+            "unit_motif": "거짓말",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "정리해보면 첩자이긴 한데 아군이고, 일부러 엄마를 돕는 척하고 있다는 거야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "맞아."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "너랑 C003이 철창문에 다녀온 날 다 얘기해주려고 했었는데 말이지."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "완벽하게 흔적을 남기고 온 것도 모자라서 다 같이 탈출하자고 우기고 말이야."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "죄책감",
+                    "content": "C002와 C003이 찔려서 움찔한다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "엄마한테 걸리는 바람에 상황을 정리할 필요가 있었어."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "그랬구나. 우리가 엎지른 물을 치우고 있었던 거네."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "다 같이 도망가는 건 아직도 싫은 거야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "속상하다",
+                    "content": "C002가 속상한 눈으로 C004를 본다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "지금은 생각이 바뀌었어. 다 같이 도망갈 수 있게 힘내보자."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C002가 이상하다는 듯이 C004를 본다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "평소에 C004 같지 않네. 진심이야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C004의 표정이 굳는다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "왜? 아닌 것 같아?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "기대되다",
+                    "content": "그런 건 아니야. C004가 협조해준다면 잘 된 일이지. 게다가 이중스파이라니 완전 잘 된 거잖아."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "그런데 왠지 좀 서글퍼져서 그래. C004는 그동안 혼자서 힘들었겠구나 싶어서 말이야."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "출하되는 보육원 아이들을 보면서 속상했을 거잖아."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003이 놀란 눈으로 C002를 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C002는 C004에게 다시는 누구도 희생시키지 말라고 한다.",
+            "unit_motif": "의외의 모습",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C002가 C004에게 다가간다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 나 궁금한 게 있어."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "발신기에 대해서는 어떻게 알아낸 거야? 부수려면 실물이 있어야 하는데 어떻게 구한 거야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004와 C003이 놀라서 C002를 쳐다본다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "보육원 아이들 귀에서 직접 빼낸 거야? 출하될 걸 알고 빼내거나 한 거야?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C004가 한숨을 쉰다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "미안. 이상한 걸 물어봤지? 대답 안 해줘도 돼."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "그동안 C004가 실험해준 덕분에 일이 수월해진 거니까."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "비장하다",
+                    "content": "C002가 C004의 손목을 잡는다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그런데 말이야."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C002가 무서운 눈으로 C004를 쳐다본다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "비장하다",
+                    "content": "이제부터는 탈출을 위해서 아무도 희생시키지 마."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "비장하다",
+                    "content": "C002가 C004의 손목을 더 꽉 쥔다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "비장하다",
+                    "content": "이제는 우리가 있으니까 말이야. 알겠지?"
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "난감하다",
+                    "content": "C004가 미소를 짓는다."
+                },
+                {
+                    "location": "보육원1 근처 숲속",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "알겠어. 더는 그러지 않을게. 다 같이 여기서 달아나자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "돈",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C006와 C009은 C002, C003, C004가 자신들을 빼놓고 회의하는 것이 신경 쓰인다. C003은 C004가 자신을 희생하려 한다고 생각한다.",
+            "unit_motif": "의심",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C006와 C009이 멀리서 세 명을 바라본다."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "서운하다",
+                    "content": "무슨 얘기 중일까? 우리도 같이 얘기하면 좋을 텐데 말이야."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "맨날 회의만 하고 탈출은 언제 하는 거냐고! C005가 기다리고 있을지도 모르는데!"
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "어쩔 수 없는 이유가 있지 않을까."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어쩔 수 없는 이유?"
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "심란하다",
+                    "content": "응. 잘은 모르지만 우리가 모르는 뭔가가 있을지도 모른다는 생각이 들어."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C002가 보육원으로 걸어간다."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003과 C004가 조금 뒤에서 따라 걸어간다."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "담담하다",
+                    "content": "C004가 손목을 만진다."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C002한테 혼나고 말았네."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 있잖아. 저번에 얘기할 때 말이야."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "응. 왜?"
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002랑 나를 도망치게 하기 위해서라고 했었잖아. 그럼 C004는?"
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "그때 C002가 C003과 C004에게 달려온다."
+                },
+                {
+                    "location": "보육원1 뒤뜰",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "깜박했다. 너희들한테 알려줄 게 있어."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C006",
+                "C003",
+                "C004",
+                "돈"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C002와 C006는 C001의 방에 본부로 연락하기 위해 마련된 숨겨진 장소가 있다는 것을 알아낸다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "비장하다",
+                    "content": "C002와 C006가 비장한 표정으로 발표를 한다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "나랑 C006가 엄마의 행동을 조사해봤어."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그런데 엄마가 일정한 시간이 되면 아무 데서도 안 보이더라고."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "안 보인다고?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "응. 보육원 어디에서도 안 보이고 마법처럼 없어져."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 생각해본 건데 이 보육원에 숨겨진 장소가 있는 것 같아."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C002가 침대 위에 노트를 올린다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C003, C004, C006, C009이 노트를 본다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "숨겨진 장소라고?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "응. 아마도 이쯤에 있는 것 같아."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C002가 그림으로 설명한다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "엄마 방 구조를 생각해보면 여기 책장을 놓은 부분이 벽이 아닌 것 같아."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "맞아. 엄마가 서재에 들어갔을 때나 화장실에 들어갔을 때 없어졌거든."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 방 안쪽과 복도 쪽 길이를 비교해봤어."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "담담하다",
+                    "content": "C003이 잠시 생각에 잠긴다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "그래서 전에 발로 길이를 재고 있었구나?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C002가 고개를 끄덕인다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런 적이 있었어? 그래서 어땠어?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "길이가 달라. 아마 이곳에 숨겨진 장소로 통하는 문이 있을 거야."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 숨겨진 장소를 왜 만들었을까?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "아마 본부에 몰래 연락하기 위해서 일 거야."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그게 뭐 하는 곳인데?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "보육원에서 일할 사람이나 새로운 보육원 아이들을 제공하는 곳이야."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "돈이 흠칫 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C004",
+                "돈",
+                "C006",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C009은 숨겨진 장소를 찾아서 당장 들어가 보자고 하고, C004는 신중하게 행동해야 한다며 C009을 말린다.",
+            "unit_motif": "조직(소속) 내 갈등",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "혹시 C004는 엄마한테 들어본 적 있어?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "아니. 나도 직접 들어본 적은 없어."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "그럼 가봐야지! 어딘가로 연락할 수 있다면 C005가 어떻게 되었는지 알아낼 수 있을지도 몰라."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "들어가기 어렵지 않을까?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "절박하다",
+                    "content": "그래도 시도는 해 봐야지!"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "거부감",
+                    "content": "C004가 C009을 말린다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "거부감",
+                    "content": "그 장소가 그렇게 위험을 부담할 정도의 가치가 있을까?"
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "게다가 본부하고 연결된 거라면 오히려 우리 계획이 발각될 수도 있어."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "얻는 것보다 잃는 게 많을 거야."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C009이 불만 있는 표정을 짓는다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "걱정",
+                    "content": "C004 말이 맞아. 지금은 몸을 사려야 해."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "응. 엄마만 있었다면 모를까 C007가 있는 지금은 정말 조심해야 돼."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C009이 꿍하게 있는다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C006가 C009을 걱정스럽게 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "돈",
+                "C006"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C009과 C006는 C001의 방을 조사해보기로 한다.",
+            "unit_motif": "조사/정찰",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "난감하다",
+                    "content": "C004가 C009에게 저녁 준비를 부탁한다."
+                },
+                {
+                    "location": "보육원1 아이들 여자방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C009이 짜증 나는 표정으로 방을 나간다."
+                },
+                {
+                    "location": "보육원1 2층 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C006가 C009을 따라 나간다."
+                },
+                {
+                    "location": "보육원1 연결 복도",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C006와 C009이 1층으로 내려간다."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C009이 C001의 방으로 향한다."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 거기로 가?"
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C006가 C009을 따라간다."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "무슨 생각이야. 조심해야 한다고 했잖아."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "난 그런 거 몰라. 엄마가 정말 나쁜 사람인지 내 눈으로 확인하고 싶을 뿐이야."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "비장하다",
+                    "content": "C006가 고개를 끄덕인다."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "돈"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C009이 노크를 한다."
+                },
+                {
+                    "location": "보육원1 1층 복도",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006와 C009은 아무 반응이 없는 것을 확인하고 방으로 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "돈",
+                "C006"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C009과 C006는 C001의 방에서 비밀문을 발견하지만 발각될 위기에 처한다.",
+            "unit_motif": "비밀의 발견/발각",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "초조하다",
+                    "content": "C009이 책장을 만져본다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "꿈쩍도 안 하는데? 진짜 움직이긴 하는 거야?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "초조하다",
+                    "content": "C006는 걱정스러운 눈으로 방문을 주시한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "때리다",
+                    "emotion": "짜증나다",
+                    "content": "C009이 열받아서 책장을 주먹으로 내리친다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C006가 깜짝 놀란다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "왜 안 열리냐고! C005에게 빨리 가지 않으면 무슨 일이 생길지 모르는데!"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "잠깐만, 내가 살펴볼게."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 책장을 살핀다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 천장에 작은 틈새를 발견한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 책장을 밀어 넣는다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C006와 C009이 책장 뒤의 문을 발견한다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C009이 문고리를 돌린다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "안 열려. 열쇠가 있어야 하나 봐."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "그때 C006와 C009은 방문 바깥에서 소리가 나는 것을 듣는다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006",
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C006와 C009은 방문이 열리는 것을 보고 긴장한다."
+                }
+            ]
+        }
+    ]
+}

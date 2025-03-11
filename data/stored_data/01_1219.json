@@ -1,0 +1,3185 @@
+{
+    "title": "내가 너를 구했어",
+    "genre": [
+        "드라마",
+        "코미디"
+    ],
+    "theme": "구출",
+    "concept": "장물 거래 혐의로 재판을 받는 C002는 우연히 기자 C001이 탄 사고 비행기에 도움을 주고 사라진다. C001은 숨은 영웅 C002를 찾지만 C002와 잠깐 만난 C004이 C002 행세를 하며 유명세를 치르며 C001과 사랑에 빠지고 C002는 감옥에 들어가게 된다. 죄책감을 느낀 C004은 자살을 택하게 되고 C002는 자신은 나쁜 사람이니 착한 사람인 C004이 영웅이 되는 것이 맞다 말하며 자신에게 돈을 주고 영웅 행세를 계속 하라 말하며 C004을 구한다.",
+    "motif": "덜떨어진 영웅",
+    "conflict": "장물 거래 혐의로 재판을 받는 C002는 C001이 탄 비행기가 사고로 추락을 한 것을 우연히 도와준다. C001은 방송국을 통해 숨은 영웅 C002를 찾게 되고 C002와 만난 홈리스 C004이 C002 행세를 하게 되며 유명세를 떨치게 되고 C002는 감옥에 들어가게 된다. 죄책감을 느낀 C004은 자살시도를 하고 모든 내용을 쓴 편지를 C001에게 주고 C002는 자신보다 C004이 더 영웅인 것이 맞는다며 자신에게 돈을 주고 계속 영웅 행세를 하라며 C004을 자살위기에서 구한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C002",
+                "변호사"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002는 좀도둑질로 재판을 받는다.",
+            "unit_motif": "도둑",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "초조하다",
+                    "content": "좀도둑질을 한 C002는 재판을 받는다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "긴장되다",
+                    "content": "C002는 변호사가 변론을 하러 나간 사이 변호사의 지갑 안에 돈을 훔친다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기대되다",
+                    "content": "C002는 변호사와 다음 변론에 대해 이야기를 나눈다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "변호사는 좋은 인상을 보여줘야 한다며 C002의 가족관계를 묻는다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 전에 빚진 돈을 갚아 달라는 변호사에게 훔친 돈을 준다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "변호사는 재판 중이니 사고 치면 안 된다고 말한다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 알았다고 말하며 자신은 억울하다고 말한다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "변호사는 다음 재판 날짜를 이야기해준다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 그날은 아들과 동물원을 가야 한다고 말한다."
+                },
+                {
+                    "location": "법원 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "변호사는 재판 날짜를 연기해보겠다고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "아들"
+            ],
+            "stage": "Main Character",
+            "storyline": "C002는 이혼 후 아들을 만나 동물원을 온다.",
+            "unit_motif": "도둑",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 아들과 동물원에서 동물 구경을 한다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "행복하다",
+                    "content": "아들은 아빠와 동물원 온 것을 행복해한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 아들에게 햄버거를 사주며 이혼한 아내의 남자 친구에 대해 물어본다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "아들은 C002의 눈치를 보며 아빠가 더 좋다고 말한다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "받는다",
+                    "emotion": "담담하다",
+                    "content": "C002는 화장실에서 소변을 보며 아들과 이야기를 나눈다."
+                },
+                {
+                    "location": "화장실",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "받는다",
+                    "emotion": "궁금하다",
+                    "content": "아들을 화장실 안에서 지갑을 줍는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "받는다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 관리에서 지갑을 주려는 아들을 말리며 말도 안 되는 논리를 펼쳐대며 얘기를 한다."
+                },
+                {
+                    "location": "식당 밖",
+                    "character": [
+                        "C002",
+                        "아들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 아들에게 세상은 만만치 않다며 헛소리들을 해댄다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 술집 사장과 얘기를 하며 술을 한잔한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "사기꾼들에게 훔친 지갑 안의 카드들을 거래한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "자살하려는 사람이 인터뷰를 하고 자살하자 C001은 구하지 못한 죄책감은 없이 행동한다. C002는 감찰관 앞에서 억울하다고 연기를 한다.",
+            "unit_motif": "출세주의자",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "옥상",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기대되다",
+                    "content": "C001은 증권사 직원을 인터뷰한다."
+                },
+                {
+                    "location": "옥상",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "절망하다",
+                    "content": "직원이 옥상에서 갑자기 뛰어내린다."
+                },
+                {
+                    "location": "옥상",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 뛰어내렸을 때 잘 잡았냐며 카메라 기자에게 묻는다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "방송사 간부는 증권사 직원의 자살 전 화면을 보며 좋아한다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "담담하다",
+                    "content": "C001이 들어와 증권사 직원을 구하지 못한 것에 대해 별 죄책감 없이 이야기를 한다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "자랑스럽다",
+                    "content": "간부는 뉴욕으로 가 기자 상을 받으라고 말한다."
+                },
+                {
+                    "location": "주차장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 장애인 주차 장소에 차를 대고 건물 안으로 들어간다."
+                },
+                {
+                    "location": "감찰관 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "억울하다",
+                    "content": "C002는 감찰관에게 감옥에 가지 않도록 해달라며 변명을 한다."
+                },
+                {
+                    "location": "감찰관 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "안타깝다",
+                    "content": "감찰관은 C002를 안타깝게 바라본다."
+                },
+                {
+                    "location": "감찰관 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 억울하다며 좌절하는 연기를 하며 사무실을 나온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "자살하려는 사람 앞에서도 꿋꿋이 인터뷰를 하는 냉철한 성격의 C001은 올해의 기자상을 받기 위해 시상식에 참석한다. C002는 이웃 남자의 장물을 팔다 아끼는 새 구두를 신고 아들을 만나러 간다.",
+            "unit_motif": "출세주의자",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뿌듯하다",
+                    "content": "C001은 기자상 시상식 장소에서 연설을 한다."
+                },
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "많은 하객들 앞에서 열정적으로 기자의 본분에 대해 말한다."
+                },
+                {
+                    "location": "시상식장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "사람들이 감동을 하며 좋아한다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "자랑스럽다",
+                    "content": "C001은 방송국 간부와 자랑스럽게 전화 통화를 한다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "간부가 자살 사건을 다른 기자에게 맡긴다고 말하자 화를 낸다."
+                },
+                {
+                    "location": "방송국 사무실",
+                    "act": "흥정하다/협상하다",
+                    "emotion": "즐겁다",
+                    "content": "간부는 다른 간부와 화가 난 C001이 오늘 밤 올지 안 올지를 내기한다."
+                },
+                {
+                    "location": "방송국 사무실",
+                    "act": "흥정하다/협상하다",
+                    "emotion": "기대되다",
+                    "content": "웃으며 돈을 건다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 이웃에게 훔쳐 온 물건들을 판다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "기대되다",
+                    "content": "C002는 구매를 망설이는 이웃에게 아들과 약속에 늦었다며 빨리 결정하라 말하며 아끼는 새 구두를 꺼내 신는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 아들을 만나기 위해 비가 오는 거리를 황급히 운전해 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "1st Accident",
+            "storyline": "돌아오는 길에 C001이 탄 비행기가 추락을 하게 되고 그 곁을 지나던 C002는 내키지는 않지만 사람들을 구해주게 된다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "폭풍우가 몰아치자 스튜어디스가 나와 승객들을 안심 시킨다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "C001은 당황한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "난감하다",
+                    "content": "C002는 자동차가 고장 나 길거리에 서게 된다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "놀라다",
+                    "content": "그 앞으로 C001이 탄 비행기가 추락을 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "절박하다",
+                    "content": "사람들은 비행기 안에서 살려 달라 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "망설이다",
+                    "content": "C002는 자신의 새 신발을 보며 어찌해야 될지 고민한다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "emotion": "혼란스럽다",
+                    "content": "비행기 안은 아수라장이다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "emotion": "안타깝다",
+                    "content": "사람들이 도망치기 위해 문을 열지만 문이 열리지 않는다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C002는 살려 달라는 사람들의 소리를 듣곤 비행기로 향한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "살려 달라는 사람들에게 비싼 신발이라며 신발을 벗고 비행기로 다가가 비행기 문을 열어준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C002는 비행기 문을 열어 사람을 구해준다. 아이 하나가 아빠를 찾고 C002는 아빠를 찾으러 갔다가 많은 사람과 C001을 구하며 지갑을 훔친다.",
+            "unit_motif": "구세주 출현",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "괴롭다",
+                    "content": "사람들이 연기로 인해 조금씩 질식해 가기 시작한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "절박하다",
+                    "content": "사람들은 C002가 열어준 문을 통해 도망쳐 나온다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "절박하다",
+                    "content": "아이 하나가 아빠가 다쳤다며 C002에게 도움을 청한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C002는 처음엔 모른 척하다가 자신의 아들이 생각 나는지 도와주겠다고 말한다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "담담하다",
+                    "content": "아이의 아빠를 구하기 위해 들어갔다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "돕다",
+                    "emotion": "담담하다",
+                    "content": "C002는 비행기 안에 쓰러져 있는 급한 사람들을 구해주게 된다."
+                },
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 C001이 의자에 끼어 있는 걸 도와주면서 C001의 지갑을 훔친다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "소방차가 와 불타는 비행기를 진압한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "부탁하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 아이에게 와 아빠를 못 찾겠다 말한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "아이는 울먹이며 아빠를 찾는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "비행기 안에서 플래처를 찾기 위해 돌아다니는 C002는 결국 플래처는 구하지 못하고 다른 사람들만 구하게 된다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "비행기 안",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 플레처를 구하기 위해 다시금 비행기 안으로 들어갔다 다른 사람을 구해 나온다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001은 소방대원에게 치료를 받는다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "기대되다",
+                    "content": "C001은 응급차에 실려 가면서도 자신을 구한 사람을 찾아오라고 말한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "열광하다",
+                    "content": "다른 기자가 자신이 특종을 잡았다며 미친 듯이 좋아한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "emotion": "걱정",
+                    "content": "소방대원은 C001이 충격으로 정신이상인 줄 알고 빨리 병원으로 후송한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "사과하다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 아이에게 와 아빠를 못 찾다며 미안하다고 한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "아이의 아빠가 안심하라고 C002에게 말해준다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "act": "간다/이동한다",
+                    "emotion": "허무하다",
+                    "content": "C002는 허탈해 한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 신발 한 짝이 없어졌다며 괴로워한다."
+                },
+                {
+                    "location": "비행기 밖",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "놀라다",
+                    "content": "게다가 차역시 부서져 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C004"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002는 사람들을 구하고 신발도 잊어버리고 고장 난 차를 이끌고 가다 C004의 도움으로 차를 얻어 타게 된다. C004은 C004에게 자신의 신발을 준다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "억울하다",
+                    "content": "C002는 하염없이 내리는 비를 올려 보며 왜 나한테 그러냐 한탄한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다루다",
+                    "emotion": "안타깝다",
+                    "content": "C002는 차 시동을 걸어보지만 걸리지 않는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "후회하다",
+                    "content": "C002는 괜한 고생을 했다며 고장 난 자동차를 끌고 간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반갑다",
+                    "content": "한참을 자동차를 끌고 가다 홈리스 C004을 만나게 된다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "고맙다",
+                    "content": "C004은 C002를 태워주기로 한다."
+                },
+                {
+                    "location": "C004의차안",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "후회하다",
+                    "content": "C002는 C004의 차에 타 지난밤 비행기 사고에서 사람들을 구해 준 얘기를 해준다."
+                },
+                {
+                    "location": "C004의차안",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "C004은 C002가 영웅이라고 치켜세워준다."
+                },
+                {
+                    "location": "C004의차안",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 태워줘 고맙다며 비싼 신발이라며 남은 신발 한 짝을 C004에게 준다."
+                },
+                {
+                    "location": "C004의차안",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "기대되다",
+                    "content": "C004은 영웅의 신발이라며 소장 가치가 높다며 좋아한다."
+                },
+                {
+                    "location": "C004의차안",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "후회하다",
+                    "content": "C002는 영웅이 아니라 한심한 놈이라며 자신의 행동에 후회를 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "전처"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002는 늦게라도 전처를 찾아가지만 전처는 C002의 변명을 믿지 않는다. C003는 아빠에게 신발을 챙겨준다.",
+            "unit_motif": "덜떨어진 영웅",
+            "story_scripts": [
+                {
+                    "location": "전처 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 전처의 집에 도착을 한다."
+                },
+                {
+                    "location": "전처 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "C002는 C004에게 다시 한번 고맙다고 말한다."
+                },
+                {
+                    "location": "전처 집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다루다",
+                    "emotion": "주눅들다",
+                    "content": "C002는 전처의 집에 초인종을 누른다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "전처는 아들 C003가 얼마나 기다렸는지 아냐며 화를 낸다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "C002는 사정이 생겨서 늦었다 변명을 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "전처는 매번 핑계를 대는 C002가 진절머리 난다며 화를 낸다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "주눅들다",
+                    "content": "아들 C003는 엄마의 눈치를 보며 아빠 C002와 인사를 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C002는 아들에게 사고가 있었다며 사과를 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "전처는 옷은 왜 그 모양이냐며 화를 내며 나가라 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "준다",
+                    "emotion": "걱정",
+                    "content": "아들 C003는 아빠에게 신발을 챙겨준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002는 어젯밤 사건으로 피곤한 몸을 이끌고 일상생활로 돌아간다. C001은 비행기 안에서 사람들을 구해준 후 그냥 가버린 C002를 영웅으로 만들 계획을 세운다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Approaching the threshold(임계점 도달)",
+            "story_scripts": [
+                {
+                    "location": "공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "피곤하다",
+                    "content": "C002는 어젯밤에 사건으로 피곤한 듯 출근을 한다."
+                },
+                {
+                    "location": "공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "사장은 공장에 느지막하게 출근한 C002에게 화를 낸다."
+                },
+                {
+                    "location": "공장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002의 얘기를 하나도 듣질 않는다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "걱정",
+                    "content": "간부들은 병원에 입원해 있는 C001을 찾아온다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "간부들은 C001이 없자 방송국이 안돌아 간다고 푸념한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 특종을 잡았다 말한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001은 자신을 구해준 사람을 영웅으로 만들 생각을 한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001과 간부들은 병원에 입원한 사람들을 찾아다니며 인터뷰를 한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "많은 사람들이 과장되게 이야기를 해대고 있다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002는 쓸쓸하게 거리를 걷는다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "피곤하다",
+                    "content": "C002는 집 안으로 들어와 피곤한 듯 소파에 주저앉는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "전처"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "비행기 사고 당시의 모습들을 편집해 방송하는 C001은 보상금을 내걸며 C002를 찾는다.",
+            "unit_motif": "출세주의자",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만들다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 녹화된 화면을 돌려보며 C002를 찾는다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만들다",
+                    "emotion": "안타깝다",
+                    "content": "하지만 화질이 안 좋아 얼굴을 확인할 수가 없다."
+                },
+                {
+                    "location": "거리",
+                    "act": "만들다",
+                    "emotion": "기대되다",
+                    "content": "사람들은 C002가 영웅적인 행동을 편집한 방송을 본다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "기대되다",
+                    "content": "C001과 방송국 사람들은 보상금을 걸어서 C002를 찾아보자고 말한다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "기대되다",
+                    "content": "방송국으로 C002의 신발을 찾았다는 전화가 걸려 온다."
+                },
+                {
+                    "location": "C003 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C003는 C002의 신발을 찾았다는 뉴스를 보고 있다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C003는 주방으로 내려와 아빠 C002의 얘기를 엄마에게 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "전처의 남자 친구는 C002의 행동이 엄마와 자신과의 관계에 위험한 짓이라 말한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C003는 아빠가 온 날 신발 한 짝만 신고 있는 걸 봤다고 말한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "전처는 C002는 그런 일할 사람이 아니라고 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "변호사"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "우연히 방송을 보게 된 C002는 보상금을 받을 생각에 기뻐한다. C002는 비행기에서 훔친 카드를 거래하다 경찰에게 잡힌다.",
+            "unit_motif": "출세주의자",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "기대되다",
+                    "content": "TV에서 비행기 영웅에 관한 뉴스가 나온다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "담담하다",
+                    "content": "사람들이 와 C002가 훔친 카드를 거래하다 비행기 영웅에게 백만 달러를 준다는 뉴스 얘기를 한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "놀라다",
+                    "content": "C002는 눈이 동그래지며 놀라며 자신이 비행기 영웅이라고 말한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "단호하다",
+                    "content": "하지만 카드 거래하던 사람들이 잠복 경찰이라 바로 체포된다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "act": "말하다",
+                    "emotion": "혼란스럽다",
+                    "content": "비행기 영웅에게 백만 달러를 준다는 뉴스에 방송국이 혼잡해진다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "자신이 그 영웅이라고 소리치는 사람들로 혼란스럽다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "재판을 받던 C002는 변호사에게 백만 달러를 받으러 가야 된다고 말한다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "걱정",
+                    "content": "변호사는 이번 일로 재판이 질 것 같다며 걱정을 한다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "판사는 그 순간 비행기 영웅이 나타났다며 네시 이후로 재판을 미룬다."
+                },
+                {
+                    "location": "법원",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C002는 황당해 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C002의 신발을 가지고 있던 C004은 자신이 C002처럼 말하며 보상금을 받는다. C002는 억울하게 유치장에서 그 모습을 본다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001은 사고 현장에서 찾은 신발과 C004이 가지고 있던 신발을 같은 신발이라며 C004을 인터뷰한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C004은 C002에게 들은 얘기를 마치 자신이 한 일인 양 말한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "기대되다",
+                    "content": "C001과 동료는 C004이 잘 생겼다며 상품성이 있다고 좋아한다."
+                },
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 유치장 안에서 C004의 방송 내용을 들으며 가짜라고 소리 지른다."
+                },
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "주눅들다",
+                    "content": "유치장 안 사람들에게 C002는 구박을 당한다."
+                },
+                {
+                    "location": "간부 사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001과 간부들은 C004에 대해 이야기한다."
+                },
+                {
+                    "location": "간부 사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "비서가 와 C001의 카드를 훔친 사람을 잡았다고 말해준다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀다",
+                    "emotion": "놀라다",
+                    "content": "C004은 호텔 안으로 들어와 놀란다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀다",
+                    "emotion": "기쁘다",
+                    "content": "많은 사람들이 축하 선물을 보내줬다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀다",
+                    "emotion": "행복하다",
+                    "content": "C004은 호텔 욕실에서 목욕을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C004",
+                "C001"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C004은 어디를 가나 영웅 대접을 받는다. C004은 그런 상황이 믿기지 않는 듯한 표정이다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "억울하다",
+                    "content": "C002는 유치장에 누워 괴로워한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "불편하다",
+                    "content": "미용사가 와 C004의 머리를 잘라주고 있다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 얼떨떨한 표정으로 식당 안으로 들어선다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "놀라다",
+                    "content": "사람들이 C004이 들어서자 모두 박수를 쳐준다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "불편하다",
+                    "content": "C004은 C001과 앉아 식사를 한다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "불안하다",
+                    "content": "C004은 현재의 상황이 믿기지 않는 듯한 표정이다."
+                },
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "억울하다",
+                    "content": "C002는 죄수들 틈에 끼어 밥을 먹는다."
+                },
+                {
+                    "location": "식당",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C001과 대화를 나누며 식사를 하는 C004에게 사람들이 와 인사를 해댄다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "놀라다",
+                    "content": "취재진들은 식당을 나서는 C004에게 와 인터뷰를 한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "안타깝다",
+                    "content": "C004의 눈에 부랑자들의 모습이 보인다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C004에게 사인 해달라고 말하는 여자에게 C004은 부랑자들을 도와달라고 부탁하곤 차에 올라탄다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001은 C004을 영웅으로 만드는 일에 치중한다. C002는 유치장 안에서 그 방송을 보며 배 아파한다.",
+            "unit_motif": "거짓된 진술",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "사람들은 호텔에 들어서는 C004에게 인사를 한다."
+                },
+                {
+                    "location": "호텔",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "불편하다",
+                    "content": "C004은 점점 많은 관심들이 부담스럽다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 심성과 외모까지 완벽한 C001에게 칭찬을 한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004은 자신은 베트남전쟁으로 고통으로 많은 방황을 했다고 한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "기대되다",
+                    "content": "C001은 인생 스토리까지 특종인 완벽한 C004에 반하게 된다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "애틋하다",
+                    "content": "C001은 C004에게 그 고통을 잊는데 도움이 되고 싶다고 말한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "애틋하다",
+                    "content": "C001과 C004은 엘리베이터 안에서 키스를 나눈다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 방으로 들어가는 C004에게 과거 베트남 시절 동료들을 찾아갈 거라고 얘기한다."
+                },
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받는다",
+                    "emotion": "억울하다",
+                    "content": "C002는 억울한 표정으로 베트남전에서 C004의 행동들을 미화하고 있는 방송을 보고 있다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "사람들은 돈이 중요하지 않다고 말하는 C004의 인터뷰를 듣고 있다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "C004의 말에 모두들 감탄한 표정이다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "변호사",
+                "C001",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C004은 아프고 힘든 사람들에게 희망과 영웅이 되어 간다.",
+            "unit_motif": "고발",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "유치장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C002는 보석이 신청돼 유치장을 나가게 된다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "안타깝다",
+                    "content": "변호사는 C004의 인터뷰를 보곤 C002의 보석금을 낼 생각이 들었다고 말한다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C002",
+                        "변호사"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 C004을 찾으러 가서 백만 달러를 돌려받겠다고 말한다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C002는 C004을 찾으러 아동 병원으로 향한다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 아동 병동에 와 아이들을 위로해주는 C004을 보게 된다."
+                },
+                {
+                    "location": "병원",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안타깝다",
+                    "content": "C004에게 다가가려 하지만 경찰에 의해 쫓겨난다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "애틋하다",
+                    "content": "C004은 침대에 누워 있는 아이에게 힘을 북돋아 준다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "괴롭다",
+                    "content": "환자 아이가 카메라 조명 때문에 힘들어한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "기대되다",
+                    "content": "C004은 카메라를 꺼 달라고 부탁한다."
+                },
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "애틋하다",
+                    "content": "C004은 환자 아이에게 진심으로 응원한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C002는 보상금을 받아내기 위해 C004을 찾아가지만 접촉하기가 쉽지 않다.",
+            "unit_motif": "고발",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "병실",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "emotion": "감동하다",
+                    "content": "병실을 나서자 C004이 배려 있는 모습에 모두 박수를 보낸다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "열광하다",
+                    "content": "수많은 사람들은 병원을 나서는 C004을 응원한다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "수많은 인파로 길이 막히자 사람들의 요청으로 C004은 연설을 하게 된다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "C004은 자기 돈을 가져간 거라며 소리 지르는 C002의 목소리를 듣곤 당황해한다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불쾌하다",
+                    "content": "사람들은 C004을 욕하는 C002를 무시한다."
+                },
+                {
+                    "location": "병원 밖",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C002는 결국 경찰에 의해 쫓겨난다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C004의 영웅적인 행동에 대한 다큐멘터리를 방송한다는 방송국의 화면이 보인다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "방송국 간부들은 대성공이라고 좋아한다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 좀 더 C004을 영웅처럼 만들어야 한다고 말한다."
+                },
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "방송국 간부들은 특집 다큐멘터리로 방송 현장을 재연해보자 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001은 비행기 사고 당시의 다큐멘터리를 찍으며 뭔가 이상한 점을 느끼게 된다.",
+            "unit_motif": "오해(착각)",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "방송국",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "망설이다",
+                    "content": "C001과 간부들은 C004이 다큐멘터리를 찍지 않겠다고 한 것에 대해 고민을 한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "술집 사장은 C004의 방송을 보고 있다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C002가 와 미안하다고 사과를 하자 쉽게 용서해준다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C002가 황당해 하자 술집 사장은 C004의 방송을 보고 느낀 점이 많았다고 한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001과 C004은 비행기 안에서의 일을 재연한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 C004에게 당시보다 키가 좀 더 커진 것 같다고 얘기를 한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "만들다",
+                    "emotion": "죄책감",
+                    "content": "C004은 뭔가 옳지 않은 일을 한 거 같다고 얘기한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "기대되다",
+                    "content": "C001은 C004에게 수많은 사람들이 C004의 행동에 감명받는다고 설득한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 술집 사장에게 비행기 영웅이 자기라면 어떨 거 같냐고 묻는다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "술집 사장은 자신이나 C002는 그런 행동을 할 사람들이 아니라고 대답한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004"
+            ],
+            "stage": "Defeat",
+            "storyline": "경찰은 C001에게 신용카드를 훔쳐 간 범인의 이야기가 이상하다며 말을 하고 C001도 이상함을 감지하고 취재에 들어간다.",
+            "unit_motif": "오해(착각)",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "반갑다",
+                    "content": "C004은 방송을 끝내고 사람들과 인사를 한다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "놀라다",
+                    "content": "경찰이 C001을 찾아온 것을 보고 놀란다."
+                },
+                {
+                    "location": "스튜디오",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "경찰은 C001에게 조용히 이야기하자고 한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "의심스럽다",
+                    "content": "경찰은 C001의 신용카드를 가져와 C002에게 들은 얘기를 해주며 반신반의한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "C001은 말도 안 되는 일이라며 잘라 대답한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "경찰도 자신들도 그렇게 생각한다고 말하며 하나가 걸린다 말한다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 그 하나가 무엇이냐 묻는다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "경찰은 추가로 회수한 카드 소유자가 모두 사고 비행기 탑승자라는 것이다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001은 특종이라는 듯 놀란다."
+                },
+                {
+                    "location": "사무실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 카드를 훔쳐 간 사람이 누구인지 경찰과 취재를 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "전처",
+                "C002"
+            ],
+            "stage": "Defeat",
+            "storyline": "C002는 자신이 재판에서 패소하여 감옥에 갈 것을 알고 C003에게 안부를 전하고 전처에게 출장을 간다고 둘러댄다.",
+            "unit_motif": "오해(착각)",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "전처는 C002의 전화를 받는다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003를 바꿔 준다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "궁금하다",
+                    "content": "C002의 전화를 받는 C003는 아빠가 비행기 영웅이 맞지 않냐고 물어본다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "C002는 삶이란 복잡하다고 말하며 대답을 피한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C003는 실망한 듯 고개를 숙이며 엄마에게 수화기를 넘긴다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C003는 C004의 다큐를 보고 있다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "전처가 C002와 전화 통화를 하며 C003를 실망시키지 말라고 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C002는 전에 일들을 사과하며 출장 간다고 말한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "안타깝다",
+                    "content": "C003는 아빠의 출장이라는 말이 감옥에 간다는 말이라는 것을 알고 있다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "그 뒤로 C003가 눈물을 흘리고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001은 C004의 집에 들어가 취재를 하다 자신의 시상식에서 받은 상을 발견하고 놀란다. 집주인이 C004이 자살하려 한다는 소식에 놀라 C001은 TV로 상황을 파악한다.",
+            "unit_motif": "자살",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "C002 집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001과 카메라맨은 카메라를 들고 C002의 집으로 온다."
+                },
+                {
+                    "location": "C002 집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "집 주인이 문을 열어준다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "의심스럽다",
+                    "content": "C002는 C002의 집으로 들어와 이것 저것 살펴본다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "소파 안에서 C001이 시상식에서 받은 상을 발견한다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002가 집에 들어오며 C001과 카메라맨을 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 C002에게 상패가 왜 이곳에 있는지 묻는다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C002는 지금 무단 가택 침입을 했다고 화를 낸다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "집 주인 와 C004이 자살하려고 한다고 말해준다."
+                },
+                {
+                    "location": "C002 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 놀라며 TV를 튼다."
+                },
+                {
+                    "location": "주인 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C004이 자살하려고 하는 장면이 TV 뉴스로 나온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001은 C004이 자살하려고 한다는 뉴스를 보곤 C002를 데리고 현장으로 향한다.",
+            "unit_motif": "자살",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "주인 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C001은 C002를 끌고 현장으로 가야 된다고 말한다."
+                },
+                {
+                    "location": "주인 집",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "망설이다",
+                    "content": "C001은 머뭇거리는 C002에게 돈을 주며 데리고 나간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 C002를 데리고 가며 C001이 한 지갑과 카드를 훔친 행위들을 C004이 했다고 착각을 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "의심스럽다",
+                    "content": "게다가 C002가 그 사실을 알고 C004을 협박하는 거라 생각한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "C001은 C002에게 C004에게 가서 사과를 하라고 강요한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "C002는 자신이 사과를 받아야 하는 거라 말한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C001은 뻔뻔하다고 말한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "C002는 뻔뻔한 것은 C004이라 말하며 억울하다 말한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "화나다",
+                    "content": "C001은 범죄자가 거짓말도 뻔뻔하게 한다며 C002를 폄하한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 돈을 더 줘야 간다며 안 주며 내리겠다고 한다."
+                },
+                {
+                    "location": "취재 차량",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "난감하다",
+                    "content": "C001은 C002에게 돈을 더 준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001은 C004을 설득하지만 자신의 모든 고백이 든 편지를 전달하고 C002는 C004에게 다가가 C004을 설득한다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "호텔 앞",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C001은 C002를 끌고 C004이 자살하려는 호텔로 들어간다."
+                },
+                {
+                    "location": "호텔 안",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C002와 C001은 호텔 방으로 들어가 C004이 서 있는 난간을 바라본다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "C001은 호텔 난간에 서 있는 C004을 설득한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C004은 C001에게 미안하다며 편지를 넘겨준다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001은 C004이 한 일을 알고 있다며 C002를 데려왔다고 말해준다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기대되다",
+                    "content": "C002가 난 간에 서 있는 C004에게 다가간다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "짜증나다",
+                    "content": "C002는 카메라를 끄라고 소리를 지른다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 호텔 방 안으로 들어와 TV로 둘의 상황을 지켜본다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C004은 C002에게 미안하다고 사과를 한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C004에게 다가가 말도 안 되는 이야기를 지껄인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "전처",
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C003와 전처는 C002가 방송에 나오자 현장으로 달려간다. C001은 자신을 구해준 사람이 C004이 아닌 C002라는 것을 알게 된다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Last test(마지막 시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 Tv를 통해 C004의 자살 소동을 보인다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "리포터가 C004과 이야기하고 있는 인물이 C002라고 말을 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C003는 엄마를 소리 질러 부른다."
+                },
+                {
+                    "location": "술집",
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "TV에서 C002의 이름이 나오자 C002를 알고 있는 사람들이 다들 놀란다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002는 높은 곳이라 진땀이 나는지 손으로 얼굴에 식은땀을 닦지만 얼굴에 검댕이 묻는다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받는다",
+                    "emotion": "의심스럽다",
+                    "content": "C001은 TV를 통해 얼굴에 검댕이 묻은 C002의 모습을 본다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "인지하다/알게되다",
+                    "emotion": "놀라다",
+                    "content": "C001은 비행기 안에서 자신을 구해줬던 인물이 C002라는 걸 깨닫게 된다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001은 C004을 설득하는 C002를 바라보며 확신을 가지게 된다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "전처는 TV를 보다가 C003에게 옷을 입으라고 한다."
+                },
+                {
+                    "location": "전처 집",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "C003와 전처는 C002와 C004이 있는 난간으로 향한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "전처"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C002는 위급한 상황에서도 커피 두 잔을 시켜 먹는다. C003만이 그 뜻을 할고 전처는 한심해 한다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "전처는 C002를 찾아 자동차를 운전해 간다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C003에게 C002가 돈을 못 벌어서 그렇지 나쁜 사람은 아니라고 얘기를 해준다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 TV를 통해 C002가 손가락으로 둘을 표시하는 걸 보게 된다."
+                },
+                {
+                    "location": "호텔 밖",
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "방송국 사람들이 호들갑을 떨며 C002가 한 행동의 의미를 파악하려고 한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "황당하다",
+                    "content": "전처는 TV를 통해 본 모습이 무슨 말인지 모른다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "한심해 하다",
+                    "emotion": "안타깝다",
+                    "content": "C003는 한숨을 쉰다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "전처는 C003에게 무슨 뜻인지 아는 것이냐 묻는다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "말하다",
+                    "emotion": "부끄럽다",
+                    "content": "C003는 C002가 커피 두 잔을 달라고 한 것이라 말한다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "전처는 C002를 한심해 하며 그 인간이 그렇다며 화를 낸다."
+                },
+                {
+                    "location": "거리",
+                    "character": [
+                        "C003",
+                        "전처"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "전처와 C002는 호텔 앞에 도착해서 걱정스럽게 C002와 C004을 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C001은 자신을 구해준 C002에게 범인으로 몰았던 죄책감을 같고 좀 더 극적으로 만들라는 방송국 간부들에게 퇴사를 알린다. C002는 C004에게 영웅으로 남아 달라 말한다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "호텔 밖",
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "매체들은 C002와 C004의 상황을 보고 하고 있다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 난간에 앉아 C004이 했던 일들이 훌륭한 일이라고 말해준다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "주눅들다",
+                    "content": "C004은 비행기에서 사람들을 구한 건 결국 C002라고 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 C004에게 딴 건 필요 없고 돈만 조금 달라고 말한다."
+                },
+                {
+                    "location": "방송국 사무실",
+                    "act": "요구하다",
+                    "emotion": "단호하다",
+                    "content": "방송국 간부는 C001에게 전화해 좀 더 극적으로 만들라고 요구한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "후회하다",
+                    "content": "C001은 방송국 간부에게 전화를 해 이건 뉴스가 아니라 실제 삶이라고 얘기를 한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "후회하다",
+                    "content": "C001은 지금까지 인간성 없이 살아온 자신에 대해 후회를 한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001은 전화를 끊으며 이제 일을 그만두겠다고 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "C002는 C004의 행동으로 많은 사람들이 변하고 있다고 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "C002는 영웅은 자신처럼 나쁜 사람보다 C004처럼 착한 사람이 해야 한다며 자신을 위해 영웅으로 남아 달라 말한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C004"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C004을 설득해 들어오려는 순간 C002가 미끄러져 난간에 매달리게 되는데 C004이 자신이 떨어질 위기를 감수하고 C002를 구해준다.",
+            "unit_motif": "덜떨어진 영웅",
+            "story_scripts": [
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "보람차다",
+                    "content": "C002는 C004을 설득해 나가기로 한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 아들의 학자금도 달라고 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "고맙다",
+                    "content": "C004은 알았다고 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 좋아하며 나가자고 모든 것이 해결됐다 말한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "놀라다",
+                    "content": "C004과 C002는 나가려고 일어서는 순간 C002가 미끄러지며 난간에 매달린다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "무섭다",
+                    "content": "C002도 벽에 기대어 움직이지 못한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "사람들은 C002를 보며 비명을 지른다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "뻔뻔하다",
+                    "content": "사람들은 C004에게 위험하니 그냥 나오라는 말을 하며 말린다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "만족하다",
+                    "content": "C004은 떨어지는 C002의 손을 잡아 구출해 성공한다."
+                },
+                {
+                    "location": "난간",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "열광하다",
+                    "content": "사람들은 C004의 영웅스러운 행동에 열광한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "C002"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C004은 갑자기 유명인이 돼 힘들었다고 인터뷰를 한다. C001은 C002에게 비공식적으로 구해줘서 고맙다는 인사를 한다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Mentor(스승)",
+            "story_scripts": [
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "C004은 매체 앞에서 자신의 심정을 인터뷰한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C004",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "갑자기 쏟아진 관심이 힘들어 자살을 결심했다고 말한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 C002에게 와 비행기에서 구해준 사람이 당신이냐고 묻는다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C002는 끝까지 자신이 한 일이 아니라고 잡아 땐다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "TV에 C003와 전처가 나와 C002가 좋은 사람이라는 인터뷰를 한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감동하다",
+                    "content": "C002는 C003의 인터뷰를 듣곤 눈물을 흘린다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C001은 아들에게만은 진실을 말하라 이야기한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "나가는 길에 C001은 비공식적으로 구해줘서 고맙단 말을 한다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "별말씀을이라 대답하는 C002를 보곤 C001은 미소 짓는다."
+                },
+                {
+                    "location": "호텔 방",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "emotion": "씁쓸하다",
+                    "content": "C001은 웃으며 나가고 C002 방에 있는 물건을 훔치려다 포기한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C002",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "아들은 C002에게 진실을 듣곤 아빠를 우러러본다. 동물원에서 위험에 빠진 사람을 보고 C002는 영웅처럼 뛰어든다.",
+            "unit_motif": "덜떨어진 영웅",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 로비로 와 C004에게 스스로 영웅이라고 생각하냐는 질문을 한다."
+                },
+                {
+                    "location": "호텔 로비",
+                    "character": [
+                        "C001",
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C004은 모두가 다 영웅이라고 대답한다."
+                },
+                {
+                    "location": "방송국 사무실",
+                    "act": "추켜세우다",
+                    "emotion": "감동하다",
+                    "content": "방송국 간부들은 C004의 인터뷰를 보곤 감명을 받는다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002는 동물원에 가 C003에게 진짜 있었던 일들을 고백한다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "어떻게 그럴 수 있냐고 묻는 C003에게 C002는 그냥 그렇게 됐다고 대답한다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "절박하다",
+                    "content": "아줌마가 순간 동물원에 딸이 빠졌다며 소리를 지른다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "기대되다",
+                    "content": "C003는 아빠인 C002를 바라본다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "자신감 있다",
+                    "content": "C002는 한숨을 쉬며 신발이 비싼 거라며 신발을 벗고 우리 안으로 향한다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C002는 우리 안에서 호랑이가 나오자 비명을 지른다."
+                },
+                {
+                    "location": "동물원",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "C002는 역시 자신은 영웅 따위는 아니라며 살라 달라며 소리를 지른다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3912 @@
+{
+    "title": "찾아라! 세계의 진실 6",
+    "genre": [
+        "스릴러",
+        "판타지"
+    ],
+    "theme": "구출",
+    "concept": "C001와 C003는 괴물의 세계에서 탈출하기 위해 고군분투한다.",
+    "motif": "탈옥",
+    "conflict": "C001는 C002의 괴물 말살 계획에 반대한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "돈",
+        "냇",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C015",
+        "C016",
+        "C017",
+        "C018",
+        "C019",
+        "C020",
+        "C021",
+        "C022"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001와 C003가 C002과 재회한다. C001와 C003는 기쁨의 눈물을 흘린다.",
+            "unit_motif": "재회",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "울다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 믿기지 않는다는 표정으로 눈물을 흘린다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "애틋하다",
+                    "content": "진짜 C002이야?"
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 애틋한 표정으로 고개를 끄덕인다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 C002에게 안긴다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 C001를 꼭 껴안는다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "너무 보고 싶었어. 건강해 보여서 다행이야."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "네가 살아 있다니 믿기지가 않아."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "애틋하다",
+                    "content": "이거 진짜지? 꿈 아니지?"
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 C002의 얼굴을 만진다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "출하돼서 죽을 줄로만 알았어. 어떻게 된 거야?"
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C002이 씁쓸한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "씁쓸하다",
+                    "content": "나는 특이하게 다른 곳으로 보내졌어."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 C001의 얼굴을 만진다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C002이 C001의 귀가 없는 것을 발견하고 놀란다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어떻게 된 거야?"
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "탈출하다가 그렇게 됐어. 그래도 C003도 구하고 잘 도망쳐 나왔어."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C003가 C002에게 다가간다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "반갑다",
+                    "content": "C002이 반가운 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "때리다",
+                    "emotion": "비장하다",
+                    "content": "C003가 C002의 뺨을 때린다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 깜짝 놀란다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "인사가 너무 과격한 거 아니야? 탈출쇼는 잘 즐겼어?"
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "울다",
+                    "emotion": "애틋하다",
+                    "content": "C003가 눈물을 흘린다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "그래. 아주 잘 즐겼어."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C003가 C002과 C001를 꽉 껴안는다."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "얼굴 보니까 너무 좋다. 다시는 헤어지지 말자."
+                },
+                {
+                    "location": "괴물 마을의 주택가",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "그래. 그러자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010가 C002과 재회한다.",
+            "unit_motif": "재회",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C003가 C002을 버려진 성으로 데려간다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010가 놀란 눈으로 C002을 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "이거 꿈 아니지?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "진짜 C002이야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C011",
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기쁘다",
+                    "content": "C011, C014, C013가 C002에게 달려간다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "살아 있었구나. 정말 잘 됐어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어떻게 살아 있는 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 애틋한 눈으로 C011, C014, C013를 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "못 본새에 많이 컸네."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 인원이 이 게 다야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "씁쓸하다",
+                    "content": "다른 아이들은 보육원에 남겨뒀어. 준비되는 데로 구하러 가려고 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C002이 고개를 끄덕인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C004",
+                "C001",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002은 실험장1에서 실험을 당했다고 한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "펜은 사용해 봤어?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "씁쓸하다",
+                    "content": "응. 펜으로 은신처1까지 갔었는데 추적자들이 쳐들어왔어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "씁쓸하다",
+                    "content": "힘들게 도망쳐 나왔어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "그런 일이 있었구나."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 무슨 일이 있었던 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C002이 잠시 생각에 잠긴다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "씁쓸하다",
+                    "content": "C002이 가슴에 새겨진 인장을 보여준다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010가 인장을 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나는 실험장1이라는 실험장에 있었어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "실험장이라고?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈",
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C007과 C001가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 출하되는 날 나는 실험장1로 넘겨졌어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "실험장1에서는 식용 어린이에게 실험을 하는 곳이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "좀 더 쉽게 최상급으로 만들기 위한 실험을 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그 실험의 부작용으로 신체가 이상적으로 발달하기도 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래서 아까 괴물을 손쉽게 죽인 거구나."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "응. 다들 실험장1에 있었던 사람들이야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C011",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002은 실험장1을 탈출했다고 말한다. 그리고 자신을 도와준 사람은 죽었다고 말한다. C004는 자신들을 도와주는 어른이 이제 없다는 사실에 우울해한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "너는 괜찮은 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "걱정",
+                    "content": "C001가 걱정스러운 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 나는 다행히 투약 없이 간단한 시험 정도만 받아서 걱정 안 해도 돼."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그럼 거기서 어떻게 탈출한 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "윌리엄 미네르바가 동료를 보내줬어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "덕분에 탈출할 수 있었어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "윌리엄 미네르바의 동료?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 펜을 크로네에게 전달한 사람이야. 안타깝게도 죽었지만 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "슬프다",
+                    "content": "C001, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010가 슬픈 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "우울하다",
+                    "content": "윌리엄 미네르바와 그 동료까지 지금은 없는 거구나."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "우울하다",
+                    "content": "C004가 우울한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "C014",
+                "돈",
+                "C001",
+                "C009"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002은 괴물이 인간을 먹어야만 인간의 형태와 지능을 보존할 수 있다고 말한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "하지만 이제 우리에게도 충분한 정보가 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "실험장1에 있을 때 모은 정보를 토대로 괴물을 변질되게 만드는 방법을 알아냈거든."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C003가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "변질된다고?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "응. 그동안 궁금하지 않았어?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "괴물은 다른 음식도 먹을 수 있으면서 왜 굳이 사람을 계속 죽이는 건지 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C014가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "따로 이유가 있는 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "응. 안 먹으면 보전할 수 없거든."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "뭘 보전해야 하는데?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "괴물마다 외형이 천차만별인 건 알고 있을 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 이유는 먹은 생물의 모습과 지성을 습득하기 때문이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "결국 괴물은 인간을 먹어야 인간과 동일한 지능을 가질 수 있다는 말이지."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "뇌에 집착한 이유가 그거구나."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "맞아. 그래서 계속 시험을 보게 하면서 똑똑한 두뇌를 만들어 내려고 한 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001",
+                        "C009"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001와 C009가 씁쓸한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C010",
+                "C003",
+                "C002",
+                "C001"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C002은 괴물을 전멸시키겠다고 한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "괴물이 인간을 먹지 못하면 모두 숲속에서 본 변질 괴물처럼 되는 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "그런데 변질 괴물도 무섭잖아."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "걱정",
+                    "content": "C010가 걱정스러운 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "담담하다",
+                    "content": "아니야. 지능이 있는 상대와 없는 상대는 천지차이거든."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "비장하다",
+                    "content": "응. 게다가 변질 괴물은 동족을 알아보지 못하기 때문에 서로 죽이게 돼."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 변질되게 만드는 약을 계속 만들고 있는 중이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이미 꽤 많이 만들어서 이 마을은 언제든 우리가 점령할 수 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "변질된 괴물은 예전으로 다시 돌아갈 수 없게 돼."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그럼 괴물들은 서로 죽이게 될 거고 우리는 괴물들로부터 해방되는 거지."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그동안 계속 고민해봤어. C001가 했던 말을 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "어떻게 하면 이곳에서 인간이 살아남을 수 있을지 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 나는 결심했어. 이곳을 인간이 행복하게 살 수 있는 곳으로 바꾸겠다고 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우리 다 같이 살아남자. 한 명도 빠짐없이 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그러기 위해서는 반드시 괴물을 전멸시켜야 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001는 C002의 말에 혼란스러워한다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이 세계를 끝내고 우리가 새로운 세계를 창조하자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C001",
+                "C002",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010는 C002의 계획에 기뻐한다.",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010가 기쁨에 환호성을 지른다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "이거면 동생들을 구할 수 있어!"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "무서운 괴물과 작별하는 거야!"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "정말 잘 됐어. 이걸로 C001도 부담감을 덜게 됐어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 눈빛으로 C004를 본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "응. 더 이상 아무도 희생하지 않아도 되는 세상으로 만들어 보자."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 C001를 보며 미소 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001는 혼란스러운 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "C004, 돈, C005, C006, 냇, C009, C011, C012, C013, C014, C015, C016, C010가 기쁜 표정으로 C001를 본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "정말 다행이야!"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기쁘다",
+                    "content": "C009가 C001에게 묻는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기쁘다",
+                    "content": "정말 다행이지?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "응. 다행이다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009",
+                        "C001"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C009와 C001가 꼭 껴안는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C003가 그런 C001를 빤히 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "돈",
+                "C009",
+                "C003",
+                "C005",
+                "C006"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002은 언제든 계획을 실행할 수 있다고 한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "단지 한가지 문제는 시간이 촉박하다는 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "본부와 실험장1에서 우리를 계속 추적하고 있으니까 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "곧 이 마을을 수색할 거라고 알고 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "진짜?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "들키는 건 시간문제네."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009",
+                        "돈"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "걱정",
+                    "content": "C009와 C007이 걱정스러운 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 최대한 빨리 계획을 시작하려고 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "준비는 다 된 거야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "응. 바로 내일이라도 시작할 수 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "그렇게 빨리?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "대단하다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C005",
+                "C006",
+                "C014",
+                "C013",
+                "돈",
+                "C009",
+                "C015",
+                "C016",
+                "냇",
+                "C011",
+                "C003",
+                "C001",
+                "C010",
+                "C012"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C002은 자신의 포부를 얘기한다. C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010는 그런 C002을 자랑스러워한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이 마을부터 시작할 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "여기서 괴물들에게 어느 정도 영향을 미치는지 확인하고, 바로 다른 마을도 전부 공격하려고 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C005와 C006이 C002을 자랑스럽게 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "괴물들을 전멸시키고 보육원 아이들을 구하러 가자."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C014",
+                        "C013"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C014와 C013가 C002을 자랑스럽게 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이 세계에 존재하는 보육원은 전부 없앨 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "돈",
+                        "C009"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C007과 C009가 C002을 자랑스럽게 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우리는 더 이상 식용 어린이가 아니야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C015",
+                        "C016"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C015와 C016가 C002을 자랑스럽게 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "온전한 사람으로 이 세계에서 살아가는 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "냇",
+                        "C011"
+                    ],
+                    "act": "보다",
+                    "emotion": "자랑스럽다",
+                    "content": "C008과 C011이 C002을 자랑스럽게 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "냇"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "C002은 정말 대단해. 우리는 그저 하루하루 살아가는 것도 힘들었는데 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C003가 담담한 표정으로 C002을 바라본다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "C002 덕분에 다시 희망이 생겼어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001가 씁쓸한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "그동안 여기서 얼마나 고생이 많았어. 곧 거처도 더 좋은 곳으로 옮기자. 은신처1 같은 곳으로 말이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "감탄하다",
+                    "content": "진짜?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "신난다!"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C011",
+                        "C012",
+                        "C016",
+                        "C010"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "기쁘다",
+                    "content": "C011, C012, C016, C010가 기뻐하며 C002에게 안긴다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "애틋하다",
+                    "content": "C002이 C011, C012, C016, C010를 보며 미소 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001는 그런 C002을 보며 혼란스러워한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C002"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001는 C018를 생각하며 혼란스러워한다. C003는 그런 C001의 생각을 눈치챈다.",
+            "unit_motif": "감정을 부정",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 입구",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001와 C003가 C002을 마중한다."
+                },
+                {
+                    "location": "버려진 성의 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나를 만나려면 여기로 오면 돼."
+                },
+                {
+                    "location": "버려진 성의 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C002이 C001에게 쪽지를 준다."
+                },
+                {
+                    "location": "버려진 성의 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받는다",
+                    "emotion": "담담하다",
+                    "content": "C001가 쪽지를 받는다."
+                },
+                {
+                    "location": "버려진 성의 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "알겠어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "혼란스럽다",
+                    "content": "C001와 C003가 망루에서 대화를 나눈다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "슬프다",
+                    "content": "C001는 C018가 준 펜던트를 슬픈 눈으로 바라본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "뭔가 아직도 실감이 C009. C002이 살아 있다는 게 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "죽은 게 아니었다니 얼마나 다행인지 몰라."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "C003가 냉랭한 목소리로 묻는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "진짜 그렇게 생각해?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 눈빛으로 C003를 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C002의 계획을 탐탁지 않아 하는 것 같아서 하는 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "당황하다",
+                    "content": "C001가 어색하게 웃는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "탐탁지 않다니 무슨 소리야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "괴물이 사라지는 건 좋은 거잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "마음에 없는 소리 하지 마."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 눈빛으로 C003를 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001는 괴물을 죽이고 싶지 않다고 한다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "난감하다",
+                    "content": "나 좀 이상하지?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "슬프다",
+                    "content": "C001가 슬픈 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C003가 걱정스러운 눈빛으로 C001를 본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "사실은 괴물을 죽이는 게 싫어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "황당하지? 그 게 모두가 바라는 건데 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "심지어 모두들 내가 짐을 덜었다며 좋아해 줬어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "그런데 난 왜 이렇게 생겨먹은 걸까?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "괴물은 우리에게 위험한 존재라는 걸 알지만 그래도 싫어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001가 씁쓸한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "나는 알아 버렸으니까. 괴물도 인간과 똑같은 생각을 하고 가족을 소중히 여긴다는 걸 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "심란하다",
+                    "content": "그런데 서로 싸우게 하는 게 맞는 걸까? 전멸시키는 게 최선일까?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "게다가 C018는 사람을 먹지도 않잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "C001가 속상한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001는 어떻게 해야 할지 모르겠다며 C003에게 도움을 청한다. C003는 자신도 모르겠다고 한다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그렇게 생각하면서 아까는 왜 가만히 있었어?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "슬프다",
+                    "content": "C001가 슬픈 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "싸우기 싫다고 말할 수가 없었어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "모두가 C002의 계획에 그렇게 기뻐하는데 어떻게 말해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C003가 C001를 빤히 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "그리고 어차피 우리가 인간의 세계로 도망치면 결과는 마찬가지야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "인간을 먹지 못하는 괴물의 세계는 결국 몰락하겠지."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "인간도 괴물도 살 수 있는 방법은 도저히 못 찾겠어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "심란하다",
+                    "content": "내가 어떻게 해야 될까?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C003가 한숨을 쉰다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "그걸 나한테 물으면 어떡해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "C002을 설득시킬 다른 대안이 없잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "어떻게 못 하겠는데?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "단호하다",
+                    "content": "C003가 C001를 단호한 표정으로 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001가 C003에게 도와주지도 않을 거면서 왜 물어봤냐며 화를 낸다.",
+            "unit_motif": "조직(소속) 내 갈등",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C001가 황당한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "아니, 정말 모르겠네. 이럴 거면 왜 물어봐서 사람 마음을 들쑤시는 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "대책이 있어서 물어본 거 아니야?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "아닌데."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "해 줄 말이 있었던 거 아니야?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "아닌데."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "짜증나다",
+                    "content": "C001가 짜증 나는 표정으로 머리를 쥐어뜯는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "짜증나다",
+                    "content": "아니 그럼 뭐 하러 일부러 물어본 거야!"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "짜증나다",
+                    "content": "힘들게 마음 다잡고 있었는데 방해하지 말란 말이야!"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "짜증나다",
+                    "content": "C001가 발을 동동 구르며 짜증을 낸다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C003가 어이없다는 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C003는 C001에게 솔직히 얘기하라고 조언한다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그래봤자 결국 드러낼 거잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 눈으로 C003를 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "마음 못 잡고 다 드러낼 거잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001가 씁쓸한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "진짜 다잡은 거면 나한테 끝까지 얘기하지 말았어야지."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그런 마음을 꽁꽁 싸매고 있다가는 나중에 주체 못 할 지경에 이를 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "게다가 너라면 분명히 최악의 타이밍에 다 엉망진창으로 만들게 뻔해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 찔리는 듯 깜짝 놀란다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그런 상황이 벌어지면 모두가 위험에 빠지게 될 수도 있어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "차라리 솔직하게 얘기하고 맞서는 게 낫다고 생각해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "보통 문제가 아니잖아. 목숨이 달린 거니까 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "어쭙잖은 기분으로 넘기면 평생 미련이 남을 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 고개를 끄덕인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C003는 C002이라면 이해해 줄 거라고 말한다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "솔직히 난 이대로도 상관없지만 너는 납득이 안되는 거잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그러니까 태도를 확실히 해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "네가 원하는 게 뭐야?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "싸우고 죽이는 건 싫어. 그런데 다른 대안이 없으니까 머리가 복잡해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "C001가 속상한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럼 일단은 C002에게 네 기분을 얘기해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "대책 없이 그냥 얘기하라고?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "그럼 다 터진 다음에 얘기할래?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "단호하다",
+                    "content": "우리 셋은 각별한 친구잖아. 뭘 그렇게 망설이는 거야. C002이라면 네 얘기를 제대로 들어 줄 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "고맙다",
+                    "content": "알겠어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "고맙다",
+                    "content": "C001가 C003를 보며 미소 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001와 C003는 C017와 C018처럼 인간을 먹지 않고도 지성을 유지하는 괴물이 있다는 것을 C002에게 얘기하기로 한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "그리고 우리는 무시할 수 없잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C003가 C001의 손에 있는 펜던트를 본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C017와 C018 말이지?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "궁금하다",
+                    "content": "응. 괴물이 인간을 먹어야만 형태와 지능이 유지된다면 그 둘은 뭔가 이상해."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "맞아. 인간을 먹지 않는데도 인간과 흡사했어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 둘이 인간을 먹지 않는 게 사실이라면 분명 다른 방법이 있는 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C003가 비장한 눈빛으로 C001를 바라본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "그럼 인간과 괴물이 모두 살 수 있는 방법이 있을 수도 있어."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 그런 괴물이 있다는 건 모르고 있겠지?"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "그건 나도 모르지. 하지만 이건 C002에게도 중요한 문제야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 표정으로 C003를 본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그런 괴물에게는 C002의 약이 무용지물이 될 수도 있으니까 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그렇겠네."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "만약 C002이 알고 있다면 그 사실을 가지고 다른 대안을 논의해 볼 수 있을 거야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "C001가 기쁜 표정으로 C003를 쳐다본다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "빨리 얘기하지 않으면 소용없어. C002은 곧 계획을 실행할 테니까 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "솔직히 나는 괴물도 전부 살리는 것에는 회의적이야. 그래도 C017와 C018는 생명의 은인이잖아."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그러니 내가 도와줄게. 난 너를 믿으니까 말이야."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "애틋하다",
+                    "content": "C003가 C001를 보며 미소 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 C003를 보며 미소 짓는다."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "미련 없이 할 수 있는 건 다 해보자."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "응! 정말 고마워. 완전 마음이 가벼워졌어!"
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "진짜 단순하다니까."
+                },
+                {
+                    "location": "버려진 성의 망루",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C003가 황당한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C021",
+                "C022",
+                "C020"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001와 C003는 C002의 은신처로 찾아간다. 그곳에서 C021, C020, C022를 만난다.",
+            "unit_motif": "새로운 만남",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "궁금하다",
+                    "content": "C001와 C003가 숲속에서 C002의 은신처를 찾는다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003가 C002의 은신처 앞에 도착한다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001가 문을 두드린다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C021",
+                        "C022",
+                        "C020"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "담담하다",
+                    "content": "C021와 C022, C020가 그런 C001와 C003를 발견한다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "너네는 저번에 본 대장의 소꿉친구 맞지?"
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001와 C003가 자신을 소개한다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "어제는 정말 감사했어요."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "그때 괴물을 죽인 애는 잠깐 외출했어."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "대장도 같이 나갔으니까 안에서 기다리는 게 좋겠다."
+                },
+                {
+                    "location": "C002의 은신처 입구",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C021",
+                        "C022",
+                        "C020"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001와 C003, C021, C020, C022는 안으로 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C020",
+                "C001",
+                "C021",
+                "C022"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 C002이 그동안 많은 사람들을 구해왔다는 사실에 놀란다.",
+            "unit_motif": "상황 설명",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "혹시 대장을 놀릴만한 추억거리 없어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "놀릴만한 거는 없고 감기에 자주 걸려서 양호실에 누워 있었던 적이 많아요."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C021가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그랬구나. 뭔가 묘한 기분이네. 실험장1에서부터 우리가 봐온 이미지는 무적의 천재소년이었거든."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "content": "하긴, 생각해보면 마음이 따뜻하긴 해."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "왜냐면 우리도 전부 대장이 구해준 거거든."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "응. 우리뿐만 아니라 다른 보육원에 있던 애들도 구해줬어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "요즘 괴물이 보육원을 기습한다는 소문이 있지? 사실 우리가 그런 거야. 애들을 빼돌리려고 말이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "대장은 모두를 구하려고 매일 노력하고 있어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "자랑스럽다",
+                    "content": "C022가 자랑스러운 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C022",
+                "C020",
+                "C003",
+                "C001",
+                "C021"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001와 C003, C022, C021, C020는 C002에 대해 얘기하며 즐거워한다.",
+            "unit_motif": "의외의 모습",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C022가 탁자에 차를 놓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "나는 C020고, 저 여자애가 C021, 얘는 똑똑함을 담당하고 있는 C022야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "반가워요."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 C002이 대장인가요?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 그런데?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C003와 C001가 당황한다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "저희가 아는 C002이랑 안 어울리는 호칭이라 좀 놀랐어요."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그래? 예전에는 지금이랑 달랐어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C021가 C001에게 다가간다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "소꿉친구라며? C002은 어떤 친구였어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 천재이자 다정하고 따뜻한 친구였어요."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "다정해?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "따뜻하다고?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020",
+                        "C021"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "유쾌하다",
+                    "content": "C020와 C021가 폭소를 터뜨린다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020",
+                        "C021"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "전혀 다르잖아!"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "지금은 아니에요?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020",
+                        "C021",
+                        "C022"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C020와 C021, C022가 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "냉정."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "차가움."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "황제."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C003가 마시던 차를 뿜는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C001가 황당한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C020",
+                "C021",
+                "C003",
+                "C001",
+                "C022"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C021와 C020는 괴물을 증오하며 빨리 전멸시키고 싶다고 말한다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "빨리 괴물을 전멸시키는 그날이 왔으면 좋겠어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "요즘 내 삶의 낙은 괴물을 죽이는 거거든. 정말 통쾌하다니까."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "경멸하다",
+                    "content": "C021가 고기를 뜯어 먹는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "경멸하다",
+                    "content": "맞아. 이렇게 죽여서 먹을 때마다 보상받는 기분이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "거부감",
+                    "content": "C003가 거북한 표정으로 C021의 고기를 바라본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "거부감",
+                    "content": "그 고기도 괴물인가요?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "맞아."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "경멸하다",
+                    "content": "왜 우리만 잡아먹혀야 해? 괴물들이 우리에게 한 짓을 생각하면 정말 참을 수가 없어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "경멸하다",
+                    "content": "지금도 매일 악몽에 시달려."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "우울하다",
+                    "content": "C021가 침울한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "정말 무자비한 놈들이었지."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "너무도 많은 아이들이 희생됐어. 벌레만도 못한 취급을 받으면서 말이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "화나다",
+                    "content": "C021가 화난 표정으로 고기를 꽉 쥔다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "경멸하다",
+                    "content": "죽이기만 하는 걸로는 성에 안 차."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "말하다",
+                    "emotion": "경멸하다",
+                    "content": "똑같이 고통받아야 해."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C021",
+                "C020"
+            ],
+            "stage": "Defeat",
+            "storyline": "C021는 C001의 난감한 표정을 보며 화를 낸다.",
+            "unit_motif": "말싸움/의견충돌",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C001가 난감한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "부수다",
+                    "emotion": "화나다",
+                    "content": "C021가 C001 앞에서 고기를 박살 낸다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "화나다",
+                    "content": "왜 그런 표정을 짓는 거야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 표정으로 C021를 본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "화나다",
+                    "content": "전혀 기뻐 보이지 않는데?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "화나다",
+                    "content": "설마 괴물을 죽이는 게 맘에 들지 않는 거야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "화나다",
+                    "content": "그러고 보니 대장은 왜 찾아온 거야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "경고하다",
+                    "content": "C021가 무서운 표정으로 C001에게 경고한다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "화나다",
+                    "content": "혹시라도 말도 안 되는 소리를 지껄이면서 계획을 방해하면 가만 안 둬."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C021가 화를 내며 C001에게 소리 지른다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "단호하다",
+                    "content": "진정해."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C021가 계속 소리를 지른다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "보다",
+                    "emotion": "화나다",
+                    "content": "C020가 화난 표정으로 C021를 본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "화나다",
+                    "content": "진정하라고 했잖아."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C021가 밖으로 나가버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C022",
+                "C020",
+                "C002",
+                "C001"
+            ],
+            "stage": "Defeat",
+            "storyline": "C022와 C020는 C021와 같은 생각이라고 한다. 그때 C002이 은신처로 돌아온다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C022가 C001에게 사과한다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C021가 무례하게 굴어서 미안해. 하지만 우리도 생각은 동일해. 괴물은 반드시 전멸시켜야 해."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "지금도 보육원에 있는 아이들은 희생되고 있어. 한시라도 빨리 도움을 줘야 해."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "너희도 빨리 가족들을 구하고 싶지? 그렇다면 괴물을 전멸시키는 게 최선의 방법이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "열다",
+                    "emotion": "담담하다",
+                    "content": "그때 C002이 문을 열고 들어온다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C002이 C001와 C003를 발견한다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "있잖아."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "담담하다",
+                    "content": "C002이 C001의 말을 막는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "먼저 처리해야 할 일이 있어서. 조금만 기다려줘."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002",
+                        "C020",
+                        "C022"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002과 C020, C022가 밖으로 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001는 복수를 위해 괴물을 모두 죽이는 건 이상하다고 말한다.",
+            "unit_motif": "모순 지적",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "씁쓸하다",
+                    "content": "C001가 씁쓸한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C003가 C001를 걱정스러운 눈으로 바라본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "많이 놀랐지?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "씁쓸하다",
+                    "content": "괜찮아."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C001가 눈앞에 부서져 있는 고기를 본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "C021는 고기를 먹는 게 아니야. 복수를 하고 있는 거야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "괴물에게 복수하는 게 목적은 아니잖아. 가족과 다 같이 안심하고 살아가는 게 중요한 거 아니야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "물론 괴물이 지금까지 우리를 죽여왔고 그 사실에 화가 나는 건 사실이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "하지만 이건 아니잖아."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "C001가 속상한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "응. 하지만 저 사람들도 이해는 돼. 그만큼 힘들었던 거겠지."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "힘들었던 만큼 미워하게 되고 미움이 쌓여서 복수를 낳은 거겠지."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "모든 싸움은 그렇게 시작되는 거니까 말이야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001와 C003는 괴물 중에 인간을 먹지 않고 지성을 유지하는 괴물이 있다고 말한다. C002은 사실을 아는 듯 괴로운 표정을 짓는다.",
+            "unit_motif": "정보 획득",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002이 들어온다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "미안하다",
+                    "content": "기다리게 해서 미안해. 무슨 일로 왔어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "하고 싶은 말이 있어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "긴장되다",
+                    "content": "네가 알고 있는 정보와 우리가 알고 있는 정보로 회의를 하고 싶어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "담담하다",
+                    "content": "응. 그러자."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002이 약병을 꺼낸다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이 게 괴물을 변질시킨다는 약이야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응. 그 약이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C001가 걱정스러운 눈빛으로 C002을 본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "심란하다",
+                    "content": "이 약이 모든 괴물을 변질 시킨다는 게 확실한 거야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그게 무슨 뜻이야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "괴물 중에는 인간을 먹지 않고도 인간과 같은 모습을 유지할 수 있는 괴물이 있어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그런 괴물에게는 소용없지 않을까 하는 생각이 들어서 말이야."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C002이 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그 사실은 어떻게 알았어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어디서 전해 들은 거야?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "심란하다",
+                    "content": "아니. 직접 만났어."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "혹시 소녀였어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "맞아. 어떻게 알았어?"
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "괴롭다",
+                    "content": "C002이 괴로운 표정을 짓는다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C001가 걱정스러운 눈빛으로 C002을 바라본다."
+                },
+                {
+                    "location": "C002의 은신처 응접실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "심란하다",
+                    "content": "이럴 수가. 구원자1가 진짜 존재할 줄이야."
+                }
+            ]
+        }
+    ]
+}

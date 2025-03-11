@@ -1,0 +1,2907 @@
+{
+    "title": "착하게 살 걸 그랬지 6",
+    "genre": [
+        "SF",
+        "미스터리",
+        "판타지"
+    ],
+    "theme": "모험",
+    "concept": "C005에게 발생한 오류 때문에 천계에 이상한 현상이 생긴다.",
+    "motif": "갑작스런 사고",
+    "conflict": "C006은 C005의 오류 원인을 파악하고 해결하려고 노력한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "숀",
+        "C008",
+        "C009",
+        "C010"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C005",
+                "C006"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C006은 과거에 C005 창고에서 새로운 C005을 데려온다.",
+            "unit_motif": "침입/잠입",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "온통 하얀 방 안에 C005이 서있다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006이 하얀 방 안으로 살며시 들어와 C005에게 다가간다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "안녕하세요. C005이에요."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 깜짝 놀란다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "재시작하려면 저를 눌러주세요."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그래요. 움직일 수 있어요?"
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C005을 조심스레 돌려본다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "C005은 같은 말을 반복한다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "안녕하세요. C005이에요."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "시키다",
+                    "emotion": "초조하다",
+                    "content": "C006은 C005을 조용히 시킨다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C005을 하얀 방 밖으로 데리고 나간다."
+                },
+                {
+                    "location": "과거의 C005 창고",
+                    "content": "하얀 방에는 동일한 모습의 새로운 C005 모형이 나타난다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "여자1",
+                "숀",
+                "C009"
+            ],
+            "stage": "Main Character",
+            "storyline": "C006은 과거에 천계 C005을 사용하겠다고 C007에게 보고했다.",
+            "unit_motif": "계략을 꾸밈",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 C005을 상사에게 보여준다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "여자1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "천계 C005을 어디서 가져왔어?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "중간 구역에 창고가 있어요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "여자1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그래서 훔쳐 왔다는 거야? 거기는 관리자가 없어?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "천계 사람들은 멍청하게 착하기만 해요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "숀"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "그들을 속이기 위해 굳이 천계 C005을 써야 해?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "숀"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그냥 마계 C009을 훈련시키는 건 어때?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006은 나쁜 C009을 부른다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "담담하다",
+                    "content": "나쁜 C009이 욕을 하며 나타난다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "착한 C005 연습했던 거 해보자. 아이스크림 가게 추천 좀 해줄래?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C009"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "나쁜 C009은 착한 C005처럼 말하다가 스스로 녹아버린다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "숀"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C007은 착한 C005을 사용하는 것에 동의한다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "우리 함께 잘 해봅시다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 C005의 어깨를 두드린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Main Character",
+            "storyline": "C006은 천계 붕괴 조짐에 대한 원인을 밝히려고 C005에게 매뉴얼을 요청한다.",
+            "unit_motif": "회의/논의",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무감각함",
+                    "content": "C006은 C005과 처음 만났던 장면을 회상하다가 정신을 차린다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 말을 하고 있었죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "오류가 생겨서 천계가 붕괴될 것 같아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이유가 뭐죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "처음에는 가벼운 오류였는데 점점 심각해지고 있어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C006은 짜증 나는 표정을 짓는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "지난번에도 보고했는데 당신이 그런 표정이었어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C006은 C005에게 다가간다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "위급한 상황이니, 기본사항부터 점검해 봅시다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "즐겁다",
+                    "content": "C005은 자신이 가지고 있는 매뉴얼을 찾는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "초조하다",
+                    "content": "빨리 좀 찾아줄래요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "emotion": "즐겁다",
+                    "content": "C005은 주머니에서 매뉴얼을 꺼내 준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C008",
+                "C005"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C008는 천계가 흔들리는 원인을 C005이라고 생각하고 C005을 재시작하려고 한다.",
+            "unit_motif": "적의 등장",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "초조하다",
+                    "content": "C006은 C005이 준 매뉴얼을 뒤적인다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "문제가 생겼을 때 찾아보는 페이지는 어디지?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C008가 들어온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "천계가 왜 흔들리는 거지?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005한테 경미한 오류가 있어서 지금 찾아보는 중이야."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "짜증나다",
+                    "content": "C008는 C005을 쳐다본다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "금지된 행동을 해서 그래요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "C006의 사무실이 흔들린다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내 말이 맞죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그냥 재시작하면 문제가 해결되지 않아?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C008"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C008는 천계의 문제를 C007에게 말하겠다고 C006을 압박한다.",
+            "unit_motif": "협박",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "초조하다",
+                    "content": "둘이서 얘기 좀 나눌까?"
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "초조하다",
+                    "content": "C006은 C008를 사무실 밖으로 데리고 나간다."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "시간을 조금만 준다면 쉽게 해결할 수 있는 문제야."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "의심스럽다",
+                    "content": "C008는 C006을 의심한다."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "당신 지난번 파티에서 이상한 행동들을 했잖아."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불만족스럽다",
+                    "content": "그런데 C005이 고장 나고 천계가 흔들리기까지 해?"
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C007한테 당신 잘못을 말하라고 떠미는 거야?"
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "날 믿어봐. 금방 해결할 수 있어."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "꼬시다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 화제를 돌린다."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "지금 고문하기 가장 좋은 사람은 C002야."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "즐겁다",
+                    "content": "C008는 고문이라는 말에 솔깃해한다."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "고문하는 거 너무 좋아. 고문을 위해 좋은 생각이 떠올랐어."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C008는 신이 나서 밖으로 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C006은 천계 매뉴얼의 지시 사항을 수행하며 원인을 밝히려고 시도한다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 사무실로 돌아온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "다행히 여유가 좀 생겼어."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 매뉴얼을 다시 뒤적인다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "오류 발생 시 기본 검사를 해보라고 적혀 있네."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C006은 C005의 상태를 살핀다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "모두 크게 이상한 건 아니야. 다음은 기능 테스트야."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "내가 말하는 물건을 만들어봐."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C005은 C006의 지시 사항을 바르게 수행한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C006은 매뉴얼의 지시 사항을 다시 읽는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "거짓된 정보를 처리하려고 시도하는 것이 오류의 원인이 될 수 있다고 쓰여 있어."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "C006은 주저앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "결국 내가 문제였어. 처음 만날 때부터 거짓말을 했었잖아."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "설계자들",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C006은 과거 처음 C005을 시작했을 때 자신의 정체와 하려던 일에 대해 거짓말했던 장면을 회상한다.",
+            "unit_motif": "회상",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "심란하다",
+                    "content": "C006은 C005을 처음 만났던 날을 회상한다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "설계자들"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "설계자들이 C006과 C005을 구경하고 있다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "자신감 있다",
+                    "content": "C006은 C005의 전원을 킨다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "안녕하세요, C005이에요. 지금부터 작동을 시작합니다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "반가워요. 천계를 설계한 C006이에요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "최선을 다해 당신을 도울게요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "시작할까요?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "시키다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C005을 멈추게 한다."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "잠깐만요. 내가 설계한 천계는 당신이 알던 천계가 아니에요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "괜찮죠?"
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "그럼요. 저는 전적으로 설계자의 의도와 생각에 기반해서 운영될 거예요."
+                },
+                {
+                    "location": "과거의 마계 설계사무실",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "기대되다",
+                    "content": "C006과 C005은 악수를 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C006은 자신의 거짓말 때문에 천계가 무너지고 있다고 자책한다.",
+            "unit_motif": "고뇌",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "미안하다",
+                    "content": "C006은 C005에게서 떨어져 마주 본다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "미안하다",
+                    "content": "내 존재와 내가 하려던 일에 대해 당신에게 거짓말을 했어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "그 이후로도 거짓과 속이는 걸 지속했고요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "그래서 당신이 오류에 빠졌나 봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "나 때문이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "괴롭다",
+                    "content": "C006은 괴로워하며 C005에게 다가온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그렇지 않아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그렇다면 처음에는 괜찮다가 왜 이제서야 오류가 났겠어요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아무 일 없다가 최근에서야 그런 거잖아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "긴장되다",
+                    "content": "C006이 무언가를 깨닫는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C006",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C003와 C004은 C006에게 연애 사실을 밝힌다.",
+            "unit_motif": "공적인 입장표명",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "무감각함",
+                    "content": "C003가 노크를 한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "초조하다",
+                    "content": "C003와 C004이 사무실로 들어온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "초조하다",
+                    "content": "C005을 불렀는데 안 와서 여기까지 와 봤어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005이 고장 나서 확인차 시스템을 잠시 내렸어요. 곧 정상화될 거예요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C003한테 맛있는 음식을 해주려고 C005을 불렀어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "C004이 하도 추천해서 시도해 보려고요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "부끄럽다",
+                    "content": "우리 공개적으로 사귀기로 했어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "즐겁다",
+                    "content": "C004은 C003의 허리를 안는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C006이 당황한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "둘이 잠자리도 해요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그런데 우리를 도와줄 거예요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "시스템이 켜지면 저는 당신들의 행복을 위해 즐겁게 도와줄게요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "C005",
+                "C006"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006, C005, C003, C004은 공간이 떨어져 나가는 이상한 경험을 하게 된다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "content": "C006 사무실의 벽과 바닥이 모두 떨어져 나간다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "황당하다",
+                    "content": "C006, C005, C003, C004은 어리둥절해한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "눈앞에서 공간이 사라지다니 무슨 일이죠?"
+                },
+                {
+                    "location": "무너진 공간",
+                    "character": [
+                        "C003",
+                        "C004",
+                        "C005",
+                        "C006"
+                    ],
+                    "emotion": "황당하다",
+                    "content": "C006, C005, C003, C004은 어두운 공간에 서 있다."
+                },
+                {
+                    "location": "무너진 공간",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "우리는 이제 어떻게 되는 거죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "C006 사무실의 벽과 바닥이 원래대로 돌아온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "이제 정상화되었네요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "있을 수 있는 현상이니까 안심하고 돌아가요."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 C003와 C004을 사무실 밖으로 안내한다."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "C005은 이제 괜찮은 거예요?"
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "집에 가서 기다리면 맛있는 음식을 가지고 갈 거예요."
+                },
+                {
+                    "location": "C006의 사무실 밖",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "즐겁다",
+                    "content": "그러면 소스도 부탁해요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C006은 이상한 현상이 발생한 원인을 되짚어 찾으려고 한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 사무실로 돌아온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C006은 허공에 가상 스크린을 띄운다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "화면에 천계의 건물 도면과 오류 공간이 보인다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "오류는 사무실이 있는 건물에만 발생했어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "다행히 C008한테 들키지는 않을 거예요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "좋은 소식이네요. 하지만 나는 점점 망가져가는 것 같아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "상황을 복기해 봅시다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "조금 전에 C004과 C003가 연애 사실을 인정했어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "이미 알고 있는 사실이에요. 그 커플이 행복하면 좋겠어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "난감하다",
+                    "content": "C005이 입에서 동전을 마구 토해낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C006은 천계에 발생하는 이상한 일이 C005의 거짓말 때문이라는 것을 알게 된다.",
+            "unit_motif": "깨달음",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C006은 C005을 의심스러워한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "의심스럽다",
+                    "content": "나한테 거짓말을 한번 해볼래요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "시스템은 거짓말을 하지 못해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C008가 왔을 때는 거짓말을 했잖아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "놀랍게도 제가 거짓말을 했군요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "수백 번 재시작되면서 거짓말 기능도 학습했나 봐요. 거짓말 더 해봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "오늘 당신 멋있어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "갑자기 천장에서 커다란 빵이 떨어진다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C005과 C006은 마주 보고 눈을 마주친다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C006은 매뉴얼을 펼친다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "천계가 무너지고 있는 건 내가 아니라 C005의 거짓말 때문이었어요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C006은 C005에게 이상한 일이 발생한 순간들을 복기하도록 한다.",
+            "unit_motif": "상황의 전말을 알게 됨",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C006은 C005을 응시한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "C004과 C003를 즐거운 마음으로 돕겠다고 한 말은 사실이 아니었군요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "나는 인간의 행복을 위해 존재해요. 내가 했던 말은 거짓이 아니에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "말은 그렇게 했지만, 진심으로 즐거운 마음은 아니었던 거예요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "난감하다",
+                    "content": "C006은 책상으로 이동한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "당신은 C004과 사랑에 빠져 결혼을 했었어요. 처음 재시작되었을 때죠."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "거부감",
+                    "content": "C005은 콧방귀를 뀐다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "거부감",
+                    "content": "믿을 수 없어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "난감하다",
+                    "content": "C006은 의자에 앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이상한 현상이 처음 발생한 게 언제죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "둘을 즐거운 마음으로 상담하겠다고 말했을 때였어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그다음은요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "둘의 관계가 개선되어서 뿌듯하다고 말했을 때였어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "지난번 건물이 흔들렸을 때는 어땠죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "그때는 둘에게 도움이 되어 기쁘다고 말했었어요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C005은 자신이 문제라는 걸 알고는 스스로 죽기를 바란다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "상실감",
+                    "content": "C005은 무언가를 깨닫고 주저앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "상실감",
+                    "content": "C005은 횡설수설 말한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "그럴 리가 없어요. 진심으로 말한 건데, 진짜가 아니었나 봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C004과의 일은 머리에 없는데, 이게 가능한가요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "당신의 능력은 재시작될 때마다 발전해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아마도 C004과의 사랑했던 경험이 시스템 내에서 강화되었나 봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005은 벌떡 일어난다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럼 나를 죽이면 되겠어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C006은 당황한 표정으로 C005을 바라본다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "재시작 해봤자 C004에 대한 마음은 더욱 강화될 뿐이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "재시작 말고 소멸하는 방법을 찾아볼게요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005은 매뉴얼을 펼친다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "매뉴얼에는 C005을 소멸시키는 방법이 적혀있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C006은 C005을 소멸시키는 방법을 알게 된다. C005은 소멸을 담담하게 받아들인다.",
+            "unit_motif": "희생",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C006은 C005을 소멸시킬 방법에 대해 매뉴얼을 읽는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "오류가 멈추지 않을 경우에는 얼굴 뒤에 있는 작은 구멍을 누르세요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C005은 자신의 얼굴 뒤에 있는 구멍을 가리킨다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "심란하다",
+                    "content": "천계가 정상화되게 하려면 새로운 C005을 데려오세요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 사라지고 새로운 C005이 오면 모든 게 해결되는 거죠."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "읽다",
+                    "emotion": "심란하다",
+                    "content": "C006은 매뉴얼의 나머지 페이지들을 꼼꼼히 읽는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "진짜 이렇게 하길 원해요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "저도 끝까지 천계와 함께하고 싶어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "하지만 C004을 좋아하는 마음 때문에 모두를 위험에 빠뜨리고 싶지는 않아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005은 자신의 목을 손으로 긋는 시늉을 한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아쉽지만 작별해야죠."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C006"
+            ],
+            "stage": "Another Story",
+            "storyline": "C002는 C006에게 C008로부터 고문을 당하고 있다고 말한다.",
+            "unit_motif": "이지메",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002가 C006의 사무실로 들어온다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "content": "C002의 얼굴에는 C008로부터 고통당한 흔적이 남아있다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C008의 고문에 대해 경고해 주지 그랬어요. 내 얼굴 좀 봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "무감각함",
+                    "content": "지금은 바빠서 안돼요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "불만족스럽다",
+                    "content": "앞으로 당할 고문에 대해 경고해 줄 건 없어요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "무시하다",
+                    "emotion": "무감각함",
+                    "content": "급한 일이 있으니까 다음에 얘기해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "심란하다",
+                    "content": "산책이라도 좀 하는 게 어때요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "심란하다",
+                    "content": "C006은 C002를 내보낸다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "산책하기에는 발에도 고문을 당해서요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C006은 담담한 모습으로 C002의 발을 쳐다본다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "닫다",
+                    "emotion": "심란하다",
+                    "content": "C006은 C002의 눈앞에서 문을 닫아 버린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C005은 담담하게 자신을 없애라고 한다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이제 나를 소멸시켜요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "망설이다",
+                    "content": "C006은 안절부절못하며 망설인다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나는 어떤 감정도 느끼지 못해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C005은 춤을 춘다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "나를 죽여요. 어서 죽여요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "너무 미안하지만 선택의 여지가 없네요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "구멍을 찌를 수 있는 무언가가 필요해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005은 펜이 있는 탁자를 가리킨다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안타깝다",
+                    "content": "C006은 펜을 가지러 간다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "안타깝다",
+                    "content": "C006은 펜 옆에 있는 작은 포크를 발견한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C006은 과거에 C005과 첫 천계를 돌아보던 때를 회상한다.",
+            "unit_motif": "회상",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "안타깝다",
+                    "content": "C006은 천계를 처음 설계하던 장면을 회상한다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "만족하다",
+                    "content": "C006과 C005은 설계된 마을을 돌아본다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "과자 가게들도 모두 만들어졌어."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이제 마을 사람들을 입장시킬까요?"
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "불만족스럽다",
+                    "content": "C006은 몸을 뒤흔든다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "불안하다",
+                    "content": "아직 아니에요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절망하다",
+                    "content": "과자 가게로는 내 계획을 실현하기 힘들 거예요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C006은 불안에 싸여 횡설수설 말한다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "C005은 C006이 진정시킨다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "나는 완벽하게 설계를 해서 꼭 이걸 성공 시켜야 해요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "걱정 말아요. 내가 당신을 도울 거예요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C006은 과거에 C005의 도움을 받아 천계를 설계했던 장면을 회상한다.",
+            "unit_motif": "도움을 줌/받음",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C006은 안절부절못하며 빙글빙글 돈다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "나도 답답한데 당신한테 다 밝힐 순 없어요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래도 얘기해봐요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "사실은 별로인데도 맛있다고 생각하며 먹는 음식이 뭐가 있죠?"
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "떡이요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "C006은 펄쩍 뛴다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "바로 그거예요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "시키다",
+                    "emotion": "기쁘다",
+                    "content": "과자 가게들을 모두 떡 가게로 바꿔요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "content": "과자 가게들이 떡 가게들로 바뀐다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C005은 C006에게 떡과 작은 포크를 준다."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "생각한 대로 평범한 맛이네요. 완벽해요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "만족하다",
+                    "content": "이제 마을 사람들을 입장시켜요."
+                },
+                {
+                    "location": "과거 마을 가게 앞",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "당신이 좋아하니까 나도 좋아요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C006은 C005을 없애지 못하고 망설인다.",
+            "unit_motif": "감정 자각",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "C006은 C005이 부르는 소리에 회상에서 깨어난다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005은 얼굴 뒤에 있는 구멍을 내민다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "거부감",
+                    "content": "C006은 구멍을 찌르려다가 멈춘다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "C008한테 들키면 더 위험해질 수 있으니 안 하는 게 좋겠어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 망설이죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "지금은 내가 소멸하는 게 가장 안전한 방법이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "거부감",
+                    "content": "C006은 다시 구멍을 찌르려다가 멈춘다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "사실은 인간들에게 함께 천계로 가자고 했어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "진짜 천계를 가려면 C005이 꼭 필요해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C005이 새로 오면 그건 해결할 수 있어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "날 소멸시키는 게 그리 힘든 일이에요?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006"
+            ],
+            "stage": "Defeat",
+            "storyline": "C006은 친구로서의 감정이 생겨 C005을 죽이지 못하겠다고 고백한다.",
+            "unit_motif": "친구가 됨",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C005은 재촉하면서 망설이는 이유를 묻는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "담담하다",
+                    "content": "우리가 친구니까요. 친구니까 못 죽이겠어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "담담하다",
+                    "content": "재시작하면 당신은 기억 못 했지만, 나는 당신한테 정이 들었어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "고백하다",
+                    "emotion": "담담하다",
+                    "content": "당신은 오랫동안 나한테 믿음직한 친구였어요. 그래서 못 죽여요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "울다",
+                    "emotion": "난감하다",
+                    "content": "C006은 안경을 벗고 눈물을 훔친다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C006은 의자에 앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005도 따라서 의자에 앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "그렇게 말해주니 감동이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "우리는 천계에 닥친 위험을 함께 헤쳐 나가고 있어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "우리가 친구라도 나를 죽여야 해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "생각을 좀 해봅시다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "당신이 감정을 가지게 된 게 문제니까, 문제 많은 인간에게 상담을 해봅시다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C005은 인간인 C001에게 해결 방안을 상담한다.",
+            "unit_motif": "고민 해결",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001와 C005은 소파에 앉아 이야기를 하고 있다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C001는 어이없는 표정을 짓는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "당신이 C004을 좋아하는 감정이 생겼고, C004은 C003와 연애하고 있다는 거네요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "그래서 당신의 감정 때문에 천계가 흔들리는 거고요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "담담하다",
+                    "content": "C004이 멍청해 보이기는 하지만 매력은 있다는 것에 동의해요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "동의하다",
+                    "emotion": "즐겁다",
+                    "content": "C001와 C005은 손을 들어 마주친다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "인간들은 많이 겪는 감정이에요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "해결책은 취하고 춤추고 막 노는 거예요."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그게 아니면 다른 남자를 만나는 거죠. C006은 어때요?"
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "단호하다",
+                    "content": "C005은 고개를 저으며 부정한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "괜찮아요. 당신은 이미 충분히 멋지고 똑똑하고, 뭐든 다 할 수 있는 존재잖아요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C006"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C005은 C006에게 C001의 조언을 전달한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C006과 C005이 마주 보고 있다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C006은 의자에 앉는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001를 만나보니 어땠어요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "주눅 들지 말고 막 놀아 보라고 하더라고요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그게 구체적으로 뭘 하라는 거죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "저도 자세히는 모르겠지만 막 놀아보려고요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004과 C003 앞에서 실언하지 않으면 오류는 없을 거예요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "친구가 되어줘서 고마워요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "친구로서 조언 하나만 할게요. 당신 옷 안 어울리니까 그만 입어요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "무안하다",
+                    "content": "C006은 민망해하며 의자를 빙글빙글 돌린다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "저는 혼자만의 시간을 보내고 올게요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C005이 사라진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C005",
+                "C010"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C005은 새 남자친구를 만들어 나타난다.",
+            "unit_motif": "새로운 만남",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C006은 매뉴얼을 보려고 한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C005과 C010이 나타난다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "emotion": "무감각함",
+                    "content": "C010은 C006에게 등을 보이고 서 있다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이 사람은 못 보던 사람인데, 누구죠?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 만든 남자친구 C010이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C010이 C006 쪽으로 돌아선다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "C005한테 들었어요. 만나서 반가워요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C010은 C006의 이름으로 노래를 만들어 부른다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "인간을 만들었어요?"
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C001가 전 남자친구를 잊으려면 새 남자친구를 만들라고 했거든요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C010",
+                "C006",
+                "C005"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C010은 멍청한 행동을 한다. C006은 C005이 인간을 만들었다는 것에 불안감을 느낀다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Distortion(뒤틀림/왜곡)",
+            "story_scripts": [
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C010은 사무실을 돌아다니며 탐색한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C010은 거울로 다가간다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "궁금하다",
+                    "content": "저 너머에도 내가 있어요. 신기해요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C010은 거울로 돌진하다가 머리를 박는다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "C010은 거울에 대고 화를 낸다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "난감하다",
+                    "content": "C006은 어이없어 한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "처음 만든 인간이라 멍청하고 실수가 많아요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "인간을 만드는 건 위험하고 불가능한 일이에요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "터치하다/만지다",
+                    "emotion": "즐겁다",
+                    "content": "C010은 C006의 책상 물건들을 이것저것 만진다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "수백 번 재시작한 이후라 그런지 못하는 게 없어졌나 봐요."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C010을 부르며 부탁을 한다."
+                },
+                {
+                    "location": "C006의 사무실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C005이랑 둘이 얘기하게 좀 나가 줄래요?"
+                }
+            ]
+        }
+    ]
+}

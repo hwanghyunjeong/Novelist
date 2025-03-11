@@ -1,0 +1,2380 @@
+{
+    "title": "인간이라는 재앙 3",
+    "genre": [
+        "스릴러"
+    ],
+    "theme": "탈출",
+    "concept": "C001가 건물 1에서 거주하는 동안 수상한 사람들을 만난다.",
+    "motif": "감금",
+    "conflict": "C001가 건물 1에서 사람들이 사라지는 것을 알게 되고, 심각한 정신병을 앓게 된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C012"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001는 C003에게 다음 주에 건물 1을 나간다고 말한다.",
+            "unit_motif": "결심",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C003가 출근하는 C001에게 인사를 건넨다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "총각 잘난 얼굴은 또 왜 그래?"
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "길에서 넘어져가지고."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C003는 C001의 건물 1의 퇴실 유무를 확인한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "답답하다",
+                    "content": "다음 주에는 나가야 할 것 같아요. 회사랑도 너무 멀어요."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "너무 빨리 나가면 우리도 힘들어. 들어오려는 사람도 없는데."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "만족하다",
+                    "content": "C003가 C001에게 방세를 깎아준다고 제안한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "만족하다",
+                    "content": "가족 같아서 그래. 아무한테도 말하지 마."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C001는 C003의 제안을 거절한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "서운하다",
+                    "content": "알겠어. 내가 한 말은 다시 생각해보고."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C012이 C001를 보고 히히거리며 C003에게 어젯밤 일에 대해 이야기를 해준다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C001는 떨떠름한 표정으로 출근을 하겠다고 건물 1을 나선다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "뭐라고 합니까?"
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "다음 주 중에는 방 뺄 거래."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "C001는 봉지가 얼마나 나올까."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C010",
+                "C008",
+                "C007",
+                "C009"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C007는 C008과 C001에게 조기 퇴근과 재택근무를 제안한다.",
+            "unit_motif": "신경쓰임",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "피곤하다",
+                    "content": "C001는 C010의 부름을 듣지 못하고 생각에 잠겨있다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "오늘 컨디션이 안 좋아? 메일 확인해서 프린트 좀 해줘요."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불만족스럽다",
+                    "content": "C008은 프린터를 하고 있는 C001 뒤로 지나간다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "걸리적거리게 자꾸 눈에 보여."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C001는 C008의 혼잣말에 기분이 상한다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이따가 C010 씨랑 C009 씨 둘 다 회사 비우니깐 남은 사람들은 일찍 퇴근하고 재택으로 업무 봐."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C009",
+                        "C010"
+                    ],
+                    "emotion": "부럽다",
+                    "content": "C009과 C010는 일찍 퇴근하는 둘을 부러워한다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C009 씨 C010 씨 이제 우리도 가야 해."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C008 씨랑 C001는 사이도 풀 겸 같이 식사라도 해."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "emotion": "불만족스럽다",
+                    "content": "C001와 C008은 C007의 제안에 언짢아한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C003"
+            ],
+            "stage": "Setting-up",
+            "storyline": "건물 1에 일찍 귀가한 C001는 C003와 마주친다. C001는 횡설수설하는 C003를 보며 이상함을 느낀다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "답답하다",
+                    "content": "일찍 퇴근한 C001는 건물 1에 들어가기 싫어 C006에게 연락을 한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "궁금하다",
+                    "content": "C006아 퇴근을 빨리해서 건물 1 들어가려고 하는데 건물 1 사람들 건물 1에 있어?"
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "지금 막 깨서 몰라요."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C006에게 밖에서 식사를 하자고 제안한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "속이 안 좋아서 별로 안 먹고 싶어요."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "불안하다",
+                    "content": "C002한테 받은 고기 먹고 탈 난거 아니야? 우선 들어갈게."
+                },
+                {
+                    "location": "건물 1",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001는 건물 1에 들어오며 C003와 마주친다."
+                },
+                {
+                    "location": "건물 1",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C003는 C001가 건물 1에 일찍 귀가하자 당황을 하며 횡설수설한다."
+                },
+                {
+                    "location": "건물 1",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "퇴근을 일찍 했구나. 식사는? 사람이 식사를 잘 챙겨야 해. 빨리 가서 맛있게 먹고 와."
+                },
+                {
+                    "location": "건물 1",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001는 부자연스러운 C003를 보며 수상함을 느끼고 C006을 찾으러 2층으로 올라간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C006",
+                "C012"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001는 C006방 앞에서 칼을 들고 서있는 C004을 발견한다.",
+            "unit_motif": "제보/신고/고발",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 급하게 건물 1으로 올라오고 C001는 방 12 앞에서 칼을 들고 서있는 C004을 발견한다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "C003가 C001를 쫓아와 C001를 뒤에서 부른다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "가르치다/훈련시키다",
+                    "emotion": "난감하다",
+                    "content": "C004은 C001의 등장에 본인의 방으로 들어간다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "총각 급하게 왜 올라가고 그래? 말해도 괜찮아."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "반갑다",
+                    "content": "C006이 C001를 발견하고 반갑게 인사한다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C004가 칼을 들고 너 방문 앞에서 대기하고 있는 걸 봤어."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "의심스럽다",
+                    "content": "형 이번에는 제대로 봤어요? 사진 같은 증거 있어요?"
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "맞아. 확실한 거야? 증거라도 있어?"
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "혼란스럽다",
+                    "content": "C001는 C003가 몰아붙여 심장이 두근거린다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "아주머니 흉기를 들고 있었던 건 확실치 않지만 C004가 자주 저희 방 앞에서 서있어요."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C003는 C006의 말을 듣자마자 방 9 방으로 찾아간다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "단호하다",
+                    "content": "C003는 C004이 나오자 뺨을 때린다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C001와 C006은 C003의 갑작스러운 행동에 놀란다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "애들한테 무슨 짓을 하는 거야. 당장 나가. 냄새나도 봐주었더니 애들이 민폐라고 하잖아."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "난감하다",
+                    "content": "C012이 소란스러운 소리에 나와 C003를 진정시킨다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C004 손에 칼 확실히 있었어요. 방 살펴보세요. 칼 보이면 법으로 해결할 거예요."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001는 한 손에 폰을 쥐고 촬영을 할 준비를 한다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C003가 C012에게 C004의 방 수색을 하라고 시킨다."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그런데 총각이 잘 못 본 거면 어쩔 거야? 지금 난리를 이렇게 피웠는데 없으면 책임을 져야겠지?"
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C012이 방 9 방을 뒤지더니 아무것도 나오지 않는다."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "난감하다",
+                    "content": "C001는 C012의 말에 방 9 방을 뒤적거리지만 칼을 찾지 못한다."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "즐겁다",
+                    "content": "C012을 C001에게 또 잘못 본 거라고 비아냥거린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C012"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C001는 C006에게 바로 짐을 챙겨 나가겠다고 한다. C012을 C004의 방을 수색하던 중 나온 칼을 몰래 가져온다.",
+            "unit_motif": "상대를 의심",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001",
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "C001와 C006이 건물 1 밖으로 나와 이야기를 한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "더 이상 못 버티겠어. 당장 나가야겠어. 찾아봤던 데 중에서 가장 저렴한 데로 가려고."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "건물 1 상태도 여기랑 비슷한데 가격이 더 비싸면 여기서 버티는 게 나은 거 같은데."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "잠깐이라도 있고 싶지 않아. 당장 짐 싸려고. 같이 나가자."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "담담하다",
+                    "content": "C006은 경제적 사정으로 C001의 제안을 거절한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "수상한 점이 한 둘이 아냐. 건물 1에 들어오려는 사람이 없는데 사이트 주소는 없애고 말이야."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "실수였겠죠. 형 스트레스가 심해서 칼도 착각한 거 같은데요. 뭔 짓을 하려면 벌써 하고도 남아요."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C001는 본인의 착각 탓이라고 말하는 C006에게 짜증이 난다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "짜증나다",
+                    "content": "C001는 짐을 싸기 위해 건물 1으로 들어간다."
+                },
+                {
+                    "location": "방 14",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C012을 본인의 방 안에서 방 9에서 숨겨온 C004의 칼을 꺼내놓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001는 건물 1을 바로 나가기 위해 작은 짐들을 싸고, 방에 몰래 들어온 C006의 목을 조른다.",
+            "unit_motif": "상대를 의심",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C001는 방에서 컴퓨터와 같은 큰 짐은 제외하고 짐을 싼다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 다른 건물 1들에 연락하여 빈방을 알아보고 C001는 남는 방이 없다는 대답만 얻는다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "일어나다/깨우다",
+                    "emotion": "놀라다",
+                    "content": "C001는 깜빡 잠이 들었고 C001는 화장실을 가기 위해 깬다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "반갑다",
+                    "content": "C006은 우연히 화장실을 가는 C001를 본다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 화장실에서 볼일을 보고 방으로 돌아온다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "형 놀라게 하려고 들어왔는데. 아직 안 나갔네요. 남아 있으려고요?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "해치다",
+                    "emotion": "화나다",
+                    "content": "C001는 C006의 목을 조르며 화를 낸다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "너 뭐 하는 놈이야? 내가 하는 말이 우스워? 너도 저 사람들이랑 한패야?"
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C002가 시끄럽다고 주의를 준다."
+                },
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C001는 C002의 말소리에 C006의 목을 놓으며 캐리어를 끌며 건물 1을 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002"
+            ],
+            "stage": "Another Story",
+            "storyline": "C006이 3층에서 나는 소리에 무언가를 보고 놀란다. 그 모습을 C002가 뒤에서 보고 있다.",
+            "unit_motif": "계략을 파악",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "C001의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C006이 C001의 방을 열고 C001의 방 상태를 확인한다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C006은 C002를 복도에서 만나 인사를 건넨다."
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "오늘은 일 안 가시나 봐요?"
+                },
+                {
+                    "location": "건물 1 복도",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "아니요. 오늘 일합니다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "궁금하다",
+                    "content": "C006은 옥상으로 가던 길에 궁금증이 생겨서 3층을 기웃거린다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "듣다",
+                    "emotion": "궁금하다",
+                    "content": "C006은 3층에서 나는 소리를 듣고 3층 방문을 열어본다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C006은 3층에서 무언가를 보고 놀라 문을 바로 닫아버린다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "C006은 누군가 뒤에 있음을 느끼고 뒤를 돌아본다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002가 C006 뒤에 망치를 들고 서있다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "일 시작해야겠네."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C007",
+                "C006"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 C007에게 월급 가불을 부탁하지만 거절당한다. C006은 C001에게 방을 바로 나간다고 연락한다.",
+            "unit_motif": "추궁",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C001가 복도에 있는 C007를 발견한다."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "긴장되다",
+                    "content": "이번 달 월급을 일찍 받을 수 있나요? 일부만 받아도 괜찮아요."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "조금만 참으면 월급날인데. 그리고 갑자기 달라고 하면 어떡해."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "이사를 해야 해서 급전이 필요해요."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "너무 급하게 옮기는 거 아니야? 예민한 게 신경 쓰지 마. 너 요즘 근태도 너무 안 좋아."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "그래서 월급 가불 어렵다는 거잖아요."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그렇게 급하면 다음 주에는 줄 수 있어. 회사도 체계가 있으니깐 빨리 줄 수 있는 게 아니야. 업무나 빨리 처리해."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "답답하다",
+                    "content": "한숨을 쉬고 있는 C001에게 C006의 연락이 온다."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "미안하다",
+                    "content": "C001는 C006에게 사과를 하고 본인의 짐을 택배로 보내달라고 부탁한다."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "형 아버지랑 같이 살게 되었어요."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "불안하다",
+                    "content": "부모님 이혼하시고 왕래 안 한다고 하지 않았어? 너 무슨 일 있는 건 아니지?"
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "아무 일도 없어요. 걱정 말고 끊을게요."
+                },
+                {
+                    "location": "회사 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "불안하다",
+                    "content": "C001는 아무 말도 없이 끊긴 전화만 붙잡고 있다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C012",
+                "C004"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "건물 1 사람들은 C006을 감금하고 고문한다.",
+            "unit_motif": "납치/감금",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "울다",
+                    "emotion": "절박하다",
+                    "content": "C006은 묶인 상태로 C001와 전화를 끊고 울고 있다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "애원/구걸하다",
+                    "emotion": "절박하다",
+                    "content": "C006은 C002에게 살려달라고 부탁한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002는 C006의 핸드폰을 쓰레기통에 버린다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "저는 예술가나 마찬가지예요. 방 12 아저씨는 어떻게 되었을 것 같아요?"
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002가 냉동고 문을 열며 C005이라고 C006에게 소개한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "C006은 C002에게 밧줄로 목이 졸려 기절을 한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "설레다",
+                    "content": "C001의 반응도 궁금해지네."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "답답하다",
+                    "content": "C012이 방 안으로 들어와 빨리 처리하자고 재촉한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이번에는 C004도 즐거움을 맛봐야죠."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "C001는 여기 사람들 얼굴 다 알고 있는데 방도 빼고 신고라도 하면 어떡해요?"
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C001는 여기 못 잊어요. 반드시 다시 옵니다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "짐을 가지려고 돌아올 것 같지만 여기서 여러 명 작업도 하였고 너무 오래 있었어요. 다른 곳으로 옮겨야 할 것 같아요."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "말이 주절주절 많네요."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "주눅들다",
+                    "content": "C012은 C002에게 사과를 한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C004이 기절한 C006의 입을 테이프로 막고 작업을 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C002",
+                "C012"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 C006이 진짜로 방을 뺐는지 확인하기 위해 건물 1에 방문한다. 3층 문 앞에서 C006에게 전화를 걸고 안에서 진동소리를 듣고 C006의 죽음을 예상한다.",
+            "unit_motif": "계략을 파악",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "망설이다",
+                    "content": "C001는 나머지 짐을 가져오기 위해 건물 1에 도착을 하고 C001는 건물 1 입구에서 주저하고 있다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C003는 C001의 뒷모습을 알아보고 인사를 한다."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C005은 갑자기 나가버렸네. 알고 있지? 집안 사정이 있나 봐."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004도 방 뺐어. 지저분하고 다른 사람들도 불만이 많아서 내가 내보냈어. 다른 사람들이 곧 들어올 것 같아."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001도 방 뺄 거라고 했지? 사전에 고지만 해줘. C004가 사라졌으니깐 편히 지내고 있어."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 C006이 진짜로 나갔는지 확인하기 위해 방 9에 들어가 본다."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "미안하다",
+                    "content": "C001는 방 9의 침대에 앉아 C006에게 미안한 감정을 느낀다."
+                },
+                {
+                    "location": "방 9",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 위층에서 쿵쿵거리는 소리를 듣는다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "3층 입구에서 C001는 C006에게 전화를 걸어본다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "반갑다",
+                    "content": "C002가 C001의 뒤에서 인사를 건넨다."
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "3층 안에 뭐가 있어요?"
+                },
+                {
+                    "location": "건물 1 3층",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C001는 C002의 등장에 놀라 핸드폰을 떨어트린다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무섭다",
+                    "content": "C001는 계단을 뛰어 내려가는 중에 C012과 마주치고 공포감을 느낀다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C002는 C012에게 고개를 저으며 신호를 보낸다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "가던 길 가세요."
+                },
+                {
+                    "location": "건물 1 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "거부감",
+                    "content": "C001는 건물 1을 나와 경찰에 신고를 할지 고민을 하고 C001는 C006의 죽음을 예감하고 토를 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C001",
+                "C008",
+                "C010"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001는 C008의 비아냥거리는 소리에 화를 참지 못하고 C008을 폭행한다. C007는 C001에게 내일부터 나오지 말라고 말한다.",
+            "unit_motif": "폭행",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "무안하다",
+                    "content": "C007는 출근을 하여 C001에게 아침인사를 한다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001는 C007의 인사에 대꾸를 하지 않는다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C008은 점심시간이 될 때까지 C001가 같은 업무를 하고 있자 볼멘소리로 중얼거린다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "언제까지 같은 것만 하고 있는 거지. 능력이 없는 건가."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "화나다",
+                    "content": "C001는 C008의 말에 화를 참지 못하고 컵을 던지고 욕을 하며 C008을 때린다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말리다/멈추다",
+                    "content": "C010는 흥분한 C001를 말린다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "화나다",
+                    "content": "C001는 C010에게 저지를 당하자 욕을 하며 더 흥분을 하게 된다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C007가 흥분한 C001의 뺨을 때리며 정신 차리라고 말한다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "C007는 진정된 C001와 복도에서 이야기를 한다."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "우선 C008 씨는 병원에 갔고 고소 안 하게 최대한 노력은 해볼게."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "내가 예전에 알 던 C001가 아닌 것 같아. 내일부터 나오지 마라."
+                },
+                {
+                    "location": "회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "무감각함",
+                    "content": "C001는 짐을 싸고 회사를 나선다."
+                },
+                {
+                    "location": "회사 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "통쾌하다",
+                    "content": "회사를 나선 C001는 벌벌 떨면서 애원하는 C008의 모습을 다시 떠올리며 미소를 짓는다."
+                },
+                {
+                    "location": "회사 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "통쾌하다",
+                    "content": "죽여버릴 걸 그랬나."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C011"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C011이 C001에게 서프라이즈를 해주기 위해 연락 없이 서울에 온다. C011은 C001의 상한 얼굴을 보고 무슨 일이 있음을 짐작한다.",
+            "unit_motif": "만남",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "길거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C001는 길을 가는 중 C011의 전화를 받게 된다."
+                },
+                {
+                    "location": "길거리",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "즐겁다",
+                    "content": "나 지금 서울 도착했어. 놀라게 해주려고 깜짝 방문했어."
+                },
+                {
+                    "location": "길거리",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C001는 C011의 갑작스러운 방문에 당황을 한다."
+                },
+                {
+                    "location": "길거리",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "서운하다",
+                    "content": "반응이 미적지근하네. 내가 와서 별로인 거야?"
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "난감하다",
+                    "content": "그런 거 아니야. 지금 너 있는 곳으로 갈게. 건물 1으로는 절대 오지 마."
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C011은 C001를 발견하고 반갑게 인사를 한다."
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C001는 C011의 부름에 깜짝 놀란다."
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "근데 얼굴이 누구한테 맞은 거 같아. 무슨 일 있어?"
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "괜찮아."
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "진짜로 상황이 안 좋은 거야?"
+                },
+                {
+                    "location": "버스 터미널",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "불안하다",
+                    "content": "아무 일도 아니야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C012",
+                "C006",
+                "C003"
+            ],
+            "stage": "Defeat",
+            "storyline": "C012은 C006에게 도망가라며 손과 발을 풀어준다. 부상을 당한 C006은 계단을 구르며 2층에 도착하여 C003를 만나서 도와달라고 하지만 C003도 한패였음을 깨닫는다.",
+            "unit_motif": "납치/감금",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C012이 C006에게 밥을 주기 위해 3층 방에 온다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C012이 C006의 입에 테이프를 떼어준다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불만족스럽다",
+                    "content": "이상한 놈들한테 찍혀서 고생이네요. 지금 상황이 불안정해요. 자기가 잘난 줄 알아서 안 들키는 줄 아는데 타이밍이 좋았던 거지."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "생각해보니깐 내가 이런 대우를 받아야 해? 당신 생각은 어때? 짜증이 확 나네."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "화나다",
+                    "content": "C012은 C002에 대한 분노가 올라와 발길질을 한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "담담하다",
+                    "content": "진정이 된 C012은 C006에게 게임을 제안한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "눈까지 풀어주면 C004를 피해서 한번 여기서 벗어나 볼래? 당신이 성공하면 나도 할 수 있을 것 같으니깐. 나도 무서워."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C012은 C006의 손과 발을 완전히 풀어준다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "절박하다",
+                    "content": "C006은 기어가며 이곳에서 벗어나려고 노력한다."
+                },
+                {
+                    "location": "건물 1 3층 방",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C012은 엉금엉금 기어가는 C006의 모습을 보며 즐거워하며 웃는다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C012"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "잘한다 잘하네. 의지가 대단한 친구야."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "절박하다",
+                    "content": "C006은 계단을 보지 못해 굴러떨어진다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C003가 C006을 보고 무슨 일이냐고 물으며 테이프를 떼어준다."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절박하다",
+                    "content": "저 사람들 미쳤어요. 신고해주세요."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "즐거운 놀이를 하고 있었구나."
+                },
+                {
+                    "location": "건물 1 계단",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "상실감",
+                    "content": "C006은 C003도 한패임을 알게 되고 욕을 하고 소리를 지른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C011",
+                "C001",
+                "C007",
+                "C002"
+            ],
+            "stage": "Defeat",
+            "storyline": "C001와 C011이 있는 술집에 C007가 합류하게 되고 C001와 언쟁을 벌인다. C002가 C001를 따라와 합석을 하려고 하지만 C007의 저지에 가게를 나선다.",
+            "unit_motif": "만남",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "술집",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "걱정",
+                    "content": "C011은 C001에게 문제가 없는지 다시 한 번 확인한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "아무 문제 없다면서 얼굴은 왜 그 꼴인 건데 완전히 다른 사람 같아."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "넘어진 거라니깐. 회사가 잘 안 맞아서 그래."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "반갑다",
+                    "content": "C007가 C011을 반갑게 부르며 가게에 들어선다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이놈아 이제 좀 나아졌어? C011이 왔으면 나도 불러야지."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "오빠 얼굴이 안 좋아 보여서 회사에 무슨 일이 있나 해서 C007 오빠한테 연락했어."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "나도 아까 너 그렇게 보내고 속상하더라. C008은 고소한다고 하는데 상태가 많이 심하진 않아."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C007는 조잘조잘 C011에게 말을 하며 술을 건네준다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "야 너도 맞고 싶어?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "너 미쳤어? 나랑 앞으로 안 볼 거야? 잘렸다고 이렇게 나를 대하면 안 되지."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "너만 직장생활하면서 스트레스받는 거냐고."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "화나다",
+                    "content": "C001는 화를 억누르지 못하고 술병을 든다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "왜 병으로 나 치려고? 이거 미쳐버렸구나, 어디 한번 쳐 봐."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "C001는 본인의 테이블로 다가온 C002의 등장에 놀란다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "혹시나 했는데 C001 아저씨가 맞네요."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "갑자기 끼어들어서 죄송해요. 같은 건물에 살고 있어요. 저도 같이 먹어도 되죠?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "불안하다",
+                    "content": "C001는 C002 말을 들으며 손을 벌벌 떨고 있다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C011에게 옆자리를 내어달라고 요구하며 C001의 여자친구냐고 물어본다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "근처에서 일해서 종종 여기서 혼자 먹고 가긴 해요. C001 씨랑 친해지고 싶었어요."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C007는 C001의 사지가 덜덜 떠는 모습을 보게 된다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "그쪽은 C001 씨의 친구분이신가요?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "학교 선배입니다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "사업가 기운이 강하시네요. C001 씨네 사장님이세요?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "저희 셋이 오래간만에 만나서 회포를 좀 풀고 싶거든요?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "제가 실례했네요. 그럼 가보겠습니다. C001 씨 저 가기 전에 담배같이 피울까요? 괜찮죠?"
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001는 고개를 끄덕이며 C002를 따라간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C007"
+            ],
+            "stage": "Defeat",
+            "storyline": "술집 앞에서 C007는 C002에게 C001를 괴롭히지 말라고 말한다. C002는 C007의 말에 표정이 안 좋아진다.",
+            "unit_motif": "기싸움",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001 아저씨 보기가 참 힘들었어요. 아직도 회사일이 바쁜가 봐요. 오늘 여자친구 봐서 힘은 나죠?"
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "C001는 손을 벌벌 떨며 C002에게 따라다니는 이유를 묻는다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "건물 1에서의 일은 상관하지 않을게요. 아무한테도 이야기 한 적도 없고 저는 회사도 이제 안 나가서 고향으로 갈 거예요."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "실망하다",
+                    "content": "지금 하는 말 이해가 하나도 안 되는데."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C007가 C002를 부른다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "건물 1 사람들이 C001를 많이 괴롭히는 거 같은데 왜 그런 짓을 하는 거예요? 위선적으로 사는 거 그만둬요."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "불쾌하다",
+                    "content": "C002는 표정이 굳은 채로 C007를 바라본다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002는 또 보자며 돌아서 길을 간다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "저런 놈한테 겁먹지 말아. 괜히 내가 여기까지 불러서 안 좋은 일 겪게 한거 같아 기분이 그래."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "잘 지내고 여유 생기면 다시 연락해. 간다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "망설이다",
+                    "content": "C001는 C007를 부르지만 말이 입에서 떨어지지 않는다."
+                },
+                {
+                    "location": "술집 앞",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C007는 C001에게 인사를 하고 집으로 향한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C011"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001는 C011에게 건물 1에서 겪었던 일을 이야기하려고 하지만 마음처럼 되지 않는다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "불안하다",
+                    "content": "술집으로 들어온 C001는 C011에게 어서 나가자고 한다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "오빠 진짜 무슨 일이 있는 거야? 뭔데 그래."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "불안하다",
+                    "content": "C001는 서둘러 술집에서 나와 택시를 잡는다."
+                },
+                {
+                    "location": "술집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "무슨 일이냐고. 얼마 전부터 정말 다른 사람같이 굴고 왜 그러는 거야."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "나 사람 패서 회사 잘린 게 맞아. 고향으로 내려가야겠어. 내일같이 내려가자."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "건물 1에서 짐 전부 챙겨 온 거 아니잖아. 아까 술집에서 본 사람 때문에 그래?"
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "C001는 C002가 C011의 존재와 얼굴을 알게 되었다는 사실에 공포감을 느낀다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "너무 무서워. 건물 1에 살던 동생은 죽은 것 같아."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "지난번에 말한 대학생 말하는 거지? 직접 본 거야? 경찰에 신고는 했어?"
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "아무 말도 아니야. 그냥 흘려들어. 요새 스트레스가 많아서 그런 거야."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "걱정",
+                    "content": "C011은 C007로부터 C001의 상태가 안 좋아 잘 챙겨주라는 메시지를 받게 된다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C002",
+                "C013"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C002는 C007를 미행하여 집까지 쫓아가 C007를 살해한다. C002는 C011에게 C007인 척 연락을 하여 위치를 물어본다.",
+            "unit_motif": "미행",
+            "causality": "Touch of the death(애석한 죽음)",
+            "story_scripts": [
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C007는 아파트 엘리베이터를 탄다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002가 위장을 하고 C007가 탄 엘리베이터에 탄다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C007는 집에 도착하여 강아지를 맞이한다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C013"
+                    ],
+                    "emotion": "거부감",
+                    "content": "C013는 경계하며 누군가를 향해 짖는다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "늦게 와서 미안해. 밤중에 그러는 거 아니야. 오늘은 좀 심하게 짖는데?"
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C007는 강아지가 계속 짖자 수상함을 느낀다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C007를 재빨리 공격한다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "그러게 입단속을 잘했어야지."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C007의 지갑을 찾아 이름을 알아낸다."
+                },
+                {
+                    "location": "C007의 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "담담하다",
+                    "content": "C002는 C007의 폰으로 C011에게 C007인 척 어디 있는지 물어본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C011"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001는 모텔에 들어왔지만 C002의 환청을 듣게 되어 예민해진다. C011은 C001의 예민해진 모습을 보며 심각성을 느낀다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "안심/안도하다",
+                    "content": "C001는 C011과 함께 모텔에 들어와 휴식을 취한다."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "지금 컨디션은 어때? 괜찮아졌어?"
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "응 많이 나아졌어."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "처음에 서울 간다고 했을 때 오빠 엄청 좋아했잖아. 근데 지금은 너무 안 좋아 보여. 괜찮은 거 맞지?"
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "응. 괜찮아졌어. 걱정하지 마."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "걱정",
+                    "content": "C011은 C001에게 위로하며 안아준다."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "C001는 C002의 환청을 듣고 다시 예민해진다."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001는 옆방에 귀를 대며 소리가 나는 곳을 찾으려고 애쓴다."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001는 벽을 더듬으며 건물 1방처럼 구멍이 있는지 확인한다."
+                },
+                {
+                    "location": "모텔",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "걱정",
+                    "content": "C011은 이상한 행동을 하는 C001를 보며 심각성을 느낀다."
+                }
+            ]
+        }
+    ]
+}

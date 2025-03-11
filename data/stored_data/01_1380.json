@@ -1,0 +1,1648 @@
+{
+    "title": "여기까지만 하자",
+    "genre": [
+        "액션",
+        "스릴러"
+    ],
+    "theme": "구출",
+    "concept": "C001에게 C005의 법원까지의 호송 책임 임무가 주어진다.",
+    "motif": "노년기 과제",
+    "conflict": "C001은 증인 C005를 법원까지 호송하는 임무를 하던 도중 습격을 받는다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010"
+    ],
+    "units": [
+        {
+            "characters": [
+                "특공부대",
+                "C001",
+                "경찰들",
+                "여직원"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "버스를 납치한 C001이 녹음기에다 유언을 남긴다.",
+            "unit_motif": "죄의 고백",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "특공부대가 버스를 포위한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "버스에 혼자 남은 형사 C001이 녹음기에 유언을 남긴다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "경찰들"
+                    ],
+                    "act": "부수다",
+                    "emotion": "놀라다",
+                    "content": "경찰들이 집 문을 부수고 급습한다."
+                },
+                {
+                    "location": "복도",
+                    "character": [
+                        "경찰들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "놀라다",
+                    "content": "경찰들이 사고 현장을 마무리한다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "늙은 형사 C001이 다가온다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "무안하다",
+                    "content": "후배가 가만히 사고 현장만 지키고 있으면 된다고 한다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "소파에 앉아 술을 마시는 C001이 신문을 본다."
+                },
+                {
+                    "location": "경찰서 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001이 경찰서로 복귀한다."
+                },
+                {
+                    "location": "경찰서 사무실",
+                    "character": [
+                        "C001",
+                        "여직원"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C001이 사무실로 오자 여직원이 공문서 제출할 때 날짜 좀 제대로 적으라고 핀잔을 준다."
+                },
+                {
+                    "location": "경찰서 사무실",
+                    "character": [
+                        "C001",
+                        "여직원"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "담담하다",
+                    "content": "자리에 앉는 C001을 보고 여직원이 C003이 찾는다고 알려준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "남자들",
+                "C005",
+                "경찰들"
+            ],
+            "stage": "Main Character",
+            "storyline": "한물간 형사 C001에게 C003이 죄수 호송을 부탁한다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "경찰서 계단",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "집에 가던 C001을 부르는 C003이 죄수 호송을 부탁한다."
+                },
+                {
+                    "location": "경찰서 계단",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "거부감",
+                    "content": "C001은 어제 야간근무를 해서 못 하겠다고 한다."
+                },
+                {
+                    "location": "경찰서 계단",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "불쾌하다",
+                    "content": "C003은 2시간에 16블록이면 놀면서 가겠다고 한다."
+                },
+                {
+                    "location": "다리 밑",
+                    "character": [
+                        "남자들"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "봉고차 두 대가 나란히 서더니 총을 주고 =받는다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "경찰들"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 호송할 죄수를 조회한다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "경찰들"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "경찰이 유치장에서 죄수 C005를 꺼내 C001에게 보낸다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "경찰들"
+                    ],
+                    "act": "만나다",
+                    "emotion": "불쾌하다",
+                    "content": "C005가 계속해서 떠들어 댄다."
+                },
+                {
+                    "location": "유치장 밖",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "경찰들"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005에게 수갑을 채우고는 데리고 나간다."
+                },
+                {
+                    "location": "경찰서 밖",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005를 차에 태운다."
+                },
+                {
+                    "location": "시내 도로",
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001의 차가 출발하자, 봉고가 조용히 뒤따른다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "법원 증인으로 채택된 죄수 C005를 호송하는 C001, 킬러들이 C005를 죽이려는 것을 막아낸다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "짜증나다",
+                    "content": "C001은 꽉 막힌 도로로 짜증이 난다."
+                },
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "짜증나다",
+                    "content": "C001은 뒤에서 계속해서 떠드는 C005 때문에 폭발 일보 직전이다."
+                },
+                {
+                    "location": "시내 도로",
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "뒤에 오던 봉고가 C001의 차에 점점 다가온다."
+                },
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "짜증나다",
+                    "content": "계속 떠드는 C005에게 C001은 안 그래도 지겨운 인생 재 뿌리는 소리 그만하라고 한다."
+                },
+                {
+                    "location": "주차 구역",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "주차 구역에 차를 멈추는 C001이 차에서 나온다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 찻 길을 건너간다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "봉고 역시 멈춰 선다."
+                },
+                {
+                    "location": "술 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 술을 병째 산다."
+                },
+                {
+                    "location": "차 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "주절대는 C005를 보며 차 밖으로 남자가 문을 열라고 한다."
+                },
+                {
+                    "location": "술 집 밖",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "C001이 차에 붙은 남자에게 총을 쏜다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "남자들",
+                "C008",
+                "형사들"
+            ],
+            "stage": "1st Accident",
+            "storyline": "바에 숨은 C001과 C005에게 동료 C008가 와서 C005가 자기들의 비리를 알고 있으니 죽여야 한다고 한다. 하지만 C001은 C005를 데리고 도망친다.",
+            "unit_motif": "부패경찰",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "술 집 밖",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "C001이 서둘러 차로 돌아간다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "남자들"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C001과 C005를 죽이려는 킬러들 간의 총격전이 벌어진다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "남자들"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "놀라다",
+                    "content": "C001이 차를 몰고 도망친다."
+                },
+                {
+                    "location": "막다른 길",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 막다른 길이자 차에서 C005를 끌어낸다."
+                },
+                {
+                    "location": "지하철 밖",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 밖으로 나온다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008",
+                        "형사들"
+                    ],
+                    "act": "만들다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 도망친다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008",
+                        "형사들"
+                    ],
+                    "act": "만들다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 위성으로 위치를 추적해서 따라잡는 모습이 나온다."
+                },
+                {
+                    "location": "중국집",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "차이나타운에 있는 중국집으로 C001과 C005가 들어온다."
+                },
+                {
+                    "location": "중국집 옥상",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 옥상에서 밑에 있는 형사들의 동태를 살핀다."
+                },
+                {
+                    "location": "중국집 옥상",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 내려가는 길에 총격을 당한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C008",
+                "형사들",
+                "C009"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "동료들인 형사들과 총격전을 벌이는 C001, C005를 데리고 계속 도망친다.",
+            "unit_motif": "도망자",
+            "causality": "Facing the greatest fear(심연을 직면함)",
+            "story_scripts": [
+                {
+                    "location": "차이나타운 거리",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 다시 길로 나온다."
+                },
+                {
+                    "location": "차이나타운 거리",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "건물 지하실로 몸을 숨긴다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 주방을 통해 빠져나간다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "뒤따라온 형사들과 총격전을 벌인다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 C001에게 할만하냐고 물으며 벌서 동료가 6명이나 다쳤다고 한다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "그리고는 C005의 전과를 봤냐며, 무장강도, 노인 구타 등 헤아릴 수 없다고 한다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C005는 다 거짓말이라고 항변한다."
+                },
+                {
+                    "location": "엘리베이터",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 엘리베이터를 타고 도망친다."
+                },
+                {
+                    "location": "주방",
+                    "character": [
+                        "C008",
+                        "형사들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 동료 형사들에게 입구를 모조리 봉쇄하라고 한다."
+                },
+                {
+                    "location": "건물 복도",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "열린 문을 찾는 두 사람, C009가 문을 열어주자 그 집으로 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C006",
+                "C009",
+                "C008",
+                "형사들"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001이 검사에게 전화를 건다. 검사는 10시까지 도착 못하면 대배심은 해산된다고 그 안에 오라고 한다.",
+            "unit_motif": "강제된 과업",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 검사에게 전화를 건다."
+                },
+                {
+                    "location": "검사실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C006가 C001의 전화를 받는다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C009"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 형사들이 개떼처럼 몰려와 증인을 죽이려고 한다고 보고한다."
+                },
+                {
+                    "location": "검사실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "검사는 10시까지 도착 못하면 대배심은 해산된다고 그 안에 오라고 한다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C009"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "전화를 끊은 C001이 찬장에서 술을 찾는다."
+                },
+                {
+                    "location": "건물 복도",
+                    "character": [
+                        "C008",
+                        "형사들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005의 위치를 알아낸 C008가 동료 형사들과 집으로 간다."
+                },
+                {
+                    "location": "집 안",
+                    "character": [
+                        "형사들"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "긴장되다",
+                    "content": "형사들이 급습하는데 C001이 검사에게 잘 못 가르쳐 준 집이다."
+                },
+                {
+                    "location": "건물 계단",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "emotion": "당황하다",
+                    "content": "C001이 C008와 맞닥뜨린다."
+                },
+                {
+                    "location": "건물 계단",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "하지만 C005가 C008 뒤통수를 총으로 겨눈다."
+                },
+                {
+                    "location": "건물 계단",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 C008를 기둥에 수갑으로 묶고 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "기사",
+                "승객들",
+                "형사들",
+                "C008"
+            ],
+            "stage": "Trailer Moments",
+            "storyline": "바에 숨은 C001과 C005에게 동료 C008가 와서 C005가 자기들의 비리를 알고 있으니 죽여야 한다고 한다. 하지만 C001은 C005를 데리고 도망친다.",
+            "unit_motif": "부패경찰",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "뒷골목",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 뒷골목으로 도망친다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 버스에 탄다."
+                },
+                {
+                    "location": "차이나타운 거리",
+                    "character": [
+                        "형사들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "형사들이 버스를 뒤쫓는다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 기사에게 뒤따라오는 형사들을 따돌려야 한다며 무조건 밟으라고 한다."
+                },
+                {
+                    "location": "몽타쥬",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "달리는 버스와 뒤쫓는 형사들의 모습이 나온다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "버스가 철조망에 가로막힌다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "해치다",
+                    "emotion": "놀라다",
+                    "content": "승객들이 넘어진다."
+                },
+                {
+                    "location": "버스 밖",
+                    "character": [
+                        "형사들"
+                    ],
+                    "act": "때리다",
+                    "emotion": "긴장되다",
+                    "content": "형사들이 타이어에 총을 쏘고는 C008에게 위치를 알린다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 승객들에게 창 앞에 서라고 명령한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "형사들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 차에서 내린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C001",
+                "C005",
+                "기사",
+                "승객들",
+                "C002",
+                "C010"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001은 지나가는 버스를 납치하고 인질극을 벌인다.",
+            "unit_motif": "인질",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "형사가 와서 C004이 직접 오신다고 보고한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "초조하다",
+                    "content": "건물에 걸린 시계가 9시 19분을 가리키자 C001이 초조해진다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C002이 차에서 내려 C008에게 일을 크게 만든다며 혼을 낸다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 신문지로 창문을 가린다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C010"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "놀라다",
+                    "content": "C010가 C001이 보통이 아니라고 혀를 내두른다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 승객들에게 자기도 형사라고 안전하게 내리게 될 테니 뒤로 가서 앉으라고 한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C010가 C001에게 버스에 전화기만 들여보내달라고 한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001은 C010가 주는 전화기를 받고 C010의 전화를 받는다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C010가 안에 몇 명이나 있는지 물어보자, C001이 40명이라고 답한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "C010는 특공대가 포위하고 있고 지역 전체가 봉쇄됐다고 알려준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "기사",
+                "승객들",
+                "C010",
+                "C008",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C010는 전화로 특공대가 포위하고 있고 지역 전체가 봉쇄됐다고 알려준다.",
+            "unit_motif": "인질",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "정적이 감도는 버스 안, C005가 여자아이에게 가서 인사하고는 자기가 디자인한 케이크를 보여준다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C010가 C001의 전화를 받는다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 요구 조건이 있다며 검사와 법원 속기사, 그리고 기자들도 보내달라고 한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "흥정하다/협상하다",
+                    "emotion": "긴장되다",
+                    "content": "만약 불이행 시 15분에 한 명씩 시체를 밖으로 던져줄 거라고 한다."
+                },
+                {
+                    "location": "버스 밖",
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "버스 밖으로 전화기가 던져진다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005에게 아무도 안 올 거라며 우린 진 거라고 말한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "C002이 특공대 투입을 결정한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C010"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "긴장되다",
+                    "content": "건물 시계가 9시 27분을 가리킨다."
+                },
+                {
+                    "location": "버스 밖",
+                    "character": [
+                        "승객들"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "갑자기 승객들이 버스에서 나온다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "기사",
+                        "승객들"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005에게 양복을 입히고는 승객으로 위장시켜 내보낸다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C002",
+                "C010",
+                "승객들",
+                "C001",
+                "C005",
+                "경찰들",
+                "기사"
+            ],
+            "stage": "Defeat",
+            "storyline": "C005는 승객들 틈에 섞여 빠져나간다.",
+            "unit_motif": "인질",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "C002",
+                        "C010",
+                        "승객들"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "긴장되다",
+                    "content": "C008와 형사들이 쏟아지는 승객들을 주체 못 한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 승객들을 다 보내고 운전대에 앉는다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "승객들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 C005인 줄 알고 흑인 남자를 붙잡는다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "승객들"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "흑인 남자는 회색 양복을 입고 도망쳤다고 알려준다."
+                },
+                {
+                    "location": "건물 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "긴장되다",
+                    "content": "C005가 건물 안으로 숨는다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 승객들 소지품에서 녹음기를 발견한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "경찰들",
+                        "기사"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "승객이 32명 풀려났다면서 아직 8명이 남았다고 경찰이 C008에게 보고한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "경찰들",
+                        "기사"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "이때, 운전수가 버스에는 형사 혼자 남아 있다고 알려준다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "C008",
+                        "경찰들",
+                        "기사"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 출동 준비를 시킨다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "녹음기를 작동 시켜보는 C001이 유언을 녹음한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C001",
+                "특공부대"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "C001과 C005는 버스에서 탈출한다.",
+            "unit_motif": "도망자",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "건물 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "건설현장을 숨죽여 지켜보는 C005, 굳은 얼굴로 간다."
+                },
+                {
+                    "location": "버스 밖",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "두 손을 들고 오는 C005, 다시 버스 안으로 들어간다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "답답하다",
+                    "content": "다시 돌아온 C005를 보고 C001이 미치고 환장하겠다고 한다."
+                },
+                {
+                    "location": "건설현장",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "특공부대가 버스를 서서히 포위하기 시작한다."
+                },
+                {
+                    "location": "건설현장",
+                    "act": "부수다",
+                    "emotion": "긴장되다",
+                    "content": "버스가 움직이더니 골목 안에 처박힌다."
+                },
+                {
+                    "location": "골목 안",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "특공부대가 버스 안에다 최루탄을 넣는다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "특공 부대원들이 버스 안으로 진입한다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "우연히도 버스 문이 건물 입구로 연결되어 있다."
+                },
+                {
+                    "location": "버스 안",
+                    "character": [
+                        "특공부대"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "부대원이 건물로 탈출했다고 C008에게 보고한다."
+                },
+                {
+                    "location": "시내 거리",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "긴장되다",
+                    "content": "C001과 C005가 거리로 나온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C007",
+                "C008"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C001은 C005를 풀어주고 법원 지하주차장에서 C008를 만나 그가 자백하는 말들을 녹음기에 담는다.",
+            "unit_motif": "부패경찰",
+            "causality": "Retaliation(보복/복수)",
+            "story_scripts": [
+                {
+                    "location": "시내 거리",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "emotion": "놀라다",
+                    "content": "C001은 C005가 가슴에 총을 맞은 것을 보고 놀란다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "C001은 공사장에 들어와 바닥에 C005를 눕힌다."
+                },
+                {
+                    "location": "공사장",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "만나다",
+                    "emotion": "긴장되다",
+                    "content": "이윽고 C007의 구급차가 와서 C005를 태워 간다."
+                },
+                {
+                    "location": "구급차 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "긴장되다",
+                    "content": "C005가 전 여자친구에게 C001에게 기회를 더 주라고 부탁한다."
+                },
+                {
+                    "location": "구급차 안",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "요구하다",
+                    "emotion": "허무하다",
+                    "content": "C001이 웃으며 C007이라고 말하자 C005가 허탈해한다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "차가 구급차를 가로막는다."
+                },
+                {
+                    "location": "시내 도로",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "차에서 C008와 형사들이 내린다."
+                },
+                {
+                    "location": "구급차 밖",
+                    "character": [
+                        "C008",
+                        "C007"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "긴장되다",
+                    "content": "C008가 C001의 C007에게 문을 열게 한다."
+                },
+                {
+                    "location": "구급차 밖",
+                    "character": [
+                        "C008",
+                        "C007"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "허무하다",
+                    "content": "하지만 그 안에는 텅 비어 있자 C008가 허탈해한다."
+                },
+                {
+                    "location": "다른 구급차 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005에게 자기는 나쁜 형사라고 C005가 증언하려는 형사 중에 자기도 속해 있다고 고백한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C008",
+                "C006"
+            ],
+            "stage": "Resurrection",
+            "storyline": "법원에 들어오는 C001, 검사 앞에서 C005 대신 녹음기를 증거로 제출한다.",
+            "unit_motif": "죄의 고백",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "다른 구급차 안",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005에게 증언 잘 하라며 인사하며 구급차에서 내린다."
+                },
+                {
+                    "location": "법원 주차장",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C008와 다시 만난다."
+                },
+                {
+                    "location": "법원 주차장",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C008는 생각하는 대로는 그렇게 안 될 거라고 말한다."
+                },
+                {
+                    "location": "법원 주차장",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C008가 저지른 범죄에 대해 거론한다."
+                },
+                {
+                    "location": "법원 주차장",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C008는 공무집행 중이었다고 술술 얘기를 하기 시작한다."
+                },
+                {
+                    "location": "법원 주차장",
+                    "character": [
+                        "C001",
+                        "C008"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 다 됐다며 총을 C008에게 주고는 엘리베이터를 타고 올라간다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "로비로 나오는 C001을 형사가 미행한다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "경찰들이 C001을 보고는 총을 겨눈다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "검사가 달려와 증인은 어딨냐고 묻는다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "증인은 없고 자기가 대신 왔다고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C006",
+                "C008",
+                "C007",
+                "친구들"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001이 생일날 C005가 만든 케이크를 보고 감동한다.",
+            "unit_motif": "노년기 과제",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "그리고는 C004을 비롯한 연루된 형사 이름을 검사에게 댄다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "검사가 증언의 대가는 뭐냐고 묻는다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "C001이 C005의 범죄 기록을 지워달라고 요구한다."
+                },
+                {
+                    "location": "법원 로비",
+                    "character": [
+                        "C001",
+                        "C006",
+                        "C008"
+                    ],
+                    "act": "준다",
+                    "emotion": "긴장되다",
+                    "content": "녹음기를 꺼내 C008가 자백한 내용을 들려준다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "기쁘다",
+                    "content": "C007이 택배를 받는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "친구들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기쁘다",
+                    "content": "C001이 생일 파티를 한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "친구들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "감동하다",
+                    "content": "C001은 C005가 보낸 케이크를 보고 감동한다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "친구들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "감동하다",
+                    "content": "C007이 C005의 편지를 C001에게 준다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "친구들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "감동하다",
+                    "content": "C001이 C005의 편지를 읽는다."
+                },
+                {
+                    "location": "C001의 집",
+                    "character": [
+                        "C001",
+                        "C007",
+                        "친구들"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "기쁘다",
+                    "content": "C005 사진을 들고 웃으며 C007이 찍어주는 사진을 찍는다."
+                }
+            ]
+        }
+    ]
+}

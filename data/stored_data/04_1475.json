@@ -1,0 +1,1505 @@
+{
+    "title": "비극적인 사랑",
+    "genre": [
+        "판타지",
+        "드라마",
+        "코미디"
+    ],
+    "theme": "구출",
+    "concept": "C005에게 감금되어 자라던 C004는 C002를 만나 사랑에 빠지게 된다.",
+    "motif": "시라노 콤플렉스",
+    "conflict": "종지기 C004는 C002를 만나 C005에 대항하게 되면서 스스로와 도시를 구하게 된다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C003",
+                "C004",
+                "E001",
+                "C005",
+                "C001"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C005가 집시를 뒤쫓다가 여자 집시를 죽이고 그 여자의 괴물 같은 아이를 몽상 사원 종탑에서 키우기로 한다.",
+            "unit_motif": "유랑자(집시)",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "그립다",
+                    "content": "시내 몽상 사원이 보이고 C003이 인형극을 하며 아이들 앞에서 몽상 종지기에 대해 이야기한다."
+                },
+                {
+                    "location": "과거 강",
+                    "character": [
+                        "C004",
+                        "E001"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절박하다",
+                    "content": "4명의 집시가 배를 타고 도주한다."
+                },
+                {
+                    "location": "과거 강가",
+                    "character": [
+                        "C004",
+                        "E001",
+                        "C005"
+                    ],
+                    "act": "해치다",
+                    "content": "배에서 내린 집시들을 C005 영주가 습격한다."
+                },
+                {
+                    "location": "과거 도심",
+                    "character": [
+                        "C004",
+                        "E001",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "절박하다",
+                    "content": "E001가 C004를 안고 도심으로 도주한다."
+                },
+                {
+                    "location": "과거 도심",
+                    "character": [
+                        "C004",
+                        "E001",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "content": "C005가 말을 타고 추격한다."
+                },
+                {
+                    "location": "과거 몽상 사원 앞",
+                    "character": [
+                        "C004",
+                        "E001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "괘씸하다",
+                    "content": "C005는 사원으로 들어가려는 E001를 죽이고 아기를 빼앗는다."
+                },
+                {
+                    "location": "과거 몽상 사원 앞",
+                    "character": [
+                        "C004",
+                        "E001",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "놀라다",
+                    "content": "괴물 같은 아이의 모습을 보고 놀란다."
+                },
+                {
+                    "location": "과거 몽상 사원 앞 우물",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "content": "C005는 아기를 우물에 버리려 한다."
+                },
+                {
+                    "location": "과거 몽상 사원 앞 우물",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "content": "C001가 나타나 여인을 죽인 죄를 묻고 아기를 키우라고 한다."
+                },
+                {
+                    "location": "과거 몽상 사원 앞 우물",
+                    "character": [
+                        "C004",
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "죄책감",
+                    "content": "C005는 몽상 사원 종탑에서 아이를 키우겠다고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "석상 친구들",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "몽상 사원 종탑에 갇혀 사는 C004는 자신을 처지를 슬퍼하지만 만우절 축제에 가보기로 한다.",
+            "unit_motif": "아웃사이더",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "content": "등이 굽은 C004의 실루엣이 종을 친다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "기대되다",
+                    "content": "C004는 아기 비둘기와 대화를 나누며 그의 첫 비행을 응원한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "우울하다",
+                    "content": "비둘기를 보내며 갇혀 지내는 자신의 처지를 생각한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "emotion": "걱정",
+                    "content": "우울해하는 C004를 보며 석상 친구들이 걱정한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "석상 친구들이 C004에게 만우절 축제에 참여하라고 설득한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "C004는 종탑을 절대 벗어나지 말라던 C005를 떠올리며 망설인다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "content": "석상 친구들의 설득에 못 이겨 축제에 참가하기로 결심한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "C005가 종탑으로 찾아와 C004와 식사를 한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "화나다",
+                    "content": "C005는 C004가 축제에 가고 싶어 하는 걸 알아차리고 화를 낸다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "단호하다",
+                    "content": "그는 C004에게 흉측한 네 모습을 세상이 싫어할 거라며 종탑에서 절대 나가지 말라고 한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C006",
+                "C002",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C005의 반대에도 C004는 마을 사람들과 어울리고 싶어하고 C005는 C006에게 집시를 제거하라는 명령을 내린다.",
+            "unit_motif": "독재정치",
+            "causality": "Preparation for the ordeal(마지막 대격전)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "우울하다",
+                    "content": "C005가 떠나고 C004는 시내를 내려다보며 사람들을 바라본다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "찾는다",
+                    "content": "그는 한 번이라도 마을로 내려가서 사람들과 지내고 싶어 한다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "놀라다",
+                    "content": "C006 대장은 20년 만에 도시로 돌아온다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "궁금하다",
+                    "content": "그는 재판소를 찾고 있다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "반하다",
+                    "content": "C006는 집시인 C002의 춤을 보게 된다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "content": "군인들이 나타나 C002를 괴롭히자 그는 C002가 도망칠 수 있게 돕는다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006는 자신을 알아본 군인들의 안내를 받으며 재판소로 향한다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "변장한 C002는 그를 바라본다."
+                },
+                {
+                    "location": "정의의 성",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "content": "C006는 C005와 만나 그에게 충성을 하겠다고 한다."
+                },
+                {
+                    "location": "정의의 성",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "content": "C005는 백성을 구원하기 위해 C006에게 집시를 제거하라 명령한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003",
+                "C002",
+                "C006",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C004는 변장하고 만우절 축제에 참가하지만 정체가 탄로나 사람들에게 괴롭힘을 당한다.",
+            "unit_motif": "변장",
+            "causality": "Mentor-hero conflict(스승과의 갈등)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀다",
+                    "emotion": "설레다",
+                    "content": "C004가 두건을 뒤집어쓰고 몽상 성당을 빠져나간다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003이 만우절 축제 노래를 부르며 사람들의 주목을 받는다."
+                },
+                {
+                    "location": "C002 천막",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "emotion": "반하다",
+                    "content": "C004는 발을 헛디뎌 C002의 천막에 굴러들어가고 친절한 C002에게 반한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C003"
+                    ],
+                    "content": "C005와 C006가 등장하고 C003이 C002를 소개한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "열광하다",
+                    "content": "C002는 사람들 앞 축제 무대에서 강렬한 춤을 춘다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "놀다",
+                    "emotion": "열광하다",
+                    "content": "사람들이 환호한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C002는 최고로 못생긴 사람을 뽑는 바보 왕 경연에 C004를 참여시킨다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "C003이 사회를 본다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "놀다",
+                    "emotion": "즐겁다",
+                    "content": "사람들은 C004의 얼굴이 가면이 아님을 알고 놀라지만 그는 바보 왕에 뽑히게 되고 환호를 받는다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "즐겁다",
+                    "content": "군인들이 토마토 등을 던지며 C004를 괴롭힌다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "즐겁다",
+                    "content": "사람들은 이를 즐거워하며 그를 계속 괴롭힌다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C006",
+                "C002"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C002는 C004를 구하지만 C005에게 수배되고 C004는 종탑으로 돌아간다.",
+            "unit_motif": "지배자 희롱",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "경멸하다",
+                    "content": "C004가 C005에게 구원을 요청하지만 C005는 모르는척한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "content": "C006가 관여하려 하지만 C005가 말린다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "content": "C002는 C004에게 다가가 그를 구한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "경멸하다",
+                    "content": "C005가 이를 저지하자 C002는 그를 모욕한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "경멸하다",
+                    "content": "C005는 C006에게 C002를 체포하라고 명령한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "content": "군인들은 C002를 쫓지만 그녀는 재치 있게 위기를 넘긴다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "반하다",
+                    "content": "C006는 그런 그녀를 마음에 들어 한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "약오르다",
+                    "content": "C005는 C006에게 C002를 산 채로 잡아오라고 한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "경멸하다",
+                    "content": "C005는 C004를 노려본다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "무섭다",
+                    "content": "C004는 갑자기 내리는 소나기를 맞으며 사원으로 몸을 숨긴다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C006",
+                "C005",
+                "C001"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C002는 사원으로 숨어들고 C006에게 호감을 느끼지만 C005에게 위협을 당해 갇히는 신세가 된다.",
+            "unit_motif": "이지메",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "content": "변장한 C002가 사원으로 들어간다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "감탄하다",
+                    "content": "사원 내부를 처음 보는 C002는 아름다움에 놀란다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "emotion": "궁금하다",
+                    "content": "C006는 변장한 C002를 알아채고 그녀를 따라 사원으로 들어간다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "content": "C002와 C006가 칼싸움을 한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "만나다",
+                    "emotion": "반하다",
+                    "content": "C002에게 호감이 있는 C006는 서로 통성명을 한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "emotion": "궁금하다",
+                    "content": "자신을 체포하지 않겠다는 C006에게 C002는 뭘 원하냐고 묻는다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C005"
+                    ],
+                    "emotion": "괘씸하다",
+                    "content": "그때 C005가 나타나 C006를 치하하며 C002를 체포하라고 한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C005"
+                    ],
+                    "content": "속았다고 생각하는 C002에게 C006는 성역을 주장하라고 한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C005",
+                        "C001"
+                    ],
+                    "emotion": "괘씸하다",
+                    "content": "성당 밖으로 끌어내라는 C005에게 맞서 C001가 등장해 그녀를 놔두라고 한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C005"
+                    ],
+                    "emotion": "뻔뻔하다",
+                    "content": "숨어있던 C005가 C002에게 경고의 말을 남기고 사라진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C004",
+                "C006"
+            ],
+            "stage": "Another Story",
+            "storyline": "C002는 C004를 만나 집시와 자신의 모습을 싫어하는 그의 생각을 변화시킨다.",
+            "unit_motif": "짝사랑",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C002",
+                        "C001"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "씁쓸하다",
+                    "content": "갇힌 신세를 한탄하는 C002를 C001가 달랜다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "content": "C002가 간절한 마음으로 노래를 하고 이를 C004가 듣게 된다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "content": "마을 사람들은 세속적인 것을 노래한다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "C002를 몰래 지켜보던 C004를 마을 사람들이 발견하고 그를 비난한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "궁금하다",
+                    "content": "C002는 C004를 발견하고 도망치는 그를 따라 종탑으로 올라간다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "emotion": "미안하다",
+                    "content": "C002는 축제에서 그를 내세운 일에 대해 사과한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "content": "C002는 모형을 만드는 C004의 재능을 칭찬한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "반하다",
+                    "content": "C004는 그녀에게 종탑 내부를 구경시켜준다."
+                },
+                {
+                    "location": "몽상 사원 종탑 바깥",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "감탄하다",
+                    "content": "C004는 C002에게 노을을 보여준다."
+                },
+                {
+                    "location": "몽상 사원 종탑 바깥",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "추켜세우다",
+                    "content": "C002는 C005 때문에 집시와 자신의 모습을 미워하고 있는 C004의 생각을 변화시킨다."
+                },
+                {
+                    "location": "몽상 사원 종탑 바깥",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "C004는 사원 벽을 넘나들며 C002의 탈출을 돕는다."
+                },
+                {
+                    "location": "몽상 사원 밖",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002는 C004에게 자신과 함께 기적의 마당에 가자고 한다."
+                },
+                {
+                    "location": "몽상 사원 밖",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C004가 거절하자 C002는 자신이 자주 놀러 오겠다고 약속한다."
+                },
+                {
+                    "location": "몽상 사원 밖",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002는 기적의 마당을 찾을 수 있는 목걸이를 건네주며 떠난다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "걱정",
+                    "content": "종탑으로 돌아가는 길에 C004는 C006를 만난다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "안심/안도하다",
+                    "content": "C004는 그와 싸우다가 C006도 그녀를 돕고 있다는 것을 깨닫고 그를 놓아준다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "망설이다",
+                    "content": "C004는 C002에게 사랑의 감정을 느끼지만 자신의 추한 외모 때문에 망설인다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C006",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C005는 C002를 잡기 위해 마을을 불태우고 C006는 저항하다 상처 입고 C002에 의해 구출된다.",
+            "unit_motif": "독재정치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001가 사원을 돌며 향을 피우고 예배 소리가 깔린다."
+                },
+                {
+                    "location": "재판소",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "열광하다",
+                    "content": "C005는 C002에 대한 욕망을 기도로 표현한다."
+                },
+                {
+                    "location": "재판소",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "그때 C002가 탈출했다는 소식을 듣는다."
+                },
+                {
+                    "location": "재판소",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "증오하다",
+                    "content": "그는 도시를 불태우더라도 그녀를 찾으려 한다."
+                },
+                {
+                    "location": "파리 도심 광장",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "content": "군인들과 대기하고 있던 C006는 마차에서 내리는 C005를 맞이한다."
+                },
+                {
+                    "location": "파리 도심 광장",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "명령하다",
+                    "content": "C005는 C002를 찾으라고 명령한다."
+                },
+                {
+                    "location": "마을 사람들의 집",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "화나다",
+                    "content": "C005는 마을 구석구석에 숨어있는 집시들을 찾아내 C002의 행방을 캐물으며 협박한다."
+                },
+                {
+                    "location": "마을 사람들의 집",
+                    "character": [
+                        "C006",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "불편하다",
+                    "content": "C006는 이를 지켜보며 고개를 내젓는다."
+                },
+                {
+                    "location": "방앗간집",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "화나다",
+                    "content": "C005는 방앗간 집 사람들을 집에 가두고 불을 지르라고 명령한다."
+                },
+                {
+                    "location": "방앗간집",
+                    "character": [
+                        "C006",
+                        "C005",
+                        "C002"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "content": "C006가 거부하자 C005는 직접 불을 지르고 C006는 사람들을 구하려다 처형 당할 위기에 처한다."
+                },
+                {
+                    "location": "강",
+                    "character": [
+                        "C006",
+                        "C002"
+                    ],
+                    "act": "해치다",
+                    "emotion": "걱정",
+                    "content": "도망치다 화살에 맞은 C006는 강 아래로 떨어지고 이를 지켜보던 C002가 쫓아와 그를 구한다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "수색하다",
+                    "content": "마을이 불탄다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "수색하다",
+                    "emotion": "의심스럽다",
+                    "content": "C005는 C002의 행방을 계속 찾다가 몽상 사원을 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "석상 친구들",
+                "C002",
+                "C006",
+                "C005"
+            ],
+            "stage": "Defeat",
+            "storyline": "C002는 상처 입은 C006를 데려와 C004에게 도움을 청하고 사랑에 빠진 두 사람을 보며 C004는 슬퍼한다.",
+            "unit_motif": "삼각관계",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "act": "조언/충고하다",
+                    "emotion": "걱정",
+                    "content": "C004는 C002를 걱정한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "석상 친구들"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "석상 친구들은 그를 위로하며 그의 용기를 북돋는다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "절박하다",
+                    "content": "C002가 상처 입은 C006를 데리고 C004에게 도움을 청하러 온다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C004"
+                    ],
+                    "emotion": "걱정",
+                    "content": "C004는 두 사람을 숨겨준다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "외롭다",
+                    "content": "그녀는 C006를 치료하다 서로 키스한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "슬프다",
+                    "content": "C004는 숨어서 이를 지켜보며 슬퍼한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "content": "C005가 사원으로 오는 소리가 들리자 C002는 사원을 떠난다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "도망치다",
+                    "content": "C004는 그녀에게 C006를 지켜주겠다고 약속한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C004는 정신을 잃은 C006를 황급히 숨긴다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "emotion": "뻔뻔하다",
+                    "content": "C005는 C004와의 식사를 거를 수 없다며 뻔뻔하게 들어온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C005",
+                "C006",
+                "C002",
+                "C003"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C004는 C002를 구하기 위해 C005와 대적한다.",
+            "unit_motif": "비대칭전투",
+            "causality": "Courtship(구애)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "당황하다",
+                    "content": "C005의 갑작스러운 방문에 C004는 당황한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "emotion": "의심스럽다",
+                    "content": "C005는 C004가 무언가를 숨기고 있다며 추궁한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "괘씸하다",
+                    "content": "C005는 C004가 그녀를 돕고 있다는 것을 눈치채고 그녀를 화형에 처하겠다며 사라진다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C006",
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C006는 무고한 사람들을 그냥 둘 수 없다며 C005를 막으러 떠난다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "망설이다",
+                    "content": "C004는 주인을 따를지 다른 남자를 사랑하는 C002를 구할지 갈등한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "결국 그녀를 구하러 떠난다."
+                },
+                {
+                    "location": "파리 도심",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "content": "C004는 C006를 찾아가고 둘은 C002가 건넨 목걸이의 의미에 관해 의견 대립을 보인다."
+                },
+                {
+                    "location": "공동묘지",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "목걸이가 지시하는 좌표로 찾아간 C004와 C006는 기적의 마당 입구에 도착한다."
+                },
+                {
+                    "location": "기적의 마당",
+                    "character": [
+                        "C004",
+                        "C006",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "억울하다",
+                    "content": "기적의 마당에 들어온 C004와 C006는 집시들에게 포위되어 교수형에 처할 위기를 맞는다."
+                },
+                {
+                    "location": "기적의 마당",
+                    "character": [
+                        "C004",
+                        "C006",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "content": "C002가 나타나 그들을 풀어주고 사람들을 대피시킨다."
+                },
+                {
+                    "location": "기적의 마당",
+                    "character": [
+                        "C004",
+                        "C006",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "당황하다",
+                    "content": "C004를 미행한 C005가 나타나 C002와 C006를 체포한다."
+                },
+                {
+                    "location": "기적의 마당",
+                    "character": [
+                        "C004",
+                        "C006",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "상실감",
+                    "content": "C004도 잡혀간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C002",
+                "C006",
+                "C005",
+                "C001"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C004는 화형 위기에 처한 C002를 구출하고 C005는 그들을 쫓다 죽음을 맞이한다.",
+            "unit_motif": "비대칭전투",
+            "causality": "Possession(집착)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "걱정",
+                    "content": "C002가 화형에 처할 위기에 놓인다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "걱정",
+                    "content": "종탑에 묶인 C004는 사슬을 끊고 그녀를 구해 종탑으로 올라간다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "content": "C004는 사원을 포위하려는 군인들과 싸운다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "C006는 사람들을 선동하여 군인들과 싸운다."
+                },
+                {
+                    "location": "몽상 사원",
+                    "character": [
+                        "C005",
+                        "C001"
+                    ],
+                    "act": "도망치다",
+                    "content": "C005는 사원 안으로 침투해 자신을 막는 C001를 따돌리고 종탑으로 올라간다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "C004는 군인들을 물리치고 의식 없이 침대에 누운 C002에게 물을 먹인다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "슬프다",
+                    "content": "그는 움직이지 않는 그녀를 안고 흐느껴운다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "content": "C005가 울고 있는 C004에게 나타나 그를 죽이려 한다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "단호하다",
+                    "content": "C002가 깨어나자 C004는 그녀를 안고 도망친다."
+                },
+                {
+                    "location": "몽상 사원 종탑",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "화나다",
+                    "content": "C005는 칼을 들고 그들을 쫓는다."
+                },
+                {
+                    "location": "몽상 사원 종탑 난간",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "얻는다/취하다",
+                    "emotion": "화나다",
+                    "content": "C005에게 쫓기던 C004는 20년 전 자신의 어머니가 C005에게 살해됐다는 사실을 알게 된다."
+                },
+                {
+                    "location": "몽상 사원 종탑 난간",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "content": "C005는 C004를 죽이려다 난간에 떨어져 죽는다."
+                },
+                {
+                    "location": "몽상 사원 종탑 난간",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C005"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "기쁘다",
+                    "content": "C006가 추락하던 C004를 구하고 C002와 C006, C004는 서로 기뻐한다."
+                },
+                {
+                    "location": "몽상 사원 종탑 난간",
+                    "character": [
+                        "C004",
+                        "C002",
+                        "C006"
+                    ],
+                    "act": "키스하다",
+                    "emotion": "사랑스럽다",
+                    "content": "C004는 C006와 C002의 손을 연결해주고 두 사람은 키스한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C004",
+                "C003"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C004는 영웅이 되어 사람들에게 한호를 받는다.",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "추켜세우다",
+                    "emotion": "즐겁다",
+                    "content": "C006와 C002가 사원에서 나오자 광장에 모든 사람들이 환호한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C004"
+                    ],
+                    "emotion": "설레다",
+                    "content": "C002가 C004를 청해 밖으로 나오게 한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C004"
+                    ],
+                    "act": "추켜세우다",
+                    "content": "C004가 나오자 한 여자아이가 그에게 다가간다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C004"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C004와 아이가 따뜻하게 포옹한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C006",
+                        "C002",
+                        "C004",
+                        "C003"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C003이 외치자 사람들이 더 크게 환호한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "사람들이 C004를 데리고 마을을 행진하기 시작한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "목말을 타고 거리를 행진하는 C004의 모습이 하늘에서 보인다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003이 도시의 이야기에 대해 노래한다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C002",
+                        "C006"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C002와 C006가 흐뭇한 모습으로 C004를 바라본다."
+                },
+                {
+                    "location": "몽상 사원 앞 광장",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "얻는다/취하다",
+                    "content": "카메라가 점점 줌아웃되며 몽상 사원을 비추며 하늘로 올라간다."
+                }
+            ]
+        }
+    ]
+}

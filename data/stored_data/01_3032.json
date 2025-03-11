@@ -1,0 +1,2036 @@
+{
+    "title": "가라앉다",
+    "genre": [
+        "드라마"
+    ],
+    "theme": "탈출",
+    "concept": "C001이 이사 온 빌라가 싱크홀 속으로 떨어진다.",
+    "motif": "도시 재난",
+    "conflict": "싱크홀에 갇힌 생존자들이 탈출하기 위해 고군분투한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010",
+        "C011"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "이사업체직원",
+                "C008"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001은 가족과 함께 새 집으로 이사한다.",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C001 자동차 안",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "이사 가는 집으로 이동한다."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "이사업체직원"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "차 주인이 전화를 안 받아서 아직 이삿짐을 못 옮겼어요."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 차 주인에게 전화를 하지만 받지 않는다."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "무시하다",
+                    "content": "아무 말 없이 거칠게 차를 뺀다."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "괘씸하다",
+                    "content": "왜 전화를 안 받으세요?"
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "휴대폰이 무음이라서 못 들었어."
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요구하다",
+                    "content": "당신 때문에 이사가 지체됐으니까 사과하세요."
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "괘씸하다",
+                    "content": "하루 종일 이사로 시끄럽게 구는 당신이 나에게 사과해야지!"
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C008",
+                        "C001"
+                    ],
+                    "act": "말다툼하다",
+                    "emotion": "짜증나다",
+                    "content": "티격태격하기 시작한다."
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C008에게 인사한다."
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "content": "싸우는 거예요?"
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "content": "아니야. 이사 온 걸 환영해."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "C001이 이웃들과 인사를 나눈다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "emotion": "행복하다",
+                    "content": "이사가 끝나고 새로운 집에서 행복해한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001",
+                "C008",
+                "C011"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001은 평평한 바닥에서 구슬이 굴러가는 것을 보고 부실공사를 의심한다.",
+            "unit_motif": "의심",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "C001 내가 재미있는 거 보여줄게."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003이 구슬을 평평한 바닥에 놓는다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C001이 굴러가는 구슬을 보고 의구심을 갖는다."
+                },
+                {
+                    "location": "헬스장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "C001은 헬스장에서 C008를 만나 말을 건다."
+                },
+                {
+                    "location": "헬스장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "당신 집은 괜찮아요?"
+                },
+                {
+                    "location": "헬스장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "구슬이 있으면 집 안에서 한번 굴려보세요."
+                },
+                {
+                    "location": "헬스장",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "귀찮다",
+                    "content": "내가 구슬 갖고 놀 나이야?"
+                },
+                {
+                    "location": "헬스장",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 회사에 지각할까 봐 서둘러 자리를 떠난다."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "content": "C001은 웹에서 부실공사 사례를 찾는다."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "열광하다",
+                    "content": "C001 내 집 장만을 축하드려요!"
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "근데 C001 집 전철 지나는 곳이라 시끄럽지 않아요?"
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "거부감",
+                    "content": "방음이 잘 되어서 시끄러운지 몰라."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "무안하다",
+                    "content": "C001이 보고 있는 부실공사 영상을 우연히 보게 된다."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "급하게 웹 창을 닫는다."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불편하다",
+                    "content": "우리 집들이할 건데 언제 할까?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C008",
+                "C011"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "C001은 부실공사에 대한 의심을 묻고 가족과 일상을 즐긴다.",
+            "unit_motif": "덕담/응원",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001이 바닥에 구슬을 놓고 굴러가는지 계속 확인한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "피곤하다",
+                    "content": "이제 그만 좀 해."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "집이 기울면 창문이 잘 안 열리고 잘 안 닫힌대."
+                },
+                {
+                    "location": "사진관",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "content": "가족사진을 찍기 위해 사진관으로 찾아간다."
+                },
+                {
+                    "location": "사진관",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "우리도 근사한 가족사진 거실에 걸어 놓자."
+                },
+                {
+                    "location": "사진관",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "content": "사장님, 계십니까?"
+                },
+                {
+                    "location": "사진관",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "내가 여기 사장이야."
+                },
+                {
+                    "location": "사진관",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008가 가족사진을 찍어 준다."
+                },
+                {
+                    "location": "레스토랑",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "content": "서로를 위해주며 외식을 즐긴다."
+                },
+                {
+                    "location": "레스토랑",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "기쁘다",
+                    "content": "대리비 신경 쓰지 말고 마시자."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "만나다",
+                    "emotion": "놀라다",
+                    "content": "출근한 C001에게 말을 건다."
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001 집들이 선물로 뭐 받고 싶으세요?"
+                },
+                {
+                    "location": "C001 회사",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "돈으로 줘."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C001은 가구를 사고 회사에서 집들이 선물로 받았다고 C002에게 둘러댄다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C001",
+                "E001",
+                "C007",
+                "입주민1",
+                "C009"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C001과 C008는 빌라의 하자를 발견한다. C001은 회사 사람들을 집에 초대한다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "발견하다",
+                    "content": "C008는 빌라 건물 유리 문이 깨진 것을 발견한다."
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "난감하다",
+                    "content": "유리 문이 왜 깨져있지?"
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "걱정",
+                    "content": "C001이 빌라 건물과 바닥에 금이 가 있는 것을 확인한다."
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "걱정",
+                    "content": "C001은 구청에 전화를 한다."
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불안하다",
+                    "content": "빌라 하자 보수 공사 요청합니다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 입주민들과 빌라 하자 보수 절차 회의를 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "거부감",
+                    "content": "빌라에 하자 있다는 소문나면 괜히 집값만 떨어져요."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "content": "저는 집에 있는 시간이 많지 않아 하자 문제 잘 모르겠어요."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "입주민1"
+                    ],
+                    "act": "경고하다",
+                    "content": "저희는 담배 냄새 올라와서 창문을 안 열어요."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "입주민1"
+                    ],
+                    "content": "입주민1이 C008를 째려본다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "단호하다",
+                    "content": "저희 집에 담배 피우는 사람 없어요."
+                },
+                {
+                    "location": "C008 집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "content": "C008는 집으로 돌아와 C009에게 말을 건다."
+                },
+                {
+                    "location": "C008 집",
+                    "character": [
+                        "C009",
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "서운하다",
+                    "content": "담배는 옥상에서 피는 거 어떠니?"
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "기쁘다",
+                    "content": "C001은 회사 사람들과 집들이를 한다."
+                },
+                {
+                    "location": "C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "content": "C011와 C010은 여기서 자고 가."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C003",
+                "E001",
+                "C011",
+                "C008",
+                "C009"
+            ],
+            "stage": "Setting-up",
+            "storyline": "빌라 전체가 단수되어 C008는 각 세대를 돌며 내부에 하자가 있는지를 조사한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "빌라",
+                    "content": "빌라 전체가 단수된다."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C002와 C003은 장을 보러 나온다."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "content": "물 안 나오죠? 그래서 저희는 찜질방으로 가요."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "동의하다",
+                    "content": "찜질방 좋겠어요."
+                },
+                {
+                    "location": "빌라 앞",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C001가 전화 안 받으니 제가 카트 갖고 나올게요."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "초조하다",
+                    "content": "C011은 친구의 결혼식에 가다가 C001의 집에 두고 온 가방을 찾으러 다시 돌아간다."
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C008는 빌라를 돌아다니면서 물이 나오는지 조사한다."
+                },
+                {
+                    "location": "빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "반갑다",
+                    "content": "C008는 카트를 든 C003과 인사한다."
+                },
+                {
+                    "location": "빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "content": "펌프실이 어디에 있지?"
+                },
+                {
+                    "location": "빌라 옥상",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "숨기다/감추다",
+                    "content": "C009는 담배를 피우다가 C008를 보고 숨는다."
+                },
+                {
+                    "location": "택시 안",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "초조하다",
+                    "content": "C011은 가방을 찾고 택시에 타지만 기사님이 자리를 비워 출발하지 못한다."
+                },
+                {
+                    "location": "빌라 주차장",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "찾는다",
+                    "content": "C003은 구슬이 차 밑으로 굴러가서 찾으러 간다."
+                },
+                {
+                    "location": "빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008가 옆 건물 사람과 눈이 마주친다."
+                },
+                {
+                    "location": "빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "저희 빌라 물이 안 나오는데 거기는 물 나와요?"
+                },
+                {
+                    "location": "빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "큰 폭발음과 함께 C008의 몸이 흔들리기 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C011",
+                "C010",
+                "C008",
+                "C009"
+            ],
+            "stage": "1st Accident",
+            "storyline": "빌라 주변이 가라앉으면서 빌라 전체가 싱크홀로 빠진다.",
+            "unit_motif": "현실(상황) 직면",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "거리",
+                    "character": [
+                        "C002"
+                    ],
+                    "emotion": "놀라다",
+                    "content": "마트에 돌아오던 C002는 빌라가 무너지는 것을 보고 놀란다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "놀라다",
+                    "content": "잠에서 깬 C001은 가족들을 찾는다."
+                },
+                {
+                    "location": "싱크홀 속 택시",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "연락하다",
+                    "content": "C011이 친구의 전화를 받는다."
+                },
+                {
+                    "location": "싱크홀 속 택시",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "content": "나 오늘 결혼식 못 가. 땅속으로 꺼지고 있어."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 집으로 들어온 택시를 보고 놀란다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "이 택시는 뭐야?"
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "살려주세요!"
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "도와주세요!"
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "C010 씨 우리 아내 못 봤어?"
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008는 옥상에서 떨어져 우연히 C001의 집으로 들어온다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "걱정",
+                    "content": "C001은 다급히 아들 C003을 찾는다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "C003이 엘리베이터 타고 내려가는 거 내가 봤어. 별일 없을 거야."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "우리 C009는 어디 갔지?"
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "걱정",
+                    "content": "C008가 아들 C009의 흔적을 찾는다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "다행이다. 우리 C009 pc방 간 것 같아."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011",
+                        "C008",
+                        "C001",
+                        "C010"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "구조 요청을 위해 빌라 옥상으로 올라간다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "살려주세요!"
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "C009 목소리다!"
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "걱정",
+                    "content": "우리 이제 앞으로 어쩌죠?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C011",
+                "C010",
+                "C002",
+                "C008",
+                "C009"
+            ],
+            "stage": "1st Accident",
+            "storyline": "싱크홀에 빠진 생존자들은 상황에 적응하려고 노력한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C001은 C010와 C011에게 사과한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "절망하다",
+                    "content": "집에 초대해놓고 이렇게 되어서 미안해."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001",
+                        "C011",
+                        "C010"
+                    ],
+                    "act": "찾는다",
+                    "content": "생존을 위해 식량을 찾는다."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "걱정",
+                    "content": "C002는 구조 소식을 기다리며 급식을 받는다."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "지금 밑에서는 먹을 것이 없어 굶고 있을 텐데."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008가 요리를 한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001",
+                        "C010",
+                        "C009",
+                        "C011"
+                    ],
+                    "emotion": "감동하다",
+                    "content": "C008가 한 음식을 보고 감탄을 한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "가구를 땔감 삼아 불을 피운다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이번 집들이로 산 가구예요?"
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "참담하다",
+                    "content": "좋은 의자를 갖고 싶었거든."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "위로하다",
+                    "content": "여기 나가게 되면 더 좋은 걸로 사세요."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비참하다",
+                    "content": "그럼 뭐 해. 가구를 놓을 집부터 있어야지."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "구조대가 곧 올 거야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "구조대",
+                "C009",
+                "C008",
+                "C001",
+                "C002",
+                "C007",
+                "C010",
+                "C011"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "싱크홀에 빠진 생존자들은 구조대와 연락할 방법을 찾는다.",
+            "unit_motif": "걱정",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "content": "구조대가 출동한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "content": "구조대가 생존자를 파악하기 위해 날린 드론이 빌라 옥상에 떨어진다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "구조대가 보낸 드론인가 봐요."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "content": "빌라가 크게 흔들리며 다시 내려앉는다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C008",
+                        "C009"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "C008와 C009가 진흙 속에 빠진다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001이 가구로 창문을 깨는 기지를 발휘해 C008와 C009를 구한다."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "act": "보다",
+                    "content": "돌아온 드론을 확인하고 생존자를 알게 된다."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "남편과 회사 사람들이 싱크홀 속에 있어요."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "울다",
+                    "emotion": "불안하다",
+                    "content": "C006은 왜 없지?"
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "울다",
+                    "emotion": "불안하다",
+                    "content": "남편과 아들이 같이 있지 않아요. 아들을 찾아주세요."
+                },
+                {
+                    "location": "구조 본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "content": "싱크홀로 구호물품을 보낸다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "content": "구호물품 중 위성전화기를 발견한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 위성전화기로 싱크홀 속 상황을 전달한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "기대되다",
+                    "content": "저희는 무사하고 생존자 5명 있습니다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "절망하다",
+                    "content": "C003이 거기 있어? 내 핸드폰 갖고 갔는데 C003이 마지막 위치가 빌라래."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "절망하다",
+                    "content": "C003이 지상에 없다고?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C011",
+                "C010"
+            ],
+            "stage": "Another Story",
+            "storyline": "C010와 C011은 재난상황에서 서로 도와가며 호감을 싹 틔운다.",
+            "unit_motif": "감정 자각",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "빌라가 다시 흔들리면서 C011은 떨어질 위기에 처한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "애원/구걸하다",
+                    "emotion": "절박하다",
+                    "content": "살려주세요."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010"
+                    ],
+                    "content": "C010는 호스를 C011에게 던져준다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010"
+                    ],
+                    "content": "C010는 온 힘을 다해 C011을 끌어올린다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "설레다",
+                    "content": "C010와 C011은 서로를 응시한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C010 씨 회사 생활 불편한 점 있어요?"
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "망설이다",
+                    "content": "부모님께 회사 명절 선물 드리고 싶어요."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "content": "인턴은 아마 해당 안 될 텐데."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "content": "배터리 얼마 없는데 사진 찍으실래요? 음악 들으실래요?"
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "대답한다",
+                    "content": "사진 찍어요."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "설레다",
+                    "content": "C010와 C011은 같이 사진을 찍는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C011",
+                "C010",
+                "C001",
+                "C008",
+                "C009"
+            ],
+            "stage": "Another Story",
+            "storyline": "C011은 C010를 챙겨주고 C010는 그런 C011에게 호감을 갖는다.",
+            "unit_motif": "감정의 표현",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "content": "C011은 위성전화기를 잡는다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C011은 C010에게 위성전화기를 건네준다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "긴장되다",
+                    "content": "C010 씨 전화기 쓸래?"
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "참담하다",
+                    "content": "괜찮아요. 괜히 걱정만 끼칠 거예요."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "꼭 살아서 집에 돌아갈 거예요."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "content": "C011은 다시 위성전화기를 사용한다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C001",
+                        "C008",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "궁금하다",
+                    "content": "C011이 누구에게 전화하는지 궁금해한다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "content": "C011은 회사에 전화를 한다."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "말하다",
+                    "emotion": "홀가분하다",
+                    "content": "저희 걱정하지 마세요. 괜찮아요."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "단호하다",
+                    "content": "C010 씨 회사 명절 선물 꼭 챙겨주세요."
+                },
+                {
+                    "location": "싱크홀 속 C001 집",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "감동하다",
+                    "content": "C010는 C011의 전화에 살며시 미소 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001은 C003을 찾아내고 또 다른 생존자를 발견한다.",
+            "unit_motif": "조사/정찰",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001은 C003을 찾으러 갈 결심을 한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 주차장",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 다친 다리로 C003을 찾아낸다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 주차장",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "만나다",
+                    "emotion": "애틋하다",
+                    "content": "C003아 집에 가자. 그만 울어."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 C005가 생존한 걸 발견한다."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "아이들이 아파."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "content": "C005는 이미 사망한 C006과 C004을 보살펴 주고 있었다."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "참담하다",
+                    "content": "C005 저희랑 같이 가요."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C005는 C001에게 로프와 신발 그리고 C006의 머리카락을 준다."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C001이 C006과 C004에게 미안해한다."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "울다",
+                    "emotion": "참담하다",
+                    "content": "C005 죄송해요."
+                },
+                {
+                    "location": "싱크홀 속 C004 집",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 C003과 함께 C004 집을 빠져나온다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C008",
+                "C011",
+                "C003",
+                "C009",
+                "C010",
+                "C002"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "생존자들은 물에 잠기지 않기 위해 옥상으로 향한다.",
+            "unit_motif": "여정",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 빌라 외벽",
+                    "content": "폭우가 쏟아져 싱크홀에 물이 차오른다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 외벽",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 C003을 업고 외벽을 타고 올라간다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 외벽",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "지키다/보호하다",
+                    "emotion": "절박하다",
+                    "content": "C003아 C001 절대로 놓으면 안 돼."
+                },
+                {
+                    "location": "싱크홀 속 빌라 외벽",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "C001은 힘겹게 외벽에 매달려 C008와 C011의 이름을 부른다."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "듣다",
+                    "content": "C008는 C001의 소리를 듣는다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 외벽",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "도와주세요."
+                },
+                {
+                    "location": "싱크홀 속 빌라",
+                    "character": [
+                        "C008",
+                        "C011"
+                    ],
+                    "emotion": "기쁘다",
+                    "content": "C001과 C003을 구조한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C008",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "절망하다",
+                    "content": "빌라가 물에 잠기기 시작하자 옥상으로 이동한다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "만족하다",
+                    "content": "C008는 커다란 물탱크를 찾아온다."
+                },
+                {
+                    "location": "싱크홀 속 빌라 옥상",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C008",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "모두들 C008의 스케일에 감탄한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008는 C010, C003, C011, C009, C001을 물탱크에 태운다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "content": "C008 씨 빨리 타세요."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C008는 물탱크 뚜껑을 닫으려 한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "뚜껑은 내가 닫을게."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "슬프다",
+                    "content": "C009는 희생하려는 C008를 말린다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "참담하다",
+                    "content": "금방 따라갈게."
+                },
+                {
+                    "location": "싱크홀 속 물",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008는 물속으로 가라앉는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C009",
+                "C010",
+                "C011",
+                "C008"
+            ],
+            "stage": "Innermost Cave",
+            "storyline": "생존자들은 싱크홀에서 탈출하기 위해 서로 힘을 합친다.",
+            "unit_motif": "희생",
+            "causality": "Threshold guardian(마지막 수호자)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "기대되다",
+                    "content": "부력으로 물탱크가 올라가길 기대한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "왜 안 올라가지?"
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C010"
+                    ],
+                    "emotion": "괴롭다",
+                    "content": "C010는 몸으로 물탱크를 밀기 시작한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "다 같이 밀어봐요."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C011",
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "이제는 뛰어 봐요."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "content": "가까스로 벗어난 이들은 물탱크가 뽀족한 잔해에 걸리는 바람에 다시 난관에 부딪힌다."
+                },
+                {
+                    "location": "싱크홀 속 물",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008는 산소호흡기를 차고 발로 물탱크를 찬다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "구멍 난 곳에 물이 들어와 당황한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "절박하다",
+                    "content": "C011은 팔뚝을 넣어 구멍을 막아버린다."
+                },
+                {
+                    "location": "싱크홀 속 물",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "절망하다",
+                    "content": "C008는 C011의 팔을 잡아 같이 올라가려 하지만 놓친다."
+                },
+                {
+                    "location": "싱크홀 속 물",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008는 의식을 잃고 물에 가라앉는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C001",
+                "C003",
+                "C009",
+                "C010",
+                "C011",
+                "구조대",
+                "C002"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C008가 위기에 처한 생존자들을 구하고 지상에 도착한다.",
+            "unit_motif": "극복",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "싱크홀 속 물",
+                    "character": [
+                        "C008"
+                    ],
+                    "content": "C008의 발이 물탱크에 엉킨 전선줄에 걸린다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C009",
+                        "C010",
+                        "C011"
+                    ],
+                    "content": "생존자들은 여전히 물탱크에 갇혀있고 물은 계속 들어온다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절박하다",
+                    "content": "도와주세요! 죽기 싫어요!"
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "emotion": "절박하다",
+                    "content": "C008는 죽을힘을 다해 물탱크 입구에 기어올라간다."
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "놀라다",
+                    "content": "CCTV를 확인하다 소리친다."
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "act": "소리치다",
+                    "content": "저거 봐봐! 뭐가 움직여!"
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "생존자다!"
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C008는 물탱크를 열어 확인한다."
+                },
+                {
+                    "location": "싱크홀 속 물탱크",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "만나다",
+                    "emotion": "기쁘다",
+                    "content": "C009야! 이제 안심해도 돼!"
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "구조대"
+                    ],
+                    "content": "물탱크를 지상으로 끌어올린다."
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "울다",
+                    "emotion": "기쁘다",
+                    "content": "흐느끼며 서로를 안는다."
+                },
+                {
+                    "location": "구조본부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C001은 슬퍼하며 C007에게 C006의 머리카락을 준다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C001",
+                "C002",
+                "C011",
+                "C010"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C008, C001, C002는 C010와 C011의 신혼집에 초대받는다.",
+            "unit_motif": "해피엔딩",
+            "causality": "Celebration(축하)",
+            "story_scripts": [
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C008",
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C008와 C001, C002는 C011의 집들이 초대로 한강 공원으로 간다."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "한강이 보이는 집이라고 했는데 어디 있지?"
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "이런 곳에 집이 어디 있어?"
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C011"
+                    ],
+                    "emotion": "반갑다",
+                    "content": "C011은 캠핑카에서 나와 반긴다."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "의심스럽다",
+                    "content": "신혼집이 캠핑 카라고?"
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뿌듯하다",
+                    "content": "그럼요, 어디든 갈 수 있는 신혼집이죠."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C008",
+                        "C010",
+                        "C011"
+                    ],
+                    "content": "저녁을 먹으며 담소를 나눈다."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "조언/충고하다",
+                    "content": "그래도 집은 오래 살 곳인데 신혼집이 캠핑 카라서 신기해."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "자랑하다",
+                    "content": "집 살 돈으로 나중에 여행 갈 생각이에요."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C008",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "무섭다",
+                    "content": "저녁 식사를 즐기던 중 굉음 소리에 소스라치게 놀란다."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C010"
+                    ],
+                    "content": "C010는 고개를 들어 소리를 확인한다."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "불꽃놀이예요."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C011"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뿌듯하다",
+                    "content": "우리 집의 가장 좋은 점은 저런 걸 볼 수 있다는 거예요."
+                },
+                {
+                    "location": "한강 공원",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C008",
+                        "C010",
+                        "C011"
+                    ],
+                    "emotion": "행복하다",
+                    "content": "불꽃놀이를 보며 행복해한다."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4690 @@
+{
+    "title": "찾아라! 세계의 진실 10",
+    "genre": [
+        "스릴러",
+        "판타지"
+    ],
+    "theme": "구출",
+    "concept": "C001와 C003는 괴물의 세계에서 탈출하기 위해 고군분투한다.",
+    "motif": "탈옥",
+    "conflict": "C023와 C024가 음모를 꾸민다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "돈",
+        "냇",
+        "C009",
+        "C010",
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C015",
+        "C016",
+        "C017",
+        "C018",
+        "C019",
+        "C020",
+        "C021",
+        "C022",
+        "C023",
+        "C024",
+        "C025",
+        "C026",
+        "C027",
+        "필",
+        "C029"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C020",
+                "C021",
+                "C022",
+                "C019"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001와 C002은 보육원1 본부의 엘리베이터로 가는 것을 목표로 계획을 세우기로 한다. C002은 관리자1을 걱정한다.",
+            "unit_motif": "전투 준비",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C020",
+                        "C021",
+                        "C022",
+                        "C019"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "비장하다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019가 회의를 한다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001와 C002이 상황을 설명한다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우리가 있었던 보육원1은 더 이상 운영하지 않고 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "C028과 C029와 동생들1은 다른 보육원으로 흩어진 상태야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "각 보육원에 수십 명의 아이들이 있어. 전원 탈출시켜서 인간의 세계로 통하는 문으로 가야 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "인간의 세계로 가는 문은 본부에 있는 엘리베이터로만 갈 수 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그래서 우선 우리의 목표는 저 엘리베이터로 가는 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "문제는 관리자1을 어떻게 피하느냐야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "궁금하다",
+                    "content": "C004가 궁금한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "관리자1라니?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "심란하다",
+                    "content": "C024라고 C027의 동생되는 사람이야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C004가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C027의 동생?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "응. 사감과 보모는 모두 그 사람이 통솔하고 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "게다가 괴물 경비도 수십 명이나 돼."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "사감과 보모, 괴물 경비까지 모두 이겨내야 해."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C022가 비장한 표정으로 C002을 쳐다본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C022",
+                "C024",
+                "C002"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C002과 C022는 C024에게 계획을 알려준다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "긴장되다",
+                    "content": "C022가 C024에게 무전으로 연락한다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C024가 C022의 말을 듣고 놀란다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "도망친 아이들이 보육원에 있는 아이들을 구하기로 했단 말이야?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "긴장되다",
+                    "content": "응. 걔들은 정상이 아니야. 나는 이런 무모한 계획에 휘말릴 생각이 없어."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그래서 나에게 정보를 팔겠다는 건가? 조건이 뭐지?"
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "내 목숨이야."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무감각함",
+                    "content": "C024가 심드렁한 표정을 짓는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "괴물 마을에서 갑자기 전염병1이 급속도로 퍼진 일은 알고 있을 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "우리가 약을 써서 그렇게 만든 거야."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C024가 해당 내용에 대한 보고서를 본다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "만족하다",
+                    "content": "그랬구나. 좋아. 제안을 받아들이지."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022",
+                        "C002"
+                    ],
+                    "act": "듣다",
+                    "emotion": "긴장되다",
+                    "content": "C002이 C022와 함께 C024의 말을 듣는다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022",
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C002과 C022가 비장한 표정으로 눈을 마주친다."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "약을 퍼뜨리려고 만들어 둔 열기구가 있어."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 열기구를 타고 위에서 약을 뿌릴 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "괴물 경비들을 약으로 전염병1에 걸리게 만들고 모든 보육원 아이들을 구할 거야."
+                },
+                {
+                    "location": "버려진 성의 신전",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그리고 다시 열기구를 타고 도망칠 거야."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C024",
+                "C023"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C024와 C023는 도망친 아이들의 계획에 대비한다.",
+            "unit_motif": "적대자들의 속내",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "무감각함",
+                    "content": "C024가 C022에 관련된 보고서를 본다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C023가 C024의 방으로 들어온다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "C023가 C024에게 보고한다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "괴물을 전염병1에 걸리게 만드는 약에 대비하는 체제를 갖췄습니다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "담담하다",
+                    "content": "보모들도 상당수 배정해 두었습니다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "고생했어."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "C023가 만족한 미소를 짓는다."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "단호하다",
+                    "content": "C022의 목숨은 알 바 아니야. 하지만 C002은 달라."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "단호하다",
+                    "content": "C002은 실험1 계획에 쓸 중요한 표본이야. 반드시 잡아야 해."
+                },
+                {
+                    "location": "C024의 방",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기대되다",
+                    "content": "C024가 사악한 미소를 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "필",
+                "E001",
+                "E002",
+                "보육원 아이1",
+                "C029",
+                "보육원 아이들1"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C028은 갑작스러운 전원 출하 소식에 절망한다.",
+            "unit_motif": "충격",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "슬프다",
+                    "content": "C028이 슬픈 표정으로 하늘을 바라본다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "즐겁다",
+                    "content": "E001이 몰래 C028을 껴안는다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 이겼다!"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E001",
+                        "필"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "E001과 C028이 즐거운 표정을 짓는다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "멍 때리고 있다니 부주의했어!"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "내가 졌네! 이번에는 내가 술래 할게!"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "담담하다",
+                    "content": "그때 E002이 종을 흔든다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E001",
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C028과 E001이 궁금한 표정으로 E002을 본다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "E002이 보육원 현관에서 C028과 C029와 E001, 보육원 아이1, 보육원 아이들1을 본다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "전원 나갈 준비하자."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "보육원 아이1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "우리 전부 다요?"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "기쁘다",
+                    "content": "응. 전부 다 같이 가는 거야."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기쁘다",
+                    "content": "C029와 E001, 보육원 아이1, 보육원 아이들1이 즐거운 표정으로 E002에게 달려간다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "절망하다",
+                    "content": "C028이 절망한 표정을 짓는다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "절망하다",
+                    "content": "도대체 왜 전원이 출하되는 거지?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "필",
+                "C029",
+                "E002",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "C028은 C029에게 모든 것을 말하려고 하지만 E002이 저지한다.",
+            "unit_motif": "시련",
+            "causality": "Test(시험/시련)",
+            "story_scripts": [
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "무섭다",
+                    "content": "C028이 침대에 앉아서 두려움에 떤다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C029가 그런 C028을 보고 묻는다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 그러고 있어? 나갈 준비 안 해?"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "난감하다",
+                    "content": "C028이 C029를 바라본다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "그게 있잖아."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "단호하다",
+                    "content": "그때 E002이 C028의 어깨를 잡는다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C028이 깜짝 놀란다."
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "E002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "빨리 옷 갈아입어야지?"
+                },
+                {
+                    "location": "보육원 지부1",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "긴장되다",
+                    "content": "C028은 E002의 말에 긴장한다."
+                },
+                {
+                    "location": "보육원 지부1 앞쪽 길",
+                    "character": [
+                        "E002",
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "E002과 C028, C029, E001, 보육원 아이1, 보육원 아이들1은 철창문으로 걸어간다."
+                },
+                {
+                    "location": "보육원 지부1 앞쪽 길",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "긴장되다",
+                    "content": "C028이 철창문을 발견하고 긴장된 표정을 짓는다."
+                },
+                {
+                    "location": "철창문 앞",
+                    "character": [
+                        "E002",
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "E002과 C028, C029, E001, 보육원 아이1, 보육원 아이들1이 철창문에 도착한다."
+                },
+                {
+                    "location": "철창문 앞",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C028이 닫히는 철창문을 보며 무서움에 떤다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C020",
+                "C021",
+                "C022",
+                "C019",
+                "C009",
+                "C011",
+                "C010",
+                "C014",
+                "돈",
+                "C005",
+                "C006",
+                "C012",
+                "C015",
+                "C001",
+                "C017",
+                "C018"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019는 계획을 실행할 준비를 한다.",
+            "unit_motif": "전투 준비",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어때? 작동 가능해?"
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "응. 가능해."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C002",
+                        "C020",
+                        "C021",
+                        "C022",
+                        "C019"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002, C020, C021, C022, C019가 아지트로 들어간다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C009",
+                        "C011",
+                        "C010",
+                        "C014"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "C009, C011, C010, C014가 식량을 수집한다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "돈",
+                        "C005",
+                        "C006",
+                        "C012",
+                        "C015"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C007, C005, C006, C012, C015가 무기를 제작한다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 C002을 발견한다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "감탄하다",
+                    "content": "C017의 아지트 정말 대단하지?"
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C017"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "여기에서 또 같이 지내게 될 줄은 몰랐네."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "맞아. 생각도 못 했지."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "미안하다",
+                    "content": "C001가 미안한 표정을 짓는다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "우리 때문에 또 고생하게 해서 미안해."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "단호하다",
+                    "content": "C018가 고개를 가로 젖는다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "친구인데 당연히 도와야지."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "정말 고마워."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C017"
+                    ],
+                    "act": "보다",
+                    "emotion": "뿌듯하다",
+                    "content": "C017가 C001와 C018를 보며 미소 짓는다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 뭔가 결심한 듯 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C001가 C003와 C002을 바라본다."
+                },
+                {
+                    "location": "C017의 아지트",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "너희 둘에게 얘기할 게 있어."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C020",
+                "C021",
+                "C022",
+                "C019",
+                "괴물1",
+                "괴물 수장1",
+                "C024",
+                "괴물 경비들1"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019는 계획을 실행한다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "괴물 세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C020",
+                        "C021",
+                        "C022",
+                        "C019"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019는 계획을 실행한다."
+                },
+                {
+                    "location": "괴물 세계의 숲속",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C020",
+                        "C021",
+                        "C022",
+                        "C019"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019가 열기구를 타고 날아오른다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "괴물1이 본부 사령실에서 괴물 수장1에게 보고한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "모든 식용 어린이의 출하가 시작되었습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그럼 보육원에는 아무도 없겠네."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "괴물 수장1이 모니터를 통해 하늘에서 날아오는 열기구들을 본다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "작전 개시하도록 해."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "기대되다",
+                    "content": "C024가 기대되는 표정으로 모니터를 본다."
+                },
+                {
+                    "location": "보육원 지부1의 담장",
+                    "character": [
+                        "괴물 경비들1"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "괴물 경비들1이 보육원 담장에 진을 친다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "긴장되다",
+                    "content": "괴물1이 본부 사령실에서 괴물 수장1에게 보고한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "열기구들이 각 보육원을 향해서 사방으로 퍼지고 있습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "사거리에 들어오는 대로 격추시키도록 해."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "떨어진 열기구를 발견하는 즉시 잡아들여."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "버티는 아이들은 죽여도 좋아."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물 경비들1",
+                "괴물 경비1",
+                "괴물 경비2",
+                "괴물 수장1",
+                "C024",
+                "필",
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "괴물 경비들1, 괴물 경비1, 괴물 경비2는 열기구를 공격한다. 괴물 경비1과 괴물 경비2는 열기구가 폭발하자 놀란다.",
+            "unit_motif": "적을 유인함",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "보육원 지부1의 담장",
+                    "character": [
+                        "괴물 경비들1",
+                        "괴물 경비1",
+                        "괴물 경비2"
+                    ],
+                    "act": "보다",
+                    "emotion": "긴장되다",
+                    "content": "날아오는 열기구를 주시한다."
+                },
+                {
+                    "location": "보육원 지부1의 담장",
+                    "character": [
+                        "괴물 경비들1",
+                        "괴물 경비1",
+                        "괴물 경비2"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "공격할 태세를 갖춘다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "사령실에서 괴물 경비들1, 괴물 경비1, 괴물 경비2에게 명령한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "공격 개시! 반드시 잡도록 해!"
+                },
+                {
+                    "location": "보육원 지부1의 담장",
+                    "character": [
+                        "괴물 경비들1",
+                        "괴물 경비1",
+                        "괴물 경비2"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "열기구를 공격한다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "content": "열기구가 추락한다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비들1",
+                        "괴물 경비1",
+                        "괴물 경비2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "추락한 열기구로 다가간다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "괴물 경비1이 열기구 안을 보고 놀란다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "아무것도 없는데?"
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비2"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "어떻게 된 거지?"
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "content": "순간 열기구가 폭발한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1",
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "괴물 수장1과 C024는 사령실에서 그 장면을 보고 놀란다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "content": "사방에서 열기구가 폭발한다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 철창문에서 폭발 소리를 듣고 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물 경비1",
+                "괴물 경비2",
+                "C017",
+                "괴물 경비들1",
+                "C021",
+                "C019",
+                "C020",
+                "괴물1",
+                "괴물 수장1",
+                "C024"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C017와 C021, C019, C020가 괴물 경비1, 괴물 경비2, 괴물 경비들1을 공격한다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1",
+                        "괴물 경비2"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "괴물 경비1과 괴물 경비2가 불타는 열기구를 보며 당황한다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "괴물 경비1이 아직 떠있는 열기구를 본다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "의심스럽다",
+                    "content": "설마 모두 폭발물만 있는 건가?"
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "C017"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "그때 C017가 열기구에서 뛰어내린다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "괴물 경비1",
+                        "괴물 경비2",
+                        "괴물 경비들1"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "괴물 경비1과 괴물 경비2, 괴물 경비들1이 당황한다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "C017"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "단호하다",
+                    "content": "C017가 괴물 경비1과 괴물 경비2를 죽인다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "C021",
+                        "C019",
+                        "C020"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C021, C019, C020가 열기구에서 뛰어내린다."
+                },
+                {
+                    "location": "보육원 지부1의 근처 숲속",
+                    "character": [
+                        "C021",
+                        "C019",
+                        "C020"
+                    ],
+                    "act": "죽이다",
+                    "emotion": "즐겁다",
+                    "content": "C021, C019, C020가 괴물 경비들1을 죽인다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "괴물1이 본부 사령실에서 괴물 수장1에게 보고한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "괴물 경비들1이 알 수 없는 무리와 전투를 벌이고 있습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "모두 죽이라고 해! 병력을 더 투입해서 재빨리 진압하도록 해!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "짜증나다",
+                    "content": "C024가 짜증 난 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "짜증나다",
+                    "content": "저 아이들은 실험1의 실험체들이잖아."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C022"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C022는 보육원1의 우물로 들어간다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "보육원1의 뒤뜰",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C022"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C022가 보육원1에 착륙한다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C022"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C022가 우물로 이동한다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "돈"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C007이 우물 아래로 전등꽃을 던진다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "돈"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "긴장되다",
+                    "content": "C007이 사다리를 설치한다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C005와 C006이 사다리를 타고 내려간다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "이쪽은 아직 불길이 번지지 않았어."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안심/안도하다",
+                    "content": "다행이야."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002",
+                        "C004",
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "심란하다",
+                    "content": "C001와 C003, C002, C004, C007이 잿더미가 된 보육원1을 본다."
+                },
+                {
+                    "location": "보육원1의 우물 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "그때 C006이 비명을 지른다."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C001",
+                        "C003",
+                        "C002",
+                        "C004",
+                        "돈"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001와 C003, C002, C004, C007이 놀라서 우물 아래를 내려다본다."
+                },
+                {
+                    "location": "보육원1의 우물 안",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "이것 봐! 우리가 여기 탈출할 때 떨어뜨린 것들이야!"
+                },
+                {
+                    "location": "보육원1의 우물 안",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "아직도 남아 있어!"
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "깜짝 놀랐잖아. 장난치지 말고 어서 이동해."
+                },
+                {
+                    "location": "보육원1의 우물 안",
+                    "character": [
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무안하다",
+                    "content": "알겠어!"
+                },
+                {
+                    "location": "보육원1의 우물 통로",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C022"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C022가 우물 아래에 있는 통로로 뛰어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물1",
+                "괴물 수장1",
+                "C024",
+                "C003",
+                "괴물 경비3",
+                "괴물 경비4",
+                "C004",
+                "C012",
+                "돈",
+                "냇",
+                "C022",
+                "C001",
+                "C005",
+                "C006",
+                "C015"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C003, C002, C004, C012, C007, C008, C001, C005, C006, C015가 괴물 본부로의 잠입에 성공한다.",
+            "unit_motif": "적 제압/퇴치",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "초조하다",
+                    "content": "괴물1이 본부 사령실에서 괴물 수장1에게 보고한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "초조하다",
+                    "content": "산불이 점점 더 번지고 있습니다. 진화 작업이 순탄치가 않습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "초조하다",
+                    "content": "추가 인원을 더 투입시켜! 외부에 지원군을 요청하도록 해!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C024가 불만족스러운 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C003가 본부의 서쪽 입구에서 괴물 경비3을 공격한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비3"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "괴물 경비3이 쓰러진다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "괴물 경비4가 C003를 발견한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "놀라다",
+                    "content": "여기에 어떻게 침입한 거야?"
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "화나다",
+                    "content": "괴물 경비4가 C003를 향해 달린다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C004와 C012가 괴물 경비4에게 폭탄을 던진다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "content": "폭탄이 터지며 연기가 나온다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "당황하다",
+                    "content": "설마 전염병1에 걸리는 약인가?"
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "괴롭다",
+                    "content": "괴물 경비4가 괴로워한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C003가 괴물 경비4를 공격한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "괴물 경비4"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "괴물 경비4가 쓰러진다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "황당하다",
+                    "content": "약은 무슨! 연막탄일 뿐이거든?"
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "돈",
+                        "냇"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C007과 C008이 동쪽 입구에서 괴물 경비5를 공격한다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "돈",
+                        "냇"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "비장하다",
+                    "content": "C007과 C008이 괴물 경비5를 묶는다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C022가 동쪽 입구에 있는 컴퓨터를 사용해서 해킹하기 시작한다."
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C001가 본부 남쪽 입구에서 괴물이 떨어뜨린 무전기를 줍는다."
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C005, C006, C015가 안쪽으로 뛰어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "필",
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "C010",
+                "C014"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C028과 C029는 갑자기 나타난 C010와 C014를 보고 놀란다.",
+            "unit_motif": "재회",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "보육원 아이1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "숲이 왜 불타고 있어?"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "무슨 일이 생긴 거야?"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "C028이 누군가 자신의 이름을 부르는 소리를 듣고 놀란다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C028이 뒤를 돌아본다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C010가 C028을 보며 웃는다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C014"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "기쁘다",
+                    "content": "C014가 C029 앞에 나타난다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C029가 C014를 보고 놀란다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "진짜 C010야?"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "조용히 해!"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C028이 두 손으로 입을 막는다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "구하러 왔어. C001가 준 편지야."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "C010"
+                    ],
+                    "act": "준다",
+                    "emotion": "즐겁다",
+                    "content": "C010가 C028에게 편지를 준다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "울다",
+                    "emotion": "감동하다",
+                    "content": "C028이 C010의 손에 있는 편지를 보고 울먹인다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C028이 눈물을 닦고 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "받는다",
+                    "emotion": "비장하다",
+                    "content": "C028이 편지를 받는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C022",
+                "C002",
+                "C001"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C022와 C002이 본부의 무전기 시스템을 해킹하는데 성공한다. C001는 감시 카메라를 부순다.",
+            "unit_motif": "임무 수행",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C022가 해킹에 성공한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 C022에게 무전으로 연락한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그쪽은 어떻게 되어가고 있어?"
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "지금 막 성공했어."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이쪽도 다 끝냈어."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C002이 C001에게 연락한다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "비장하다",
+                    "content": "감시 카메라를 부탁해."
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "응!"
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 감시 카메라를 향해 활을 겨눈다."
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "작전 시작이다!"
+                },
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부수다",
+                    "emotion": "비장하다",
+                    "content": "C001가 감시 카메라를 부순다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물1",
+                "괴물 수장1",
+                "C022",
+                "C024"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C022는 C024에게 선전포고를 한다.",
+            "unit_motif": "상황의 전말을 알게 됨",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "괴물1이 감시 카메라에 비친 C001를 발견한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "당황하다",
+                    "content": "본부에 침입자가 발생했습니다!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "무슨 소리야?"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1",
+                        "괴물 수장1"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "괴물1과 괴물 수장1이 꺼지는 화면을 보고 당황한다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C022가 C024에게 무전으로 연락한다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "듣고 있겠지? 순진하게 내 말을 믿은 거야?"
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "경멸하다",
+                    "content": "나를 벌레 취급한 너를 도울 거라고 생각했어? 너의 실험1 계획은 우리가 막을 거야!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "듣다",
+                    "emotion": "화나다",
+                    "content": "C024는 사령실에서 C022의 말을 듣고 화난 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보다",
+                    "emotion": "난감하다",
+                    "content": "괴물1이 모든 화면이 꺼진 것을 보고 난감해한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "난감하다",
+                    "content": "작동 불가합니다!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "빨리 정상으로 되돌려!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "화나다",
+                    "content": "도대체 어디서 내부 정보를 얻은 거지?"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C024는 무언가 생각난 듯 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "화나다",
+                    "content": "형의 동료인가? 끝까지 나를 가로막는구나!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C006",
+                "C015",
+                "C022",
+                "C002",
+                "C003",
+                "C004",
+                "C012",
+                "C020",
+                "C021",
+                "C019",
+                "C017"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C022는 본부의 음성 장치를 해킹한다. C020, C021, C019, C017는 괴물 경비들1을 물리친다. 이후 보육원1의 우물로 들어간다.",
+            "unit_motif": "임무 수행",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 남쪽 입구",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "부수다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C005, C006, C015가 모든 감시 카메라를 부순다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C005, C006, C015가 복도를 뛰어간다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C022가 본부의 음성 장치를 해킹한다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C022가 C001에게 무전기로 연락한다."
+                },
+                {
+                    "location": "괴물 본부의 동쪽 입구",
+                    "character": [
+                        "C022"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "해킹은 끝났어. 언제든 시작해도 돼."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "비장하다",
+                    "content": "C001가 C022의 말을 듣고 멈춘다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C005와 C006, C015가 C001를 쳐다본다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 무전기에 대고 말한다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "모두를 구할 차례야."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "듣다",
+                    "emotion": "비장하다",
+                    "content": "C002과 C003, C004, C012는 무전기로 C001의 목소리를 듣는다."
+                },
+                {
+                    "location": "괴물 본부의 서쪽 입구",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "시작했어. 우리도 어서 가자."
+                },
+                {
+                    "location": "보육원1의 근처 숲속",
+                    "character": [
+                        "C020",
+                        "C021",
+                        "C019",
+                        "C017"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "한편, C020, C021, C019, C017는 보육원1 근처에서 괴물 경비들1을 물리친다."
+                },
+                {
+                    "location": "보육원1의 근처 숲속",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "듣다",
+                    "emotion": "비장하다",
+                    "content": "C020가 무전기 너머로 들리는 C002의 목소리를 듣는다."
+                },
+                {
+                    "location": "보육원1의 근처 숲속",
+                    "character": [
+                        "C020"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "비장하다",
+                    "content": "이제 철수해도 되겠어."
+                },
+                {
+                    "location": "보육원1의 우물가",
+                    "character": [
+                        "C020",
+                        "C021",
+                        "C019",
+                        "C017"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C020, C021, C019, C017가 보육원1의 우물로 들어간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "필",
+                "E001",
+                "C029",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "E002",
+                "E003",
+                "E004",
+                "C001",
+                "E005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 C001의 시작 소리를 듣고 도망치기 시작한다.",
+            "unit_motif": "임무 수행",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C028이 E001을 본다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "즐겁다",
+                    "content": "나 심심해. 술래잡기하자."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "지금 술래잡기를 하자고?"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "E001이 C028에게 다가간다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "귓속말하다",
+                    "emotion": "즐겁다",
+                    "content": "C028이 E001에게 뭔가 귓속말을 한다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "E001이 재밌겠다는 듯이 웃는다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "긴장되다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 철창문에서 신호를 기다린다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E002",
+                        "E003",
+                        "E004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "E002, E003, E004은 갑자기 불이 꺼지는 것을 보고 놀란다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 C028에게 무전기로 연락한다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "많이 기다렸지? 그럼 술래잡기를 시작할게!"
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "시작!"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 C001의 시작 소리를 듣고 뛰기 시작한다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "E005가 놀라서 소리친다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "어디 가는 거야?"
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "즐겁다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 신나서 도망친다."
+                },
+                {
+                    "location": "철창문 안",
+                    "character": [
+                        "E002",
+                        "E003",
+                        "E004",
+                        "E005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "당황하다",
+                    "content": "E002, E003, E004, E005가 쫓아간다."
+                },
+                {
+                    "location": "철창문 안",
+                    "emotion": "난감하다",
+                    "content": "순간 E002, E003, E004, E005 앞의 문이 닫히며 길을 가로막는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "필",
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "C001",
+                "C005",
+                "C006",
+                "C015"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001와 C028이 괴물 본부의 중앙 홀에서 재회한다.",
+            "unit_motif": "재회",
+            "causality": "Achievement(성취/보상)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 연결통로",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 본부 연결통로에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 연결통로",
+                    "character": [
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C028과 C029, E001, 보육원 아이1, 보육원 아이들1이 본부를 보며 두리번 거린다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "C028이 C029, E001, 보육원 아이1, 보육원 아이들1에게 소리친다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "여기로 가면 돼!"
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "단호하다",
+                    "content": "C028이 앞장서서 뛰어간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C005, C006, C015가 엘리베이터가 있는 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "긴장되다",
+                    "content": "이걸 타고 가면 되는구나."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001와 C005, C006, C015가 주위를 경계하며 엘리베이터로 다가간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "그때 C001가 C028의 목소리를 듣는다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "여기야!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 중앙 홀로 뛰어오는 C028을 발견한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "울다",
+                    "emotion": "기쁘다",
+                    "content": "C001가 기쁜 표정으로 울먹인다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "무사히 왔구나."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "발견하다",
+                    "emotion": "놀라다",
+                    "content": "C028이 C001를 발견한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "울다",
+                    "emotion": "애틋하다",
+                    "content": "C028이 울음을 터뜨린다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "애틋하다",
+                    "content": "C001가 C028에게 달려간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "필"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "애틋하다",
+                    "content": "C001와 C028이 꼭 껴안는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "필"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "계속 기다리고 있었어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "빨리 오지 못해서 미안해. 정말 잘 버텼어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "C005와 C006, C015가 그 모습을 보고 기뻐한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "C005",
+                "C006",
+                "C015",
+                "C016",
+                "보육원 아이들2",
+                "C001",
+                "필",
+                "C013",
+                "보육원 아이들3",
+                "C010",
+                "C014",
+                "C002",
+                "C003",
+                "C004",
+                "C012",
+                "돈",
+                "냇",
+                "C009",
+                "C022",
+                "C021",
+                "C020",
+                "C019"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C012, C013, C014, C015, C016, C010, C020, C021, C022, C019, C028, C029, E001, 보육원 아이1, 보육원 아이들1, 보육원 아이들2, 보육원 아이들3이 괴물 본부의 중앙 홀로 모인다.",
+            "unit_motif": "성공",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C029, E001, 보육원 아이1, 보육원 아이들1이 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기쁘다",
+                    "content": "정말로 C001가 기다리고 있네?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "게다가 C005랑 C006, C015까지 있어!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C005와 C006, C015가 C029를 보고 활짝 웃는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C016",
+                        "보육원 아이들2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C016와 보육원 아이들2가 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C016"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "뿌듯하다",
+                    "content": "도착했다!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "필",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "C001와 C028, C005, C006, C015가 C016와 보육원 아이들2를 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "뿌듯하다",
+                    "content": "임무 완수!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C013",
+                        "보육원 아이들3"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C013와 보육원 아이들3이 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "필",
+                        "C005",
+                        "C006",
+                        "C015"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "C001와 C028, C005, C006, C015가 크리니크와 보육원 아이들3을 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C029"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "기쁘다",
+                    "content": "다 모였어! 멋지다!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "필"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C001와 C028이 마주 보며 웃는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "필",
+                        "C005",
+                        "C006",
+                        "C015",
+                        "C010",
+                        "C014",
+                        "C016",
+                        "C013",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1",
+                        "보육원 아이들2",
+                        "보육원 아이들3"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C001, C028, C005, C006, C015, C010, C014, C016, C013, C029, E001, 보육원 아이1, 보육원 아이들1, 보육원 아이들2, 보육원 아이들3이 엘리베이터 위로 올라간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C012"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C002과 C003, C004, C012가 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "돈",
+                        "냇",
+                        "C009",
+                        "C022"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C007, C008, C009, C022가 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C021",
+                        "C020",
+                        "C019"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C021, C020, C019가 중앙 홀에 도착한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "이제 정말 다 모였어!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 비장한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C022",
+                "C006",
+                "돈",
+                "냇",
+                "C004",
+                "보모들1",
+                "C023"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 엘리베이터의 장치가 움직이지 않자 당황한다. C023와 보모들1이 도망친 아이들을 포위한다.",
+            "unit_motif": "적의 등장",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 엘리베이터의 장치를 사용한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C001는 장치가 아무런 반응을 하지 않자 당황한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "당황하다",
+                    "content": "왜 이러지?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C002",
+                        "C022"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C002과 C022가 당황한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "content": "순간 중앙 홀의 모든 문이 닫힌다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "위쪽이야!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "돈",
+                        "냇",
+                        "C004"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C007, C008, C004가 놀라서 위를 쳐다본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "보모들1"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "보모들1이 2층에서 1층으로 총을 겨눈다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C023가 중앙 홀로 들어온다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "잘 돌아왔어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 놀란 표정으로 C023를 본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C022",
+                "C019",
+                "C020",
+                "C021",
+                "필",
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "보육원 아이들2",
+                "보육원 아이들3",
+                "C024",
+                "보모들1",
+                "C023"
+            ],
+            "stage": "Defeat",
+            "storyline": "도망친 아이들은 C024에게 잡힐 위기에 처한다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C022",
+                        "C019",
+                        "C020",
+                        "C021",
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1",
+                        "보육원 아이들2",
+                        "보육원 아이들3"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "당황한 표정으로 2층을 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "중앙 홀로 들어온다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "만족하다",
+                    "content": "C023를 칭찬한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "만족하다",
+                    "content": "이제 모든 게 정상적으로 작동해. 정말 수고했어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "1층을 내려다본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "술래잡기는 여기서 끝이야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "역시 관리자1이 가만히 있을 리가 없지."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "경멸하다",
+                    "content": "경멸하는 표정으로 C024를 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "다시 보니 반갑네."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C021"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "화나다",
+                    "content": "화를 참지 못하고 무기를 휘두른다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "보모들1"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "담담하다",
+                    "content": "바닥에 총을 쏜다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "총에 맞으면 죽으니까 가만히 있어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "무기를 버리고 항복하도록 해."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "말을 잘 들어야 착한 어린이지."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "돈",
+                        "냇",
+                        "C004",
+                        "C009",
+                        "C015",
+                        "C005",
+                        "C006"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "경멸하다",
+                    "content": "경멸하는 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C002",
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "속상하다",
+                    "content": "분한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C015",
+                        "C020",
+                        "C021",
+                        "C022",
+                        "C019"
+                    ],
+                    "content": "무기를 버리고 뒤로 물러선다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "유감이지만 실패하고 말았네."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "즐겁다",
+                    "content": "불가능한 일에 왜 그렇게 매달렸어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 2층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "즐겁다",
+                    "content": "결국 이렇게 되다니 정말 안타깝네."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024",
+                        "C023"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "1층으로 내려간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "우리는 꿈꾸는 세상이 있어! 함께 살고 싶은 가족이 있어!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "몇 번을 실패한다고 해도 내 의지는 절대 꺾이지 않아!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "이미 정해진 운명이라고 해도 말이야?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "운명 따위 상관할 바 아니야!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "C024가 험악한 표정을 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C023",
+                "C024",
+                "보모들1",
+                "C001"
+            ],
+            "stage": "Defeat",
+            "storyline": "C023가 C024를 배신한다.",
+            "unit_motif": "배신",
+            "causality": "Bold approach(과감한 결정)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "만족한 웃음을 지으며 C024에게 총을 겨눈다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "당황한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "만족하다",
+                    "content": "내가 잘 키웠구나. 최고야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "보모들1"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C024에게 총을 겨눈다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "화나다",
+                    "content": "감히 나를 배신해?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "총을 겨눈 채로 C001의 옆으로 이동한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이제 사감 생활이 지겨워."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그래서 다 없애버리기로 했지."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그냥 그런 것일 뿐이야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "기쁘다",
+                    "content": "기쁜 표정으로 C023를 쳐다본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그렇게 볼 거 없어. 그저 목적이 같았을 뿐이니까 말이야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "그래도 고마워."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "뿌듯하다",
+                    "content": "C023가 미소 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "화나다",
+                    "content": "C024가 분한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "emotion": "비장하다",
+                    "content": "C024가 주머니에서 심정지 장치를 꺼낸다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "내가 그냥 당할 줄 알고?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "단호하다",
+                    "content": "C023가 심정지 장치를 총으로 쏜다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이를 어쩌지? 이미 가슴에 이식되어 있는 칩은 해킹해놨어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "C024가 당황한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "이제 우리에게 명령하지 마."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "다 끝났어. 그러니 포기해."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C024",
+                "C023",
+                "괴물 수장1",
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C012",
+                "C013",
+                "C014",
+                "C015",
+                "C016",
+                "C010",
+                "C022",
+                "C019",
+                "C020",
+                "C021",
+                "필",
+                "C029",
+                "E001",
+                "보육원 아이1",
+                "보육원 아이들1",
+                "보육원 아이들2",
+                "보육원 아이들3"
+            ],
+            "stage": "Defeat",
+            "storyline": "C024와 괴물 수장1이 외부에서 지원군이 올 거라며 자신만만해한다.",
+            "unit_motif": "상황 파악",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "황당하다",
+                    "content": "코웃음을 친다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "무슨 소리 하는 거야. 상황은 곧 정리될 거야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "이미 외부에서 지원군이 오고 있어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "놀란 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "사령실에서 중앙 홀로 방송을 한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "모두 잘 들어."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "곧 있으면 지원군이 도착해. 그러니 더 이상 쓸데없는 짓은 하지 말도록 해."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C012",
+                        "C013",
+                        "C014",
+                        "C015",
+                        "C016",
+                        "C010",
+                        "C022",
+                        "C019",
+                        "C020",
+                        "C021",
+                        "필",
+                        "C029",
+                        "E001",
+                        "보육원 아이1",
+                        "보육원 아이들1",
+                        "보육원 아이들2",
+                        "보육원 아이들3"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "당황하다",
+                    "content": "당황한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "만족하다",
+                    "content": "아무것도 바꿀 수는 없어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "만족하다",
+                    "content": "이곳에서 자유는 허락되지 않아."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "만족하다",
+                    "content": "사악한 웃음을 터뜨린다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "괴물 수장1",
+                "괴물1",
+                "괴물 주민들1",
+                "괴물 주민1",
+                "괴물 주민2",
+                "C024",
+                "C001"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "괴물 주민1과 괴물 주민2, 괴물 주민들1이 괴물 본부로 쳐들어온다.",
+            "unit_motif": "전쟁/전투/토벌",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "듣다",
+                    "emotion": "놀라다",
+                    "content": "침입 경보를 듣고 놀란다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "무슨 일이야?"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "주민들이 입구를 부수고 있습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "그게 무슨 소리야!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 주민들1",
+                        "괴물 주민1",
+                        "괴물 주민2"
+                    ],
+                    "act": "부수다",
+                    "emotion": "비장하다",
+                    "content": "본부 입구의 문을 말뚝으로 부순다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 주민1"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "우리도 더 이상 참지 않아!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 주민2"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비장하다",
+                    "content": "권력자들을 몰아내자!"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "난감하다",
+                    "content": "괴물1이 사령실에서 괴물 수장1에게 보고한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "난감하다",
+                    "content": "주민들이 본부를 에워쌌습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물1"
+                    ],
+                    "act": "보고하다",
+                    "emotion": "난감하다",
+                    "content": "셀 수 없이 많은 인원입니다!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "듣다",
+                    "emotion": "당황하다",
+                    "content": "C024가 중앙 홀에서 그 소리를 듣고 당황한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "당황하다",
+                    "content": "뭐가 어떻게 되어 가고 있는 거야?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기대되다",
+                    "content": "순간 C001는 무언가 생각난 듯이 미소를 짓는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C026",
+                "C018",
+                "괴물 주민들2",
+                "괴물 수장1",
+                "C017",
+                "괴물 주민들3",
+                "C024"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "C026와 C018, C017, 괴물 주민들2, 괴물 주민들3이 본부를 점령한다.",
+            "unit_motif": "전쟁/전투/토벌",
+            "causality": "Ally(동맹/협력)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 입구",
+                    "character": [
+                        "C026",
+                        "C018"
+                    ],
+                    "act": "보다",
+                    "emotion": "비장하다",
+                    "content": "C026와 C018가 본부 입구에서 본부를 바라본다."
+                },
+                {
+                    "location": "괴물 본부의 입구",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "비장하다",
+                    "content": "C001가 여기서 싸우고 있는 건가요?"
+                },
+                {
+                    "location": "괴물 본부의 입구",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "맞아요."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "괴물 주민들2"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "괴물 주민들2가 본부 안쪽으로 쳐들어온다."
+                },
+                {
+                    "location": "괴물 본부의 복도",
+                    "character": [
+                        "괴물 주민들2"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "괴물 주민들2가 괴물 경비들2를 제압한다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "불만족스럽다",
+                    "content": "괴물 수장1이 사령실에서 불만족스러운 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "지원군은 아직이야?"
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "괴물 수장1"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "괴물 주민들1에게 막혀서 오지 못하고 있습니다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C017",
+                        "괴물 주민들3"
+                    ],
+                    "act": "부수다",
+                    "emotion": "단호하다",
+                    "content": "그때 C017와 괴물 주민들3이 사령실 문을 부순다."
+                },
+                {
+                    "location": "괴물 본부의 사령실",
+                    "character": [
+                        "C017"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C017가 신나는 듯 미소를 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "듣다",
+                    "emotion": "당황하다",
+                    "content": "C024는 괴물 수장1과 괴물1의 비명소리를 듣고 당황한다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "당황하다",
+                    "content": "도대체 이게 무슨 일이지?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C026",
+                "C018",
+                "필",
+                "보육원 아이들1",
+                "보모들1",
+                "C016",
+                "C010",
+                "C012",
+                "C013",
+                "C023",
+                "C001",
+                "C002",
+                "C003",
+                "C004",
+                "돈",
+                "C005",
+                "C006",
+                "냇",
+                "C009",
+                "C011",
+                "C014",
+                "C015",
+                "C024"
+            ],
+            "stage": "Resurrection",
+            "storyline": "C026와 C018가 중앙 홀로 들어온다. C024는 구원자1인 C018를 보고 놀란다.",
+            "unit_motif": "상황 파악",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026",
+                        "C018"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C026와 C018가 중앙 홀로 들어온다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "필",
+                        "보육원 아이들1"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C028과 보육원 아이들1이 C026를 보고 놀라서 도망친다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "보모들1"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "보모들1이 C026와 C018에게 총을 겨눈다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C016",
+                        "C010",
+                        "C012",
+                        "C013"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "난감하다",
+                    "content": "C016와 C010, C012, C013가 C026의 앞에 선다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "공격하지 마! 우리 친구들이야! 맞지?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C013"
+                    ],
+                    "act": "보다",
+                    "emotion": "단호하다",
+                    "content": "C013가 C018를 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "당연하지."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C023가 그 모습을 보고 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C014",
+                        "C015"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기쁘다",
+                    "content": "C001, C002, C003, C004, C007, C005, C006, C008, C009, C011, C014, C015가 기쁨에 미소를 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C018"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "다들 무사한 거지?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "돈",
+                        "C005",
+                        "C006",
+                        "냇",
+                        "C009",
+                        "C011",
+                        "C014",
+                        "C015"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "응!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "당황하다",
+                    "content": "C024가 C026에게 소리친다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "어째서 여기에 괴물 주민인 너희가 온 거지?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "식용 어린이가 필요할 텐데?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "미안하지만 우리는 식용 어린이를 원하지 않아."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "이 분께서 피를 나눠주셨기 때문이야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C024가 C018를 본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "놀라다",
+                    "content": "이럴 수가! 네가 바로 구원자1야?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "놀라다",
+                    "content": "모든 괴물이 사혈의 힘을 가지게 됐다는 말인가?"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C024가 충격에 휩싸인다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "C026가 비장한 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "언제까지고 보급만 기다리며 굶주리는 것도 이걸로 끝이다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "우리는 더 이상 고통스러운 삶을 살지 않기 위해 권력자들을 몰아내기로 결심했어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "보다",
+                    "emotion": "애틋하다",
+                    "content": "C026가 C001와 C002, C003를 바라본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "말하다",
+                    "emotion": "애틋하다",
+                    "content": "가만히 두고 볼 수가 있어야 말이지."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C026"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C026가 너털웃음을 터뜨린다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "고맙다",
+                    "content": "C001가 감사한 표정으로 C026를 바라본다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C024",
+                "C001",
+                "C023"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C024는 가문의 사명을 지켜야 한다며 괴로워한다. C001는 C024에게 자유롭게 살자고 제안한다.",
+            "unit_motif": "부탁/제안",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "놀라다",
+                    "content": "C024는 충격에 주저앉는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "다들 무슨 생각인 거야. 이대로는 또다시 전쟁이 일어날 거야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 고개를 가로젓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "모든 괴물이 사혈의 힘을 가지게 되면 식용 어린이가 없어도 전염병1에 걸리지 않고 살아갈 수 있어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "나는 누군가의 고통으로 유지되는 평화는 옳지 않다고 생각해."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "그건 바보 같은 생각이야!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "우리 가문이 이뤄낸 평화는 약속이 있었기 때문에 가능했던 거야."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "말하다",
+                    "emotion": "괴롭다",
+                    "content": "나는 그걸 지켜낼 의무가 있어!"
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "괴롭다",
+                    "content": "C024가 괴로운 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "이제 관리자1은 필요 없어."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "놀라다",
+                    "content": "C024가 놀란 표정을 짓는다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001가 C024에게 다가간다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C023"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C023가 걱정스러운 눈으로 C001를 바라본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "단호하다",
+                    "content": "C001가 C024에게 손을 내민다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "자유롭게 살자."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C024"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C024가 놀란 표정으로 C001를 바라본다."
+                },
+                {
+                    "location": "괴물 본부의 중앙 홀 1층",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "다 같이 자유롭게 살아가는 거야."
+                }
+            ]
+        }
+    ]
+}

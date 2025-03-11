@@ -1,0 +1,2286 @@
+{
+    "title": "쌍검 마법사 대활극 1",
+    "genre": [
+        "판타지",
+        "액션"
+    ],
+    "theme": "구출",
+    "concept": "인간과 마녀가 전쟁 중인 세상, 헌터인 C001는 여동생 C006를 되찾아오기 위해 마녀와 대적한다.",
+    "motif": "가족분열(이산가족)",
+    "conflict": "C001는 마녀로 각성한 여동생 C006를 되찾아오기 위해 마녀들과 격돌한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C010"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "군인"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "C001가 성문 안으로 들어가려다 검문에 통과하지 못하고 감옥에 수감된다.",
+            "unit_motif": "납치/감금",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "성벽 앞에 길게 늘어선 인파를 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "content": "검문을 해서 그런 것 같아요."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "군인"
+                    ],
+                    "act": "요구하다",
+                    "content": "군인이 C001에게 짐과 소지품을 모두 꺼내 보일 것을 요구한다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001가 자신은 예술가이고 예술가에게 소유는 무의미하다며 검문에 불응한다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "군인"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "단호하다",
+                    "content": "이곳은 비렁뱅이 예술가 따위가 들어올 곳이 아니야. 꺼져."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "애원/구걸하다",
+                    "content": "C001가 가방 안에 들어있던 C002을 꺼내 보이며 인형극으로 떼돈을 벌겠다며 들어보내달라고 애원한다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "군인"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "짜증나다",
+                    "content": "못생긴 호박 인형을 보고 이딴 걸 누가 보냐며 당장 꺼지라 일갈한다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "짜증나다",
+                    "content": "성문 밖으로 쫓겨난 C001가 성냥에 불을 붙인다."
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "content": "천재 예술가를 알아보지 못하는 무지렁이들은 모두 벌을 받아야지. 화형이다!"
+                },
+                {
+                    "location": "성벽 앞",
+                    "character": [
+                        "군인"
+                    ],
+                    "act": "포박하다/체포하다",
+                    "emotion": "경멸하다",
+                    "content": "문틈 사이로 C001가 하는 기행을 지켜보고 있던 군인이 C001를 체포한다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "당황하다",
+                    "content": "C001가 감옥에 수감된다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "골렘"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "인간과 마녀의 전쟁, 헌터의 등장에 대해 알려준 C003가 자신도 마녀임을 밝힌다.",
+            "unit_motif": "상황 설명",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001",
+                        "C003"
+                    ],
+                    "act": "잡담하다",
+                    "content": "C001는 감옥에 먼저 들어와 있던 C003와 이야기를 나눈다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이곳은 왜 이렇게 검문이 까다롭지?"
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "content": "C003는 이곳에 헌터가 와 있다고 알려준다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "C001는 자신이 시골 출신이라 헌터가 뭔지 모른다고 이야기한다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C003가 C001에게 마녀와 인간의 전쟁에 대해 설명해준다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "마녀들의 엄청난 능력으로 인해 10년 사이 세계의 절반 이상이 마녀의 지배를 받게 됐어."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "그런 마녀들에게 대항하기 위해 특수한 능력을 지닌 자들을 모아 설립한 범국가 기관이 바로 헌터야."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "헌터가 이 마을에 있다는 건 다시 말해 곧 마녀가 이 마을에 나타날 거라는 뜻이기도 해."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 마녀가 그렇게 대단하냐며 놀란다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C001는 C003에게 이 마을에 헌터가 있다는 걸 어떻게 알았냐고 묻는다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "마녀를 처리해주기로 하고 성주한테 뒷돈을 받으니까 알지. 저길 봐."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "밖과 이어진 창문을 통해 검은 제복을 입은 헌터가 마을 사람들에게 둘러싸여 환호 받는 모습을 본다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "누군 무일푼으로 굶으면서 다니는데 저것들은 뭐야!"
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C003가 C001를 대신해서 헌터를 혼내주겠다고 말한다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "다루다",
+                    "emotion": "즐겁다",
+                    "content": "C003가 골렘을 소환하여 감옥을 부순다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "골렘"
+                    ],
+                    "act": "부수다",
+                    "emotion": "무감각함",
+                    "content": "골렘이 마을을 부순다."
+                },
+                {
+                    "location": "감옥",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "즐겁다",
+                    "content": "마녀의 모자를 뒤집어쓴 C003가 C001에게 구경이나 잘 하라며 감옥 밖으로 나간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E001",
+                "C003",
+                "C001",
+                "C002"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001는 헌터임을 밝히고, 고전하는 E001를 대신하여 C003와 맞선다.",
+            "unit_motif": "적과의 대치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "비장하다",
+                    "content": "E001가 골렘을 부려 마을을 쑥대밭으로 만드는 C003 앞에 나타난다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "귀찮다",
+                    "content": "C003가 할 줄 아는 거라곤 기습밖에 없는 주제에 왜 도망가지 않았냐며 조롱한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "E001",
+                        "C003"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "C003와 E001가 전투를 하지만, 얼마 가지도 못해 C003에게 고전한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "content": "C001는 한창 고전 중인 E001에게 다가가 말을 건다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "꽤 힘들어 보이네요? 오랜만입니다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "C001를 보더니 무척 당황하며 자세를 바르게 한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "마을에서 환영을 꽤 거하게 받으시던데, 얼마나 받으신 거예요?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "유쾌하다",
+                    "content": "우리 활동은 원래 비밀로 하는 게 원칙인 거 아실 텐데요. 하지만 조그마한 성의를 보여주신다면 저도 성의를 표할게요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "성의를 또 보이라고? 전에도 많이 줬잖아. 그냥 좀 도와줘."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "성주한테 뇌물 받은 것을 상부에 들키기 싫으면 돈을 더 내놓으라고 말하고 돌아선다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001가 가볍게 몸을 풀며 C003를 향해 간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "너도 헌터였어?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "그러는 너도 마녀였을 줄은 몰랐어."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "다루다",
+                    "content": "C003가 웃으며 골렘에게 C001를 공격하라고 지시한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 감옥 안에 가만히 앉아있던 C002을 부른다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "content": "C002이 C001에게 달려드는 골렘의 분신을 일격에 처리한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C001"
+            ],
+            "stage": "Main Character",
+            "storyline": "C001가 사역마와 협공하여 C003의 골렘을 한순간에 제압하지만 끝내 C003를 잡지 못한다.",
+            "unit_motif": "적 제압/퇴치",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003는 C001에게 마녀도 아니면서 사역마를 어떻게 다루는 거냐고 놀라 따져 묻는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "유쾌하다",
+                    "content": "순순히 잡혀주면 말해줄게."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "고작 분신 하나 없앤 주제에 너무 좋아하는 거 아니야?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "짜증나다",
+                    "content": "C003는 골렘의 분신을 늘리면서 골렘에게 C001와 C002을 떼어놓으라고 명령한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "괘씸하다",
+                    "content": "C003가 마법을 사용하여 골렘에게 갑옷을 덧씌운다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "이제 골렘에게 네 검은 아무런 타격도 입히지 못해."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "담담하다",
+                    "content": "C001는 C003의 골렘들에게 포위당하지만 태연하다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 마법 주머니에서 총1을 꺼내든다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003는 마법을 사용하는 C001를 보고 놀란다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "즐겁다",
+                    "content": "C001가 총1을 연사하여 골렘들을 한순간에 모두 제압한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "놀라다",
+                    "content": "너 대체 정체가 뭐야?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "널 잡을 사람이지."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "도망치다",
+                    "emotion": "즐겁다",
+                    "content": "C003가 골렘에게 자폭을 명령한 틈을 타 도망간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "우리 곧 보자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C003",
+                "C004"
+            ],
+            "stage": "Setting-up",
+            "storyline": "갑작스럽게 C001의 앞에 나타난 C003가 C006에 대한 정보를 알려준다.",
+            "unit_motif": "정보 획득",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "C003를 잡지 못한 C001가 배고픔에 지쳐 털썩 쓰러진다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "마스터는 왜 항상 돈이 없습니까? 사기꾼이잖아요."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "뻔뻔하다",
+                    "content": "인생 한 방인데, 모아서 뭐 해? 바로바로 써야지."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "짜증나다",
+                    "content": "C002이 칼을 들어 C001를 향해 내리친다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "다투다/대립하다",
+                    "content": "C002과 C001가 티격태격한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "그 모습을 지켜보던 C003가 웃음을 터뜨린다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C001가 C003를 보고선 깜짝 놀란다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001와 C002이 C003를 향해 함께 달려든다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "방어하다",
+                    "content": "C003의 뒤에서 C004가 나타나 C002을 쳐낸다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "괴롭다",
+                    "content": "C002이 저 멀리로 날아가 처박힌 상태로 기절한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 총1을 꺼내서 C004를 향해 공격한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "무감각함",
+                    "content": "C004의 기합만으로 총알이 모두 휘어진다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "무감각함",
+                    "content": "C004가 C001의 지척에 도달하여 주먹을 휘두른다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말리다/멈추다",
+                    "content": "C004 그만해. 싸우려고 온 게 아니잖아."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "궁금하다",
+                    "content": "C001가 C003를 향해 그새 사역마를 갈아치운 거냐고 비아냥거린다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "content": "C003는 지난번 C001가 본 골렘이 가짜였을 뿐이라고 대답한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "유쾌하다",
+                    "content": "골렘은 네 힘을 알아보려고 만든 테스트용에 불과해."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "불쾌하다",
+                    "content": "C003가 계획적으로 자신을 노렸다는 걸 알고 C003를 진짜로 붙잡아야겠다고 말한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "유쾌하다",
+                    "content": "그거 말고, C006가 어디에 있는지가 더 궁금하지 않아?"
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "놀라다",
+                    "content": "C001가 무척 놀라며 C003를 붙잡으려 달려든다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003에게서 거친 불이 솟아오른다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "content": "C006는 바로 옆 마을에 있어. 하루면 갈 수 있을 거야."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "절박하다",
+                    "content": "자신이 C006를 찾아다닌다는 것을 어떻게 알았으며, C006의 위치를 알려주는 이유가 뭐냐고 묻는다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "대답한다",
+                    "content": "단지 우리의 이해관계가 맞기 때문이라고 해두자. 너무 많은 걸 알려고는 하지 마."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C003는 그대로 불길 속으로 사라진다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "안내원",
+                "C005"
+            ],
+            "stage": "Setting-up",
+            "storyline": "C005과 합류한 C001가 C006가 있는 마을로 급히 이동한다.",
+            "unit_motif": "조력자(후원자)를 만남",
+            "causality": "Herald(발표/예고)",
+            "story_scripts": [
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "거부감",
+                    "content": "C001는 C003가 알려준 정보가 함정일 수도 있다는 생각에 고민한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "걱정",
+                    "content": "그래도 가보기는 해야 할 것 같다고 생각하면서도 C002의 칼이 부러져 고민한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "고민하다",
+                    "emotion": "거부감",
+                    "content": "C002 없이 혼자 움직이는 건 너무 위험이 커. 어쩔 수 없이 도움을 요청해야겠네."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "거부감",
+                    "content": "C001가 헌터 서부지구 본부에 연락하여 지원 요청을 한다."
+                },
+                {
+                    "location": "헌터 본부",
+                    "character": [
+                        "안내원"
+                    ],
+                    "content": "비번인 C005에게 안내방송을 한다."
+                },
+                {
+                    "location": "헌터 본부",
+                    "character": [
+                        "안내원"
+                    ],
+                    "act": "말하다",
+                    "content": "본부 내에 계시는 C005 씨, C001 씨로부터 지원 요청이 들어왔으니 이동해주세요."
+                },
+                {
+                    "location": "헌터 본부",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "듣다",
+                    "emotion": "즐겁다",
+                    "content": "C001가 지원을 요청했다고? 이거 참 재밌겠어."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "지겹다",
+                    "content": "한편, 언덕에서 지원을 기다리는 C001는 마녀와 싸우면서 마법에 의존하는 것을 우스워한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "짜증나다",
+                    "content": "C001는 마법진을 통해 넘어온 C005을 보고 매우 짜증 낸다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "짜증나다",
+                    "content": "본부죠? 발송된 물건이 상태가 영 불량이라 반품했으면 합니다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "판단하다",
+                    "emotion": "담담하다",
+                    "content": "C005은 C002의 칼이 박살 난 것을 보고 C001가 지원 요청한 이유를 알아차린다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C005"
+                    ],
+                    "emotion": "즐겁다",
+                    "content": "짜증 내는 C001와는 달리, C005은 여유로운 태도로 C001와 함께 일하게 된 것을 좋아한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "모욕하다/욕하다",
+                    "emotion": "짜증나다",
+                    "content": "넌 호색한에다가 같이 일하면 늘 적자라서 싫어!"
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "정식으로 지원을 취소하면 자신은 어차피 돌아갈 텐데 왜 취소하지 않느냐고 묻는다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "하루도 지체할 수 없는 중요한 일 때문이라고만 답한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "그래서 우리 어디로 가면 돼?"
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "content": "조금만 가면 있는 바로 옆 마을이야."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C005이 그 마을에 헌터가 파견 나갔음을 말해준다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C005의 말을 들은 C001가 급하게 달리기 시작한다."
+                },
+                {
+                    "location": "언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "절박하다",
+                    "content": "늦으면 안 돼!"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C006",
+                "원반들"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001가 마녀가 된 자신의 여동생 C006와 조우한다.",
+            "unit_motif": "재회",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "마을 위 언덕",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "안심/안도하다",
+                    "content": "아무 일도 일어나지 않아 고요한 마을을 내려다보며 안도한다."
+                },
+                {
+                    "location": "마을 위 언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "비장하다",
+                    "content": "C001는 C007와 합류하기 전, 붉은 옷을 입은 마녀를 보면 자신에게 넘겨달라고 C005에게 부탁한다."
+                },
+                {
+                    "location": "마을 위 언덕",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 녀석만큼은 반드시 내 손으로 마무리 지어야 해."
+                },
+                {
+                    "location": "마을",
+                    "content": "그때, 마을 쪽에서 펑 하는 소리가 터져 나온다."
+                },
+                {
+                    "location": "마을 위 언덕",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "C001와 C005이 굉음이 나는 곳을 향해 달려간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "피하다/회피하다",
+                    "emotion": "놀라다",
+                    "content": "C001는 하늘에서 떨어지는 무언가를 가까스로 피한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "시커먼 연기 사이에서 붉은 옷을 입은 마녀를 발견한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "맞이하다",
+                    "emotion": "반갑다",
+                    "content": "너무 오랜만이에요, 오라버니."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "그날 이후로 2년 만이네. 천천히 이야기를 하고 싶어."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "한편, C005이 나타나 마녀사냥을 끝내는 것이 먼저라고 이야기한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C005은 C006를 어떻게 할 것이냐고 C001에게 묻는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "난 내 동생을 데리고 집으로 돌아갈 거야."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "꾸짖다",
+                    "emotion": "황당하다",
+                    "content": "무슨 소리를 하는 거야. 너는 헌터고, 저 여자는 마녀야!"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "원반들"
+                    ],
+                    "act": "공격하다",
+                    "content": "C005의 뒤에서 C006의 원반들이 나타나 공격한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "C005! 뒤를 봐!"
+                },
+                {
+                    "location": "마을",
+                    "content": "펑 하는 소리와 함께 C005이 보이지 않는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C001",
+                "원반들",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001가 C006의 모자를 벗기려고 했지만 실패하고, 강력한 마녀인 C006와 대치한다.",
+            "unit_motif": "실패",
+            "causality": "Lack(결핍)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "만족하다",
+                    "content": "C005이 보이지 않는 걸 확인한 C006가 C001에게 다가간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "오라버니가 절 찾아와 주시기를 얼마나 기다렸는지 몰라요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "화가 나서 다른 쓸데없는 인간들은 모두 죽여버렸지 뭐예요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "기쁘다",
+                    "content": "C006가 C001의 등을 감싸 껴안는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "기대되다",
+                    "content": "오라버니, 제 사역마가 되어주세요. 그러면 우리는 다시 함께할 수 있어요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "긴장되다",
+                    "content": "C001가 천천히 C006의 머리 쪽으로 손을 가져간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "원반들"
+                    ],
+                    "act": "공격하다",
+                    "content": "원반이 C001에게 빔을 쏘아낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "C006는 원반들이 자신에게 해를 가하려 하는 자를 자동 공격한다는 걸 이야기한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "속상하다",
+                    "content": "아직도 제 모자를 포기하지 못했나요? 그때 그 여자처럼, 제가 누굴 또 죽이면 포기할 건가요?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "괴롭다",
+                    "content": "C001는 아무렇지 않게 사람을 죽이겠다고 소리치는 C006를 노려본다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "공격하다",
+                    "content": "그때, 뒤편에서 C005이 나타나 C006를 공격한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "방어하다",
+                    "emotion": "짜증나다",
+                    "content": "C006가 C005의 공격을 받고 멀리 날아간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C005이 C001에게 여동생을 끝내버려서 미안하다고 사과한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "무슨 소리야? 지금부터 시작이니까 준비해!"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "공격하다",
+                    "content": "C006가 날아간 방향에서 C001와 C005을 향해 강력한 빔이 날아온다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "즐겁다",
+                    "content": "지금까지 다들 한 방에 죽어버려서 아쉬웠는데, 재밌겠어!"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C006가 상처 하나 없이 멀쩡한 모습으로 일어나 소름 끼치게 웃는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "원반들",
+                "C006",
+                "C005",
+                "C007"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C001가 C006의 능력에 대해 알려주고 C007까지 합세한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 C006를 감싸고 있는 원반을 제거하지 않는 이상 타격을 주기는 힘들 것이라 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "원반들"
+                    ],
+                    "content": "C006의 주변에 2개의 원반이 떠다닌다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "저 원반 하나가 적어도 수준급 헌터 1명 몫은 해낸다고 보면 돼."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001는 예전에는 원반의 수가 무척 많았다고 이야기한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "오라버니에게 붙어 있던 여자를 떼어내느라 다 망가져버렸지만요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C005은 아까부터 이야기하는 여자가 대체 누구냐고 묻는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "감동하다",
+                    "content": "C001가 자기 스승님이라고 여자의 정체를 알려준다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "뭐라고? 헌터에서 가장 강력한 사람이랑 맞먹는 녀석을 우리가 어떻게 이겨?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "울다",
+                    "emotion": "짜증나다",
+                    "content": "C005이 이제 다 끝났다며 울고불고 난리 친다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "짜증나다",
+                    "content": "C001가 C005에게 마취총을 쏜다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C006는 이전보다 많이 약해져있으므로 전력을 다하면 이길 수도 있다고 이야기한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "웃는다",
+                    "content": "아무리 그래도 약한 헌터들에게 지지는 않아요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "공격하다",
+                    "content": "한편, 땅이 날카롭게 솟구치며 C006를 공격하지만 닿지 않는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "짜증나다",
+                    "content": "벽 뒤 쪽에서 C007가 모습을 드러내며 혀를 찬다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "짜증나다",
+                    "content": "C007까지 죽지 않았음을 확인한 C006가 헌터가 계속해서 나오는 것에 짜증을 낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001",
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "다투다/대립하다",
+                    "emotion": "비장하다",
+                    "content": "C001, C005, C007가 힘을 합쳐 C006에 대항한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "오늘 밤은 꽤 길겠어요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "원반들",
+                "C005",
+                "C007",
+                "C006",
+                "C001",
+                "C008"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "C001는 마력을 소진하여 감정을 되찾은 C006에게 되돌아가자고 말하지만, C008가 나타나 방해한다.",
+            "unit_motif": "진솔한 대화",
+            "causality": "Suggestion(제안)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "원반들"
+                    ],
+                    "content": "C006를 호위하던 2개의 원반들이 바닥에 나뒹군다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005",
+                        "C007"
+                    ],
+                    "act": "쓰러지다",
+                    "content": "C005과 C007도 바닥에 널브러져 손가락 하나 움직이지 못한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "emotion": "주눅들다",
+                    "content": "C006가 부서진 벽에 기대 거친 숨을 몰아쉰다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "걱정",
+                    "content": "C001가 꽤나 지쳐 보이는 C006에게 돌아가자고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "비참하다",
+                    "content": "돌아가요? 마을을 불태우고 수많은 사람을 죽인 제가 돌아갈 곳이 어딨어요!"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C006가 눈물을 흘리며 자신은 돌아갈 곳이 없다고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "판단하다",
+                    "content": "C001는 C006의 마력이 바닥나면서 조금씩 옛날의 C006로 돌아오고 있다고 판단한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "마력의 원천인 저 모자만 없으면 C006는 다시 돌아올 수 있어."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "감동하다",
+                    "content": "어머님이 네가 돌아오기를 기다리고 계셔. 함께 돌아가자."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C006가 C001를 보며 어머님이라고 중얼거린다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "초조하다",
+                    "content": "C001가 C006에게 애써 웃어 보이며 돌아가자고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "공격하다",
+                    "content": "한편, 바닥의 그림자에서 C008가 튀어나와 C001를 공격한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C006",
+                "C001"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C008가 C006를 데리고 돌아가려 하고, C001는 이를 저지한다.",
+            "unit_motif": "적 제압/퇴치",
+            "causality": "Enemy(적/적대자)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "무감각함",
+                    "content": "C008가 그림자를 이용하여 C001를 움직이지 못하게 움켜쥔다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C006는 그림자 사이에서 나타난 C008를 보고 깜짝 놀란다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "C008가 C006를 향해 돌아갈 시간이라고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "혼란스럽다",
+                    "content": "C006가 자신은 C001와 함께 어머니가 기다리는 집으로 돌아가고 싶다고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "황당하다",
+                    "content": "C006의 말에 C008가 어이없다는 듯 웃음을 터뜨린다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무감각함",
+                    "content": "C006님의 어머니는 과연 아버지를 죽인 딸이 돌아오기를 바랄까요?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "증오하다",
+                    "content": "C001가 C008를 향해 닥치라고 고래고래 소리친다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "증오하다",
+                    "content": "C001가 마법 주머니에서 총3을 소환한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "단호하다",
+                    "content": "C008가 그림자에 묶여 발버둥 치는 C001에게 소용없다고 비아냥거린다."
+                },
+                {
+                    "location": "마을",
+                    "content": "갑자기 거대한 굉음과 함께 바닥이 튀어 오른다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "화나다",
+                    "content": "걷히는 흙먼지 사이로 C001가 C008를 향해 총구를 겨누고 있다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "경고하다",
+                    "emotion": "비장하다",
+                    "content": "C006는 나와 함께 간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C005",
+                "C007",
+                "C001",
+                "C008",
+                "C002",
+                "그림자"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C001는 C008를 물리치고 C006를 데려가기 위해 비장의 무기를 사용한다.",
+            "unit_motif": "전쟁/전투/토벌",
+            "causality": "Showdown(결전)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "걱정",
+                    "content": "C005이 C001가 꺼내든 총3을 보고 C001를 걱정한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "회상하다",
+                    "emotion": "걱정",
+                    "content": "일전에 총3을 사용한 C001의 팔 뼈가 산산조각 났던 것을 떠올린다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "얼마나 센데?"
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "걱정",
+                    "content": "저건 총1 만 발을 한 번에 쏘는 것과 같아."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "비장하다",
+                    "content": "한편, C001가 한 손에 총3을 들고 C008를 향해 달려간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "생각하다",
+                    "emotion": "비장하다",
+                    "content": "앞으로 한두 발 남았어. 근접해서 한 번에 끝내야만 해."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "자신감 있다",
+                    "content": "C008가 무언으로 그림자를 다루어 C001를 공격한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "content": "C001가 C008의 그림자에 다시 갇히지만, 총3을 발사하여 빠져나온다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "그거 대단한 물건이네. 내 그림자를 이렇게 쉽게 빠져나올 줄은 몰랐어."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "감탄하다",
+                    "content": "C001가 무언으로 수준급 마법을 구사하는 C008를 칭찬한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "C008가 그림자는 마법이 아니라 자신의 사역마임을 밝힌다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "짜증나다",
+                    "content": "무생물이 사역마인 것에 대해 짜증을 낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "넌 날 절대 이길 수 없어. 네 오른팔은 이미 만신창이야."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "사용하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 C008를 무시하고 차원의 화랑 주머니에서 C002을 꺼낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002은 C001가 총3을 꺼낸 것을 보고 곧장 전투태세에 돌입한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "마지막 한 발이야. 실수해서는 안 돼."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C001의 말을 들은 C002이 C008를 향해 쏘아져나간다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "그림자"
+                    ],
+                    "act": "방어하다",
+                    "content": "C008의 소매 속에서 튀어나온 그림자가 C002의 공격을 여유롭게 막아낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "내 사역마는 그림자야. 그림자는 내 소매 안에도 존재해."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "비장하다",
+                    "content": "어느새 C008의 뒤를 잡은 C001가 C008를 향해 총구를 겨눈다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "비장하다",
+                    "content": "그 그림자가 튀어나오기 전에 쏴버리면 돼."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C008",
+                "C001",
+                "그림자",
+                "C002",
+                "C006"
+            ],
+            "stage": "Defeat",
+            "storyline": "C008와의 전투에서 C006를 지켜내지 못한 C001가 울부짖는다.",
+            "unit_motif": "실패",
+            "causality": "Crisis of the heart(지극한 슬픔)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "자신감 있다",
+                    "content": "C008가 C001의 손을 붙잡고 총3을 자기의 이마에 갖다 댄다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "쏴 봐."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "공격하다",
+                    "emotion": "비장하다",
+                    "content": "C001가 C008를 향해 총3을 발사한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "그림자"
+                    ],
+                    "act": "방어하다",
+                    "content": "C008의 머리카락 사이의 그림자가 C001의 총알을 너무나도 쉽게 막아낸다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "이제 그만 C006님을 모셔가야 하니 죽어줘야겠어."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "emotion": "짜증나다",
+                    "content": "C001가 C008를 향해 총3을 겨누지만 팔이 굳어 방아쇠를 당기지 못한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "무감각함",
+                    "content": "C001로부터의 마력 공급이 끊긴 C002이 움직이지 않는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "그림자"
+                    ],
+                    "act": "공격하다",
+                    "content": "그림자가 튀어나와 사방에서 C001를 덮친다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰러지다",
+                    "emotion": "비참하다",
+                    "content": "C001가 처참하게 쓰러진다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "넌 꽤 괜찮은 헌터지만, 상대가 안 좋았어. 편히 눈 감아라."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "슬프다",
+                    "content": "그때, C006가 C008와 C001의 사이를 가로막고 선다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "슬프다",
+                    "content": "따라갈 테니까 오라버니를 살려줘."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "C008가 C001를 죽이지 않고 C006와 함께 돌아가려 한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "비참하다",
+                    "content": "C001가 C008의 치맛자락을 움켜쥐고 놔주지 않는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "슬프다",
+                    "content": "C006가 C001에게 등을 보이며 멀어진다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "슬프다",
+                    "content": "수많은 사람들과 아버지를 죽인 제가 인간인가요? 마녀로 살아가기로 결정한 건 제 뜻이에요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절망하다",
+                    "content": "C001가 자기 얼굴을 보고 얘기하라며 C006의 등 뒤에 대고 소리친다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "울다",
+                    "emotion": "슬프다",
+                    "content": "C006의 눈가에 눈물이 고인다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "슬프다",
+                    "content": "저주로 인해 오라버니의 목숨이 다하기 전에, 부디 절 찾아주세요."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "C008가 C001의 무능함, 약함을 지적한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "그렇게 약해빠져서는 C006님을 되찾을 수 없어. 다음에 볼 땐 더욱 강해져서 와라."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C008",
+                        "C006"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C008와 C006가 그림자에 휩싸이더니, 이내 모습을 감춘다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "절망하다",
+                    "content": "혼자 남은 C001가 울부짖는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C005",
+                "C003",
+                "C008",
+                "그림자"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "C001는 C006를 포기하지 않고, C003는 C008와 격돌한다.",
+            "unit_motif": "결심",
+            "causality": "Seeker(추적/추구)",
+            "story_scripts": [
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C001가 C005에게 인사를 전하며 어딘가로 향한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "C005이 C001에게 어디로 가냐고 묻는다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "비장하다",
+                    "content": "헌터 본부의 C009를 만나러 갈 것이라고 말한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "결정하다",
+                    "emotion": "비장하다",
+                    "content": "C001는 C006를 절대 포기하지 않을 거라고 다짐한다."
+                },
+                {
+                    "location": "마을",
+                    "character": [
+                        "C001",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "content": "C001와 C005이 투닥거리며 마을을 벗어난다."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C003가 성벽 위에서 C001를 지켜보고 있다."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "첫 시도치고는 괜찮았지만, 역시 호락호락하지 않네."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "그러니까 널 보낸 거겠지."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C008가 C003의 뒤쪽에서 모습을 드러낸다."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "더 이상 이쪽 일에 개입하지 말라는 주인님의 전언이 있었다."
+                },
+                {
+                    "location": "마을 성벽 위",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "담담하다",
+                    "content": "C003가 C008에게 거절 의사를 내비친다."
+                },
+                {
+                    "location": "폐허",
+                    "character": [
+                        "그림자"
+                    ],
+                    "act": "지키다/보호하다",
+                    "content": "엄청난 힘이 휘몰아치고, 그림자가 몇 겹으로 겹쳐 C008를 보호한다."
+                },
+                {
+                    "location": "폐허",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "감탄하다",
+                    "content": "군데군데 상처 입은 C008가 폐허가 되어버린 마을을 보며 감탄한다."
+                },
+                {
+                    "location": "폐허",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "감탄하다",
+                    "content": "괜히 4대 마녀로 불린 건 아니군. 아직 쓸만해."
+                },
+                {
+                    "location": "폐허",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "content": "C008는 아무리 그래봤자 제 주인인 C010의 뜻대로 움직일 뿐이라고 중얼거린다."
+                }
+            ]
+        }
+    ]
+}

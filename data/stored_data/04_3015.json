@@ -1,0 +1,3040 @@
+{
+    "title": "대충 행복한 우리 집 3",
+    "genre": [
+        "드라마",
+        "공포(호러)",
+        "판타지"
+    ],
+    "theme": "탈출",
+    "concept": "C001은 가족들과 함께 도시에 살고 있다.",
+    "motif": "귀신소환",
+    "conflict": "핼러윈을 맞아 C003과 C004은 귀신이 나오고 외계인이 침입하는 이야기를 상상한다.",
+    "characters": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005",
+        "C006",
+        "C007",
+        "C008",
+        "C009"
+    ],
+    "units": [
+        {
+            "characters": [
+                "C001",
+                "C004",
+                "C003",
+                "C005"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "핼러윈을 맞이해서 아이들은 오두막에서 서로 무서운 이야기를 하고 있다.",
+            "unit_motif": "여정의 시작",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "비 오는 날 밤, C001은 핼러윈 분장을 하고 오두막 나무로 향한다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "신난다. 공짜 사탕을 얻을 수 있는 핼러윈은 항상 즐거워."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 종이봉투에 들어있는 많은 사탕을 본다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "궁금하다",
+                    "content": "그나저나, 애들은 뭘 하고 있지?"
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 나무 위 오두막을 바라본다."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "담소를 나누다",
+                    "emotion": "무섭다",
+                    "content": "집 아이들은 오두막에 모여서 손전등을 켜고 무서운 이야기를 한다."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "C003은 C004과 C005에게 무서운 이야기를 한다."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "하나도 안 무서운 이야기네."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "무서운 거 다 알아."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무감각함",
+                    "content": "아니거든?"
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "화나다",
+                    "content": "그럼 오빠가 이야기해 보든가."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "자신감 있다",
+                    "content": "좋아. 손전등 이리 줘 봐."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004에게 손전등을 준다."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "엄청 무서운 이야기니까 마음 단단히 먹어."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "담담하다",
+                    "content": "한번 들어나 보자."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "이야기의 제목은 귀신 들린 집이야."
+                },
+                {
+                    "location": "집 오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004은 무서운 이야기를 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "E001",
+                "C001",
+                "C002",
+                "C004",
+                "C003",
+                "C006"
+            ],
+            "stage": "Opening Salvo",
+            "storyline": "심슨 가족은 귀신들린 집으로 이사 간다.",
+            "unit_motif": "새로운 만남",
+            "causality": "Leads to tragedy(비극의 서막)",
+            "story_scripts": [
+                {
+                    "location": "집 밖",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "담담하다",
+                    "content": "E001은 심슨 가족의 집에 짐을 옮긴다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "E001은 C001에게 서류를 준다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "담담하다",
+                    "content": "다 옮겼습니다. 여기 서명해 주세요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "쓰다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 펜을 들고 서명을 한다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "준다",
+                    "emotion": "담담하다",
+                    "content": "C001은 팁으로 적은 돈을 준다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "황당하다",
+                    "content": "고작 팁이 이거예요?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "괘씸하다",
+                    "content": "귀신들린 집에서 잘 살아라."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "귀신 뭐라고요?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "E001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "E001은 집에서 나간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "엄청나게 큰 집에서 살게 되다니!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "이렇게 좋은 집이 너무 싸게 나와서 꺼림직하네요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "마진 없이 장사한 거지."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "아니면 싸게 팔아야 할 이유가 있었거나요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "걱정",
+                    "content": "금싸라기 땅에 심지어 방이 10개가 넘는데 그렇게 많이 필요한가 싶어요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "답답하다",
+                    "content": "좋은 거래를 했는데 왜 그래."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "content": "C004은 상자에서 책을 꺼낸다."
+                },
+                {
+                    "location": "집 거실",
+                    "content": "순간 책이 공중으로 떠오르더니 C003에게 날아간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "content": "C003은 날아온 책에 맞는다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "오빠가 저한테 책 던졌어요!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "부정/부인/반박하다",
+                    "emotion": "화나다",
+                    "content": "내가 안 그랬거든?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "거짓말하지 마!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "이 집에서 나가라."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "이게 무슨 소리죠?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "바람 소리인가 봐."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C003"
+            ],
+            "stage": "Ups & Downs",
+            "storyline": "이사를 온 집에서 기이한 일들이 펼쳐진다.",
+            "unit_motif": "상황 파악",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "집 주방",
+                    "content": "귀신들린 집 주방 벽에서 피가 쏟아진다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C002은 주방 문을 열고 들어간다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C002은 주방 벽에서 피가 흐르는 것을 본다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "주방 청소 좀 해야겠군."
+                },
+                {
+                    "location": "집 주방",
+                    "content": "순간 흐르던 피들이 사라지고 벽에 소용돌이 모양의 구멍이 생긴다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "담담하다",
+                    "content": "C002은 벽에 생긴 소용돌이 구멍을 본다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "담담하다",
+                    "content": "C002은 소리쳐 C001을 부른다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C001은 C002이 부르는 소리에 주방으로 간다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "이것 좀 봐요."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "궁금하다",
+                    "content": "이건 또 뭐야."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "다른 세계로 이어지는 통로 같은데요."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C001"
+                    ],
+                    "content": "C001은 귤을 소용돌이 구멍에 집어던진다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "통로야, 귤 먹어라."
+                },
+                {
+                    "location": "집 주방",
+                    "content": "통로에서 구겨진 종이가 날아서 주방으로 튀어나온다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C003은 구겨진 종이를 펴서 내용을 읽는다."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "당신들 쓰레기를 우리 세상에 버리지 마시오."
+                },
+                {
+                    "location": "집 주방",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "듣다",
+                    "emotion": "궁금하다",
+                    "content": "그 순간 C001, C002, C003은 거실에서 C004의 비명소리를 듣는다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C001",
+                "C002",
+                "C003",
+                "C005",
+                "C006"
+            ],
+            "stage": "Setting-up",
+            "storyline": "가족들은 집에서 이상한 일이 벌어지는 것을 눈치채지만 그냥 지내기로 한다.",
+            "unit_motif": "안좋은 예감",
+            "causality": "Misdirection(잘못된 선택)",
+            "story_scripts": [
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "살려주세요!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C001, C002, C003은 C004의 비명 소리에 거실로 향한다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004",
+                        "C005"
+                    ],
+                    "content": "C004과 C005은 공중에 뜬 채로 C006의 공격을 당한다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "화나다",
+                    "content": "이 집에서 나가라."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001",
+                        "C002"
+                    ],
+                    "act": "돕다",
+                    "emotion": "담담하다",
+                    "content": "C001과 C002은 공중에서 날아다니는 C004과 C005을 구해준다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "자꾸 이런 식으로 장난하면 가만 안 둔다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "무섭다",
+                    "content": "이 집에 귀신이 살고 있나 봐요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "무섭다",
+                    "content": "귀신이라고?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "걱정",
+                    "content": "왜 그런 소리를 해. 엄마 무서워하잖아."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "얘들아, 나가게 옷 챙겨 입어."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "준다",
+                    "emotion": "즐겁다",
+                    "content": "C006은 C004과 C003에게 외투를 던져준다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "열다",
+                    "emotion": "즐겁다",
+                    "content": "C006은 현관문을 연다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "단호하다",
+                    "content": "C002은 자녀들을 데리고 현관문을 나선다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "심란하다",
+                    "content": "잠깐 기다려봐. 오래된 집에서 이런 일은 종종 있어."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "절박하다",
+                    "content": "교황청에 연락해서 퇴마 좀 하면 어때?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "푼돈 아끼려고 귀신들린 집에서 살고 싶지 않아요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "푼돈이 아니고 엄청난 돈을 아끼는 거라고!"
+                },
+                {
+                    "location": "집 거실",
+                    "content": "순간 C001의 몸이 천장으로 떠오른다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "무섭다",
+                    "content": "이것 봐, 천고가 이렇게 높은 집 어떻게 구하겠어."
+                },
+                {
+                    "location": "집 거실",
+                    "content": "C001이 바닥으로 떨어진다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "괴롭다",
+                    "content": "아무튼 조금만 더 지내보자."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "알겠어요. 혹시라도 조금 이상한 일이 발생하면 그땐 알아서 해요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "별일 있겠어?"
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C006",
+                "C003",
+                "C001",
+                "C002",
+                "C005"
+            ],
+            "stage": "1st Accident",
+            "storyline": "C006의 명령에 홀린 C001, C004, C003, C005은 서로를 죽이려고 한다.",
+            "unit_motif": "가족 불화",
+            "causality": "Setback(후퇴/역행/좌절)",
+            "story_scripts": [
+                {
+                    "location": "C004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "듣다",
+                    "emotion": "담담하다",
+                    "content": "C004은 잠들지 못하고 C006의 목소리를 듣는다."
+                },
+                {
+                    "location": "C004의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "너희 가족들은 모두 너의 원수다."
+                },
+                {
+                    "location": "C004의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "너는 가족들을 모두 죽여야 해."
+                },
+                {
+                    "location": "C004의 방",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "당신은 혹시 제 마음의 마지막 도덕인가요?"
+                },
+                {
+                    "location": "C004의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "당황하다",
+                    "content": "그게 말이지, 맞아, 네 양심이란다."
+                },
+                {
+                    "location": "C003의 방",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "담담하다",
+                    "content": "C003, 어서 칼을 쥐어라."
+                },
+                {
+                    "location": "C003의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "따르다/응하다",
+                    "emotion": "담담하다",
+                    "content": "C003은 서랍에서 칼을 꺼낸다."
+                },
+                {
+                    "location": "C003의 방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "즐겁다",
+                    "content": "C003은 칼을 움켜쥐고 미소를 짓는다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 도끼를 들고 일어선다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "가족들은 나의 원수이다. 모두 죽여야 해."
+                },
+                {
+                    "location": "집 부엌",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "담담하다",
+                    "content": "C002은 부엌에서 칼을 움켜쥔다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "찾는다",
+                    "emotion": "즐겁다",
+                    "content": "C002, 어디 있어?"
+                },
+                {
+                    "location": "집 부엌",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "부엌에 있어요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "당황하다",
+                    "content": "도끼를 들고 부엌으로 향하던 C001은 자신의 뒤로 손도끼를 들고 돌아다니는 C004을 본다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C003은 칼을 들고 C004의 뒤를 쫓는다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C005은 칼을 입에 물고 C003을 향해 기어간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "모두 죽여라! 그리고 다들 죽어버려라!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C001, C004, C003, C005은 서로의 뒤를 쫓아 원을 그리며 돌고 있다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "만들다",
+                    "emotion": "즐겁다",
+                    "content": "C002은 부엌에서 칼로 빵을 잘라 샌드위치를 만든다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "궁금하다",
+                    "content": "C002은 거실에서 들리는 가족들의 웃음소리에 밖으로 나간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C002은 거실에서 가족들이 서로에게 흉기를 들고 위협하는 모습을 본다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "단호하다",
+                    "content": "다들 그만둬! 뭐 하는 짓이야!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "사과하다",
+                    "emotion": "미안하다",
+                    "content": "C001, C004, C003, C005은 흉기를 내려놓고 갑자기 사과한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C002",
+                "C001",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Doubts & Debate",
+            "storyline": "심슨 가족은 새로 이사한 집이 묘지 위에 지어진 사실을 알게 된다.",
+            "unit_motif": "상황의 전말을 알게 됨",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "안되겠어! 빨리 이 집 나가자."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "단호하다",
+                    "content": "C002은 C005을 들어 안는다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "고작 하루 지냈는데 왜 이래."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "그게 문제가 아니에요. 이 집에 오고 나서 다들 이상해졌어요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "열다",
+                    "emotion": "궁금하다",
+                    "content": "C003은 지하실 문을 연다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "놀라다",
+                    "content": "엄마, 아빠, 이것 좀 봐요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "가족들은 지하실에 무덤 묘비들을 본다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "담담하다",
+                    "content": "지하실에 묘지가 있어요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "별게 다 있는 집이구먼!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "지하실에 묘지가 있다고!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "연락하다",
+                    "emotion": "화나다",
+                    "content": "C001은 집을 판 중개인에게 전화를 건다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "E002 씨, 저는 C001입니다. 거래할 때 말 안 한 게 있네요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "왜 집에 묘지가 있다고 말 안 했어요!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "아니! 당신이 말 안 했어!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "뻔뻔하다",
+                    "content": "난 그런 적 없는데요!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "당황하다",
+                    "content": "알겠어요. 좋은 밤 되세요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "집 팔 때 말했고 계약서에도 적혀있대."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "옷 챙겨라. 나가자."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C006",
+                "C002",
+                "C001",
+                "C004",
+                "C003",
+                "C005"
+            ],
+            "stage": "Making a Choice",
+            "storyline": "C006은 심슨 가족과 같이 사는 것보다 자멸을 택한다.",
+            "unit_motif": "도망/도피/잠적",
+            "causality": "Avoidance(회피/거부)",
+            "story_scripts": [
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "순간 C006은 심슨 가족에게 집을 나가라고 잔인한 말로 협박한다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "위협하다/협박하다",
+                    "emotion": "단호하다",
+                    "content": "눈이 터지고 혀가 뽑히며 죽을 것이다!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "그만해! 그런 잔인한 말만 하지 말고 예의를 지키란 말이야!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "놀라다",
+                    "content": "내가 왜 이러지. 이 정도로 화를 낸 적이 없었는데."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "위로하다",
+                    "emotion": "담담하다",
+                    "content": "눈이 터지는 것보다는 나아."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "기대되다",
+                    "content": "또 해줘요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "담담하다",
+                    "content": "뭐를 또 해달라는 거야?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "공중부양이오!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "거절하다",
+                    "emotion": "담담하다",
+                    "content": "싫어."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "명령하다",
+                    "emotion": "단호하다",
+                    "content": "이 집은 우리 집이란 말이에요. 빨리해 줘요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 우리를 내쫓으려는 거예요?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "단호하다",
+                    "content": "나 좀 내버려 둬."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "단호하다",
+                    "content": "우리 가족은 여기 말고 갈 곳이 없어요."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "제안하다",
+                    "emotion": "단호하다",
+                    "content": "앞으로 같이 살아야 하니까 당신도 익숙해질 필요가 있어요!"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "부탁하다",
+                    "emotion": "담담하다",
+                    "content": "혼자서 생각할 시간을 조금 줄 수 있을까요?"
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "받아들이다/수락하다",
+                    "emotion": "담담하다",
+                    "content": "그러죠."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "열다",
+                    "emotion": "담담하다",
+                    "content": "C006은 현관문을 열어준다."
+                },
+                {
+                    "location": "집 밖",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "가족들은 집 밖으로 나간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "닫다",
+                    "emotion": "담담하다",
+                    "content": "C006은 현관문을 닫는다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "걱정",
+                    "content": "저 가족들과 함께 지낸다라."
+                },
+                {
+                    "location": "집 거실",
+                    "content": "순간 집이 점점 어떤 알 수 없는 공간으로 빨려 들어간다."
+                },
+                {
+                    "location": "집 거실",
+                    "character": [
+                        "C006"
+                    ],
+                    "content": "C006은 집과 함께 자멸한다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C003",
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "황당하다",
+                    "content": "C001, C002, C004, C003, C005은 집이 사라지는 것을 본다."
+                },
+                {
+                    "location": "도로",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "황당하다",
+                    "content": "귀신에게 거절당한 가족이 돼버렸군."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C003",
+                "C004",
+                "C005"
+            ],
+            "stage": "Another Story",
+            "storyline": "C004의 무서운 이야기를 들은 C003은 반응이 시큰둥하다.",
+            "story_scripts": [
+                {
+                    "location": "오두막 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "듣다",
+                    "emotion": "무섭다",
+                    "content": "C001은 C004의 이야기를 듣고 무서워한다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "하나도 안 무섭구먼."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀리다",
+                    "emotion": "비장하다",
+                    "content": "그래? 그럼 이 잘린 손가락도 안 무서워?"
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "비장하다",
+                    "content": "C004은 상자에 담긴 잘린 손가락 장난감을 C003에게 보여준다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C005"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "담담하다",
+                    "content": "C005은 잘린 손가락 장난감을 공갈젖꼭지 대신 입에 문다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "놀라다",
+                    "content": "안 돼. 메기. 먹는 거 아니야!"
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "놀라다",
+                    "content": "C004은 잘린 손가락 장난감을 메기에게서 빼앗아 숨긴다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "방금 이야기는 시작에 불과하지."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "다루다",
+                    "emotion": "자신감 있다",
+                    "content": "C004은 자신의 얼굴에 손전등을 비춘다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "지금 해줄 무서운 이야기는 더욱 무서운 이야기야."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "C004은 C003과 C005에게 무서운 이야기를 시작한다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004",
+                "C003",
+                "C005"
+            ],
+            "stage": "2nd Accident",
+            "storyline": "심슨 가족은 우주 비행선에 납치된다.",
+            "unit_motif": "여정의 시작",
+            "causality": "First Action(시작)",
+            "story_scripts": [
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "다루다",
+                    "emotion": "즐겁다",
+                    "content": "가족들은 뒤뜰에서 바비큐 파티를 준비한다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "여보, 벌레들이 너무 많아요."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "걱정 마, 이번에 새로 산 살충기 켜줄게."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "자신감 있다",
+                    "content": "C001은 나무 위에 달아둔 해충 퇴치 램프를 켠다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "content": "벌레들이 램프에 닿아 전부 죽는다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "역시 사길 잘 했어."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "기대되다",
+                    "content": "C001은 바비큐 그릴에 버너용 휘발유 한 통을 전부 뿌린다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "기대되다",
+                    "content": "이 정도는 뿌려야 고기가 잘 익지."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "다루다",
+                    "emotion": "즐겁다",
+                    "content": "C001은 성냥에 불을 붙여서 그릴에 던진다."
+                },
+                {
+                    "location": "도시",
+                    "content": "집 뒤뜰에서 엄청나게 큰 불길이 한번 치솟는다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "아빠, 죽여 주는데요!"
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003은 하늘에서 우주선이 집 위로 오는 것을 본다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "가족들은 집 뒤뜰에 다가온 우주선으로 다가간다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "놀라다",
+                    "content": "세상에 저게 뭐야!"
+                },
+                {
+                    "location": "우주선",
+                    "content": "우주선에서 레이저가 가족들에게 비춘다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "가족들은 몸이 떠오르면서 우주선에 납치된다."
+                },
+                {
+                    "location": "우주선",
+                    "content": "우주선은 가족들을 납치해서 우주로 날아간다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C001",
+                "C002",
+                "C004",
+                "C003",
+                "C005",
+                "C007",
+                "C008",
+                "C009"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C007과 C008는 심슨 가족을 납치하고 저녁 식사를 대접한다.",
+            "unit_motif": "의외의 모습",
+            "causality": "Temptation(유혹)",
+            "story_scripts": [
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "포옹하다/껴안다",
+                    "emotion": "무섭다",
+                    "content": "가족들은 서로 껴안고 부들부들 떨고 있다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C007은 가족들에게 다가간다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "반갑다",
+                    "content": "반갑습니다. 저는 C007이라고 합니다. 무서워하지 마세요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "영어로 할 줄 아시는군요!"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "아닙니다. 그저 영어와 우리 행성의 언어가 동일할 뿐입니다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "걱정",
+                    "content": "이제 우리를 어떻게 할 거예요?"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "C008와 내가 외계 행성으로 안내할 거야."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "마침 C008가 C007의 옆으로 온다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "너희들에게 우주 지식의 정수를 알려주기 위해 서지."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "긴장되다",
+                    "content": "사실 저희는 지구에서 아주 평범하게 살아가는 가정이에요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "절박하다",
+                    "content": "자비를 베풀어 우리를 집으로 돌려보내 주세요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "준다",
+                    "emotion": "즐겁다",
+                    "content": "C009이 저녁 식사를 준비해서 심슨 가족에게 준다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "저녁 식사 시간입니다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "기쁘다",
+                    "content": "신난다! 저녁 먹자!"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기쁘다",
+                    "content": "남기는 음식 없이 마음껏 드세요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "가족들은 C009이 해준 음식 메뉴를 본다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "돼지고기가 있다니!"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "음식 데커레이션까지 했어요. 엄청 발전한 문명이군요!"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "빠르게 살이 찌도록 많이 먹어요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "먹는다",
+                    "emotion": "즐겁다",
+                    "content": "가족들은 C009이 해준 맛있는 음식을 먹는다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "의심스럽다",
+                    "content": "뭔가 이상한데요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "역시 예리해. 소스 없이 돼지고기를 먹을 순 없지."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C007과 C008는 소스를 가지러 간다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C009은 C002이 식사하는 것을 지켜본다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "짜증나다",
+                    "content": "댁은 뭘 보고 있는 거요?"
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "칭찬/호평하다",
+                    "emotion": "즐겁다",
+                    "content": "아내분이 잘 드시는군요."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "고맙다",
+                    "content": "칭찬 고마워요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C008",
+                "C004",
+                "C001",
+                "C002"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C007과 C008는 심슨 가족에게 우주선을 자랑한다.",
+            "unit_motif": "상황 설명",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "즐겁다",
+                    "content": "C007과 C008는 심슨 가족을 데리고 우주선 내부를 소개한다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "외계 행성으로 가는 길에 몇 가지 오락거리를 소개하겠습니다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "다루다",
+                    "emotion": "자신감 있다",
+                    "content": "C007은 리모컨을 눌러 거대한 모니터를 꺼낸다."
+                },
+                {
+                    "location": "TV",
+                    "content": "TV에서는 만화 2가 방송된다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자신감 있다",
+                    "content": "지구에 있는 방송도 충분히 가져올 수 있습니다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "OTT 서비스도 있어요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "담담하다",
+                    "content": "아니, 유료채널은 안 가져왔어."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "데려가다",
+                    "emotion": "자랑스럽다",
+                    "content": "C007은 다른 오락기를 소개하기 위해 심슨 가족을 데려간다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "자랑스럽다",
+                    "content": "C007은 고전 게임을 소개한다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "첨단 프로그램을 통해 테니스 게임을 만들었죠."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "저거 교과서에 본 적 있는데."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "사무치다",
+                    "content": "C002랑 데이트할 때 했던 게임이다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "속상하다",
+                    "content": "우리 종족은 우주를 넘나드는 기술을 가지고 있어요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "속상하다",
+                    "content": "우주여행을 다녀온 적이 있으면 거수해보세요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "content": "C007과 C008가 손을 든다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "거짓말하다",
+                    "emotion": "즐겁다",
+                    "content": "C004은 C007과 C008를 보고 같이 손을 든다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "단호하다",
+                    "content": "C001은 손을 들고 있는 C004을 말린다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "자랑스럽다",
+                    "content": "그렇다고 하는군요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "미안하다",
+                    "content": "미안합니다. 아주 멋진 게임이에요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C009",
+                "C007",
+                "C003",
+                "C001",
+                "C002",
+                "C008",
+                "C004"
+            ],
+            "stage": "Villains Move",
+            "storyline": "C003은 외계인들이 식사를 하지 않는 것에 대해 의심을 품는다.",
+            "unit_motif": "상대를 의심",
+            "causality": "Reconnaissance(정탐)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C009은 저녁 식사를 들고 온다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "저녁 식사 드세요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "의심스럽다",
+                    "content": "근데 왜 당신들은 식사를 안 하나요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "난감하다",
+                    "content": "그건 더 맛있는 음식을 먹으려고 기다리고 있기 때문이야."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "외계 행성에 도착하면 아주 큰 파티가 준비되어 있거든."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "아주 큰 파티요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "기대되다",
+                    "content": "우리도 초대되나요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "대답한다",
+                    "emotion": "즐겁다",
+                    "content": "그럼요. 당연하죠. 아주 특별한 손님으로서 말이죠."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007",
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "기대되다",
+                    "content": "C007, C008, C009은 의미심장한 소리로 웃는다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "요청하다",
+                    "emotion": "기대되다",
+                    "content": "파티에 대해 더 이야기해주세요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "난감하다",
+                    "content": "아니오. 우선 마저 드세요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "말하다",
+                    "emotion": "기대되다",
+                    "content": "외계 행성에 가면 크고 육즙이 흐르는 고기를 충분히 먹을 수 있겠지."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007",
+                        "C008",
+                        "C009"
+                    ],
+                    "act": "웃는다",
+                    "emotion": "즐겁다",
+                    "content": "C007, C008, C009은 또다시 무섭게 웃는다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "의심스럽다",
+                    "content": "C003은 외계인들의 이야기를 듣고는 저녁식사를 하지 않는다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "다루다",
+                    "emotion": "기대되다",
+                    "content": "C007과 C008는 심슨 가족의 체중을 측정한다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004은 체중계 위로 올라간다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "즐겁다",
+                    "content": "C007과 C008는 C004의 체중을 본다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "건강한 체형이구나."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C004 다음으로 C001은 체중계 위로 올라간다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C007",
+                        "C008"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C007과 C008는 C001의 체중에 깜짝 놀란다."
+                },
+                {
+                    "location": "우주선 의료실",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "감탄하다",
+                    "content": "아주 좋아요. C001 씨, 이대로 계속 살이 찌면 좋겠어요."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C003",
+                "C009",
+                "C001",
+                "C002",
+                "C004",
+                "C005"
+            ],
+            "stage": "Defeat",
+            "storyline": "C003은 우연히 C009이 요리하는 현장을 보게 된다.",
+            "unit_motif": "계략을 파악",
+            "causality": "Surprise(충격/놀람)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 우주선 내부를 구석구석 돌아다닌다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "열다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 우연히 우주선 주방의 문을 연다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "C003은 요리를 하고 있는 C009을 훔쳐본다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "만들다",
+                    "emotion": "즐겁다",
+                    "content": "C009은 책을 보면서 요리를 한다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "즐겁다",
+                    "content": "이걸 넣으면 지구인들에게 좋은 향을 풍기겠지."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "기대되다",
+                    "content": "C009은 책을 덮고 요리를 들고 어디론가 향한다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "긴장되다",
+                    "content": "C003은 C009이 보고 있던 책으로 몰래 다가간다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "놀라다",
+                    "content": "C003은 책 1이라는 제목을 읽는다."
+                },
+                {
+                    "location": "우주선 주방",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "훔치다",
+                    "emotion": "놀라다",
+                    "content": "C003은 C009이 보던 책을 훔친다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "놀라다",
+                    "content": "C003은 책을 들고 가족들에게 달려간다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "놀라다",
+                    "content": "멈춰요! 외계인들이 우리를 뚱뚱하게 만든 뒤 잡아먹으려고 해요!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말하다",
+                    "emotion": "거부감",
+                    "content": "무슨 소리 하는 거야."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "설득하다",
+                    "emotion": "답답하다",
+                    "content": "이걸 보시면 믿으실 거예요!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "참담하다",
+                    "content": "C003은 책 1을 가족들에게 보여준다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "놀라다",
+                    "content": "나머지 가족들은 책의 제목을 보고 모두 놀란다."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C007",
+                "C001",
+                "C002",
+                "C004",
+                "C005",
+                "C008",
+                "C003",
+                "C009"
+            ],
+            "stage": "Choice to Fight",
+            "storyline": "심슨 가족은 다시 집으로 돌아온다.",
+            "unit_motif": "귀환",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "마침 C007은 가족들에게 다가간다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "C003 말이 맞았어!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 더 안 드세요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "내말 똑똑히 들어! 이 괴물아! 어느 누구도 우리 가족들을 먹을 수 없어!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "난감하다",
+                    "content": "그게 무슨 말씀이세요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "화나다",
+                    "content": "당신들 책을 다 봤어!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "낚아채다/움켜쥐다",
+                    "emotion": "황당하다",
+                    "content": "C007은 C003가 들고 있는 책을 가져간다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "이건 별거 아닌 그냥 요리책이에요. 책에 먼지가 쌓여서 오해가 있었네요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "content": "C007은 책에 쌓은 먼지를 닦아낸다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "공개하다/드러내다",
+                    "emotion": "자신감 있다",
+                    "content": "C007은 책 2 제목을 심슨 가족에게 보여준다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C005"
+                    ],
+                    "act": "보다",
+                    "emotion": "안심/안도하다",
+                    "content": "다른 가족들은 달라진 책 제목을 보고 안심한다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "아주 큰 오해를 한 것 같은데요."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "억울하다",
+                    "content": "C008가 C007의 옆으로 다가온다."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "억울하다",
+                    "content": "우리가 사람을 잡아먹는다고요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "황당하다",
+                    "content": "어이가 없군. 농담하는 거 아닌가?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C008"
+                    ],
+                    "act": "말하다",
+                    "emotion": "단호하다",
+                    "content": "표정을 보니 진지한 거 같은데."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "묻는다",
+                    "emotion": "궁금하다",
+                    "content": "왜 우리를 계속 먹인 건가요?"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "먹였다고? 우리는 그냥 제공했고 먹은 건 너희들이지!"
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C009"
+                    ],
+                    "act": "울다",
+                    "emotion": "속상하다",
+                    "content": "나는 너희를 위해 며칠간 계속 요리만 했는데."
+                },
+                {
+                    "location": "우주선 내부",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "화나다",
+                    "content": "결국 누구 하나 울려야 속이 후련했나 보구만."
+                },
+                {
+                    "location": "우주선",
+                    "content": "우주선이 집 뒤뜰에 도착한다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001",
+                        "C002",
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "심슨 가족은 우주선에서 내린다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "우리는 여러분에게 낙원을 주려고 했습니다."
+                },
+                {
+                    "location": "우주선 격납고",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "말하다",
+                    "emotion": "안타깝다",
+                    "content": "그렇지만 그대들의 의심으로 기회는 물 건너 갔어요."
+                },
+                {
+                    "location": "우주선",
+                    "character": [
+                        "C007"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "담담하다",
+                    "content": "C007은 우주선을 몰고 우주로 떠난다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "참담하다",
+                    "content": "우주선 안에 악당은 우리들이었군요."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "아니야, C003, 우리가 아니라 너만 이란다."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "짜증나다",
+                    "content": "우주에서도 잘난 척하더군."
+                },
+                {
+                    "location": "집 뒤뜰",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "비아냥거리다",
+                    "emotion": "짜증나다",
+                    "content": "고마워서 눈물이 나는구나, C003."
+                }
+            ]
+        },
+        {
+            "characters": [
+                "C004",
+                "C003",
+                "C002",
+                "C005",
+                "C001"
+            ],
+            "stage": "Final Salvo",
+            "storyline": "심슨 자녀들은 무서운 이야기를 마치고 집으로 들어간다.",
+            "unit_motif": "귀환",
+            "causality": "Return(귀환)",
+            "story_scripts": [
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "놀다",
+                    "emotion": "긴장되다",
+                    "content": "C004은 오두막 밖에서 C003에게 장난을 친다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "여기 관심 좀 가져줄래?"
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004을 무시하고 책을 읽는다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "핼러윈에도 책을 읽다니 아주 똑똑이 납셨구먼."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "이건 책이 아니라 책 3야."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "잠깐만, 심지어 그냥 책이 아니라 교과서네."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "걱정하지 마, 어차피 오빠는 평생 안 읽을 거잖아."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이번 이야기는 에드가 앨런 포의 시, 까마귀야."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "읽다",
+                    "emotion": "담담하다",
+                    "content": "C003은 C004과 C005에게 시를 읽어 준다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "듣다",
+                    "emotion": "지겹다",
+                    "content": "C004은 C003이 읽어주는 에드가 엘런 포의 시, 까마귀를 듣는다."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "짜증나다",
+                    "content": "이게 무슨 시야, 심지어 무섭지도 않아."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C003"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "이건 옛날에 쓰인 시야, 당시 사람들은 겁이 많았나 보지."
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "공감하다",
+                    "emotion": "즐겁다",
+                    "content": "하긴, 옛날 공포 영화는 봐도 지루하더라고."
+                },
+                {
+                    "location": "집 뒷문",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "소리치다",
+                    "emotion": "애틋하다",
+                    "content": "얘들아, 잘 시간이야!"
+                },
+                {
+                    "location": "오두막",
+                    "character": [
+                        "C004"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "오늘은 별로 무섭지도 않았고 기분 좋게 잘 수 있겠어."
+                },
+                {
+                    "location": "오두막 밖",
+                    "character": [
+                        "C004",
+                        "C003",
+                        "C005"
+                    ],
+                    "act": "간다/이동한다",
+                    "emotion": "즐겁다",
+                    "content": "C004, C003, C005은 나무에서 내려간다."
+                },
+                {
+                    "location": "오두막 밖",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "기다리다",
+                    "emotion": "무섭다",
+                    "content": "C001은 오두막 입구 반대편 창문에서 무서워서 덜덜 떨고 있다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "숨기다/감추다",
+                    "emotion": "무섭다",
+                    "content": "C001은 잠들지 못하고 무서워서 이불 속에 몸을 숨긴다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다루다",
+                    "emotion": "담담하다",
+                    "content": "C002이 취침 등을 끄려고 한다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "말리다/멈추다",
+                    "emotion": "무섭다",
+                    "content": "C002, 안 돼! 오늘은 그냥 키고 자자."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "담담하다",
+                    "content": "불 켜져 있으면 잠 못 잔단 말이에요."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "말하다",
+                    "emotion": "즐겁다",
+                    "content": "그리고 그냥 아이들 이야기인데 뭐가 무서워요."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C002"
+                    ],
+                    "act": "다루다",
+                    "emotion": "담담하다",
+                    "content": "C002은 취침 등을 끈다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "보다",
+                    "emotion": "무섭다",
+                    "content": "C001은 창밖에 자신을 바라고 있는 까마귀와 눈이 마주친다."
+                },
+                {
+                    "location": "집 안방",
+                    "character": [
+                        "C001"
+                    ],
+                    "act": "중얼거리다/혼잣말하다",
+                    "emotion": "무섭다",
+                    "content": "난 핼러윈이 너무 싫어."
+                }
+            ]
+        }
+    ]
+}
