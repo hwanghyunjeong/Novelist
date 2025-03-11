@@ -4,7 +4,7 @@ import config
 import uuid
 from state_graph import create_state_graph
 from story_chain import create_story_chain, create_map_analyst
-from db import DBManager
+from db import DBManager, DBStateInjector
 from db_utils import extract_entities_and_relationships, update_graph_from_er
 from states import PlayerState, player_state_to_dict
 import json
@@ -242,6 +242,8 @@ def scene_transition_node(data):
     return data
 
 
+# 유효하지 않은 액션이라도 일단 반응하도록 처리
+# 결과가 같다면 어쨌든 넘어갈 수 있게 처리해야함
 def check_valid_action(data):
     """사용자 입력이 유효한 행동인지 확인합니다."""
     user_input = data.get("user_input")
@@ -256,17 +258,13 @@ def check_valid_action(data):
         return "invalid_input"
 
 
-# 원래 Player를 따로 둘 시
-# MATCH (p:Player {id: "character:Player"})
-#                RETURN p.name AS name, p.sex AS sex
-# 의 형태로 삽입했으나, 현재 구조에서 일단 함수의 통일성을 위해 character로 통일 / 추후 변경가능
 def get_player_data(db_client: GraphDatabase) -> Dict:
     """Neo4j에서 플레이어 데이터를 가져옵니다."""
     try:
         with db_client.session() as session:
             result = session.run(
                 """
-                MATCH (p:character {id: "character:Player"})
+                MATCH (p:Player {id: "character:Player"})
                 RETURN p.name AS name, p.sex AS sex
                 """
             )
@@ -286,7 +284,7 @@ def create_player_in_db(db_client: GraphDatabase, player_data: Dict):
         with db_client.session() as session:
             session.run(
                 """
-                MERGE (p:Character {id: "character:Player"})
+                MERGE (p:Player {id: "character:Player"})
                 ON CREATE SET p.name = $name, p.sex = $sex
                 """,
                 name=player_data["name"],
@@ -363,6 +361,9 @@ def main():
         except Exception as e:
             st.error(f"데이터베이스 연결에 실패했습니다: {e}")
             st.stop()
+    # state를 불러온 직후 DBStateInjector를 사용하여 db_client 재주입
+    injector = DBStateInjector(st.session_state["db_manager"])
+    current_state = injector.inject(current_state)
 
     if "session_id" not in st.session_state:
         st.session_state["session_id"] = str(uuid.uuid4())
@@ -428,14 +429,13 @@ def main():
             current_state["user_input"] = user_input
             current_state["history"].append(user_input)
             old_scene_beat = current_state["scene_beat"]
-            # 실행 전 임시로 db_client 주입 (노드 실행에 필요)
-            current_state["db_client"] = db_client
+
             try:
-                new_state = app.invoke(player_state_to_dict(current_state))
+                new_state = injector.invoke_workflow(current_state, app)
             except Exception as e:
                 st.error(f"게임 진행 중 오류가 발생했습니다: {e}")
                 st.stop()
-            # 실행 후 db_client는 저장 대상에서 제외
+            # 실행 후 db_client는 저장 대상에서 제외 (직렬화 문제 회피를 위함)
             new_state.pop("db_client", None)
             if "session_id" not in new_state:
                 new_state["session_id"] = current_state.get("session_id")

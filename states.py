@@ -8,14 +8,7 @@ from abc import ABC, abstractmethod
 # https://wikidocs.net/265768 참조할 것 (서브스키마로 서로 다른 스키마 구조를 가질때)
 class GameState(TypedDict):
     """
-    게임 상태를 보관
-
-    player: 사용자
-    map: 맵 정보
-    init: 이야기 시작 여부
-    user_input: 사용자 입력
-    history: 대화내역
-    generation: AI가 만든 이야기.
+    게임 상태를 보관하는 state
     """
 
     player: Annotated[dict, "사용자가 플레이하는 캐릭터의 속성 및 메소드"]
@@ -29,7 +22,7 @@ class GameState(TypedDict):
 
 class PlayerState(TypedDict):
     """
-    플레이어의 상태를 저장하는 TypedDict
+    플레이어의 상태 및 이야기를 저장하는 TypedDict (speaker)
     """
 
     player: Annotated[Dict, "사용자가 플레이하는 캐릭터의 속성 및 메소드"]

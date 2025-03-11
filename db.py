@@ -1,4 +1,5 @@
 from neo4j import GraphDatabase
+from states import player_state_to_dict
 from typing import Dict
 import config
 
@@ -36,6 +37,28 @@ class DBManager:
         except Exception as e:
             print(f"게임 상태 저장 중 오류 발생: {e}")
             raise
+
+
+class DBStateInjector:
+    """dbclient 의존성 주입 클래스"""
+
+    def __init__(self, db_manager):
+        self.db_manager = db_manager
+
+    def inject(self, state: dict) -> dict:
+        """
+        현재 세션의 DBManager에서 driver를 추출하여
+        state에 'db_client' 키로 주입합니다.
+        """
+        state["db_client"] = self.db_manager.driver
+        return state
+
+    def invoke_workflow(self, state: dict, workflow_app) -> dict:
+        """
+        상태에 db_client를 주입한 후, 주어진 workflow_app (예: app)를 실행합니다.
+        """
+        updated_state = self.inject(state)
+        return workflow_app.invoke(player_state_to_dict(updated_state))
 
     @staticmethod
     def _save_game_state_tx(tx, game_state: Dict):

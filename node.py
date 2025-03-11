@@ -19,7 +19,7 @@ class InitializeNode(BaseNode):
     def execute(self, state: PlayerState) -> PlayerState:
         # 초기 상태를 설정 (예: 캐릭터, 맵 데이터 로드)
         if not state["player"]["name"]:
-            state["player"]["name"] = "익명"
+            state["player"]["name"] = "Unknown"
         return state
 
 
