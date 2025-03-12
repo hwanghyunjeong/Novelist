@@ -243,13 +243,13 @@ def scene_transition_node(data):
 
 
 # 유효하지 않은 액션이라도 일단 반응하도록 처리
-# 결과가 같다면 어쨌든 넘어갈 수 있게 처리해야함
+# 결과가 같다면 어쨌든 넘어갈 수 있게 처리해야함 (임베딩)
 def check_valid_action(data):
     current_scene_id = data.get("scene")
     db_client = data.get("db_client")
     available_actions = get_available_actions(db_client, current_scene_id)
     data["available_actions"] = available_actions
-    # 입력이 유효하면 action_result를 'continue', 아니면 'invalid_input'으로 설정
+    # 입력이 유효했는지 검증하는 action result (임시)
     data["action_result"] = (
         "continue"
         if check_action_in_available_actions(
