@@ -58,7 +58,11 @@ def create_graph(graph, doc):
 
     # Document 노드 생성
     doc_id = str(uuid4())
+
+    ##### 기존 DB에 있던 DATA 전부 삭제.
     graph.query("""MATCH (n) DETACH DELETE n""")
+    #####
+
     doc_properties = {
         "title": doc["title"],
         "theme": doc["theme"],
