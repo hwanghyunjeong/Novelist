@@ -245,17 +245,33 @@ def scene_transition_node(data):
 # 유효하지 않은 액션이라도 일단 반응하도록 처리
 # 결과가 같다면 어쨌든 넘어갈 수 있게 처리해야함
 def check_valid_action(data):
-    """사용자 입력이 유효한 행동인지 확인합니다."""
-    user_input = data.get("user_input")
     current_scene_id = data.get("scene")
     db_client = data.get("db_client")
     available_actions = get_available_actions(db_client, current_scene_id)
     data["available_actions"] = available_actions
-    is_valid_input = check_action_in_available_actions(user_input, available_actions)
-    if is_valid_input:
-        return "continue"
-    else:
-        return "invalid_input"
+    # 입력이 유효하면 action_result를 'continue', 아니면 'invalid_input'으로 설정
+    data["action_result"] = (
+        "continue"
+        if check_action_in_available_actions(
+            data.get("user_input", ""), available_actions
+        )
+        else "invalid_input"
+    )
+    return data
+
+
+# def check_valid_action(data):
+#     """사용자 입력이 유효한 행동인지 확인합니다."""
+#     user_input = data.get("user_input")
+#     current_scene_id = data.get("scene")
+#     db_client = data.get("db_client")
+#     available_actions = get_available_actions(db_client, current_scene_id)
+#     data["available_actions"] = available_actions
+#     is_valid_input = check_action_in_available_actions(user_input, available_actions)
+#     if is_valid_input:
+#         return "continue"
+#     else:
+#         return "invalid_input"
 
 
 def get_player_data(db_client: GraphDatabase) -> Dict:
@@ -319,7 +335,8 @@ workflow.add_edge("initialize", "create_player_and_character")
 workflow.add_edge("create_player_and_character", "check_action")
 workflow.add_conditional_edges(
     "check_action",
-    check_valid_action,
+    # check_valid_action,
+    lambda state: state.get("action_result"),
     {
         "continue": "scene_transition",
         "invalid_input": END,
