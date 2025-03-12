@@ -1,8 +1,10 @@
 # node.py
+import streamlit as st
 from abc import ABC, abstractmethod
 from states import PlayerState
 from character import Character
 from neo4j import GraphDatabase
+from db import DBManager  # st.session_state db_manager
 
 
 class BaseNode(ABC):
@@ -92,7 +94,9 @@ class RouteMovingNode(BaseNode):
 
 class CreatePlayerAndCharacterNodes(BaseNode):
     def execute(self, state: PlayerState) -> PlayerState:
-        driver = state.get("db_client")
+        driver = st.session_state[
+            "db_manager"
+        ].driver  # db_client 외부주입 (nonetype 에러 방지)
         player_data = state.get("player")
         characters = state.get("characters", [])
         with driver.session() as session:
