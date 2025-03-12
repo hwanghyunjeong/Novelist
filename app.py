@@ -194,6 +194,7 @@ def choice_make(user_input: str, scene_beat_id: str) -> str:
     return ""
 
 
+# 추출된 데이터를 미리 extracted_data에 저장한 뒤에 업데이트 하도록 변경 (자료 손실 예방)
 def ere_extraction_node(data):
     """사용자 입력으로부터 엔티티와 관계를 추출하고 그래프를 업데이트합니다."""
     user_input = data.get("user_input")
@@ -201,8 +202,8 @@ def ere_extraction_node(data):
         db_client = data.get("db_client")
         try:
             extracted_data = extract_entities_and_relationships(user_input)
-            update_graph_from_er(db_client, extracted_data)
             data["extracted_data"] = extracted_data
+            update_graph_from_er(db_client, extracted_data)
         except Exception as e:
             print(f"Error during ere_extraction_node : {e}")
     return data
@@ -221,7 +222,10 @@ def scene_transition_node(data):
 
         if not next_scene_beat:
             print(f"No valid next scene beat. scene_beat: {next_scene_beat}")
-            return data
+            # return data # 이전 scene_beat를 반환하던 것을, 변경된 scene_beat가 없다면, 종료하도록 합니다.
+            #  if new_state.get("scene_beat") == None: 조건에서 True가 되어 "더 이상 진행할 이야기가 없습니다" 메시지를 출력하고 게임을 정상적으로 종료
+            # 무한루프 방지
+            return data.update({"scene_beat": None})
 
         data["scene_beat"] = next_scene_beat
 
@@ -461,7 +465,12 @@ def main():
             st.write(new_state.get("extracted_data", {}))
             st.write("생성된 이야기:")
             st.write(new_state.get("generation", ""))
-            if new_state.get("scene_beat") == old_scene_beat:
+            # scene_transition_node에서 다음 scene_beat를 찾을 수 없는 경우,
+            # 이전 scene_beat를 유지하며 계속 진행하는 것으로 여겨져 무한루프였음.
+            # old_scene_beat의 값은 이전 scene_beat의 id이기 때문
+            if new_state.get("scene_beat") == None:
+                st.info("더 이상 진행할 이야기가 없습니다. 게임이 종료되었습니다.")
+            elif new_state.get("scene_beat") == old_scene_beat:
                 st.info("더 이상 진행할 이야기가 없습니다. 게임이 종료되었습니다.")
             st.session_state["db_manager"].save_state(new_state)
 

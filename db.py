@@ -2,6 +2,7 @@ from neo4j import GraphDatabase
 from states import player_state_to_dict
 from typing import Dict
 import config
+import json
 
 
 class DBManager:
@@ -40,12 +41,45 @@ class DBManager:
 
     @staticmethod
     def _save_game_state_tx(tx, game_state: Dict):
-        sanitized_state = {k: v for k, v in game_state.items() if k != "db_client"}
+        sanitized_state = {}
+        for k, v in game_state.items():
+            if k == "db_client":
+                continue
+            # dict나 list는 JSON 문자열로 변환
+            if isinstance(v, (dict, list)):
+                sanitized_state[k] = json.dumps(
+                    v, ensure_ascii=False
+                )  # ensure_ascii : 한글 등 유니코드 문자 저장을 위해 False
+            else:
+                sanitized_state[k] = v
         session_id = sanitized_state.get("session_id")
         if not session_id:
             raise ValueError("session_id가 올바르게 설정되지 않았습니다.")
         query = "MERGE (gs:GameState {id: $game_state_id}) SET gs += $game_state"
         tx.run(query, game_state_id=session_id, game_state=sanitized_state)
+
+    def load_state(self, session_id: str) -> Dict:
+        """주어진 세션 ID에 해당하는 게임 상태를 로드합니다."""
+        with self.driver.session() as session:
+            result = session.execute_read(self._load_game_state_tx, session_id)
+            return result
+
+    @staticmethod
+    def _load_game_state_tx(tx, session_id: str) -> Dict:
+        query = "MATCH (gs:GameState {id: $session_id}) RETURN gs"
+        result = tx.run(query, session_id=session_id)
+        record = result.single()
+        if record:
+            game_state = record["gs"]
+            for k, v in game_state.items():
+                # JSON 문자열로 저장된 데이터는 다시 복원
+                if isinstance(v, str):
+                    try:
+                        game_state[k] = json.loads(v)
+                    except json.JSONDecodeError:
+                        pass
+            return game_state
+        return {}  # session_id로 저장된 게임 상태가 없을 경우 빈 딕셔너리를 반환
 
 
 class DBStateInjector:
