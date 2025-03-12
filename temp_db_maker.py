@@ -8,7 +8,7 @@ from uuid import uuid4
 load_dotenv()
 
 
-JSON_PATH = "./data/story_json/"
+JSON_PATH = "./data/stored_data/"
 
 # 파일 목록 읽어오기
 items = os.listdir(JSON_PATH)
@@ -28,7 +28,7 @@ for file in files:
     with open(file_path, "r", encoding="utf-8") as f:
         json_list.append(json.load(f))
 
-
+# Graph connector 만들기.
 graph = Neo4jGraph(
     url=os.getenv("NEO4J_URI"),
     username=os.getenv("NEO4J_USER"),
