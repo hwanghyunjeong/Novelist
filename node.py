@@ -117,7 +117,7 @@ class CreatePlayerAndCharacterNodes(BaseNode):
         tx.run(
             """
             MERGE (p:Player {id: $id})
-            SET p.name = $name, p.sex = $sex, p.stamina = $stamina, p.status = $status,
+            SET p.name = $name, p.sex = $sex, p.stamina = $stamina, p.status = $status
             """,
             id=player_data.get("id"),
             name=player_data.get("name"),
