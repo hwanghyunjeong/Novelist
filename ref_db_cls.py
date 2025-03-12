@@ -3,7 +3,8 @@ from typing_extensions import TypedDict
 
 # sample scene schema를 기반으로 추출
 """
-최상위 스키마는 RetriveState
+최상위 스키마는  RetriveState
+
 여기서 정의된 data의 순서에 따른 것이 Scene, SceneBeat
 """
 
