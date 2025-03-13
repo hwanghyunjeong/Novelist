@@ -1,13 +1,17 @@
+# Retriever를 만들기 위한 임시 DB Maker.
+# 주의: 실행하면 기존 그래프DB에 있는 파일 모두 삭제. #
+
+from uuid import uuid4
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_neo4j import Neo4jGraph
 import os
 import random  # 임의의 10개 파일을 가지고 테스트 하기 위함.
 import json
 from dotenv import load_dotenv
-from uuid import uuid4
 
 load_dotenv()
 
-
+# 데이터 경로에 맞게 수정.
 JSON_PATH = "./data/stored_data/"
 
 # 파일 목록 읽어오기
@@ -16,8 +20,8 @@ items = os.listdir(JSON_PATH)
 # 파일만 필터링
 files = [f for f in items if os.path.isfile(os.path.join(JSON_PATH, f))]
 
-# 10개 고르기 (테스트용)
-files = random.sample(files, 10)  # 테스트가 아닐 경우 주석 처리.
+# 10개 고르기
+files = random.sample(files, 10)
 
 # JSON 파일 읽어오기
 
@@ -28,134 +32,114 @@ for file in files:
     with open(file_path, "r", encoding="utf-8") as f:
         json_list.append(json.load(f))
 
-# Graph connector 만들기.
+
 graph = Neo4jGraph(
     url=os.getenv("NEO4J_URI"),
     username=os.getenv("NEO4J_USER"),
     password=os.getenv("NEO4J_PASSWORD"),
 )
 
+embedding_provider = OpenAIEmbeddings(model="text-embedding-3-small")
 
-# DB 만들기
-def create_graph(graph, doc):
-    def extract_unit_key(unit):
-        unit_key = set(unit.keys()) - {"story_scripts", "characters"}
-        query_key = ""
-        unit_properties = {}
-        for k in unit_key:
-            query_key += f"{k}: ${k}, "
-            unit_properties[k] = unit[k]
-        return query_key[:-2], unit_properties
 
-    def extract_script_key(script):
-        script_key = set(script.keys()) - {"character"}
-        query_str = ""
-        properties = {}
-        for k in script_key:
-            query_str += f"{k}: ${k}, "
-            properties[k] = script[k]
-        return query_str[:-2], properties
+def create_work_node(graph, work):
+    # (Work)-[:CONTAINS]-(Unit)
+    # (Unit)-[:INCLUDES]-(StoryScript)
+    # (StoryScript)-[:PERFORMS]-(Act)
+    # (StoryScript)-[:FEELS]-(Emotion)
 
-    # Document 노드 생성
-    doc_id = str(uuid4())
+    # 자주 쓰는 변수 생성.
+    title = work["title"]
+    # Work label 노드 생성 및 속성: title
+    work_id = str(uuid4())
+    graph.query("""MERGE (w:Work {title: $title})""", {"title": title})
 
-    ##### 기존 DB에 있던 DATA 전부 삭제.
-    graph.query("""MATCH (n) DETACH DELETE n""")
-    #####
+    # @ 장르, 속성 genre
+    # @ Motif 속성, motif
+    # @ theme , 속성: theme
 
-    doc_properties = {
-        "title": doc["title"],
-        "theme": doc["theme"],
-        "concept": doc["concept"],
-        "motif": doc["motif"],
-        "conflict": doc["conflict"],
-        "id": doc_id,
-    }
-
-    graph.query(
-        """
-        MERGE (d:Document {title: $title})
-        SET 
-        d.theme= $theme, 
-        d.concept= $concept,
-        d.motif= $motif, 
-        d.conflict= $conflict
-""",
-        doc_properties,
-    )
-
-    # Genre 노드와 관계 생성
-    for genre in doc["genre"]:
-        graph.query(
-            """
-                    MERGE (g:Genre {name: $genre})
-                    MERGE (d:Document {title: $title})
-                    MERGE (d)-[:HAS_GENRE]->(g)""",
-            {"genre": genre, "title": doc["title"]},
-        )
-
-    # Character 노드와 관계 생성
-    for char in doc["characters"]:
-        char_id = char + "_" + doc["title"]
-        # tx.run("""
-        #        MERGE (c:Character {id: $char_id, name:$char})
-        #    MERGE (d:Document {title: $title})-[:HAS_CHARACTER]->(c)""", char_id=char_id, char=char, title=doc['title'])
-        graph.query(
-            """MERGE (c:Character {id:$char_id, name: $char})
-            MERGE (d:Document {title: $title})
-            MERGE (d)-[:HAS_CHARACTER]->(c)
-            """,
-            {"char_id": char_id, "char": char, "title": doc["title"]},
-        )
-
-    #     # Unit 및 StoryScript 노드와 관계 생성
-    for unit in doc["units"]:
-        query_0, u_pro = extract_unit_key(unit)
-        u_pro["title"] = doc["title"]
+    # Unit 노드와 관계 생성 , 속성: storyline, storyline_embedding!!
+    unit_num = 0
+    for unit in work["units"]:
+        unit_num += 1
+        unit_id = f"u{unit_num}.{title}"
+        storyline = unit["storyline"]
+        # Embed the storyline
+        storyline_embedding = embedding_provider.embed_query(storyline)
         query = (
-            "MERGE (u:Unit {"
-            + query_0
-            + "})\n"
-            + "MERGE (d:Document {title: $title})\n"
-            + "MERGE (d)-[:HAS_UNIT]->(u)"
+            "MERGE (w:Work {title: $title})\n"
+            + "MERGE (u: Unit {id: $unit_id})\n"
+            + "SET u.storyline= $storyline\n"
+            + "MERGE (w)-[:CONTAINS]->(u)\n"
+            + "MERGE (u)-[:PART_OF]->(w)\n"
+            + "WITH u\n"
+            + "CALL db.create.setNodeVectorProperty(u, 'storylineEmbedding', $embedding)"
         )
-        graph.query(query, u_pro)
+        graph.query(
+            query,
+            {
+                "title": title,
+                "unit_id": unit_id,
+                "storyline": storyline,
+                "embedding": storyline_embedding,
+            },
+        )
 
-        for char in unit["characters"]:
-            char_id = char + "_" + doc["title"]
-            query_str = """MERGE (c:Character {id: $char_id, name: $char})
-            MERGE (u:Unit {stage: $stage, storyline: $storyline})
-            MERGE (u)-[:INVOLVES]->(c)"""
-            graph.query(
-                query_str,
-                {
-                    "char_id": char_id,
-                    "char": char,
-                    "stage": unit["stage"],
-                    "storyline": unit["storyline"],
-                },
-            )
-
+        # StoryScript 노드, 속성: content
+        ss_num = 0
         for script in unit["story_scripts"]:
-            query_0, properties = extract_script_key(script)
-            query = (
-                "MERGE (s:StoryScript {"
-                + query_0
-                + "})\n"
-                + "MERGE (u: Unit {stage: $stage, storyline: $storyline})\n"
-                + "MERGE (u)-[:HAS_SCRIPT]->(s)"
+            ss_num += 1
+            ss_id = f"u{unit_num}.ss{ss_num}.{title}"
+            query = """
+            MERGE (s:StoryScript {id: $ss_id, content: $content})
+            MERGE (u:Unit {id: $unit_id})
+            MERGE (u)-[:INCLUDES]->(s)"""
+            graph.query(
+                query,
+                {"ss_id": ss_id, "content": script["content"], "unit_id": unit_id},
             )
-            properties["stage"] = unit["stage"]
-            properties["storyline"] = unit["storyline"]
 
-            graph.query(query, properties)
-
-            for char in script["character"]:
-                char_id = char + "_" + doc["title"]
-                graph.query(
+            # Act 노드 (있으면), 관계 생성
+            if "act" in script.keys():
+                act_list = script["act"].split("/")
+                for act in act_list:
+                    act_query = """
+                    MERGE (a:Act {act: $act})
+                    MERGE (s:StoryScript {id: $ss_id})
+                    MERGE (s)-[:PERFORMS]->(a)
                     """
-                            MERGE (c:Character {id: $char_id})
-                            MERGE (s:StoryScript {content: $content})
-                            MERGE (s)-[:PERFORMED_BY]->(c)""",
-                    {"char_id": char_id, "content": script["content"]},
-                )
+                    graph.query(act_query, {"act": act, "ss_id": ss_id})
+            # emotion 노드 (있으면), 관계 생성
+            if "emotion" in script.keys():
+                emo_list = script["emotion"].split("/")
+                for em in emo_list:
+                    em_query = """
+                    MERGE (e:Emotion {emotion: $emotion})
+                    MERGE (s:StoryScript {id: $ss_id})
+                    MERGE (s)-[:FEELS]->(e)"""
+                    graph.query(em_query, {"emotion": em, "ss_id": ss_id})
+
+
+def make_db(files=json_list, graph=graph):
+    # DB에 있던 파일 모두 삭제.
+    graph.query("MATCH (n) DETACH DELETE n")
+
+    for work in json_list:
+        create_work_node(graph, work)
+
+    # index 만들기
+    index_query = """
+CREATE VECTOR INDEX storylineVector
+IF NOT EXISTS
+FOR (u:Unit) ON (u.storylineEmbedding)
+OPTIONS {indexConfig: {
+    `vector.dimensions`:1536,
+    `vector.similarity_function`: 'cosine'
+    }};"""
+    graph.query(index_query)
+
+
+if __name__ == "__main__":
+    execute = input("그래프DB의 데이터를 모두 삭제하고 다시 만듭니다.(y/n)> ")
+    if execute.lower() == "y":
+        make_db()
