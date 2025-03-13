@@ -1,8 +1,8 @@
 # Retriever를 만들기 위한 임시 DB Maker.
-# 주의: 실행하면 기존 그래프DB에 있는 파일 모두 삭제. #
+# 주의: 실행하면 기존 그래프DB에 있는 데이터 모두 삭제. #
 
 from uuid import uuid4
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_neo4j import Neo4jGraph
 import os
 import random  # 임의의 10개 파일을 가지고 테스트 하기 위함.
@@ -11,26 +11,29 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# 데이터 경로에 맞게 수정.
-JSON_PATH = "./data/stored_data/"
 
-# 파일 목록 읽어오기
-items = os.listdir(JSON_PATH)
+def make_json_list(sampling=True):
+    # 데이터 경로에 맞게 수정.
+    JSON_PATH = "./data/stored_data/"
 
-# 파일만 필터링
-files = [f for f in items if os.path.isfile(os.path.join(JSON_PATH, f))]
+    # 파일 목록 읽어오기
+    items = os.listdir(JSON_PATH)
 
-# 10개 고르기
-files = random.sample(files, 10)
+    # 파일만 필터링
+    files = [f for f in items if os.path.isfile(os.path.join(JSON_PATH, f))]
 
-# JSON 파일 읽어오기
+    # sample 10개 고르기.
+    if sampling:
+        files = random.sample(files, 10)
 
-json_list = []
+    json_list = []
 
-for file in files:
-    file_path = JSON_PATH + file
-    with open(file_path, "r", encoding="utf-8") as f:
-        json_list.append(json.load(f))
+    for file in files:
+        file_path = JSON_PATH + file
+        with open(file_path, "r", encoding="utf-8") as f:
+            json_list.append(json.load(f))
+
+    return json_list
 
 
 graph = Neo4jGraph(
@@ -120,11 +123,13 @@ def create_work_node(graph, work):
                     graph.query(em_query, {"emotion": em, "ss_id": ss_id})
 
 
-def make_db(files=json_list, graph=graph):
+def make_db(graph=graph):
     # DB에 있던 파일 모두 삭제.
     graph.query("MATCH (n) DETACH DELETE n")
 
-    for work in json_list:
+    files = make_json_list(sampling=True)
+
+    for work in files:
         create_work_node(graph, work)
 
     # index 만들기
