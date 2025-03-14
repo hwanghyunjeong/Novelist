@@ -228,15 +228,15 @@ def extract_entities_and_relationships(
     user_input: str, schema: str = ""
 ) -> Dict[str, Any]:
     """
-    사용자 입력에서 엔티티와 관계를 추출합니다.
+    Extract entity and relationship from user_input :
 
     Args:
-        user_input: 사용자 입력 텍스트.
-        schema: 데이터베이스 스키마 정보 (선택적).
+        user_input: text what user write
+        schema: information of user database (optional)
 
     Returns:
-        추출된 엔티티와 관계를 담은 딕셔너리.
-        예: {"nodes": [...], "relationships": [...]}
+        The dictionary what contained entities and relationships.
+        example : {"nodes": [...], "relationships": [...]}
     """
     if not user_input or not isinstance(user_input, str):
         raise ValueError("유효한 사용자 입력이 필요합니다.")
