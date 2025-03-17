@@ -6,223 +6,141 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import os
 from db_interface import DBInterface
+import json
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
-def clear_database(tx):
-    """Neo4j 데이터베이스를 초기화합니다."""
-    tx.run("MATCH (n) DETACH DELETE n")
+def clear_database(db_manager: DBInterface) -> None:
+    """데이터베이스의 모든 노드와 관계를 삭제합니다."""
+    query = """
+    MATCH (n)
+    DETACH DELETE n
+    """
+    db_manager.query(query, {})
 
 
-def load_json_data(file_path: str):
-    """JSON 파일로부터 데이터를 로드합니다."""
-    import json
-
-    with open(file_path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def create_character_node(tx, character: dict):
-    """Character 노드를 생성합니다."""
-    tx.run(
-        """
-        MERGE (c:Character {id: $id})
-        SET c += $properties
-        """,
-        id=character["id"],
-        properties={k: v for k, v in character.items() if k != "id"},
-    )
-    # Character의 위치 정보 처리
-    if "position" in character:
-        position = character["position"]
-        location_id = (
-            f"characterLocation:{position['map']}-{position['x']}-{position['y']}"
-        )
-        tx.run(
-            """
-            MERGE (l:CharacterLocation {id: $location_id})
-            SET l.map = $map, l.x = $x, l.y = $y
-            """,
-            location_id=location_id,
-            map=position["map"],
-            x=position["x"],
-            y=position["y"],
-        )
-        tx.run(
-            """
-            MATCH (c:Character {id: $character_id}), (l:CharacterLocation {id: $location_id})
-            MERGE (c)-[:LOCATED_IN]->(l)
-            """,
-            character_id=character["id"],
-            location_id=location_id,
-        )
+def load_json_data(file_path: str) -> List[Dict[str, Any]]:
+    """JSON 파일에서 데이터를 로드합니다."""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"JSON 파일 로드 중 오류 발생: {e}")
+        return []
 
 
-def create_map_node(tx, map_data: dict):
-    """Map 노드를 생성하고 Location 노드와 연결합니다."""
-    tx.run(
-        """
-        MERGE (m:Map {id: $id})
-        SET m += $properties
-        """,
-        id=map_data["id"],
-        properties={
-            k: v
-            for k, v in map_data.items()
-            if k not in ["id", "characterLocations", "locations"]
-        },
-    )
-    tx.run(
-        """
-        MATCH (m:Map {id: $id})
-        SET m.map_data = $map_data, m.context = $context
-        """,
-        id=map_data["id"],
-        map_data=map_data["map_data"],
-        context=map_data["context"],
-    )
-
-    if "characterLocations" in map_data:
-        for location in map_data["characterLocations"]:
-            location_id = (
-                f"characterLocation:{map_data['id']}-{location['x']}-{location['y']}"
-            )
-            tx.run(
-                """
-            MERGE (l:CharacterLocation {id: $location_id})
-            SET l.x = $x, l.y = $y, l.map = $map_id
-            """,
-                location_id=location_id,
-                x=location["x"],
-                y=location["y"],
-                map_id=map_data["id"],
-            )
-            tx.run(
-                """
-          MATCH (m:Map {id:$map_id}), (l:CharacterLocation {id:$location_id})
-          MERGE (m)-[:CONTAINS]->(l)
-          """,
-                map_id=map_data["id"],
-                location_id=location_id,
-            )
-    if "locations" in map_data:
-        for location in map_data["locations"]:
-            create_location_node(tx, map_data["id"], location)
+def create_character_node(
+    db_manager: DBInterface, character_data: Dict[str, Any]
+) -> None:
+    """캐릭터 노드를 생성합니다."""
+    query = """
+    CREATE (c:Character)
+    SET c += $properties
+    """
+    db_manager.query(query, {"properties": character_data})
 
 
-def create_location_node(tx, map_id: str, location_data: dict):
-    """위치 노드 생성"""
-    tx.run(
-        """
-        CREATE (l:Location {id: $id, x: $x, y: $y, type: $type, destination: $destination})
-        """,
-        id=location_data["id"],
-        x=location_data["x"],
-        y=location_data["y"],
-        type=location_data["type"],
-        destination=location_data["destination"],
-    )
-    tx.run(
-        """
-        MATCH (m:Map {id: $map_id})
-        MATCH (l:Location {id: $location_id})
-        CREATE (m)-[:HAS_LOCATION]->(l)
-        """,
-        map_id=map_id,
-        location_id=location_data["id"],
-    )
+def flatten_properties(data: Dict[str, Any]) -> Dict[str, Any]:
+    """중첩된 맵 구조를 평탄화하거나 JSON 문자열로 변환합니다."""
+    flattened = {}
+    for key, value in data.items():
+        if isinstance(value, dict):
+            # 중첩된 딕셔너리는 JSON 문자열로 변환
+            flattened[key] = json.dumps(value)
+        elif isinstance(value, list):
+            # 리스트 내의 딕셔너리도 JSON 문자열로 변환
+            if any(isinstance(item, dict) for item in value):
+                flattened[key] = json.dumps(value)
+            else:
+                flattened[key] = value
+        else:
+            flattened[key] = value
+    return flattened
 
 
-def create_scene_node(tx, scene):
-    """Scene 노드를 생성합니다."""
-    if not isinstance(scene, dict):
-        print(
-            f"create_scene_node got wrong parameter type:{type(scene)}, content: {scene}"
-        )
-        return  # 딕셔너리가 아니면 바로 종료
-    tx.run(
-        """
-        MERGE (s:Scene {id: $id})
-        SET s += $properties
-        """,
-        id=scene["id"],
-        properties={
-            k: v
-            for k, v in scene.items()
-            if k not in ["id", "scene_beats", "map", "context"]
-        },
-    )
-    tx.run(
-        """
-        MATCH (s:Scene {id: $id})
-        SET s.context = $context
-        """,
-        id=scene["id"],
-        context=scene["context"],
-    )
+def create_map_node(db_manager: DBInterface, map_data: Dict[str, Any]) -> None:
+    """맵 노드를 생성합니다."""
+    query = """
+    CREATE (m:Map)
+    SET m += $properties
+    """
+    # 속성을 평탄화하여 저장
+    flattened_properties = flatten_properties(map_data)
+    db_manager.query(query, {"properties": flattened_properties})
 
 
-def create_scene_beat_node(tx, scene_beat: dict):
-    """SceneBeat 노드를 생성합니다."""
-    tx.run(
-        """
-        MERGE (sb:SceneBeat {id: $id})
-        SET sb += $properties
-        """,
-        id=scene_beat["id"],
-        properties={k: v for k, v in scene_beat.items() if k != "id"},
-    )
+def create_scene_node(db_manager: DBInterface, scene_data: Dict[str, Any]) -> None:
+    """씬 노드를 생성합니다."""
+    query = """
+    CREATE (s:Scene)
+    SET s += $properties
+    """
+    # scene_beats를 제외한 나머지 속성을 평탄화
+    properties = {k: v for k, v in scene_data.items() if k != "scene_beats"}
+    flattened_properties = flatten_properties(properties)
+    db_manager.query(query, {"properties": flattened_properties})
+
+
+def create_scene_beat_node(
+    db_manager: DBInterface, scene_beat_data: Dict[str, Any]
+) -> None:
+    """씬 비트 노드를 생성합니다."""
+    query = """
+    CREATE (sb:SceneBeat)
+    SET sb += $properties
+    """
+    properties = {k: v for k, v in scene_beat_data.items() if k != "next_scene_beats"}
+    flattened_properties = flatten_properties(properties)
+    db_manager.query(query, {"properties": flattened_properties})
 
 
 def create_relationship(
-    tx,
-    start_node_id: str,
-    end_node_id: str,
-    relationship_type: str,
-    relationship_properties: dict = None,
-):
-    """Neo4j에서는 관계 타입을 파라미터로 전달할 수 없음.
-    아래 주석된 코드에서와 같이 MERGE (n1)-[r:$relationship_type]->(n2)
-    라고 작성하면 Cypher 파서가 $relationship_type을 올바른 관계 타입으로 인식 못해 문법 오류 발생.
-    """
+    db_manager: DBInterface, from_id: str, to_id: str, rel_type: str
+) -> None:
+    """두 노드 간의 관계를 생성합니다."""
     query = f"""
-        MATCH (n1 {{id: $start_node_id}}), (n2 {{id: $end_node_id}})
-        MERGE (n1)-[r:{relationship_type}]->(n2)
+    MATCH (a), (b)
+    WHERE a.id = $from_id AND b.id = $to_id
+    CREATE (a)-[r:{rel_type}]->(b)
     """
-    params = {
-        "start_node_id": start_node_id,
-        "end_node_id": end_node_id,
-    }
-    if relationship_properties:
-        query += " SET r += $relationship_properties"
-        params["relationship_properties"] = relationship_properties
-    tx.run(query, **params)
+    db_manager.query(query, {"from_id": from_id, "to_id": to_id})
 
 
-# def create_relationship(
-#     tx,
-#     start_node_id: str,
-#     end_node_id: str,
-#     relationship_type: str,
-#     relationship_properties: dict = None,
-# ):
-#     """두 노드 간의 관계를 생성합니다."""
-#     query = """
-#         MATCH (n1 {id: $start_node_id}), (n2 {id: $end_node_id})
-#         MERGE (n1)-[r:$relationship_type]->(n2)
-#     """
-#     params = {
-#         "start_node_id": start_node_id,
-#         "end_node_id": end_node_id,
-#         "relationship_type": relationship_type,
-#     }
-#     if relationship_properties:
-#         query += """
-#             SET r += $relationship_properties
-#         """
-#         params["relationship_properties"] = relationship_properties
-#     tx.run(query, **params)
+def create_location_node(
+    db_manager: DBInterface, map_id: str, location_data: dict
+) -> None:
+    """위치 노드를 생성하고 맵과의 관계를 설정합니다.
+
+    Args:
+        db_manager: 데이터베이스 매니저 인터페이스
+        map_id: 맵 ID
+        location_data: 위치 데이터 딕셔너리
+    """
+    # 위치 노드 생성
+    create_query = """
+    CREATE (l:Location {id: $id, x: $x, y: $y, type: $type, destination: $destination})
+    """
+    db_manager.query(
+        create_query,
+        {
+            "id": location_data["id"],
+            "x": location_data["x"],
+            "y": location_data["y"],
+            "type": location_data["type"],
+            "destination": location_data["destination"],
+        },
+    )
+
+    # 맵과 위치 노드 간의 관계 생성
+    relate_query = """
+    MATCH (m:Map {id: $map_id})
+    MATCH (l:Location {id: $location_id})
+    CREATE (m)-[:HAS_LOCATION]->(l)
+    """
+    db_manager.query(
+        relate_query, {"map_id": map_id, "location_id": location_data["id"]}
+    )
 
 
 def extract_entities_and_relationships(
@@ -363,3 +281,25 @@ def _upsert_relationship(
     neo4j_graph.query(
         query, {"from_id": from_id, "to_id": to_id, "rel_properties": rel_properties}
     )
+
+
+def get_map_data(db_manager: DBInterface, map_id: str) -> Dict[str, Any]:
+    query = """
+    MATCH (m:Map {id: $map_id})
+    RETURN m
+    """
+    result = db_manager.query(query, {"map_id": map_id})
+    if result:
+        node_data = result[0]["m"]
+        # JSON 문자열로 저장된 속성을 다시 파싱
+        parsed_data = {}
+        for key, value in node_data.items():
+            if isinstance(value, str) and value.startswith("{"):
+                try:
+                    parsed_data[key] = json.loads(value)
+                except json.JSONDecodeError:
+                    parsed_data[key] = value
+            else:
+                parsed_data[key] = value
+        return parsed_data
+    return None
