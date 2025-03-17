@@ -1,10 +1,11 @@
 # db_utils.py
 from neo4j import GraphDatabase
-from typing import Dict, Any
+from typing import Dict, Any, List
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import os
+from db_interface import DBInterface
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -316,39 +317,49 @@ def update_graph_from_er(driver, er_data: Dict[str, Any]):
         raise Exception(f"그래프 업데이트 중 오류 발생: {e}")
 
 
-def _upsert_node(tx, node: dict):
+def _upsert_node(neo4j_graph, label: str, node_properties: Dict[str, Any]) -> None:
+    """노드를 생성하거나 업데이트합니다.
+
+    Args:
+        neo4j_graph: Neo4j 그래프 객체
+        label: 노드 레이블
+        node_properties: 노드 속성
     """
-    트랜잭션 내에서 노드를 생성하거나 업데이트합니다.
+    query = f"""
+    MERGE (n:{label} {{id: $properties.id}})
+    SET n += $properties
     """
-    label = node.get("label", "Entity")
-    try:
-        tx.run(
-            f"""
-            MERGE (n:{label} {{id: $id}})
-            SET n += $properties
-            """,
-            id=node["id"],
-            properties=node.get("properties", {}),
-        )
-    except Exception as e:
-        raise Exception(f"노드 업데이트 중 오류 발생: {e}, node_id: {node['id']}")
+    neo4j_graph.query(query, {"properties": node_properties})
 
 
-def _upsert_relationship(tx, rel: dict):
+def _upsert_relationship(
+    neo4j_graph,
+    from_label: str,
+    from_id: str,
+    rel_type: str,
+    to_label: str,
+    to_id: str,
+    rel_properties: Dict[str, Any] = None,
+) -> None:
+    """두 노드 간 관계를 생성하거나 업데이트합니다.
+
+    Args:
+        neo4j_graph: Neo4j 그래프 객체
+        from_label: 시작 노드 레이블
+        from_id: 시작 노드 ID
+        rel_type: 관계 유형
+        to_label: 끝 노드 레이블
+        to_id: 끝 노드 ID
+        rel_properties: 관계 속성 (기본값: None)
     """
-    트랜잭션 내에서 관계를 생성하거나 업데이트합니다.
+    if rel_properties is None:
+        rel_properties = {}
+
+    query = f"""
+    MATCH (a:{from_label} {{id: $from_id}}), (b:{to_label} {{id: $to_id}})
+    MERGE (a)-[r:{rel_type}]->(b)
+    SET r += $rel_properties
     """
-    rel_type = rel["type"]
-    try:
-        tx.run(
-            f"""
-            MATCH (a {{id: $start_id}}), (b {{id: $end_id}})
-            MERGE (a)-[r:{rel_type}]->(b)
-            SET r += $properties
-            """,
-            start_id=rel["start_node_id"],
-            end_id=rel["end_node_id"],
-            properties=rel.get("properties", {}),
-        )
-    except Exception as e:
-        raise Exception(f"관계 업데이트 중 오류 발생: {e}, rel_type: {rel_type}")
+    neo4j_graph.query(
+        query, {"from_id": from_id, "to_id": to_id, "rel_properties": rel_properties}
+    )

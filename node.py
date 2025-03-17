@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from states import PlayerState
 from character import Character
 from neo4j import GraphDatabase
-from db import DBManager  # st.session_state db_manager
+from db_interface import DBInterface  # DBManager 대신 DBInterface 사용
 
 
 class BaseNode(ABC):
@@ -146,3 +146,8 @@ class CreatePlayerAndCharacterNodes(BaseNode):
         SET r += $props
         """
         tx.run(query, player_id=player_id, char_id=char_id, props=properties)
+
+
+class Node:
+    def __init__(self, db_interface: DBInterface = None):
+        self.db_interface = db_interface

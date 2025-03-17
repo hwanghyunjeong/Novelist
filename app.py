@@ -4,12 +4,14 @@ import config
 import uuid
 from state_graph import create_state_graph
 from story_chain import create_story_chain, create_map_analyst
-from db import DBManager, DBStateInjector
+from db_interface import DBInterface
+from db_factory import get_db_manager
+from db_state_injector import DBStateInjector
 from db_utils import extract_entities_and_relationships, update_graph_from_er
 from states import PlayerState, player_state_to_dict
 import json
 from neo4j import GraphDatabase
-from typing import List, Dict
+from typing import List, Dict, Any, Optional
 import os
 from langgraph.graph import StateGraph, END
 from node import (
@@ -21,6 +23,12 @@ from node import (
     MakeStoryNode,
     RouteMovingNode,
 )
+from abc import ABC, abstractmethod
+from langchain_neo4j import Neo4jGraph
+from db_interface import DBInterface
+from db_manager import LangchainNeo4jDBManager
+from db_state_injector import DBStateInjector
+from db_factory import get_db_manager
 
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
@@ -75,100 +83,84 @@ def load_initial_state() -> PlayerState:
 game_state = load_initial_state()  # 초기 게임 상태 로드
 
 
-def get_next_scene_beat(
-    db_client: GraphDatabase, current_scene_beat_id: str, choice: str = ""
-) -> str:
-    """
-    현재 씬 비트 ID에서 다음 씬 비트 ID를 가져옵니다.
-    현재 씬에 여러 개의 다음 ID가 있는 경우, 선택에 따라 반환합니다.
-    """
+def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "") -> str:
+    """현재 씬 비트 ID에서 다음 씬 비트 ID를 가져옵니다."""
     try:
-        with db_client.session() as session:
-            if choice == "":
-                result = session.run(
-                    """
-                    MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
-                    RETURN next_sb.id AS next_scene_beat_id
-                    """,
-                    current_scene_beat_id=current_scene_beat_id,
-                )
-            else:
-                result = session.run(
-                    """
-                    MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
-                    WHERE $choice in next_sb.id
-                    RETURN next_sb.id AS next_scene_beat_id
-                    """,
-                    current_scene_beat_id=current_scene_beat_id,
-                    choice=choice,
-                )
-            next_scene_beats = [record["next_scene_beat_id"] for record in result]
+        if choice == "":
+            query = """
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
+            RETURN next_sb.id AS next_scene_beat_id
+            """
+        else:
+            query = """
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
+            WHERE $choice in next_sb.id
+            RETURN next_sb.id AS next_scene_beat_id
+            """
 
-            if not next_scene_beats:
-                raise ValueError(
-                    f"No next scene beat found for {current_scene_beat_id}"
-                )
+        result = db_client.query(
+            query, {"current_scene_beat_id": current_scene_beat_id, "choice": choice}
+        )
 
-            return next_scene_beats[0]
+        if not result:
+            raise ValueError(f"No next scene beat found for {current_scene_beat_id}")
+
+        return result[0]["next_scene_beat_id"]
     except Exception as e:
         print(f"Error during scene transition: {e}")
         return None
 
 
-def get_scene_map_id(db_client: GraphDatabase, scene_id: str) -> str:
+def get_scene_map_id(db_client, scene_id: str) -> str:
     """주어진 씬 ID와 연결된 맵 ID를 가져옵니다."""
     try:
-        with db_client.session() as session:
-            result = session.run(
-                """
-                MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
-                RETURN m.id AS map_id
-                """,
-                scene_id=scene_id,
-            )
-            map_ids = [record["map_id"] for record in result]
-            if not map_ids:
-                raise ValueError(f"No map found for scene {scene_id}")
-            return map_ids[0]
+        query = """
+        MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
+        RETURN m.id AS map_id
+        """
+        result = db_client.query(query, {"scene_id": scene_id})
+
+        if not result:
+            raise ValueError(f"No map found for scene {scene_id}")
+
+        return result[0]["map_id"]
     except Exception as e:
         print(f"Error during getting map_id: {e}")
         return None
 
 
-def is_choice_scene(db_client: GraphDatabase, scene_beat_id: str) -> bool:
+def is_choice_scene(db_client, scene_beat_id: str) -> bool:
     """씬 비트가 선택 씬인지 확인합니다."""
     try:
-        with db_client.session() as session:
-            result = session.run(
-                """
-                MATCH (sb:SceneBeat {id:$scene_beat_id})
-                RETURN sb.next_scene_beat_id as next_ids
-                """,
-                scene_beat_id=scene_beat_id,
-            )
-            next_ids = [record["next_ids"] for record in result]
-            if len(next_ids[0]) > 1:
-                return True
-            else:
-                return False
+        query = """
+        MATCH (sb:SceneBeat {id:$scene_beat_id})
+        RETURN sb.next_scene_beat_id as next_ids
+        """
+        result = db_client.query(query, {"scene_beat_id": scene_beat_id})
+
+        if not result:
+            return False
+
+        next_ids = result[0]["next_ids"]
+        return len(next_ids) > 1
     except Exception as e:
         print(f"Error during check choice scene: {e}")
         return False
 
 
-def get_available_actions(db_client: GraphDatabase, scene_id: str) -> List[str]:
+def get_available_actions(db_client, scene_id: str) -> List[str]:
     """현재 씬에서 가능한 행동들을 가져옵니다."""
     try:
-        with db_client.session() as session:
-            result = session.run(
-                """
-                MATCH (s:Scene {id: $scene_id})
-                RETURN s.available_actions AS available_actions
-                """,
-                scene_id=scene_id,
-            )
-            available_actions = [record["available_actions"] for record in result]
-            return available_actions[0]
+        query = """
+        MATCH (s:Scene {id: $scene_id})
+        RETURN s.available_actions AS available_actions
+        """
+        result = db_client.query(query, {"scene_id": scene_id})
+
+        if not result:
+            return []
+
+        return result[0]["available_actions"]
     except Exception as e:
         print(f"Error during get available action : {e}")
         return []
@@ -222,9 +214,6 @@ def scene_transition_node(data):
 
         if not next_scene_beat:
             print(f"No valid next scene beat. scene_beat: {next_scene_beat}")
-            # return data # 이전 scene_beat를 반환하던 것을, 변경된 scene_beat가 없다면, 종료하도록 합니다.
-            #  if new_state.get("scene_beat") == None: 조건에서 True가 되어 "더 이상 진행할 이야기가 없습니다" 메시지를 출력하고 게임을 정상적으로 종료
-            # 무한루프 방지
             return data.update({"scene_beat": None})
 
         data["scene_beat"] = next_scene_beat
@@ -246,8 +235,6 @@ def scene_transition_node(data):
     return data
 
 
-# 유효하지 않은 액션이라도 일단 반응하도록 처리
-# 결과가 같다면 어쨌든 넘어갈 수 있게 처리해야함 (임베딩)
 def check_valid_action(data):
     current_scene_id = data.get("scene")
     db_client = data.get("db_client")
@@ -264,53 +251,33 @@ def check_valid_action(data):
     return data
 
 
-# def check_valid_action(data):
-#     """사용자 입력이 유효한 행동인지 확인합니다."""
-#     user_input = data.get("user_input")
-#     current_scene_id = data.get("scene")
-#     db_client = data.get("db_client")
-#     available_actions = get_available_actions(db_client, current_scene_id)
-#     data["available_actions"] = available_actions
-#     is_valid_input = check_action_in_available_actions(user_input, available_actions)
-#     if is_valid_input:
-#         return "continue"
-#     else:
-#         return "invalid_input"
-
-
-def get_player_data(db_client: GraphDatabase) -> Dict:
+def get_player_data(db_client) -> Dict:
     """Neo4j에서 플레이어 데이터를 가져옵니다."""
     try:
-        with db_client.session() as session:
-            result = session.run(
-                """
-                MATCH (p:Player {id: "character:Player"})
-                RETURN p.name AS name, p.sex AS sex
-                """
-            )
-            record = result.single()
-            if record:
-                return {"name": record["name"], "sex": record["sex"]}
-            else:
-                return None
+        query = """
+        MATCH (p:Player {id: "character:Player"})
+        RETURN p.name AS name, p.sex AS sex
+        """
+        result = db_client.query(query)
+
+        if not result:
+            return None
+
+        return {"name": result[0]["name"], "sex": result[0]["sex"]}
     except Exception as e:
         st.error(f"플레이어 데이터를 가져오는 중 오류 발생: {e}")
         return None
 
 
-def create_player_in_db(db_client: GraphDatabase, player_data: Dict):
+def create_player_in_db(db_client, player_data: Dict):
     """Neo4j에 플레이어 데이터를 생성합니다."""
     try:
-        with db_client.session() as session:
-            session.run(
-                """
-                MERGE (p:Player {id: "character:Player"})
-                ON CREATE SET p.name = $name, p.sex = $sex
-                """,
-                name=player_data["name"],
-                sex=player_data["sex"],
-            )
-            st.success("플레이어 정보가 Neo4j에 저장되었습니다.")
+        query = """
+        MERGE (p:Player {id: "character:Player"})
+        ON CREATE SET p.name = $name, p.sex = $sex
+        """
+        db_client.query(query, {"name": player_data["name"], "sex": player_data["sex"]})
+        st.success("플레이어 정보가 Neo4j에 저장되었습니다.")
     except Exception as e:
         st.error(f"플레이어 데이터 생성 중 오류 발생: {e}")
 
@@ -368,23 +335,29 @@ def main():
     # 세션 및 초기 상태 로드 (전역 game_state를 session_state에 저장)
     if "game_state" not in st.session_state:
         st.session_state["game_state"] = game_state  # 전역 game_state 사용
-    # 로컬 변수 current_state에 할당하여 사용 (전역 변수 재할당을 피함)
     current_state = st.session_state["game_state"]
 
-    @st.cache_resource
-    def get_db_manager():
-        return DBManager(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
-
+    # 데이터베이스 매니저 초기화
     if "db_manager" not in st.session_state:
         try:
-            st.session_state["db_manager"] = get_db_manager()
-            print("DB 연결 성공:", st.session_state["db_manager"].driver)
+            # 환경 변수나 설정에서 manager_type을 가져올 수 있음
+            manager_type = os.getenv("DB_MANAGER_TYPE", "langchain")
+            st.session_state["db_manager"] = get_db_manager(
+                manager_type=manager_type,
+                database=config.NEO4J_DATABASE,
+                refresh_schema=True,
+            )
+            print(f"DB 연결 성공: {type(st.session_state['db_manager']).__name__}")
         except Exception as e:
             st.error(f"데이터베이스 연결에 실패했습니다: {e}")
             st.stop()
-    # state를 불러온 직후 DBStateInjector를 사용하여 db_client 재주입
-    injector = DBStateInjector(st.session_state["db_manager"])
-    current_state = injector.inject(current_state)
+
+    # 상태 로드 및 주입
+    if "state" not in st.session_state:
+        injector = DBStateInjector(st.session_state["db_manager"])
+        state = {}  # 초기 상태
+        state = injector.inject(state)
+        st.session_state["state"] = state
 
     if "session_id" not in st.session_state:
         st.session_state["session_id"] = str(uuid.uuid4())
@@ -400,7 +373,11 @@ def main():
         st.write("이야기가 아직 시작되지 않았습니다.")
 
     # db_manager로부터 db_client 주입 (저장하지 않고 필요할 때만 사용)
-    db_client = st.session_state["db_manager"].driver
+    db_client = (
+        st.session_state["db_manager"].neo4j_graph
+        if hasattr(st.session_state["db_manager"], "neo4j_graph")
+        else st.session_state["db_manager"].driver
+    )
     available_actions = get_available_actions(db_client, current_state["scene"])
     st.write(
         "사용 가능한 행동: " + ", ".join(available_actions)
@@ -456,7 +433,6 @@ def main():
             except Exception as e:
                 st.error(f"게임 진행 중 오류가 발생했습니다: {e}")
                 st.stop()
-            # 실행 후 db_client는 저장 대상에서 제외 (직렬화 문제 회피를 위함)
             new_state.pop("db_client", None)
             if "session_id" not in new_state:
                 new_state["session_id"] = current_state.get("session_id")
@@ -465,9 +441,6 @@ def main():
             st.write(new_state.get("extracted_data", {}))
             st.write("생성된 이야기:")
             st.write(new_state.get("generation", ""))
-            # scene_transition_node에서 다음 scene_beat를 찾을 수 없는 경우,
-            # 이전 scene_beat를 유지하며 계속 진행하는 것으로 여겨져 무한루프였음.
-            # old_scene_beat의 값은 이전 scene_beat의 id이기 때문
             if new_state.get("scene_beat") == None:
                 st.info("더 이상 진행할 이야기가 없습니다. 게임이 종료되었습니다.")
             elif new_state.get("scene_beat") == old_scene_beat:

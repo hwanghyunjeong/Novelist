@@ -1,5 +1,8 @@
 # db_init.py
+from db_factory import get_db_manager
+import config
 import os
+from dotenv import load_dotenv
 from db import DBManager, config
 from db_utils import (
     load_json_data,
@@ -65,12 +68,53 @@ def initialize_scene_data(tx, scenes):
         print(f"Error initializing scene data: {e}")
 
 
-if __name__ == "__main__":
-    db_manager = DBManager(config.NEO4J_URI, config.NEO4J_USER, config.NEO4J_PASSWORD)
+def init_database():
+    """데이터베이스 초기화 및 기본 데이터 생성"""
+    # 환경변수 로드
+    load_dotenv()
+
     try:
-        with db_manager.driver.session() as session:
-            session.execute_write(initialize_db)  # 트랜잭션은 여기서 관리됨
+        # DB 매니저 생성
+        db_manager = get_db_manager(
+            manager_type="langchain",
+            uri=config.NEO4J_URI,
+            user=config.NEO4J_USER,
+            password=config.NEO4J_PASSWORD,
+            database=config.NEO4J_DATABASE,
+        )
+
+        # 기존 데이터 삭제 (필요한 경우)
+        cleanup_query = """
+        MATCH (n)
+        DETACH DELETE n
+        """
+        db_manager.query(cleanup_query, {})
+
+        # 초기 데이터 생성
+        init_queries = [
+            # 여기에 초기화 쿼리들을 넣습니다
+            """
+            CREATE (s:Scene {
+                id: 'scene:00_Pangyo_Station',
+                name: '판교역',
+                description: '판교역 대합실'
+            })
+            """,
+            # ... 추가 쿼리들
+        ]
+
+        for query in init_queries:
+            db_manager.query(query, {})
+
+        print("데이터베이스 초기화가 완료되었습니다.")
+
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"데이터베이스 초기화 중 오류 발생: {e}")
+        raise
     finally:
-        db_manager.close()
+        if db_manager:
+            db_manager.close()
+
+
+if __name__ == "__main__":
+    init_database()

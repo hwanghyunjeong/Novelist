@@ -2,32 +2,46 @@
 import os
 from dotenv import load_dotenv
 
-# .env 파일 체크 및 로드 (중복호출 방지)
-env_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
-if os.path.exists(env_file_path):
-    load_dotenv(dotenv_path=env_file_path)
-    print("환경변수가 로드되었습니다.")
-else:
-    loaded = load_dotenv()
-    if loaded:
-        print("환경변수가 로드됨")
-    else:
-        print("환경변수가 존재하지 않습니다.")
+# .env 파일 로드
+load_dotenv()
 
-# 환경 변수 설정
+# 환경변수에서 값을 가져오거나, 기본값 사용
+NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", "neo4j")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-NEO4J_URI = os.getenv("NEO4J_URI")
-NEO4J_USER = os.getenv("NEO4J_USER")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+
+
+# 환경변수 검증
+def validate_config():
+    """환경변수가 올바르게 설정되었는지 확인"""
+    required_vars = {
+        "NEO4J_URI": NEO4J_URI,
+        "NEO4J_USER": NEO4J_USER,
+        "NEO4J_PASSWORD": NEO4J_PASSWORD,
+        "NEO4J_DATABASE": NEO4J_DATABASE,
+    }
+
+    missing_vars = [
+        var for var, value in required_vars.items() if not value or value == "password"
+    ]
+
+    if missing_vars:
+        raise ValueError(
+            f"Missing required environment variables: {', '.join(missing_vars)}"
+        )
+
+
+# 설정 검증 실행
+validate_config()
+
 
 # 필수 환경 변수 체크
 required_keys = [
     "OPENAI_API_KEY",
     "GOOGLE_API_KEY",
-    "NEO4J_URI",
-    "NEO4J_USER",
-    "NEO4J_PASSWORD",
 ]
 for key in required_keys:
     if not os.getenv(key):

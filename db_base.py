@@ -1,8 +1,8 @@
 from neo4j import GraphDatabase
-from states import player_state_to_dict
-from typing import Dict
-import config
 import json
+from typing import Dict, Any
+from db_interface import DBInterface
+from states import player_state_to_dict
 
 
 class LegacyDBManager(DBInterface):
