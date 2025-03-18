@@ -490,18 +490,39 @@ def save_game_state() -> None:
 
 def handle_user_input():
     """사용자 입력을 처리합니다."""
+    if "previous_input" not in st.session_state:
+        st.session_state.previous_input = ""
+
     user_input = st.text_input("무엇을 하시겠습니까?")
-    if user_input:
+
+    if user_input and user_input != st.session_state.previous_input:
+        st.session_state.previous_input = user_input
+
         available_actions = st.session_state.state.get("available_actions", [])
         matched_action = st.session_state.action_matcher.find_best_action(
             user_input, available_actions
         )
 
         if matched_action:
+            st.session_state.matched_action = matched_action
             update_game_state(matched_action)
             st.success(f"선택한 행동: {matched_action}")
         else:
-            st.warning("유효하지 않은 행동입니다. 다시 시도해주세요.")
+            # TypedDict는 딕셔너리로 직접 처리
+            current_state = st.session_state.state.copy()
+            current_state["action_result"] = "invalid_input"
+            current_state["user_input"] = user_input
+
+            # workflow를 통한 처리
+            result = app(current_state)  # TypedDict는 딕셔너리를 직접 전달
+
+            if isinstance(result, dict):  # TypedDict도 dict의 일종
+                st.markdown("---")
+                st.markdown(result.get("generation", ""))
+                st.markdown("---")
+                st.session_state.state = result
+            else:
+                st.error("상태 업데이트 중 오류가 발생했습니다.")
 
 
 def main():
