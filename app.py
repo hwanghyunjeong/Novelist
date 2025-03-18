@@ -493,15 +493,15 @@ def save_game_state() -> None:
         st.error(f"게임 상태 저장 중 오류 발생: {str(e)}")
 
 
-def handle_user_input():
+def handle_user_input(user_input: str):
+    """사용자 입력을 처리하고 게임 상태를 업데이트합니다."""
     if "previous_input" not in st.session_state:
         st.session_state.previous_input = ""
-
-    user_input = st.text_input("무엇을 하시겠습니까?")
 
     if user_input and user_input != st.session_state.previous_input:
         st.session_state.previous_input = user_input
 
+        # 현재 상태 구성
         current_state = {
             "scene": st.session_state.state.get("scene", ""),
             "scene_beat": st.session_state.state.get("scene_beat", ""),
@@ -517,37 +517,178 @@ def handle_user_input():
         }
 
         try:
-            result = game_graph.invoke(current_state)
+            with st.status("처리 중...") as status:
+                status.write("사용자 입력을 처리하는 중...")
+                result = game_graph.invoke(current_state)
 
-            if isinstance(result, dict):
-                # Scene 전환 처리
-                if result.get("next_scene"):
-                    st.session_state.state["scene_beat"] = result["next_scene"]
-                    if result["next_scene"].startswith("scene:"):
-                        st.session_state.state["scene"] = result["next_scene"]
+                if isinstance(result, dict):
+                    status.write("스토리 생성 완료")
 
-                # 생성된 이야기 표시
-                if result.get("generation"):
-                    st.markdown("---")
-                    st.markdown(result["generation"])
-                    st.markdown("---")
+                    # Scene 전환 처리
+                    if result.get("next_scene"):
+                        st.session_state.state["scene_beat"] = result["next_scene"]
+                        if result["next_scene"].startswith("scene:"):
+                            st.session_state.state["scene"] = result["next_scene"]
+                            status.write(
+                                f"새로운 장면으로 이동: {result['next_scene']}"
+                            )
 
-                # 상태 업데이트
-                st.session_state.state.update(result)
-            else:
-                st.warning(f"응답을 생성하지 못했습니다. 결과: {result}")
-                print(f"Debug - Result type: {type(result)}")  # 디버깅용
+                    # 생성된 이야기 표시
+                    if result.get("generation"):
+                        st.markdown("---")
+                        st.markdown(result["generation"])
+                        st.markdown("---")
+
+                    # 상태 업데이트
+                    st.session_state.state.update(result)
+                    status.update(label="완료!", state="complete")
+                    return result
+                else:
+                    st.warning(f"응답을 생성하지 못했습니다. 결과: {result}")
+                    print(f"Debug - Result type: {type(result)}")
+                    status.update(label="실패", state="error")
 
         except Exception as e:
             st.error(f"Error processing input: {str(e)}")
-            print(f"Detailed error: {e}")  # 디버깅을 위한 상세 에러 출력
+            print(f"Detailed error: {e}")
+            return None
 
 
 def main():
-    initialize_game_state()
-    display_game_state()
-    handle_user_input()  # 이제 동기 함수입니다
+    # 사이드바 설정
+    with st.sidebar:
+        st.title("Novelist: Interactive Novel")
 
+        # 초기 설정 - sex가 unknown이거나 name이 Player일 때 표시
+        if "state" in st.session_state and (
+            st.session_state.state.get("sex") == "unknown"
+            or st.session_state.state.get("name") == "Player"
+        ):
+
+            st.header("캐릭터 생성")
+            player_name = st.text_input("이름을 입력하세요:")
+            gender = st.radio("성별을 선택하세요:", ["남성", "여성"])
+
+            if st.button("시작하기") and player_name:
+                # UUID 생성
+                import uuid
+
+                session_id = str(uuid.uuid4())
+
+                # 상태 업데이트
+                st.session_state.state["name"] = player_name
+                st.session_state.state["sex"] = gender
+                st.session_state.state["session_id"] = session_id
+
+                # 세이브 파일 저장
+                save_game_state(st.session_state.state, session_id)
+                st.rerun()
+
+    # 메인 컨텐츠 영역
+    story_container = st.container()
+
+    with story_container:
+        st.title("Novelist : interactive novel")
+
+        if "context" in st.session_state.state:
+            st.markdown("### 현재까지의 이야기:")
+            st.write(st.session_state.state["context"])
+
+        # 입력창을 항상 페이지 하단에 고정
+        st.markdown("<br>" * 5, unsafe_allow_html=True)
+        user_input = st.text_input("무엇을 하시겠습니까?", key="user_input")
+
+        if user_input:
+            with st.spinner("이야기를 생성하는 중..."):
+                result = handle_user_input(user_input)
+                if result:
+                    # 세이브 파일 업데이트
+                    session_id = st.session_state.state.get("session_id")
+                    if session_id:
+                        save_game_state(st.session_state.state, session_id)
+
+
+# CSS로 레이아웃 커스터마이징
+st.markdown(
+    """
+<style>
+    /* 입력창 스타일링 */
+    .stTextInput {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+    
+    /* 입력창 텍스트 스타일링 */
+    .stTextInput input {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    
+    /* 반응형 컨테이너 */
+    .main {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    
+    /* 텍스트 크기 조정 */
+    .stMarkdown {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    /* 웹 최적화 */
+    @media screen and (min-width: 1024px) {
+        .stTextInput {
+            width: 70%;
+        }
+        
+        .stTextInput input {
+            font-size: 1.4rem;
+            padding: 1.2rem;
+        }
+        
+        .stMarkdown {
+            font-size: 1.4rem;
+        }
+
+        .main {
+            max-width: 1400px;
+            padding: 0 3rem;
+        }
+    }
+    
+    /* 고해상도 모바일 최적화 (QHD/UHD) */
+    @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+           screen and (max-width: 768px) and (min-resolution: 192dpi) {
+        .stTextInput {
+            width: 90%;
+        }
+        
+        .stTextInput input {
+            font-size: 1.1rem;
+            padding: 0.8rem;
+        }
+        
+        .stMarkdown {
+            font-size: 1.1rem;
+        }
+
+        .main {
+            width: 95%;
+            padding: 0 1rem;
+        }
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
 
 if __name__ == "__main__":
+    if "state" not in st.session_state:
+        initialize_game_state()
     main()
