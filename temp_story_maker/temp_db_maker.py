@@ -45,7 +45,7 @@ graph = Neo4jGraph(
 embedding_provider = OpenAIEmbeddings(model="text-embedding-3-small")
 
 
-def create_work_node(graph, work):
+def create_novel_graphdb(graph, work, act_embed_dict, emotion_embed_dict):
     # (Work)-[:CONTAINS]-(Unit)
     # (Unit)-[:INCLUDES]-(StoryScript)
     # (StoryScript)-[:PERFORMS]-(Act)
@@ -106,42 +106,104 @@ def create_work_node(graph, work):
             if "act" in script.keys():
                 act_list = script["act"].split("/")
                 for act in act_list:
+                    if act not in act_embed_dict:
+                        act_embed_dict[act] = embedding_provider.embed_query(act)
+                    act_embedding = act_embed_dict[act]
                     act_query = """
                     MERGE (a:Act {act: $act})
                     MERGE (s:StoryScript {id: $ss_id})
                     MERGE (s)-[:PERFORMS]->(a)
+                    WITH a
+                    CALL db.create.setNodeVectorProperty(a, 'actEmbedding', $act_embedding)
                     """
-                    graph.query(act_query, {"act": act, "ss_id": ss_id})
+                    graph.query(
+                        act_query,
+                        {"act": act, "ss_id": ss_id, "act_embedding": act_embedding},
+                    )
             # emotion 노드 (있으면), 관계 생성
             if "emotion" in script.keys():
                 emo_list = script["emotion"].split("/")
                 for em in emo_list:
+                    if em not in emotion_embed_dict:
+                        emotion_embed_dict[em] = embedding_provider.embed_query(em)
+                    emotion_embedding = emotion_embed_dict[em]
                     em_query = """
                     MERGE (e:Emotion {emotion: $emotion})
                     MERGE (s:StoryScript {id: $ss_id})
-                    MERGE (s)-[:FEELS]->(e)"""
-                    graph.query(em_query, {"emotion": em, "ss_id": ss_id})
+                    MERGE (s)-[:FEELS]->(e)
+                    WITH e
+                    CALL db.create.setNodeVectorProperty(e, 'emotionEmbedding', $emotion_embedding)
+                    """
+                    graph.query(
+                        em_query,
+                        {
+                            "emotion": em,
+                            "ss_id": ss_id,
+                            "emotion_embedding": emotion_embedding,
+                        },
+                    )
+
+    return act_embed_dict, emotion_embed_dict
+
+
+def make_index(graph=graph):
+    # graphDB index 만들기. index이름: storylineVector
+    storyline_index_query = """
+    CREATE VECTOR INDEX storylineVector
+    IF NOT EXISTS
+    FOR (u:Unit) ON (u.storylineEmbedding)
+    OPTIONS {indexConfig: {
+        `vector.dimensions`:1536,
+        `vector.similarity_function`: 'cosine'
+    }};"""
+    graph.query(storyline_index_query)
+
+    # graphDB index 만들기. index이름: actVector
+    act_index_query = """
+    CREATE VECTOR INDEX actVector
+    IF NOT EXISTS
+    FOR (a:Act) ON (a.actEmbedding)
+    OPTIONS {indexConfig: {
+        `vector.dimensions`:1536,
+        `vector.similarity_function`: 'cosine'
+    }};"""
+    graph.query(act_index_query)
+
+    # graphDB index 만들기. index이름: emotionVector
+    emotion_index_query = """
+    CREATE VECTOR INDEX emotionVector
+    IF NOT EXISTS
+    FOR (e:Emotion) ON (e.emotionEmbedding)
+    OPTIONS {indexConfig: {
+        `vector.dimensions`:1536,
+        `vector.similarity_function`: 'cosine'
+    }};"""
+    graph.query(emotion_index_query)
+
+    print("인덱스를 만들었습니다.")
 
 
 def make_db(graph=graph):
     # DB에 있던 파일 모두 삭제.
     graph.query("MATCH (n) DETACH DELETE n")
+    graph.query("DROP INDEX storylineVector IF EXISTS")
+    graph.query("DROP INDEX actVector IF EXISTS")
+    graph.query("DROP INDEX emotionVector IF EXISTS")
 
     files = make_json_list(sampling=True)
 
+    act_embed_dict = {}
+    emotion_embed_dict = {}
     for work in files:
-        create_work_node(graph, work)
+        act_embed_dict, emotion_embed_dict = create_novel_graphdb(
+            graph, work, act_embed_dict, emotion_embed_dict
+        )
 
     # index 만들기
-    index_query = """
-CREATE VECTOR INDEX storylineVector
-IF NOT EXISTS
-FOR (u:Unit) ON (u.storylineEmbedding)
-OPTIONS {indexConfig: {
-    `vector.dimensions`:1536,
-    `vector.similarity_function`: 'cosine'
-    }};"""
-    graph.query(index_query)
+    make_index(graph)
+
+    graph.refresh_schema()
+    print(graph.schema)
 
 
 if __name__ == "__main__":
