@@ -2,7 +2,7 @@
 import streamlit as st
 import config
 import uuid
-from state_graph import create_state_graph
+from state_graph import create_state_graph, create_game_graph
 from story_chain import create_story_chain, create_map_analyst
 from db_interface import DBInterface
 from db_factory import get_db_manager
@@ -31,9 +31,14 @@ from db_state_injector import DBStateInjector
 from db_factory import get_db_manager
 from action_matcher import ActionMatcher
 from map_agent import MapAgent
+import asyncio
+from streamlit.runtime.scriptrunner import add_script_run_ctx
 
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
+
+# 전역 변수로 game_graph 초기화
+game_graph = create_game_graph()
 
 
 def load_initial_state() -> PlayerState:
@@ -489,7 +494,6 @@ def save_game_state() -> None:
 
 
 def handle_user_input():
-    """사용자 입력을 처리합니다."""
     if "previous_input" not in st.session_state:
         st.session_state.previous_input = ""
 
@@ -498,37 +502,51 @@ def handle_user_input():
     if user_input and user_input != st.session_state.previous_input:
         st.session_state.previous_input = user_input
 
-        available_actions = st.session_state.state.get("available_actions", [])
-        matched_action = st.session_state.action_matcher.find_best_action(
-            user_input, available_actions
-        )
+        current_state = {
+            "scene": st.session_state.state.get("scene", ""),
+            "scene_beat": st.session_state.state.get("scene_beat", ""),
+            "user_input": user_input,
+            "available_actions": st.session_state.state.get("available_actions", []),
+            "map_context": st.session_state.state.get("map_context", ""),
+            "characters": st.session_state.state.get("characters", []),
+            "history": st.session_state.state.get("history", []),
+            "context": st.session_state.state.get("context", ""),
+            "matched_action": None,
+            "action_result": None,
+            "generation": "",
+        }
 
-        if matched_action:
-            st.session_state.matched_action = matched_action
-            update_game_state(matched_action)
-            st.success(f"선택한 행동: {matched_action}")
-        else:
-            # TypedDict는 딕셔너리로 직접 처리
-            current_state = st.session_state.state.copy()
-            current_state["action_result"] = "invalid_input"
-            current_state["user_input"] = user_input
+        try:
+            result = game_graph.invoke(current_state)
 
-            # workflow를 통한 처리
-            result = app(current_state)  # TypedDict는 딕셔너리를 직접 전달
+            if isinstance(result, dict):
+                # Scene 전환 처리
+                if result.get("next_scene"):
+                    st.session_state.state["scene_beat"] = result["next_scene"]
+                    if result["next_scene"].startswith("scene:"):
+                        st.session_state.state["scene"] = result["next_scene"]
 
-            if isinstance(result, dict):  # TypedDict도 dict의 일종
-                st.markdown("---")
-                st.markdown(result.get("generation", ""))
-                st.markdown("---")
-                st.session_state.state = result
+                # 생성된 이야기 표시
+                if result.get("generation"):
+                    st.markdown("---")
+                    st.markdown(result["generation"])
+                    st.markdown("---")
+
+                # 상태 업데이트
+                st.session_state.state.update(result)
             else:
-                st.error("상태 업데이트 중 오류가 발생했습니다.")
+                st.warning(f"응답을 생성하지 못했습니다. 결과: {result}")
+                print(f"Debug - Result type: {type(result)}")  # 디버깅용
+
+        except Exception as e:
+            st.error(f"Error processing input: {str(e)}")
+            print(f"Detailed error: {e}")  # 디버깅을 위한 상세 에러 출력
 
 
 def main():
     initialize_game_state()
     display_game_state()
-    handle_user_input()
+    handle_user_input()  # 이제 동기 함수입니다
 
 
 if __name__ == "__main__":

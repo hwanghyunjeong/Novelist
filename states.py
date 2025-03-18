@@ -12,13 +12,13 @@ class GameState(TypedDict):
     게임 상태를 보관하는 state
     """
 
-    player: Annotated[dict, "사용자가 플레이하는 캐릭터의 속성 및 메소드"]
-    map: Annotated[dict, "TRPG 맵의 속성 및 메소드"]
-    init: Annotated[bool, "이야기의 처음인지 판단"]
-    user_input: Annotated[str, "사용자의 답변 또는 질문"]
-    history: Annotated[list, add_messages]  # 사용자와 게임 마스터 사이의 메시지
-    generation: Annotated[str, "AI가 만든 이야기"]
-    map_context: Annotated[str, "맵을 분석한 내용"]
+    player: Annotated[dict, "Attributes and methods of the character the user plays"]
+    map: Annotated[dict, "Information about the map (Location, Character, Scene)"]
+    init: Annotated[bool, "story initialization"]
+    user_input: Annotated[str, "User's input and question"]
+    history: Annotated[list, add_messages]
+    generation: Annotated[str, "Generated story by LLM"]
+    map_context: Annotated[str, "Analysis of the map by LLM"]
 
 
 class PlayerState(TypedDict):
