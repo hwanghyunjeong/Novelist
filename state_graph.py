@@ -13,6 +13,7 @@ from node import (
     RouteMovingNode,
     CreatePlayerAndCharacterNodes,
 )
+import streamlit as st
 
 
 class GameState(TypedDict):
@@ -21,9 +22,10 @@ class GameState(TypedDict):
     user_input: str
     available_actions: List[str]
     matched_action: str | None
+    action_result: str | None
+    map: str
     map_context: str
     generation: str
-    action_result: str | None
     characters: List[Dict]
     history: List[str]
 
@@ -33,12 +35,16 @@ action_matcher_model = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 story_generator_model = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 
-def match_action(state: GameState) -> Dict:
-    """사용자 입력과 가능한 액션을 매칭"""
+def process_user_action(state: GameState) -> GameState:
+    """사용자 입력을 처리하고 씬 전환을 수행하는 통합 노드"""
     user_input = state["user_input"]
     available_actions = state["available_actions"]
-    current_scene_beat = state["scene_beat"]
+    current_scene_beat_id = state["scene_beat"]
 
+    # db_manager를 st.session_state에서 가져옴
+    db_manager = st.session_state.db_manager
+
+    # 1. Action Matching
     response = action_matcher_model.invoke(
         [
             {
@@ -46,8 +52,7 @@ def match_action(state: GameState) -> Dict:
                 "content": f"""
         사용자 입력: {user_input}
         가능한 행동들: {', '.join(available_actions)}
-        현재 씬 비트: {current_scene_beat}
-
+        
         위 사용자 입력이 가능한 행동들 중 어떤 것과 가장 잘 매칭되는지 판단하세요.
         정확히 일치하지 않더라도, 의미상 가장 가까운 행동을 선택하세요.
         매칭되는 행동이 있다면 그 행동을, 없다면 None을 반환하세요.
@@ -57,19 +62,37 @@ def match_action(state: GameState) -> Dict:
     )
 
     matched_action = response.content
+    state["matched_action"] = matched_action if matched_action != "None" else None
+    state["action_result"] = "continue" if matched_action != "None" else "invalid_input"
 
-    # scene transition 로직 추가
-    next_scene = None
-    if matched_action == "help":
-        next_scene = "scene_beat:00_Pangyo_Station_4"
-    elif matched_action == "pass":
-        next_scene = "scene:01_Underground_Platform_GG"
+    # 2. Scene Transition (매칭된 액션이 있을 경우에만)
+    if state["matched_action"]:
+        try:
+            next_scene_beat = get_next_scene_beat(
+                db_manager, current_scene_beat_id, matched_action
+            )
 
-    return {
-        "matched_action": matched_action if matched_action != "None" else None,
-        "action_result": "continue" if matched_action != "None" else "invalid_input",
-        "next_scene": next_scene,
-    }
+            if next_scene_beat:
+                state["scene_beat"] = next_scene_beat
+
+                if next_scene_beat.startswith("scene:"):
+                    state["scene"] = next_scene_beat
+
+                    # Update map
+                    query = """
+                    MATCH (s:Scene {id: $scene_id})-[:LOCATED_IN]->(m:Map)
+                    RETURN m.id as map_id
+                    """
+                    result = db_manager.query(query, {"scene_id": next_scene_beat})
+
+                    if result:
+                        state["map"] = result[0]["map_id"]
+
+        except Exception as e:
+            print(f"Error in scene transition: {e}")
+            # 에러가 발생해도 매칭 결과는 유지
+
+    return state
 
 
 def generate_story(state: GameState, system_prompt: str) -> Dict:
@@ -153,15 +176,18 @@ def create_game_graph():
         return generate_story(state, system_prompt)
 
     # 노드 추가
-    workflow.add_node("action_matcher", match_action)
+    workflow.add_node("process_action", process_user_action)
     workflow.add_node("story_generation", story_generation_with_dynamic_prompt)
 
-    workflow.set_entry_point("action_matcher")
+    workflow.set_entry_point("process_action")
 
     workflow.add_conditional_edges(
-        "action_matcher",
-        should_continue,
-        {"story_generation": "story_generation", "end": END},
+        "process_action",
+        lambda x: x["action_result"],
+        {
+            "continue": "story_generation",
+            "invalid_input": "story_generation",  # 둘 다 스토리 생성으로
+        },
     )
 
     workflow.add_edge("story_generation", END)
@@ -201,5 +227,62 @@ def create_state_graph(story_chain, map_analyst):
     return workflow.compile(checkpointer=MemorySaver())
 
 
+def scene_transition_node(state: GameState) -> GameState:
+    """매칭된 액션을 기반으로 씬 전환을 처리합니다."""
+    matched_action = state["matched_action"]
+    current_scene_beat_id = state["scene_beat"]
+    db_manager = state["db_manager"]
+
+    try:
+        # matched_action을 사용하여 다음 씬 비트 가져오기
+        next_scene_beat = get_next_scene_beat(
+            db_manager, current_scene_beat_id, matched_action
+        )
+
+        if not next_scene_beat:
+            print(f"No valid next scene beat for action: {matched_action}")
+            return state
+
+        state["scene_beat"] = next_scene_beat
+
+        # Update scene if next_scene_beat starts with "scene:"
+        if next_scene_beat.startswith("scene:"):
+            state["scene"] = next_scene_beat
+
+            # Update map using db_manager
+            next_scene_id = next_scene_beat
+            query = """
+            MATCH (s:Scene {id: $scene_id})-[:LOCATED_IN]->(m:Map)
+            RETURN m.id as map_id
+            """
+            result = db_manager.query(query, {"scene_id": next_scene_id})
+
+            if not result:
+                print(f"No valid map_id. scene: {next_scene_id}")
+                return state
+
+            state["map"] = result[0]["map_id"]
+
+    except ValueError as e:
+        print(f"Error in scene transition - Invalid value: {e}")
+    except AttributeError as e:
+        print(f"Error in scene transition - Invalid attribute: {e}")
+    except Exception as e:
+        print(f"Unexpected error in scene_transition_node: {e}")
+
+    return state
+
+
 # 그래프 인스턴스 생성
 game_graph = create_game_graph()
+
+
+# app.py에서 초기화할 때 db_manager 설정
+def initialize_game_state():
+    """게임 상태를 초기화합니다."""
+    if "db_manager" not in st.session_state:
+        st.session_state.db_manager = get_db_manager()
+
+    if "state" not in st.session_state:
+        injector = DBStateInjector(st.session_state.db_manager)
+        st.session_state.state = injector.inject({})
