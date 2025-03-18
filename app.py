@@ -351,14 +351,22 @@ def display_game_state():
     """현재 게임 상태를 표시합니다."""
     st.title("Novelist : interactive novel")
 
-    if "context" in st.session_state.state:
-        st.markdown("### 현재까지의 이야기:")
-        st.write(st.session_state.state["context"])
+    # 스토리 컨테이너 생성
+    story_container = st.container()
 
-    if "available_actions" in st.session_state.state:
-        st.markdown("### 가능한 행동:")
-        for action in st.session_state.state["available_actions"]:
-            st.write(f"- {action}")
+    with story_container:
+        st.markdown("### 현재까지의 이야기:")
+
+        # 초기 컨텍스트 표시 (히스토리가 비어있을 때만)
+        if "context" in st.session_state.state and (
+            not st.session_state.state.get("history", [])
+        ):
+            st.markdown(st.session_state.state["context"])
+
+        # 히스토리 표시
+        if "history" in st.session_state.state:
+            for story in st.session_state.state["history"]:
+                st.markdown(story)
 
 
 def update_game_state(action: str) -> None:
@@ -533,14 +541,18 @@ def handle_user_input(user_input: str):
                                 f"새로운 장면으로 이동: {result['next_scene']}"
                             )
 
-                    # 생성된 이야기 표시
+                    # 생성된 이야기를 히스토리에 추가
                     if result.get("generation"):
-                        st.markdown("---")
-                        st.markdown(result["generation"])
-                        st.markdown("---")
+                        if "history" not in st.session_state.state:
+                            st.session_state.state["history"] = []
+                        st.session_state.state["history"].append(result["generation"])
 
-                    # 상태 업데이트
-                    st.session_state.state.update(result)
+                    # 상태 업데이트 (context 제외)
+                    result_without_context = {
+                        k: v for k, v in result.items() if k != "context"
+                    }
+                    st.session_state.state.update(result_without_context)
+
                     status.update(label="완료!", state="complete")
                     return result
                 else:
@@ -570,118 +582,98 @@ def main():
             gender = st.radio("성별을 선택하세요:", ["남성", "여성"])
 
             if st.button("시작하기") and player_name:
-                # UUID 생성
                 import uuid
 
                 session_id = str(uuid.uuid4())
-
-                # 상태 업데이트
                 st.session_state.state["name"] = player_name
                 st.session_state.state["sex"] = gender
                 st.session_state.state["session_id"] = session_id
-
-                # 세이브 파일 저장
                 save_game_state(st.session_state.state, session_id)
                 st.rerun()
 
     # 메인 컨텐츠 영역
-    story_container = st.container()
+    display_game_state()
 
-    with story_container:
-        st.title("Novelist : interactive novel")
+    # 입력 영역을 고정된 컨테이너에 배치
+    input_container = st.container()
 
-        if "context" in st.session_state.state:
-            st.markdown("### 현재까지의 이야기:")
-            st.write(st.session_state.state["context"])
-
-        # 입력창을 항상 페이지 하단에 고정
-        st.markdown("<br>" * 5, unsafe_allow_html=True)
+    with input_container:
+        st.markdown("<br>" * 3, unsafe_allow_html=True)
         user_input = st.text_input("무엇을 하시겠습니까?", key="user_input")
 
         if user_input:
             with st.spinner("이야기를 생성하는 중..."):
                 result = handle_user_input(user_input)
-                if result:
+                if result and result.get("generation"):
+                    # 히스토리에 새로운 내용 추가
+                    if "history" not in st.session_state.state:
+                        st.session_state.state["history"] = []
+                    st.session_state.state["history"].append(result["generation"])
+
                     # 세이브 파일 업데이트
                     session_id = st.session_state.state.get("session_id")
                     if session_id:
                         save_game_state(st.session_state.state, session_id)
+                    st.rerun()
 
 
-# CSS로 레이아웃 커스터마이징
+# CSS 스타일 수정
 st.markdown(
     """
 <style>
+    /* 스토리 컨테이너 스타일링 */
+    .story-container {
+        margin-bottom: 100px;  /* 입력창을 위한 여백 */
+        padding: 20px;
+        overflow-y: auto;
+    }
+    
     /* 입력창 스타일링 */
     .stTextInput {
-        position: relative;
-        width: 80%;
-        margin: 0 auto;
-        padding: 0.5rem;
+        position: fixed !important;
+        bottom: 20px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: calc(100% - 80px) !important;
+        max-width: 800px !important;
+        background: rgba(240, 242, 246, 0.9) !important;
+        padding: 10px !important;
+        z-index: 1000 !important;
+        border-radius: 10px !important;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
     }
     
     /* 입력창 텍스트 스타일링 */
     .stTextInput input {
-        width: 100%;
-        font-size: 1.2rem;
-        padding: 1rem;
+        color: rgb(49, 51, 63) !important;
+        font-size: 16px !important;
+        background: transparent !important;
     }
     
-    /* 반응형 컨테이너 */
+    /* 입력창 포커스 시 스타일 */
+    .stTextInput input:focus {
+        border-color: #ff4b4b !important;
+        box-shadow: 0 0 0 1px #ff4b4b !important;
+    }
+    
+    /* 스피너 위치 조정 */
+    .stSpinner {
+        position: fixed !important;
+        bottom: 80px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        z-index: 1000 !important;
+    }
+    
     .main {
-        width: 90%;
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 0 20px;
     }
     
-    /* 텍스트 크기 조정 */
     .stMarkdown {
-        font-size: 1.2rem;
+        font-size: 18px;
         line-height: 1.6;
-    }
-
-    /* 웹 최적화 */
-    @media screen and (min-width: 1024px) {
-        .stTextInput {
-            width: 70%;
-        }
-        
-        .stTextInput input {
-            font-size: 1.4rem;
-            padding: 1.2rem;
-        }
-        
-        .stMarkdown {
-            font-size: 1.4rem;
-        }
-
-        .main {
-            max-width: 1400px;
-            padding: 0 3rem;
-        }
-    }
-    
-    /* 고해상도 모바일 최적화 (QHD/UHD) */
-    @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-           screen and (max-width: 768px) and (min-resolution: 192dpi) {
-        .stTextInput {
-            width: 90%;
-        }
-        
-        .stTextInput input {
-            font-size: 1.1rem;
-            padding: 0.8rem;
-        }
-        
-        .stMarkdown {
-            font-size: 1.1rem;
-        }
-
-        .main {
-            width: 95%;
-            padding: 0 1rem;
-        }
     }
 </style>
 """,
