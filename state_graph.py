@@ -99,42 +99,58 @@ def process_user_action(state: GameState) -> GameState:
 
 def generate_story(state: GameState, system_prompt: str) -> Dict:
     """Story generation"""
-    # Process history - keep only last N stories
+    # 내부 처리용 history와 표시용 display_history 분리
     history = state.get("history", [])
-    current_context = state.get("context", "")
 
-    # Combine previous stories into a single string
-    previous_stories = "\n".join(history[-3:]) if history else ""  # Use only last 3
+    # Combine previous stories into a single context string (최근 3개만 사용)
+    previous_stories = "\n".join(history[-3:]) if history else ""
+
+    # 현재 상황 컨텍스트
+    current_context = state.get("context", "")
 
     response = story_generator_model.invoke(
         [
-            {"role": "system", "content": system_prompt},  # Add system prompt
+            {"role": "system", "content": system_prompt},
             {
                 "role": "user",
                 "content": f"""
-        Previous story: {previous_stories}
-        Current situation: {current_context if current_context else state.get('generation', '')}
-        Current scene: {state['scene']}
-        Map context: {state['map_context']}
-        Player action: {state['user_input']}
-        Selected action: {state['matched_action']}
-        Characters: {state['characters']}
+        이전 이야기: {previous_stories}
+        현재 상황: {current_context if current_context else state.get('generation', '')}
+        현재 씬: {state['scene']}
+        맵 분석: {state['map_context']}
+        플레이어 행동: {state['user_input']}
+        선택된 행동: {state['matched_action']}
+        등장 인물: {state['characters']}
         
         Based on the information above, generate a story that maintains the flow of the previous narrative while fitting the current situation.
         Exclude system messages or technical explanations and write pure narrative only.
+        Write only the new part of the story that continues from the previous narrative. 
+        Do not repeat or summarize any part of the previous story. 
+        Exclude any system messages or technical explanations.
         """,
             },
         ]
     )
 
     new_story = response.content
-    history.append(new_story)
+
+    # history에는 내부 처리용으로 모든 이야기를 보관
+    processed_history = history.copy()
+    processed_history.append(new_story)
 
     # 히스토리 크기 제한 (선택적)
-    if len(history) > 10:  # 최대 10개의 이전 이야기만 유지
-        history = history[-10:]
+    if len(processed_history) > 10:
+        processed_history = processed_history[-10:]
 
-    return {"generation": new_story, "history": history}
+    # 표시용 history는 새로운 이야기만 포함
+    display_history = state.get("display_history", [])
+    display_history.append(new_story)
+
+    return {
+        "generation": new_story,  # 최신 생성된 내용
+        "history": processed_history,  # LLM 컨텍스트용 전체 히스토리
+        "display_history": display_history,  # 화면 표시용 히스토리
+    }
 
 
 def should_continue(state: GameState) -> str:
@@ -168,11 +184,12 @@ def create_game_graph():
         Story conditions: {conditions}
         
         Important guidelines:
-        1. Give subtle hints about available actions within the story context
-        2. Maintain story continuity with previous scenes
-        3. Always write in Korean
-        4. Focus on the post-apocalyptic atmosphere
-        5. Keep the story grounded in the subway station setting
+        1. Write only the new part of the story that continues from the previous narrative. Do not repeat or summarize any part of the previous story.
+        2. Give subtle hints about available actions within the story context
+        3. Maintain story continuity with previous scenes
+        4. Always write in Korean
+        5. Focus on the post-apocalyptic atmosphere
+        6. Keep the story grounded in the subway station setting
         """
 
         return generate_story(state, system_prompt)

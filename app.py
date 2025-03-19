@@ -377,13 +377,13 @@ def display_game_state():
 
         # 초기 컨텍스트 표시 (히스토리가 비어있을 때만)
         if "context" in st.session_state.state and (
-            not st.session_state.state.get("history", [])
+            not st.session_state.state.get("display_history", [])
         ):
             st.markdown(st.session_state.state["context"])
 
-        # 히스토리 표시
-        if "history" in st.session_state.state:
-            for story in st.session_state.state["history"]:
+        # 표시용 히스토리 표시
+        if "display_history" in st.session_state.state:
+            for story in st.session_state.state["display_history"]:
                 st.markdown(story)
 
 
@@ -533,6 +533,14 @@ def handle_user_input(user_input: str):
                         if "history" not in st.session_state.state:
                             st.session_state.state["history"] = []
                         st.session_state.state["history"].append(result["generation"])
+
+                    # 생성된 이야기를 display_history에 추가
+                    if result.get("generation"):
+                        if "display_history" not in st.session_state.state:
+                            st.session_state.state["display_history"] = []
+                        st.session_state.state["display_history"].append(
+                            result["generation"]
+                        )
 
                     # 상태 업데이트 (context 제외)
                     result_without_context = {
