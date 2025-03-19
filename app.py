@@ -116,8 +116,8 @@ def get_next_scene_beat(
             LIMIT 1
             """
 
-        # 명시적으로 query와 params 매개변수 전달
-        result = db_manager.query(query=query, params=params)
+        # 이전 형식으로 query 호출
+        result = db_manager.query(query, params)
 
         if not result:
             # 다음 씬 비트가 없을 경우 대체 쿼리 시도
@@ -128,7 +128,7 @@ def get_next_scene_beat(
             LIMIT 1
             """
             # 빈 매개변수 딕셔너리 전달
-            result = db_manager.query(query=fallback_query, params={})
+            result = db_manager.query(fallback_query, {})
 
             if not result:
                 raise ValueError(
