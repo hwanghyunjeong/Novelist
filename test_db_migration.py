@@ -19,7 +19,7 @@ def db_manager():
 
 def test_connection(db_manager):
     """연결 테스트"""
-    result = db_manager.query("RETURN 1 AS test", {})
+    result = db_manager.query(query="RETURN 1 AS test", params={})
     assert result[0]["test"] == 1
 
 

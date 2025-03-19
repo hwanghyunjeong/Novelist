@@ -32,7 +32,7 @@ def test_neo4j_graph_connection(db_manager):
 
     데이터베이스 연결이 정상적으로 수립되는지 확인합니다.
     """
-    result = db_manager.query("RETURN 1 as test", {})
+    result = db_manager.query(query="RETURN 1 as test", params={})
     assert result[0]["test"] == 1
 
 
@@ -70,7 +70,7 @@ def test_query_execution(db_manager):
     CREATE (n:TestNode {name: $name})
     RETURN n
     """
-    result = db_manager.query(create_query, {"name": "test"})
+    result = db_manager.query(query=create_query, params={"name": "test"})
     assert result[0]["n"]["name"] == "test"
 
     # 노드 조회
@@ -78,7 +78,7 @@ def test_query_execution(db_manager):
     MATCH (n:TestNode {name: $name})
     RETURN n
     """
-    result = db_manager.query(read_query, {"name": "test"})
+    result = db_manager.query(query=read_query, params={"name": "test"})
     assert result[0]["n"]["name"] == "test"
 
     # 테스트 데이터 정리
@@ -86,4 +86,4 @@ def test_query_execution(db_manager):
     MATCH (n:TestNode {name: $name})
     DELETE n
     """
-    db_manager.query(cleanup_query, {"name": "test"})
+    db_manager.query(query=cleanup_query, params={"name": "test"})

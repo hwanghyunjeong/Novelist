@@ -15,7 +15,7 @@ from db_factory import get_db_manager
 # 단계적 테스트 구현 (마이그레이션 단계별 테스트코드)
 def test_neo4j_graph_connection():
     db_manager = LegacyDBManager(TEST_URI, TEST_USER, TEST_PASSWORD)
-    result = db_manager.query("RETURN 1 as test", {})
+    result = db_manager.query(query="RETURN 1 as test", params={})
     assert result[0]["test"] == 1
 
 
