@@ -142,14 +142,14 @@ def get_next_scene_beat(
         return None
 
 
-def get_scene_map_id(db_client, scene_id: str) -> str:
+def get_scene_map_id(db_manager, scene_id: str) -> str:
     """주어진 씬 ID와 연결된 맵 ID를 가져옵니다."""
     try:
         query = """
-                MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
-                RETURN m.id AS map_id
+        MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
+        RETURN m.id AS map_id
         """
-        result = db_client.query(query=query, params={"scene_id": scene_id})
+        result = db_manager.query(query=query, params={"scene_id": scene_id})
 
         if not result:
             raise ValueError(f"No map found for scene {scene_id}")
@@ -160,14 +160,14 @@ def get_scene_map_id(db_client, scene_id: str) -> str:
         return None
 
 
-def is_choice_scene(db_client, scene_beat_id: str) -> bool:
+def is_choice_scene(db_manager, scene_beat_id: str) -> bool:
     """씬 비트가 선택 씬인지 확인합니다."""
     try:
         query = """
-                MATCH (sb:SceneBeat {id:$scene_beat_id})
-                RETURN sb.next_scene_beat_id as next_ids
+        MATCH (sb:SceneBeat {id: $scene_beat_id})
+        RETURN sb.next_scene_beat_id as next_ids
         """
-        result = db_client.query(query=query, params={"scene_beat_id": scene_beat_id})
+        result = db_manager.query(query=query, params={"scene_beat_id": scene_beat_id})
 
         if not result:
             return False
@@ -179,14 +179,14 @@ def is_choice_scene(db_client, scene_beat_id: str) -> bool:
         return False
 
 
-def get_available_actions(db_client, scene_id: str) -> List[str]:
+def get_available_actions(db_manager, scene_id: str) -> List[str]:
     """현재 씬에서 가능한 행동들을 가져옵니다."""
     try:
         query = """
-                MATCH (s:Scene {id: $scene_id})
-                RETURN s.available_actions AS available_actions
+        MATCH (s:Scene {id: $scene_id})
+        RETURN s.available_actions AS available_actions
         """
-        result = db_client.query(query=query, params={"scene_id": scene_id})
+        result = db_manager.query(query=query, params={"scene_id": scene_id})
 
         if not result:
             return []
@@ -207,16 +207,6 @@ def check_action_in_available_actions(
         return False
 
 
-def choice_make(user_input: str, scene_beat_id: str) -> str:
-    """사용자 입력에 따라 선택지를 만듭니다."""
-    if scene_beat_id == "scene_beat:00_Pangyo_Station_3":
-        if "help" in user_input.lower():
-            return "scene_beat:00_Pangyo_Station_4"
-        elif "pass" in user_input.lower():
-            return "scene:01_Underground_Platform_GG"
-    return ""
-
-
 # 추출된 데이터를 미리 extracted_data에 저장한 뒤에 업데이트 하도록 변경 (자료 손실 예방)
 def ere_extraction_node(data):
     """사용자 입력으로부터 엔티티와 관계를 추출하고 그래프를 업데이트합니다."""
@@ -235,14 +225,16 @@ def ere_extraction_node(data):
 def scene_transition_node(data):
     """사용자 입력과 게임 상태에 따라 다음 씬으로 전환합니다."""
     user_input = data.get("user_input")
-    current_scene_id = data.get("scene")
     current_scene_beat_id = data.get("scene_beat")
-    db_client = data.get("db_client")
-    # choice making
-    choice = choice_make(user_input, current_scene_beat_id)
-    try:
-        next_scene_beat = get_next_scene_beat(db_client, current_scene_beat_id, choice)
+    db_manager = st.session_state.db_manager
 
+    # choice_make 함수 호출 제거
+    next_scene_beat = get_next_scene_beat(
+        db_manager=db_manager,
+        current_scene_beat_id=current_scene_beat_id,
+        choice=user_input,  # 직접 user_input 전달
+    )
+    try:
         if not next_scene_beat:
             print(f"No valid next scene beat. scene_beat: {next_scene_beat}")
             return data.update({"scene_beat": None})
@@ -255,7 +247,7 @@ def scene_transition_node(data):
 
             # Update map
             next_scene_id = next_scene_beat
-            map_id = get_scene_map_id(db_client, next_scene_id)
+            map_id = get_scene_map_id(db_manager, next_scene_id)
             if not map_id:
                 print(f"No valid map_id. scene: {next_scene_id}")
                 return data

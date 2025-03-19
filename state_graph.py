@@ -3,7 +3,7 @@ from typing import TypedDict, List, Dict, Any
 from langgraph.graph import START, StateGraph, END
 from langchain_openai import ChatOpenAI
 from langgraph.checkpoint.memory import MemorySaver
-from states import PlayerState
+from states import GameState, PlayerState
 from node import (
     InitializeNode,
     AnalysisDirectionNode,
@@ -40,8 +40,6 @@ def process_user_action(state: GameState) -> GameState:
     user_input = state["user_input"]
     available_actions = state["available_actions"]
     current_scene_beat_id = state["scene_beat"]
-
-    # db_manager를 st.session_state에서 가져옴
     db_manager = st.session_state.db_manager
 
     # 1. Action Matching
@@ -69,7 +67,9 @@ def process_user_action(state: GameState) -> GameState:
     if state["matched_action"]:
         try:
             next_scene_beat = get_next_scene_beat(
-                db_manager, current_scene_beat_id, matched_action
+                db_manager=db_manager,
+                current_scene_beat_id=current_scene_beat_id,
+                choice=matched_action,  # matched_action을 choice로 전달
             )
 
             if next_scene_beat:
@@ -229,30 +229,31 @@ def create_state_graph(story_chain, map_analyst):
     return workflow.compile(checkpointer=MemorySaver())
 
 
-def scene_transition_node(state: GameState) -> GameState:
-    """매칭된 액션을 기반으로 씬 전환을 처리합니다."""
-    matched_action = state["matched_action"]
-    current_scene_beat_id = state["scene_beat"]
-    db_manager = state["db_manager"]
-
+def scene_transition_node(state: PlayerState) -> PlayerState:
+    """씬 전환 노드"""
     try:
-        # matched_action을 사용하여 다음 씬 비트 가져오기
-        next_scene_beat = get_next_scene_beat(
-            db_manager, current_scene_beat_id, matched_action
+        db_manager = st.session_state.db_manager
+        current_scene_beat_id = state.get("scene_beat")
+        user_input = state.get("user_input", "")
+
+        next_scene_beat_id = get_next_scene_beat(
+            db_manager=db_manager,
+            current_scene_beat_id=current_scene_beat_id,
+            choice=user_input,
         )
 
-        if not next_scene_beat:
-            print(f"No valid next scene beat for action: {matched_action}")
+        if not next_scene_beat_id:
+            print(f"No valid next scene beat for action: {user_input}")
             return state
 
-        state["scene_beat"] = next_scene_beat
+        state["scene_beat"] = next_scene_beat_id
 
         # Update scene if next_scene_beat starts with "scene:"
-        if next_scene_beat.startswith("scene:"):
-            state["scene"] = next_scene_beat
+        if next_scene_beat_id.startswith("scene:"):
+            state["scene"] = next_scene_beat_id
 
             # Update map using db_manager
-            next_scene_id = next_scene_beat
+            next_scene_id = next_scene_beat_id
             query = """
             MATCH (s:Scene {id: $scene_id})-[:LOCATED_IN]->(m:Map)
             RETURN m.id as map_id
@@ -270,16 +271,17 @@ def scene_transition_node(state: GameState) -> GameState:
     except AttributeError as e:
         print(f"Error in scene transition - Invalid attribute: {e}")
     except Exception as e:
-        print(f"Unexpected error in scene_transition_node: {e}")
+        print(f"Error in scene transition: {e}")
 
     return state
 
 
-def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "") -> str:
+def get_next_scene_beat(
+    db_manager, current_scene_beat_id: str, choice: str = ""
+) -> str:
     """현재 씬 비트 ID에서 다음 씬 비트 ID를 가져옵니다."""
     try:
         if choice:
-            # 선택에 따른 다음 씬 비트 조회
             query = """
             MATCH (sb:SceneBeat {id: $current_scene_beat_id})
             -[r:CONDITION {action: $choice}]->(next_sb:SceneBeat)
@@ -287,7 +289,6 @@ def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "")
             """
             params = {"current_scene_beat_id": current_scene_beat_id, "choice": choice}
         else:
-            # 기본 다음 씬 비트 조회
             query = """
             MATCH (sb:SceneBeat {id: $current_scene_beat_id})
             -[:NEXT]->(next_sb:SceneBeat)
@@ -296,24 +297,23 @@ def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "")
             """
             params = {"current_scene_beat_id": current_scene_beat_id}
 
-        result = db_client.query(query, params)
+        result = db_manager.query(query=query, params=params)
 
         if not result:
-            # 다음 씬 비트가 없을 경우 대체 쿼리 시도
             fallback_query = """
             MATCH (sb:SceneBeat)
             WHERE sb.id STARTS WITH 'scenebeat:scene:'
             RETURN sb.id AS next_scene_beat_id
             LIMIT 1
             """
-            result = db_client.query(fallback_query)
+            result = db_manager.query(query=fallback_query, params={})
+
             if not result:
                 raise ValueError(
                     f"No next scene beat found for {current_scene_beat_id}"
                 )
 
         return result[0]["next_scene_beat_id"]
-
     except Exception as e:
         print(f"Error in get_next_scene_beat: {e}")
         return None
