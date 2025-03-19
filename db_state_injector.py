@@ -22,9 +22,8 @@ class DBStateInjector:
         """상태를 주입하고 초기화합니다."""
         if not state.get("initialized"):
             # 초기 씬 데이터 로드
-            initial_scene = self.db_manager.query(
-                "MATCH (s:Scene) WHERE s.id = 'scene:00_Pangyo_Station' RETURN s", {}
-            )
+            query = "MATCH (s:Scene) WHERE s.id = 'scene:00_Pangyo_Station' RETURN s"
+            initial_scene = self.db_manager.query(query=query, params={})
 
             if initial_scene:
                 scene_data = initial_scene[0]["s"]

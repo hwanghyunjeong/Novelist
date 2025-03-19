@@ -90,31 +90,55 @@ def load_initial_state() -> PlayerState:
 game_state = load_initial_state()  # 초기 게임 상태 로드
 
 
-def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "") -> str:
+def get_next_scene_beat(
+    db_manager, current_scene_beat_id: str, choice: str = ""
+) -> str:
     """현재 씬 비트 ID에서 다음 씬 비트 ID를 가져옵니다."""
     try:
-        if choice == "":
+        # 기본 매개변수 설정
+        params = {"current_scene_beat_id": current_scene_beat_id}
+
+        if choice:
+            # 선택에 따른 다음 씬 비트 조회
             query = """
-            MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})
+            -[r:CONDITION {action: $choice}]->(next_sb:SceneBeat)
             RETURN next_sb.id AS next_scene_beat_id
+            LIMIT 1
             """
+            params["choice"] = choice
         else:
+            # 기본 다음 씬 비트 조회
             query = """
-            MATCH (sb:SceneBeat {id: $current_scene_beat_id})-[:NEXT]->(next_sb)
-            WHERE $choice in next_sb.id
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})
+            -[:NEXT]->(next_sb:SceneBeat)
             RETURN next_sb.id AS next_scene_beat_id
+            LIMIT 1
             """
 
-        result = db_client.query(
-            query, {"current_scene_beat_id": current_scene_beat_id, "choice": choice}
-        )
+        # 명시적으로 query와 params 매개변수 전달
+        result = db_manager.query(query=query, params=params)
 
         if not result:
-            raise ValueError(f"No next scene beat found for {current_scene_beat_id}")
+            # 다음 씬 비트가 없을 경우 대체 쿼리 시도
+            fallback_query = """
+            MATCH (sb:SceneBeat)
+            WHERE sb.id STARTS WITH 'scene:'
+            RETURN sb.id AS next_scene_beat_id
+            LIMIT 1
+            """
+            # 빈 매개변수 딕셔너리 전달
+            result = db_manager.query(query=fallback_query, params={})
+
+            if not result:
+                raise ValueError(
+                    f"No next scene beat found for {current_scene_beat_id}"
+                )
 
         return result[0]["next_scene_beat_id"]
+
     except Exception as e:
-        print(f"Error during scene transition: {e}")
+        print(f"Error in get_next_scene_beat: {e}")
         return None
 
 
@@ -122,10 +146,10 @@ def get_scene_map_id(db_client, scene_id: str) -> str:
     """주어진 씬 ID와 연결된 맵 ID를 가져옵니다."""
     try:
         query = """
-        MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
-        RETURN m.id AS map_id
+                MATCH (s:Scene {id: $scene_id})-[:TAKES_PLACE_IN]->(m:Map)
+                RETURN m.id AS map_id
         """
-        result = db_client.query(query, {"scene_id": scene_id})
+        result = db_client.query(query=query, params={"scene_id": scene_id})
 
         if not result:
             raise ValueError(f"No map found for scene {scene_id}")
@@ -140,10 +164,10 @@ def is_choice_scene(db_client, scene_beat_id: str) -> bool:
     """씬 비트가 선택 씬인지 확인합니다."""
     try:
         query = """
-        MATCH (sb:SceneBeat {id:$scene_beat_id})
-        RETURN sb.next_scene_beat_id as next_ids
+                MATCH (sb:SceneBeat {id:$scene_beat_id})
+                RETURN sb.next_scene_beat_id as next_ids
         """
-        result = db_client.query(query, {"scene_beat_id": scene_beat_id})
+        result = db_client.query(query=query, params={"scene_beat_id": scene_beat_id})
 
         if not result:
             return False
@@ -159,10 +183,10 @@ def get_available_actions(db_client, scene_id: str) -> List[str]:
     """현재 씬에서 가능한 행동들을 가져옵니다."""
     try:
         query = """
-        MATCH (s:Scene {id: $scene_id})
-        RETURN s.available_actions AS available_actions
+                MATCH (s:Scene {id: $scene_id})
+                RETURN s.available_actions AS available_actions
         """
-        result = db_client.query(query, {"scene_id": scene_id})
+        result = db_client.query(query=query, params={"scene_id": scene_id})
 
         if not result:
             return []
@@ -262,10 +286,10 @@ def get_player_data(db_client) -> Dict:
     """Neo4j에서 플레이어 데이터를 가져옵니다."""
     try:
         query = """
-        MATCH (p:Player {id: "character:Player"})
-        RETURN p.name AS name, p.sex AS sex
-        """
-        result = db_client.query(query)
+                MATCH (p:Player {id: "character:Player"})
+                RETURN p.name AS name, p.sex AS sex
+                """
+        result = db_client.query(query=query, params={})
 
         if not result:
             return None
@@ -276,14 +300,16 @@ def get_player_data(db_client) -> Dict:
         return None
 
 
-def create_player_in_db(db_client, player_data: Dict):
+def create_player_in_db(db_manager, player_data: Dict):
     """Neo4j에 플레이어 데이터를 생성합니다."""
     try:
         query = """
         MERGE (p:Player {id: "character:Player"})
         ON CREATE SET p.name = $name, p.sex = $sex
         """
-        db_client.query(query, {"name": player_data["name"], "sex": player_data["sex"]})
+        db_manager.query(
+            query=query, params={"name": player_data["name"], "sex": player_data["sex"]}
+        )
         st.success("플레이어 정보가 Neo4j에 저장되었습니다.")
     except Exception as e:
         st.error(f"플레이어 데이터 생성 중 오류 발생: {e}")
@@ -369,45 +395,12 @@ def display_game_state():
                 st.markdown(story)
 
 
-def update_game_state(action: str) -> None:
-    """매칭된 액션에 따라 게임 상태를 업데이트합니다."""
-    try:
-        current_scene = st.session_state.state.get("current_scene", {})
-        current_beat = st.session_state.state.get("current_beat")
-
-        # MapAgent 초기화 (필요한 경우)
-        if "map_agent" not in st.session_state:
-            st.session_state.map_agent = MapAgent(st.session_state.db_manager)
-
-        # 맵 데이터 업데이트
-        if "map" in current_scene:
-            map_data = st.session_state.map_agent.load_map(current_scene["map"])
-            if map_data:
-                st.session_state.state["current_map"] = map_data
-
-        # 비트 업데이트 로직
-        if current_beat:
-            next_beat = get_next_beat(current_beat, action)
-            if next_beat:
-                st.session_state.state["current_beat"] = next_beat
-                st.session_state.state["context"] = next_beat.get("context", "")
-                st.session_state.state["available_actions"] = next_beat.get(
-                    "available_actions", []
-                )
-        else:
-            scene_beats = current_scene.get("scene_beats", [])
-            if scene_beats:
-                first_beat = scene_beats[0]
-                st.session_state.state["current_beat"] = first_beat
-                st.session_state.state["context"] = first_beat.get("context", "")
-                st.session_state.state["available_actions"] = first_beat.get(
-                    "available_actions", []
-                )
-
-        save_game_state()
-
-    except Exception as e:
-        st.error(f"게임 상태 업데이트 중 오류 발생: {str(e)}")
+def update_game_state(state: dict, next_scene_beat: str) -> dict:
+    """게임 상태를 업데이트합니다."""
+    state["scene_beat"] = next_scene_beat
+    if next_scene_beat.startswith("scene:"):
+        state["scene"] = next_scene_beat
+    return state
 
 
 def get_next_beat(
@@ -429,7 +422,7 @@ def get_next_beat(
         """
 
         results = st.session_state.db_manager.query(
-            query, {"next_beat_ids": next_beat_ids}
+            query=query, params={"next_beat_ids": next_beat_ids}
         )
 
         if results:
@@ -455,8 +448,8 @@ def parse_node_data(node_data: Dict[str, Any]) -> Dict[str, Any]:
                 parsed_data[key] = json.loads(value)
             except json.JSONDecodeError:
                 parsed_data[key] = value
-        else:
-            parsed_data[key] = value
+    else:
+        parsed_data[key] = value
     return parsed_data
 
 
@@ -488,8 +481,8 @@ def save_game_state() -> None:
         """
 
         st.session_state.db_manager.query(
-            query,
-            {
+            query=query,
+            params={
                 "player_id": st.session_state.state.get("player", {}).get(
                     "id", "default"
                 ),
@@ -527,6 +520,8 @@ def handle_user_input(user_input: str):
         try:
             with st.status("처리 중...") as status:
                 status.write("사용자 입력을 처리하는 중...")
+                # 스크립트 실행 컨텍스트 추가
+                add_script_run_ctx()
                 result = game_graph.invoke(current_state)
 
                 if isinstance(result, dict):
@@ -559,7 +554,6 @@ def handle_user_input(user_input: str):
                     st.warning(f"응답을 생성하지 못했습니다. 결과: {result}")
                     print(f"Debug - Result type: {type(result)}")
                     status.update(label="실패", state="error")
-
         except Exception as e:
             st.error(f"Error processing input: {str(e)}")
             print(f"Detailed error: {e}")

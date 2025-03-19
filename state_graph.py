@@ -83,7 +83,9 @@ def process_user_action(state: GameState) -> GameState:
                     MATCH (s:Scene {id: $scene_id})-[:LOCATED_IN]->(m:Map)
                     RETURN m.id as map_id
                     """
-                    result = db_manager.query(query, {"scene_id": next_scene_beat})
+                    result = db_manager.query(
+                        query=query, params={"scene_id": next_scene_beat}
+                    )
 
                     if result:
                         state["map"] = result[0]["map_id"]
@@ -255,7 +257,7 @@ def scene_transition_node(state: GameState) -> GameState:
             MATCH (s:Scene {id: $scene_id})-[:LOCATED_IN]->(m:Map)
             RETURN m.id as map_id
             """
-            result = db_manager.query(query, {"scene_id": next_scene_id})
+            result = db_manager.query(query=query, params={"scene_id": next_scene_id})
 
             if not result:
                 print(f"No valid map_id. scene: {next_scene_id}")
@@ -271,6 +273,50 @@ def scene_transition_node(state: GameState) -> GameState:
         print(f"Unexpected error in scene_transition_node: {e}")
 
     return state
+
+
+def get_next_scene_beat(db_client, current_scene_beat_id: str, choice: str = "") -> str:
+    """현재 씬 비트 ID에서 다음 씬 비트 ID를 가져옵니다."""
+    try:
+        if choice:
+            # 선택에 따른 다음 씬 비트 조회
+            query = """
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})
+            -[r:CONDITION {action: $choice}]->(next_sb:SceneBeat)
+            RETURN next_sb.id AS next_scene_beat_id
+            """
+            params = {"current_scene_beat_id": current_scene_beat_id, "choice": choice}
+        else:
+            # 기본 다음 씬 비트 조회
+            query = """
+            MATCH (sb:SceneBeat {id: $current_scene_beat_id})
+            -[:NEXT]->(next_sb:SceneBeat)
+            RETURN next_sb.id AS next_scene_beat_id
+            LIMIT 1
+            """
+            params = {"current_scene_beat_id": current_scene_beat_id}
+
+        result = db_client.query(query, params)
+
+        if not result:
+            # 다음 씬 비트가 없을 경우 대체 쿼리 시도
+            fallback_query = """
+            MATCH (sb:SceneBeat)
+            WHERE sb.id STARTS WITH 'scenebeat:scene:'
+            RETURN sb.id AS next_scene_beat_id
+            LIMIT 1
+            """
+            result = db_client.query(fallback_query)
+            if not result:
+                raise ValueError(
+                    f"No next scene beat found for {current_scene_beat_id}"
+                )
+
+        return result[0]["next_scene_beat_id"]
+
+    except Exception as e:
+        print(f"Error in get_next_scene_beat: {e}")
+        return None
 
 
 # 그래프 인스턴스 생성

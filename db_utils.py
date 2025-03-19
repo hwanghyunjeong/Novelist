@@ -17,7 +17,7 @@ def clear_database(db_manager: DBInterface) -> None:
     MATCH (n)
     DETACH DELETE n
     """
-    db_manager.query(query, {})
+    db_manager.query(query=query, params={})
 
 
 def load_json_data(file_path: str) -> List[Dict[str, Any]]:
@@ -38,7 +38,7 @@ def create_character_node(
     CREATE (c:Character)
     SET c += $properties
     """
-    db_manager.query(query, {"properties": character_data})
+    db_manager.query(query=query, params={"properties": character_data})
 
 
 def flatten_properties(data: Dict[str, Any]) -> Dict[str, Any]:
@@ -67,7 +67,7 @@ def create_map_node(db_manager: DBInterface, map_data: Dict[str, Any]) -> None:
     """
     # 속성을 평탄화하여 저장
     flattened_properties = flatten_properties(map_data)
-    db_manager.query(query, {"properties": flattened_properties})
+    db_manager.query(query=query, params={"properties": flattened_properties})
 
 
 def create_scene_node(db_manager: DBInterface, scene_data: Dict[str, Any]) -> None:
@@ -79,7 +79,7 @@ def create_scene_node(db_manager: DBInterface, scene_data: Dict[str, Any]) -> No
     # scene_beats를 제외한 나머지 속성을 평탄화
     properties = {k: v for k, v in scene_data.items() if k != "scene_beats"}
     flattened_properties = flatten_properties(properties)
-    db_manager.query(query, {"properties": flattened_properties})
+    db_manager.query(query=query, params={"properties": flattened_properties})
 
 
 def create_scene_beat_node(
@@ -92,7 +92,7 @@ def create_scene_beat_node(
     """
     properties = {k: v for k, v in scene_beat_data.items() if k != "next_scene_beats"}
     flattened_properties = flatten_properties(properties)
-    db_manager.query(query, {"properties": flattened_properties})
+    db_manager.query(query=query, params={"properties": flattened_properties})
 
 
 def create_relationship(
@@ -129,7 +129,7 @@ def create_relationship(
             # 매개변수에 속성 추가
             params.update({key: value for key, value in properties.items()})
 
-    db_manager.query(query, params)
+    db_manager.query(query=query, params=params)
 
 
 def create_location_node(
@@ -147,8 +147,8 @@ def create_location_node(
     CREATE (l:Location {id: $id, x: $x, y: $y, type: $type, destination: $destination})
     """
     db_manager.query(
-        create_query,
-        {
+        query=create_query,
+        params={
             "id": location_data["id"],
             "x": location_data["x"],
             "y": location_data["y"],
@@ -164,7 +164,8 @@ def create_location_node(
     CREATE (m)-[:HAS_LOCATION]->(l)
     """
     db_manager.query(
-        relate_query, {"map_id": map_id, "location_id": location_data["id"]}
+        query=relate_query,
+        params={"map_id": map_id, "location_id": location_data["id"]},
     )
 
 
@@ -272,7 +273,7 @@ def _upsert_node(neo4j_graph, label: str, node_properties: Dict[str, Any]) -> No
     MERGE (n:{label} {{id: $properties.id}})
     SET n += $properties
     """
-    neo4j_graph.query(query, {"properties": node_properties})
+    neo4j_graph.query(query=query, params={"properties": node_properties})
 
 
 def _upsert_relationship(
@@ -304,7 +305,8 @@ def _upsert_relationship(
     SET r += $rel_properties
     """
     neo4j_graph.query(
-        query, {"from_id": from_id, "to_id": to_id, "rel_properties": rel_properties}
+        query=query,
+        params={"from_id": from_id, "to_id": to_id, "rel_properties": rel_properties},
     )
 
 
@@ -313,7 +315,7 @@ def get_map_data(db_manager: DBInterface, map_id: str) -> Dict[str, Any]:
     MATCH (m:Map {id: $map_id})
     RETURN m
     """
-    result = db_manager.query(query, {"map_id": map_id})
+    result = db_manager.query(query=query, params={"map_id": map_id})
     if result:
         node_data = result[0]["m"]
         # JSON 문자열로 저장된 속성을 다시 파싱

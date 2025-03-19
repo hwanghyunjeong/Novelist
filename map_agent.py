@@ -13,7 +13,7 @@ class MapAgent:
         MATCH (m:Map {id: $map_id})
         RETURN m
         """
-        result = self.db_manager.query(query, {"map_id": map_id})
+        result = self.db_manager.query(query=query, params={"map_id": map_id})
         if result:
             map_data = result[0]["m"]
             self.current_map = self._parse_map_data(map_data)
