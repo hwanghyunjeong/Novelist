@@ -59,12 +59,17 @@ def init_database():
         print("씬 데이터 초기화 중...")
         for scene_data in scenes:
             if isinstance(scene_data, dict):
+                # Scene 노드 생성
                 create_scene_node(db_manager, scene_data)
+
+                # Scene Beat 노드 생성 및 관계 설정
                 for scene_beat_data in scene_data.get("scene_beats", []):
                     create_scene_beat_node(db_manager, scene_beat_data)
                     create_relationship(
                         db_manager, scene_beat_data["id"], scene_data["id"], "PART_OF"
                     )
+
+                    # 다음 Scene Beat와의 관계 설정
                     for next_scene_beat_id in scene_beat_data.get(
                         "next_scene_beats", []
                     ):
@@ -74,9 +79,54 @@ def init_database():
                             next_scene_beat_id,
                             "NEXT",
                         )
-                create_relationship(
-                    db_manager, scene_data["id"], scene_data["map"], "TAKES_PLACE_IN"
-                )
+
+                    # 추가: conditions 정보를 관계로 저장
+                    if "conditions" in scene_beat_data:
+                        for action, next_beat in scene_beat_data["conditions"].items():
+                            create_relationship(
+                                db_manager,
+                                scene_beat_data["id"],
+                                next_beat,
+                                "CONDITION",
+                                {"action": action},
+                            )
+
+                # Map과의 관계 설정 (map 키가 있는 경우에만)
+                if "map" in scene_data:
+                    create_relationship(
+                        db_manager,
+                        scene_data["id"],
+                        scene_data["map"],
+                        "TAKES_PLACE_IN",
+                    )
+                else:
+                    print(
+                        f"Warning: scene_data with id {scene_data['id']} has no 'map' key"
+                    )
+
+            # scene_data가 딕셔너리가 아닌 경우도 처리
+            else:
+                print(f"Warning: Skipping invalid scene data: {scene_data}")
+
+        # 추가: SceneBeat 노드 처리 (scene_beats 배열 외부에 있는 경우)
+        for scene_data in scenes:
+            if isinstance(scene_data, dict) and scene_data["id"].startswith(
+                "scenebeat:"
+            ):
+                # SceneBeat 노드 생성
+                create_scene_beat_node(db_manager, scene_data)
+
+                # Conditions 정보를 관계로 저장
+                if "conditions" in scene_data:
+                    for action, next_beat in scene_data["conditions"].items():
+                        create_relationship(
+                            db_manager,
+                            scene_data["id"],
+                            next_beat,
+                            "CONDITION",
+                            {"action": action},
+                        )
+
         print("씬 데이터 초기화 완료")
 
         print("데이터베이스 초기화가 성공적으로 완료되었습니다.")

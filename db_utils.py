@@ -96,15 +96,40 @@ def create_scene_beat_node(
 
 
 def create_relationship(
-    db_manager: DBInterface, from_id: str, to_id: str, rel_type: str
-) -> None:
-    """두 노드 간의 관계를 생성합니다."""
-    query = f"""
-    MATCH (a), (b)
-    WHERE a.id = $from_id AND b.id = $to_id
-    CREATE (a)-[r:{rel_type}]->(b)
+    db_manager, source_id, target_id, relationship_type, properties=None
+):
     """
-    db_manager.query(query, {"from_id": from_id, "to_id": to_id})
+    두 노드 간의 관계를 생성합니다.
+
+    Args:
+        db_manager: 데이터베이스 관리자 인스턴스
+        source_id: 소스 노드 ID
+        target_id: 타겟 노드 ID
+        relationship_type: 관계 유형
+        properties: 관계에 추가할 속성 (선택적)
+    """
+    query = (
+        f"MATCH (a), (b) "
+        f"WHERE a.id = $source_id AND b.id = $target_id "
+        f"CREATE (a)-[r:{relationship_type}]->(b)"
+    )
+
+    params = {"source_id": source_id, "target_id": target_id}
+
+    # 속성이 제공된 경우, 관계에 속성 설정
+    if properties:
+        props_str = ", ".join(f"r.{key} = ${key}" for key in properties.keys())
+        if props_str:
+            query = (
+                f"MATCH (a), (b) "
+                f"WHERE a.id = $source_id AND b.id = $target_id "
+                f"CREATE (a)-[r:{relationship_type}]->(b) "
+                f"SET {props_str}"
+            )
+            # 매개변수에 속성 추가
+            params.update({key: value for key, value in properties.items()})
+
+    db_manager.query(query, params)
 
 
 def create_location_node(
