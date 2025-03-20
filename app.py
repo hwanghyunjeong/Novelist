@@ -37,6 +37,14 @@ from story_retriever import StoryRetriever
 from langchain_openai import OpenAIEmbeddings
 from image_gen import generate_scene_image
 
+
+# Page configuration
+st.set_page_config(
+    page_title="Novelist - Interactive Novel",
+    page_icon="📚",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
 
