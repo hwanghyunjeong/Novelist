@@ -34,6 +34,7 @@ from map_agent import MapAgent
 import asyncio
 from streamlit.runtime.scriptrunner import add_script_run_ctx
 from story_retriever import StoryRetriever
+from langchain_openai import OpenAIEmbeddings
 
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
@@ -362,7 +363,8 @@ def initialize_game_state():
 
     if "story_retriever" not in st.session_state:
         st.session_state.story_retriever = StoryRetriever(
-            db_manager=st.session_state.db_manager
+            db_manager=st.session_state.db_manager,
+            embeddings=OpenAIEmbeddings(model="text-embedding-3-small"),
         )
 
     if "state" not in st.session_state:
@@ -506,14 +508,10 @@ def handle_user_input(user_input: str):
                 status.write("관련 컨텍스트 검색 중...")
 
                 try:
-                    # 비동기 검색을 동기적으로 실행
-                    loop = asyncio.new_event_loop()
-                    asyncio.set_event_loop(loop)
-                    retrieval_results = loop.run_until_complete(
-                        st.session_state.story_retriever.retrieve_all(user_input)
+                    # 동기 방식으로 검색 실행
+                    retrieval_results = st.session_state.story_retriever.retrieve_all(
+                        user_input
                     )
-                    loop.close()
-
                     context = st.session_state.story_retriever.get_context_from_results(
                         retrieval_results
                     )
