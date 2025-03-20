@@ -20,7 +20,7 @@ def generate_scene_image(summary: str, current_scene: str) -> Optional[bytes]:
     """이미지 프롬프트 템플릿을 사용하여 현재 씬에 대한 이미지를 생성합니다."""
     try:
         # 프롬프트를 하나의 문자열로 구성
-        prompt = f"Create a detailed art image of a post-apocalyptic graphic novel scene. {current_scene} The scene should be set in {summary} with digital art style, dark and moody atmosphere, cinematic lighting, and extremely detailed."
+        prompt = f"Create a detailed art image of a post-apocalyptic graphic novel scene, dark and moody atmosphere, cinematic lighting, ultra detailed. high resolution, 8k, realistic, {current_scene} The scene should be set in {summary} with digital art style"
 
         # test2_app.py와 동일한 방식으로 API 호출
         response = client.models.generate_content(

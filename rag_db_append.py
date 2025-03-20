@@ -10,13 +10,6 @@ import config
 # 환경 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 FINAL_DATA_DIR = os.path.join(SCRIPT_DIR, "data", "final")
-SAMPLE_FILES = [
-    "04_3371.json",
-    "04_3503.json",
-    "04_3717.json",
-    "04_3719.json",
-    "04_3718.json",
-]
 
 
 class RAGDBManager:
@@ -286,12 +279,13 @@ def main():
         print("RAG 데이터베이스 구축 시작...")
         rag_manager = RAGDBManager()
 
-        # 샘플 파일 처리
-        print(f"총 {len(SAMPLE_FILES)}개의 샘플 파일을 처리합니다.")
+        # 모든 JSON 파일 가져오기
+        json_files = rag_manager.get_json_files()
+        print(f"총 {len(json_files)}개의 JSON 파일을 처리합니다.")
 
-        for idx, file_name in enumerate(SAMPLE_FILES, 1):
+        for idx, file_name in enumerate(json_files, 1):
             file_path = os.path.join(FINAL_DATA_DIR, file_name)
-            print(f"[{idx}/{len(SAMPLE_FILES)}] 처리 중: {file_name}")
+            print(f"[{idx}/{len(json_files)}] 처리 중: {file_name}")
             rag_manager.process_json_file(file_path)
 
         print("RAG 데이터베이스 구축 완료")
