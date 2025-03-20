@@ -33,6 +33,7 @@ from action_matcher import ActionMatcher
 from map_agent import MapAgent
 import asyncio
 from streamlit.runtime.scriptrunner import add_script_run_ctx
+from story_retriever import StoryRetriever
 
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
@@ -359,6 +360,11 @@ def initialize_game_state():
     if "db_manager" not in st.session_state:
         st.session_state.db_manager = get_db_manager()
 
+    if "story_retriever" not in st.session_state:
+        st.session_state.story_retriever = StoryRetriever(
+            db_manager=st.session_state.db_manager
+        )
+
     if "state" not in st.session_state:
         injector = DBStateInjector(st.session_state.db_manager)
         st.session_state.state = injector.inject({})
@@ -486,6 +492,7 @@ def save_game_state() -> None:
         st.error(f"게임 상태 저장 중 오류 발생: {str(e)}")
 
 
+# 스트림릿은 동기화된 함수만 처리가능. 비동기 루틴은 내부처리하도록 변경
 def handle_user_input(user_input: str):
     """사용자 입력을 처리하고 게임 상태를 업데이트합니다."""
     if "previous_input" not in st.session_state:
@@ -494,24 +501,44 @@ def handle_user_input(user_input: str):
     if user_input and user_input != st.session_state.previous_input:
         st.session_state.previous_input = user_input
 
-        # 현재 상태 구성
-        current_state = {
-            "scene": st.session_state.state.get("scene", ""),
-            "scene_beat": st.session_state.state.get("scene_beat", ""),
-            "user_input": user_input,
-            "available_actions": st.session_state.state.get("available_actions", []),
-            "map_context": st.session_state.state.get("map_context", ""),
-            "characters": st.session_state.state.get("characters", []),
-            "history": st.session_state.state.get("history", []),
-            "context": st.session_state.state.get("context", ""),
-            "matched_action": None,
-            "action_result": None,
-            "generation": "",
-        }
-
         try:
             with st.status("처리 중...") as status:
-                status.write("사용자 입력을 처리하는 중...")
+                status.write("관련 컨텍스트 검색 중...")
+
+                try:
+                    # 비동기 검색을 동기적으로 실행
+                    loop = asyncio.new_event_loop()
+                    asyncio.set_event_loop(loop)
+                    retrieval_results = loop.run_until_complete(
+                        st.session_state.story_retriever.retrieve_all(user_input)
+                    )
+                    loop.close()
+
+                    context = st.session_state.story_retriever.get_context_from_results(
+                        retrieval_results
+                    )
+                except Exception as e:
+                    print(f"Vector retrieval error: {e}")
+                    context = ""  # 검색 실패 시 빈 컨텍스트 사용
+
+                # 현재 상태 구성
+                current_state = {
+                    "scene": st.session_state.state.get("scene", ""),
+                    "scene_beat": st.session_state.state.get("scene_beat", ""),
+                    "user_input": user_input,
+                    "available_actions": st.session_state.state.get(
+                        "available_actions", []
+                    ),
+                    "map_context": st.session_state.state.get("map_context", ""),
+                    "characters": st.session_state.state.get("characters", []),
+                    "history": st.session_state.state.get("history", []),
+                    "context": context,
+                    "matched_action": None,
+                    "action_result": None,
+                    "generation": "",
+                }
+
+                status.write("스토리 생성 중...")
                 # 스크립트 실행 컨텍스트 추가
                 add_script_run_ctx()
                 result = game_graph.invoke(current_state)
