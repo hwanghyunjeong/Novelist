@@ -35,6 +35,7 @@ import asyncio
 from streamlit.runtime.scriptrunner import add_script_run_ctx
 from story_retriever import StoryRetriever
 from langchain_openai import OpenAIEmbeddings
+from image_gen import generate_scene_image
 
 OPENAI_API_KEY = config.OPENAI_API_KEY
 GOOGLE_API_KEY = config.GOOGLE_API_KEY
@@ -389,10 +390,19 @@ def display_game_state():
         ):
             st.markdown(st.session_state.state["context"])
 
-        # 표시용 히스토리 표시
+        # 표시용 히스토리와 이미지 표시
         if "display_history" in st.session_state.state:
-            for story in st.session_state.state["display_history"]:
+            for i, story in enumerate(st.session_state.state["display_history"]):
                 st.markdown(story)
+                # 해당 스토리에 대한 이미지가 있으면 표시
+                if "images" in st.session_state.state and i < len(
+                    st.session_state.state["images"]
+                ):
+                    st.image(
+                        st.session_state.state["images"][i],
+                        caption=f"Scene {i+1}",
+                        use_container_width=True,
+                    )
 
 
 def update_game_state(state: dict, next_scene_beat: str) -> dict:
@@ -558,6 +568,22 @@ def handle_user_input(user_input: str):
                         if "history" not in st.session_state.state:
                             st.session_state.state["history"] = []
                         st.session_state.state["history"].append(result["generation"])
+
+                        # 이미지 생성 추가
+                        status.write("장면 이미지 생성 중...")
+                        try:
+                            scene_summary = st.session_state.state.get(
+                                "map_context", ""
+                            )
+                            image_bytes = generate_scene_image(
+                                scene_summary, result["generation"]
+                            )
+                            if image_bytes:
+                                if "images" not in st.session_state.state:
+                                    st.session_state.state["images"] = []
+                                st.session_state.state["images"].append(image_bytes)
+                        except Exception as e:
+                            print(f"Image generation error: {e}")
 
                     # 생성된 이야기를 display_history에 추가
                     if result.get("generation"):
