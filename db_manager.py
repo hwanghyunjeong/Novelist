@@ -1,6 +1,7 @@
 from langchain_neo4j import Neo4jGraph
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 from db_interface import DBInterface
+from langchain_core.documents import Document
 import json
 
 
@@ -117,3 +118,70 @@ class LangchainNeo4jDBManager(DBInterface):
             데이터베이스 스키마 정보
         """
         return self.neo4j_graph.get_schema
+
+    def vector_search(
+        self,
+        query_embedding: List[float],
+        index_name: str,
+        k: int = 6,
+        retrieval_query: Optional[str] = None,
+    ) -> List[Tuple[Document, float]]:
+        """벡터 검색을 수행합니다.
+
+        Args:
+            query_embedding: 쿼리 임베딩
+            index_name: 검색할 벡터 인덱스 이름
+            k: 반환할 결과 수
+            retrieval_query: 추가적인 검색 쿼리 (선택사항)
+
+        Returns:
+            Document 객체와 유사도 점수의 튜플 리스트
+        """
+        if not retrieval_query:
+            # 기본 검색 쿼리
+            retrieval_query = """
+            CALL db.index.vector.queryNodes($index_name, $k, $embedding)
+            YIELD node, score
+            RETURN node, score
+            """
+
+        results = self.neo4j_graph.query(
+            retrieval_query,
+            {
+                "index_name": index_name,
+                "k": k,
+                "embedding": query_embedding,
+            },
+        )
+
+        docs_with_scores = []
+        for result in results:
+            # node의 모든 속성을 metadata로 사용
+            node_data = dict(result["node"])
+
+            # text 필드 결정 (storyline, act, emotion 중 하나)
+            text = (
+                node_data.get("storyline")
+                or node_data.get("act")
+                or node_data.get("emotion", "")
+            )
+
+            doc = Document(page_content=text, metadata=node_data)
+            docs_with_scores.append((doc, result["score"]))
+
+        return docs_with_scores
+
+    def get_vector_index_info(self, index_name: str) -> Dict[str, Any]:
+        """벡터 인덱스 정보를 조회합니다.
+
+        Args:
+            index_name: 조회할 인덱스 이름
+
+        Returns:
+            인덱스 정보를 담은 딕셔너리
+        """
+        query = """
+        SHOW INDEX INFO FOR $index_name
+        """
+        results = self.neo4j_graph.query(query, {"index_name": index_name})
+        return results[0] if results else None
