@@ -674,59 +674,75 @@ def main():
 st.markdown(
     """
 <style>
-    /* 스토리 컨테이너 스타일링 */
-    .story-container {
-        margin-bottom: 100px;  /* 입력창을 위한 여백 */
-        padding: 20px;
-        overflow-y: auto;
-    }
-    
-    /* 입력창 스타일링 */
+    /* 입력창 컨테이너 스타일링 */
     .stTextInput {
         position: fixed !important;
         bottom: 20px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        width: calc(100% - 80px) !important;
+        width: calc(100% - 80px - var(--sidebar-width, 0px)) !important;
         max-width: 800px !important;
-        background: rgba(240, 242, 246, 0.9) !important;
-        padding: 10px !important;
+        min-width: 100px !important;
         z-index: 1000 !important;
+        transition: all 0.3s ease !important;
+    }
+    
+    /* 입력창 배경 스타일링 */
+    .stTextInput > div[data-baseweb="input"] {
+        background: rgba(1, 1, 1, 0.95) !important;
+        padding: 10px !important;
         border-radius: 10px !important;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2) !important;
     }
     
     /* 입력창 텍스트 스타일링 */
-    .stTextInput input {
-        color: rgb(49, 51, 63) !important;
+    .stTextInput input[type="text"] {
+        color: #00ff41 !important;
         font-size: 16px !important;
-        background: transparent !important;
+        min-height: 40px !important;
     }
     
-    /* 입력창 포커스 시 스타일 */
-    .stTextInput input:focus {
-        border-color: #ff4b4b !important;
-        box-shadow: 0 0 0 1px #ff4b4b !important;
-    }
-    
-    /* 스피너 위치 조정 */
-    .stSpinner {
+    /* 입력창 라벨 스타일링 */
+    .stTextInput label {
+        color: #00ff41 !important;
         position: fixed !important;
-        bottom: 80px !important;
+        bottom: 70px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        z-index: 1000 !important;
+        width: calc(100% - 80px - var(--sidebar-width, 0px)) !important;
+        max-width: 800px !important;
+        min-width: 100px !important;
+        text-align: left !important;
+    }
+    
+    /* 상태 위젯 스타일링 */
+    div[data-testid="stStatusWidget"] {
+        opacity: 1 !important;
+        max-height: none !important;
+        visibility: visible !important;
+        margin-bottom: 60px !important;
+    }
+    
+    /* 상태 위젯 내용물 */
+    div[data-testid="stStatusWidget"] > div {
+        display: block !important;
+    }
+    
+    /* 상태 메시지 영역 */
+    div[data-testid="stStatusWidget"] div[data-testid="stMarkdownContainer"] {
+        display: block !important;
+        opacity: 1 !important;
+    }
+    
+    /* 확장 버튼 숨기기 */
+    div[data-testid="stStatusWidget"] button[data-testid="baseButton-headerTrigger"] {
+        display: none !important;
     }
     
     .main {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
-    }
-    
-    .stMarkdown {
-        font-size: 18px;
-        line-height: 1.6;
     }
 </style>
 """,

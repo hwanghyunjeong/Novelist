@@ -2,7 +2,6 @@
 
 from typing import Dict, List, Optional, Any
 from langchain_openai import OpenAIEmbeddings
-from langchain_core.documents import Document
 
 
 class StoryRetriever:
@@ -28,90 +27,105 @@ class StoryRetriever:
         self.k = k
 
     def retrieve_all(self, query: str) -> Dict[str, List[Dict[str, Any]]]:
-        """
-        Retrieve relevant storylines, acts, and emotions using vector similarity search
-        """
+        """스토리라인, 행동, 감정에 대한 벡터 검색을 수행합니다."""
         # 쿼리 임베딩 생성
         query_embedding = self.embeddings.embed_query(query)
 
-        # 스토리라인 검색
-        storyline_query = """
-        CALL db.index.vector.queryNodes($index_name, $k, $embedding)
-        YIELD node, score
-        MATCH (node)-[:INCLUDES]->(script:StoryScript)
-        WITH node, score, script.content as content
-        RETURN node.storyline as text, score, 
-        COLLECT(content) as scripts, node.id as id
-        """
-        storyline_docs = self.db_manager.vector_search(
-            query_embedding=query_embedding,
-            index_name="storyline_embeddings",
-            k=self.k,
-            retrieval_query=storyline_query,
-        )
+        # 결과 컨테이너 초기화
+        results = {"storylines": [], "acts": [], "emotions": []}
 
-        # 행동 검색
-        act_query = """
-        CALL db.index.vector.queryNodes($index_name, $k, $embedding)
-        YIELD node, score
-        MATCH (script:StoryScript)-[:PERFORMS]->(node)
-        WITH node, score, script.content as content
-        RETURN node.act as text, score,
-        COLLECT(content) as scripts, node.id as id
-        """
-        act_docs = self.db_manager.vector_search(
-            query_embedding=query_embedding,
-            index_name="act_embeddings",
-            k=self.k,
-            retrieval_query=act_query,
-        )
+        try:
+            # 스토리라인 검색
+            storyline_query = """
+            CALL db.index.vector.queryNodes($index_name, $k, $embedding) 
+            YIELD node, score
+            WITH node, score
+            OPTIONAL MATCH (node)-[:INCLUDES]->(script:StoryScript)
+            WITH node, score, collect(script.content) as scripts
+            RETURN node.storyline as text, score, node.id as id, scripts
+            """
 
-        # 감정 검색
-        emotion_query = """
-        CALL db.index.vector.queryNodes($index_name, $k, $embedding)
-        YIELD node, score
-        MATCH (script:StoryScript)-[:FEELS]->(node)
-        WITH node, score, script.content as content
-        RETURN node.emotion as text, score,
-        COLLECT(content) as scripts, node.id as id
-        """
-        emotion_docs = self.db_manager.vector_search(
-            query_embedding=query_embedding,
-            index_name="emotion_embeddings",
-            k=self.k,
-            retrieval_query=emotion_query,
-        )
+            storyline_results = self.db_manager.query(
+                query=storyline_query,
+                params={
+                    "index_name": "storyline_embeddings",
+                    "k": self.k,
+                    "embedding": query_embedding,
+                },
+            )
 
-        # 결과를 적절한 형식으로 변환
-        return {
-            "storylines": [
-                {
-                    "text": doc.page_content,
-                    "score": score,
-                    "scripts": doc.metadata.get("scripts", []),
-                    "unit_id": doc.metadata.get("id"),
-                }
-                for doc, score in storyline_docs
-            ],
-            "acts": [
-                {
-                    "text": doc.page_content,
-                    "score": score,
-                    "scripts": doc.metadata.get("scripts", []),
-                    "act_id": doc.metadata.get("id"),
-                }
-                for doc, score in act_docs
-            ],
-            "emotions": [
-                {
-                    "text": doc.page_content,
-                    "score": score,
-                    "scripts": doc.metadata.get("scripts", []),
-                    "emotion_id": doc.metadata.get("id"),
-                }
-                for doc, score in emotion_docs
-            ],
-        }
+            for result in storyline_results:
+                results["storylines"].append(
+                    {
+                        "text": result.get("text", ""),
+                        "score": result.get("score", 0.0),
+                        "scripts": result.get("scripts", []),
+                        "unit_id": result.get("id", ""),
+                    }
+                )
+
+            # 행동 검색
+            act_query = """
+            CALL db.index.vector.queryNodes($index_name, $k, $embedding) 
+            YIELD node, score
+            WITH node, score
+            OPTIONAL MATCH (script:StoryScript)-[:PERFORMS]->(node)
+            WITH node, score, collect(script.content) as scripts
+            RETURN node.act as text, score, node.id as id, scripts
+            """
+
+            act_results = self.db_manager.query(
+                query=act_query,
+                params={
+                    "index_name": "act_embeddings",
+                    "k": self.k,
+                    "embedding": query_embedding,
+                },
+            )
+
+            for result in act_results:
+                results["acts"].append(
+                    {
+                        "text": result.get("text", ""),
+                        "score": result.get("score", 0.0),
+                        "scripts": result.get("scripts", []),
+                        "act_id": result.get("id", ""),
+                    }
+                )
+
+            # 감정 검색
+            emotion_query = """
+            CALL db.index.vector.queryNodes($index_name, $k, $embedding) 
+            YIELD node, score
+            WITH node, score
+            OPTIONAL MATCH (script:StoryScript)-[:FEELS]->(node)
+            WITH node, score, collect(script.content) as scripts
+            RETURN node.emotion as text, score, node.id as id, scripts
+            """
+
+            emotion_results = self.db_manager.query(
+                query=emotion_query,
+                params={
+                    "index_name": "emotion_embeddings",
+                    "k": self.k,
+                    "embedding": query_embedding,
+                },
+            )
+
+            for result in emotion_results:
+                results["emotions"].append(
+                    {
+                        "text": result.get("text", ""),
+                        "score": result.get("score", 0.0),
+                        "scripts": result.get("scripts", []),
+                        "emotion_id": result.get("id", ""),
+                    }
+                )
+
+        except Exception as e:
+            print(f"벡터 검색 중 오류 발생: {e}")
+
+        return results
 
     def get_context_from_results(
         self, results: Dict[str, List[Dict[str, Any]]], k: int = 3
