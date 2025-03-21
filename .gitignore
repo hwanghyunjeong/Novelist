@@ -1,7 +1,6 @@
 .env
 data/map/
 data/scene/
-data/initial_data/
 data/*.json
 *.pyc
 __pycache__/

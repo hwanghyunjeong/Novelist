@@ -1,0 +1,64 @@
+[
+  {
+    "id": "map:Pangyo_B2_Concourse",
+    "name": "판교역 B2 대합실",
+    "description": "판교역 지하 2층 대합실",
+    "map_data": "```\n+---+---+\n|   | S |\n+---+---+\n```",
+    "context": "판교역 지하 2층 대합실에는 계단과 에스컬레이터, 그리고 경강선으로 가는 통로가 있습니다. S는 플레이어의 시작 위치입니다.",
+    "locations": [
+      {
+        "id": "location:start",
+        "x": 2,
+        "y": 2,
+        "type": "start",
+        "destination": ""
+      },
+      {
+        "id": "location:stair_sinsa",
+        "x": 1,
+        "y": 1,
+        "type": "stair",
+        "destination": "map:Pangyo_Platform_Sinsa"
+      },
+      {
+        "id": "location:stair_gwanggyo",
+        "x": 3,
+        "y": 3,
+        "type": "stair",
+        "destination": "map:Pangyo_Platform_Gwanggyo"
+      }
+    ]
+  },
+  {
+    "id": "map:Pangyo_Platform_Sinsa",
+    "name": "판교역 신사행 플랫폼",
+    "description": "판교역 경강선 신사행 플랫폼",
+    "map_data": "```\n+---+\n| P |\n+---+\n```",
+    "context": "신사행 플랫폼에 도착했습니다. 열차를 기다립니다.",
+    "locations":[
+      {
+        "id": "location:platform_sinsa",
+        "x":1,
+        "y":1,
+        "type":"platform",
+        "destination": ""
+      }
+    ]
+  },
+  {
+    "id": "map:Pangyo_Platform_Gwanggyo",
+    "name": "판교역 광교행 플랫폼",
+    "description": "판교역 경강선 광교행 플랫폼",
+    "map_data": "```\n+---+\n| P |\n+---+\n```",
+    "context": "광교행 플랫폼에 도착했습니다. 열차를 기다립니다.",
+    "locations":[
+      {
+        "id": "location:platform_gwanggyo",
+        "x":1,
+        "y":1,
+        "type":"platform",
+        "destination": ""
+      }
+    ]
+  }
+]

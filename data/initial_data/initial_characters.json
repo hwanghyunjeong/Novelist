@@ -1,0 +1,14 @@
+[
+  {
+    "id": "character:Player",
+    "name": "Player",
+    "sex": "unknown",
+    "description": "플레이어가 조작하는 캐릭터"
+  },
+  {
+    "id": "character:Guard",
+    "name": "Guard",
+    "sex": "male",
+    "description":"지하철 경비원"
+  }
+]

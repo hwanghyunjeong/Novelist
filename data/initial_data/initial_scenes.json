@@ -1,0 +1,131 @@
+[
+  {
+    "id": "scene:00_Pangyo_Station",
+    "name": "판교역 대합실",
+    "available_actions": ["help", "pass", "go to sinsa platform", "go to gwanggyo platform"],
+    "map": "map:Pangyo_B2_Concourse",
+    "location": "location:start",
+    "context": "어느 날, 기계의 반란에 의해 인류의 문명이 붕괴했습니다. 운명의 그날, 수많은 사람들이 죽었고, 세계에서 손꼽히던 대도시인 서울의 모든 체제는 무너졌습니다. 당신은 기계들의 반란을 피해, 상당히 긴 시간 동안 숨어있다, 이제 탈출을 위해 불꺼진 판교역 대합실에 서 있습니다. 판교역이 있는 신분당선은, 무인으로 운영되는 전철로, 인류의 문명이 무너진 상황에서도 여전히 전기가 공급되어 가동되고 있습니다. 당신은 이제부터 어디로 이동하시겠습니까?",
+    "scene_beats": [
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:1",
+        "sequence": 1,
+        "context": "피투성이의 영준이 플레이어에게 생존자가 밑에 있다고 전합니다. 어두운 구석에서 Metalhead1, Metalhead2가 생존자를 찾고 있습니다.",
+        "next_scene_beats": ["scenebeat:scene:00_Pangyo_Station:2", "scenebeat:scene:00_Pangyo_Station:3"],
+        "conditions": {
+          "help": "scenebeat:scene:00_Pangyo_Station:2",
+          "pass": "scenebeat:scene:00_Pangyo_Station:3"
+        }
+      },
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:2",
+        "sequence": 2,
+        "context": "플레이어가 영준을 돕기로 결정했습니다. 어떻게 도울까요?",
+        "next_scene_beats": ["scenebeat:scene:00_Pangyo_Station:4", "scenebeat:scene:00_Pangyo_Station:5"],
+        "available_actions": ["ask for direction", "ask for money"],
+        "conditions": {
+          "listen": "scenebeat:scene:00_Pangyo_Station:4",
+          "Mercy killing": "scenebeat:scene:00_Pangyo_Station:5"
+        }
+      },
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:3",
+        "sequence": 3,
+        "context": "플레이어는 영준을 지나칩니다. 안전하게 다른 곳으로 이동할 수 있을까요?",
+        "next_scene_beats": ["scenebeat:location:stair_sinsa", "scenebeat:location:stair_gwanggyo"],
+        "available_actions": ["ignore", "pass"],
+        "conditions": {
+          "go to sinsa platform": "map:Pangyo_Platform_Sinsa",
+          "go to gwanggyo platform": "map:Pangyo_Platform_Gwanggyo"
+        }
+      },
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:4",
+        "sequence": 4,
+        "context": "플레이어가 영준에게 상황을 물었습니다. 영준은 플레이어에게 현재 상황을 알려줍니다. 영준은 플레이어에게 생존자가 밑에 있다고 전합니다.",
+        "available_actions": ["go to sinsa platform", "go to gwanggyo platform"],
+        "conditions": {
+          "go to sinsa platform": "map:Pangyo_Platform_Sinsa",
+          "go to gwanggyo platform": "map:Pangyo_Platform_Gwanggyo"
+        }
+      },
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:5",
+        "sequence": 5,
+        "context": "플레이어는 중상이 심한 영준이 더 이상 고통받지 않도록 돕기로 결정했습니다.",
+        "available_actions": ["Mercy killing"],
+        "conditions": {
+          "Mercy killing": "scenebeat:scene:00_Pangyo_Station:6"
+        }
+      },
+      {
+        "id": "scenebeat:scene:00_Pangyo_Station:6",
+        "sequence": 6,
+        "context": "영준의 시체를 보고 플레이어는 영준의 복수를 결정했습니다.",
+        "available_actions": ["go to sinsa platform", "go to gwanggyo platform"],
+        "conditions": {
+          "go to sinsa platform": "map:Pangyo_Platform_Sinsa",
+          "go to gwanggyo platform": "map:Pangyo_Platform_Gwanggyo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "scenebeat:location:stair_sinsa",
+    "sequence": 1,
+    "context": "신사행 승강장으로 향하는 계단입니다.",
+    "available_actions": ["go down", "go back"],
+    "conditions": {
+      "go down": "scenebeat:scene:01_Sinsa_Platform:1",
+      "go back": "scenebeat:scene:00_Pangyo_Station:1"
+    }
+  },
+  {
+    "id": "scenebeat:location:stair_gwanggyo",
+    "sequence": 1,
+    "context": "광교행 승강장으로 향하는 계단입니다.",
+    "available_actions": ["go down", "go back"],
+    "conditions": {
+      "go down": "scenebeat:scene:01_Gwanggyo_Platform:1",
+      "go back": "scenebeat:scene:00_Pangyo_Station:1"
+    }
+  },
+  {
+    "id": "scene:01_Sinsa_Platform",
+    "name": "판교역 신사행 플랫폼",
+    "map": "map:Pangyo_Platform_Sinsa",
+    "location": "location:platform_sinsa",
+    "context": "신사행 플랫폼에 도착했습니다.",
+    "scene_beats": [
+      {
+        "id": "scenebeat:scene:01_Sinsa_Platform:1",
+        "sequence": 1,
+        "context": "신사행 플랫폼입니다. 열차를 기다립니다.",
+        "available_actions": ["wait", "go back"],
+        "conditions": {
+          "wait": "scenebeat:scene:01_Sinsa_Platform:2",
+          "go back": "scenebeat:location:stair_sinsa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "scene:01_Gwanggyo_Platform",
+    "name": "판교역 광교행 플랫폼",
+    "map": "map:Pangyo_Platform_Gwanggyo",
+    "location": "location:platform_gwanggyo",
+    "context": "광교행 플랫폼에 도착했습니다.",
+    "scene_beats": [
+      {
+        "id": "scenebeat:scene:01_Gwanggyo_Platform:1",
+        "sequence": 1,
+        "context": "광교행 플랫폼입니다. 열차를 기다립니다.",
+        "available_actions": ["wait", "go back"],
+        "conditions": {
+          "wait": "scenebeat:scene:01_Gwanggyo_Platform:2",
+          "go back": "scenebeat:location:stair_gwanggyo"
+        }
+      }
+    ]
+  }
+]

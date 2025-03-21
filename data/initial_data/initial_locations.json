@@ -1,0 +1,39 @@
+[
+  {
+    "id": "location:start",
+    "name": "시작 지점",
+    "description": "판교역 대합실 입구",
+    "scene_beats": [
+      {
+        "id": "scenebeat:location:stair_sinsa",
+        "sequence": 1,
+        "context": "신사행 승강장으로 향하는 계단입니다.",
+        "available_actions": ["go down", "go back"],
+        "conditions": {
+          "go down": "scenebeat:scene:01_Sinsa_Platform:1",
+          "go back": "scenebeat:scene:00_Pangyo_Station:1"
+        }
+      },
+      {
+        "id": "scenebeat:location:stair_gwanggyo",
+        "sequence": 1,
+        "context": "광교행 승강장으로 향하는 계단입니다.",
+        "available_actions": ["go down", "go back"],
+        "conditions": {
+          "go down": "scenebeat:scene:01_Gwanggyo_Platform:1",
+          "go back": "scenebeat:scene:00_Pangyo_Station:1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "location:stair_sinsa",
+    "name": "신사행 계단",
+    "description": "신사행 승강장으로 향하는 계단"
+  },
+  {
+    "id": "location:stair_gwanggyo",
+    "name": "광교행 계단",
+    "description": "광교행 승강장으로 향하는 계단"
+  }
+] 
