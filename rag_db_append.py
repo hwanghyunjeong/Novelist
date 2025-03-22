@@ -37,7 +37,7 @@ class RAGDBManager:
         """벡터 인덱스 초기화"""
         # 스토리라인 벡터 인덱스
         create_storyline_index = """
-        CREATE VECTOR INDEX storylineVector IF NOT EXISTS
+        CREATE VECTOR INDEX storyline_embeddings IF NOT EXISTS
         FOR (n:Unit)
         ON (n.storylineEmbedding)
         OPTIONS {indexConfig: {
@@ -48,7 +48,7 @@ class RAGDBManager:
 
         # 행위 벡터 인덱스
         create_act_index = """
-        CREATE VECTOR INDEX actVector IF NOT EXISTS
+        CREATE VECTOR INDEX act_embeddings IF NOT EXISTS
         FOR (n:Act)
         ON (n.actEmbedding)
         OPTIONS {indexConfig: {
@@ -59,7 +59,7 @@ class RAGDBManager:
 
         # 감정 벡터 인덱스
         create_emotion_index = """
-        CREATE VECTOR INDEX emotionVector IF NOT EXISTS
+        CREATE VECTOR INDEX emotion_embeddings IF NOT EXISTS
         FOR (n:Emotion)
         ON (n.emotionEmbedding)
         OPTIONS {indexConfig: {
