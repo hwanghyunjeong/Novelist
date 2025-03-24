@@ -27,6 +27,7 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
     ```bash
     pip install -r requirements.txt
     ```
+    # 업데이트 필요 (langgraph, graphrag 등 추가)
 2.  환경 변수 설정: `.env` 파일에 다음 환경 변수들을 설정합니다.
     - `OPENAI_API_KEY`: OpenAI API 키
     - `GOOGLE_API_KEY`: Google Gemini API 키
@@ -42,6 +43,10 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
     ```bash
     python db_init.py
     ```
+    data/final의 json 파일을 db에 추가합니다
+    ```bash
+    python rag_db_append.py
+    ```
 
 5.  실행: `app.py` 파일을 실행합니다.
     ```bash
@@ -51,29 +56,6 @@ Novelist는 LangChain과 LangGraph, OpenAI API, Gemini API, 그리고 Neo4j 그�
 7. 맵 데이터 확인: `data\map` 폴더에 맵 데이터가 존재하는지 확인합니다.
 8. 초기 게임 상태 확인: `data\state` 폴더에 `sample_game_state.json` 파일이 존재하는지 확인합니다.
 
-## 파일 구조
+## 파일 구조 (추후 업데이트)
 ```bash
-novelist_prototype/
-├── app.py                     # Streamlit 웹 애플리케이션 메인 파일
-├── character.py               # 게임 캐릭터 클래스 정의
-├── db_init.py                 # Neo4j 데이터베이스 초기화 스크립트
-├── db.py                      # Neo4j 데이터베이스 관리 클래스 정의
-├── db_utils.py                # Neo4j 데이터베이스 유틸리티 함수 정의
-├── map_tools.py               # map 데이터 추출을 위한 함수
-├── node.py                    # LangGraph 노드 정의
-├── config.py                  # dotenv 등 환경 로드 함수
-├── prompts/                   # LLM 프롬프트 YAML 파일 폴더
-│   ├── story-gen-prompt-eng.yaml # 스토리 생성 프롬프트
-│   └── analysis_map_prompt_eng.yaml # 맵 분석 프롬프트
-├── data/                      # 게임 데이터 폴더
-│   ├── map/                   # 맵 데이터 폴더
-│   │   └── sample_map_data.txt # 맵 데이터 파일
-│   └── state/                 # 게임 상태 데이터 폴더
-│       └── sample_game_state.json # 게임 초기 상태 json 파일
-├── state_graph.py             # LangGraph 상태 그래프 정의
-├── states.py                  # 게임 상태 정의
-├── story_chain.py             # LangChain 체인 정의
-├── README.md                  # 프로젝트 설명 파일
-├── .env                       # 환경변수 설정 파일
-└── requirements.txt            # 프로젝트 의존성 목록
 ```
