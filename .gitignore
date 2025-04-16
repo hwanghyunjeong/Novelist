@@ -13,3 +13,5 @@ env/
 .cursor/
 neo4j_db/
 DB/
+.gitignore
+.cursorrules
